@@ -1,0 +1,94 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "font.scss";
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    --bs-body-font-family: Frutiger, sans-serif;
+    --bs-body-font-size: 18px;
+    --bs-body-color: #666666;
+    --bs-body-bg: #ffffff;
+    --bs-body-font-weight: 300;
+    --bs-body-line-height: 1.5555555; // desktop: 28px
+    --bs-body-text-align: left;
+}
+
+h1 {
+    font-size: 2.75rem; // desktop: 44px
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2rem; // desktop: 32px
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #333333;
+}
+
+.row {
+
+    --bs-gutter-x: 0;
+
+    @media screen and (min-width: 992px) {
+        --bs-gutter-x: 1.5rem;
+    }
+}
+
+.btn {
+    font-weight: bold;
+    width: 176px;
+}
+
+.btn-primary {
+    background-color: #CF142B;
+    border-color: #CF142B;
+}
+
+.main-heading {
+
+    margin-top: 1.5rem;
+
+    .bar {
+        border: 0;
+        border-bottom: 4px solid #CF142B;
+        height: 4px;
+        margin-top: 1.5rem;
+        width: 200px;
+    }
+}
+
+.center-heading {
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+
+    text-align: center;
+    display: block;
+}
+
+/* emulate <br> behavior */
+
+@media screen and (min-width: 992px) {
+
+    span.br-before::before {
+        content: "\a";
+        white-space: pre;
+    }
+
+    span.br-after::after {
+        content: "\a";
+        white-space: pre;
+    }
+}

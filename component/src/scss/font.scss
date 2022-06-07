@@ -1,0 +1,32 @@
+/*! fonts */
+
+@font-face {
+    font-family: "Frutiger";
+    src: url("../fonts/FrutigerLTStd-Light-woff2.woff2") format("woff2"), url("../fonts/FrutigerLTStd-Light-woff.woff") format("woff");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Frutiger";
+    src: url("../fonts/FrutigerLTStd-Roman-woff2.woff2") format("woff2"), url("../fonts/FrutigerLTStd-Roman-woff.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Frutiger Bold";
+    src: url("../fonts/FrutigerLTStd-Bold-woff2.woff2") format("woff2"), url("../fonts/FrutigerLTStd-Bold-woff.woff") format("woff");
+    font-weight: 700;
+    font-style: normal
+}
+
+
+/*! ricoh custom icon font */
+
+@font-face {
+    font-family: ricons;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/ricons-woff2.woff2") format("woff2"), url("../fonts/ricons-woff.woff") format("woff")
+}
