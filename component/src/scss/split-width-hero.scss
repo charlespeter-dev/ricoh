@@ -1,10 +1,8 @@
 .split-width-hero {
 
-    @media screen and (min-width: 992px) {
-        height: 100vh;
-    }
-
     .sw-hero-item {
+
+        margin: 30px 0 50px 0;
 
         .reverse-in-mobile {
             flex-direction: column-reverse;
