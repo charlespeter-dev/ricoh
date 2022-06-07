@@ -1,0 +1,44 @@
+@media screen and (min-width: 992px) {
+  .split-width-hero {
+    height: 100vh;
+  }
+}
+.split-width-hero .sw-hero-item .reverse-in-mobile {
+  flex-direction: column-reverse;
+}
+@media screen and (min-width: 992px) {
+  .split-width-hero .sw-hero-item .reverse-in-mobile {
+    flex-direction: row;
+  }
+}
+.split-width-hero .sw-hero-item .sw-hero-item-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 20px 0;
+}
+@media screen and (min-width: 992px) {
+  .split-width-hero .sw-hero-item .sw-hero-item-text {
+    padding: 20px;
+  }
+}
+.split-width-hero .sw-hero-item .sw-hero-item-img {
+  display: flex;
+  justify-content: flex-start;
+}
+.split-width-hero .sw-hero-item .sw-hero-item-img img {
+  border-radius: 5%;
+}
+@media screen and (min-width: 992px) {
+  .split-width-hero .sw-hero-item .sw-hero-item-img {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .split-width-hero .sw-hero-item .reverse-in-mobile .sw-hero-item-img {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+/*# sourceMappingURL=/split-width-hero.844eda41.css.map */
