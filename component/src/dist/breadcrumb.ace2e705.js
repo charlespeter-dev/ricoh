@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../../Users/CharlesPeter/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"scss/global.scss":[function(require,module,exports) {
+},{"./bundle-url":"../../../../../Users/CharlesPeter/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"scss/breadcrumb.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\fonts\\FrutigerLTStd-Light-woff2.woff2":[["FrutigerLTStd-Light-woff2.563569ea.woff2","fonts/FrutigerLTStd-Light-woff2.woff2"],"fonts/FrutigerLTStd-Light-woff2.woff2"],"./..\\fonts\\FrutigerLTStd-Light-woff.woff":[["FrutigerLTStd-Light-woff.03a051fa.woff","fonts/FrutigerLTStd-Light-woff.woff"],"fonts/FrutigerLTStd-Light-woff.woff"],"./..\\fonts\\FrutigerLTStd-Roman-woff2.woff2":[["FrutigerLTStd-Roman-woff2.1accac50.woff2","fonts/FrutigerLTStd-Roman-woff2.woff2"],"fonts/FrutigerLTStd-Roman-woff2.woff2"],"./..\\fonts\\FrutigerLTStd-Roman-woff.woff":[["FrutigerLTStd-Roman-woff.6514b1ea.woff","fonts/FrutigerLTStd-Roman-woff.woff"],"fonts/FrutigerLTStd-Roman-woff.woff"],"./..\\fonts\\FrutigerLTStd-Bold-woff2.woff2":[["FrutigerLTStd-Bold-woff2.19e364a1.woff2","fonts/FrutigerLTStd-Bold-woff2.woff2"],"fonts/FrutigerLTStd-Bold-woff2.woff2"],"./..\\fonts\\FrutigerLTStd-Bold-woff.woff":[["FrutigerLTStd-Bold-woff.2728d7b1.woff","fonts/FrutigerLTStd-Bold-woff.woff"],"fonts/FrutigerLTStd-Bold-woff.woff"],"./..\\fonts\\ricons-woff2.woff2":[["ricons-woff2.a9e4e6b7.woff2","fonts/ricons-woff2.woff2"],"fonts/ricons-woff2.woff2"],"./..\\fonts\\ricons-woff.woff":[["ricons-woff.0d5b808f.woff","fonts/ricons-woff.woff"],"fonts/ricons-woff.woff"],"_css_loader":"../../../../../Users/CharlesPeter/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../Users/CharlesPeter/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_css_loader":"../../../../../Users/CharlesPeter/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../Users/CharlesPeter/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -394,4 +394,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["../../../../../Users/CharlesPeter/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/global.b6fbf18c.js.map
+//# sourceMappingURL=/breadcrumb.ace2e705.js.map

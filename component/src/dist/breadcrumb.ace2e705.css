@@ -1,0 +1,15 @@
+.breadcrumb {
+  --bs-breadcrumb-divider: ">";
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0;
+  border-bottom: 0.5px solid #C9C9C9;
+}
+.breadcrumb .breadcrumb-item {
+  font-size: 0.875rem;
+}
+.breadcrumb .breadcrumb-item a {
+  text-decoration: none !important;
+}
+
+/*# sourceMappingURL=/breadcrumb.ace2e705.css.map */
