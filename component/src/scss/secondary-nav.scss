@@ -1,6 +1,7 @@
 .secondary-nav {
 
-    border-bottom: .5px solid #C9C9C9 ;
+    border-bottom: .5px solid #C9C9C9;
+    background-color: #fff;
 
     .nav {
         padding-top: 10px;
@@ -15,5 +16,9 @@
 
     .nav-item {
         border-right: .5px solid #C9C9C9;
+    }
+
+    .nav-item:nth-last-of-type(1) {
+        border-right: none;
     }
 }
