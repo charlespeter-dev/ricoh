@@ -1,7 +1,6 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "font.scss";
 
-
 html {
     scroll-behavior: smooth;
 }
@@ -11,31 +10,36 @@ body {
     --bs-body-font-size: 18px;
     --bs-body-color: #666666;
     --bs-body-bg: #ffffff;
-    --bs-body-font-weight: 300;
-    --bs-body-line-height: 1.5555555; // desktop: 28px
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.75rem; // desktop: 28px
     --bs-body-text-align: left;
 }
 
 h1 {
     font-size: 2.75rem; // desktop: 44px
+    line-height: 3rem; // desktop: 48px
     font-weight: 700;
+    color: #333333;
 }
 
 h2 {
     font-size: 2rem; // desktop: 32px
     font-weight: 700;
+    color: #333333;
 }
 
 h3 {
-    font-weight: 700;
+    font-size: 1.625rem; // desktop: 26px
+    font-weight: 400;
+    line-height: 2.125rem; // desktop: 34px
+    color: #666666;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-    color: #333333;
+h4 {
+    font-size: 1.25rem; // desktop: 20px
+    font-weight: 700;
+    line-height: 1.5rem; // desktop: 24px
+    color: #666666;
 }
 
 .row {
@@ -43,29 +47,36 @@ h5 {
     --bs-gutter-x: 0;
 
     @media screen and (min-width: 992px) {
-        --bs-gutter-x: 1.5rem;
+        --bs-gutter-x: 1.75rem;
     }
 }
 
 .btn {
     font-weight: bold;
-    width: 176px;
+    font-size: 1.125rem; // desktop: 18px
+    line-height: 1.75rem; // desktop: 28px
+    padding: 15px 30px;
 }
 
-.btn-primary {
+.btn-primary,
+.btn-primary:hover {
     background-color: #CF142B;
     border-color: #CF142B;
 }
 
 .main-heading {
 
-    margin-top: 1.5rem;
+    margin-top: 60px;
+
+    @media screen and (min-width: 992px) {
+        margin-top: 100px;
+    }
 
     .bar {
         border: 0;
         border-bottom: 4px solid #CF142B;
         height: 4px;
-        margin-top: 1.5rem;
+        margin-top: 1.75rem;
         width: 200px;
     }
 }

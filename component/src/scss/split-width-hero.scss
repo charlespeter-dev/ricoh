@@ -23,18 +23,14 @@
             padding: 20px 0;
         }
 
-        @media screen and (min-width: 992px) {
-            .sw-hero-item-text {
-                padding: 20px;
-            }
-        }
-
         .sw-hero-item-img {
             display: flex;
             justify-content: flex-start;
 
             img {
                 border-radius: 5%;
+                width: auto;
+                height: auto;
             }
         }
 
@@ -43,6 +39,11 @@
             .sw-hero-item-img {
                 display: flex;
                 justify-content: flex-end;
+
+                img {
+                    width: 400px;
+                    height: 400px;
+                }
             }
 
             .reverse-in-mobile .sw-hero-item-img {

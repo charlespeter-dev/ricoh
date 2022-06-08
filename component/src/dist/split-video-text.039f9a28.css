@@ -5,10 +5,10 @@
   border-radius: 12px;
 }
 @media screen and (min-width: 992px) {
-  .split-video-text img {
-    width: 520px;
-    height: 294px;
+  .split-video-text {
+    width: 520;
+    height: 294;
   }
 }
 
-/*# sourceMappingURL=/split-video-text.5b0af885.css.map */
+/*# sourceMappingURL=/split-video-text.039f9a28.css.map */
