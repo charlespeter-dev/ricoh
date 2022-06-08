@@ -1,6 +1,7 @@
 .card-partner {
   padding: 50px;
   background-color: #F3F3F3;
+  position: relative;
 }
 .card-partner::before {
   content: "";
@@ -14,4 +15,4 @@
   background-color: #F3F3F3;
 }
 
-/*# sourceMappingURL=/card-partner.aa086270.css.map */
+/*# sourceMappingURL=/card-partner.9af26d7f.css.map */

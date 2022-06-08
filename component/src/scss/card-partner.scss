@@ -2,5 +2,19 @@
 
     padding: 50px;
     background-color: #F3F3F3;
+    position: relative;
+
+
+    &::before {
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: calc((100vw - (100% - 1.1rem)) / -2);
+        width: 100vw;
+        z-index: -1;
+        background-color: #F3F3F3;
+    }
 
 }
