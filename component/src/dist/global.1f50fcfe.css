@@ -11121,19 +11121,19 @@ textarea.form-control-lg {
 /*! fonts */
 @font-face {
   font-family: "Frutiger";
-  src: url("/FrutigerLTStd-Light-woff2.563569ea.woff2") format("woff2"), url("/FrutigerLTStd-Light-woff.03a051fa.woff") format("woff");
+  src: url("/FrutigerLTStd-Light-woff2.07565d9f.woff2") format("woff2"), url("/FrutigerLTStd-Light-woff.f0e3eb3e.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Frutiger";
-  src: url("/FrutigerLTStd-Roman-woff2.1accac50.woff2") format("woff2"), url("/FrutigerLTStd-Roman-woff.6514b1ea.woff") format("woff");
+  src: url("/FrutigerLTStd-Roman-woff2.00e683c8.woff2") format("woff2"), url("/FrutigerLTStd-Roman-woff.99907abe.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Frutiger Bold";
-  src: url("/FrutigerLTStd-Bold-woff2.19e364a1.woff2") format("woff2"), url("/FrutigerLTStd-Bold-woff.2728d7b1.woff") format("woff");
+  src: url("/FrutigerLTStd-Bold-woff2.4b950572.woff2") format("woff2"), url("/FrutigerLTStd-Bold-woff.46b3f6cb.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -11142,7 +11142,7 @@ textarea.form-control-lg {
   font-family: ricons;
   font-style: normal;
   font-weight: normal;
-  src: url("/ricons-woff2.a9e4e6b7.woff2") format("woff2"), url("/ricons-woff.0d5b808f.woff") format("woff");
+  src: url("/ricons-woff2.cdcd9c08.woff2") format("woff2"), url("/ricons-woff.986a6356.woff") format("woff");
 }
 html {
   scroll-behavior: smooth;
@@ -11243,4 +11243,4 @@ h4, .h4 {
   }
 }
 
-/*# sourceMappingURL=/global.b6fbf18c.css.map */
+/*# sourceMappingURL=/global.1f50fcfe.css.map */

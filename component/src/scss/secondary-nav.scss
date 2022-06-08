@@ -1,0 +1,19 @@
+.secondary-nav {
+
+    border-bottom: .5px solid #C9C9C9 ;
+
+    .nav {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .nav-link {
+        color: #CF142B;
+        font-size: 1.25rem; // desktop: 20px
+        line-height: 1.5rem; // desktop: 24px
+    }
+
+    .nav-item {
+        border-right: .5px solid #C9C9C9;
+    }
+}

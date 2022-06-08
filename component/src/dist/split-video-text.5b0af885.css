@@ -3,6 +3,8 @@
 }
 .split-video-text img {
   border-radius: 12px;
+  width: auto;
+  height: auto;
 }
 @media screen and (min-width: 992px) {
   .split-video-text img {
