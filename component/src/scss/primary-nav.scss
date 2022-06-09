@@ -42,4 +42,14 @@
             margin-left: 1rem !important;
         }
     }
+
+    .nav-far-right {
+        .nav-item {
+            border-right: .5px solid #C9C9C9;
+        }
+
+        .nav-item:nth-last-of-type(1) {
+            border-right: none;
+        }
+    }
 }
