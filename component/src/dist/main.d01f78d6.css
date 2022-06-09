@@ -13122,6 +13122,62 @@ h4, .h4 {
   }
 }
 
+.callout-percentage-center {
+  padding: 20px 0 50px 0;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media screen and (min-width: 992px) {
+  .callout-percentage-center {
+    padding: 30px 0 50px 0;
+  }
+}
+.callout-percentage-center .percentage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@media screen and (min-width: 992px) {
+  .callout-percentage-center .percentage-container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.callout-percentage-center .percentage-container .percent-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+.callout-percentage-center .percentage-container .percent-container img {
+  width: 200px;
+}
+.callout-percentage-center .percentage-container .percent-container .percent {
+  font-size: 6.25rem;
+  line-height: 6.875rem;
+  font-weight: 700;
+  position: absolute;
+  height: 110px;
+  background-color: #fff;
+  left: 40px;
+  color: #CF142B;
+}
+.callout-percentage-center .percentage-container .percent-text {
+  font-size: 2rem;
+  line-height: 2.25rem;
+  color: #CF142B;
+  font-weight: 700;
+  margin-left: 0;
+}
+@media screen and (min-width: 992px) {
+  .callout-percentage-center .percentage-container .percent-text {
+    margin-left: 80px;
+  }
+}
+
 .split-text {
   margin: 30px 0 50px 0;
   padding: 50px 20px;
@@ -13441,4 +13497,4 @@ footer .footer-bottom .footer-bottom-content .copyr {
   color: #333333;
 }
 
-/*# sourceMappingURL=/main.e0c83111.css.map */
+/*# sourceMappingURL=/main.d01f78d6.css.map */
