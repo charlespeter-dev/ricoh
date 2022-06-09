@@ -13611,14 +13611,18 @@ footer .footer-bottom .footer-bottom-content .copyr {
 
 .back-to-top {
   position: absolute;
-  bottom: 250px;
+  bottom: 300px;
   right: 30px;
   z-index: 1;
+}
+@media screen and (min-width: 768px) {
+  .back-to-top {
+    bottom: 150px;
+  }
 }
 @media screen and (min-width: 992px) {
   .back-to-top {
     bottom: 95px;
-    right: 30px;
   }
 }
 .back-to-top a {
@@ -13655,4 +13659,4 @@ footer .footer-bottom .footer-bottom-content .copyr {
   margin-top: 10px;
 }
 
-/*# sourceMappingURL=/main.bd1a04c3.css.map */
+/*# sourceMappingURL=/main.1c60e861.css.map */

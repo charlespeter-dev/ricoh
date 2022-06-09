@@ -1,13 +1,17 @@
 .back-to-top {
   position: absolute;
-  bottom: 250px;
+  bottom: 300px;
   right: 30px;
   z-index: 1;
+}
+@media screen and (min-width: 768px) {
+  .back-to-top {
+    bottom: 150px;
+  }
 }
 @media screen and (min-width: 992px) {
   .back-to-top {
     bottom: 95px;
-    right: 30px;
   }
 }
 .back-to-top a {
@@ -44,4 +48,4 @@
   margin-top: 10px;
 }
 
-/*# sourceMappingURL=/back-to-top.356329d7.css.map */
+/*# sourceMappingURL=/back-to-top.f3e79823.css.map */
