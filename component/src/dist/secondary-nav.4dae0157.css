@@ -1,7 +1,13 @@
 .secondary-nav {
+  display: none;
   border-bottom: 0.5px solid #C9C9C9;
   background-color: #fff;
   z-index: 2;
+}
+@media screen and (min-width: 992px) {
+  .secondary-nav {
+    display: block;
+  }
 }
 .secondary-nav .nav {
   padding-top: 10px;
@@ -24,4 +30,4 @@
   }
 }
 
-/*# sourceMappingURL=/secondary-nav.675de91b.css.map */
+/*# sourceMappingURL=/secondary-nav.4dae0157.css.map */

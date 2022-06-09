@@ -1,5 +1,11 @@
 .secondary-nav {
 
+    display: none;
+
+    @media screen and (min-width: 992px) {
+        display: block;
+    }
+
     border-bottom: .5px solid #C9C9C9;
     background-color: #fff;
     z-index: 2;
