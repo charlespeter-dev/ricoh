@@ -1,0 +1,88 @@
+footer {
+  position: relative;
+}
+footer a,
+footer strong,
+footer p,
+footer h4 {
+  color: #333333 !important;
+}
+footer .footer-top {
+  margin-top: 90px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+footer .footer-top .footer-top-content::before {
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: calc((100vw - (100% - 1.1rem)) / -2);
+  width: 100vw;
+  z-index: -1;
+  background-color: #F3F3F3;
+}
+footer .footer-top .footer-top-content .footer-logo {
+  margin-bottom: 50px;
+}
+footer .footer-top .footer-top-content .footer-logo img {
+  width: 146px;
+}
+footer .footer-top .footer-top-content .summary {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  padding-right: 1.625rem;
+  text-align: justify;
+}
+footer .footer-top .footer-top-content .nav-link {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  padding-left: 0;
+}
+footer .footer-top .footer-top-content .follow-us {
+  margin-top: 30px;
+}
+footer .footer-top .footer-top-content > .list-group-item a {
+  padding-left: 0;
+}
+footer .footer-top .footer-top-content .list-group-item {
+  background-color: transparent;
+  margin: 10px;
+  border-radius: 0.25rem;
+}
+footer .footer-top .footer-top-content .list-group-item + .list-group-item {
+  border-left-width: 1px;
+}
+footer .footer-top .footer-top-content .list-group-item i {
+  font-size: 25px;
+  color: #B1B1B1;
+}
+footer .footer-bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+footer .footer-bottom .footer-bottom-content::before {
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: calc((100vw - (100% - 1.1rem)) / -2);
+  width: 100vw;
+  z-index: -1;
+  background-color: #c9c9c9;
+}
+footer .footer-bottom .footer-bottom-content .nav-link {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+footer .footer-bottom .footer-bottom-content .copyr {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #333333;
+}
+
+/*# sourceMappingURL=/footer.3649151f.css.map */

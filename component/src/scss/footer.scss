@@ -1,3 +1,111 @@
 footer {
-    padding: 30px 0 50px 0;
+    position: relative;
+
+    a,
+    strong,
+    p,
+    h4 {
+        color: #333333 !important;
+    }
+
+    .footer-top {
+        margin-top: 90px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: relative;
+
+        .footer-top-content {
+
+            &::before {
+                content: '';
+                display: block;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: calc((100vw - (100% - 1.1rem)) / -2);
+                width: 100vw;
+                z-index: -1;
+                background-color: #F3F3F3;
+            }
+
+            .footer-logo {
+
+                margin-bottom: 50px;
+
+                img {
+                    width: 146px;
+                }
+            }
+
+            .summary {
+                font-size: 1rem; // desktop: 16px
+                line-height: 1.625rem; // desktop: 26px
+                padding-right: 1.625rem;
+                text-align: justify;
+            }
+
+            .nav-link {
+                font-size: 1rem; // desktop: 16px
+                line-height: 1.625rem; // desktop: 26px
+                padding-left: 0;
+            }
+
+            .follow-us {
+                margin-top: 30px;
+            }
+
+            >.list-group-item a {
+                padding-left: 0;
+            }
+
+            .list-group-item {
+                background-color: transparent;
+                margin: 10px;
+                border-radius: 0.25rem;
+
+                +.list-group-item {
+                    border-left-width: 1px;
+                }
+
+                i {
+                    font-size: 25px;
+                    color: #B1B1B1;
+                }
+            }
+
+        }
+    }
+
+    .footer-bottom {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: relative;
+
+        .footer-bottom-content {
+
+            &::before {
+                content: '';
+                display: block;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: calc((100vw - (100% - 1.1rem)) / -2);
+                width: 100vw;
+                z-index: -1;
+                background-color: #c9c9c9;
+            }
+
+            .nav-link {
+                font-size: 0.875rem; // desktop: 14px
+                line-height: 1.5rem; // desktop: 24px
+            }
+
+            .copyr {
+                font-size: 0.875rem; // desktop: 14px
+                line-height: 1.5rem; // desktop: 24px
+                color: #333333;
+            }
+
+        }
+    }
 }
