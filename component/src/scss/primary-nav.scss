@@ -1,6 +1,29 @@
 .primary-nav {
 
-    border-bottom: .5px solid #C9C9C9;
+    &::before {
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: calc((100vw - (100% - 1.1rem)) / -2);
+        width: 100vw;
+        z-index: -2;
+        background-color: #fff;
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+        left: calc((100vw - (100% - 1.1rem)) / -2);
+        width: 100vw;
+        z-index: -1;
+        background-color: #C9C9C9;
+    }
+
     background-color: #fff;
     z-index: 3;
 
@@ -46,10 +69,10 @@
     .nav-far-right {
         .nav-item {
             border-right: .5px solid #C9C9C9;
-        }
 
-        .nav-item:nth-last-of-type(1) {
-            border-right: none;
+            .nav-link {
+                padding: 20px;
+            }
         }
     }
 }

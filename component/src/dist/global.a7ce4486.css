@@ -12917,6 +12917,11 @@ h4, .h4 {
   border-color: #CF142B;
 }
 
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .main-heading {
   margin-top: 60px;
 }
@@ -12957,4 +12962,4 @@ h4, .h4 {
   }
 }
 
-/*# sourceMappingURL=/global.dbebcaa5.css.map */
+/*# sourceMappingURL=/global.a7ce4486.css.map */

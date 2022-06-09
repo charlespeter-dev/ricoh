@@ -6,7 +6,30 @@
         display: block;
     }
 
-    border-bottom: .5px solid #C9C9C9;
+    &::before {
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: calc((100vw - (100% - 1.1rem)) / -2);
+        width: 100vw;
+        z-index: -2;
+        background-color: #fff;
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+        left: calc((100vw - (100% - 1.1rem)) / -2);
+        width: 100vw;
+        z-index: -1;
+        background-color: #C9C9C9;
+    }
+
     background-color: #fff;
     z-index: 2;
 
@@ -31,7 +54,7 @@
 
     &.sticky-secondary-nav {
         @media screen and (min-width: 992px) {
-            top: 80px;
+            top: 65px;
         }
     }
 }
