@@ -24,14 +24,31 @@
         }
 
         .sw-hero-item-img {
+            position: relative;
             display: flex;
             justify-content: flex-start;
 
-            img {
-                border-radius: 5%;
+            .imgs {
+
                 width: auto;
-                height: auto;
+                position: relative;
+
+                .img-main {
+                    border-radius: 5%;
+                    width: 300px;
+                    height: auto;
+                }
+
+                .img-ribbon {
+                    display: flex;
+                    position: absolute;
+                    bottom: -50px;
+                    right: -50px;
+                    width: 103px;
+                }
             }
+
+
         }
 
         @media screen and (min-width: 992px) {
@@ -40,9 +57,18 @@
                 display: flex;
                 justify-content: flex-end;
 
-                img {
+                .imgs {
+
                     width: 400px;
-                    height: 400px;
+
+                    .img-main {
+                        width: 350px;
+                        height: 350px;
+                    }
+
+                    .img-ribbon {
+                        right: 0;
+                    }
                 }
             }
 
