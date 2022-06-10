@@ -1,5 +1,5 @@
 /**
- * attach 'is_desktop' or 'is_mobile' class into <body>
+ * attach 'is-desktop' or 'is-mobile' class into <body>
  * based on the screen breakpoint 992px
  */
 
@@ -7,12 +7,12 @@ let mql = window.matchMedia("(min-width: 992px)");
 
 let attach = (e) => {
     if (e.matches) {
-        document.body.classList.remove('is_mobile');
-        document.body.classList.add('is_desktop');
+        document.body.classList.remove('is-mobile');
+        document.body.classList.add('is-desktop');
     }
     else {
-        document.body.classList.remove('is_desktop');
-        document.body.classList.add('is_mobile');
+        document.body.classList.remove('is-desktop');
+        document.body.classList.add('is-mobile');
     }
 }
 

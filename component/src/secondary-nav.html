@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="scss/secondary-nav.scss">
 </head>
 
-<body>
+<body style="height: 1092px;">
 
 
     <div class="container-fluid">
@@ -18,7 +18,9 @@
             <div class="col">
                 <div class="container">
 
-                    <nav class="secondary-nav sticky-lg-top sticky-secondary-nav">
+                    <div style="height: 900px;"></div>
+
+                    <nav class="secondary-nav-desktop sticky-top sticky-secondary-nav-desktop">
                         <ul class="nav justify-content-center">
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Introduction</a>
@@ -38,6 +40,20 @@
                         </ul>
                     </nav>
 
+                    <div class="secondary-nav-mobile form-select-lg sticky-top sticky-secondary-nav-mobile">
+                        <select class="form-select">
+                            <option>Introduction</option>
+                            <option>Hybrid Workplace</option>
+                            <option>Resources</option>
+                            <option>Partners</option>
+                            <option>Let’s Connect</option>
+                        </select>
+                    </div>
+
+
+
+                    <div style="height: 900px;"></div>
+
                 </div>
             </div>
         </div>
@@ -47,6 +63,7 @@
     <!-- Js -->
 
     <script src="js/global.js"></script>
+    <script src="js/secondary-nav.js"></script>
 
 </body>
 
