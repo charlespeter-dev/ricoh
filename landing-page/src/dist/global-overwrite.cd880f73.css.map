@@ -1,0 +1,1 @@
+{"version":3,"sources":["scss\\global-overwrite.scss"],"names":[],"mappings":"AAAA;EACI","file":"global-overwrite.cd880f73.css","sourceRoot":"..","sourcesContent":["body {\r\n    --bs-body-bg: #F3F3F3;\r\n}"]}
