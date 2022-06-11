@@ -39,15 +39,6 @@
                     font-weight: 700;
                     color: #CF142B;
                 }
-
-                .meta {
-                    font-size: 1.25rem; // desktop: 20px
-                    font-weight: 700;
-                    line-height: 1.5rem; // desktop: 24px
-
-                    display: flex;
-                    flex-direction: row;
-                }
             }
         }
 
@@ -110,15 +101,6 @@
                     font-weight: 700;
                     color: #CF142B;
                 }
-
-                .meta {
-                    font-size: 1.25rem; // desktop: 20px
-                    font-weight: 700;
-                    line-height: 1.5rem; // desktop: 24px
-
-                    display: flex;
-                    flex-direction: row;
-                }
             }
         }
 
@@ -157,5 +139,27 @@
             width: 350px;
         }
 
+    }
+}
+
+
+.banner-lp {
+    .left {
+        .callout {
+            .meta {
+                display: flex;
+                flex-direction: row;
+
+                font-size: 1.25rem; // desktop: 20px
+                line-height: 1.5rem; // desktop: 24px
+
+                .dot {
+                    margin-top: -2px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    color: #CF142B;
+                }
+            }
+        }
     }
 }

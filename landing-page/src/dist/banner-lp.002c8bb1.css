@@ -32,13 +32,6 @@
   font-weight: 700;
   color: #CF142B;
 }
-.is-desktop .banner-lp .left .callout .meta {
-  font-size: 1.25rem;
-  font-weight: 700;
-  line-height: 1.5rem;
-  display: flex;
-  flex-direction: row;
-}
 .is-desktop .banner-lp .right {
   position: relative;
 }
@@ -82,13 +75,6 @@
   font-weight: 700;
   color: #CF142B;
 }
-.is-mobile .banner-lp .left .callout .meta {
-  font-size: 1.25rem;
-  font-weight: 700;
-  line-height: 1.5rem;
-  display: flex;
-  flex-direction: row;
-}
 .is-mobile .banner-lp .right {
   position: relative;
   min-height: 280px;
@@ -116,4 +102,17 @@
   width: 350px;
 }
 
-/*# sourceMappingURL=/banner-lp.e4cc8413.css.map */
+.banner-lp .left .callout .meta {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+.banner-lp .left .callout .meta .dot {
+  margin-top: -2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #CF142B;
+}
+
+/*# sourceMappingURL=/banner-lp.002c8bb1.css.map */
