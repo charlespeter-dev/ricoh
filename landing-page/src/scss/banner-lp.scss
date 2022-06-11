@@ -83,6 +83,11 @@
 
     .banner-lp {
 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+
         &::after {
             content: '';
             display: block;
@@ -137,21 +142,19 @@
                     background-image: url('https://picsum.photos/id/786/500/280.webp');
                     background-repeat: no-repeat;
                     background-size: cover;
+                    background-position: 50%;
                 }
             }
-
-
 
             .img-bg-desktop {
                 display: none;
             }
         }
 
-
         .img-right {
             position: absolute;
             bottom: -187.5px;
-            width: 100%;
+            width: 350px;
         }
 
     }

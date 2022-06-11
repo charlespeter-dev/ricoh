@@ -12047,6 +12047,12 @@ body {
   z-index: 3;
 }
 
+.is-mobile .banner-lp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
 .is-mobile .banner-lp::after {
   content: "";
   display: block;
@@ -12088,6 +12094,7 @@ body {
   background-image: url("https://picsum.photos/id/786/500/280.webp");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50%;
 }
 .is-mobile .banner-lp .right .img-bg-desktop {
   display: none;
@@ -12095,7 +12102,7 @@ body {
 .is-mobile .banner-lp .img-right {
   position: absolute;
   bottom: -187.5px;
-  width: 100%;
+  width: 350px;
 }
 
-/*# sourceMappingURL=/main.2fc81cd8.css.map */
+/*# sourceMappingURL=/main.fdbd08fb.css.map */
