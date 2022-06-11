@@ -1,0 +1,112 @@
+.is-desktop .banner-lp {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.is-desktop .banner-lp::after {
+  content: "";
+  display: block;
+  height: 6px;
+  position: absolute;
+  bottom: 0;
+  left: calc((100vw - 100%) / -2);
+  width: 100vw;
+  z-index: -1;
+  background-color: #CF142B;
+}
+.is-desktop .banner-lp .left {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.is-desktop .banner-lp .left .callout {
+  position: absolute;
+  z-index: -1;
+}
+.is-desktop .banner-lp .left .callout .category {
+  font-weight: 700;
+  color: #CF142B;
+}
+.is-desktop .banner-lp .left .callout .meta {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.is-desktop .banner-lp .right {
+  position: relative;
+}
+.is-desktop .banner-lp .right .img-bg-desktop {
+  position: relative;
+  left: -70%;
+  z-index: -3;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+}
+.is-desktop .banner-lp .img-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 375px;
+  z-index: 3;
+}
+
+.is-mobile .banner-lp::after {
+  content: "";
+  display: block;
+  height: 6px;
+  position: absolute;
+  bottom: 0;
+  left: calc((100vw - 100%) / -2);
+  width: 100vw;
+  z-index: -1;
+  background-color: #CF142B;
+}
+.is-mobile .banner-lp .left .callout {
+  margin-bottom: 60px;
+}
+.is-mobile .banner-lp .left .callout .category {
+  font-weight: 700;
+  color: #CF142B;
+}
+.is-mobile .banner-lp .left .callout .meta {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.is-mobile .banner-lp .right {
+  position: relative;
+  min-height: 280px;
+}
+.is-mobile .banner-lp .right .img-bg-mobile::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: calc((100vw - 100%) / -2);
+  width: 100vw;
+  height: 100%;
+  z-index: -1;
+  background-image: url("https://picsum.photos/id/786/500/280.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.is-mobile .banner-lp .right .img-bg-desktop {
+  display: none;
+}
+.is-mobile .banner-lp .img-right {
+  position: absolute;
+  bottom: -187.5px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=/banner-lp.bf060d15.css.map */

@@ -46,14 +46,7 @@
                     line-height: 1.5rem; // desktop: 24px
 
                     display: flex;
-                    flex-direction: column;
-
-
-                    @media screen and (min-width: 992px) {
-
-                        flex-direction: row;
-
-                    }
+                    flex-direction: row;
                 }
             }
         }
@@ -62,7 +55,7 @@
 
             position: relative;
 
-            .img-bg {
+            .img-bg-desktop {
                 position: relative;
                 left: -70%;
                 z-index: -3;
@@ -70,9 +63,6 @@
                 width: 100%;
                 object-fit: cover;
                 opacity: .3;
-
-                background: rgb(243, 243, 243);
-                background: linear-gradient(90deg, rgba(243, 243, 243, 0) 0%, rgba(243, 243, 243, 1) 50%);
             }
         }
 
@@ -84,5 +74,85 @@
             width: 375px;
             z-index: 3;
         }
+    }
+}
+
+
+
+.is-mobile {
+
+    .banner-lp {
+
+        &::after {
+            content: '';
+            display: block;
+            height: 6px;
+            position: absolute;
+            bottom: 0;
+            left: calc((100vw - 100%) / -2);
+            width: 100vw;
+            z-index: -1;
+            background-color: #CF142B;
+        }
+
+        .left {
+
+            .callout {
+
+                margin-bottom: 60px;
+
+                .category {
+                    font-weight: 700;
+                    color: #CF142B;
+                }
+
+                .meta {
+                    font-size: 1.25rem; // desktop: 20px
+                    font-weight: 700;
+                    line-height: 1.5rem; // desktop: 24px
+
+                    display: flex;
+                    flex-direction: row;
+                }
+            }
+        }
+
+
+        .right {
+
+            position: relative;
+            min-height: 280px;
+
+            .img-bg-mobile {
+
+                &::before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    bottom: 0;
+                    left: calc((100vw - 100%) / -2);
+                    width: 100vw;
+                    height: 100%;
+                    z-index: -1;
+                    background-image: url('https://picsum.photos/id/786/500/280.webp');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+
+
+
+            .img-bg-desktop {
+                display: none;
+            }
+        }
+
+
+        .img-right {
+            position: absolute;
+            bottom: -187.5px;
+            width: 100%;
+        }
+
     }
 }
