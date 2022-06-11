@@ -79,19 +79,17 @@
   position: relative;
   min-height: 280px;
 }
-.is-mobile .banner-lp .right .img-bg-mobile::before {
-  content: "";
-  display: block;
+.is-mobile .banner-lp .right .img-bg-mobile {
   position: absolute;
   bottom: 0;
   left: calc((100vw - 100%) / -2);
   width: 100vw;
   height: 100%;
   z-index: -1;
-  background-image: url("https://picsum.photos/id/786/500/280.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
+  opacity: 0.3;
 }
 .is-mobile .banner-lp .right .img-bg-desktop {
   display: none;
@@ -115,4 +113,4 @@
   color: #CF142B;
 }
 
-/*# sourceMappingURL=/banner-lp.002c8bb1.css.map */
+/*# sourceMappingURL=/banner-lp.797e928a.css.map */
