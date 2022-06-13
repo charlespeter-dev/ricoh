@@ -1,0 +1,55 @@
+.is-desktop {
+    .lp-ext-resources {
+
+
+        .link-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            .link-heading {
+                display: block;
+                width: 130px;
+            }
+
+            .link {
+
+                overflow-wrap: break-word;
+                word-break: break-word;
+                hyphens: auto;
+            }
+        }
+    }
+}
+
+.lp-ext-resources {
+    background-color: #ffffff;
+    padding: 30px 0;
+
+    ul.ext-resources {
+        list-style-type: square;
+        color: #CF142B;
+
+        li {
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    .link-heading {
+        font-weight: 700;
+        font-size: 0.875rem; // desktop: 14px
+        line-height: 1.5rem; // desktop: 24px
+    }
+
+    .link {
+        width: 80%;
+        font-size: 0.875rem; // desktop: 14px
+        line-height: 1.5rem; // desktop: 24px
+
+        a {
+            color: #CF142B !important;
+            text-decoration: none;
+        }
+    }
+}

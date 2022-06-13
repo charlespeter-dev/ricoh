@@ -11974,6 +11974,10 @@ ul.red-square li::before {
   width: 1em;
 }
 
+.article {
+  border-radius: 0 0 12px 12px;
+}
+
 .container.article {
   background-color: #ffffff;
 }
@@ -11985,6 +11989,10 @@ ul.red-square li::before {
 
 .text-red {
   color: #E56C74;
+}
+
+.text-red-2 {
+  color: #CF142B;
 }
 
 .bg-grey {
@@ -12185,4 +12193,46 @@ ul.red-square li::before {
   color: #CF142B;
 }
 
-/*# sourceMappingURL=/main.e13f3080.css.map */
+.is-desktop .lp-ext-resources .link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.is-desktop .lp-ext-resources .link-container .link-heading {
+  display: block;
+  width: 130px;
+}
+.is-desktop .lp-ext-resources .link-container .link {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+.lp-ext-resources {
+  background-color: #ffffff;
+  padding: 30px 0;
+}
+.lp-ext-resources ul.ext-resources {
+  list-style-type: square;
+  color: #CF142B;
+}
+.lp-ext-resources ul.ext-resources li {
+  margin-bottom: 1.5rem;
+}
+.lp-ext-resources .link-heading {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+.lp-ext-resources .link {
+  width: 80%;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+.lp-ext-resources .link a {
+  color: #CF142B !important;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=/main.a1111193.css.map */

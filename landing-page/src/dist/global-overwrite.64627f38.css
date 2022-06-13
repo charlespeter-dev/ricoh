@@ -28,6 +28,10 @@ ul.red-square li::before {
   width: 1em;
 }
 
+.article {
+  border-radius: 0 0 12px 12px;
+}
+
 .container.article {
   background-color: #ffffff;
 }
@@ -41,8 +45,12 @@ ul.red-square li::before {
   color: #E56C74;
 }
 
+.text-red-2 {
+  color: #CF142B;
+}
+
 .bg-grey {
   background-color: #F3F3F3;
 }
 
-/*# sourceMappingURL=/global-overwrite.ba3b29c4.css.map */
+/*# sourceMappingURL=/global-overwrite.64627f38.css.map */
