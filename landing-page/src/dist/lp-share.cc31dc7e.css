@@ -1,0 +1,25 @@
+.lp-share {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.lp-share > div {
+  padding: 10px;
+  margin-left: 10px;
+  font-weight: 700;
+}
+.lp-share > div.text {
+  text-transform: uppercase;
+}
+.lp-share > div.icon {
+  border-radius: 8px;
+  border: 0.5px solid #B1B1B1;
+}
+.lp-share > div.icon i {
+  font-size: 25px;
+}
+.lp-share > div a {
+  color: #B1B1B1 !important;
+}
+
+/*# sourceMappingURL=/lp-share.cc31dc7e.css.map */

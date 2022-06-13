@@ -11849,6 +11849,10 @@ body {
   --bs-body-text-align: left;
 }
 
+p {
+  margin-bottom: 1.75rem;
+}
+
 h1, .h1 {
   font-size: 2.75rem;
   line-height: 3rem;
@@ -11958,4 +11962,4 @@ h4, .h4 {
   }
 }
 
-/*# sourceMappingURL=/global.cdff3a3d.css.map */
+/*# sourceMappingURL=/global.a95f4d97.css.map */

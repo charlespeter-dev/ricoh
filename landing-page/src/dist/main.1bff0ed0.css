@@ -11849,6 +11849,10 @@ body {
   --bs-body-text-align: left;
 }
 
+p {
+  margin-bottom: 1.75rem;
+}
+
 h1, .h1 {
   font-size: 2.75rem;
   line-height: 3rem;
@@ -12176,6 +12180,30 @@ ul.red-square li::before {
   color: #CF142B;
 }
 
+.lp-share {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.lp-share > div {
+  padding: 10px;
+  margin-left: 10px;
+  font-weight: 700;
+}
+.lp-share > div.text {
+  text-transform: uppercase;
+}
+.lp-share > div.icon {
+  border-radius: 8px;
+  border: 0.5px solid #B1B1B1;
+}
+.lp-share > div.icon i {
+  font-size: 25px;
+}
+.lp-share > div a {
+  color: #B1B1B1 !important;
+}
+
 .lp-table {
   margin: 50px 0;
   background-color: #ffffff;
@@ -12395,11 +12423,11 @@ body.is-article {
 }
 .lp-card-3-columns .bg-white {
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 0;
 }
 @media screen and (min-width: 992px) {
   .lp-card-3-columns .bg-white {
-    padding-bottom: 100px;
+    padding-bottom: 0;
   }
 }
 .lp-card-3-columns .bg-white::before {
@@ -12444,4 +12472,129 @@ body.is-article {
   display: none;
 }
 
-/*# sourceMappingURL=/main.4ec0efcc.css.map */
+footer {
+  position: relative;
+}
+footer a,
+footer strong,
+footer p,
+footer h4,
+footer .h4 {
+  color: #333333 !important;
+}
+footer .footer-top {
+  margin-top: 90px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+footer .footer-top .footer-top-content::before {
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: calc((100vw - (100% - 1.1rem)) / -2);
+  width: 100vw;
+  z-index: -1;
+  background-color: #F3F3F3;
+}
+footer .footer-top .footer-top-content .footer-logo {
+  margin-bottom: 50px;
+}
+footer .footer-top .footer-top-content .footer-logo img {
+  width: 146px;
+}
+footer .footer-top .footer-top-content .summary {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  padding-right: 1.625rem;
+  text-align: justify;
+}
+footer .footer-top .footer-top-content .group-link {
+  margin-top: 30px;
+}
+@media screen and (min-width: 992px) {
+  footer .footer-top .footer-top-content .group-link {
+    margin-top: 0;
+  }
+}
+footer .footer-top .footer-top-content .nav-link {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  padding-left: 0;
+}
+footer .footer-top .footer-top-content .follow-us {
+  margin-top: 30px;
+}
+footer .footer-top .footer-top-content .follow-us .list-group-item:nth-of-type(1) {
+  margin-left: 0;
+}
+footer .footer-top .footer-top-content > .list-group-item a {
+  padding-left: 0;
+}
+footer .footer-top .footer-top-content .list-group-item {
+  background-color: transparent;
+  margin: 10px;
+  border-radius: 0.25rem;
+}
+footer .footer-top .footer-top-content .list-group-item + .list-group-item {
+  border-left-width: 1px;
+}
+footer .footer-top .footer-top-content .list-group-item i {
+  font-size: 25px;
+  color: #B1B1B1;
+}
+footer .footer-bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+footer .footer-bottom .footer-bottom-content::before {
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: calc((100vw - (100% - 1.1rem)) / -2);
+  width: 100vw;
+  z-index: -1;
+  background-color: #c9c9c9;
+}
+footer .footer-bottom .footer-bottom-content .row .col {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 992px) {
+  footer .footer-bottom .footer-bottom-content .row .col {
+    flex-direction: row;
+  }
+}
+footer .footer-bottom .footer-bottom-content .bottom-links {
+  flex-direction: column;
+}
+@media screen and (min-width: 992px) {
+  footer .footer-bottom .footer-bottom-content .bottom-links {
+    margin-right: auto;
+  }
+}
+footer .footer-bottom .footer-bottom-content .bottom-links .nav-link {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+footer .footer-bottom .footer-bottom-content .bottom-links .nav-link:nth-of-type(1) {
+  padding-left: 0;
+}
+footer .footer-bottom .footer-bottom-content .copyr {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #333333;
+  margin-top: 20px;
+}
+@media screen and (min-width: 992px) {
+  footer .footer-bottom .footer-bottom-content .copyr {
+    margin-top: 0;
+  }
+}
+
+/*# sourceMappingURL=/main.1bff0ed0.css.map */

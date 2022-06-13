@@ -39,11 +39,11 @@
 }
 .lp-card-3-columns .bg-white {
   position: relative;
-  padding-bottom: 50px;
+  padding-bottom: 0;
 }
 @media screen and (min-width: 992px) {
   .lp-card-3-columns .bg-white {
-    padding-bottom: 100px;
+    padding-bottom: 0;
   }
 }
 .lp-card-3-columns .bg-white::before {
@@ -88,4 +88,4 @@
   display: none;
 }
 
-/*# sourceMappingURL=/lp-card-3-columns.f8991bb2.css.map */
+/*# sourceMappingURL=/lp-card-3-columns.96a3092c.css.map */
