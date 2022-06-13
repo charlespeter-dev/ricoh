@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body {
+  --bs-body-bg: #F3F3F3;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 2.25rem;
+  color: #333333;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  color: #333333;
+  font-weight: 700;
+}
+
+ul.red-square {
+  list-style: none;
+}
+ul.red-square li::before {
+  content: "■";
+  color: #CF142B;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+
+.container.article {
+  background-color: #ffffff;
+}
+
+.divider {
+  border-bottom: 0.5px solid #C9C9C9;
+  margin: 50px 0;
+}
+
+.text-red {
+  color: #E56C74;
+}
+
+.bg-grey {
+  background-color: #F3F3F3;
+}
+
+/*# sourceMappingURL=/global-overwrite.ba3b29c4.css.map */

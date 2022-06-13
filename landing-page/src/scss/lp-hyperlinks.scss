@@ -1,0 +1,33 @@
+.lp-hyperlinks {
+
+    background-color: #ffffff;
+    padding: 30px 0;
+
+    .hyperlink {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #F3F3F3;
+        border-radius: 5px;
+        margin: 5px;
+
+
+        a {
+            color: #333333 !important;
+            text-decoration: none;
+            font-size: 1rem; // desktop: 16px
+            line-height: 1.625rem; // desktop: 16px
+            font-weight: 700;
+            padding: 10px;
+
+        }
+
+        .arrow {
+            margin-left: auto;
+            padding: 10px;
+            border-left: 1px solid #fff;
+            color: #CF142B;
+        }
+    }
+}
