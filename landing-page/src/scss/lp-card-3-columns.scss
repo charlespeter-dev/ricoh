@@ -1,0 +1,99 @@
+.lp-card-3-columns {
+
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #ffffff;
+
+    @media screen and (min-width: 992px) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    $fixed-mobile-height: 100px;
+    $fixed-desktop-height: 210px;
+
+    .bg-grey {
+
+        background-color: #ffffff;
+        position: relative;
+        height: $fixed-mobile-height;
+
+        @media screen and (min-width: 992px) {
+            background-color: #F3F3F3;
+            height: $fixed-desktop-height;
+            margin-top: 0;
+        }
+
+        &::before {
+            content: '';
+            display: block;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: calc((100vw - (100% - 1.1rem)) / -2);
+            width: 100vw;
+            z-index: -1;
+            background-color: #ffffff;
+
+            @media screen and (min-width: 992px) {
+                background-color: #F3F3F3;
+            }
+        }
+    }
+
+    .bg-white {
+
+        position: relative;
+        padding-bottom: 50px;
+
+        @media screen and (min-width: 992px) {
+            padding-bottom: 100px;
+        }
+
+        &::before {
+            content: '';
+            display: block;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: calc((100vw - (100% - 1.1rem)) / -2);
+            width: 100vw;
+            z-index: -1;
+            background-color: #ffffff;
+        }
+
+        .row>.col {
+
+            @media screen and (min-width: 992px) {
+
+                position: relative;
+                margin-block-start: -100px;
+            }
+        }
+    }
+
+    .heading {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+
+        .view-more-story {
+            display: block;
+            color: #CF142B;
+            font-weight: 700;
+
+            @media screen and (min-width: 992px) {
+                margin-left: auto;
+            }
+        }
+    }
+
+    // overwrite bg from card-3-columns.scss
+
+    &::before {
+        display: none;
+    }
+}
