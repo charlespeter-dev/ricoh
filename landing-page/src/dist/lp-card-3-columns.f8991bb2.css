@@ -68,7 +68,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+}
+@media screen and (min-width: 992px) {
+  .lp-card-3-columns .heading {
+    margin-top: 100px;
+  }
 }
 .lp-card-3-columns .heading .view-more-story {
   display: block;
@@ -84,4 +88,4 @@
   display: none;
 }
 
-/*# sourceMappingURL=/lp-card-3-columns.fac54fda.css.map */
+/*# sourceMappingURL=/lp-card-3-columns.f8991bb2.css.map */

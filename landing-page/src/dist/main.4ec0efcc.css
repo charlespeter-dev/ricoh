@@ -12424,7 +12424,11 @@ body.is-article {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+}
+@media screen and (min-width: 992px) {
+  .lp-card-3-columns .heading {
+    margin-top: 100px;
+  }
 }
 .lp-card-3-columns .heading .view-more-story {
   display: block;
@@ -12440,4 +12444,4 @@ body.is-article {
   display: none;
 }
 
-/*# sourceMappingURL=/main.1a12d86a.css.map */
+/*# sourceMappingURL=/main.4ec0efcc.css.map */
