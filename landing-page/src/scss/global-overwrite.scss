@@ -50,7 +50,11 @@ ul {
 
 .divider {
     border-bottom: .5px solid #C9C9C9;
-    margin: 50px 0;
+    margin: 30px 0;
+
+    @media screen and (min-width: 992px) {
+        margin: 50px 0;
+    }
 }
 
 .text-red {

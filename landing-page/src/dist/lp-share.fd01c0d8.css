@@ -2,11 +2,21 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 30px;
+}
+@media screen and (min-width: 992px) {
+  .lp-share {
+    margin-top: 0;
+  }
 }
 .lp-share > div {
-  padding: 10px;
+  padding: 5px;
   margin-left: 10px;
   font-weight: 700;
+}
+.lp-share > div:nth-of-type(1) {
+  margin-left: 0;
+  padding-left: 0;
 }
 .lp-share > div.text {
   text-transform: uppercase;
@@ -16,10 +26,12 @@
   border: 0.5px solid #B1B1B1;
 }
 .lp-share > div.icon i {
+  position: relative;
+  top: 4px;
   font-size: 25px;
 }
 .lp-share > div a {
   color: #B1B1B1 !important;
 }
 
-/*# sourceMappingURL=/lp-share.cc31dc7e.css.map */
+/*# sourceMappingURL=/lp-share.fd01c0d8.css.map */
