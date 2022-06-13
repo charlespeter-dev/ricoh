@@ -98,6 +98,7 @@
   position: absolute;
   bottom: -187.5px;
   width: 350px;
+  z-index: 1;
 }
 
 .banner-lp .left .callout .meta {
@@ -113,4 +114,4 @@
   color: #CF142B;
 }
 
-/*# sourceMappingURL=/lp-banner.a76860af.css.map */
+/*# sourceMappingURL=/lp-banner.ff71e954.css.map */

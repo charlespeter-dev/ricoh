@@ -8,11 +8,6 @@
   display: block;
   width: 130px;
 }
-.is-desktop .lp-ext-resources .link-container .link {
-  overflow-wrap: break-word;
-  word-break: break-word;
-  hyphens: auto;
-}
 
 .lp-ext-resources {
   background-color: #ffffff;
@@ -31,13 +26,21 @@
   line-height: 1.5rem;
 }
 .lp-ext-resources .link {
-  width: 80%;
+  width: 90%;
   font-size: 0.875rem;
   line-height: 1.5rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
+@media screen and (min-width: 992px) {
+  .lp-ext-resources .link {
+    width: 80%;
+  }
 }
 .lp-ext-resources .link a {
   color: #CF142B !important;
   text-decoration: none;
 }
 
-/*# sourceMappingURL=/lp-ext-resources.ebc0d5ce.css.map */
+/*# sourceMappingURL=/lp-ext-resources.7e8e2d6d.css.map */

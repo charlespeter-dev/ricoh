@@ -1,6 +1,11 @@
 @charset "UTF-8";
 body {
-  --bs-body-bg: #F3F3F3;
+  --bs-body-bg: #ffffff;
+}
+@media screen and (min-width: 992px) {
+  body {
+    --bs-body-bg: #F3F3F3;
+  }
 }
 
 h1 {
@@ -30,6 +35,12 @@ ul.red-square li::before {
 
 .article {
   border-radius: 0 0 12px 12px;
+  padding-top: 190px;
+}
+@media screen and (min-width: 992px) {
+  .article {
+    padding-top: 100px;
+  }
 }
 
 .container.article {
@@ -53,4 +64,4 @@ ul.red-square li::before {
   background-color: #F3F3F3;
 }
 
-/*# sourceMappingURL=/global-overwrite.64627f38.css.map */
+/*# sourceMappingURL=/global-overwrite.46aa5593.css.map */

@@ -1,5 +1,9 @@
 body {
-    --bs-body-bg: #F3F3F3;
+    --bs-body-bg: #ffffff;
+
+    @media screen and (min-width: 992px) {
+        --bs-body-bg: #F3F3F3;
+    }
 }
 
 h1 {
@@ -33,6 +37,11 @@ ul {
 
 .article {
     border-radius: 0 0 12px 12px;
+    padding-top: 190px;
+
+    @media screen and (min-width: 992px) {
+        padding-top: 100px;
+    }
 }
 
 .container.article {

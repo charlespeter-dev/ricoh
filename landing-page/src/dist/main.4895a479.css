@@ -11946,7 +11946,12 @@ h4, .h4 {
   }
 }
 body {
-  --bs-body-bg: #F3F3F3;
+  --bs-body-bg: #ffffff;
+}
+@media screen and (min-width: 992px) {
+  body {
+    --bs-body-bg: #F3F3F3;
+  }
 }
 
 h1, .h1 {
@@ -11976,6 +11981,12 @@ ul.red-square li::before {
 
 .article {
   border-radius: 0 0 12px 12px;
+  padding-top: 190px;
+}
+@media screen and (min-width: 992px) {
+  .article {
+    padding-top: 100px;
+  }
 }
 
 .container.article {
@@ -12137,6 +12148,7 @@ ul.red-square li::before {
   position: absolute;
   bottom: -187.5px;
   width: 350px;
+  z-index: 1;
 }
 
 .banner-lp .left .callout .meta {
@@ -12203,11 +12215,6 @@ ul.red-square li::before {
   display: block;
   width: 130px;
 }
-.is-desktop .lp-ext-resources .link-container .link {
-  overflow-wrap: break-word;
-  word-break: break-word;
-  hyphens: auto;
-}
 
 .lp-ext-resources {
   background-color: #ffffff;
@@ -12226,13 +12233,21 @@ ul.red-square li::before {
   line-height: 1.5rem;
 }
 .lp-ext-resources .link {
-  width: 80%;
+  width: 90%;
   font-size: 0.875rem;
   line-height: 1.5rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
+@media screen and (min-width: 992px) {
+  .lp-ext-resources .link {
+    width: 80%;
+  }
 }
 .lp-ext-resources .link a {
   color: #CF142B !important;
   text-decoration: none;
 }
 
-/*# sourceMappingURL=/main.a1111193.css.map */
+/*# sourceMappingURL=/main.4895a479.css.map */
