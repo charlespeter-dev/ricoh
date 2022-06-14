@@ -24,13 +24,19 @@ h3 {
 
 ul.red-square {
   list-style: none;
+  display: table;
+}
+ul.red-square li {
+  display: table-row;
 }
 ul.red-square li::before {
   content: "■";
   color: #CF142B;
   font-weight: bold;
-  display: inline-block;
+  display: table-cell;
   width: 1em;
+  position: relative;
+  top: -0.1rem;
 }
 
 .breadcrumb-container {
@@ -77,4 +83,11 @@ ul.red-square li::before {
   background-color: #F3F3F3 !important;
 }
 
-/*# sourceMappingURL=/global-overwrite.85559b9d.css.map */
+.ext-resources a {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #CF142B !important;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=/global-overwrite.807914f2.css.map */

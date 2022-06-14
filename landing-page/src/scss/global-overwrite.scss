@@ -24,13 +24,20 @@ ul {
 
     &.red-square {
         list-style: none;
+        display: table;
+
+        li {
+            display: table-row;
+        }
 
         li::before {
             content: "\25A0";
             color: #CF142B;
             font-weight: bold;
-            display: inline-block;
+            display: table-cell;
             width: 1em;
+            position: relative;
+            top: -0.1rem;
         }
     }
 }
@@ -76,4 +83,14 @@ ul {
 
 .bg-grey {
     background-color: #F3F3F3 !important;
+}
+
+.ext-resources {
+
+    a {
+        font-size: 0.875rem; // desktop: 14px
+        line-height: 1.5rem; // desktop: 24px
+        color: #CF142B !important;
+        text-decoration: none;
+    }
 }

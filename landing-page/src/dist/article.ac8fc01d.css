@@ -11986,13 +11986,19 @@ h3, .h3 {
 
 ul.red-square {
   list-style: none;
+  display: table;
+}
+ul.red-square li {
+  display: table-row;
 }
 ul.red-square li::before {
   content: "■";
   color: #CF142B;
   font-weight: bold;
-  display: inline-block;
+  display: table-cell;
   width: 1em;
+  position: relative;
+  top: -0.1rem;
 }
 
 .breadcrumb-container {
@@ -12037,6 +12043,13 @@ ul.red-square li::before {
 
 .bg-grey {
   background-color: #F3F3F3 !important;
+}
+
+.ext-resources a {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #CF142B !important;
+  text-decoration: none;
 }
 
 .primary-nav {
@@ -12803,4 +12816,4 @@ footer .footer-bottom .footer-bottom-content .copyr {
   margin-top: 10px;
 }
 
-/*# sourceMappingURL=/article.d4126d84.css.map */
+/*# sourceMappingURL=/article.ac8fc01d.css.map */

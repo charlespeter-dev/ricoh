@@ -1,0 +1,21 @@
+.lp-mega-list {
+
+    ol {
+        ::marker {
+            font-weight: 700;
+            color: #CF142B;
+        }
+
+        li {
+            padding-left: 1.5rem;
+        }
+    }
+
+    .heading {
+        font-size: 1.25rem; // desktop: 20px
+        line-height: 1.5rem; // desktop: 24px
+        font-weight: 700;
+        color: #CF142B;
+        margin-bottom: 1rem;
+    }
+}
