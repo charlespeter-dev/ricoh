@@ -7,6 +7,17 @@
   flex-direction: column;
   justify-content: center;
 }
+.is-desktop .banner-lp::before {
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: calc((100vw - (100% - 1.1rem)) / -2);
+  width: 100vw;
+  z-index: -3;
+  background-color: #f3f3f3;
+}
 .is-desktop .banner-lp::after {
   content: "";
   display: block;
@@ -46,16 +57,28 @@
 .is-desktop .banner-lp .img-right {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 1.5rem;
   width: 375px;
   z-index: 3;
 }
 
 .is-mobile .banner-lp {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  padding-top: 50px;
+}
+.is-mobile .banner-lp::before {
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: calc((100vw - 100%) / -2);
+  width: 100vw;
+  z-index: -1;
+  background-color: #f3f3f3;
 }
 .is-mobile .banner-lp::after {
   content: "";
@@ -97,8 +120,8 @@
 .is-mobile .banner-lp .img-right {
   position: absolute;
   bottom: -187.5px;
-  width: 350px;
-  z-index: 1;
+  width: 300px;
+  z-index: 3;
 }
 
 .banner-lp .left .callout .meta {
@@ -114,4 +137,4 @@
   color: #CF142B;
 }
 
-/*# sourceMappingURL=/lp-banner.ff71e954.css.map */
+/*# sourceMappingURL=/lp-banner.aff3ab2c.css.map */

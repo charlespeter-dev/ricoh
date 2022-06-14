@@ -33,18 +33,28 @@ ul.red-square li::before {
   width: 1em;
 }
 
+.container {
+  position: relative;
+  background-color: #ffffff;
+  z-index: -1;
+}
+
 .article {
+  background-color: #ffffff;
   border-radius: 0 0 12px 12px;
   padding-top: 190px;
 }
 @media screen and (min-width: 992px) {
   .article {
     padding-top: 100px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
-
-.container.article {
-  background-color: #ffffff;
+.article .img-general-content {
+  border-radius: 12px;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .divider {
@@ -69,4 +79,4 @@ ul.red-square li::before {
   background-color: #F3F3F3;
 }
 
-/*# sourceMappingURL=/global-overwrite.0192e904.css.map */
+/*# sourceMappingURL=/global-overwrite.6d525d02.css.map */

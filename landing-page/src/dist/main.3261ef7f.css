@@ -11995,18 +11995,28 @@ ul.red-square li::before {
   width: 1em;
 }
 
+.container {
+  position: relative;
+  background-color: #ffffff;
+  z-index: -1;
+}
+
 .article {
+  background-color: #ffffff;
   border-radius: 0 0 12px 12px;
   padding-top: 190px;
 }
 @media screen and (min-width: 992px) {
   .article {
     padding-top: 100px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
-
-.container.article {
-  background-color: #ffffff;
+.article .img-general-content {
+  border-radius: 12px;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .divider {
@@ -12029,6 +12039,71 @@ ul.red-square li::before {
 
 .bg-grey {
   background-color: #F3F3F3;
+}
+
+.primary-nav {
+  background-color: #fff;
+  z-index: 5;
+}
+.primary-nav::before {
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: calc((100vw - (100% - 1.1rem)) / -2);
+  width: 100vw;
+  z-index: -2;
+  background-color: #fff;
+}
+.primary-nav::after {
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: calc((100vw - (100% - 1.1rem)) / -2);
+  width: 100vw;
+  z-index: -1;
+  background-color: #C9C9C9;
+}
+.primary-nav .navbar-brand img {
+  width: 146px;
+}
+.primary-nav .nav-link {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  color: #333333;
+}
+.primary-nav .nav-link.active {
+  color: #CF142B !important;
+}
+.primary-nav .mega-content {
+  width: 100%;
+}
+.primary-nav .nav-btn {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  text-decoration: none;
+  background-color: #CF142B;
+  color: #fff !important;
+  border-radius: 5px;
+  font-weight: 400;
+  display: inline-block;
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+@media screen and (min-width: 992px) {
+  .primary-nav .nav-btn {
+    margin-left: 1rem !important;
+  }
+}
+.primary-nav .nav-far-right .nav-item {
+  border-right: 0.5px solid #C9C9C9;
+}
+.primary-nav .nav-far-right .nav-item .nav-link {
+  padding: 20px;
 }
 
 .breadcrumb-container {
@@ -12078,6 +12153,17 @@ ul.red-square li::before {
   flex-direction: column;
   justify-content: center;
 }
+.is-desktop .banner-lp::before {
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: calc((100vw - (100% - 1.1rem)) / -2);
+  width: 100vw;
+  z-index: -3;
+  background-color: #f3f3f3;
+}
 .is-desktop .banner-lp::after {
   content: "";
   display: block;
@@ -12117,16 +12203,28 @@ ul.red-square li::before {
 .is-desktop .banner-lp .img-right {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 1.5rem;
   width: 375px;
   z-index: 3;
 }
 
 .is-mobile .banner-lp {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  padding-top: 50px;
+}
+.is-mobile .banner-lp::before {
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: calc((100vw - 100%) / -2);
+  width: 100vw;
+  z-index: -1;
+  background-color: #f3f3f3;
 }
 .is-mobile .banner-lp::after {
   content: "";
@@ -12168,8 +12266,8 @@ ul.red-square li::before {
 .is-mobile .banner-lp .img-right {
   position: absolute;
   bottom: -187.5px;
-  width: 350px;
-  z-index: 1;
+  width: 300px;
+  z-index: 3;
 }
 
 .banner-lp .left .callout .meta {
@@ -12500,7 +12598,7 @@ footer .h4 {
   color: #333333 !important;
 }
 footer .footer-top {
-  margin-top: 90px;
+  margin-top: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
   position: relative;
@@ -12614,4 +12712,4 @@ footer .footer-bottom .footer-bottom-content .copyr {
   }
 }
 
-/*# sourceMappingURL=/main.63ef7307.css.map */
+/*# sourceMappingURL=/main.3261ef7f.css.map */
