@@ -3,6 +3,7 @@
     padding-top: 0;
     padding-bottom: 0;
     background-color: #ffffff;
+    position: relative;
 
     @media screen and (min-width: 992px) {
         padding-left: 0;
@@ -14,12 +15,12 @@
 
     .bg-grey {
 
-        background-color: #ffffff;
+        background-color: #ffffff !important;
         position: relative;
         height: $fixed-mobile-height;
 
         @media screen and (min-width: 992px) {
-            background-color: #F3F3F3;
+            background-color: #F3F3F3 !important;
             height: $fixed-desktop-height;
             margin-top: 0;
         }

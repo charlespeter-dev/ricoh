@@ -35,10 +35,8 @@ ul {
     }
 }
 
-.container {
-    position: relative;
-    background-color: #ffffff;
-    z-index: -1;
+.breadcrumb-container {
+    margin-top: 65px;
 }
 
 .article {
@@ -59,10 +57,6 @@ ul {
     }
 }
 
-
-
-
-
 .divider {
     border-bottom: .5px solid #C9C9C9;
     margin: 30px 0;
@@ -81,5 +75,5 @@ ul {
 }
 
 .bg-grey {
-    background-color: #F3F3F3;
+    background-color: #F3F3F3 !important;
 }

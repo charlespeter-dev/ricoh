@@ -2,6 +2,7 @@
   padding-top: 0;
   padding-bottom: 0;
   background-color: #ffffff;
+  position: relative;
 }
 @media screen and (min-width: 992px) {
   .lp-card-3-columns {
@@ -10,13 +11,13 @@
   }
 }
 .lp-card-3-columns .bg-grey {
-  background-color: #ffffff;
+  background-color: #ffffff !important;
   position: relative;
   height: 100px;
 }
 @media screen and (min-width: 992px) {
   .lp-card-3-columns .bg-grey {
-    background-color: #F3F3F3;
+    background-color: #F3F3F3 !important;
     height: 210px;
     margin-top: 0;
   }
@@ -88,4 +89,4 @@
   display: none;
 }
 
-/*# sourceMappingURL=/lp-card-3-columns.96a3092c.css.map */
+/*# sourceMappingURL=/lp-card-3-columns.8c6f829e.css.map */

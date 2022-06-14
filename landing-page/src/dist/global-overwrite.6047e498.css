@@ -33,10 +33,8 @@ ul.red-square li::before {
   width: 1em;
 }
 
-.container {
-  position: relative;
-  background-color: #ffffff;
-  z-index: -1;
+.breadcrumb-container {
+  margin-top: 65px;
 }
 
 .article {
@@ -76,7 +74,7 @@ ul.red-square li::before {
 }
 
 .bg-grey {
-  background-color: #F3F3F3;
+  background-color: #F3F3F3 !important;
 }
 
-/*# sourceMappingURL=/global-overwrite.6d525d02.css.map */
+/*# sourceMappingURL=/global-overwrite.6047e498.css.map */
