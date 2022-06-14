@@ -44,7 +44,7 @@ ul.red-square li::before {
 }
 @media screen and (min-width: 992px) {
   .article {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
@@ -77,4 +77,4 @@ ul.red-square li::before {
   background-color: #F3F3F3 !important;
 }
 
-/*# sourceMappingURL=/global-overwrite.6047e498.css.map */
+/*# sourceMappingURL=/global-overwrite.fae83b5f.css.map */

@@ -12006,7 +12006,7 @@ ul.red-square li::before {
 }
 @media screen and (min-width: 992px) {
   .article {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
@@ -12451,7 +12451,7 @@ body.is-article {
 }
 
 .lp-lets-connect {
-  margin: 50px 0;
+  margin: 100px 0 50px 0;
   padding: 30px;
   background-color: #F3F3F3;
   border-radius: 10px 10px 0 0;
@@ -12805,4 +12805,4 @@ footer .footer-bottom .footer-bottom-content .copyr {
   margin-top: 10px;
 }
 
-/*# sourceMappingURL=/article.d5c3315d.css.map */
+/*# sourceMappingURL=/article.b51861ca.css.map */
