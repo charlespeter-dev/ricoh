@@ -12192,7 +12192,7 @@ ul.red-square li::before {
 }
 .is-desktop .banner-lp .right .img-bg-desktop {
   position: relative;
-  left: -70%;
+  left: -66%;
   z-index: -3;
   width: 100%;
   object-fit: cover;
@@ -12803,4 +12803,4 @@ footer .footer-bottom .footer-bottom-content .copyr {
   margin-top: 10px;
 }
 
-/*# sourceMappingURL=/article.41928784.css.map */
+/*# sourceMappingURL=/article.2b226dfa.css.map */

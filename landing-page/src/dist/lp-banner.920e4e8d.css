@@ -48,7 +48,7 @@
 }
 .is-desktop .banner-lp .right .img-bg-desktop {
   position: relative;
-  left: -70%;
+  left: -66%;
   z-index: -3;
   width: 100%;
   object-fit: cover;
@@ -135,4 +135,4 @@
   color: #CF142B;
 }
 
-/*# sourceMappingURL=/lp-banner.978b6ad3.css.map */
+/*# sourceMappingURL=/lp-banner.920e4e8d.css.map */
