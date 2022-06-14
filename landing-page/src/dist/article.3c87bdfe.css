@@ -12279,6 +12279,12 @@ ul.red-square li::before {
   z-index: 3;
 }
 
+.banner-lp .left .callout .title {
+  font-size: 2.75rem;
+  line-height: 3rem;
+  font-weight: 700;
+  color: #333333;
+}
 .banner-lp .left .callout .meta {
   display: flex;
   flex-direction: row;
@@ -12816,4 +12822,4 @@ footer .footer-bottom .footer-bottom-content .copyr {
   margin-top: 10px;
 }
 
-/*# sourceMappingURL=/article.ac8fc01d.css.map */
+/*# sourceMappingURL=/article.3c87bdfe.css.map */
