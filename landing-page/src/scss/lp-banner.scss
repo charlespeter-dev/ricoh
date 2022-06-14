@@ -17,7 +17,7 @@
         &::after {
             content: '';
             display: block;
-            height: 6px;
+            height: 5px;
             position: absolute;
             bottom: 0;
             left: calc((100vw - (100% - 1.1rem)) / -2);
@@ -65,7 +65,6 @@
 
                 width: 100%;
                 object-fit: cover;
-                opacity: .3;
             }
         }
 
@@ -107,7 +106,7 @@
         &::after {
             content: '';
             display: block;
-            height: 6px;
+            height: 5px;
             position: absolute;
             bottom: 0;
             left: calc((100vw - 100%) / -2);
@@ -133,7 +132,7 @@
         .right {
 
             position: relative;
-            min-height: 280px;
+            min-height: 200px;
 
             .img-bg-mobile {
 
@@ -146,7 +145,6 @@
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: 50%;
-                opacity: .3;
             }
 
             .img-bg-desktop {
@@ -156,7 +154,7 @@
 
         .img-right {
             position: absolute;
-            bottom: -187.5px;
+            bottom: -77.5px;
             width: 300px;
             z-index: 3;
         }
