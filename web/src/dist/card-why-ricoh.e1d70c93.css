@@ -1,0 +1,56 @@
+.card-why-ricoh {
+  margin: 30px 0 50px;
+}
+
+.card-why-ricoh .grey {
+  background-color: #f3f3f3;
+  border-radius: 12px;
+  margin-top: 50px;
+  padding: 50px 30px;
+}
+
+@media screen and (min-width: 992px) {
+  .card-why-ricoh .grey {
+    padding: 30px 50px 50px;
+  }
+}
+
+.card-why-ricoh .grey h3 {
+  color: #333;
+  font-weight: 700;
+}
+
+.card-why-ricoh .group, .card-why-ricoh .group > .row .col {
+  margin-top: 100px;
+}
+
+@media screen and (min-width: 992px) {
+  .card-why-ricoh .group > .row .col {
+    margin-top: 0;
+  }
+}
+
+.card-why-ricoh .group > .row .col:nth-of-type(1) {
+  margin-top: 0;
+}
+
+.card-why-ricoh .group .card {
+  border-bottom: 6px solid #cf142b;
+  border-radius: 12px 12px 5px 5px;
+}
+
+.card-why-ricoh .group .card img {
+  width: 111px;
+  height: 111px;
+  margin-top: -50px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.card-why-ricoh .group .card .card-body .card-title {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+

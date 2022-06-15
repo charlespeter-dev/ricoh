@@ -1,0 +1,15 @@
+.lp-table {
+  background-color: #fff;
+  margin: 50px 0;
+}
+
+.lp-table .table {
+  --bs-table-striped-color: #e56c74;
+  color: #333;
+}
+
+.lp-table .heading {
+  color: #fff;
+  background-color: #e56c74;
+}
+

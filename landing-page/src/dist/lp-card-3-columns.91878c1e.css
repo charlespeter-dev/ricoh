@@ -1,0 +1,117 @@
+.lp-card-3-columns {
+  background-color: #fff;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+}
+
+@media screen and (min-width: 992px) {
+  .lp-card-3-columns {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.lp-card-3-columns h1 {
+  margin-bottom: 0;
+}
+
+.lp-card-3-columns .bg-grey {
+  height: 100px;
+  position: relative;
+  background-color: #fff !important;
+}
+
+@media screen and (min-width: 992px) {
+  .lp-card-3-columns .bg-grey {
+    height: 210px;
+    margin-top: 0;
+    background-color: #f3f3f3 !important;
+  }
+}
+
+.lp-card-3-columns .bg-grey:before {
+  content: "";
+  height: 100%;
+  width: 100vw;
+  z-index: -1;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50% - .55rem);
+}
+
+@media screen and (min-width: 992px) {
+  .lp-card-3-columns .bg-grey:before {
+    background-color: #f3f3f3;
+  }
+}
+
+.lp-card-3-columns .bg-white {
+  padding-bottom: 0;
+  position: relative;
+}
+
+@media screen and (min-width: 992px) {
+  .lp-card-3-columns .bg-white {
+    padding-bottom: 0;
+  }
+}
+
+.lp-card-3-columns .bg-white:before {
+  content: "";
+  height: 100%;
+  width: 100vw;
+  z-index: -1;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50% - .55rem);
+}
+
+.lp-card-3-columns .bg-white .row > .col {
+  margin-block-start: 60px;
+}
+
+@media screen and (min-width: 992px) {
+  .lp-card-3-columns .bg-white .row > .col {
+    margin-block-start: -100px;
+    position: relative;
+  }
+}
+
+.lp-card-3-columns .heading {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+@media screen and (min-width: 992px) {
+  .lp-card-3-columns .heading {
+    margin-top: 100px;
+  }
+}
+
+.lp-card-3-columns .heading .view-more-story {
+  display: block;
+}
+
+.lp-card-3-columns .heading .view-more-story a {
+  color: #cf142b;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+  .lp-card-3-columns .heading .view-more-story {
+    margin-left: auto;
+  }
+}
+
+.lp-card-3-columns:before {
+  display: none;
+}
+
