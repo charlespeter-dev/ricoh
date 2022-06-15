@@ -1,0 +1,44 @@
+.lp-callout-percentage .percentage-container {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.lp-callout-percentage .percentage-container .percent-container {
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.lp-callout-percentage .percentage-container .percent-container img {
+  width: 70px;
+}
+
+.lp-callout-percentage .percentage-container .percent-container .percent {
+  color: #cf142b;
+  background-color: #fff;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 2.0625rem;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.lp-callout-percentage .percentage-container .percent-text {
+  color: #333;
+  margin-left: 15px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+@media screen and (min-width: 992px) {
+  .lp-callout-percentage .percentage-container .percent-text {
+    margin-left: 15px;
+  }
+}
+
+/*# sourceMappingURL=lp-callout-percentage.0162407d.css.map */
