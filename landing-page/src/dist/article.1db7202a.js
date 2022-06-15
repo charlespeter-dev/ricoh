@@ -521,4 +521,4 @@ mql.addEventListener("change", attach);
 
 },{}]},["cpEj6","leca6"], "leca6", "parcelRequire7514")
 
-//# sourceMappingURL=article.1db7202a.js.map
+//# sourceMappingURL=lp-banner.1db7202a.js.map

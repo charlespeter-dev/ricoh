@@ -18912,6 +18912,11 @@ h4, .h4 {
   }
 }
 
+.card-why-ricoh .grey h3, .card-why-ricoh .grey .h3 {
+  color: #333;
+  font-weight: 700;
+}
+
 .card-why-ricoh .group, .card-why-ricoh .group > .row .col {
   margin-top: 100px;
 }
@@ -18940,6 +18945,7 @@ h4, .h4 {
 }
 
 .card-why-ricoh .group .card .card-body .card-title {
+  color: #333;
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.75rem;
