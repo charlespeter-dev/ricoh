@@ -12489,6 +12489,9 @@ h4, .h4 {
   background-color: #F3F3F3;
 }
 
+.lets-connect {
+  margin-bottom: 50px;
+}
 .lets-connect .bg-grey {
   background-color: #F3F3F3;
   position: relative;
@@ -12571,8 +12574,14 @@ footer h4,
 footer .h4 {
   color: #333333 !important;
 }
+footer .ribbon-footer {
+  position: absolute;
+  top: 0;
+  right: calc((100vw - (100% + 1.1rem)) / -2);
+  height: 140px;
+  width: 140px;
+}
 footer .footer-top {
-  margin-top: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
   position: relative;
@@ -12774,4 +12783,4 @@ footer .footer-bottom .footer-bottom-content .copyr {
   text-decoration: none !important;
 }
 
-/*# sourceMappingURL=/main.c06aa700.css.map */
+/*# sourceMappingURL=/main.a63510fb.css.map */

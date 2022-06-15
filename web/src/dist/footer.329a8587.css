@@ -7,8 +7,14 @@ footer p,
 footer h4 {
   color: #333333 !important;
 }
+footer .ribbon-footer {
+  position: absolute;
+  top: 0;
+  right: calc((100vw - (100% + 1.1rem)) / -2);
+  height: 140px;
+  width: 140px;
+}
 footer .footer-top {
-  margin-top: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
   position: relative;
@@ -122,4 +128,4 @@ footer .footer-bottom .footer-bottom-content .copyr {
   }
 }
 
-/*# sourceMappingURL=/footer.6f494d7b.css.map */
+/*# sourceMappingURL=/footer.329a8587.css.map */
