@@ -1,0 +1,18 @@
+.split-text {
+  background-color: #fef5f5;
+  border-bottom: 6px solid #cf142b;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin: 30px 0 50px;
+  padding: 50px 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .split-text {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 50px 60px;
+  }
+}
+
+/*# sourceMappingURL=split-text.91ab0dca.css.map */

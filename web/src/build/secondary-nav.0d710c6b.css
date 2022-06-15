@@ -1,0 +1,112 @@
+.is-mobile .secondary-nav-desktop {
+  display: none;
+}
+
+.is-mobile .secondary-nav-mobile {
+  z-index: 2;
+  background-color: #fff;
+  margin-top: 50px;
+  display: block;
+}
+
+.is-mobile .secondary-nav-mobile:before {
+  content: "";
+  height: 100%;
+  width: 100vw;
+  z-index: -2;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50% - .55rem);
+}
+
+.is-mobile .secondary-nav-mobile:after {
+  content: "";
+  height: 1px;
+  width: 100vw;
+  z-index: -1;
+  background-color: #c9c9c9;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: calc(-50vw + 50% - .55rem);
+}
+
+.is-mobile .secondary-nav-mobile.form-select-lg {
+  padding-left: 0;
+}
+
+.is-mobile .secondary-nav-mobile.sticky-secondary-nav-mobile {
+  top: 63px;
+}
+
+.is-mobile .secondary-nav-mobile .form-select {
+  color: #cf142b;
+  border: none;
+  border-radius: 0;
+  padding: .375rem 2.25rem .375rem 0;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.is-desktop .secondary-nav-desktop {
+  z-index: 2;
+  background-color: #fff;
+  display: block;
+}
+
+.is-desktop .secondary-nav-desktop:before {
+  content: "";
+  height: 100%;
+  width: 100vw;
+  z-index: -2;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50% - .55rem);
+}
+
+.is-desktop .secondary-nav-desktop:after {
+  content: "";
+  height: 1px;
+  width: 100vw;
+  z-index: -1;
+  background-color: #c9c9c9;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: calc(-50vw + 50% - .55rem);
+}
+
+.is-desktop .secondary-nav-desktop .nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.is-desktop .secondary-nav-desktop .nav-link {
+  color: #cf142b;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.is-desktop .secondary-nav-desktop .nav-item {
+  border-right: .5px solid #c9c9c9;
+}
+
+.is-desktop .secondary-nav-desktop .nav-item:nth-last-of-type(1) {
+  border-right: none;
+}
+
+@media screen and (min-width: 992px) {
+  .is-desktop .secondary-nav-desktop.sticky-secondary-nav-desktop {
+    top: 65px;
+  }
+}
+
+.is-desktop .secondary-nav-mobile {
+  display: none;
+}
+
+/*# sourceMappingURL=secondary-nav.0d710c6b.css.map */
