@@ -65,6 +65,8 @@
 
         .row>.col {
 
+            margin-block-start: 60px;
+
             @media screen and (min-width: 992px) {
 
                 position: relative;

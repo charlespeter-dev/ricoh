@@ -58,6 +58,9 @@
   z-index: -1;
   background-color: #ffffff;
 }
+.lp-card-3-columns .bg-white .row > .col {
+  margin-block-start: 60px;
+}
 @media screen and (min-width: 992px) {
   .lp-card-3-columns .bg-white .row > .col {
     position: relative;
@@ -89,4 +92,4 @@
   display: none;
 }
 
-/*# sourceMappingURL=/lp-card-3-columns.8c6f829e.css.map */
+/*# sourceMappingURL=/lp-card-3-columns.e50f9723.css.map */
