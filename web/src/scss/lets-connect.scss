@@ -2,6 +2,10 @@
 
     margin-bottom: 50px;
 
+    @media screen and (min-width: 992px) {
+        margin-bottom: 100px;
+    }
+
     $fixed-mobile-height: 467px;
     $fixed-desktop-height: 244px;
 

@@ -12492,6 +12492,11 @@ h4, .h4 {
 .lets-connect {
   margin-bottom: 50px;
 }
+@media screen and (min-width: 992px) {
+  .lets-connect {
+    margin-bottom: 100px;
+  }
+}
 .lets-connect .bg-grey {
   background-color: #F3F3F3;
   position: relative;
@@ -12783,4 +12788,4 @@ footer .footer-bottom .footer-bottom-content .copyr {
   text-decoration: none !important;
 }
 
-/*# sourceMappingURL=/main.a63510fb.css.map */
+/*# sourceMappingURL=/main.9e111f24.css.map */
