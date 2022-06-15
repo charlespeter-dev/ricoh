@@ -12466,6 +12466,11 @@ h4, .h4 {
   width: 111px;
   height: 111px;
 }
+.card-why-ricoh .group .card .card-body .card-title {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
 
 .card-partner {
   background-color: #F3F3F3;
@@ -12788,4 +12793,4 @@ footer .footer-bottom .footer-bottom-content .copyr {
   text-decoration: none !important;
 }
 
-/*# sourceMappingURL=/main.9e111f24.css.map */
+/*# sourceMappingURL=/main.5bcc061a.css.map */

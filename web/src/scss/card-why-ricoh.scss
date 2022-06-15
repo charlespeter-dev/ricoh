@@ -44,6 +44,14 @@
                 width: 111px;
                 height: 111px;
             }
+
+            .card-body {
+                .card-title {
+                    font-size: 1.5rem; // desktop: 24px
+                    line-height: 1.75rem; // desktop: 28px
+                    font-weight: 700;
+                }
+            }
         }
 
     }
