@@ -8,7 +8,10 @@ body.is-article {
 }
 
 .lp-lets-connect {
-  margin: 100px 0 50px 0;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 50px;
+  margin-left: 0;
   padding: 30px;
   background-color: #F3F3F3;
   border-radius: 10px 10px 0 0;
@@ -17,6 +20,9 @@ body.is-article {
 @media screen and (min-width: 992px) {
   .lp-lets-connect {
     width: 375px;
+    margin-top: 100px;
+    margin-right: 0;
+    margin-bottom: 50px;
     margin-left: auto;
   }
 }
@@ -43,4 +49,4 @@ body.is-article {
   color: #333333;
 }
 
-/*# sourceMappingURL=/lp-lets-connect.663da53a.css.map */
+/*# sourceMappingURL=/lp-lets-connect.a10221c2.css.map */
