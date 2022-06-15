@@ -10,6 +10,9 @@
     padding-right: 0;
   }
 }
+.lp-card-3-columns h1 {
+  margin-bottom: 0;
+}
 .lp-card-3-columns .bg-grey {
   background-color: #ffffff !important;
   position: relative;
@@ -80,7 +83,10 @@
 }
 .lp-card-3-columns .heading .view-more-story {
   display: block;
+}
+.lp-card-3-columns .heading .view-more-story a {
   color: #CF142B;
+  text-decoration: none;
   font-weight: 700;
 }
 @media screen and (min-width: 992px) {
@@ -92,4 +98,4 @@
   display: none;
 }
 
-/*# sourceMappingURL=/lp-card-3-columns.e50f9723.css.map */
+/*# sourceMappingURL=/lp-card-3-columns.3c0b59bd.css.map */
