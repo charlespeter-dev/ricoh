@@ -1,6 +1,6 @@
 @font-face {
   font-family: bootstrap-icons;
-  src: url("bootstrap-icons.cbde29e7.woff2") format("woff2"), url("bootstrap-icons.32eedf07.woff") format("woff");
+  src: url("bootstrap-icons.3308eefe.woff2") format("woff2"), url("bootstrap-icons.966a02ac.woff") format("woff");
 }
 
 .bi:before, [class^="bi-"]:before, [class*=" bi-"]:before {
@@ -18182,21 +18182,21 @@ textarea.form-control-lg {
 
 @font-face {
   font-family: Frutiger;
-  src: url("FrutigerLTStd-Light-woff2.0ddf12a1.woff2") format("woff2"), url("FrutigerLTStd-Light-woff.c9c21f3a.woff") format("woff");
+  src: url("FrutigerLTStd-Light-woff2.e1630918.woff2") format("woff2"), url("FrutigerLTStd-Light-woff.e7506bba.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: Frutiger;
-  src: url("FrutigerLTStd-Roman-woff2.b4a88057.woff2") format("woff2"), url("FrutigerLTStd-Roman-woff.8de00401.woff") format("woff");
+  src: url("FrutigerLTStd-Roman-woff2.1b45a5d4.woff2") format("woff2"), url("FrutigerLTStd-Roman-woff.2f00a306.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: Frutiger Bold;
-  src: url("FrutigerLTStd-Bold-woff2.2246b3f1.woff2") format("woff2"), url("FrutigerLTStd-Bold-woff.da809f06.woff") format("woff");
+  src: url("FrutigerLTStd-Bold-woff2.3e253228.woff2") format("woff2"), url("FrutigerLTStd-Bold-woff.7e331317.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -18205,7 +18205,7 @@ textarea.form-control-lg {
   font-family: ricons;
   font-style: normal;
   font-weight: normal;
-  src: url("ricons-woff2.7dd53b19.woff2") format("woff2"), url("ricons-woff.b4a88fba.woff") format("woff");
+  src: url("ricons-woff2.15c08712.woff2") format("woff2"), url("ricons-woff.1b8f27a9.woff") format("woff");
 }
 
 html {
@@ -19356,3 +19356,4 @@ footer .footer-bottom .footer-bottom-content .copyr {
   text-decoration: none !important;
 }
 
+/*# sourceMappingURL=main2.e3490e38.css.map */

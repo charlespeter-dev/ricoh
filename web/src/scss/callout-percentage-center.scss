@@ -1,4 +1,5 @@
 .callout-percentage-center {
+
     padding: 20px 0 50px 0;
     position: relative;
     display: flex;
@@ -7,6 +8,32 @@
 
     @media screen and (min-width: 992px) {
         padding: 30px 0 50px 0;
+    }
+
+    &.reverse {
+
+        @media screen and (min-width: 992px) {
+            margin: 0 100px;
+        }
+
+        .percentage-container {
+
+            flex-direction: column-reverse;
+
+            @media screen and (min-width: 992px) {
+                flex-direction: row-reverse;
+            }
+
+            .percent-text {
+
+                margin-bottom: 30px;
+
+                @media screen and (min-width: 992px) {
+                    margin-left: 0;
+                    margin-right: 10px;
+                }
+            }
+        }
     }
 
     .percentage-container {
@@ -53,6 +80,14 @@
 
             @media screen and (min-width: 992px) {
                 margin-left: 80px;
+            }
+
+            .source {
+                font-size: 1.5rem; // desktop 24px
+                line-height: 1.75rem; // desktop 28px
+                font-weight: 700;
+                color: #666666;
+                margin-top: 10px;
             }
         }
     }
