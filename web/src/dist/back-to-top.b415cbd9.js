@@ -519,5 +519,5 @@ let attach = (e)=>{
 window.addEventListener("DOMContentLoaded", attach(mql));
 mql.addEventListener("change", attach);
 
-},{}]},["kPV0P","97BtM"], "97BtM", "parcelRequire7514")
+},{}]},["kPV0P","97BtM"], "97BtM", "parcelRequire2f87")
 

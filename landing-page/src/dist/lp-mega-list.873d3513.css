@@ -1,3 +1,8 @@
+.lp-mega-list.reverse ol {
+  flex-direction: column-reverse;
+  display: flex;
+}
+
 .lp-mega-list ol {
   padding-left: 1rem;
 }

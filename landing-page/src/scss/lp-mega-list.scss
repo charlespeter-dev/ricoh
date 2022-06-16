@@ -1,5 +1,12 @@
 .lp-mega-list {
 
+    &.reverse {
+        ol {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+
     ol {
 
         padding-left: 1rem;

@@ -18,3 +18,10 @@
   line-height: 2.25rem;
 }
 
+.lp-callout-quote .text .source {
+  color: #666;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+

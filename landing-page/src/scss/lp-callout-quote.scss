@@ -16,5 +16,12 @@
         border-left: 5px solid #CF142B;
         padding-left: 30px;
         margin-top: 30px;
+
+        .source {
+            font-size: 1.125rem; // desktop 18px
+            line-height: 1.75rem; // desktop 28px
+            font-weight: 700;
+            color: #666666;
+        }
     }
 }
