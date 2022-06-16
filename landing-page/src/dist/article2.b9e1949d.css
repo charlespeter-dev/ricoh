@@ -18375,10 +18375,6 @@ ul.red-square li:before {
   top: -.1rem;
 }
 
-.breadcrumb-container {
-  margin-top: 65px;
-}
-
 .article {
   background-color: #fff;
   border-radius: 0 0 12px 12px;
@@ -18434,7 +18430,6 @@ ul.red-square li:before {
 }
 
 .primary-nav {
-  z-index: 5;
   background-color: #fff;
 }
 
@@ -18460,6 +18455,11 @@ ul.red-square li:before {
   position: absolute;
   bottom: 0;
   left: calc(-50vw + 50% - .55rem);
+}
+
+.primary-nav.primary-nav.fixed-top {
+  padding-left: .75rem;
+  padding-right: .75rem;
 }
 
 .primary-nav .navbar-brand img {
@@ -18509,6 +18509,7 @@ ul.red-square li:before {
 }
 
 .breadcrumb-container {
+  margin-top: 65px;
   position: relative;
 }
 

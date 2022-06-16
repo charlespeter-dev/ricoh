@@ -41,10 +41,6 @@ ul.red-square li:before {
   top: -.1rem;
 }
 
-.breadcrumb-container {
-  margin-top: 65px;
-}
-
 .article {
   background-color: #fff;
   border-radius: 0 0 12px 12px;

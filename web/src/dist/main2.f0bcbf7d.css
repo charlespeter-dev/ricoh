@@ -18333,7 +18333,6 @@ h4, .h4 {
 }
 
 .primary-nav {
-  z-index: 5;
   background-color: #fff;
 }
 
@@ -18359,6 +18358,11 @@ h4, .h4 {
   position: absolute;
   bottom: 0;
   left: calc(-50vw + 50% - .55rem);
+}
+
+.primary-nav.primary-nav.fixed-top {
+  padding-left: .75rem;
+  padding-right: .75rem;
 }
 
 .primary-nav .navbar-brand img {
@@ -19409,6 +19413,7 @@ footer .footer-bottom .footer-bottom-content .copyr {
 }
 
 .breadcrumb-container {
+  margin-top: 65px;
   position: relative;
 }
 

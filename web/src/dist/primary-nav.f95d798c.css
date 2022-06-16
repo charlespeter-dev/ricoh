@@ -1,5 +1,4 @@
 .primary-nav {
-  z-index: 5;
   background-color: #fff;
 }
 
@@ -25,6 +24,11 @@
   position: absolute;
   bottom: 0;
   left: calc(-50vw + 50% - .55rem);
+}
+
+.primary-nav.primary-nav.fixed-top {
+  padding-left: .75rem;
+  padding-right: .75rem;
 }
 
 .primary-nav .navbar-brand img {

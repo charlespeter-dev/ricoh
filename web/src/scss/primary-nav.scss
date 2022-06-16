@@ -1,4 +1,6 @@
 .primary-nav {
+    
+    background-color: #fff;
 
     &::before {
         content: '';
@@ -24,8 +26,10 @@
         background-color: #C9C9C9;
     }
 
-    background-color: #fff;
-    z-index: 5;
+    &.primary-nav.fixed-top {
+        padding-right: .75rem;
+        padding-left: .75rem;
+    }
 
     .navbar-brand {
         img {
