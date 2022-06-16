@@ -29,11 +29,14 @@
 }
 
 .callout-percentage-center.reverse .percentage-container .percent-text {
+  margin-top: unset;
+  left: unset;
   margin-bottom: 30px;
 }
 
 @media screen and (min-width: 992px) {
   .callout-percentage-center.reverse .percentage-container .percent-text {
+    margin-bottom: 0;
     margin-left: 0;
     margin-right: 10px;
   }
@@ -65,7 +68,6 @@
 }
 
 .callout-percentage-center .percentage-container .percent-container .percent {
-  height: 110px;
   color: #cf142b;
   background-color: #fff;
   font-size: 6.25rem;
@@ -75,17 +77,26 @@
   left: 40px;
 }
 
+@media screen and (min-width: 992px) {
+  .callout-percentage-center .percentage-container .percent-container .percent {
+    position: relative;
+    left: -150px;
+  }
+}
+
 .callout-percentage-center .percentage-container .percent-text {
   color: #cf142b;
-  margin-left: 0;
+  margin-top: 30px;
   font-size: 2rem;
   font-weight: 700;
   line-height: 2.25rem;
+  position: relative;
 }
 
 @media screen and (min-width: 992px) {
   .callout-percentage-center .percentage-container .percent-text {
-    margin-left: 80px;
+    margin-top: 0;
+    left: -120px;
   }
 }
 
