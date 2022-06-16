@@ -18429,11 +18429,21 @@ ul.red-square li:before {
   color: #cf142b !important;
 }
 
-.primary-nav {
-  background-color: #fff;
+.primary-nav, .primary-nav .navbar {
+  position: relative;
 }
 
-.primary-nav:before {
+@media screen and (min-width: 992px) {
+  .primary-nav .navbar {
+    z-index: 1030;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.primary-nav .navbar:before {
   content: "";
   height: 100%;
   width: 100vw;
@@ -18445,7 +18455,7 @@ ul.red-square li:before {
   left: calc(-50vw + 50% - .55rem);
 }
 
-.primary-nav:after {
+.primary-nav .navbar:after {
   content: "";
   height: 1px;
   width: 100vw;
@@ -18455,11 +18465,6 @@ ul.red-square li:before {
   position: absolute;
   bottom: 0;
   left: calc(-50vw + 50% - .55rem);
-}
-
-.primary-nav.primary-nav.fixed-top {
-  padding-left: .75rem;
-  padding-right: .75rem;
 }
 
 .primary-nav .navbar-brand img {
