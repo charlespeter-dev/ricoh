@@ -18220,6 +18220,7 @@ body {
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.75rem;
   --bs-body-text-align: left;
+  padding-top: 65px;
 }
 
 p {

@@ -4,15 +4,14 @@
 
     .navbar {
 
-        position: relative;
+        z-index: 1030;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
 
-        @media screen and (min-width: 992px) {
-            z-index: 1030;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-        }
+        padding-left: .75rem;
+        padding-right: .75rem;
 
         &::before {
             content: '';

@@ -18220,6 +18220,7 @@ body {
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.75rem;
   --bs-body-text-align: left;
+  padding-top: 65px;
 }
 
 p {
@@ -18429,18 +18430,18 @@ ul.red-square li:before {
   color: #cf142b !important;
 }
 
-.primary-nav, .primary-nav .navbar {
+.primary-nav {
   position: relative;
 }
 
-@media screen and (min-width: 992px) {
-  .primary-nav .navbar {
-    z-index: 1030;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
+.primary-nav .navbar {
+  z-index: 1030;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .primary-nav .navbar:before {
@@ -18514,7 +18515,6 @@ ul.red-square li:before {
 }
 
 .breadcrumb-container {
-  margin-top: 65px;
   position: relative;
 }
 
