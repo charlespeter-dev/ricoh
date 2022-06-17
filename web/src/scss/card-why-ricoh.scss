@@ -3,6 +3,7 @@
     margin: 30px 0 50px 0;
 
     .grey {
+
         background-color: #F3F3F3;
         padding: 50px 30px 50px 30px;
         margin-top: 50px;
@@ -20,45 +21,45 @@
 
     .group {
 
-        margin-top: 100px;
+        margin-top: 50px;
 
-        >.row .col {
-            margin-top: 100px;
-
-            @media screen and (min-width: 992px) {
-                margin-top: 0;
-            }
+        @media screen and (min-width: 992px) {
+            margin-top: 70px;
         }
 
-        >.row .col:nth-of-type(1) {
-            margin-top: 0;
-        }
+        .card-top-buffer {
 
-        .card {
-            border-bottom: 6px solid #CF142B;
-            border-top-left-radius: 12px;
-            border-top-right-radius: 12px;
-            border-bottom-left-radius: 5px;
-            border-bottom-right-radius: 5px;
+            padding-top: 50px;
 
+            .card {
 
-            img {
+                border-bottom: 5px solid #CF142B;
+                border-top-left-radius: 12px;
+                border-top-right-radius: 12px;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
                 position: relative;
-                margin-top: -50px;
-                margin-left: 30px;
-                width: 111px;
-                height: 111px;
-            }
 
-            .card-body {
-                .card-title {
-                    font-size: 1.5rem; // desktop: 24px
-                    line-height: 1.75rem; // desktop: 28px
-                    font-weight: 700;
-                    color: #333333;
+
+                img {
+                    position: relative;
+                    margin-top: -50px;
+                    left: 30px;
+                    width: 111px;
+                    height: 111px;
+                }
+
+                .card-body {
+
+                    .card-title {
+
+                        font-size: 1.5rem; // desktop: 24px
+                        line-height: 1.75rem; // desktop: 28px
+                        font-weight: 700;
+                        color: #333333;
+                    }
                 }
             }
         }
-
     }
 }

@@ -18994,34 +18994,35 @@ h4, .h4 {
   font-weight: 700;
 }
 
-.card-why-ricoh .group, .card-why-ricoh .group > .row .col {
-  margin-top: 100px;
+.card-why-ricoh .group {
+  margin-top: 50px;
 }
 
 @media screen and (min-width: 992px) {
-  .card-why-ricoh .group > .row .col {
-    margin-top: 0;
+  .card-why-ricoh .group {
+    margin-top: 70px;
   }
 }
 
-.card-why-ricoh .group > .row .col:nth-of-type(1) {
-  margin-top: 0;
+.card-why-ricoh .group .card-top-buffer {
+  padding-top: 50px;
 }
 
-.card-why-ricoh .group .card {
-  border-bottom: 6px solid #cf142b;
-  border-radius: 12px 12px 5px 5px;
-}
-
-.card-why-ricoh .group .card img {
-  width: 111px;
-  height: 111px;
-  margin-top: -50px;
-  margin-left: 30px;
+.card-why-ricoh .group .card-top-buffer .card {
+  border-bottom: 5px solid #cf142b;
+  border-radius: 12px 12px 0 0;
   position: relative;
 }
 
-.card-why-ricoh .group .card .card-body .card-title {
+.card-why-ricoh .group .card-top-buffer .card img {
+  width: 111px;
+  height: 111px;
+  margin-top: -50px;
+  position: relative;
+  left: 30px;
+}
+
+.card-why-ricoh .group .card-top-buffer .card .card-body .card-title {
   color: #333;
   font-size: 1.5rem;
   font-weight: 700;
