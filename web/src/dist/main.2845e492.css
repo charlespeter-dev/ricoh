@@ -18931,16 +18931,6 @@ h4, .h4 {
   margin-top: 0;
 }
 
-.card-3-columns .cards .col {
-  margin-top: 60px;
-}
-
-@media screen and (min-width: 992px) {
-  .card-3-columns .cards .col {
-    margin-top: 0;
-  }
-}
-
 .card-3-columns .cards .card {
   border-radius: 12px;
   padding-bottom: 2rem;

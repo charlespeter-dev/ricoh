@@ -10,7 +10,7 @@
         padding-right: 0;
     }
 
-    $fixed-mobile-height: 100px;
+    $fixed-mobile-height: 90px;
     $fixed-desktop-height: 210px;
 
 
@@ -68,14 +68,12 @@
             background-color: #ffffff;
         }
 
-        .row>.col {
-
-            margin-block-start: 60px;
+        .cards {
 
             @media screen and (min-width: 992px) {
 
                 position: relative;
-                margin-block-start: -100px;
+                top: -150px;
             }
         }
     }

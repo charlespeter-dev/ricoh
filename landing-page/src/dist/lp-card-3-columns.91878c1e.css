@@ -17,7 +17,7 @@
 }
 
 .lp-card-3-columns .bg-grey {
-  height: 100px;
+  height: 90px;
   position: relative;
   background-color: #fff !important;
 }
@@ -71,14 +71,10 @@
   left: calc(-50vw + 50% - .55rem);
 }
 
-.lp-card-3-columns .bg-white .row > .col {
-  margin-block-start: 60px;
-}
-
 @media screen and (min-width: 992px) {
-  .lp-card-3-columns .bg-white .row > .col {
-    margin-block-start: -100px;
+  .lp-card-3-columns .bg-white .cards {
     position: relative;
+    top: -150px;
   }
 }
 
