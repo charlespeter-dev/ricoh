@@ -1,40 +1,49 @@
-.lp-mega-list {
+@import "../../../web/src/scss/global";
+@import "global-overwrite";
+@import "../../../web/src/scss/functions";
+@import "../../../web/src/scss/mixins";
+@import "../../../web/src/scss/themes";
 
-    &.reverse {
+@include themify($themes) {
+
+    .lp-mega-list {
+
+        &.reverse {
+            ol {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+        }
+
         ol {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-    }
 
-    ol {
-
-        padding-left: 1rem;
-
-        @media screen and (min-width:992px) {
-            padding-left: 2rem;
-        }
-
-
-        ::marker {
-            font-weight: 700;
-            color: #CF142B;
-        }
-
-        li {
             padding-left: 1rem;
 
             @media screen and (min-width:992px) {
-                padding-left: 1.5rem;
+                padding-left: 2rem;
+            }
+
+
+            ::marker {
+                font-weight: 700;
+                color: themed('primaryColor');
+            }
+
+            li {
+                padding-left: 1rem;
+
+                @media screen and (min-width:992px) {
+                    padding-left: 1.5rem;
+                }
             }
         }
-    }
 
-    .heading {
-        font-size: 1.25rem; // desktop: 20px
-        line-height: 1.5rem; // desktop: 24px
-        font-weight: 700;
-        color: #CF142B;
-        margin-bottom: 1rem;
+        .heading {
+            font-size: 1.25rem; // desktop: 20px
+            line-height: 1.5rem; // desktop: 24px
+            font-weight: 700;
+            color: themed('primaryColor');
+            margin-bottom: 1rem;
+        }
     }
 }

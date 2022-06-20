@@ -24,24 +24,27 @@ h3 {
     font-weight: 700;
 }
 
-ul {
+@include themify($themes) {
 
-    &.red-square {
-        list-style: none;
-        display: table;
+    ul {
 
-        li {
-            display: table-row;
-        }
+        &.marker-theme-color {
+            list-style: none;
+            display: table;
 
-        li::before {
-            content: "\25A0";
-            color: #CF142B;
-            font-weight: bold;
-            display: table-cell;
-            width: 1em;
-            position: relative;
-            top: -0.1rem;
+            li {
+                display: table-row;
+            }
+
+            li::before {
+                content: "\25A0";
+                color: themed('primaryColor');
+                font-weight: bold;
+                display: table-cell;
+                width: 1em;
+                position: relative;
+                top: -0.1rem;
+            }
         }
     }
 }
@@ -91,16 +94,18 @@ ul {
     background-color: #F3F3F3 !important;
 }
 
-.ext-resources {
+@include themify($themes) {
+    .ext-resources {
 
-    ul {
-        padding-left: .75rem;
-    }
+        ul {
+            padding-left: .75rem;
+        }
 
-    a {
-        font-size: 0.875rem; // desktop: 14px
-        line-height: 1.5rem; // desktop: 24px
-        color: #CF142B !important;
-        text-decoration: none;
+        a {
+            font-size: 0.875rem; // desktop: 14px
+            line-height: 1.5rem; // desktop: 24px
+            color: themed('primaryColor') !important;
+            text-decoration: none;
+        }
     }
 }

@@ -22,18 +22,94 @@ h3 {
   line-height: 1.75rem;
 }
 
-ul.red-square {
+.theme-std ul.marker-theme-color {
   list-style: none;
   display: table;
 }
 
-ul.red-square li {
+.theme-std ul.marker-theme-color li {
   display: table-row;
 }
 
-ul.red-square li:before {
+.theme-std ul.marker-theme-color li:before {
   content: "■";
   color: #cf142b;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-hw ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-hw ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-hw ul.marker-theme-color li:before {
+  content: "■";
+  color: #768ec7;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-dwa ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-dwa ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-dwa ul.marker-theme-color li:before {
+  content: "■";
+  color: #8fc740;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-cit ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-cit ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-cit ul.marker-theme-color li:before {
+  content: "■";
+  color: #56a3da;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-cs ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-cs ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-cs ul.marker-theme-color li:before {
+  content: "■";
+  color: #1859a9;
   width: 1em;
   font-weight: bold;
   display: table-cell;
@@ -100,14 +176,58 @@ ul.red-square li:before {
   background-color: #f3f3f3 !important;
 }
 
-.ext-resources ul {
+.theme-std .ext-resources ul {
   padding-left: .75rem;
 }
 
-.ext-resources a {
+.theme-std .ext-resources a {
   font-size: .875rem;
   line-height: 1.5rem;
   text-decoration: none;
   color: #cf142b !important;
+}
+
+.theme-hw .ext-resources ul {
+  padding-left: .75rem;
+}
+
+.theme-hw .ext-resources a {
+  font-size: .875rem;
+  line-height: 1.5rem;
+  text-decoration: none;
+  color: #768ec7 !important;
+}
+
+.theme-dwa .ext-resources ul {
+  padding-left: .75rem;
+}
+
+.theme-dwa .ext-resources a {
+  font-size: .875rem;
+  line-height: 1.5rem;
+  text-decoration: none;
+  color: #8fc740 !important;
+}
+
+.theme-cit .ext-resources ul {
+  padding-left: .75rem;
+}
+
+.theme-cit .ext-resources a {
+  font-size: .875rem;
+  line-height: 1.5rem;
+  text-decoration: none;
+  color: #56a3da !important;
+}
+
+.theme-cs .ext-resources ul {
+  padding-left: .75rem;
+}
+
+.theme-cs .ext-resources a {
+  font-size: .875rem;
+  line-height: 1.5rem;
+  text-decoration: none;
+  color: #1859a9 !important;
 }
 
