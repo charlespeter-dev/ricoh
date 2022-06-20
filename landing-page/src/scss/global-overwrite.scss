@@ -24,31 +24,6 @@ h3 {
     font-weight: 700;
 }
 
-@include themify($themes) {
-
-    ul {
-
-        &.marker-theme-color {
-            list-style: none;
-            display: table;
-
-            li {
-                display: table-row;
-            }
-
-            li::before {
-                content: "\25A0";
-                color: themed('primaryColor');
-                font-weight: bold;
-                display: table-cell;
-                width: 1em;
-                position: relative;
-                top: -0.1rem;
-            }
-        }
-    }
-}
-
 .article {
     background-color: #ffffff;
     border-radius: 0 0 12px 12px;

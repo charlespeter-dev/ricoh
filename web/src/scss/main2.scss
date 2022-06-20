@@ -1,11 +1,13 @@
 @import "global";
 @import "primary-nav";
-
 @import "banner";
 @import "secondary-nav";
+
 @import "split-video-text";
-@import "callout-percentage-center";
+@import "callout-percentage-2-columns";
 @import "split-text";
+@import "../../../landing-page/src/scss/lp-mega-list";
+@import "split-text-list";
 @import "split-width-hero";
 @import "card-3-columns";
 @import "card-why-ricoh";

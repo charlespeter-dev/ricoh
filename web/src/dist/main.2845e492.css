@@ -18455,6 +18455,101 @@ h4, .h4 {
   margin-top: 1.75rem;
 }
 
+.theme-std ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-std ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-std ul.marker-theme-color li:before {
+  content: "■";
+  color: #cf142b;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-hw ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-hw ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-hw ul.marker-theme-color li:before {
+  content: "■";
+  color: #768ec7;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-dwa ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-dwa ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-dwa ul.marker-theme-color li:before {
+  content: "■";
+  color: #8fc740;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-cit ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-cit ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-cit ul.marker-theme-color li:before {
+  content: "■";
+  color: #56a3da;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-cs ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-cs ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-cs ul.marker-theme-color li:before {
+  content: "■";
+  color: #1859a9;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
 .center-heading {
   text-align: center;
   margin-top: 1.3rem;
@@ -30225,6 +30320,101 @@ h4, .h4 {
   border: 0;
   border-bottom: 5px solid #1859a9;
   margin-top: 1.75rem;
+}
+
+.theme-std ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-std ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-std ul.marker-theme-color li:before {
+  content: "■";
+  color: #cf142b;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-hw ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-hw ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-hw ul.marker-theme-color li:before {
+  content: "■";
+  color: #768ec7;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-dwa ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-dwa ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-dwa ul.marker-theme-color li:before {
+  content: "■";
+  color: #8fc740;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-cit ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-cit ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-cit ul.marker-theme-color li:before {
+  content: "■";
+  color: #56a3da;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-cs ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-cs ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-cs ul.marker-theme-color li:before {
+  content: "■";
+  color: #1859a9;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
 }
 
 .center-heading {
@@ -42875,6 +43065,101 @@ h4, .h4 {
   margin-top: 1.75rem;
 }
 
+.theme-std ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-std ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-std ul.marker-theme-color li:before {
+  content: "■";
+  color: #cf142b;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-hw ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-hw ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-hw ul.marker-theme-color li:before {
+  content: "■";
+  color: #768ec7;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-dwa ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-dwa ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-dwa ul.marker-theme-color li:before {
+  content: "■";
+  color: #8fc740;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-cit ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-cit ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-cit ul.marker-theme-color li:before {
+  content: "■";
+  color: #56a3da;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-cs ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-cs ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-cs ul.marker-theme-color li:before {
+  content: "■";
+  color: #1859a9;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
 .center-heading {
   text-align: center;
   margin-top: 1.3rem;
@@ -54608,6 +54893,101 @@ h4, .h4 {
   border: 0;
   border-bottom: 5px solid #1859a9;
   margin-top: 1.75rem;
+}
+
+.theme-std ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-std ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-std ul.marker-theme-color li:before {
+  content: "■";
+  color: #cf142b;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-hw ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-hw ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-hw ul.marker-theme-color li:before {
+  content: "■";
+  color: #768ec7;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-dwa ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-dwa ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-dwa ul.marker-theme-color li:before {
+  content: "■";
+  color: #8fc740;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-cit ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-cit ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-cit ul.marker-theme-color li:before {
+  content: "■";
+  color: #56a3da;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-cs ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-cs ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-cs ul.marker-theme-color li:before {
+  content: "■";
+  color: #1859a9;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
 }
 
 .center-heading {
@@ -66848,6 +67228,101 @@ h4, .h4 {
   margin-top: 1.75rem;
 }
 
+.theme-std ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-std ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-std ul.marker-theme-color li:before {
+  content: "■";
+  color: #cf142b;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-hw ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-hw ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-hw ul.marker-theme-color li:before {
+  content: "■";
+  color: #768ec7;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-dwa ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-dwa ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-dwa ul.marker-theme-color li:before {
+  content: "■";
+  color: #8fc740;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-cit ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-cit ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-cit ul.marker-theme-color li:before {
+  content: "■";
+  color: #56a3da;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-cs ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-cs ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-cs ul.marker-theme-color li:before {
+  content: "■";
+  color: #1859a9;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
 .center-heading {
   text-align: center;
   margin-top: 1.3rem;
@@ -78776,6 +79251,101 @@ h4, .h4 {
   margin-top: 1.75rem;
 }
 
+.theme-std ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-std ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-std ul.marker-theme-color li:before {
+  content: "■";
+  color: #cf142b;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-hw ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-hw ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-hw ul.marker-theme-color li:before {
+  content: "■";
+  color: #768ec7;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-dwa ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-dwa ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-dwa ul.marker-theme-color li:before {
+  content: "■";
+  color: #8fc740;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-cit ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-cit ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-cit ul.marker-theme-color li:before {
+  content: "■";
+  color: #56a3da;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-cs ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-cs ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-cs ul.marker-theme-color li:before {
+  content: "■";
+  color: #1859a9;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
 .center-heading {
   text-align: center;
   margin-top: 1.3rem;
@@ -90538,6 +91108,101 @@ h4, .h4 {
   border: 0;
   border-bottom: 5px solid #1859a9;
   margin-top: 1.75rem;
+}
+
+.theme-std ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-std ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-std ul.marker-theme-color li:before {
+  content: "■";
+  color: #cf142b;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-hw ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-hw ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-hw ul.marker-theme-color li:before {
+  content: "■";
+  color: #768ec7;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-dwa ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-dwa ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-dwa ul.marker-theme-color li:before {
+  content: "■";
+  color: #8fc740;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-cit ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-cit ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-cit ul.marker-theme-color li:before {
+  content: "■";
+  color: #56a3da;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-cs ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-cs ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-cs ul.marker-theme-color li:before {
+  content: "■";
+  color: #1859a9;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
 }
 
 .center-heading {
@@ -102636,6 +103301,101 @@ h4, .h4 {
   border: 0;
   border-bottom: 5px solid #1859a9;
   margin-top: 1.75rem;
+}
+
+.theme-std ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-std ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-std ul.marker-theme-color li:before {
+  content: "■";
+  color: #cf142b;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-hw ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-hw ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-hw ul.marker-theme-color li:before {
+  content: "■";
+  color: #768ec7;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-dwa ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-dwa ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-dwa ul.marker-theme-color li:before {
+  content: "■";
+  color: #8fc740;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-cit ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-cit ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-cit ul.marker-theme-color li:before {
+  content: "■";
+  color: #56a3da;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-cs ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-cs ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-cs ul.marker-theme-color li:before {
+  content: "■";
+  color: #1859a9;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
 }
 
 .center-heading {

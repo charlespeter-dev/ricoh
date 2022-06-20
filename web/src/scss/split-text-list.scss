@@ -1,0 +1,63 @@
+@import "global";
+@import "../../../landing-page/src/scss/lp-split-list-icon";
+@import "functions";
+@import "mixins";
+@import "themes.scss";
+
+
+@include themify($themes) {
+
+    .split-text-list {
+
+        position: relative;
+        padding-top: 1px;
+        padding-bottom: 30px;
+
+        @media screen and (min-width: 992px) {
+            padding-bottom: 50px;
+        }
+
+        &::before {
+            content: '';
+            display: block;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: calc((100vw - (100% - 1.1rem)) / -2);
+            width: 100vw;
+            z-index: -1;
+            background-color: #F3F3F3;
+        }
+
+        .left {
+
+            padding-top: 30px;
+
+            @media screen and (min-width: 992px) {
+                padding-top: 50px;
+                padding-right: 50px;
+            }
+        }
+
+        .right {
+
+            padding-top: 30px;
+
+            @media screen and (min-width: 992px) {
+                padding-top: 50px;
+            }
+
+            .lp-split-list-icon {
+
+                .list-item-container {
+
+                    align-items: flex-start;
+
+                    @media screen and (min-width: 992px) {
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}

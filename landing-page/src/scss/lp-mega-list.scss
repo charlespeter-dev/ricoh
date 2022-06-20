@@ -9,24 +9,21 @@
     .lp-mega-list {
 
         &.reverse {
-            ol {
+
+            ol,
+            ul {
                 display: flex;
                 flex-direction: column-reverse;
             }
         }
 
-        ol {
+        ol,
+        ul {
 
             padding-left: 1rem;
 
             @media screen and (min-width:992px) {
                 padding-left: 2rem;
-            }
-
-
-            ::marker {
-                font-weight: 700;
-                color: themed('primaryColor');
             }
 
             li {
@@ -35,6 +32,23 @@
                 @media screen and (min-width:992px) {
                     padding-left: 1.5rem;
                 }
+            }
+        }
+
+        ol {
+
+            li::marker {
+                font-weight: 700;
+                color: themed('primaryColor');
+            }
+        }
+
+        ul {
+            
+            li::marker {
+                font-weight: 700;
+                color: themed('primaryColor');
+                content: "\25A0";
             }
         }
 

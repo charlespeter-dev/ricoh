@@ -18467,48 +18467,6 @@ h4, .h4 {
   margin-top: 1.75rem;
 }
 
-.center-heading {
-  text-align: center;
-  margin-top: 1.3rem;
-  margin-bottom: 1.3rem;
-  display: block;
-}
-
-.grey {
-  background-color: #f3f3f3;
-}
-
-@media screen and (min-width: 992px) {
-  span.br-before:before, span.br-after:after {
-    content: "\a ";
-    white-space: pre;
-  }
-}
-
-body {
-  --bs-body-bg: #fff;
-}
-
-@media screen and (min-width: 992px) {
-  body {
-    --bs-body-bg: #f3f3f3;
-  }
-}
-
-h1, .h1 {
-  color: #333;
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 2.25rem;
-}
-
-h3, .h3 {
-  color: #333;
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1.75rem;
-}
-
 .theme-std ul.marker-theme-color {
   list-style: none;
   display: table;
@@ -18602,6 +18560,48 @@ h3, .h3 {
   display: table-cell;
   position: relative;
   top: -.1rem;
+}
+
+.center-heading {
+  text-align: center;
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+  display: block;
+}
+
+.grey {
+  background-color: #f3f3f3;
+}
+
+@media screen and (min-width: 992px) {
+  span.br-before:before, span.br-after:after {
+    content: "\a ";
+    white-space: pre;
+  }
+}
+
+body {
+  --bs-body-bg: #fff;
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    --bs-body-bg: #f3f3f3;
+  }
+}
+
+h1, .h1 {
+  color: #333;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+h3, .h3 {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.75rem;
 }
 
 .article {
