@@ -1,122 +1,132 @@
 // depend on the <body> class
 // see global.js
 
-.is-mobile {
-    .secondary-nav-desktop {
-        display: none;
-    }
+@import "functions";
+@import "mixins";
+@import "themes.scss";
 
-    .secondary-nav-mobile {
+@include themify($themes) {
 
-        &::before {
-            content: '';
+    .is-mobile {
+        .secondary-nav-desktop {
+            display: none;
+        }
+
+        .secondary-nav-mobile {
+
+            &::before {
+                content: '';
+                display: block;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: calc((100vw - (100% - 1.1rem)) / -2);
+                width: 100vw;
+                z-index: -2;
+                background-color: #fff;
+            }
+
+            &::after {
+                content: '';
+                display: block;
+                height: 1px;
+                position: absolute;
+                bottom: 0;
+                left: calc((100vw - (100% - 1.1rem)) / -2);
+                width: 100vw;
+                z-index: -1;
+                background-color: #C9C9C9;
+            }
+
+            &.form-select-lg {
+                padding-left: 0;
+            }
+
+            &.sticky-secondary-nav-mobile {
+                top: 63px;
+            }
+
             display: block;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: calc((100vw - (100% - 1.1rem)) / -2);
-            width: 100vw;
-            z-index: -2;
             background-color: #fff;
-        }
+            z-index: 2;
+            margin-top: 50px;
 
-        &::after {
-            content: '';
-            display: block;
-            height: 1px;
-            position: absolute;
-            bottom: 0;
-            left: calc((100vw - (100% - 1.1rem)) / -2);
-            width: 100vw;
-            z-index: -1;
-            background-color: #C9C9C9;
-        }
+            .form-select {
+                border: none;
+                border-radius: 0;
 
-        &.form-select-lg {
-            padding-left: 0;
-        }
-
-        &.sticky-secondary-nav-mobile {
-            top: 63px;
-        }
-
-        display: block;
-        background-color: #fff;
-        z-index: 2;
-        margin-top: 50px;
-
-        .form-select {
-            border: none;
-            border-radius: 0;
-
-            font-size: 1.25rem; // desktop: 20px
-            line-height: 1.5rem; // desktop: 24px
-            color: #CF142B;
-            padding: 0.375rem 2.25rem 0.375rem 0;
-        }
-    }
-}
-
-.is-desktop {
-
-    .secondary-nav-desktop {
-
-        &::before {
-            content: '';
-            display: block;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: calc((100vw - (100% - 1.1rem)) / -2);
-            width: 100vw;
-            z-index: -2;
-            background-color: #fff;
-        }
-
-        &::after {
-            content: '';
-            display: block;
-            height: 1px;
-            position: absolute;
-            bottom: 0;
-            left: calc((100vw - (100% - 1.1rem)) / -2);
-            width: 100vw;
-            z-index: -1;
-            background-color: #C9C9C9;
-        }
-
-        display: block;
-        background-color: #fff;
-        z-index: 2;
-
-        .nav {
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-
-        .nav-link {
-            color: #CF142B;
-            font-size: 1.25rem; // desktop: 20px
-            line-height: 1.5rem; // desktop: 24px
-        }
-
-        .nav-item {
-            border-right: .5px solid #C9C9C9;
-        }
-
-        .nav-item:nth-last-of-type(1) {
-            border-right: none;
-        }
-
-        &.sticky-secondary-nav-desktop {
-            @media screen and (min-width: 992px) {
-                top: 65px;
+                font-size: 1.25rem; // desktop: 20px
+                line-height: 1.5rem; // desktop: 24px
+                color: themed(primaryColor);
+                padding: 0.375rem 2.25rem 0.375rem 0;
             }
         }
     }
 
-    .secondary-nav-mobile {
-        display: none;
-    }
+}
 
+@include themify($themes) {
+
+    .is-desktop {
+
+        .secondary-nav-desktop {
+
+            &::before {
+                content: '';
+                display: block;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: calc((100vw - (100% - 1.1rem)) / -2);
+                width: 100vw;
+                z-index: -2;
+                background-color: #fff;
+            }
+
+            &::after {
+                content: '';
+                display: block;
+                height: 1px;
+                position: absolute;
+                bottom: 0;
+                left: calc((100vw - (100% - 1.1rem)) / -2);
+                width: 100vw;
+                z-index: -1;
+                background-color: #C9C9C9;
+            }
+
+            display: block;
+            background-color: #fff;
+            z-index: 2;
+
+            .nav {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+            .nav-link {
+                color: themed(primaryColor);
+                font-size: 1.25rem; // desktop: 20px
+                line-height: 1.5rem; // desktop: 24px
+            }
+
+            .nav-item {
+                border-right: .5px solid #C9C9C9;
+            }
+
+            .nav-item:nth-last-of-type(1) {
+                border-right: none;
+            }
+
+            &.sticky-secondary-nav-desktop {
+                @media screen and (min-width: 992px) {
+                    top: 65px;
+                }
+            }
+        }
+
+        .secondary-nav-mobile {
+            display: none;
+        }
+    }
 }

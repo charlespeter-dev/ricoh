@@ -18275,20 +18275,88 @@ h4, .h4 {
   line-height: 1.75rem;
 }
 
-.btn-primary, .btn-primary:hover {
+.theme-std .btn-primary, .theme-std .btn-primary:hover {
   background-color: #cf142b;
   border-color: #cf142b;
 }
 
-.btn-secondary {
+.theme-std .btn-secondary {
   color: #cf142b;
   background-color: #f3f3f3;
   border-color: #cf142b;
 }
 
-.btn-secondary:hover {
+.theme-std .btn-secondary:hover {
   color: #fff;
   background-color: #cf142b;
+  border-color: #fff;
+}
+
+.theme-hw .btn-primary, .theme-hw .btn-primary:hover {
+  background-color: #768ec7;
+  border-color: #768ec7;
+}
+
+.theme-hw .btn-secondary {
+  color: #768ec7;
+  background-color: #f3f3f3;
+  border-color: #768ec7;
+}
+
+.theme-hw .btn-secondary:hover {
+  color: #fff;
+  background-color: #768ec7;
+  border-color: #fff;
+}
+
+.theme-dwa .btn-primary, .theme-dwa .btn-primary:hover {
+  background-color: #8fc740;
+  border-color: #8fc740;
+}
+
+.theme-dwa .btn-secondary {
+  color: #8fc740;
+  background-color: #f3f3f3;
+  border-color: #8fc740;
+}
+
+.theme-dwa .btn-secondary:hover {
+  color: #fff;
+  background-color: #8fc740;
+  border-color: #fff;
+}
+
+.theme-cit .btn-primary, .theme-cit .btn-primary:hover {
+  background-color: #56a3da;
+  border-color: #56a3da;
+}
+
+.theme-cit .btn-secondary {
+  color: #56a3da;
+  background-color: #f3f3f3;
+  border-color: #56a3da;
+}
+
+.theme-cit .btn-secondary:hover {
+  color: #fff;
+  background-color: #56a3da;
+  border-color: #fff;
+}
+
+.theme-cs .btn-primary, .theme-cs .btn-primary:hover {
+  background-color: #1859a9;
+  border-color: #1859a9;
+}
+
+.theme-cs .btn-secondary {
+  color: #1859a9;
+  background-color: #f3f3f3;
+  border-color: #1859a9;
+}
+
+.theme-cs .btn-secondary:hover {
+  color: #fff;
+  background-color: #1859a9;
   border-color: #fff;
 }
 
@@ -18297,21 +18365,93 @@ h4, .h4 {
   padding-bottom: 0;
 }
 
-.main-heading {
+.theme-std .main-heading {
   margin-top: 60px;
 }
 
 @media screen and (min-width: 992px) {
-  .main-heading {
+  .theme-std .main-heading {
     margin-top: 100px;
   }
 }
 
-.main-heading .bar {
-  height: 4px;
+.theme-std .main-heading .bar {
+  height: 5px;
   width: 200px;
   border: 0;
-  border-bottom: 4px solid #cf142b;
+  border-bottom: 5px solid #cf142b;
+  margin-top: 1.75rem;
+}
+
+.theme-hw .main-heading {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 992px) {
+  .theme-hw .main-heading {
+    margin-top: 100px;
+  }
+}
+
+.theme-hw .main-heading .bar {
+  height: 5px;
+  width: 200px;
+  border: 0;
+  border-bottom: 5px solid #768ec7;
+  margin-top: 1.75rem;
+}
+
+.theme-dwa .main-heading {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 992px) {
+  .theme-dwa .main-heading {
+    margin-top: 100px;
+  }
+}
+
+.theme-dwa .main-heading .bar {
+  height: 5px;
+  width: 200px;
+  border: 0;
+  border-bottom: 5px solid #8fc740;
+  margin-top: 1.75rem;
+}
+
+.theme-cit .main-heading {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 992px) {
+  .theme-cit .main-heading {
+    margin-top: 100px;
+  }
+}
+
+.theme-cit .main-heading .bar {
+  height: 5px;
+  width: 200px;
+  border: 0;
+  border-bottom: 5px solid #56a3da;
+  margin-top: 1.75rem;
+}
+
+.theme-cs .main-heading {
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 992px) {
+  .theme-cs .main-heading {
+    margin-top: 100px;
+  }
+}
+
+.theme-cs .main-heading .bar {
+  height: 5px;
+  width: 200px;
+  border: 0;
+  border-bottom: 5px solid #1859a9;
   margin-top: 1.75rem;
 }
 

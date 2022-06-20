@@ -1,62 +1,70 @@
-.card-why-ricoh {
+@import "global";
+@import "functions";
+@import "mixins";
+@import "themes.scss";
 
-    margin: 30px 0 50px 0;
+@include themify($themes) {
 
-    .grey {
+    .card-why-ricoh {
 
-        background-color: #F3F3F3;
-        padding: 50px 30px 50px 30px;
-        margin-top: 50px;
-        border-radius: 12px;
+        margin: 30px 0 50px 0;
 
-        @media screen and (min-width: 992px) {
-            padding: 30px 50px 50px 50px;
+        .grey {
+
+            background-color: #F3F3F3;
+            padding: 50px 30px 50px 30px;
+            margin-top: 50px;
+            border-radius: 12px;
+
+            @media screen and (min-width: 992px) {
+                padding: 30px 50px 50px 50px;
+            }
+
+            h3 {
+                color: #333333;
+                font-weight: 700;
+            }
         }
 
-        h3 {
-            color: #333333;
-            font-weight: 700;
-        }
-    }
+        .group {
 
-    .group {
+            margin-top: 50px;
 
-        margin-top: 50px;
+            @media screen and (min-width: 992px) {
+                margin-top: 70px;
+            }
 
-        @media screen and (min-width: 992px) {
-            margin-top: 70px;
-        }
+            .card-top-buffer {
 
-        .card-top-buffer {
+                padding-top: 50px;
 
-            padding-top: 50px;
+                .card {
 
-            .card {
-
-                border-bottom: 5px solid #CF142B;
-                border-top-left-radius: 12px;
-                border-top-right-radius: 12px;
-                border-bottom-left-radius: 0;
-                border-bottom-right-radius: 0;
-                position: relative;
-
-
-                img {
+                    border-bottom: 5px solid themed(primaryColor);
+                    border-top-left-radius: 12px;
+                    border-top-right-radius: 12px;
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
                     position: relative;
-                    margin-top: -50px;
-                    left: 30px;
-                    width: 111px;
-                    height: 111px;
-                }
 
-                .card-body {
 
-                    .card-title {
+                    img {
+                        position: relative;
+                        margin-top: -50px;
+                        left: 30px;
+                        width: 111px;
+                        height: 111px;
+                    }
 
-                        font-size: 1.5rem; // desktop: 24px
-                        line-height: 1.75rem; // desktop: 28px
-                        font-weight: 700;
-                        color: #333333;
+                    .card-body {
+
+                        .card-title {
+
+                            font-size: 1.5rem; // desktop: 24px
+                            line-height: 1.75rem; // desktop: 28px
+                            font-weight: 700;
+                            color: #333333;
+                        }
                     }
                 }
             }

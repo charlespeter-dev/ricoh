@@ -1,108 +1,117 @@
-.callout-percentage-center {
+@import "global";
+@import "functions";
+@import "mixins";
+@import "themes.scss";
 
-    padding: 20px 0 50px 0;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 
-    @media screen and (min-width: 992px) {
-        padding: 30px 0 50px 0;
-    }
+@include themify($themes) {
 
-    &.reverse {
+    .callout-percentage-center {
+
+        padding: 20px 0 50px 0;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
 
         @media screen and (min-width: 992px) {
-            margin: 0 100px;
+            padding: 30px 0 50px 0;
+        }
+
+        &.reverse {
+
+            @media screen and (min-width: 992px) {
+                margin: 0 100px;
+            }
+
+            .percentage-container {
+
+                flex-direction: column-reverse;
+
+                @media screen and (min-width: 992px) {
+                    flex-direction: row-reverse;
+                }
+
+                .percent-text {
+
+
+                    margin-top: unset;
+                    margin-bottom: 30px;
+
+                    left: unset;
+
+                    @media screen and (min-width: 992px) {
+                        margin-left: 0;
+                        margin-right: 10px;
+                        margin-bottom: 0;
+
+                    }
+                }
+            }
         }
 
         .percentage-container {
 
-            flex-direction: column-reverse;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
 
             @media screen and (min-width: 992px) {
-                flex-direction: row-reverse;
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .percent-container {
+
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                height: 100%;
+
+                img {
+                    width: 200px;
+                }
+
+                .percent {
+                    font-size: 6.25rem; // desktop: 100px
+                    line-height: 6.875rem; // desktop: 110px
+                    font-weight: 700;
+                    background-color: #fff;
+                    color: themed('primaryColor');
+
+                    position: absolute;
+                    left: 40px;
+
+                    @media screen and (min-width: 992px) {
+                        position: relative;
+                        left: -150px;
+                    }
+
+                }
             }
 
             .percent-text {
+                font-size: 2rem; // desktop: 32px
+                line-height: 2.25rem; // desktop: 36px
+                color: themed('primaryColor');
+                font-weight: 700;
+                margin-top: 30px;
 
-
-                margin-top: unset;
-                margin-bottom: 30px;
-
-                left: unset;
+                position: relative;
 
                 @media screen and (min-width: 992px) {
-                    margin-left: 0;
-                    margin-right: 10px;
-                    margin-bottom: 0;
-
-                }
-            }
-        }
-    }
-
-    .percentage-container {
-
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-
-        @media screen and (min-width: 992px) {
-            flex-direction: row;
-            align-items: center;
-        }
-
-        .percent-container {
-
-            position: relative;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            height: 100%;
-
-            img {
-                width: 200px;
-            }
-
-            .percent {
-                font-size: 6.25rem; // desktop: 100px
-                line-height: 6.875rem; // desktop: 110px
-                font-weight: 700;
-                background-color: #fff;
-                color: #CF142B;
-
-                position: absolute;
-                left: 40px;
-
-                @media screen and (min-width: 992px) {
-                    position: relative;
-                    left: -150px;
+                    margin-top: 0;
+                    left: -120px;
                 }
 
-            }
-        }
-
-        .percent-text {
-            font-size: 2rem; // desktop: 32px
-            line-height: 2.25rem; // desktop: 36px
-            color: #CF142B;
-            font-weight: 700;
-            margin-top: 30px;
-
-            position: relative;
-
-            @media screen and (min-width: 992px) {
-                margin-top: 0;
-                left: -120px;
-            }
-
-            .source {
-                font-size: 1.5rem; // desktop 24px
-                line-height: 1.75rem; // desktop 28px
-                font-weight: 700;
-                color: #666666;
-                margin-top: 10px;
+                .source {
+                    font-size: 1.5rem; // desktop 24px
+                    line-height: 1.75rem; // desktop 28px
+                    font-weight: 700;
+                    color: #666666;
+                    margin-top: 10px;
+                }
             }
         }
     }

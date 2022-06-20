@@ -2,6 +2,10 @@
 @import "../../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 @import "font.scss";
 
+@import "functions";
+@import "mixins";
+@import "themes.scss";
+
 
 html {
     scroll-behavior: smooth;
@@ -70,22 +74,25 @@ h4 {
     padding: 15px 30px;
 }
 
-.btn-primary,
-.btn-primary:hover {
-    background-color: #CF142B;
-    border-color: #CF142B;
-}
+@include themify($themes) {
 
-.btn-secondary {
-    background-color: #F3F3F3;
-    border-color: #CF142B;
-    color: #CF142B;
-}
+    .btn-primary,
+    .btn-primary:hover {
+        background-color: themed('primaryColor');
+        border-color: themed('primaryColor');
+    }
 
-.btn-secondary:hover {
-    background-color: #CF142B;
-    border-color: #ffffff;
-    color: #ffffff;
+    .btn-secondary {
+        background-color: #F3F3F3;
+        border-color: themed('primaryColor');
+        color: themed('primaryColor');
+    }
+
+    .btn-secondary:hover {
+        background-color: themed('primaryColor');
+        border-color: #ffffff;
+        color: #ffffff;
+    }
 }
 
 .navbar {
@@ -93,20 +100,22 @@ h4 {
     padding-bottom: 0;
 }
 
-.main-heading {
+@include themify($themes) {
+    .main-heading {
 
-    margin-top: 60px;
+        margin-top: 60px;
 
-    @media screen and (min-width: 992px) {
-        margin-top: 100px;
-    }
+        @media screen and (min-width: 992px) {
+            margin-top: 100px;
+        }
 
-    .bar {
-        border: 0;
-        border-bottom: 4px solid #CF142B;
-        height: 4px;
-        margin-top: 1.75rem;
-        width: 200px;
+        .bar {
+            border: 0;
+            border-bottom: 5px solid themed('primaryColor');
+            height: 5px;
+            margin-top: 1.75rem;
+            width: 200px;
+        }
     }
 }
 
