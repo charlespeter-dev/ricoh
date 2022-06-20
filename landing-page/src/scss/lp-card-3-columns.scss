@@ -10,7 +10,7 @@
         padding-right: 0;
     }
 
-    $fixed-mobile-height: 90px;
+    $fixed-mobile-height: 0;
     $fixed-desktop-height: 210px;
 
 
@@ -22,7 +22,6 @@
 
         background-color: #ffffff !important;
         position: relative;
-        height: $fixed-mobile-height;
 
         @media screen and (min-width: 992px) {
             background-color: #F3F3F3 !important;

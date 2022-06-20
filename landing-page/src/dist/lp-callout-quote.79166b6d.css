@@ -76,8 +76,24 @@ ul.red-square li:before {
   color: #e56c74;
 }
 
-.text-red-2 {
+.text-red-2, .theme-std .text-theme-color {
   color: #cf142b;
+}
+
+.theme-hw .text-theme-color {
+  color: #768ec7;
+}
+
+.theme-dwa .text-theme-color {
+  color: #8fc740;
+}
+
+.theme-cit .text-theme-color {
+  color: #56a3da;
+}
+
+.theme-cs .text-theme-color {
+  color: #1859a9;
 }
 
 .bg-grey {

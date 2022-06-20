@@ -1,3 +1,7 @@
+@import "../../../web/src/scss/functions";
+@import "../../../web/src/scss/mixins";
+@import "../../../web/src/scss/themes";
+
 body {
     --bs-body-bg: #ffffff;
 
@@ -75,6 +79,12 @@ ul {
 
 .text-red-2 {
     color: #CF142B;
+}
+
+@include themify($themes) {
+    .text-theme-color {
+        color: themed(primaryColor);
+    }
 }
 
 .bg-grey {

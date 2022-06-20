@@ -1,45 +1,55 @@
-.lp-callout-percentage {
+@import "../../../web/src/scss/global";
+@import "global-overwrite";
+@import "../../../web/src/scss/functions";
+@import "../../../web/src/scss/mixins";
+@import "../../../web/src/scss/themes";
 
-    .percentage-container {
 
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+@include themify($themes) {
 
-        .percent-container {
-            position: relative;
+    .lp-callout-percentage {
+
+        .percentage-container {
+
             display: flex;
             flex-direction: row;
             align-items: center;
-            height: 100%;
 
-            img {
-                width: 70px;
+            .percent-container {
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                height: 100%;
+
+                img {
+                    width: 70px;
+                }
+
+                .percent {
+                    font-size: 1.875rem; // desktop: 100px
+                    line-height: 2.0625rem; // desktop: 110px
+                    font-weight: 700;
+                    position: absolute;
+                    background-color: #fff;
+                    top: 15px;
+                    left: 15px;
+                    color: themed('primaryColor');
+                }
             }
 
-            .percent {
-                font-size: 1.875rem; // desktop: 100px
-                line-height: 2.0625rem; // desktop: 110px
+            .percent-text {
+                font-size: 1rem; // desktop: 32px
+                line-height: 2.25rem; // desktop: 36px
+                color: #333333;
                 font-weight: 700;
-                position: absolute;
-                background-color: #fff;
-                top: 15px;
-                left: 15px;
-                color: #CF142B;
-            }
-        }
-
-        .percent-text {
-            font-size: 1rem; // desktop: 32px
-            line-height: 2.25rem; // desktop: 36px
-            color: #333333;
-            font-weight: 700;
-            margin-left: 15px;
-
-            @media screen and (min-width: 992px) {
                 margin-left: 15px;
+
+                @media screen and (min-width: 992px) {
+                    margin-left: 15px;
+                }
             }
         }
-    }
 
+    }
 }

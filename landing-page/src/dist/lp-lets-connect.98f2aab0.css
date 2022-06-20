@@ -50,3 +50,15 @@ body.is-article {
   color: #333;
 }
 
+.lp-lets-connect .content .btn-secondary {
+  color: #cf142b;
+  background-color: #f3f3f3;
+  border-color: #cf142b;
+}
+
+.lp-lets-connect .content .btn-secondary:hover {
+  color: #fff;
+  background-color: #cf142b;
+  border-color: #fff;
+}
+
