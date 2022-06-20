@@ -18612,6 +18612,11 @@ h3, .h3 {
   margin-bottom: 2.5rem;
 }
 
+.article h3, .article .h3 {
+  color: #333;
+  font-weight: 700;
+}
+
 .divider {
   border-bottom: .5px solid #c9c9c9;
   margin: 30px 0;
@@ -18729,6 +18734,7 @@ h3, .h3 {
 
 .theme-std .lp-callout-quote .text .source {
   color: #666;
+  margin-top: 1.5rem;
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.75rem;
@@ -18757,6 +18763,7 @@ h3, .h3 {
 
 .theme-hw .lp-callout-quote .text .source {
   color: #666;
+  margin-top: 1.5rem;
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.75rem;
@@ -18785,6 +18792,7 @@ h3, .h3 {
 
 .theme-dwa .lp-callout-quote .text .source {
   color: #666;
+  margin-top: 1.5rem;
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.75rem;
@@ -18813,6 +18821,7 @@ h3, .h3 {
 
 .theme-cit .lp-callout-quote .text .source {
   color: #666;
+  margin-top: 1.5rem;
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.75rem;
@@ -18841,6 +18850,7 @@ h3, .h3 {
 
 .theme-cs .lp-callout-quote .text .source {
   color: #666;
+  margin-top: 1.5rem;
   font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.75rem;

@@ -10,7 +10,7 @@
 
     .is-desktop {
 
-        .banner-lp {
+        .lp-banner {
 
             &::before {
                 content: '';
@@ -56,11 +56,6 @@
 
                     position: absolute;
                     z-index: -1;
-
-                    .category {
-                        font-weight: 700;
-                        color: themed('primaryColor');
-                    }
                 }
             }
 
@@ -93,7 +88,7 @@
 
     .is-mobile {
 
-        .banner-lp {
+        .lp-banner {
 
             position: relative;
             display: flex;
@@ -130,11 +125,6 @@
                 .callout {
 
                     margin-bottom: 60px;
-
-                    .category {
-                        font-weight: 700;
-                        color: themed('primaryColor');
-                    }
                 }
             }
 
@@ -173,9 +163,21 @@
     }
 
 
-    .banner-lp {
+    .lp-banner {
+
+        >.row {
+            --bs-gutter-x: 0;
+        }
+
         .left {
+
             .callout {
+
+                .category {
+                    font-weight: 700;
+                    color: themed('primaryColor');
+                    text-transform: uppercase;
+                }
 
                 .title {
                     font-size: 2.75rem; // desktop: 44px
