@@ -1,0 +1,11 @@
+@import "../../../web/src/scss/global";
+@import "global-overwrite";
+
+.lp-split-cta-thumbnail {
+
+    background-color: #fff;
+
+    img {
+        width: 350px;
+    }
+}
