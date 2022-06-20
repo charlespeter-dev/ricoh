@@ -1,4 +1,8 @@
+@import "../../../web/src/scss/global";
+@import "global-overwrite";
+
 .lp-callout-quote {
+    
     display: flex;
     flex-direction: column;
     margin: 30px 0;
@@ -16,6 +20,7 @@
         border-left: 5px solid #CF142B;
         padding-left: 30px;
         margin-top: 30px;
+        color: #333333;
 
         .source {
             font-size: 1.125rem; // desktop 18px
