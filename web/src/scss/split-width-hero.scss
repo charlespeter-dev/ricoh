@@ -6,12 +6,15 @@
 
         margin: 30px 0 50px 0;
 
-        .reverse-in-mobile {
-            flex-direction: column-reverse;
+        @media screen and (min-width: 992px) {
+            margin: 30px 0 100px 0;
         }
 
-        @media screen and (min-width: 992px) {
-            .reverse-in-mobile {
+        .reverse-in-mobile {
+
+            flex-direction: column-reverse;
+
+            @media screen and (min-width: 992px) {
                 flex-direction: row;
             }
         }

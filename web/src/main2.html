@@ -406,10 +406,10 @@
                     </section>
 
 
-                    <!-- split-width-hero -->
+                    <!-- split width hero carousel -->
 
 
-                    <section class="split-width-hero">
+                    <section class="split-width-hero split-width-hero-carousel">
 
                         <div class="sw-hero-item">
                             <div class="row">
@@ -467,17 +467,88 @@
                         </div>
 
 
-                        <div class="sw-hero-item">
+                        <div class="sw-hero-item mobile-pb-100px">
+
                             <div class="row reverse-in-mobile">
 
                                 <div class="col-lg-6">
+
                                     <div class="sw-hero-item-img">
+
                                         <div class="imgs">
-                                            <img class="img-main img-fluid"
-                                                src="images/theme-hw/Content-Thumbnail-Huddle-Rooms.png" alt="">
+
+                                            <div id="swh-carousel" class="carousel slide" data-bs-ride="carousel">
+
+                                                <!-- carousel images -->
+
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img src="images/theme-hw/Content-Thumbnail-Huddle-Rooms.png"
+                                                            class="img-main d-block" alt="">
+                                                        <div class="carousel-caption d-none">
+                                                            <p><strong>Huddle Room</strong></p>
+                                                            <p>2 - 3 people</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="images/theme-hw/Content-Thumbnail-Workspace-Management_SmallRoom.png"
+                                                            class="img-main d-block" alt="">
+                                                        <div class="carousel-caption d-none">
+                                                            <p><strong>Small Room</strong></p>
+                                                            <p>2 - 5 people</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="images/theme-hw/Content-Thumbnail-Workspace-Management_MediumRoom.png"
+                                                            class="img-main d-block" alt="">
+                                                        <div class="carousel-caption d-none">
+                                                            <p><strong>Medium Room</strong></p>
+                                                            <p>2 - 10 people</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="images/theme-hw/Content-Thumbnail-Workspace-Management_LargeRoom.png"
+                                                            class="img-main d-block" alt="">
+                                                        <div class="carousel-caption d-none">
+                                                            <p><strong>Large Room</strong></p>
+                                                            <p>2 - 14 people</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <img src="images/theme-hw/Content-Thumbnail-Workspace-Management_XLRoom.png"
+                                                            class="img-main d-block" alt="">
+                                                        <div class="carousel-caption d-none">
+                                                            <p><strong>Extra Large Room</strong></p>
+                                                            <p>2 - 19 people</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- carousel indicators -->
+
+                                                <div class="carousel-indicators">
+                                                    <button type="button" data-bs-target="#swh-carousel"
+                                                        data-bs-slide-to="0" class="active"></button>
+                                                    <button type="button" data-bs-target="#swh-carousel"
+                                                        data-bs-slide-to="1"></button>
+                                                    <button type="button" data-bs-target="#swh-carousel"
+                                                        data-bs-slide-to="2"></button>
+                                                    <button type="button" data-bs-target="#swh-carousel"
+                                                        data-bs-slide-to="3"></button>
+                                                    <button type="button" data-bs-target="#swh-carousel"
+                                                        data-bs-slide-to="4"></button>
+                                                </div>
+
+                                                <div class="visible-caption"></div>
+
+                                            </div>
+
                                             <img class="img-ribbon" src="images/theme-hw/Ricoh-ribbon.svg" alt="">
+
                                         </div>
+
                                     </div>
+
                                 </div>
 
                                 <div class="col-lg-6">
@@ -501,6 +572,7 @@
                                         </ul>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
 
@@ -969,7 +1041,7 @@
 
     <script type="module" src="js/global.js"></script>
     <script type="module" src="js/primary-nav.js"></script>
-
+    <script type="module" src="js/split-width-hero-carousel.js"></script>
 
 </body>
 
