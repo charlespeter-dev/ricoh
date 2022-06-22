@@ -20,7 +20,7 @@
         height: 1px;
         position: absolute;
         bottom: -1px;
-        left: calc((100vw - (100% - 1.1rem)) / -2);
+        left: calc((100vw - 100% ) / -2);
         width: 100vw;
         z-index: -1;
         background-color: #C9C9C9;
@@ -38,6 +38,7 @@
 
         .breadcrumb-item a {
             text-decoration: none !important;
+            color: #CF142B;
         }
     }
 }

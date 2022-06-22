@@ -18603,11 +18603,15 @@ h4, .h4 {
   display: block;
   position: absolute;
   bottom: 0;
-  left: calc(-50vw + 50% - .55rem);
+  left: 0;
 }
 
-.primary-nav .navbar-brand img {
+.primary-nav .navbar .navbar-brand img {
   width: 146px;
+}
+
+.primary-nav .navbar .icon-search-container {
+  display: none;
 }
 
 .primary-nav .nav-link {
@@ -18650,6 +18654,52 @@ h4, .h4 {
 
 .primary-nav .nav-far-right .nav-item .nav-link {
   padding: 20px;
+}
+
+.is-mobile .primary-nav .navbar .icon-search-container {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  display: block;
+}
+
+.is-mobile .primary-nav .navbar .icon-search-container a {
+  padding: 0 .9rem;
+}
+
+.is-mobile .primary-nav .navbar .navbar-toggler-container {
+  border-left: .5px solid #c9c9c9;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.is-mobile .primary-nav .navbar .navbar-toggler-container .navbar-toggler, .is-mobile .primary-nav .navbar .navbar-toggler-container .navbar-toggler:active, .is-mobile .primary-nav .navbar .navbar-toggler-container .navbar-toggler:focus {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+.is-mobile .primary-nav .navbar .navbar-nav .nav-item {
+  border-bottom: .5px solid #c9c9c9;
+}
+
+.is-mobile .primary-nav .navbar .navbar-nav .nav-item:nth-of-type(1) {
+  border-top: .5px solid #c9c9c9;
+}
+
+.is-mobile .primary-nav .navbar .navbar-nav .nav-item.contact-us-btn {
+  display: none;
+}
+
+.is-mobile .primary-nav .navbar .navbar-nav .nav-item .nav-link {
+  padding: 20px;
+}
+
+.is-mobile .primary-nav .navbar .nav-far-right-container {
+  justify-content: center;
+}
+
+.is-mobile .primary-nav .navbar .nav-far-right-container .nav-far-right .nav-item:nth-last-of-type(1) {
+  border-right: none;
 }
 
 :root {
@@ -152008,7 +152058,7 @@ footer .footer-bottom .footer-bottom-content .copyr {
   display: block;
   position: absolute;
   bottom: -1px;
-  left: calc(-50vw + 50% - .55rem);
+  left: calc(-50vw + 50%);
 }
 
 .breadcrumb-container .breadcrumb {
@@ -152023,6 +152073,7 @@ footer .footer-bottom .footer-bottom-content .copyr {
 }
 
 .breadcrumb-container .breadcrumb .breadcrumb-item a {
+  color: #cf142b;
   text-decoration: none !important;
 }
 

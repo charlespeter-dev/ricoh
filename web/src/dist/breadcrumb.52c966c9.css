@@ -23,7 +23,7 @@
   display: block;
   position: absolute;
   bottom: -1px;
-  left: calc(-50vw + 50% - .55rem);
+  left: calc(-50vw + 50%);
 }
 
 .breadcrumb-container .breadcrumb {
@@ -38,6 +38,7 @@
 }
 
 .breadcrumb-container .breadcrumb .breadcrumb-item a {
+  color: #cf142b;
   text-decoration: none !important;
 }
 

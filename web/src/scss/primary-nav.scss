@@ -31,18 +31,23 @@
             height: 1px;
             position: absolute;
             bottom: 0;
-            left: calc((100vw - (100% - 1.1rem)) / -2);
+            left: 0;
             width: 100vw;
             z-index: -1;
             background-color: #C9C9C9;
         }
 
-    }
 
-    .navbar-brand {
-        img {
-            width: 146px;
+        .navbar-brand {
+            img {
+                width: 146px;
+            }
         }
+
+        .icon-search-container {
+            display: none;
+        }
+
     }
 
     .nav-link {
@@ -85,6 +90,79 @@
             .nav-link {
                 padding: 20px;
             }
+        }
+    }
+}
+
+// mobile specific
+
+.is-mobile {
+
+    .primary-nav {
+
+        .navbar {
+
+            .icon-search-container {
+                display: block;
+                padding-top: 17px;
+                padding-bottom: 17px;
+
+                a {
+                    padding: 0 .9rem;
+                }
+            }
+
+            .navbar-toggler-container {
+
+                padding-top: 13px;
+                padding-bottom: 13px;
+                border-left: 0.5px solid #c9c9c9;
+
+                .navbar-toggler,
+                .navbar-toggler:active,
+                .navbar-toggler:focus {
+                    border: none;
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
+
+            .navbar-nav {
+
+                .nav-item {
+
+                    border-bottom: .5px solid #C9C9C9;
+
+                    &:nth-of-type(1) {
+
+                        border-top: .5px solid #C9C9C9;
+                    }
+
+                    &.contact-us-btn {
+                        display: none;
+                    }
+
+                    .nav-link {
+
+                        padding: 20px;
+                    }
+                }
+            }
+
+            .nav-far-right-container {
+
+                justify-content: center;
+
+                .nav-far-right {
+
+                    .nav-item:nth-last-of-type(1) {
+
+                        border-right: none;
+                    }
+                }
+            }
+
+
         }
     }
 }
