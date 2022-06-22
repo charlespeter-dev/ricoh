@@ -1,0 +1,13 @@
+@import "../../../web/src/scss/global";
+@import "../../../web/src/scss/primary-nav";
+@import "../../../web/src/scss/breadcrumb";
+@import "../../../web/src/scss/footer";
+@import "../../../web/src/scss/back-to-top";
+@import "../css/bootstrap-multiselect.min";
+
+
+.form {
+    &.customer-nomination {
+        min-width: 780;
+    }
+}
