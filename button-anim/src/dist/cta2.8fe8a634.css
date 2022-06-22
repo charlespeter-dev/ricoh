@@ -1,0 +1,156 @@
+.the-arrow {
+  width: 25px;
+  transition: all .2s;
+}
+
+.the-arrow.-left {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+}
+
+.the-arrow.-left > .shaft {
+  width: 25px;
+}
+
+.the-arrow.-left > .shaft:before, .the-arrow.-left > .shaft:after {
+  width: 8px;
+}
+
+.the-arrow.-left > .shaft:before {
+  transform: rotate(40deg);
+}
+
+.the-arrow.-left > .shaft:after {
+  transform: rotate(-40deg);
+}
+
+.the-arrow > .shaft {
+  height: 2px;
+  transition: all .2s;
+  transition-delay: 0;
+  will-change: transform;
+  display: block;
+  position: relative;
+}
+
+.the-arrow > .shaft:before, .the-arrow > .shaft:after {
+  content: "";
+  height: 2px;
+  transition: all .2s;
+  transition-delay: 0;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.the-arrow > .shaft:before {
+  transform-origin: 100% 0;
+}
+
+.the-arrow > .shaft:after {
+  transform-origin: 100% 100%;
+}
+
+.btn-cta2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all .2s;
+  display: inline-block;
+  position: relative;
+}
+
+.btn-cta2:hover > .the-arrow.-left > .shaft {
+  width: 33px;
+  transition-delay: .1s;
+}
+
+.btn-cta2:hover > .the-arrow.-left > .shaft:before, .btn-cta2:hover > .the-arrow.-left > .shaft:after {
+  width: 8px;
+  transition-delay: .1s;
+}
+
+.btn-cta2:hover > .the-arrow.-left > .shaft:before {
+  transform: rotate(40deg);
+}
+
+.btn-cta2:hover > .the-arrow.-left > .shaft:after {
+  transform: rotate(-40deg);
+}
+
+.btn-cta2 > .btn-main {
+  align-items: center;
+  transition: all .2s;
+  display: flex;
+}
+
+.btn-cta2 > .btn-main > .text {
+  margin: 0 15px 0 0;
+}
+
+.btn-cta2 > .btn-main > .the-arrow {
+  position: relative;
+}
+
+.theme-std .the-arrow.-left > .shaft, .theme-std .the-arrow.-left > .shaft:before, .theme-std .the-arrow.-left > .shaft:after, .theme-std .the-arrow > .shaft, .theme-std .the-arrow > .shaft:before, .theme-std .the-arrow > .shaft:after {
+  background-color: #cf142b;
+}
+
+.theme-std .btn-cta2, .theme-std .btn-cta2:hover {
+  color: #cf142b;
+}
+
+.theme-std .btn-cta2:hover > .the-arrow.-left > .shaft, .theme-std .btn-cta2:hover > .the-arrow.-left > .shaft:before, .theme-std .btn-cta2:hover > .the-arrow.-left > .shaft:after {
+  background-color: #cf142b;
+}
+
+.theme-hw .the-arrow.-left > .shaft, .theme-hw .the-arrow.-left > .shaft:before, .theme-hw .the-arrow.-left > .shaft:after, .theme-hw .the-arrow > .shaft, .theme-hw .the-arrow > .shaft:before, .theme-hw .the-arrow > .shaft:after {
+  background-color: #768ec7;
+}
+
+.theme-hw .btn-cta2, .theme-hw .btn-cta2:hover {
+  color: #768ec7;
+}
+
+.theme-hw .btn-cta2:hover > .the-arrow.-left > .shaft, .theme-hw .btn-cta2:hover > .the-arrow.-left > .shaft:before, .theme-hw .btn-cta2:hover > .the-arrow.-left > .shaft:after {
+  background-color: #768ec7;
+}
+
+.theme-dwa .the-arrow.-left > .shaft, .theme-dwa .the-arrow.-left > .shaft:before, .theme-dwa .the-arrow.-left > .shaft:after, .theme-dwa .the-arrow > .shaft, .theme-dwa .the-arrow > .shaft:before, .theme-dwa .the-arrow > .shaft:after {
+  background-color: #8fc740;
+}
+
+.theme-dwa .btn-cta2, .theme-dwa .btn-cta2:hover {
+  color: #8fc740;
+}
+
+.theme-dwa .btn-cta2:hover > .the-arrow.-left > .shaft, .theme-dwa .btn-cta2:hover > .the-arrow.-left > .shaft:before, .theme-dwa .btn-cta2:hover > .the-arrow.-left > .shaft:after {
+  background-color: #8fc740;
+}
+
+.theme-cit .the-arrow.-left > .shaft, .theme-cit .the-arrow.-left > .shaft:before, .theme-cit .the-arrow.-left > .shaft:after, .theme-cit .the-arrow > .shaft, .theme-cit .the-arrow > .shaft:before, .theme-cit .the-arrow > .shaft:after {
+  background-color: #56a3da;
+}
+
+.theme-cit .btn-cta2, .theme-cit .btn-cta2:hover {
+  color: #56a3da;
+}
+
+.theme-cit .btn-cta2:hover > .the-arrow.-left > .shaft, .theme-cit .btn-cta2:hover > .the-arrow.-left > .shaft:before, .theme-cit .btn-cta2:hover > .the-arrow.-left > .shaft:after {
+  background-color: #56a3da;
+}
+
+.theme-cs .the-arrow.-left > .shaft, .theme-cs .the-arrow.-left > .shaft:before, .theme-cs .the-arrow.-left > .shaft:after, .theme-cs .the-arrow > .shaft, .theme-cs .the-arrow > .shaft:before, .theme-cs .the-arrow > .shaft:after {
+  background-color: #1859a9;
+}
+
+.theme-cs .btn-cta2, .theme-cs .btn-cta2:hover {
+  color: #1859a9;
+}
+
+.theme-cs .btn-cta2:hover > .the-arrow.-left > .shaft, .theme-cs .btn-cta2:hover > .the-arrow.-left > .shaft:before, .theme-cs .btn-cta2:hover > .the-arrow.-left > .shaft:after {
+  background-color: #1859a9;
+}
+

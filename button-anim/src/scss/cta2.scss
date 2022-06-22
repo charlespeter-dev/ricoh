@@ -1,0 +1,193 @@
+$text-arrow-space: 15px;
+$shaft-width: 25px;
+$newshaft-width: 33px;
+$shaft-thickness: 2px;
+$arrow-head-width: 8px;
+$arrow-head-thickness: $shaft-thickness;
+
+
+.the-arrow {
+
+    width: $shaft-width;
+    transition: all 0.2s;
+
+    &.-left {
+
+        position: absolute;
+        top: 50%;
+        left: 100%;
+
+        >.shaft {
+
+            width: $shaft-width;
+
+            &:before,
+            &:after {
+
+                width: $arrow-head-width;
+            }
+
+            &:before {
+
+                transform: rotate(40deg);
+            }
+
+            &:after {
+
+                transform: rotate(-40deg);
+            }
+        }
+    }
+
+    >.shaft {
+
+        display: block;
+        height: $shaft-thickness;
+        position: relative;
+        transition: all 0.2s;
+        transition-delay: 0;
+        will-change: transform;
+
+        &:before,
+        &:after {
+
+            content: '';
+            display: block;
+            height: $arrow-head-thickness;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transition: all 0.2s;
+            transition-delay: 0;
+        }
+
+        &:before {
+
+            transform-origin: top right;
+        }
+
+        &:after {
+
+            transform-origin: bottom right;
+        }
+    }
+}
+
+.btn-cta2 {
+
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.2s;
+
+    &:hover {
+
+        >.the-arrow.-left {
+
+            >.shaft {
+
+                width: $newshaft-width;
+                transition-delay: 0.1s;
+
+                &:before,
+                &:after {
+
+                    width: $arrow-head-width;
+                    transition-delay: 0.1s;
+                }
+
+                &:before {
+
+                    transform: rotate(40deg);
+                }
+
+                &:after {
+
+                    transform: rotate(-40deg);
+                }
+            }
+        }
+    }
+
+    >.btn-main {
+
+        display: flex;
+        align-items: center;
+        transition: all 0.2s;
+
+        >.text {
+
+            margin: 0 $text-arrow-space 0 0;
+        }
+
+        >.the-arrow {
+
+            position: relative;
+        }
+    }
+}
+
+// THEME
+
+
+@import "../../../web/src/scss/functions";
+@import "../../../web/src/scss/mixins";
+@import "../../../web/src/scss/themes";
+
+@include themify($themes) {
+
+    .the-arrow {
+
+        &.-left {
+
+            >.shaft {
+
+                background-color: themed('primaryColor');
+
+                &:before,
+                &:after {
+
+                    background-color: themed('primaryColor');
+                }
+            }
+        }
+
+        >.shaft {
+
+            background-color: themed('primaryColor');
+
+
+            &:before,
+            &:after {
+
+                background-color: themed('primaryColor');
+            }
+        }
+    }
+
+    .btn-cta2 {
+
+        color: themed('primaryColor');
+
+        &:hover {
+
+            color: themed('primaryColor');
+
+            >.the-arrow.-left {
+
+                >.shaft {
+
+                    background-color: themed('primaryColor');
+
+                    &:before,
+                    &:after {
+
+                        background-color: themed('primaryColor');
+                    }
+                }
+            }
+        }
+    }
+}
