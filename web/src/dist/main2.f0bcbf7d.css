@@ -18591,7 +18591,13 @@ h4, .h4 {
   display: block;
   position: absolute;
   top: 0;
-  left: calc(-50vw + 50% - .55rem);
+  left: calc(-50vw + 50%);
+}
+
+@media screen and (min-width: 992px) {
+  .primary-nav .navbar:before {
+    left: calc(-50vw + 50% - .55rem);
+  }
 }
 
 .primary-nav .navbar:after {
@@ -18603,7 +18609,13 @@ h4, .h4 {
   display: block;
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: calc(-50vw + 50%);
+}
+
+@media screen and (min-width: 992px) {
+  .primary-nav .navbar:after {
+    left: calc(-50vw + 50% - .55rem);
+  }
 }
 
 .primary-nav .navbar .navbar-brand img {
@@ -152031,7 +152043,13 @@ footer .footer-bottom .footer-bottom-content .copyr {
   display: block;
   position: absolute;
   top: 0;
-  left: calc(-50vw + 50% - .55rem);
+  left: calc(-50vw + 50%);
+}
+
+@media screen and (min-width: 992px) {
+  .breadcrumb-container:before {
+    left: calc(-50vw + 50% - .55rem);
+  }
 }
 
 .breadcrumb-container:after {
