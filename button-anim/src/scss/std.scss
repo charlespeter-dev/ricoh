@@ -1,80 +1,11 @@
-$text-arrow-space: 15px;
-$shaft-width: 20px;
-$newshaft-width: 25px;
-$shaft-thickness: 2px;
-$arrow-head-width: 8px;
-$arrow-head-thickness: $shaft-thickness;
-
-
-.the-arrow {
-
-    width: $shaft-width;
-    transition: all 0.2s;
-
-    &.-left {
-
-        position: absolute;
-        top: 50%;
-        left: 115px;
-
-        >.shaft {
-
-            width: 0;
-            opacity: 0;
-
-            &:before,
-            &:after {
-
-                width: 0;
-            }
-
-            &:before {
-
-                transform: rotate(40deg);
-            }
-
-            &:after {
-
-                transform: rotate(-40deg);
-            }
-        }
-    }
-
-    >.shaft {
-
-        display: block;
-        height: $shaft-thickness;
-        position: relative;
-        transition: all 0.2s;
-        transition-delay: 0;
-        will-change: transform;
-
-        &:before,
-        &:after {
-
-            content: '';
-            display: block;
-            height: $arrow-head-thickness;
-            position: absolute;
-            top: 0;
-            right: 0;
-            transition: all 0.2s;
-            transition-delay: 0;
-        }
-
-        &:before {
-
-            transform-origin: top right;
-        }
-
-        &:after {
-
-            transform-origin: bottom right;
-        }
-    }
-}
-
 .btn-std {
+
+    $text-arrow-space: 15px;
+    $shaft-width: 20px;
+    $newshaft-width: 25px;
+    $shaft-thickness: 2px;
+    $arrow-head-width: 8px;
+    $arrow-head-thickness: $shaft-thickness;
 
     display: inline-block;
     font-weight: 700;
@@ -111,6 +42,74 @@ $arrow-head-thickness: $shaft-thickness;
         }
     }
 
+    >.the-arrow {
+
+        width: $shaft-width;
+        transition: all 0.2s;
+
+        &.-left {
+
+            position: absolute;
+            top: 50%;
+            left: 115px;
+
+            >.shaft {
+
+                width: 0;
+                opacity: 0;
+
+                &:before,
+                &:after {
+
+                    width: 0;
+                }
+
+                &:before {
+
+                    transform: rotate(40deg);
+                }
+
+                &:after {
+
+                    transform: rotate(-40deg);
+                }
+            }
+        }
+
+        >.shaft {
+
+            display: block;
+            height: $shaft-thickness;
+            position: relative;
+            transition: all 0.2s;
+            transition-delay: 0;
+            will-change: transform;
+
+            &:before,
+            &:after {
+
+                content: '';
+                display: block;
+                height: $arrow-head-thickness;
+                position: absolute;
+                top: 0;
+                right: 0;
+                transition: all 0.2s;
+                transition-delay: 0;
+            }
+
+            &:before {
+
+                transform-origin: top right;
+            }
+
+            &:after {
+
+                transform-origin: bottom right;
+            }
+        }
+    }
+
     >.btn-main {
 
         display: flex;
@@ -140,35 +139,6 @@ $arrow-head-thickness: $shaft-thickness;
 
 @include themify($themes) {
 
-    .the-arrow {
-
-        &.-left {
-
-            >.shaft {
-
-                background-color: #fff;
-
-                &:before,
-                &:after {
-
-                    background-color: #fff;
-                }
-            }
-        }
-
-        >.shaft {
-
-            background-color: #fff;
-
-
-            &:before,
-            &:after {
-
-                background-color: #fff;
-            }
-        }
-    }
-
     .btn-std {
 
         color: themed('primaryColor');
@@ -194,6 +164,35 @@ $arrow-head-thickness: $shaft-thickness;
             >.btn-main {
                 >.text {
                     padding-right: 50px;
+                }
+            }
+        }
+
+        >.the-arrow {
+
+            &.-left {
+
+                >.shaft {
+
+                    background-color: #fff;
+
+                    &:before,
+                    &:after {
+
+                        background-color: #fff;
+                    }
+                }
+            }
+
+            >.shaft {
+
+                background-color: #fff;
+
+
+                &:before,
+                &:after {
+
+                    background-color: #fff;
                 }
             }
         }

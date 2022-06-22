@@ -1,59 +1,3 @@
-.the-arrow {
-  width: 20px;
-  transition: all .2s;
-}
-
-.the-arrow.-left {
-  position: absolute;
-  top: 50%;
-  left: 115px;
-}
-
-.the-arrow.-left > .shaft {
-  width: 0;
-  opacity: 0;
-}
-
-.the-arrow.-left > .shaft:before, .the-arrow.-left > .shaft:after {
-  width: 0;
-}
-
-.the-arrow.-left > .shaft:before {
-  transform: rotate(40deg);
-}
-
-.the-arrow.-left > .shaft:after {
-  transform: rotate(-40deg);
-}
-
-.the-arrow > .shaft {
-  height: 2px;
-  transition: all .2s;
-  transition-delay: 0;
-  will-change: transform;
-  display: block;
-  position: relative;
-}
-
-.the-arrow > .shaft:before, .the-arrow > .shaft:after {
-  content: "";
-  height: 2px;
-  transition: all .2s;
-  transition-delay: 0;
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.the-arrow > .shaft:before {
-  transform-origin: 100% 0;
-}
-
-.the-arrow > .shaft:after {
-  transform-origin: 100% 100%;
-}
-
 .btn-cta1 {
   font-weight: 700;
   text-decoration: none;
@@ -80,6 +24,62 @@
   transform: rotate(-40deg);
 }
 
+.btn-cta1 > .the-arrow {
+  width: 20px;
+  transition: all .2s;
+}
+
+.btn-cta1 > .the-arrow.-left {
+  position: absolute;
+  top: 50%;
+  left: 115px;
+}
+
+.btn-cta1 > .the-arrow.-left > .shaft {
+  width: 0;
+  opacity: 0;
+}
+
+.btn-cta1 > .the-arrow.-left > .shaft:before, .btn-cta1 > .the-arrow.-left > .shaft:after {
+  width: 0;
+}
+
+.btn-cta1 > .the-arrow.-left > .shaft:before {
+  transform: rotate(40deg);
+}
+
+.btn-cta1 > .the-arrow.-left > .shaft:after {
+  transform: rotate(-40deg);
+}
+
+.btn-cta1 > .the-arrow > .shaft {
+  height: 2px;
+  transition: all .2s;
+  transition-delay: 0;
+  will-change: transform;
+  display: block;
+  position: relative;
+}
+
+.btn-cta1 > .the-arrow > .shaft:before, .btn-cta1 > .the-arrow > .shaft:after {
+  content: "";
+  height: 2px;
+  transition: all .2s;
+  transition-delay: 0;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.btn-cta1 > .the-arrow > .shaft:before {
+  transform-origin: 100% 0;
+}
+
+.btn-cta1 > .the-arrow > .shaft:after {
+  transform-origin: 100% 100%;
+}
+
 .btn-cta1 > .btn-main {
   border-radius: 5px;
   align-items: center;
@@ -95,10 +95,6 @@
 
 .btn-cta1 > .btn-main > .the-arrow {
   position: relative;
-}
-
-.theme-std .the-arrow.-left > .shaft, .theme-std .the-arrow.-left > .shaft:before, .theme-std .the-arrow.-left > .shaft:after, .theme-std .the-arrow > .shaft, .theme-std .the-arrow > .shaft:before, .theme-std .the-arrow > .shaft:after {
-  background-color: #fff;
 }
 
 .theme-std .btn-cta1, .theme-std .btn-cta1:hover {
@@ -118,14 +114,14 @@
   padding-right: 50px;
 }
 
+.theme-std .btn-cta1 > .the-arrow.-left > .shaft, .theme-std .btn-cta1 > .the-arrow.-left > .shaft:before, .theme-std .btn-cta1 > .the-arrow.-left > .shaft:after, .theme-std .btn-cta1 > .the-arrow > .shaft, .theme-std .btn-cta1 > .the-arrow > .shaft:before, .theme-std .btn-cta1 > .the-arrow > .shaft:after {
+  background-color: #fff;
+}
+
 .theme-std .btn-cta1 > .btn-main {
   color: #cf142b;
   background-color: #fff;
   border: .5px solid #cf142b;
-}
-
-.theme-hw .the-arrow.-left > .shaft, .theme-hw .the-arrow.-left > .shaft:before, .theme-hw .the-arrow.-left > .shaft:after, .theme-hw .the-arrow > .shaft, .theme-hw .the-arrow > .shaft:before, .theme-hw .the-arrow > .shaft:after {
-  background-color: #fff;
 }
 
 .theme-hw .btn-cta1, .theme-hw .btn-cta1:hover {
@@ -145,14 +141,14 @@
   padding-right: 50px;
 }
 
+.theme-hw .btn-cta1 > .the-arrow.-left > .shaft, .theme-hw .btn-cta1 > .the-arrow.-left > .shaft:before, .theme-hw .btn-cta1 > .the-arrow.-left > .shaft:after, .theme-hw .btn-cta1 > .the-arrow > .shaft, .theme-hw .btn-cta1 > .the-arrow > .shaft:before, .theme-hw .btn-cta1 > .the-arrow > .shaft:after {
+  background-color: #fff;
+}
+
 .theme-hw .btn-cta1 > .btn-main {
   color: #768ec7;
   background-color: #fff;
   border: .5px solid #768ec7;
-}
-
-.theme-dwa .the-arrow.-left > .shaft, .theme-dwa .the-arrow.-left > .shaft:before, .theme-dwa .the-arrow.-left > .shaft:after, .theme-dwa .the-arrow > .shaft, .theme-dwa .the-arrow > .shaft:before, .theme-dwa .the-arrow > .shaft:after {
-  background-color: #fff;
 }
 
 .theme-dwa .btn-cta1, .theme-dwa .btn-cta1:hover {
@@ -172,14 +168,14 @@
   padding-right: 50px;
 }
 
+.theme-dwa .btn-cta1 > .the-arrow.-left > .shaft, .theme-dwa .btn-cta1 > .the-arrow.-left > .shaft:before, .theme-dwa .btn-cta1 > .the-arrow.-left > .shaft:after, .theme-dwa .btn-cta1 > .the-arrow > .shaft, .theme-dwa .btn-cta1 > .the-arrow > .shaft:before, .theme-dwa .btn-cta1 > .the-arrow > .shaft:after {
+  background-color: #fff;
+}
+
 .theme-dwa .btn-cta1 > .btn-main {
   color: #8fc740;
   background-color: #fff;
   border: .5px solid #8fc740;
-}
-
-.theme-cit .the-arrow.-left > .shaft, .theme-cit .the-arrow.-left > .shaft:before, .theme-cit .the-arrow.-left > .shaft:after, .theme-cit .the-arrow > .shaft, .theme-cit .the-arrow > .shaft:before, .theme-cit .the-arrow > .shaft:after {
-  background-color: #fff;
 }
 
 .theme-cit .btn-cta1, .theme-cit .btn-cta1:hover {
@@ -199,14 +195,14 @@
   padding-right: 50px;
 }
 
+.theme-cit .btn-cta1 > .the-arrow.-left > .shaft, .theme-cit .btn-cta1 > .the-arrow.-left > .shaft:before, .theme-cit .btn-cta1 > .the-arrow.-left > .shaft:after, .theme-cit .btn-cta1 > .the-arrow > .shaft, .theme-cit .btn-cta1 > .the-arrow > .shaft:before, .theme-cit .btn-cta1 > .the-arrow > .shaft:after {
+  background-color: #fff;
+}
+
 .theme-cit .btn-cta1 > .btn-main {
   color: #56a3da;
   background-color: #fff;
   border: .5px solid #56a3da;
-}
-
-.theme-cs .the-arrow.-left > .shaft, .theme-cs .the-arrow.-left > .shaft:before, .theme-cs .the-arrow.-left > .shaft:after, .theme-cs .the-arrow > .shaft, .theme-cs .the-arrow > .shaft:before, .theme-cs .the-arrow > .shaft:after {
-  background-color: #fff;
 }
 
 .theme-cs .btn-cta1, .theme-cs .btn-cta1:hover {
@@ -224,6 +220,10 @@
 
 .theme-cs .btn-cta1:hover > .btn-main > .text {
   padding-right: 50px;
+}
+
+.theme-cs .btn-cta1 > .the-arrow.-left > .shaft, .theme-cs .btn-cta1 > .the-arrow.-left > .shaft:before, .theme-cs .btn-cta1 > .the-arrow.-left > .shaft:after, .theme-cs .btn-cta1 > .the-arrow > .shaft, .theme-cs .btn-cta1 > .the-arrow > .shaft:before, .theme-cs .btn-cta1 > .the-arrow > .shaft:after {
+  background-color: #fff;
 }
 
 .theme-cs .btn-cta1 > .btn-main {

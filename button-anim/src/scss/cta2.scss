@@ -1,79 +1,13 @@
-$text-arrow-space: 15px;
-$shaft-width: 25px;
-$newshaft-width: 33px;
-$shaft-thickness: 2px;
-$arrow-head-width: 8px;
-$arrow-head-thickness: $shaft-thickness;
-
-
-.the-arrow {
-
-    width: $shaft-width;
-    transition: all 0.2s;
-
-    &.-left {
-
-        position: absolute;
-        top: 50%;
-        left: 100%;
-
-        >.shaft {
-
-            width: $shaft-width;
-
-            &:before,
-            &:after {
-
-                width: $arrow-head-width;
-            }
-
-            &:before {
-
-                transform: rotate(40deg);
-            }
-
-            &:after {
-
-                transform: rotate(-40deg);
-            }
-        }
-    }
-
-    >.shaft {
-
-        display: block;
-        height: $shaft-thickness;
-        position: relative;
-        transition: all 0.2s;
-        transition-delay: 0;
-        will-change: transform;
-
-        &:before,
-        &:after {
-
-            content: '';
-            display: block;
-            height: $arrow-head-thickness;
-            position: absolute;
-            top: 0;
-            right: 0;
-            transition: all 0.2s;
-            transition-delay: 0;
-        }
-
-        &:before {
-
-            transform-origin: top right;
-        }
-
-        &:after {
-
-            transform-origin: bottom right;
-        }
-    }
-}
-
 .btn-cta2 {
+
+
+    $text-arrow-space: 15px;
+    $shaft-width: 25px;
+    $newshaft-width: 33px;
+    $shaft-thickness: 2px;
+    $arrow-head-width: 8px;
+    $arrow-head-thickness: $shaft-thickness;
+
 
     display: inline-block;
     font-weight: 700;
@@ -111,6 +45,73 @@ $arrow-head-thickness: $shaft-thickness;
         }
     }
 
+    >.the-arrow {
+
+        width: $shaft-width;
+        transition: all 0.2s;
+
+        &.-left {
+
+            position: absolute;
+            top: 50%;
+            left: 100%;
+
+            >.shaft {
+
+                width: $shaft-width;
+
+                &:before,
+                &:after {
+
+                    width: $arrow-head-width;
+                }
+
+                &:before {
+
+                    transform: rotate(40deg);
+                }
+
+                &:after {
+
+                    transform: rotate(-40deg);
+                }
+            }
+        }
+
+        >.shaft {
+
+            display: block;
+            height: $shaft-thickness;
+            position: relative;
+            transition: all 0.2s;
+            transition-delay: 0;
+            will-change: transform;
+
+            &:before,
+            &:after {
+
+                content: '';
+                display: block;
+                height: $arrow-head-thickness;
+                position: absolute;
+                top: 0;
+                right: 0;
+                transition: all 0.2s;
+                transition-delay: 0;
+            }
+
+            &:before {
+
+                transform-origin: top right;
+            }
+
+            &:after {
+
+                transform-origin: bottom right;
+            }
+        }
+    }
+
     >.btn-main {
 
         display: flex;
@@ -119,7 +120,7 @@ $arrow-head-thickness: $shaft-thickness;
 
         >.text {
 
-            margin: 0 $text-arrow-space 0 0;
+            padding: 10px 10px 10px 10px;
         }
 
         >.the-arrow {
@@ -137,35 +138,6 @@ $arrow-head-thickness: $shaft-thickness;
 @import "../../../web/src/scss/themes";
 
 @include themify($themes) {
-
-    .the-arrow {
-
-        &.-left {
-
-            >.shaft {
-
-                background-color: themed('primaryColor');
-
-                &:before,
-                &:after {
-
-                    background-color: themed('primaryColor');
-                }
-            }
-        }
-
-        >.shaft {
-
-            background-color: themed('primaryColor');
-
-
-            &:before,
-            &:after {
-
-                background-color: themed('primaryColor');
-            }
-        }
-    }
 
     .btn-cta2 {
 
@@ -189,5 +161,36 @@ $arrow-head-thickness: $shaft-thickness;
                 }
             }
         }
+
+
+        >.the-arrow {
+
+            &.-left {
+
+                >.shaft {
+
+                    background-color: themed('primaryColor');
+
+                    &:before,
+                    &:after {
+
+                        background-color: themed('primaryColor');
+                    }
+                }
+            }
+
+            >.shaft {
+
+                background-color: themed('primaryColor');
+
+
+                &:before,
+                &:after {
+
+                    background-color: themed('primaryColor');
+                }
+            }
+        }
+
     }
 }
