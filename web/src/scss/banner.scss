@@ -68,16 +68,8 @@
 
             img {
                 border-radius: 15px;
-                transform: translate(-40%);
-                height: auto;
-
-                @media screen and (min-width: 768px) {
-                    transform: translate(0);
-                }
 
                 @media screen and (min-width: 992px) {
-
-                    transform: translate(0);
                     display: block;
                     width: 880px;
                     height: 320px;

@@ -18629,15 +18629,7 @@ h4, .h4 {
 }
 
 .theme-std .banner .image img {
-  height: auto;
   border-radius: 15px;
-  transform: translate(-40%);
-}
-
-@media screen and (min-width: 768px) {
-  .theme-std .banner .image img {
-    transform: translate(0);
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -18645,7 +18637,6 @@ h4, .h4 {
     width: 880px;
     height: 320px;
     display: block;
-    transform: translate(0);
   }
 }
 
@@ -18710,15 +18701,7 @@ h4, .h4 {
 }
 
 .theme-hw .banner .image img {
-  height: auto;
   border-radius: 15px;
-  transform: translate(-40%);
-}
-
-@media screen and (min-width: 768px) {
-  .theme-hw .banner .image img {
-    transform: translate(0);
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -18726,7 +18709,6 @@ h4, .h4 {
     width: 880px;
     height: 320px;
     display: block;
-    transform: translate(0);
   }
 }
 
@@ -18791,15 +18773,7 @@ h4, .h4 {
 }
 
 .theme-dwa .banner .image img {
-  height: auto;
   border-radius: 15px;
-  transform: translate(-40%);
-}
-
-@media screen and (min-width: 768px) {
-  .theme-dwa .banner .image img {
-    transform: translate(0);
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -18807,7 +18781,6 @@ h4, .h4 {
     width: 880px;
     height: 320px;
     display: block;
-    transform: translate(0);
   }
 }
 
@@ -18872,15 +18845,7 @@ h4, .h4 {
 }
 
 .theme-cit .banner .image img {
-  height: auto;
   border-radius: 15px;
-  transform: translate(-40%);
-}
-
-@media screen and (min-width: 768px) {
-  .theme-cit .banner .image img {
-    transform: translate(0);
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -18888,7 +18853,6 @@ h4, .h4 {
     width: 880px;
     height: 320px;
     display: block;
-    transform: translate(0);
   }
 }
 
@@ -18953,15 +18917,7 @@ h4, .h4 {
 }
 
 .theme-cs .banner .image img {
-  height: auto;
   border-radius: 15px;
-  transform: translate(-40%);
-}
-
-@media screen and (min-width: 768px) {
-  .theme-cs .banner .image img {
-    transform: translate(0);
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -18969,7 +18925,6 @@ h4, .h4 {
     width: 880px;
     height: 320px;
     display: block;
-    transform: translate(0);
   }
 }
 

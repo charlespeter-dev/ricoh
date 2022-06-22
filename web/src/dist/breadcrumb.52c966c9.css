@@ -26,6 +26,12 @@
   left: calc(-50vw + 50%);
 }
 
+@media screen and (min-width: 992px) {
+  .breadcrumb-container:after {
+    left: calc(-50vw + 50% - .55rem);
+  }
+}
+
 .breadcrumb-container .breadcrumb {
   --bs-breadcrumb-divider: ">";
   margin-bottom: 0;

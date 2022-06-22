@@ -30546,15 +30546,7 @@ h4, .h4 {
 }
 
 .theme-std .banner .image img {
-  height: auto;
   border-radius: 15px;
-  transform: translate(-40%);
-}
-
-@media screen and (min-width: 768px) {
-  .theme-std .banner .image img {
-    transform: translate(0);
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -30562,7 +30554,6 @@ h4, .h4 {
     width: 880px;
     height: 320px;
     display: block;
-    transform: translate(0);
   }
 }
 
@@ -30627,15 +30618,7 @@ h4, .h4 {
 }
 
 .theme-hw .banner .image img {
-  height: auto;
   border-radius: 15px;
-  transform: translate(-40%);
-}
-
-@media screen and (min-width: 768px) {
-  .theme-hw .banner .image img {
-    transform: translate(0);
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -30643,7 +30626,6 @@ h4, .h4 {
     width: 880px;
     height: 320px;
     display: block;
-    transform: translate(0);
   }
 }
 
@@ -30708,15 +30690,7 @@ h4, .h4 {
 }
 
 .theme-dwa .banner .image img {
-  height: auto;
   border-radius: 15px;
-  transform: translate(-40%);
-}
-
-@media screen and (min-width: 768px) {
-  .theme-dwa .banner .image img {
-    transform: translate(0);
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -30724,7 +30698,6 @@ h4, .h4 {
     width: 880px;
     height: 320px;
     display: block;
-    transform: translate(0);
   }
 }
 
@@ -30789,15 +30762,7 @@ h4, .h4 {
 }
 
 .theme-cit .banner .image img {
-  height: auto;
   border-radius: 15px;
-  transform: translate(-40%);
-}
-
-@media screen and (min-width: 768px) {
-  .theme-cit .banner .image img {
-    transform: translate(0);
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -30805,7 +30770,6 @@ h4, .h4 {
     width: 880px;
     height: 320px;
     display: block;
-    transform: translate(0);
   }
 }
 
@@ -30870,15 +30834,7 @@ h4, .h4 {
 }
 
 .theme-cs .banner .image img {
-  height: auto;
   border-radius: 15px;
-  transform: translate(-40%);
-}
-
-@media screen and (min-width: 768px) {
-  .theme-cs .banner .image img {
-    transform: translate(0);
-  }
 }
 
 @media screen and (min-width: 992px) {
@@ -30886,7 +30842,6 @@ h4, .h4 {
     width: 880px;
     height: 320px;
     display: block;
-    transform: translate(0);
   }
 }
 
@@ -30922,7 +30877,13 @@ h4, .h4 {
   display: block;
   position: absolute;
   bottom: 0;
-  left: calc(-50vw + 50% - .55rem);
+  left: calc(-50vw + 50%);
+}
+
+@media screen and (min-width: 992px) {
+  .theme-std .is-mobile .secondary-nav-mobile:after {
+    left: calc(-50vw + 50% - .55rem);
+  }
 }
 
 .theme-std .is-mobile .secondary-nav-mobile.form-select-lg {
@@ -30974,7 +30935,13 @@ h4, .h4 {
   display: block;
   position: absolute;
   bottom: 0;
-  left: calc(-50vw + 50% - .55rem);
+  left: calc(-50vw + 50%);
+}
+
+@media screen and (min-width: 992px) {
+  .theme-hw .is-mobile .secondary-nav-mobile:after {
+    left: calc(-50vw + 50% - .55rem);
+  }
 }
 
 .theme-hw .is-mobile .secondary-nav-mobile.form-select-lg {
@@ -31026,7 +30993,13 @@ h4, .h4 {
   display: block;
   position: absolute;
   bottom: 0;
-  left: calc(-50vw + 50% - .55rem);
+  left: calc(-50vw + 50%);
+}
+
+@media screen and (min-width: 992px) {
+  .theme-dwa .is-mobile .secondary-nav-mobile:after {
+    left: calc(-50vw + 50% - .55rem);
+  }
 }
 
 .theme-dwa .is-mobile .secondary-nav-mobile.form-select-lg {
@@ -31078,7 +31051,13 @@ h4, .h4 {
   display: block;
   position: absolute;
   bottom: 0;
-  left: calc(-50vw + 50% - .55rem);
+  left: calc(-50vw + 50%);
+}
+
+@media screen and (min-width: 992px) {
+  .theme-cit .is-mobile .secondary-nav-mobile:after {
+    left: calc(-50vw + 50% - .55rem);
+  }
 }
 
 .theme-cit .is-mobile .secondary-nav-mobile.form-select-lg {
@@ -31130,7 +31109,13 @@ h4, .h4 {
   display: block;
   position: absolute;
   bottom: 0;
-  left: calc(-50vw + 50% - .55rem);
+  left: calc(-50vw + 50%);
+}
+
+@media screen and (min-width: 992px) {
+  .theme-cs .is-mobile .secondary-nav-mobile:after {
+    left: calc(-50vw + 50% - .55rem);
+  }
 }
 
 .theme-cs .is-mobile .secondary-nav-mobile.form-select-lg {
@@ -104175,6 +104160,12 @@ footer .footer-bottom .footer-bottom-content .copyr {
   position: absolute;
   bottom: -1px;
   left: calc(-50vw + 50%);
+}
+
+@media screen and (min-width: 992px) {
+  .breadcrumb-container:after {
+    left: calc(-50vw + 50% - .55rem);
+  }
 }
 
 .breadcrumb-container .breadcrumb {

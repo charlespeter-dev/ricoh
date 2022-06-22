@@ -30,7 +30,13 @@
   display: block;
   position: absolute;
   bottom: 0;
-  left: calc(-50vw + 50% - .55rem);
+  left: calc(-50vw + 50%);
+}
+
+@media screen and (min-width: 992px) {
+  .theme-std .is-mobile .secondary-nav-mobile:after {
+    left: calc(-50vw + 50% - .55rem);
+  }
 }
 
 .theme-std .is-mobile .secondary-nav-mobile.form-select-lg {
@@ -82,7 +88,13 @@
   display: block;
   position: absolute;
   bottom: 0;
-  left: calc(-50vw + 50% - .55rem);
+  left: calc(-50vw + 50%);
+}
+
+@media screen and (min-width: 992px) {
+  .theme-hw .is-mobile .secondary-nav-mobile:after {
+    left: calc(-50vw + 50% - .55rem);
+  }
 }
 
 .theme-hw .is-mobile .secondary-nav-mobile.form-select-lg {
@@ -134,7 +146,13 @@
   display: block;
   position: absolute;
   bottom: 0;
-  left: calc(-50vw + 50% - .55rem);
+  left: calc(-50vw + 50%);
+}
+
+@media screen and (min-width: 992px) {
+  .theme-dwa .is-mobile .secondary-nav-mobile:after {
+    left: calc(-50vw + 50% - .55rem);
+  }
 }
 
 .theme-dwa .is-mobile .secondary-nav-mobile.form-select-lg {
@@ -186,7 +204,13 @@
   display: block;
   position: absolute;
   bottom: 0;
-  left: calc(-50vw + 50% - .55rem);
+  left: calc(-50vw + 50%);
+}
+
+@media screen and (min-width: 992px) {
+  .theme-cit .is-mobile .secondary-nav-mobile:after {
+    left: calc(-50vw + 50% - .55rem);
+  }
 }
 
 .theme-cit .is-mobile .secondary-nav-mobile.form-select-lg {
@@ -238,7 +262,13 @@
   display: block;
   position: absolute;
   bottom: 0;
-  left: calc(-50vw + 50% - .55rem);
+  left: calc(-50vw + 50%);
+}
+
+@media screen and (min-width: 992px) {
+  .theme-cs .is-mobile .secondary-nav-mobile:after {
+    left: calc(-50vw + 50% - .55rem);
+  }
 }
 
 .theme-cs .is-mobile .secondary-nav-mobile.form-select-lg {
