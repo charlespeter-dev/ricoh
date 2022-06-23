@@ -18591,7 +18591,13 @@ h4, .h4 {
   display: block;
   position: absolute;
   top: 0;
-  left: calc(-50vw + 50% - .55rem);
+  left: calc(-50vw + 50%);
+}
+
+@media screen and (min-width: 992px) {
+  .primary-nav .navbar:before {
+    left: calc(-50vw + 50% - .55rem);
+  }
 }
 
 .primary-nav .navbar:after {
@@ -18603,11 +18609,21 @@ h4, .h4 {
   display: block;
   position: absolute;
   bottom: 0;
-  left: calc(-50vw + 50% - .55rem);
+  left: calc(-50vw + 50%);
 }
 
-.primary-nav .navbar-brand img {
+@media screen and (min-width: 992px) {
+  .primary-nav .navbar:after {
+    left: calc(-50vw + 50% - .55rem);
+  }
+}
+
+.primary-nav .navbar .navbar-brand img {
   width: 146px;
+}
+
+.primary-nav .navbar .icon-search-container {
+  display: none;
 }
 
 .primary-nav .nav-link {
@@ -18652,6 +18668,52 @@ h4, .h4 {
   padding: 20px;
 }
 
+.is-mobile .primary-nav .navbar .icon-search-container {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  display: block;
+}
+
+.is-mobile .primary-nav .navbar .icon-search-container a {
+  padding: 0 .9rem;
+}
+
+.is-mobile .primary-nav .navbar .navbar-toggler-container {
+  border-left: .5px solid #c9c9c9;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.is-mobile .primary-nav .navbar .navbar-toggler-container .navbar-toggler, .is-mobile .primary-nav .navbar .navbar-toggler-container .navbar-toggler:active, .is-mobile .primary-nav .navbar .navbar-toggler-container .navbar-toggler:focus {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+.is-mobile .primary-nav .navbar .navbar-nav .nav-item {
+  border-bottom: .5px solid #c9c9c9;
+}
+
+.is-mobile .primary-nav .navbar .navbar-nav .nav-item:nth-of-type(1) {
+  border-top: .5px solid #c9c9c9;
+}
+
+.is-mobile .primary-nav .navbar .navbar-nav .nav-item.contact-us-btn {
+  display: none;
+}
+
+.is-mobile .primary-nav .navbar .navbar-nav .nav-item .nav-link {
+  padding: 20px;
+}
+
+.is-mobile .primary-nav .navbar .nav-far-right-container {
+  justify-content: center;
+}
+
+.is-mobile .primary-nav .navbar .nav-far-right-container .nav-far-right .nav-item:nth-last-of-type(1) {
+  border-right: none;
+}
+
 .breadcrumb-container {
   position: relative;
 }
@@ -18665,7 +18727,13 @@ h4, .h4 {
   display: block;
   position: absolute;
   top: 0;
-  left: calc(-50vw + 50% - .55rem);
+  left: calc(-50vw + 50%);
+}
+
+@media screen and (min-width: 992px) {
+  .breadcrumb-container:before {
+    left: calc(-50vw + 50% - .55rem);
+  }
 }
 
 .breadcrumb-container:after {
@@ -18677,7 +18745,13 @@ h4, .h4 {
   display: block;
   position: absolute;
   bottom: -1px;
-  left: calc(-50vw + 50% - .55rem);
+  left: calc(-50vw + 50%);
+}
+
+@media screen and (min-width: 992px) {
+  .breadcrumb-container:after {
+    left: calc(-50vw + 50% - .55rem);
+  }
 }
 
 .breadcrumb-container .breadcrumb {
@@ -18692,6 +18766,7 @@ h4, .h4 {
 }
 
 .breadcrumb-container .breadcrumb .breadcrumb-item a {
+  color: #cf142b;
   text-decoration: none !important;
 }
 
@@ -19018,6 +19093,64 @@ span.multiselect-native-select select {
 }
 
 .form.customer-nomination {
-  min-width: 780px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+@media screen and (min-width: 992px) {
+  .form.customer-nomination {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+.form.customer-nomination form {
+  width: 780px;
+}
+
+.form.customer-nomination form > .row {
+  margin-bottom: 30px;
+}
+
+.form.customer-nomination form label {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.625rem;
+}
+
+.form.customer-nomination form label.form-check-label {
+  color: 666;
+  font-weight: 400;
+}
+
+.form.customer-nomination form .form-select {
+  color: #666;
+}
+
+.form.customer-nomination .list-group {
+  border-color: #cf142b;
+  margin-top: 20px;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+.form.customer-nomination .list-group .list-group-item.active {
+  background-color: #cf142b;
+  border: none;
+}
+
+.form.customer-nomination .multiselect-native-select .btn-group {
+  display: block;
+}
+
+.form.customer-nomination .multiselect-native-select .btn-group .text-center {
+  text-align: left !important;
+}
+
+.form.customer-nomination .multiselect-native-select .btn-group .multiselect-container {
+  width: 100%;
 }
 

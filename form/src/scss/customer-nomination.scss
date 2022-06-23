@@ -8,6 +8,67 @@
 
 .form {
     &.customer-nomination {
-        min-width: 780;
+
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        @media screen and (min-width: 992px) {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        form {
+
+            width: 780;
+
+            >.row {
+                margin-bottom: 30px;
+            }
+
+            label {
+                color: #333;
+                font-size: 1rem; // desktop 16px
+                line-height: 1.625rem; // desktop 26px
+                font-weight: 700;
+
+                &.form-check-label {
+                    color: 666;
+                    font-weight: 400;
+                }
+            }
+
+            .form-select {
+                color: #666;
+            }
+        }
+
+        .list-group {
+            margin-top: 20px;
+            font-size: 1rem; // desktop 16px
+            line-height: 1.625rem; // desktop 26px
+            border-color: #cf142b;
+
+            .list-group-item.active {
+                background-color: #cf142b;
+                border: none;
+            }
+        }
+
+        .multiselect-native-select {
+            .btn-group {
+                display: block;
+
+                .text-center {
+                    text-align: left !important;
+                }
+
+                .multiselect-container {
+                    width: 100%;
+                }
+            }
+        }
+
     }
 }
