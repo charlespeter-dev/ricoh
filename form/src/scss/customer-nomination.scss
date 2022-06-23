@@ -1,9 +1,10 @@
-@import "../../../web/src/scss/global";
-@import "../../../web/src/scss/primary-nav";
-@import "../../../web/src/scss/breadcrumb";
-@import "../../../web/src/scss/footer";
-@import "../../../web/src/scss/back-to-top";
-@import "../css/bootstrap-multiselect.min";
+@use "./banner-text";
+@use "../../../web/src/scss/global";
+@use "../../../web/src/scss/primary-nav";
+@use "../../../web/src/scss/breadcrumb";
+@use "../../../web/src/scss/footer";
+@use "../../../web/src/scss/back-to-top";
+@use "../css/bootstrap-multiselect.min";
 
 
 .form {

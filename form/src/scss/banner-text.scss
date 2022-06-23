@@ -1,0 +1,78 @@
+@use "../../../web/src/scss/functions";
+@use "../../../web/src/scss/mixins";
+@use "../../../web/src/scss/themes";
+
+@import "../../../web/src/scss/global";
+@import "../../../web/src/scss/primary-nav";
+@import "../../../web/src/scss/breadcrumb";
+@import "../../../web/src/scss/footer";
+@import "../../../web/src/scss/back-to-top";
+
+.banner-text {
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    &::before {
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: calc((100vw - 100%) / -2);
+        width: 100vw;
+        z-index: -3;
+        background-color: #f3f3f3;
+
+        @media screen and (min-width: 992px) {
+            left: calc((100vw - (100% - 1.1rem)) / -2);
+        }
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        height: 5px;
+        position: absolute;
+        bottom: 0;
+        left: calc((100vw - 100%) / -2);
+        width: 100vw;
+        z-index: -1;
+
+        @media screen and (min-width: 992px) {
+            left: calc((100vw - (100% - 1.1rem)) / -2);
+        }
+    }
+
+    .banner-text-inner {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 780px;
+
+        a {
+            color: #CF142B;
+            text-decoration: none;
+        }
+    }
+}
+
+
+
+@include themify($themes) {
+    .banner-text {
+
+        &::after {
+            background-color: themed('primaryColor');
+        }
+    }
+}
