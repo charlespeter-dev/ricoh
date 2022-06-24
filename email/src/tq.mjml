@@ -1,0 +1,161 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-wrapper background-color="#eeeeee" />
+      <mj-section background-color="#ffffff" />
+      <mj-text font-family="Arial, san-serif" font-size="16px" line-height="22px" color="#333333" />
+      <mj-table font-family="Arial, san-serif" font-size="16px" line-height="22px" color="#333333" />
+      <mj-button font-family="Arial, san-serif" font-size="18px" line-height="21px" font-weight="700" color="#FFFFFF" background-color="#CF142B" width="100%" border-radius="0" />
+      <mj-class name="h3" font-size="24px" line-height="31px" color="#CF142B" font-weight="700" />
+      <mj-class name="h1" font-size="24px" line-height="31px" font-weight="700" color="#343741" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-wrapper full-width="full-width">
+
+      <!-- header -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="left" />
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-divider border-width="5px" border-style="solid" border-color="#CF142B" padding="0" />
+        </mj-column>
+      </mj-section>
+
+      <!-- intro & thumbnail -->
+
+      <mj-section background-color="#F3F3F3" padding-bottom="0">
+        <mj-column>
+          <mj-text mj-class="h3">
+            eBook
+          </mj-text>
+          <mj-text mj-class="h1" padding-top="0" padding-bottom="0">
+            Thank you for your interest!
+          </mj-text>
+          <mj-text padding-top="0" padding-bottom="0">
+            <p>You can download the asset by clicking on the link below.</p>
+          </mj-text>
+          <mj-button href="https://www.ricoh.com/">
+            Download Now
+          </mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/Thumbnail_Remote-work-vs-Working-from-home.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0" background-color="#F3F3F3">
+        <mj-column padding="0">
+          <mj-text align="center">
+            Need more information? Please <a href="https://www.ricoh.com/" style="text-decoration: none; color: #CF142B;"><strong style="text-decoration: none; color: #CF142B;">contact us</strong></a>.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- content -->
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text mj-class="h1">
+            Here are some other resources you might find interesting..
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-image fluid-on-mobile="true" src="https://picsum.photos/id/6/200/100.webp" alt="" padding-bottom="0" />
+          <mj-divider border-width="5px" border-style="solid" border-color="#CF142B" padding-top="0" />
+        </mj-column>
+        <mj-column>
+          <mj-image fluid-on-mobile="true" src="https://picsum.photos/id/4/200/100.webp" alt="" padding-bottom="0" />
+          <mj-divider border-width="5px" border-style="solid" border-color="#CF142B" padding-top="0" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text padding-top="0" padding-bottom="0">
+            <p><strong>Lorem ipsum dolor sit amet</strong></p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text padding-top="0" padding-bottom="0">
+            <p><strong>Lorem ipsum dolor sit amet</strong></p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text padding-top="0" padding-bottom="0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text padding-top="0" padding-bottom="0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0">
+        <mj-column>
+          <mj-text padding-top="0">
+            <a href="https://www.ricoh.com/" style="text-decoration: none; color: #CF142B;"><strong style="text-decoration: none; color: #CF142B;">Read the story</strong></a>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text padding-top="0">
+            <a href="https://www.ricoh.com/" style="text-decoration: none; color: #CF142B;"><strong style="text-decoration: none; color: #CF142B;">Read the story</strong></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-divider border-width="5px" border-style="solid" border-color="#CF142B" padding="0" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer top -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-top" padding-top="25px">
+            © 2022 Ricoh. All rights reserved.
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="right" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer bottom -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-bottom" align="center">
+            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: none;"></span style="color: #333; text-decoration: none;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: none;"><span style="color: #333; text-decoration: none;">Manage Preferences</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
