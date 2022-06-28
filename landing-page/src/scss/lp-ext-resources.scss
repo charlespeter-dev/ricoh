@@ -16,50 +16,63 @@
     }
 }
 
-@import "../../../web/src/scss/global";
-@import "global-overwrite";
 @import "../../../web/src/scss/functions";
 @import "../../../web/src/scss/mixins";
 @import "../../../web/src/scss/themes";
 
+.lp-ext-resources {
+    background-color: #ffffff;
+    padding: 30px 0;
+
+    ul.ext-resources {
+        list-style-type: square;
+
+        li {
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    .link-heading {
+        font-weight: 700;
+        font-size: 0.875rem; // desktop: 14px
+        line-height: 1.5rem; // desktop: 24px
+    }
+
+    .link {
+        width: 90%;
+
+        @media screen and (min-width: 992px) {
+            width: 80%;
+        }
+
+        font-size: 0.875rem; // desktop: 14px
+        line-height: 1.5rem; // desktop: 24px
+
+        overflow-wrap: break-word;
+        word-break: break-word;
+        hyphens: auto;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
 @include themify($themes) {
 
     .lp-ext-resources {
-        background-color: #ffffff;
-        padding: 30px 0;
 
         ul.ext-resources {
-            list-style-type: square;
+
             color: themed('primaryColor');
 
-            li {
-                margin-bottom: 1.5rem;
-            }
-        }
-
-        .link-heading {
-            font-weight: 700;
-            font-size: 0.875rem; // desktop: 14px
-            line-height: 1.5rem; // desktop: 24px
         }
 
         .link {
-            width: 90%;
-
-            @media screen and (min-width: 992px) {
-                width: 80%;
-            }
-
-            font-size: 0.875rem; // desktop: 14px
-            line-height: 1.5rem; // desktop: 24px
-
-            overflow-wrap: break-word;
-            word-break: break-word;
-            hyphens: auto;
 
             a {
                 color: themed('primaryColor') !important;
-                text-decoration: none;
+
             }
         }
     }

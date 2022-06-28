@@ -1,19 +1,27 @@
-@import "../../../web/src/scss/global";
-@import "global-overwrite";
 @import "../../../web/src/scss/functions";
 @import "../../../web/src/scss/mixins";
 @import "../../../web/src/scss/themes";
 
+.lp-table {
+    margin: 50px 0;
+    background-color: #ffffff;
+
+    .table {
+        color: #333333;
+    }
+
+    .heading {
+        color: #ffffff;
+    }
+}
 
 @include themify($themes) {
 
     .lp-table {
-        margin: 50px 0;
-        background-color: #ffffff;
 
         .table {
+
             --bs-table-striped-color: themed('primaryColor');
-            color: #333333;
 
             th {
                 &.text-theme-color {
@@ -24,7 +32,6 @@
 
         .heading {
             background-color: themed('primaryColor');
-            color: #ffffff;
         }
     }
 }
