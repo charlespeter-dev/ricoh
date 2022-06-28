@@ -31672,15 +31672,28 @@ h3, .h3 {
   text-transform: uppercase;
 }
 
-.lp-share > div.icon {
+.lp-share > div.icon, .lp-share > div.dropdown {
+  cursor: pointer;
   border: .5px solid #b1b1b1;
   border-radius: 8px;
 }
 
-.lp-share > div.icon i {
+.lp-share > div.icon i, .lp-share > div.dropdown i {
   font-size: 25px;
   position: relative;
   top: 4px;
+}
+
+.lp-share > div.dropdown .dropdown-toggle:after {
+  display: none;
+}
+
+.lp-share > div.dropdown .dropdown-menu a {
+  color: #333 !important;
+}
+
+.lp-share > div.dropdown .dropdown-menu a:focus {
+  background-color: #b1b1b1 !important;
 }
 
 .lp-share > div a {

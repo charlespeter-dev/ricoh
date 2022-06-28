@@ -25,9 +25,24 @@
                             share
                         </div>
 
-                        <div class="icon"><a href="#"><i class="bi-share"></i></a></div>
+                        <div class="dropdown">
 
-                        <div class="icon"><a href="#"><i class="bi bi-link-45deg"></i></a></div>
+                            <div class="dropdown-toggle" role="button" data-bs-toggle="dropdown"><i
+                                    class="bi bi-share"></i></div>
+
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-facebook"></i> Share with
+                                        Facebook</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-twitter"></i> Share with
+                                        Twitter</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="bi bi-linkedin"></i> Share with
+                                        LinkedIn</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="icon copy-link" title="Copy link to clipboard" data-bs-toggle="tooltip"
+                            data-bs-placement="bottom"><i class="bi bi-link-45deg"></i></div>
 
                     </section>
 
@@ -40,6 +55,7 @@
     <!-- Js -->
 
     <script type="module" src="../../web/src/js/global.js"></script>
+    <script type="module" src="js/share.js"></script>
 
 </body>
 
