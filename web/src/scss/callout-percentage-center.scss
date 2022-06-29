@@ -1,6 +1,7 @@
+@import "global";
 @import "functions";
 @import "mixins";
-@import "themes";
+@import "themes.scss";
 
 
 @include themify($themes) {

@@ -74,25 +74,18 @@ h3 {
     background-color: #F3F3F3 !important;
 }
 
-
-.ext-resources {
-
-    ul {
-        padding-left: .75rem;
-    }
-
-    a {
-        font-size: 0.875rem; // desktop: 14px
-        line-height: 1.5rem; // desktop: 24px
-        text-decoration: none;
-    }
-}
-
-
 @include themify($themes) {
     .ext-resources {
+
+        ul {
+            padding-left: .75rem;
+        }
+
         a {
+            font-size: 0.875rem; // desktop: 14px
+            line-height: 1.5rem; // desktop: 24px
             color: themed('primaryColor') !important;
+            text-decoration: none;
         }
     }
 }

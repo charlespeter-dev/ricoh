@@ -1,3 +1,5 @@
+import "../../../node_modules/bootstrap/js/src/carousel"
+
 
 /**
  * @link https://getbootstrap.com/docs/5.1/components/carousel/#events

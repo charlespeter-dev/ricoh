@@ -1,5 +1,8 @@
+import "../../../node_modules/bootstrap/js/src/dropdown";
+import Tooltip from "../../../node_modules/bootstrap/js/src/tooltip";
+
 let copyEl = document.querySelector('.copy-link');
-let toolTip = new bootstrap.Tooltip(copyEl);
+let toolTip = new Tooltip(copyEl);
 
 copyEl.addEventListener('click', (e) => {
     let link = location.href;
