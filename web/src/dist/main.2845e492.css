@@ -103762,7 +103762,7 @@ h4, .h4 {
 
 @media screen and (min-width: 992px) {
   .card-partner-2-columns {
-    padding: 50px 50px 0;
+    padding: 50px 50px 0 0;
   }
 }
 
@@ -103804,6 +103804,12 @@ h4, .h4 {
 
 @media screen and (min-width: 992px) {
   .card-partner-2-columns .row .left .imgs {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card-partner-2-columns .row .left .imgs {
     width: 400px;
   }
 }
@@ -103816,8 +103822,15 @@ h4, .h4 {
 
 @media screen and (min-width: 992px) {
   .card-partner-2-columns .row .left .imgs .img-main {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card-partner-2-columns .row .left .imgs .img-main {
     width: 400px;
-    height: 200px;
+    height: auto;
   }
 }
 
