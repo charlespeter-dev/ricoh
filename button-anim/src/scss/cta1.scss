@@ -1,6 +1,6 @@
 .btn-cta1 {
 
-    $text-arrow-space: 15px;
+    $text-arrow-space: 10px;
     $shaft-width: 20px;
     $newshaft-width: 25px;
     $shaft-thickness: 2px;
@@ -10,68 +10,32 @@
     display: inline-block;
     font-weight: 700;
     text-decoration: none;
-    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
     transition: all 0.2s;
+    transition-delay: 0;
 
-    &:hover {
+    .the-arrow {
 
-        >.the-arrow.-left {
+        width: 0;
 
-            >.shaft {
-
-                width: $newshaft-width;
-                transition-delay: 0.1s;
-
-                &:before,
-                &:after {
-
-                    width: $arrow-head-width;
-                    transition-delay: 0.1s;
-                }
-
-                &:before {
-
-                    transform: rotate(40deg);
-                }
-
-                &:after {
-
-                    transform: rotate(-40deg);
-                }
-            }
-        }
-    }
-
-    >.the-arrow {
-
-        width: $shaft-width;
-        transition: all 0.2s;
-
-        &.-left {
-
-            position: absolute;
-            top: 50%;
-            left: 115px;
+        &.-right {
 
             >.shaft {
-
                 width: 0;
                 opacity: 0;
 
                 &:before,
                 &:after {
-
                     width: 0;
                 }
 
                 &:before {
-
-                    transform: rotate(40deg);
+                    transform: rotate(0);
                 }
 
                 &:after {
-
-                    transform: rotate(-40deg);
+                    transform: rotate(0);
                 }
             }
         }
@@ -87,8 +51,7 @@
 
             &:before,
             &:after {
-
-                content: '';
+                content: "";
                 display: block;
                 height: $arrow-head-thickness;
                 position: absolute;
@@ -99,39 +62,59 @@
             }
 
             &:before {
-
                 transform-origin: top right;
             }
 
             &:after {
-
                 transform-origin: bottom right;
             }
         }
     }
 
     >.btn-main {
-
         display: flex;
         align-items: center;
-        border-radius: 5px;
-        transition: all 0.2s;
 
         >.text {
-            transition: all 0.2s;
-            border-radius: 5px;
-            padding: 10px 10px 10px 10px;
+            padding: $text-arrow-space;
         }
 
         >.the-arrow {
-
             position: relative;
         }
     }
+
+    &:hover {
+
+        padding-right: calc($shaft-width + $text-arrow-space + 10px);
+
+        >.btn-main {
+
+            >.the-arrow.-right {
+
+                >.shaft {
+                    width: $newshaft-width;
+                    opacity: 1;
+                    transition-delay: 0.1s;
+
+                    &:before,
+                    &:after {
+                        width: $arrow-head-width;
+                        transition-delay: 0.1s;
+                    }
+
+                    &:before {
+                        transform: rotate(40deg);
+                    }
+
+                    &:after {
+                        transform: rotate(-40deg);
+                    }
+                }
+            }
+        }
+    }
 }
-
-// THEME
-
 
 @import "../../../web/src/scss/functions";
 @import "../../../web/src/scss/mixins";
@@ -142,65 +125,53 @@
     .btn-cta1 {
 
         color: themed('primaryColor');
+        border: .5px solid themed('primaryColor');
 
-        &:hover {
+        .the-arrow {
 
-            color: themed('primaryColor');
+            width: 0;
 
-            >.the-arrow.-left {
+            &.-right {
 
                 >.shaft {
-                    opacity: 1;
                     background-color: themed('primaryColor');
 
                     &:before,
                     &:after {
-
                         background-color: themed('primaryColor');
-                    }
-                }
-            }
-
-            >.btn-main {
-                >.text {
-                    padding-right: 50px;
-                }
-            }
-        }
-
-        >.the-arrow {
-
-            &.-left {
-
-                >.shaft {
-
-                    background-color: #fff;
-
-                    &:before,
-                    &:after {
-
-                        background-color: #fff;
                     }
                 }
             }
 
             >.shaft {
 
-                background-color: #fff;
-
+                background-color: themed('primaryColor');
 
                 &:before,
                 &:after {
-
-                    background-color: #fff;
+                    background-color: themed('primaryColor');
                 }
             }
         }
 
-        >.btn-main {
+        &:hover {
+
             color: themed('primaryColor');
-            background-color: #fff;
-            border: .5px solid themed('primaryColor');
+
+            >.btn-main {
+
+                >.the-arrow.-right {
+
+                    >.shaft {
+                        background-color: themed('primaryColor');
+
+                        &:before,
+                        &:after {
+                            background-color: themed('primaryColor');
+                        }
+                    }
+                }
+            }
         }
     }
 }
