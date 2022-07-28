@@ -1,0 +1,88 @@
+@import "functions";
+@import "mixins";
+@import "themes.scss";
+
+
+.callout-percentage-1-column {
+
+    padding: 20px 0 50px 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    @media screen and (min-width: 992px) {
+        padding: 30px 0 50px 0;
+    }
+
+    .percentage-container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .percent-container {
+
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 100%;
+
+            img {
+                width: 200px;
+            }
+
+            .percent {
+                font-size: 6.25rem; // desktop: 100px
+                line-height: 6.875rem; // desktop: 110px
+                font-weight: 700;
+                background-color: #fff;
+
+                position: absolute;
+                left: 40px;
+
+                @media screen and (min-width: 992px) {
+                    position: relative;
+                    left: -150px;
+                }
+
+            }
+        }
+
+        .percent-text {
+            font-size: 2rem; // desktop: 32px
+            line-height: 2.25rem; // desktop: 36px
+            font-weight: 700;
+            margin-top: 30px;
+            position: relative;
+
+            .source {
+                font-size: 1.5rem; // desktop 24px
+                line-height: 1.75rem; // desktop 28px
+                font-weight: 700;
+                color: #666666;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+@include themify($themes) {
+
+    .callout-percentage-1-column {
+
+        .percentage-container {
+
+            .percent-container {
+
+                .percent {
+                    color: themed('primaryColor');
+                }
+            }
+
+            .percent-text {
+                color: themed('primaryColor');
+            }
+        }
+    }
+}
