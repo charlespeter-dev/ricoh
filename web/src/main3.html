@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-hw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Teams Room</title>
+    <link rel="stylesheet" href="scss/main3.scss">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="container">
+
+                    <!-- begin component: primary nav -->
+
+                    <section class="primary-nav">
+
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <div class="container">
+
+                                <a class="navbar-brand" href="#"><img src="images/logo.svg" alt=""></a>
+
+                                <div class="ms-auto icon-search-container">
+                                    <a href="#"><img src="images/search.svg" alt="" width="25" height="25"></a>
+                                </div>
+
+                                <div class="navbar-toggler-container">
+                                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbar-content">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                </div>
+
+                                <div class="collapse navbar-collapse" id="navbar-content">
+                                    <ul class="navbar-nav navbar-nav-scroll ms-auto mb-lg-0">
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Single Link 1</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="#">Single Link 2</a>
+                                        </li>
+
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                                data-bs-auto-close="outside">Multilevel</a>
+                                            <ul class="dropdown-menu shadow">
+                                                <li><a class="dropdown-item" href="#">First Level 1</a></li>
+                                                <li><a class="dropdown-item" href="#">First Level 2</a></li>
+                                                <li class="dropend">
+                                                    <a href="#" class="dropdown-item dropdown-toggle"
+                                                        data-bs-toggle="dropdown" data-bs-auto-close="outside">First
+                                                        Level 3</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href=""> Second Level 1</a></li>
+                                                        <li><a class="dropdown-item" href=""> Second Level 2</a></li>
+                                                        <li><a class="dropdown-item" href=""> Second Level 3</a></li>
+                                                        <li class="dropend">
+                                                            <a href="#" class="dropdown-item dropdown-toggle"
+                                                                data-bs-toggle="dropdown">Second Level 4</a>
+                                                            <ul class="dropdown-menu dropdown-submenu shadow">
+                                                                <li><a class="dropdown-item" href=""> Third level 1</a>
+                                                                </li>
+                                                                <li><a class="dropdown-item" href=""> Third level 2</a>
+                                                                </li>
+                                                                <li><a class="dropdown-item" href=""> Third level 3</a>
+                                                                </li>
+                                                                <li><a class="dropdown-item" href=""> Third level 4</a>
+                                                                </li>
+                                                                <li><a class="dropdown-item" href=""> Third level 5</a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">First Level 4</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item dropdown dropdown-mega position-static">
+                                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                                data-bs-auto-close="outside">Mega Menu</a>
+                                            <div class="dropdown-menu mega-content">
+                                                <div class="px-4">
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-12 col-sm-4 col-md-3 py-4">
+                                                                <h5>Title</h5>
+                                                                <div class="list-group">
+                                                                    <a class="list-group-item" href="#">Mega Menu
+                                                                        Link 1</a>
+                                                                    <a class="list-group-item" href="#">Mega Menu
+                                                                        Link 2</a>
+                                                                    <a class="list-group-item" href="#">Mega Menu
+                                                                        Link 3</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 col-sm-4 col-md-3 py-4">
+                                                                <h5>Card Title</h5>
+                                                                <div class="card">
+                                                                    <img class="img-fluid"
+                                                                        src="https://picsum.photos/id/987/297/297.webp"
+                                                                        alt="" width="297" height="297">
+                                                                    <div class="card-body">
+                                                                        <p class="card-text">Description goes here...
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 col-sm-4 col-md-3 py-4">
+                                                                <h5>Title</h5>
+                                                                <p>Description goes here...</p>
+                                                            </div>
+                                                            <div class="col-12 col-sm-12 col-md-3 py-4">
+                                                                <h5>Title</h5>
+                                                                <div class="list-group">
+                                                                    <a class="list-group-item" href="#">Menu Link</a>
+                                                                    <a class="list-group-item" href="#">Menu Link</a>
+                                                                    <a class="list-group-item" href="#">Menu Link</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="nav-item contact-us-btn">
+                                            <a class="nav-link nav-btn" href="#">Contact Us</a>
+                                        </li>
+                                    </ul>
+
+                                    <div class="d-flex ms-auto nav-far-right-container">
+
+                                        <nav class="nav-far-right">
+                                            <ul class="nav justify-content-center">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#"><img src="images/search.svg" alt=""
+                                                            width="25" height="25"></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#"><img src="images/person.svg" alt=""
+                                                            width="25" height="25"></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#"><img src="images/globe.svg" alt=""
+                                                            width="25" height="25"></a>
+                                                </li>
+                                                </li>
+                                            </ul>
+                                        </nav>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+
+                    </section>
+
+                    <!-- end component: primary nav -->
+
+                    <!-- begin component: breadcrumb -->
+
+                    <nav class="breadcrumb-container">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item">Solutions</li>
+                        </ol>
+                    </nav>
+
+                    <!-- end component: breadcrumb -->
+
+                    <!-- begin component: banner -->
+
+                    <section class="banner">
+
+                        <div class="callout">
+                            <h1 class="mb-4">Microsoft Teams Room Solutions</h1>
+                            <h4>Simple solutions for complex collaborations</h4>
+                            <div class="bar"></div>
+                        </div>
+
+                        <div class="image">
+                            <img class="img-fluid" src="https://picsum.photos/id/336/880/320.webp" alt="">
+                        </div>
+
+                    </section>
+
+                    <!-- end component: banner -->
+
+                    <!-- begin component: secondary nav -->
+
+                    <nav class="secondary-nav-desktop sticky-top sticky-secondary-nav-desktop">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Microsoft Teams Room</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Strategic Partners</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Let’s Connect</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="secondary-nav-mobile form-select-lg sticky-top sticky-secondary-nav-mobile">
+                        <select class="form-select">
+                            <option>Introduction</option>
+                            <option>Microsoft Teams Room</option>
+                            <option>Strategic Partners</option>
+                            <option>Resources</option>
+                            <option>Let’s Connect</option>
+                        </select>
+                    </div>
+
+                    <!-- end component: secondary nav -->
+
+                    <!-- begin component: Split Text Without Background -->
+
+                    <section class="split-text-wo-bg">
+
+                        <div class="row">
+                            <div class="col-lg-6">
+
+                                <div class="main-heading mt-0">
+                                    <h1>Modernise your meeting<span class="br-before">room experience</span></h1>
+                                    <div class="bar"></div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6">
+                                <p>When work can be anywhere, an open flow of information is crucial. You need to be
+                                    able to enhance collaboration and engage employee focus with technology that works
+                                    seamlessly in the background.</p>
+                                <p>Modern workplaces and training facilities need to
+                                    cater to diverse working and learning styles. When work or study can be anywhere, is
+                                    your environment accessible, inspiring, and productive?</p>
+
+                                <!-- begin component: Callout Percentage 1 Column -->
+
+                                <section class="callout-percentage-1-column">
+
+                                    <div class="percentage-container">
+
+                                        <div class="percent-container">
+                                            <img src="images/theme-hw/Ricoh-ribbon.svg" alt="">
+                                            <div class="percent">66%</div>
+                                        </div>
+
+                                        <div class="percent-text">
+                                            of business leaders are thinking of redesigning physical spaces
+                                            <div class="source">&mdash; Microsoft’s 2021 Work Trend Index</div>
+                                        </div>
+
+                                    </div>
+
+                                </section>
+
+                                <!-- end component: Callout Percentage 1 Column -->
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <!-- end component: Split Text Without Background -->
+
+                    <!-- begin component: Split Text with Background -->
+
+                    <section class="split-text">
+
+                        <div class="row">
+                            <div class="col-lg-6">
+
+                                <h3 class="pb-4">Empower your teams to thrive in a hybrid environment</h3>
+
+                                <p>Modern collaboration platforms such as Microsoft Teams enable colleagues to connect
+                                    with each other and their customers anywhere, on any device, via chat, audio, video
+                                    calls, and meetings – sharing and collaborating on documents and workflows securely
+                                    in real-time.</p>
+
+                            </div>
+                            <div class="col-lg-6">
+
+                                <!-- begin component: Callout Percentage 1 Column -->
+
+                                <section class="callout-percentage-1-column">
+
+                                    <div class="percentage-container">
+
+                                        <div class="percent-container">
+                                            <img src="images/theme-hw/Ricoh-ribbon.svg" alt="">
+                                            <div class="percent">50%</div>
+                                        </div>
+
+                                        <div class="percent-text">
+                                            of Gartner client interactions on meeting solutions involve hybrid meetings
+                                            or meeting room hardware
+                                            <div class="source">&mdash; 2021 Gartner Inc Digital Worker Experience
+                                                Survey</div>
+                                        </div>
+
+                                    </div>
+
+                                </section>
+
+                                <!-- end component: Callout Percentage 1 Column -->
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <!-- end component: Split Text with Background -->
+
+                    <!-- begin grey area -->
+
+                    <div class="grey-fluid pb-5">
+
+                        <div class="main-heading pt-5">
+                            <h1>Transform your meeting <span class="br-before">spaces with Microsoft</span> <span
+                                    class="br-before">Teams Rooms</span></h1>
+                            <div class="bar"></div>
+                        </div>
+
+                        <!-- begin component: Split Text Without Background -->
+
+                        <section class="split-text-wo-bg mt-0">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <p>Microsoft Teams Rooms are designed to deliver inclusive meeting experiences with
+                                        all participants in mind. With a rich ecosystem of connected meeting devices
+                                        powered by an intuitive app built for Microsoft Teams, Teams Rooms turn any
+                                        meeting room into an easy-to-use and inclusive collaboration space where
+                                        everyone has a seat at the table, regardless of where they sit.</p>
+                                </div>
+                                <div class="col-lg-6">
+
+                                    <!-- begin component: Split List with Icon -->
+
+                                    <section class="lp-split-list-icon">
+
+                                        <div class="list-item-container mt-0">
+                                            <div class="icon"><img src="images/theme-hw/Icon-Trust.svg" alt=""
+                                                    width="60" height="60">
+                                            </div>
+                                            <div class="text">
+                                                <p><strong>Ease to use</strong></p>
+                                                <p>A consistent user experience for all your spaces, from small huddle
+                                                    to large conference rooms – with a single touch, you get your
+                                                    meetings started.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="list-item-container">
+                                            <div class="icon"><img src="images/theme-hw/Icon-Metrics.svg" alt=""
+                                                    width="60" height="60">
+                                            </div>
+                                            <div class="text">
+                                                <p><strong>Work like you are in one place</strong></p>
+                                                <p>If you are on the go or attend a meeting in person, the rich
+                                                    collaboration experience keeps everyone engaged, and with advanced
+                                                    whiteboard technologies, ideas can just flow.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="list-item-container">
+                                            <div class="icon"><img src="images/theme-hw/Icon-Micromanage.svg" alt=""
+                                                    width="60" height="60">
+                                            </div>
+                                            <div class="text">
+                                                <p><strong>Transform your spaces</strong></p>
+                                                <p>Enjoy a high-quality experience with the flexibility of choosing from
+                                                    a broad range of purpose-built, reliable options for your
+                                                    workplaces.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="list-item-container">
+                                            <div class="icon"><img src="images/theme-hw/Icon-Team.svg" alt="" width="60"
+                                                    height="60">
+                                            </div>
+                                            <div class="text">
+                                                <p><strong>Simple to deploy on scale and easy to manage</strong></p>
+                                                <p>Deploy, manage, and secure your rooms in a simple and scalable way
+                                                    with the Teams Admin Center or your existing Windows Management
+                                                    tools.</p>
+                                            </div>
+                                        </div>
+
+                                    </section>
+
+                                    <!-- end component: Split List with Icon -->
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- end component: Split Text Without Background -->
+
+                        <!-- begin component: Tab Navigation with 2 Columns Content -->
+
+                    <section class="tab-nav-2-columns-content">
+
+                        <!-- show this DIV in desktop only -->
+
+                        <div class="desktop-only">
+                            <nav>
+                                <div class="nav nav-tabs nav-justified">
+
+                                    <div class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab-content-1">
+                                        <span>Huddle Room</span>
+                                    </div>
+
+                                    <div class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-content-2">
+                                        <span>Small Room</span>
+                                    </div>
+
+                                    <div class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-content-3">
+                                        <span>Medium Room</span>
+                                    </div>
+
+                                    <div class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-content-4">
+                                        <span>Large Room</span>
+                                    </div>
+
+                                    <div class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-content-5">
+                                        <span>XL Room</span>
+                                    </div>
+                                </div>
+                            </nav>
+
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="tab-content-1">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <h2>Huddle Room</h2>
+                                            <h3>2-4 people</h3>
+
+                                            <ul class="marker-theme-color">
+                                                <li>One-touch room control</li>
+                                                <li>Windows/Android OS</li>
+                                                <li>All-in-One Collaboration Bar</li>
+                                                <li>Auto-framing & speaker tracking</li>
+                                                <li>Wired and wireless content sharing</li>
+                                                <li>Bring Your Own Meeting (BYOM)</li>
+                                                <li>Remote device management</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <img src="https://picsum.photos/id/336/520/290.webp" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab-content-2">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <h2>Small Room</h2>
+                                            <h3>4-6 people</h3>
+
+                                            <ul class="marker-theme-color">
+                                                <li>One-touch room control</li>
+                                                <li>Windows/Android OS</li>
+                                                <li>All-in-One Collaboration Bar</li>
+                                                <li>Auto-framing & speaker tracking</li>
+                                                <li>Microphone array</li>
+                                                <li>Wired and wireless content sharing</li>
+                                                <li>Bring Your Own Meeting (BYOM)</li>
+                                                <li>Remote device management</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <img src="https://picsum.photos/id/326/520/290.webp" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab-content-3">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <h2>Medium Room</h2>
+                                            <h3>6-9 people</h3>
+
+                                            <ul class="marker-theme-color">
+                                                <li>One-touch room control</li>
+                                                <li>Windows OS</li>
+                                                <li>Pan-Tilt-Zoom camera</li>
+                                                <li>AI-powered features with voice recognition</li>
+                                                <li>Wired and wireless content sharing</li>
+                                                <li>Bring Your Own Meeting (BYOM)</li>
+                                                <li>Remote device management</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <img src="https://picsum.photos/id/316/520/290.webp" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab-content-4">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <h2>Large Room</h2>
+                                            <h3>10-15 people</h3>
+
+                                            <ul class="marker-theme-color">
+                                                <li>One-touch room control</li>
+                                                <li>Windows OS</li>
+                                                <li>Pan-Tilt-Zoom camera</li>
+                                                <li>AI-powered features with voice recognition</li>
+                                                <li>Wired and wireless content sharing</li>
+                                                <li>Bring Your Own Meeting (BYOM)</li>
+                                                <li>Remote device management</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <img src="https://picsum.photos/id/376/520/290.webp" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab-content-5">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <h2>XL Room</h2>
+                                            <h3>15+ people</h3>
+
+                                            <ul class="marker-theme-color">
+                                                <li>One-touch room control</li>
+                                                <li>Windows OS</li>
+                                                <li>Pan-Tilt-Zoom camera</li>
+                                                <li>AI-powered features with voice recognition</li>
+                                                <li>Wired and wireless content sharing</li>
+                                                <li>Bring Your Own Meeting (BYOM)</li>
+                                                <li>Remote device management</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <img src="https://picsum.photos/id/396/520/290.webp" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- show this DIV in mobile only -->
+
+                        <div class="mobile-only">
+                            <div class="accordion" id="acc-mobile">
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <div class="accordion-button" data-bs-toggle="collapse"
+                                            data-bs-target="#acc-content-1">
+                                            <span>Huddle Room</span>
+                                            <i class="bi-plus"></i>
+                                            <i class="bi-dash"></i>
+                                        </div>
+                                    </h2>
+                                    <div class="accordion-collapse collapse show" data-bs-parent="#acc-mobile"
+                                        id="acc-content-1">
+                                        <div class="accordion-body">
+                                            <div class="row flex-column">
+                                                <div class="col-lg-6">
+                                                    <h2>Huddle Room</h2>
+                                                    <h3>2-4 people</h3>
+
+                                                    <ul class="marker-theme-color">
+                                                        <li>One-touch room control</li>
+                                                        <li>Windows/Android OS</li>
+                                                        <li>All-in-One Collaboration Bar</li>
+                                                        <li>Auto-framing & speaker tracking</li>
+                                                        <li>Wired and wireless content sharing</li>
+                                                        <li>Bring Your Own Meeting (BYOM)</li>
+                                                        <li>Remote device management</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <img src="https://picsum.photos/id/336/520/290.webp" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <div class="accordion-button collapsed" data-bs-toggle="collapse"
+                                            data-bs-target="#acc-content-2">
+                                            <span>Small Room</span>
+                                            <i class="bi-plus"></i>
+                                            <i class="bi-dash"></i>
+                                        </div>
+                                    </h2>
+                                    <div class="accordion-collapse collapse" data-bs-parent="#acc-mobile"
+                                        id="acc-content-2">
+                                        <div class="accordion-body">
+                                            <div class="row flex-column">
+                                                <div class="col-lg-6">
+                                                    <h2>Small Room</h2>
+                                                    <h3>4-6 people</h3>
+
+                                                    <ul class="marker-theme-color">
+                                                        <li>One-touch room control</li>
+                                                        <li>Windows/Android OS</li>
+                                                        <li>All-in-One Collaboration Bar</li>
+                                                        <li>Auto-framing & speaker tracking</li>
+                                                        <li>Microphone array</li>
+                                                        <li>Wired and wireless content sharing</li>
+                                                        <li>Bring Your Own Meeting (BYOM)</li>
+                                                        <li>Remote device management</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <img src="https://picsum.photos/id/326/520/290.webp" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <div class="accordion-button collapsed" data-bs-toggle="collapse"
+                                            data-bs-target="#acc-content-3">
+                                            <span>Medium Room</span>
+                                            <i class="bi-plus"></i>
+                                            <i class="bi-dash"></i>
+                                        </div>
+                                    </h2>
+                                    <div class="accordion-collapse collapse" data-bs-parent="#acc-mobile"
+                                        id="acc-content-3">
+                                        <div class="accordion-body">
+                                            <div class="row flex-column">
+                                                <div class="col-lg-6">
+                                                    <h2>Medium Room</h2>
+                                                    <h3>6-9 people</h3>
+
+                                                    <ul class="marker-theme-color">
+                                                        <li>One-touch room control</li>
+                                                        <li>Windows OS</li>
+                                                        <li>Pan-Tilt-Zoom camera</li>
+                                                        <li>AI-powered features with voice recognition</li>
+                                                        <li>Wired and wireless content sharing</li>
+                                                        <li>Bring Your Own Meeting (BYOM)</li>
+                                                        <li>Remote device management</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <img src="https://picsum.photos/id/316/520/290.webp" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <div class="accordion-button collapsed" data-bs-toggle="collapse"
+                                            data-bs-target="#acc-content-4">
+                                            <span>Large Room</span>
+                                            <i class="bi-plus"></i>
+                                            <i class="bi-dash"></i>
+                                        </div>
+                                    </h2>
+                                    <div class="accordion-collapse collapse" data-bs-parent="#acc-mobile"
+                                        id="acc-content-4">
+                                        <div class="accordion-body">
+                                            <div class="row flex-column">
+                                                <div class="col-lg-6">
+                                                    <h2>Large Room</h2>
+                                                    <h3>10-15 people</h3>
+
+                                                    <ul class="marker-theme-color">
+                                                        <li>One-touch room control</li>
+                                                        <li>Windows OS</li>
+                                                        <li>Pan-Tilt-Zoom camera</li>
+                                                        <li>AI-powered features with voice recognition</li>
+                                                        <li>Wired and wireless content sharing</li>
+                                                        <li>Bring Your Own Meeting (BYOM)</li>
+                                                        <li>Remote device management</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <img src="https://picsum.photos/id/376/520/290.webp" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <div class="accordion-button collapsed" data-bs-toggle="collapse"
+                                            data-bs-target="#acc-content-5">
+                                            <span>XL Room</span>
+                                            <i class="bi-plus"></i>
+                                            <i class="bi-dash"></i>
+                                        </div>
+                                    </h2>
+                                    <div class="accordion-collapse collapse" data-bs-parent="#acc-mobile"
+                                        id="acc-content-5">
+                                        <div class="accordion-body">
+                                            <div class="row flex-column">
+                                                <div class="col-lg-6">
+                                                    <h2>XL Room</h2>
+                                                    <h3>15+ people</h3>
+
+                                                    <ul class="marker-theme-color">
+                                                        <li>One-touch room control</li>
+                                                        <li>Windows OS</li>
+                                                        <li>Pan-Tilt-Zoom camera</li>
+                                                        <li>AI-powered features with voice recognition</li>
+                                                        <li>Wired and wireless content sharing</li>
+                                                        <li>Bring Your Own Meeting (BYOM)</li>
+                                                        <li>Remote device management</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <img src="https://picsum.photos/id/396/520/290.webp" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <!-- end component: Tab Navigation with 2 Columns Content -->
+
+                    </div>
+
+                    <!-- end grey area -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Js -->
+
+    <script type="module" src="js/global.js"></script>
+    <script type="module" src="js/primary-nav.js"></script>
+    <script type="module" src="js/tab-nav-2-columns-content.js"></script>
+
+</body>
+
+</html>
