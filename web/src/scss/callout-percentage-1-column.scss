@@ -39,10 +39,12 @@
                 background-color: #fff;
 
                 position: absolute;
+                top: 30px;
                 left: 40px;
 
                 @media screen and (min-width: 992px) {
                     position: relative;
+                    top: -10px;
                     left: -150px;
                 }
 
