@@ -9,9 +9,9 @@ cs - Cybersecurity
 */
 
 $themes: (
-    std: (primaryColor: #CF142B),
-    hw: (primaryColor: #768EC7),
-    dwa: (primaryColor: #8FC740),
-    cit: (primaryColor: #56A3DA),
-    cs: (primaryColor: #1859A9),
+    std: (primaryColor: #CF142B, bgColor: #FEF5F5),
+    hw: (primaryColor: #768EC7, bgColor: #F4F6FA),
+    dwa: (primaryColor: #8FC740, bgColor: #F4F6FA),
+    cit: (primaryColor: #56A3DA, bgColor: #F4F6FA),
+    cs: (primaryColor: #1859A9, bgColor: #F4F6FA),
 );
