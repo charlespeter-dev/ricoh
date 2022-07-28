@@ -17,6 +17,19 @@
             background-color: themed(primaryColor);
         }
 
+        .callout-percentage-1-column {
+
+            .percentage-container {
+
+                .percent-container {
+
+                    .percent {
+                        background-color: themed('bgColor');
+                    }
+                }
+            }
+        }
+
         @media screen and (min-width: 992px) {
 
             background-color: themed(bgColor);
