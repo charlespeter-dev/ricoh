@@ -1,0 +1,138 @@
+.theme-std .split-text, .theme-std .split-text:before {
+  background-color: #fef5f5;
+}
+
+.theme-std .split-text:after {
+  background-color: #cf142b;
+}
+
+.theme-std .split-text .callout-percentage-1-column .percentage-container .percent-container .percent {
+  background-color: #fef5f5;
+}
+
+@media screen and (min-width: 992px) {
+  .theme-std .split-text {
+    background-color: #fef5f5;
+    border-bottom: 5px solid #cf142b;
+  }
+}
+
+.theme-hw .split-text, .theme-hw .split-text:before {
+  background-color: #f4f6fa;
+}
+
+.theme-hw .split-text:after {
+  background-color: #768ec7;
+}
+
+.theme-hw .split-text .callout-percentage-1-column .percentage-container .percent-container .percent {
+  background-color: #f4f6fa;
+}
+
+@media screen and (min-width: 992px) {
+  .theme-hw .split-text {
+    background-color: #f4f6fa;
+    border-bottom: 5px solid #768ec7;
+  }
+}
+
+.theme-dwa .split-text, .theme-dwa .split-text:before {
+  background-color: #f4f6fa;
+}
+
+.theme-dwa .split-text:after {
+  background-color: #8fc740;
+}
+
+.theme-dwa .split-text .callout-percentage-1-column .percentage-container .percent-container .percent {
+  background-color: #f4f6fa;
+}
+
+@media screen and (min-width: 992px) {
+  .theme-dwa .split-text {
+    background-color: #f4f6fa;
+    border-bottom: 5px solid #8fc740;
+  }
+}
+
+.theme-cit .split-text, .theme-cit .split-text:before {
+  background-color: #f4f6fa;
+}
+
+.theme-cit .split-text:after {
+  background-color: #56a3da;
+}
+
+.theme-cit .split-text .callout-percentage-1-column .percentage-container .percent-container .percent {
+  background-color: #f4f6fa;
+}
+
+@media screen and (min-width: 992px) {
+  .theme-cit .split-text {
+    background-color: #f4f6fa;
+    border-bottom: 5px solid #56a3da;
+  }
+}
+
+.theme-cs .split-text, .theme-cs .split-text:before {
+  background-color: #f4f6fa;
+}
+
+.theme-cs .split-text:after {
+  background-color: #1859a9;
+}
+
+.theme-cs .split-text .callout-percentage-1-column .percentage-container .percent-container .percent {
+  background-color: #f4f6fa;
+}
+
+@media screen and (min-width: 992px) {
+  .theme-cs .split-text {
+    background-color: #f4f6fa;
+    border-bottom: 5px solid #1859a9;
+  }
+}
+
+.split-text {
+  z-index: 1;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin: 30px 0 50px;
+  padding: 50px 20px;
+  position: relative;
+}
+
+.split-text:before {
+  content: "";
+  height: 100%;
+  width: 100vw;
+  z-index: -1;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50% - .55rem);
+}
+
+.split-text:after {
+  content: "";
+  height: 6px;
+  width: 100vw;
+  z-index: -1;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: calc(-50vw + 50% - .55rem);
+}
+
+@media screen and (min-width: 992px) {
+  .split-text {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 50px 60px;
+  }
+
+  .split-text:before, .split-text:after {
+    display: none;
+  }
+}
+
