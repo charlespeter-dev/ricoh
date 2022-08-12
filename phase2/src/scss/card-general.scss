@@ -1,0 +1,79 @@
+@import "functions";
+@import "mixins";
+@import "themes";
+
+@include themify($themes) {
+
+    .card-general {
+
+        .cards {
+
+            .card {
+
+                .card-body {
+
+                    .card-category {
+
+                        background-color: themed(primaryColor);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.card-general {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+
+    h1 {
+        padding-top: 10px;
+        margin-bottom: 0;
+
+        @media screen and (min-width: 992px) {
+            padding-top: 0;
+            margin-bottom: 1.3rem;
+        }
+    }
+
+    .cards {
+        
+        .card {
+
+            padding-bottom: 2rem;
+            border-radius: 12px;
+
+            img {
+                border-top-left-radius: 12px;
+                border-top-right-radius: 12px;
+            }
+
+            .card-body {
+
+                .card-title {
+                    font-size: 1.25rem; // desktop 20px
+                    line-height: 1.75rem; // desktop 28px
+                    font-weight: 700;
+                    color: #333333;
+                    margin-bottom: 1.25rem;
+                }
+            }
+
+            .card-footer {
+                background-color: #fff;
+                border-top: none;
+
+                a,
+                a:link,
+                a:active,
+                a:visited {
+                    color: #CF142B;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
