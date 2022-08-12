@@ -4,7 +4,7 @@
 
 @import "functions";
 @import "mixins";
-@import "themes.scss";
+@import "themes";
 
 
 html {
@@ -75,6 +75,15 @@ h4 {
     padding: 15px 30px;
 }
 
+.btn-secondary {
+    background-color: #F3F3F3;
+}
+
+.btn-secondary:hover {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
 @include themify($themes) {
 
     .btn-primary,
@@ -84,15 +93,12 @@ h4 {
     }
 
     .btn-secondary {
-        background-color: #F3F3F3;
         border-color: themed('primaryColor');
         color: themed('primaryColor');
     }
 
     .btn-secondary:hover {
         background-color: themed('primaryColor');
-        border-color: #ffffff;
-        color: #ffffff;
     }
 }
 
@@ -101,22 +107,49 @@ h4 {
     padding-bottom: 0;
 }
 
+.main-heading {
+
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 992px) {
+        margin-top: 100px;
+    }
+
+    .bar {
+        border: 0;
+        height: 5px;
+        margin-top: 1.75rem;
+        width: 200px;
+    }
+}
+
 @include themify($themes) {
     .main-heading {
 
-        margin-top: 60px;
-        margin-bottom: 30px;
+        .bar {
+            border-bottom: 5px solid themed('primaryColor');
+        }
+    }
+}
 
-        @media screen and (min-width: 992px) {
-            margin-top: 100px;
+ul {
+
+    &.marker-theme-color {
+        list-style: none;
+        display: table;
+
+        li {
+            display: table-row;
         }
 
-        .bar {
-            border: 0;
-            border-bottom: 5px solid themed('primaryColor');
-            height: 5px;
-            margin-top: 1.75rem;
-            width: 200px;
+        li::before {
+            content: "\25A0";
+            font-weight: bold;
+            display: table-cell;
+            width: 1em;
+            position: relative;
+            top: -0.1rem;
         }
     }
 }
@@ -126,21 +159,9 @@ h4 {
     ul {
 
         &.marker-theme-color {
-            list-style: none;
-            display: table;
-
-            li {
-                display: table-row;
-            }
 
             li::before {
-                content: "\25A0";
                 color: themed('primaryColor');
-                font-weight: bold;
-                display: table-cell;
-                width: 1em;
-                position: relative;
-                top: -0.1rem;
             }
         }
     }
@@ -161,6 +182,8 @@ h4 {
 .grey-fluid {
     position: relative;
     background-color: #F3F3F3;
+    padding-top: 1px;
+    margin-top: 6.25rem;
 
     &::before {
         content: '';
@@ -172,6 +195,10 @@ h4 {
         width: 100vw;
         z-index: -1;
         background-color: #F3F3F3;
+    }
+
+    .callout-percentage-1-column .percentage-container .percent-container .percent {
+        background-color: #f3f3f3 !important;
     }
 }
 

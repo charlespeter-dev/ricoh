@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-hw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workspace Management</title>
+    <link rel="stylesheet" href="scss/main4.scss">
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="container">
+
+                    <!-- begin component: primary nav -->
+
+                    <section class="primary-nav">
+
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <div class="container">
+
+                                <a class="navbar-brand" href="#"><img src="images/logo.svg" alt=""></a>
+
+                                <div class="ms-auto icon-search-container">
+                                    <a href="#"><img src="images/search.svg" alt="" width="25" height="25"></a>
+                                </div>
+
+                                <div class="navbar-toggler-container">
+                                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbar-content">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                </div>
+
+                                <div class="collapse navbar-collapse" id="navbar-content">
+                                    <ul class="navbar-nav navbar-nav-scroll ms-auto mb-lg-0">
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Single Link 1</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="#">Single Link 2</a>
+                                        </li>
+
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                                data-bs-auto-close="outside">Multilevel</a>
+                                            <ul class="dropdown-menu shadow">
+                                                <li><a class="dropdown-item" href="#">First Level 1</a></li>
+                                                <li><a class="dropdown-item" href="#">First Level 2</a></li>
+                                                <li class="dropend">
+                                                    <a href="#" class="dropdown-item dropdown-toggle"
+                                                        data-bs-toggle="dropdown" data-bs-auto-close="outside">First
+                                                        Level 3</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href=""> Second Level 1</a></li>
+                                                        <li><a class="dropdown-item" href=""> Second Level 2</a></li>
+                                                        <li><a class="dropdown-item" href=""> Second Level 3</a></li>
+                                                        <li class="dropend">
+                                                            <a href="#" class="dropdown-item dropdown-toggle"
+                                                                data-bs-toggle="dropdown">Second Level 4</a>
+                                                            <ul class="dropdown-menu dropdown-submenu shadow">
+                                                                <li><a class="dropdown-item" href=""> Third level 1</a>
+                                                                </li>
+                                                                <li><a class="dropdown-item" href=""> Third level 2</a>
+                                                                </li>
+                                                                <li><a class="dropdown-item" href=""> Third level 3</a>
+                                                                </li>
+                                                                <li><a class="dropdown-item" href=""> Third level 4</a>
+                                                                </li>
+                                                                <li><a class="dropdown-item" href=""> Third level 5</a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">First Level 4</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item dropdown dropdown-mega position-static">
+                                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                                data-bs-auto-close="outside">Mega Menu</a>
+                                            <div class="dropdown-menu mega-content">
+                                                <div class="px-4">
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            <div class="col-12 col-sm-4 col-md-3 py-4">
+                                                                <h5>Title</h5>
+                                                                <div class="list-group">
+                                                                    <a class="list-group-item" href="#">Mega Menu
+                                                                        Link 1</a>
+                                                                    <a class="list-group-item" href="#">Mega Menu
+                                                                        Link 2</a>
+                                                                    <a class="list-group-item" href="#">Mega Menu
+                                                                        Link 3</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 col-sm-4 col-md-3 py-4">
+                                                                <h5>Card Title</h5>
+                                                                <div class="card">
+                                                                    <img class="img-fluid"
+                                                                        src="https://picsum.photos/id/987/297/297.webp"
+                                                                        alt="" width="297" height="297">
+                                                                    <div class="card-body">
+                                                                        <p class="card-text">Description goes here...
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 col-sm-4 col-md-3 py-4">
+                                                                <h5>Title</h5>
+                                                                <p>Description goes here...</p>
+                                                            </div>
+                                                            <div class="col-12 col-sm-12 col-md-3 py-4">
+                                                                <h5>Title</h5>
+                                                                <div class="list-group">
+                                                                    <a class="list-group-item" href="#">Menu Link</a>
+                                                                    <a class="list-group-item" href="#">Menu Link</a>
+                                                                    <a class="list-group-item" href="#">Menu Link</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="nav-item contact-us-btn">
+                                            <a class="nav-link nav-btn" href="#">Contact Us</a>
+                                        </li>
+                                    </ul>
+
+                                    <div class="d-flex ms-auto nav-far-right-container">
+
+                                        <nav class="nav-far-right">
+                                            <ul class="nav justify-content-center">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#"><img src="images/search.svg" alt=""
+                                                            width="25" height="25"></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#"><img src="images/person.svg" alt=""
+                                                            width="25" height="25"></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#"><img src="images/globe.svg" alt=""
+                                                            width="25" height="25"></a>
+                                                </li>
+                                                </li>
+                                            </ul>
+                                        </nav>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+
+                    </section>
+
+                    <!-- end component: primary nav -->
+
+                    <!-- begin component: breadcrumb -->
+
+                    <nav class="breadcrumb-container">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item">Solutions</li>
+                        </ol>
+                    </nav>
+
+                    <!-- end component: breadcrumb -->
+
+                    <!-- begin component: banner -->
+
+                    <section class="banner">
+
+                        <div class="callout">
+                            <h1 class="mb-4">Workspace Management</h1>
+                            <h4>Digitally enhanced spaces to enable hybrid work</h4>
+                            <div class="bar"></div>
+                        </div>
+
+                        <div class="image">
+                            <img class="img-fluid"
+                                src="images/mtr/Images/HeaderBanner-Microsoft-Teams-Room-Solutions.jpg" alt="">
+                        </div>
+
+                    </section>
+
+                    <!-- end component: banner -->
+
+                    <!-- begin component: secondary nav -->
+
+                    <nav class="secondary-nav-desktop sticky-top sticky-secondary-nav-desktop">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Introduction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Workspace Management</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Strategic Partners</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Let’s Connect</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="secondary-nav-mobile form-select-lg sticky-top sticky-secondary-nav-mobile">
+                        <select class="form-select">
+                            <option>Introduction</option>
+                            <option>Workspace Management</option>
+                            <option>Strategic Partners</option>
+                            <option>Resources</option>
+                            <option>Let’s Connect</option>
+                        </select>
+                    </div>
+
+                    <!-- end component: secondary nav -->
+
+                    <!-- begin component: Split Video and Text -->
+
+                    <section class="split-video-text">
+
+                        <div class="main-heading">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h1>Enable the Workplace of <span class="br-before">Tomorrow, Today</span></h1>
+                                    <div class="bar"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="split-video-text-item">
+
+                            <div class="row">
+                                <div class="col-lg-6">
+
+                                    <div class="imgs">
+                                        <img class="img-main img-fluid" src="https://picsum.photos/id/1/520/294.webp"
+                                            alt="">
+                                        <i class="img-play bi-youtube"></i>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <p>Hybrid work is dramatically changing how organisations manage physical spaces.
+                                        New ways of working are demanding new ways of thinking about the most productive
+                                        workplace.</p>
+                                    <p>
+                                        While the physical office is here to stay, teams increasingly rely on
+                                        dynamic and flexible environments that support an effortless transition to
+                                        hybrid working – where collaboration can thrive both on-site and remotely.
+                                    </p>
+
+                                    <p>
+                                        The challenge is to design a workplace that evolves with the way your teams meet
+                                        up, socialise, and collaborate, and adapts to how they will work in the future.
+                                        Enable the workplace of tomorrow, today by unleashing the full potential of your
+                                        workspace.
+                                    </p>
+
+                                    <!-- begin component: Callout Percentage 1 Column -->
+
+                                    <section class="callout-percentage-1-column">
+
+                                        <div class="percentage-container">
+
+                                            <div class="percent-container">
+                                                <img src="images/theme-hw/Ricoh-ribbon.svg" alt="">
+                                                <div class="percent">66%</div>
+                                            </div>
+
+                                            <div class="percent-text">
+                                                of business leaders are thinking of redesigning physical spaces to fit
+                                                hybrid environments
+                                                <div class="source">&mdash; Microsoft’s 2021 Work Trend Index</div>
+                                            </div>
+
+                                        </div>
+
+                                    </section>
+
+                                    <!-- end component: Callout Percentage 1 Column -->
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <!-- end component: Split Video and Text -->
+
+                    <!-- begin component: Split Text -->
+
+                    <section class="split-text">
+
+                        <div class="row">
+                            <div class="col-lg-6">
+
+                                <!-- begin component: Callout Percentage 1 Column -->
+
+                                <section class="callout-percentage-1-column">
+
+                                    <div class="percentage-container">
+
+                                        <div class="percent-container">
+                                            <img src="images/theme-hw/Ricoh-ribbon.svg" alt="">
+                                            <div class="percent">55%</div>
+                                        </div>
+
+                                        <div class="percent-text">
+                                            Human-centric work design — featuring flexible work experiences, intentional
+                                            collaboration opportunities and empathic management — can increase employee
+                                            performance by as much as 54%.
+                                            <div class="source">&mdash; 2022 Gartner Inc</div>
+                                        </div>
+
+                                    </div>
+
+                                </section>
+
+                                <!-- end component: Callout Percentage 1 Column -->
+
+                            </div>
+                            <div class="col-lg-6">
+
+                                <h3 class="mb-4">Your Platform to the Future Workplace</h3>
+
+                                <p>Modern workplace enhancement platforms provide the tools and insights you need to
+                                    optimise your workspace functionality while managing costs. Redesign, integrate, and
+                                    support your hybrid workplace with a holistic approach that will help nurture
+                                    employee engagement, facilitate a more dynamic way of working, and help you reach
+                                    new performance levels.</p>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <!-- end component: Split Text -->
+
+                    <!-- begin grey fluid -->
+
+                    <div class="grey-fluid">
+
+                        <!-- begin component: Split Text Without Background -->
+
+                        <section class="split-text-wo-bg">
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="main-heading mt-0">
+                                        <h1>Enabling Businesses to Create a Dynamic and Efficient Hybrid Workplace With
+                                            a First-Class Employee Experience</h1>
+                                        <div class="bar"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+
+                                    <p>If the needs of your business and employees are changing faster than your
+                                        workplace can keep up with, you’re not alone. Investments in workplace
+                                        experience platforms will yield rich dividends. Keep employees connected and
+                                        engaged—maximise their productivity and everyday potential.</p>
+
+
+                                    <!-- begin component: Callout Percentage 1 Column -->
+
+                                    <section class="callout-percentage-1-column">
+
+                                        <div class="percentage-container">
+
+                                            <div class="percent-container">
+                                                <img src="images/theme-hw/Ricoh-ribbon.svg" alt="">
+                                                <div class="percent">13%</div>
+                                            </div>
+
+                                            <div class="percent-text">
+                                                A Gartner survey revealed that only 13% of employees are fully satisfied
+                                                with their experience.
+                                                <div class="source">&mdash; 2022 Gartner Inc</div>
+                                            </div>
+
+                                        </div>
+
+                                    </section>
+
+                                    <!-- end component: Callout Percentage 1 Column -->
+
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>RICOH Spaces enables you to respond to changes in how people work, so you can
+                                        deliver a seamless employee experience now and in the future.</p>
+                                    <p>Bringing workplace
+                                        management under one roof integrates activities such as desk booking, meeting
+                                        room management, wayfinding and more – retaining the best of the physical office
+                                        experience and seamlessly combining it with the best of remote working.</p>
+                                    <p>RICOH Spaces – your workplace employee experience platform – unlocks the insights
+                                        and capabilities required to adjust ineffective ways of working, improve
+                                        collaboration, and reduce costs – preparing your business for how tomorrow will
+                                        work.</p>
+                                </div>
+                            </div>
+
+                        </section>
+
+                        <!-- end component: Split Text Without Background -->
+                    </div>
+
+                    <!-- end grey fluid -->
+
+                    <!-- begin component: Card Why Ricoh -->
+
+                    <section class="card-why-ricoh">
+
+                        <h1 class="center-heading">Why Ricoh?</h1>
+
+                        <p class="text-center mb-4">We believe in transforming information into actionable insights. We
+                            bring people and technology <span class="br-before">to simplify complexity, clarify
+                                direction, and help you uncover
+                                opportunities.</span></p>
+
+                        <div class="grey">
+
+                            <h3 class="text-center">How we create hybrid workplaces</h3>
+
+                            <div class="group">
+
+                                <div class="row row-cols-1 row-cols-lg-3 g-5 cards">
+
+                                    <!-- 1st row -->
+
+                                    <div class="col">
+                                        <div class="card-top-buffer">
+                                            <div class="card h-100">
+                                                <img src="images/theme-hw/Icon-Advisory.svg" alt="">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">Advisory & Design
+                                                    </h3>
+                                                    <p class="card-text">We work with our customers to understand their
+                                                        business objectives and barriers.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-top-buffer">
+                                        <div class="col">
+                                            <div class="card h-100">
+                                                <img src="images/theme-hw/Icon-Development.svg" alt="">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">Development
+                                                    </h3>
+                                                    <p class="card-text">We build the right solutions and successfully
+                                                        deploy them to optimise adoption.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-top-buffer">
+                                        <div class="col">
+
+                                            <div class="card h-100">
+                                                <img src="images/theme-hw/Icon-Managed_Service.svg" alt="">
+                                                <div class="card-body">
+                                                    <h3 class="card-title">Manage & Support
+                                                    </h3>
+                                                    <p class="card-text">We work towards building a foundation of trust,
+                                                        ensuring a strong partnership and future success.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <!-- end component: Card Why Ricoh -->
+
+                    <!-- begin component: Card 3 Columns -->
+
+                    <section class="card-3-columns">
+
+                        <div class="row">
+                            <div class="col">
+                                <h1 class="center-heading">Recommended resources for you</h1>
+                            </div>
+                        </div>
+
+                        <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-5 cards">
+
+                            <!-- 1st row -->
+
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://picsum.photos/id/18/380/180.webp" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <div class="card-category">Article</div>
+                                        <h3 class="card-title">7 Ways to Meet Staff Expectations in the Hybrid Workplace
+                                        </h3>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                            sed
+                                            diam nonumy</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#">READ THE STORY <i class="bi bi-arrow-right"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://picsum.photos/id/20/380/180.webp" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <div class="card-category">Case Study</div>
+                                        <h3 class="card-title">Railtrain
+                                        </h3>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                            sed
+                                            diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                                            sed
+                                            diam.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#">READ THE STORY <i class="bi bi-arrow-right"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="https://picsum.photos/id/19/380/180.webp" class="card-img-top" alt="">
+                                    <div class="card-body">
+                                        <div class="card-category">Article</div>
+                                        <h3 class="card-title">Remote Work vs Working From Home: What’s the Difference
+                                        </h3>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                            sed
+                                            diam nonumy</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#">READ THE STORY <i class="bi bi-arrow-right"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <!-- end component: Card 3 Columns -->
+
+                    <!-- begin component: Let's Connect -->
+
+                    <section class="lets-connect">
+
+                        <div class="bg-grey"></div>
+
+                        <div class="bg-red">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="left">
+                                        <img class="mb-4" src="images/ribbon-white-center.svg" alt="">
+                                        <div class="heading mb-4">Let’s connect</div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="right">
+                                        <div class="heading mb-4">Talk to a Ricoh expert</div>
+                                        <p>Get in touch with one of our consultants and find out how we can help you
+                                            create your hybrid workplace.</p>
+                                        <a href="#" class="btn btn-primary">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <!-- end component: Let's Connect -->
+
+                    <!-- begin component: Footer -->
+
+                    <footer>
+
+                        <div class="footer-top">
+
+                            <div class="footer-top-content">
+
+                                <div class="row footer-logo">
+                                    <div class="col">
+                                        <img src="images/logo.svg" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <p class="summary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                                            diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                                            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                                            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                                            sit.</p>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="row row-cols-1 row-cols-md-4">
+
+                                            <div class="col group-link">
+                                                <p><strong>Footer Heading 1</strong></p>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Footer Link 1</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Footer Link 2</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Footer Link 3</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col group-link">
+                                                <p><strong>Footer Heading 2</strong></p>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Footer Link 1</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Footer Link 2</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Footer Link 3</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col group-link">
+                                                <p><strong>Footer Heading 3</strong></p>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Footer Link 1</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Footer Link 2</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Footer Link 3</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col group-link">
+                                                <p><strong>Footer Heading 4</strong></p>
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Footer Link 1</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Footer Link 2</a>
+                                                    </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" href="#">Footer Link 3</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="follow-us">
+                                            <h4>Follow Us</h4>
+
+                                            <ul class="list-group list-group-horizontal">
+                                                <li class="list-group-item"><a href="#"><i class="bi-linkedin"></i></a>
+                                                </li>
+                                                <li class="list-group-item"><a href="#"><i class="bi-twitter"></i></a>
+                                                </li>
+                                                <li class="list-group-item"><a href="#"><i class="bi-facebook"></i></a>
+                                                </li>
+                                                <li class="list-group-item"><a href="#"><i class="bi-youtube"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="footer-bottom">
+                            <div class="footer-bottom-content">
+                                <div class="row">
+                                    <div class="col">
+
+                                        <div class="bottom-links">
+                                            <ul class="nav">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Privacy</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Terms & Conditions</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Cookie Policy</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Sitemap</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="copyr d-flex align-items-center">
+                                            © 2022 Ricoh Asia Pacific Pte Ltd. All Rights Reserved
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </footer>
+
+                    <!-- end component: Footer -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script type="module" src="js/global.js"></script>
+    <script type="module" src="js/primary-nav.js"></script>
+
+</body>
+
+</html>
