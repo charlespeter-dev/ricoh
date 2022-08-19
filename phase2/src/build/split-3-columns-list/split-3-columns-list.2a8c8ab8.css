@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Frutiger;
+  src: url("FrutigerLTStd-Light-woff2.0b884dea.woff2") format("woff2"), url("FrutigerLTStd-Light-woff.7d548dd1.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Frutiger;
+  src: url("FrutigerLTStd-Roman-woff2.178fcd94.woff2") format("woff2"), url("FrutigerLTStd-Roman-woff.ef8bb3f9.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Frutiger Bold;
+  src: url("FrutigerLTStd-Bold-woff2.987d5166.woff2") format("woff2"), url("FrutigerLTStd-Bold-woff.8d269496.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ricons;
+  font-style: normal;
+  font-weight: normal;
+  src: url("ricons-woff2.9bdf9c20.woff2") format("woff2"), url("ricons-woff.ef92e65c.woff") format("woff");
+}
+
