@@ -1,0 +1,32 @@
+.breadcrumb-container {
+
+    position: relative;
+
+    &::after {
+        content: '';
+        display: block;
+        height: 1px;
+        position: absolute;
+        bottom: -1px;
+        left: calc((100vw - 100%) / -2);
+        width: 100vw;
+        z-index: -1;
+        background-color: #C9C9C9;
+    }
+
+    .breadcrumb {
+        --bs-breadcrumb-divider: '>';
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+        margin-bottom: 0;
+
+        .breadcrumb-item {
+            font-size: 0.875rem; // desktop: 14px 
+        }
+
+        .breadcrumb-item a {
+            text-decoration: none !important;
+            color: #CF142B;
+        }
+    }
+}
