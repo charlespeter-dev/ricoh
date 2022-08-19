@@ -1,0 +1,285 @@
+.btn-std {
+    color: #fff;
+    background-color: #cf142b;
+    border: 0.5px solid #cf142b;
+}
+.btn-std {
+    transition: all .2s;
+    transition-delay: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn-std > .btn-main {
+    align-items: center;
+    display: flex;
+}
+.btn-std > .btn-main > .text {
+    padding: 10px;
+}
+.btn-std .the-arrow {
+    width: 0;
+}
+.btn-std > .btn-main > .the-arrow {
+    position: relative;
+}
+.btn-std .the-arrow {
+    width: 0;
+}
+ .btn-std .the-arrow.-right > .shaft,  .btn-std .the-arrow.-right > .shaft:before,  .btn-std .the-arrow.-right > .shaft:after,  .btn-std .the-arrow > .shaft,  .btn-std .the-arrow > .shaft:before,  .btn-std .the-arrow > .shaft:after {
+    background-color: #cf142b;
+}
+.btn-std .the-arrow.-right > .shaft {
+    width: 0;
+    opacity: 0;
+}
+.btn-std .the-arrow > .shaft {
+    height: 2px;
+    transition: all .2s;
+    transition-delay: 0;
+    will-change: transform;
+    display: block;
+    position: relative;
+}
+ .btn-std .the-arrow.-right > .shaft,  .btn-std .the-arrow.-right > .shaft:before,  .btn-std .the-arrow.-right > .shaft:after,  .btn-std .the-arrow > .shaft,  .btn-std .the-arrow > .shaft:before,  .btn-std .the-arrow > .shaft:after {
+    background-color: #cf142b;
+}
+.btn-std .the-arrow.-right > .shaft:before, .btn-std .the-arrow.-right > .shaft:after {
+    width: 0;
+    transform: rotate(0);
+}
+.btn-std .the-arrow > .shaft:before {
+    transform-origin: 100% 0;
+}
+.btn-std .the-arrow > .shaft:before, .btn-std .the-arrow > .shaft:after {
+    content: "";
+    height: 2px;
+    transition: all .2s;
+    transition-delay: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.btn-std .the-arrow > .shaft:after {
+    transform-origin: 100% 100%;
+}
+.btn-std:hover {
+  padding-right: 40px;
+}
+
+.btn-std:hover > .btn-main > .the-arrow.-right > .shaft {
+  width: 25px;
+  opacity: 1;
+  transition-delay: .1s;
+}
+
+.btn-std:hover > .btn-main > .the-arrow.-right > .shaft:before, .btn-std:hover > .btn-main > .the-arrow.-right > .shaft:after {
+  width: 8px;
+  transition-delay: .1s;
+}
+
+.btn-std:hover > .btn-main > .the-arrow.-right > .shaft:before {
+  transform: rotate(40deg);
+}
+
+.btn-std:hover > .btn-main > .the-arrow.-right > .shaft:after {
+  transform: rotate(-40deg);
+}
+ .btn-std:hover {
+  color: #fff;
+}
+
+ .btn-std:hover > .btn-main > .the-arrow.-right > .shaft,  .btn-std:hover > .btn-main > .the-arrow.-right > .shaft:before,  .btn-std:hover > .btn-main > .the-arrow.-right > .shaft:after {
+  background-color: #fff;
+}
+.btn-cta1 {
+    color: #cf142b;
+    border: 0.5px solid #cf142b;
+}
+.btn-cta1 {
+    transition: all .2s;
+    transition-delay: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn-cta1 > .btn-main {
+    align-items: center;
+    display: flex;
+}
+.btn-cta1 > .btn-main > .text {
+    padding: 10px;
+}
+.btn-cta1 .the-arrow {
+    width: 0;
+}
+.btn-cta1 > .btn-main > .the-arrow {
+    position: relative;
+}
+ .btn-cta1 .the-arrow.-right > .shaft,  .btn-cta1 .the-arrow.-right > .shaft:before,  .btn-cta1 .the-arrow.-right > .shaft:after,  .btn-cta1 .the-arrow > .shaft,  .btn-cta1 .the-arrow > .shaft:before,  .btn-cta1 .the-arrow > .shaft:after {
+    background-color: #cf142b;
+}
+.btn-cta1 .the-arrow.-right > .shaft {
+    width: 0;
+    opacity: 0;
+}
+.btn-cta1 .the-arrow > .shaft {
+    height: 2px;
+    transition: all .2s;
+    transition-delay: 0;
+    will-change: transform;
+    display: block;
+    position: relative;
+}
+ .btn-cta1 .the-arrow.-right > .shaft,  .btn-cta1 .the-arrow.-right > .shaft:before,  .btn-cta1 .the-arrow.-right > .shaft:after,  .btn-cta1 .the-arrow > .shaft,  .btn-cta1 .the-arrow > .shaft:before,  .btn-cta1 .the-arrow > .shaft:after {
+    background-color: #cf142b;
+}
+.btn-cta1 .the-arrow.-right > .shaft:before, .btn-cta1 .the-arrow.-right > .shaft:after {
+    width: 0;
+    transform: rotate(0);
+}
+.btn-cta1 .the-arrow > .shaft:before {
+    transform-origin: 100% 0;
+}
+.btn-cta1 .the-arrow > .shaft:before, .btn-cta1 .the-arrow > .shaft:after {
+    content: "";
+    height: 2px;
+    transition: all .2s;
+    transition-delay: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.btn-cta1 .the-arrow > .shaft:after {
+    transform-origin: 100% 100%;
+}
+.btn-cta1:hover {
+  padding-right: 40px;
+}
+
+.btn-cta1:hover > .btn-main > .the-arrow.-right > .shaft {
+  width: 25px;
+  opacity: 1;
+  transition-delay: .1s;
+}
+
+.btn-cta1:hover > .btn-main > .the-arrow.-right > .shaft:before, .btn-cta1:hover > .btn-main > .the-arrow.-right > .shaft:after {
+  width: 8px;
+  transition-delay: .1s;
+}
+
+.btn-cta1:hover > .btn-main > .the-arrow.-right > .shaft:before {
+  transform: rotate(40deg);
+}
+
+.btn-cta1:hover > .btn-main > .the-arrow.-right > .shaft:after {
+  transform: rotate(-40deg);
+}
+ .btn-cta1:hover {
+  color: #cf142b;
+}
+
+ .btn-cta1:hover > .btn-main > .the-arrow.-right > .shaft,  .btn-cta1:hover > .btn-main > .the-arrow.-right > .shaft:before,  .btn-cta1:hover > .btn-main > .the-arrow.-right > .shaft:after {
+  background-color: #cf142b;
+}
+.btn-cta2 {
+    color: #cf142b;
+}
+.btn-cta2 {
+    transition: all .1s;
+    transition-delay: 0;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn-cta2 > .btn-main {
+    align-items: center;
+    display: flex;
+}
+.btn-cta2 > .btn-main > .text {
+    text-transform: uppercase;
+    padding: 10px;
+}
+.btn-cta2 .the-arrow {
+    width: 0;
+}
+.btn-cta2 > .btn-main > .the-arrow {
+    position: relative;
+}
+.btn-cta2 .the-arrow {
+    width: 0;
+}
+ .btn-cta2 .the-arrow.-right > .shaft,  .btn-cta2 .the-arrow.-right > .shaft:before,  .btn-cta2 .the-arrow.-right > .shaft:after,  .btn-cta2 .the-arrow > .shaft,  .btn-cta2 .the-arrow > .shaft:before,  .btn-cta2 .the-arrow > .shaft:after {
+    background-color: #cf142b;
+}
+.btn-cta2 .the-arrow.-right > .shaft {
+    width: 20px;
+    opacity: 1;
+}
+.btn-cta2 .the-arrow > .shaft {
+    height: 2px;
+    transition: all .2s;
+    transition-delay: 0;
+    will-change: transform;
+    display: block;
+    position: relative;
+}
+.btn-cta2 .the-arrow.-right > .shaft:before {
+    transform: rotate(40deg);
+}
+.btn-cta2 .the-arrow.-right > .shaft:before, .btn-cta2 .the-arrow.-right > .shaft:after {
+    width: 8px;
+}
+.btn-cta2 .the-arrow > .shaft:before {
+    transform-origin: 100% 0;
+}
+.btn-cta2 .the-arrow > .shaft:before, .btn-cta2 .the-arrow > .shaft:after {
+    content: "";
+    height: 2px;
+    transition: all .2s;
+    transition-delay: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.btn-cta2 .the-arrow.-right > .shaft:after {
+    transform: rotate(-40deg);
+}
+.btn-cta2 .the-arrow > .shaft:after {
+    transform-origin: 100% 100%;
+}
+.btn-cta2:hover {
+  padding-right: 40px;
+}
+
+.btn-cta2:hover > .btn-main > .the-arrow.-right > .shaft {
+  width: 26px;
+  opacity: 1;
+  transition-delay: .1s;
+}
+
+.btn-cta2:hover > .btn-main > .the-arrow.-right > .shaft:before, .btn-cta2:hover > .btn-main > .the-arrow.-right > .shaft:after {
+  width: 8px;
+  transition-delay: .1s;
+}
+
+.btn-cta2:hover > .btn-main > .the-arrow.-right > .shaft:before {
+  transform: rotate(40deg);
+}
+
+.btn-cta2:hover > .btn-main > .the-arrow.-right > .shaft:after {
+  transform: rotate(-40deg);
+}
+ .btn-cta2:hover {
+  color: #cf142b;
+}
+
+ .btn-cta2:hover > .btn-main > .the-arrow.-right > .shaft,  .btn-cta2:hover > .btn-main > .the-arrow.-right > .shaft:before,  .btn-cta2:hover > .btn-main > .the-arrow.-right > .shaft:after {
+  background-color: #cf142b;
+}

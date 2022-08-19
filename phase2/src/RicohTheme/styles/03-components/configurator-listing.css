@@ -1,0 +1,13 @@
+ .product-configurator-listing .accordion-icon__content{
+     padding-left:10px !important;
+ }
+ .product-configurator-listing .accordion-icon__trigger {
+     padding: 12px 48px 12px 10px;
+     font-weight: bold;
+ }
+ .product-configurator-listing .accordion-icon {
+     margin-top:30px;
+ }
+ .product-configurator-listing .accordion-icon__icon{
+     top:12px;
+ }

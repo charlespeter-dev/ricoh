@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+	<msapplication>
+		<tile>
+			<square150x150logo src="/-/media/project/ricoh/knowledge/ricohtheme/images/favicons/mstile-150x150.png"/>
+			<TileColor>#cf142b</TileColor>
+		</tile>
+	</msapplication>
+</browserconfig>

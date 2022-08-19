@@ -1,13 +1,15 @@
 .breadcrumb-container {
 
     position: relative;
+    z-index: 1;
+    margin-block-start: 65px;
 
     &::after {
         content: '';
         display: block;
         height: 1px;
         position: absolute;
-        bottom: -1px;
+        bottom: 0;
         left: calc((100vw - 100%) / -2);
         width: 100vw;
         z-index: -1;

@@ -1,0 +1,55 @@
+.site-country-selector {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.site-country-selector__link {
+    text-decoration: none;
+    color: #717171
+}
+
+.site-country-selector__btn-icon {
+    font-size: 23px;
+    position: relative;
+    top: 4px;
+    margin-left: 5px;
+	
+}
+
+.site-search__btn .ricon-search{
+	color: #717171;
+	margin-top: 5px !important;
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    .site-country-selector.header_web{
+        display: none !important;
+    }
+    .site-country-selector.header_mobile{
+		display: block !important;
+		margin-right: 8px;
+		margin-top: 2px;
+    }
+
+    .site-country-selector__btn-icon{
+        top: 0 !important;
+    }
+	
+	.language-selector-toggle button{
+		margin-right: 5px !important;
+	}
+	
+	.site-country-selector__btn-icon {
+		margin-top: 5px !important;
+	}
+}
+
+.site-country-selector.header_web{
+    display: block;
+}
+
+.site-country-selector.header_mobile{
+    display: none;
+}

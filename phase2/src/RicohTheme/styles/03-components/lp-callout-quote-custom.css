@@ -1,0 +1,48 @@
+@media screen and (min-width: 992px) {
+ .theme-hw .lp-callout-quote .row {
+    --bs-gutter-x: 1.5rem;
+  }
+}
+
+.theme-hw .lp-callout-quote .row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  margin-top: calc(-1 * var(--bs-gutter-y) );
+  margin-right: calc(-.5 * var(--bs-gutter-x) );
+  margin-left: calc(-.5 * var(--bs-gutter-x) );
+  flex-wrap: wrap;
+  display: flex;
+}
+.theme-hw .lp-callout-quote {
+  flex-direction: column;
+  margin: 30px 0;
+  display: flex;
+}
+
+.theme-hw .lp-callout-quote img {
+  width: 100px;
+  height: 100px;
+}
+.theme-hw .lp-callout-quote .text {
+  color: #333;
+  border-left: 5px solid #768ec7;
+  margin-top: 30px;
+  padding-left: 30px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+.theme-hw .lp-callout-quote .text .source {
+  color: #666;
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+.theme-hw .text-theme-color {
+  color: #768ec7;
+}
+
+.theme-hw .lp-callout-quote img,.theme-hw .lp-callout-quote svg {
+  vertical-align: middle;
+}

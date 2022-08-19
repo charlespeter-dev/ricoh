@@ -23,15 +23,7 @@
     .secondary-nav-mobile {
 
         &::before {
-            content: '';
-            display: block;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: calc((100vw - 100%) / -2);
-            width: 100vw;
-            z-index: -2;
-            background-color: #fff;
+            display: none;
         }
 
         &::after {
@@ -42,7 +34,6 @@
             bottom: 0;
             left: calc((100vw - 100%) / -2);
             width: 100vw;
-            z-index: -1;
             background-color: #C9C9C9;
         }
 
@@ -90,15 +81,7 @@
     .secondary-nav-desktop {
 
         &::before {
-            content: '';
-            display: block;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: calc((100vw - 100%) / -2);
-            width: 100vw;
-            z-index: -2;
-            background-color: #fff;
+            display: none;
         }
 
         &::after {
@@ -109,7 +92,6 @@
             bottom: 0;
             left: calc((100vw - 100%) / -2);
             width: 100vw;
-            z-index: -1;
             background-color: #C9C9C9;
         }
 

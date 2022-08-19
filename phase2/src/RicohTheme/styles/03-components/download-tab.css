@@ -1,0 +1,115 @@
+.search-download-tab .tabcontent-inner {
+        background-color: #ffffff;
+        border: solid 1px #dedede;
+        padding: 16px 16px 16px 16px;
+    }
+/* Style the tab */
+.search-download-tab .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.search-download-tab .tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.search-download-tab .tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.search-download-tab .tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.search-download-tab .tabcontent {
+  display: none;
+  padding: 16px 16px 32px 16px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.search-download-tab .search-bar-section {
+	background-color: #dedede;
+    padding: 16px 16px 24px 16px;
+    margin-bottom: 14px;
+    position: relative;
+}
+.search-download-tab .search-bar-section h2 {
+	margin-bottom: 8px;
+	font-size: 20px !important;
+}
+.search-download-tab .search-bar-section input{
+	background-repeat: no-repeat;
+    background-position: 1% 50%;
+    background-color: #ffffff;
+    padding: 7px 8px 7px 32px;
+    font-size: 16px;
+    border: 1px solid #c9c9c9;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    width: 100% !important;
+	background-image: url(../../images/form/icon_search.png) !important;
+}
+.search-download-tab .search-result-section{
+	background-color: #f3f3f3;
+    border: solid 1px #dedede;
+    padding: 16px 16px 24px 16px;
+    position: relative;
+}
+.search-download-tab .search-result-section h2 {
+	margin-bottom: 8px;
+	font-size: 20px !important;
+}
+.search-download-tab .search-result-section .box-result{
+	width: auto;
+    margin: 0 15px;
+    background: #fff;
+    border: solid 1px #dedede;
+    overflow: auto;
+}
+.search-download-tab .search-result-section .cell-result{
+	height: 150px;
+    overflow: auto;
+    display: block;
+    background-color: #ffffff;
+    padding: 16px;
+}
+.search-download-tab .search-bar-section:after{
+	width: 24px;
+    height: 11px;
+    position: absolute;
+    left: 50%;
+    bottom: -11px;
+    margin-left: -12px;
+    content: '';
+    background-image: url(../../images/form/icon_s_arrowb.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    -webkit-background-size: 24px auto;
+    background-size: 24px auto;
+}
+.search-download-tab .search-result-section:after{
+	width: 26px;
+    height: 14px;
+    position: absolute;
+    left: 50%;
+    top: -1px;
+    margin-left: -13px;
+    content: '';
+    background-image: url(../../images/form/icon_s_arrowb_u.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    -webkit-background-size: 26px auto;
+    background-size: 26px auto;
+}

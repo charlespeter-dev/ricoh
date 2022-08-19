@@ -12,6 +12,8 @@
 
         padding-left: .75rem;
         padding-right: .75rem;
+        padding-top: 0;
+        padding-bottom: 0;
 
         &::before {
             content: '';
@@ -21,7 +23,6 @@
             top: 0;
             left: calc((100vw - 100%) / -2);
             width: 100vw;
-            z-index: -2;
             background-color: #fff;
         }
 
@@ -33,7 +34,6 @@
             bottom: 0;
             left: calc((100vw - 100%) / -2);
             width: 100vw;
-            z-index: -1;
             background-color: #C9C9C9;
         }
 
@@ -89,8 +89,23 @@
 
             .nav-link {
                 padding: 20px;
+                background-color: #fff;
             }
         }
+    }
+
+    // overwrite RIOCH
+
+    .dropdown {
+        opacity: unset;
+        perspective: unset;
+        perspective-origin: unset;
+        padding: unset;
+        display: unset;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
     }
 }
 

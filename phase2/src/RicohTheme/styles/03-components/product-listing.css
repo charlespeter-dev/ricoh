@@ -1,0 +1,34 @@
+@media screen and (min-width: 768px){
+	.sidenav-item__btn {
+        padding: 10px 0px 10px 0px;
+    }
+}
+    .sidenav-item-category {
+        font-size: 16px;
+        line-height: 20.8px;
+        color: inherit;
+		padding: 0px 27.641px 0px 0px;
+        margin: 0px 0px 12px 0px;
+		display: block;
+    }
+
+    .category-listing-item-wrapper {
+        font-size: 16px;
+        line-height: 24px;
+        color: inherit;
+        font-weight: inherit;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .subcategory-listing-item-wrapper {
+        font-size: 14px;
+        line-height: 21px;
+        color: inherit;
+        font-weight: inherit;
+        margin: 0px 0px 0px 0px;
+    }
+	.page-title_subtitle{
+        padding: 18px 0px 0px 0px;
+        font-size: 16px !important;
+		font-weight: inherit;
+    }
