@@ -2,9 +2,9 @@
 @import "mixins";
 @import "themes";
 
-@include themify($themes) {
+.is-mobile {
 
-    .is-mobile {
+    @include themify($themes) {
 
         .secondary-nav-mobile {
             .form-select {
@@ -61,9 +61,9 @@
     }
 }
 
-@include themify($themes) {
+.is-desktop {
 
-    .is-desktop {
+    @include themify($themes) {
 
         .secondary-nav-desktop {
 
