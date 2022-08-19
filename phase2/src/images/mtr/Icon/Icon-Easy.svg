@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Icon-Easy" transform="translate(0 0)">
+    <path id="Path_273" data-name="Path 273" d="M114.521,230.126h-4.535a.892.892,0,0,1-.891-.892V180.027a1.79,1.79,0,0,0-1.784-1.791h-50.1a1.794,1.794,0,0,0-1.79,1.791v50.1a1.792,1.792,0,0,0,1.79,1.791h49.2a.894.894,0,0,1,.9.9v4.533a.886.886,0,0,0,.887.89h6.324a.892.892,0,0,0,.9-.89v-6.325a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#768ec7"/>
+    <g id="Group_1537" data-name="Group 1537" transform="translate(10.584 8.666)">
+      <path id="Path_1024" data-name="Path 1024" d="M218.8,60.627h18.083a4,4,0,0,0,3.95-3.263l2-10.928V45.18a3.977,3.977,0,0,0-4-4H227.956V30.3a3.977,3.977,0,0,0-4-4,.7.7,0,0,0-.576.4L218.8,42.323Z" transform="translate(-208.657 -26.3)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_1025" data-name="Path 1025" d="M69.422,271.2H64.275a.546.546,0,0,0-.576.576v17.167a.546.546,0,0,0,.576.576h5.153V271.2Z" transform="translate(-63.7 -255.184)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
