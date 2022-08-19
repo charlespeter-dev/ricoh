@@ -1,0 +1,86 @@
+@import "functions";
+@import "mixins";
+@import "themes";
+
+@include themify($themes) {
+
+    .split-text {
+        background-color: themed(bgColor);
+
+        &::before {
+
+            background-color: themed(bgColor);
+        }
+
+        &::after {
+
+            background-color: themed(primaryColor);
+        }
+
+        .callout-percentage-1-column {
+
+            .percentage-container {
+
+                .percent-container {
+
+                    .percent {
+                        background-color: themed('bgColor');
+                    }
+                }
+            }
+        }
+
+        @media screen and (min-width: 992px) {
+
+            background-color: themed(bgColor);
+            border-bottom: 5px solid themed(primaryColor);
+        }
+    }
+}
+
+.split-text {
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 50px 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+    &::before {
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: calc((100vw - (100% - 1.1rem)) / -2);
+        width: 100vw;
+        z-index: -1;
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        height: 6px;
+        position: absolute;
+        bottom: 0;
+        left: calc((100vw - (100% - 1.1rem)) / -2);
+        width: 100vw;
+        z-index: -1;
+    }
+
+    @media screen and (min-width: 992px) {
+
+        &::before {
+            display: none;
+        }
+
+        &::after {
+            display: none;
+        }
+
+        padding: 50px 60px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}

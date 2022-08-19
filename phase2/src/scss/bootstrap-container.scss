@@ -6,25 +6,28 @@
     @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 
 
-    // --bs-body-font-family: Frutiger, sans-serif;
-    // --bs-body-font-size: 18px;
-    // --bs-body-color: #666666;
-    // --bs-body-bg: #ffffff;
-    // --bs-body-font-weight: 400;
-    // --bs-body-line-height: 1.75rem; // desktop: 28px
-    // --bs-body-text-align: left;
+    --bs-body-font-family: Frutiger, sans-serif;
+    --bs-body-font-size: 18px;
+    --bs-body-color: #666666;
+    --bs-body-bg: #ffffff;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.75rem; // desktop: 28px
+    --bs-body-text-align: left;
 
-    // // font-family: var(--bs-body-font-family);
-    // // font-size: var(--bs-body-font-size);
-    // // font-weight: var(--bs-body-font-weight);
-    // // line-height: var(--bs-body-line-height);
-    // // color: var(--bs-body-color);
-    // // text-align: var(--bs-body-text-align);
-    // // background-color: var(--bs-body-bg);
+    // font-family: var(--bs-body-font-family);
+    // font-size: var(--bs-body-font-size);
+    // font-weight: var(--bs-body-font-weight);
+    // line-height: var(--bs-body-line-height);
+    // color: var(--bs-body-color);
+    // text-align: var(--bs-body-text-align);
+    // background-color: var(--bs-body-bg);
 
 
     p {
         margin-bottom: 1.75rem;
+        font-size: var(--bs-body-font-size);
+        line-height: var(--bs-body-line-height);
+        color: var(--bs-body-color);
     }
 
     h1 {
@@ -73,7 +76,7 @@
     }
 
     @include themify($themes) {
-        
+
         .main-heading {
 
             .bar {
