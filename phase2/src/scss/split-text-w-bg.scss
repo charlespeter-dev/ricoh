@@ -4,7 +4,7 @@
 
 @include themify($themes) {
 
-    .split-text {
+    .split-text-w-bg {
         background-color: themed(bgColor);
 
         &::before {
@@ -38,7 +38,7 @@
     }
 }
 
-.split-text {
+.split-text-w-bg {
     position: relative;
     z-index: 1;
     margin-top: 30px;
