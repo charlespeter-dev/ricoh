@@ -3,7 +3,7 @@
     @each $theme,
     $map in $themes {
 
-        .theme-#{$theme} {
+        #{if(&, '&.theme-#{$theme}',' .theme-#{$theme}')} {
 
             $theme-map: () !global;
 
@@ -16,6 +16,5 @@
             @content;
             $theme-map: null !global;
         }
-
     }
 }

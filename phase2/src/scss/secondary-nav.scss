@@ -4,11 +4,14 @@
 
 .is-mobile {
 
-    @include themify($themes) {
+    .bootstrap-container {
 
-        .secondary-nav-mobile {
-            .form-select {
-                color: themed(primaryColor);
+        @include themify($themes) {
+
+            .secondary-nav-mobile {
+                .form-select {
+                    color: themed(primaryColor);
+                }
             }
         }
     }
@@ -63,14 +66,17 @@
 
 .is-desktop {
 
-    @include themify($themes) {
+    .bootstrap-container {
 
-        .secondary-nav-desktop {
+        @include themify($themes) {
 
-            .nav-link {
-                color: themed(primaryColor);
-                font-size: 1.25rem; // desktop: 20px
-                line-height: 1.5rem; // desktop: 24px
+            .secondary-nav-desktop {
+
+                .nav-link {
+                    color: themed(primaryColor);
+                    font-size: 1.25rem; // desktop: 20px
+                    line-height: 1.5rem; // desktop: 24px
+                }
             }
         }
     }
