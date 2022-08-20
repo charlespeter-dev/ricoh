@@ -87,7 +87,15 @@
     .secondary-nav-desktop {
 
         &::before {
-            display: none;
+            content: '';
+            display: block;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: calc((100vw - 100%) / -2);
+            width: 100vw;
+            z-index: -1;
+            background-color: #fff;
         }
 
         &::after {

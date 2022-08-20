@@ -84,4 +84,47 @@
             }
         }
     }
+
+    .grey {
+        background-color: #F3F3F3;
+    }
+
+    .grey-fluid {
+        position: relative;
+        z-index: 1;
+        background-color: #F3F3F3;
+        padding-top: 1px;
+        margin-top: 6.25rem;
+
+        &::before {
+            content: '';
+            display: block;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: calc((100vw - 100%) / -2);
+            width: 100vw;
+            z-index: -1;
+            background-color: #F3F3F3;
+        }
+
+        .callout-percentage-1-column .percentage-container .percent-container .percent {
+            background-color: #f3f3f3 !important;
+        }
+    }
+
+    /* emulate <br> behavior */
+
+    @media screen and (min-width: 992px) {
+
+        span.br-before::before {
+            content: "\a";
+            white-space: pre;
+        }
+
+        span.br-after::after {
+            content: "\a";
+            white-space: pre;
+        }
+    }
 }
