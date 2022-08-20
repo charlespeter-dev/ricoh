@@ -26,7 +26,14 @@
     .secondary-nav-mobile {
 
         &::before {
-            display: none;
+            content: '';
+            display: block;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: calc((100vw - 100%) / -2);
+            width: 100vw;
+            background-color: #fff;
         }
 
         &::after {
@@ -45,7 +52,7 @@
         }
 
         &.sticky-secondary-nav-mobile {
-            top: 63px;
+            top: 64px;
         }
 
         display: block;
