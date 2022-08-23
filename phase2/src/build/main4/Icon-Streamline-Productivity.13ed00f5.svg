@@ -1,0 +1,18 @@
+<svg id="Component_138_1" data-name="Component 138 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.162" height="60.162" viewBox="0 0 60.162 60.162">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_624" data-name="Rectangle 624" width="43.225" height="43.225" transform="translate(0 0)"></rect>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_623" data-name="Rectangle 623" width="43.225" height="43.225"></rect>
+    </clipPath>
+  </defs>
+  <path id="Path_1198" data-name="Path 1198" d="M114.681,230.266h-4.548a.894.894,0,0,1-.894-.894v-49.34a1.8,1.8,0,0,0-1.789-1.8H57.213a1.8,1.8,0,0,0-1.8,1.8v50.234a1.8,1.8,0,0,0,1.8,1.8h49.335a.9.9,0,0,1,.9.9v4.545a.888.888,0,0,0,.89.892h6.341a.894.894,0,0,0,.9-.892v-6.342a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#758cc5"></path>
+  <g id="Group_1873" data-name="Group 1873" transform="translate(5.426 5.217)" clip-path="url('#clip-path')">
+    <g id="Group_1872" data-name="Group 1872" transform="translate(0 0)" clip-path="url('#clip-path-2')">
+      <path id="Path_1199" data-name="Path 1199" d="M-10686.02,6689.1v28.771h28.875" transform="translate(10693.635 -6682.537)" fill="none" stroke="#fff" stroke-width="2"></path>
+      <path id="Path_1200" data-name="Path 1200" d="M0,11.071,7.381,4.045,10.038,6.74l4.613-4.521,2.615,2.617L22.134,0" transform="translate(11.412 17.825) rotate(-8)" fill="none" stroke="#fff" stroke-width="2"></path>
+      <path id="Polygon_3" data-name="Polygon 3" d="M4.132,0,8.264,4.412H0Z" transform="matrix(0.719, 0.695, -0.695, 0.719, 32.594, 9.98)" fill="#fff"></path>
+    </g>
+  </g>
+</svg>

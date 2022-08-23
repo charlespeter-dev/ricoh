@@ -1,0 +1,17 @@
+<svg id="Component_141_1" data-name="Component 141 – 1" xmlns="http://www.w3.org/2000/svg" width="60.162" height="60.162" viewBox="0 0 60.162 60.162">
+  <path id="Path_273" data-name="Path 273" d="M114.681,230.266h-4.548a.894.894,0,0,1-.894-.894v-49.34a1.8,1.8,0,0,0-1.789-1.8H57.213a1.8,1.8,0,0,0-1.8,1.8v50.234a1.8,1.8,0,0,0,1.8,1.8h49.335a.9.9,0,0,1,.9.9v4.545a.888.888,0,0,0,.89.892h6.341a.894.894,0,0,0,.9-.892v-6.342a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#758cc5"></path>
+  <g id="Group_1848" data-name="Group 1848" transform="translate(10.959 9.806)">
+    <g id="Ellipse_11" data-name="Ellipse 11" transform="translate(0 2.497)" fill="none" stroke="#fff" stroke-width="2">
+      <ellipse cx="16.08" cy="16.08" rx="16.08" ry="16.08" stroke="none"></ellipse>
+      <ellipse cx="16.08" cy="16.08" rx="15.08" ry="15.08" fill="none"></ellipse>
+    </g>
+    <line id="Line_183" data-name="Line 183" y1="2.285" transform="translate(16.376 0.762)" fill="none" stroke="#fff" stroke-width="2"></line>
+    <line id="Line_184" data-name="Line 184" x2="9.902" transform="translate(11.426)" fill="none" stroke="#fff" stroke-width="2"></line>
+    <path id="Path_1181" data-name="Path 1181" d="M-10667.5,7165.719v7.628l5.233,5.179" transform="translate(10683.878 -7154.186)" fill="none" stroke="#fff" stroke-width="2"></path>
+    <circle id="Ellipse_12" data-name="Ellipse 12" cx="1.026" cy="1.026" r="1.026" transform="translate(15.053 6.603)" fill="#fff"></circle>
+    <circle id="Ellipse_15" data-name="Ellipse 15" cx="1.026" cy="1.026" r="1.026" transform="translate(26.001 17.551)" fill="#fff"></circle>
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="1.026" cy="1.026" r="1.026" transform="translate(15.053 28.499)" fill="#fff"></circle>
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="1.026" cy="1.026" r="1.026" transform="translate(3.421 17.551)" fill="#fff"></circle>
+    <line id="Line_185" data-name="Line 185" y1="0.762" x2="0.762" transform="translate(25.467 5.388) rotate(-8)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+  </g>
+</svg>

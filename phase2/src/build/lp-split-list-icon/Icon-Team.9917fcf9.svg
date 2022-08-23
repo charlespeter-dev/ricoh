@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Icon-Team" transform="translate(0 -1069)">
+    <path id="Path_273" data-name="Path 273" d="M114.521,230.126h-4.535a.892.892,0,0,1-.891-.892V180.027a1.79,1.79,0,0,0-1.784-1.791h-50.1a1.794,1.794,0,0,0-1.79,1.791v50.1a1.792,1.792,0,0,0,1.79,1.791h49.2a.894.894,0,0,1,.9.9v4.533a.886.886,0,0,0,.887.89h6.324a.892.892,0,0,0,.9-.89v-6.325a.9.9,0,0,0-.9-.9" transform="translate(-55.418 890.764)" fill="#768ec7"></path>
+    <g id="Group_1448" data-name="Group 1448" transform="translate(-589.888 859.563)">
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="4.496" cy="4.496" r="4.496" transform="translate(611.741 218.5)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></circle>
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="4.496" cy="4.496" r="4.496" transform="translate(611.741 233.026)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></circle>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="4.496" cy="4.496" r="4.496" transform="translate(624.982 228.68)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></circle>
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="4.496" cy="4.496" r="4.496" transform="translate(598.5 228.68)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></circle>
+      <circle id="Ellipse_11" data-name="Ellipse 11" cx="4.496" cy="4.496" r="4.496" transform="translate(619.836 244.302)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></circle>
+      <circle id="Ellipse_12" data-name="Ellipse 12" cx="4.496" cy="4.496" r="4.496" transform="translate(603.646 244.302)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></circle>
+      <line id="Line_151" data-name="Line 151" y2="5.299" transform="translate(616.237 227.727)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+      <line id="Line_152" data-name="Line 152" y1="3.978" x2="3.357" transform="translate(609.961 240.939)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+      <line id="Line_153" data-name="Line 153" x1="3.357" y1="3.976" transform="translate(619.156 240.941)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+      <line id="Line_154" data-name="Line 154" x1="4.355" y2="1.734" transform="translate(620.436 234.187)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+      <line id="Line_155" data-name="Line 155" x2="4.355" y2="1.734" transform="translate(607.682 234.187)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+    </g>
+  </g>
+</svg>
