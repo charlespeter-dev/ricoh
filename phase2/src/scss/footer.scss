@@ -1,0 +1,167 @@
+.bootstrap-container {
+
+    footer {
+        position: relative;
+        z-index: 1;
+
+        a,
+        strong,
+        p,
+        h4 {
+            color: #333333 !important;
+        }
+
+        .footer-top {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            position: relative;
+
+            .footer-top-content {
+
+                &::before {
+                    content: '';
+                    display: block;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: calc((100vw - 100%) / -2);
+                    width: 100vw;
+                    z-index: -1;
+                    background-color: #F3F3F3;
+                }
+
+                .footer-logo {
+
+                    margin-bottom: 50px;
+
+                    @media screen and (min-width: 992px) {
+                        position: unset;
+                        top: unset;
+                        left: unset;
+                        transform: unset;
+                    }
+
+                    img {
+                        width: 146px;
+                    }
+                }
+
+                .summary {
+                    font-size: 1rem; // desktop: 16px
+                    line-height: 1.625rem; // desktop: 26px
+                    padding-right: 1.625rem;
+                    text-align: justify;
+                }
+
+                .group-link {
+                    margin-top: 30px;
+
+                    @media screen and (min-width: 992px) {
+                        margin-top: 0;
+                    }
+                }
+
+                .nav-link {
+                    font-size: 1rem; // desktop: 16px
+                    line-height: 1.625rem; // desktop: 26px
+                    padding-left: 0;
+                }
+
+                .follow-us {
+                    margin-top: 30px;
+
+                    .list-group-item:nth-of-type(1) {
+                        margin-left: 0;
+                    }
+                }
+
+                >.list-group-item a {
+                    padding-left: 0;
+                }
+
+                .list-group-item {
+                    background-color: transparent;
+                    margin: 10px;
+                    border-radius: 0.25rem;
+
+                    +.list-group-item {
+                        border-left-width: 1px;
+                    }
+
+                    i {
+                        font-size: 25px;
+                        color: #B1B1B1;
+                    }
+                }
+
+            }
+        }
+
+        .footer-bottom {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            position: relative;
+
+            .footer-bottom-content {
+
+                &::before {
+                    content: '';
+                    display: block;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: calc((100vw - (100% - 1.1rem)) / -2);
+                    width: 100vw;
+                    z-index: -1;
+                    background-color: #c9c9c9;
+                }
+
+                .row .col {
+                    display: flex;
+                    flex-direction: column;
+
+                    @media screen and (min-width: 992px) {
+                        flex-direction: row;
+                    }
+                }
+
+
+
+                .bottom-links {
+
+                    flex-direction: column;
+
+                    @media screen and (min-width: 992px) {
+                        margin-right: auto;
+                    }
+
+                    .nav-link {
+                        font-size: 0.875rem; // desktop: 14px
+                        line-height: 1.5rem; // desktop: 24px
+                    }
+
+                    .nav-link:nth-of-type(1) {
+                        padding-left: 0;
+                    }
+
+                }
+
+                .copyr {
+                    font-size: 0.875rem; // desktop: 14px
+                    line-height: 1.5rem; // desktop: 24px
+                    color: #333333;
+                    margin-top: 20px;
+
+                    @media screen and (min-width: 992px) {
+                        margin-top: 0;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .nav {
+        background-color: transparent !important;
+    }
+}
