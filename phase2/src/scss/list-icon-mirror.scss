@@ -1,0 +1,101 @@
+.list-icon-mirror {
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    h3 {
+        color: #333333;
+        font-weight: 700;
+        display: block;
+        text-align: center;
+    }
+
+    .left {
+
+        margin-top: 2rem;
+
+        @media screen and (min-width: 992px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 605px;
+
+            margin-top: unset;
+        }
+
+        .list-item-container {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .text {
+                margin-top: 2rem;
+            }
+
+            @media screen and (min-width: 992px) {
+
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
+
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+
+                .icon {
+                    order: 1;
+                }
+
+                .text {
+                    order: 0;
+                    text-align: right;
+                    margin-right: 10px;
+                    margin-top: unset;
+                }
+            }
+        }
+    }
+
+    .right {
+
+        margin-top: 2rem;
+
+        @media screen and (min-width: 992px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 605px;
+
+            margin-top: unset;
+        }
+
+        .list-item-container {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .text {
+                margin-top: 2rem;
+            }
+
+            @media screen and (min-width: 992px) {
+
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+
+                .text {
+                    text-align: left;
+                    margin-right: 10px;
+                    margin-top: unset;
+                }
+            }
+        }
+    }
+}
