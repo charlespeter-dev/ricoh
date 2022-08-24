@@ -66,6 +66,39 @@
         color: #666666;
     }
 
+    .btn {
+        font-weight: bold;
+        font-size: 1.125rem; // desktop: 18px
+        line-height: 1.75rem; // desktop: 28px
+    }
+
+    .btn-secondary {
+        background-color: #F3F3F3;
+    }
+
+    .btn-secondary:hover {
+        border-color: #ffffff;
+        color: #ffffff;
+    }
+
+    @include themify($themes) {
+
+        .btn-primary,
+        .btn-primary:hover {
+            background-color: themed('primaryColor');
+            border-color: themed('primaryColor');
+        }
+
+        .btn-secondary {
+            border-color: themed('primaryColor');
+            color: themed('primaryColor');
+        }
+
+        .btn-secondary:hover {
+            background-color: themed('primaryColor');
+        }
+    }
+
     .main-heading {
 
         margin-top: 60px;
@@ -142,5 +175,39 @@
 
         text-align: center;
         display: block;
+    }
+
+    ul {
+
+        &.marker-theme-color {
+            list-style: none;
+            display: table;
+
+            li {
+                display: table-row;
+            }
+
+            li::before {
+                content: "\25A0";
+                font-weight: bold;
+                display: table-cell;
+                width: 1em;
+                position: relative;
+                top: -0.1rem;
+            }
+        }
+    }
+
+    @include themify($themes) {
+
+        ul {
+
+            &.marker-theme-color {
+
+                li::before {
+                    color: themed('primaryColor');
+                }
+            }
+        }
     }
 }

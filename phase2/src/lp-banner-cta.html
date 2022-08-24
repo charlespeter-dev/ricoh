@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <!-- begin RICOH css -->
 
     <link rel="stylesheet" href="RicohTheme/styles/01-swiper.css">
@@ -102,11 +103,11 @@
     <!-- begin 2X css -->
 
     <link rel="stylesheet" href="scss/bootstrap-container.scss">
-    <link rel="stylesheet" href="scss/banner.scss">
+    <link rel="stylesheet" href="scss/lp-banner.scss">
 
     <!-- end 2X css -->
 
-    <title>Banner</title>
+    <title>Banner with CTA</title>
 </head>
 
 <body>
@@ -115,23 +116,37 @@
 
         <div class="container">
 
-            <!-- begin component: Banner -->
+            <section class="lp-banner">
 
-            <section class="banner">
+                <div class="row">
 
-                <div class="callout">
-                    <h1 class="mb-4">Hybrid Workplace</h1>
-                    <h4>Connecting people together, no matter where they work</h4>
-                    <div class="bar"></div>
+                    <div class="col-lg-7 g-0 left">
+
+                        <div class="callout">
+                            <div class="category mb-3">Case Study</div>
+                            <div class="title mb-4">VISMA | RAET: Reserving and Managing Workplaces Online</div>
+                            <div class="meta mb-4">
+                                <a class="btn btn-primary" href="#">Read the full story</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-5 g-0 right">
+                        <img class="img-bg-desktop"
+                            src="images/case-study-1/Background-VismaRaet-Reserving-and-Managing-Workplaces-Online.png"
+                            alt="">
+                        <div class="img-bg-mobile"
+                            style="background-image: url('images/case-study-1/Background-VismaRaet-Reserving-and-Managing-Workplaces-Online.png');">
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="image">
-                    <img class="img-fluid" src="https://picsum.photos/id/336/880/320.webp" alt="">
-                </div>
+                <img class="img-right"
+                    src="images/case-study-1/Thumbnail-VismaRaet-Reserving-and-Managing-Workplaces-Online.png" alt="">
 
             </section>
-
-            <!-- end component: Banner -->
 
         </div>
 
@@ -140,8 +155,6 @@
 
     <!-- begin RICOH js -->
 
-    <script src="Base%20Themes/Switch%20Core%20Libraries/scripts/00-jquery-3-5-0.js"></script>
-    <script type="module" src="RicohTheme/scripts/04-components/split-width-hero.js"></script>
     <script type="module" src="RicohTheme/scripts/05-2x.js"></script>
 
     <!-- end RICOH js -->

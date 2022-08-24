@@ -1,0 +1,202 @@
+@import "functions";
+@import "mixins";
+@import "themes";
+
+@include themify($themes) {
+
+    .is-desktop {
+
+        .lp-banner {
+
+            &::before {
+                content: '';
+                display: block;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: calc((100vw - (100% - 1.1rem)) / -2);
+                width: 100vw;
+                z-index: -3;
+                background-color: #f3f3f3;
+            }
+
+            &::after {
+                content: '';
+                display: block;
+                height: 5px;
+                position: absolute;
+                bottom: 0;
+                left: calc((100vw - (100% - 1.1rem)) / -2);
+                width: 100vw;
+                z-index: -1;
+                background-color: themed('primaryColor');
+            }
+
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% center;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .left {
+
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .callout {
+
+                    position: absolute;
+                    z-index: -1;
+                }
+            }
+
+            .right {
+
+                position: relative;
+
+                .img-bg-desktop {
+                    position: relative;
+                    left: -64%;
+                    z-index: -3;
+
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+
+            .img-right {
+                position: absolute;
+                top: 0;
+                right: 1.5rem;
+                width: 375px;
+                z-index: 3;
+            }
+        }
+    }
+
+
+
+    .is-mobile {
+
+        .lp-banner {
+
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+
+            &::before {
+                content: '';
+                display: block;
+                height: 100%;
+                position: absolute;
+                bottom: 0;
+                left: calc((100vw - 100%) / -2);
+                width: 100vw;
+                z-index: -1;
+                background-color: #f3f3f3;
+            }
+
+            &::after {
+                content: '';
+                display: block;
+                height: 5px;
+                position: absolute;
+                bottom: 0;
+                left: calc((100vw - 100%) / -2);
+                width: 100vw;
+                z-index: -1;
+                background-color: themed('primaryColor');
+            }
+
+            .left {
+
+                .callout {
+
+                    margin-bottom: 60px;
+                }
+            }
+
+
+            .right {
+
+                position: relative;
+                min-height: 200px;
+
+                .img-bg-mobile {
+
+                    position: absolute;
+                    bottom: 0;
+                    left: calc((100vw - 100%) / -2);
+                    width: 100vw;
+                    height: 100%;
+                    z-index: -1;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: 50%;
+                }
+
+                .img-bg-desktop {
+                    display: none;
+                }
+            }
+
+            .img-right {
+                position: absolute;
+                bottom: -77.5px;
+                width: 300px;
+                z-index: 3;
+            }
+
+        }
+    }
+
+
+    .lp-banner {
+
+        >.row {
+            --bs-gutter-x: 0;
+        }
+
+        .left {
+
+            .callout {
+
+                .category {
+                    font-weight: 700;
+                    color: themed('primaryColor');
+                    text-transform: uppercase;
+                }
+
+                .title {
+                    font-size: 2.75rem; // desktop: 44px
+                    line-height: 3rem; // desktop: 48px
+                    font-weight: 700;
+                    color: #333333;
+                }
+
+                .meta {
+                    display: flex;
+                    flex-direction: row;
+
+                    font-size: 1.25rem; // desktop: 20px
+                    line-height: 1.5rem; // desktop: 24px
+
+                    .dot {
+                        margin-top: -2px;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        color: themed('primaryColor');
+                    }
+                }
+            }
+        }
+    }
+}
