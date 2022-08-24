@@ -1,0 +1,47 @@
+@import "functions";
+@import "mixins";
+@import "themes";
+
+@include themify($themes) {
+
+    .lp-callout-quote {
+
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .text {
+            font-size: 2rem; // desktop: 32px
+            line-height: 2.25rem; // desktop: 36px
+            font-weight: 700;
+
+            padding-left: 30px;
+            margin-top: 30px;
+            color: #333333;
+
+            .source {
+                font-size: 1.125rem; // desktop 18px
+                line-height: 1.75rem; // desktop 28px
+                font-weight: 700;
+                color: #666666;
+                margin-top: 1.5rem;
+            }
+        }
+    }
+}
+
+@include themify($themes) {
+
+    .lp-callout-quote {
+
+        .text {
+
+            border-left: 5px solid themed('primaryColor');
+        }
+    }
+}

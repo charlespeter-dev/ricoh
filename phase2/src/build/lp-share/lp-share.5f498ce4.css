@@ -1,0 +1,203 @@
+.theme-hw .card-partner-2-columns p {
+  margin-bottom: 1.75rem;
+}
+
+.theme-hw .card-partner-2-columns img {
+  vertical-align: middle;
+}
+
+.theme-hw .card-partner-2-columns .btn {
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: #0000;
+  border: 1px solid #0000;
+  border-radius: .25rem;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  display: inline-block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-hw .card-partner-2-columns .btn {
+    transition: none;
+  }
+}
+
+.theme-hw .card-partner-2-columns .btn-primary {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.theme-hw .card-partner-2-columns .btn-primary, .theme-hw .card-partner-2-columns .btn-primary:hover, .theme-hw .card-partner-2-columns .btn-primary:hover:before {
+  background-color: #768ec7 !important;
+  border-color: #768ec7 !important;
+}
+
+.theme-hw .card-partner-2-columns .btn {
+  padding: 15px 30px;
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 1.75rem;
+}
+
+.theme-hw .card-partner-2-columns {
+  background-color: #f3f3f3;
+  padding: 30px 0 50px;
+  position: relative;
+}
+
+@media screen and (min-width: 992px) {
+  .theme-hw .card-partner-2-columns {
+    padding: 50px 50px 0 0;
+  }
+}
+
+.theme-hw .card-partner-2-columns:before {
+  content: "";
+  height: 100%;
+  width: 100vw;
+  background-color: #f3f3f3;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 50vw - .55rem);
+}
+
+.theme-hw .card-partner-2-columns .row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+@media screen and (min-width: 992px) {
+  .theme-hw .card-partner-2-columns .row {
+    --bs-gutter-x: 1.5rem;
+  }
+}
+
+.theme-hw .card-partner-2-columns .row .left {
+  justify-content: center;
+  padding-top: 50px;
+  display: flex;
+}
+
+.theme-hw .card-partner-2-columns .order-1 {
+  order: 1 !important;
+}
+
+.theme-hw .card-partner-2-columns .order-2 {
+  order: 2 !important;
+}
+
+@media (min-width: 992px) {
+  .theme-hw .card-partner-2-columns .order-lg-1 {
+    order: 1 !important;
+  }
+
+  .theme-hw .card-partner-2-columns .col-lg-6 {
+    width: 50%;
+    flex: none;
+  }
+
+  .theme-hw .card-partner-2-columns .order-lg-2 {
+    order: 2 !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .theme-hw .card-partner-2-columns .row .left {
+    padding-top: 0;
+  }
+}
+
+.theme-hw .card-partner-2-columns .row .left .imgs {
+  width: 250px;
+  position: relative;
+}
+
+@media screen and (min-width: 992px) {
+  .theme-hw .card-partner-2-columns .row .left .imgs {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .theme-hw .card-partner-2-columns .row .left .imgs {
+    width: 400px;
+  }
+}
+
+.theme-hw .card-partner-2-columns .row .left .imgs .img-main {
+  width: 250px;
+  height: auto;
+  border-radius: 5%;
+}
+
+@media screen and (min-width: 992px) {
+  .theme-hw .card-partner-2-columns .row .left .imgs .img-main {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .theme-hw .card-partner-2-columns .row .left .imgs .img-main {
+    width: 400px;
+    height: auto;
+  }
+}
+
+.theme-hw .card-partner-2-columns .row .left .imgs .img-ribbon {
+  width: 90px;
+  position: absolute;
+  bottom: -45px;
+  right: -45px;
+}
+
+@media screen and (min-width: 992px) {
+  .theme-hw .card-partner-2-columns .row .left .imgs .img-ribbon {
+    width: 100px;
+    bottom: -50px;
+    right: -50px;
+  }
+}
+
+.theme-hw .card-partner-2-columns .mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.theme-hw .card-partner-2-columns .row .right .title {
+  color: #333;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+.theme-hw .card-partner-2-columns .mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.theme-hw .card-partner-2-columns .row .right .subtitle {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+
