@@ -1,0 +1,78 @@
+@import "functions";
+@import "mixins";
+@import "themes";
+
+.lp-mega-list {
+
+    &.reverse {
+
+        ol,
+        ul {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+
+    ol,
+    ul {
+
+        padding-left: 1rem;
+
+        @media screen and (min-width:992px) {
+            padding-left: 2rem;
+        }
+
+        li {
+            padding-left: 1rem;
+
+            @media screen and (min-width:992px) {
+                padding-left: 1.5rem;
+            }
+        }
+    }
+
+    ol {
+
+        li::marker {
+            font-weight: 700;
+        }
+    }
+
+    ul {
+
+        li::marker {
+            font-weight: 700;
+            content: "\25A0";
+        }
+    }
+
+    .heading {
+        font-size: 1.25rem; // desktop: 20px
+        line-height: 1.5rem; // desktop: 24px
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+}
+
+@include themify($themes) {
+
+    .lp-mega-list {
+
+        ol {
+            li::marker {
+                color: themed('primaryColor');
+            }
+        }
+
+        ul {
+            li::marker {
+                color: themed('primaryColor');
+            }
+        }
+
+        .heading {
+
+            color: themed('primaryColor');
+        }
+    }
+}
