@@ -63,17 +63,15 @@
     // overrides .dropdown from 02-master.css
     // 
 
-    @media screen and (min-width: 992px) {
-        .dropdown {
-            opacity: 1;
-            perspective: unset;
-            perspective-origin: unset;
-            padding: 0 5px;
-            display: unset;
-            position: unset;
-            top: unset;
-            left: unset;
-            right: unset;
-        }
+    .dropdown {
+        opacity: 1;
+        perspective: unset;
+        perspective-origin: unset;
+        padding: 1.3px 7px 1.3px 4px;
+        display: unset;
+        position: unset;
+        top: unset;
+        left: unset;
+        right: unset;
     }
 }
