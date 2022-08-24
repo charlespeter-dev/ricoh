@@ -94,7 +94,7 @@
     <link rel="stylesheet" href="RicohTheme/styles/03-components/split-width-hero.css">
     <link rel="stylesheet" href="RicohTheme/styles/03-components/video.css">
     <link rel="stylesheet" href="RicohTheme/styles/04-print.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="RicohTheme/styles/bi-icon.css">
     <link rel="stylesheet" href="RicohTheme/styles/RAK-VNFont.css">
 
     <!-- end RICOH css -->
@@ -102,51 +102,52 @@
     <!-- begin 2X css -->
 
     <link rel="stylesheet" href="scss/bootstrap-container.scss">
-    <link rel="stylesheet" href="scss/lp-share.scss">
+    <link rel="stylesheet" href="scss/lp-split-cta-thumbnail.scss">
 
     <!-- end 2X css -->
 
-    <title>Share</title>
-
+    <title>Split CTA and Thumbnail Image</title>
 </head>
 
 <body>
-
 
     <div class="bootstrap-container theme-hw">
 
         <div class="container">
 
-            <!-- begin component: LP Share -->
+            <div class="row">
+                <div class="col-lg-8">
 
-            <section class="lp-share">
+                    <!-- begin component: Split CTA and Thumbnail Image -->
 
-                <div class="text">
-                    share
+                    <section class="lp-split-cta-thumbnail">
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h3 class="mb-4">Download the case study</h3>
+                                <p>If you’d like to read the full case study, download it here:</p>
+                                <div>
+                                    <a class="btn btn-primary" href="#">Read the full story</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="img-fluid"
+                                    src="images/case-study-1/Content-Thumbnail-VismaRaet-Reserving-and-Managing-Workplaces-Online.png"
+                                    alt="">
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <!-- end component: Split CTA and Thumbnail Image -->
+
                 </div>
-
-                <div class="dropdown">
-
-                    <div class="dropdown-toggle" role="button" data-bs-toggle="dropdown"><i class="bi-share"></i>
-                    </div>
-
-
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#"><i class="bi-facebook"></i> Share with
-                                Facebook</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="bi-twitter"></i> Share with
-                                Twitter</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="bi-linkedin"></i> Share with
-                                LinkedIn</a></li>
-                    </ul>
+                <div class="col-lg-4">
+                    RIGHT
                 </div>
+            </div>
 
-                <div class="icon copy-link" title="Copy link to clipboard" data-bs-toggle="tooltip"
-                    data-bs-placement="bottom"><i class="bi-link-45deg"></i></div>
 
-            </section>
-
-            <!-- end component: LP Share -->
 
         </div>
     </div>
@@ -158,12 +159,6 @@
     <script type="module" src="RicohTheme/scripts/05-2x.js"></script>
 
     <!-- end RICOH js -->
-
-    <!-- begin 2X js -->
-
-    <script type="module" src="js/share.js"></script>
-
-    <!-- begin 2X js -->
 
 </body>
 

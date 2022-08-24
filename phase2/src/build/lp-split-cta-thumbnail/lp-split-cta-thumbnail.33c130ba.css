@@ -1,0 +1,167 @@
+.link-list {
+  height: 48px;
+  position: relative;
+}
+
+.link-list--viewport-overflow:after {
+  width: 24px;
+  height: 48px;
+  content: "";
+  background: linear-gradient(to right, #0000 0%, #0000004d 100%);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.link-list__content {
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  background-color: #cf142b;
+  border-radius: 3px;
+  padding: 12px;
+  overflow-x: auto;
+}
+
+.link-list__title {
+  color: #fff;
+  font-size: 87.5%;
+  font-weight: bold;
+  line-height: 1.2;
+  display: inline-block;
+}
+
+.link-list__list {
+  white-space: nowrap;
+  margin-bottom: 0;
+  padding-right: 12px;
+  display: inline-block;
+}
+
+.link-list__item {
+  border-left: 1px solid #ffffff40;
+  margin-left: 12px;
+  padding-left: 12px;
+  display: inline-block;
+}
+
+.link-list__link {
+  color: #fff;
+  font-size: 87.5%;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.link-list__link:focus, .link-list__link:hover {
+  color: #fff;
+  outline: 0;
+  text-decoration: underline;
+}
+
+.link-list--metadata {
+  height: auto;
+  border-top: 1px solid #e8e8e8;
+  margin: 24px 0 60px;
+}
+
+.link-list--metadata .link-list__content {
+  white-space: normal;
+  background: 0;
+  margin: 0;
+  padding: 24px 0 12px;
+  overflow-x: visible;
+}
+
+.link-list--metadata .link-list__title {
+  color: #333;
+  padding-right: 24px;
+  font-size: 100%;
+}
+
+.link-list--metadata .link-list__list {
+  white-space: normal;
+}
+
+.link-list--metadata .link-list__item {
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 12px;
+  display: inline-block;
+}
+
+.link-list--metadata .link-list__item:after {
+  height: 12px;
+  content: "";
+  border-right: 1px solid #e8e8e8;
+  margin-left: 12px;
+  display: inline-block;
+}
+
+.link-list--metadata .link-list__item:last-child:after {
+  display: none;
+}
+
+.link-list--metadata .link-list__link {
+  color: #cf142b;
+  font-size: 100%;
+}
+
+.link-list--metadata .link-list__link:focus, .link-list--metadata .link-list__link:hover {
+  color: #333;
+}
+
+.link-list--metadata.link-list--viewport-overflow:after {
+  display: none;
+}
+
+.link-list--floating-on-secondary-header {
+  height: 0;
+  z-index: 1;
+  transition: top .3s ease-in-out;
+  position: relative;
+  top: 180px;
+}
+
+@media screen and (min-width: 768px) {
+  .link-list {
+    height: auto;
+    margin-right: 0;
+  }
+
+  .link-list__container {
+    height: auto;
+    position: static;
+    overflow-x: auto;
+  }
+
+  .link-list__content {
+    white-space: normal;
+    align-items: baseline;
+    padding-bottom: 6px;
+    display: flex;
+    position: static;
+  }
+
+  .link-list__title {
+    flex: none;
+  }
+
+  .link-list__item {
+    margin-bottom: 6px;
+  }
+
+  .link-list--floating-on-secondary-header {
+    height: 0;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .link-list--metadata {
+    margin: 0 0 84px;
+  }
+
+  .link-list--floating-on-secondary-header {
+    top: 240px;
+  }
+}
+
