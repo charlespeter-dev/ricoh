@@ -293,3 +293,16 @@
 @import "../../../node_modules/bootstrap/scss/variables";
 @import "../../../node_modules/bootstrap/scss/mixins";
 @import "../../../node_modules/bootstrap/scss/tooltip";
+
+
+body {
+
+    &.is-article {
+
+        background-color: #ffffff;
+
+        @media screen and (min-width: 992px) {
+            background-color: #F3F3F3;
+        }
+    }
+}
