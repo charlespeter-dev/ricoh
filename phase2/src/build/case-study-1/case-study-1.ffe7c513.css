@@ -137,9 +137,9 @@
 
 .lp-banner .left .callout .title {
   color: #333;
-  font-size: 2.75rem;
   font-weight: 700;
   line-height: 3rem;
+  font-size: 2.75rem !important;
 }
 
 .lp-banner .left .callout .meta {
