@@ -23,7 +23,7 @@
     // background-color: var(--bs-body-bg);
 
 
-    p {
+    p, ul {
         margin-bottom: 1.75rem;
         font-size: var(--bs-body-font-size);
         line-height: var(--bs-body-line-height);
@@ -187,6 +187,7 @@
 
             li {
                 display: table-row;
+                line-height: 1.75rem;
             }
 
             li::before {
@@ -221,6 +222,7 @@
         background-color: #ffffff;
         border-radius: 0 0 12px 12px;
         padding-top: 100px;
+        padding-bottom: 5rem;
 
         @media screen and (min-width: 992px) {
             padding-top: 50px;

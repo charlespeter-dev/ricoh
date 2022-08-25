@@ -99,3 +99,38 @@
         }
     }
 }
+
+.is-desktop {
+
+    .article {
+
+        .list-icon-mirror {
+
+            padding: unset;
+
+            .left,
+            .right {
+
+                @media screen and (min-width: 992px) {
+                    height: 500px;
+                }
+            }
+
+            .list-item-container {
+                align-items: flex-start;
+            }
+
+            .icon {
+                img {
+                    width: 80px;
+                }
+            }
+
+            .text {
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
