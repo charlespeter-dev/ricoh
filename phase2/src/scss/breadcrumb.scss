@@ -4,6 +4,18 @@
     z-index: 1;
     margin-block-start: 65px;
 
+    &::before {
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: calc((100vw - 100%) / -2);
+        width: 100vw;
+        background-color: #fff;
+    }
+
     &::after {
         content: '';
         display: block;

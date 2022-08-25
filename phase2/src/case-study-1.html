@@ -102,10 +102,15 @@
     <!-- begin 2X css -->
 
     <link rel="stylesheet" href="scss/bootstrap-container.scss">
+    <link rel="stylesheet" href="scss/primary-nav.scss">
+    <link rel="stylesheet" href="scss/breadcrumb.scss">
     <link rel="stylesheet" href="scss/lp-banner.scss">
     <link rel="stylesheet" href="scss/lp-share.scss">
     <link rel="stylesheet" href="scss/lp-lets-connect.scss">
     <link rel="stylesheet" href="scss/lp-split-cta-thumbnail.scss">
+    <link rel="stylesheet" href="scss/card-3-columns.scss">
+    <link rel="stylesheet" href="scss/lp-card-3-columns.scss">
+    <link rel="stylesheet" href="scss/footer.scss">
 
     <!-- end RICOH css -->
 
@@ -118,6 +123,171 @@
     <div class="bootstrap-container theme-hw">
         <div class="container">
 
+            <!-- begin component: Primary Navigation -->
+
+            <section class="primary-nav">
+
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+
+                        <a class="navbar-brand" href="#"><img src="images/logo.svg" alt=""></a>
+
+                        <div class="ms-auto icon-search-container">
+                            <a href="#"><img src="images/search.svg" alt="" width="25" height="25"></a>
+                        </div>
+
+                        <div class="navbar-toggler-container">
+                            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbar-content">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="navbar-content">
+                            <ul class="navbar-nav navbar-nav-scroll ms-auto mb-lg-0">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Single Link 1</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Single Link 2</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                        data-bs-auto-close="outside">Multilevel</a>
+                                    <ul class="dropdown-menu shadow">
+                                        <li><a class="dropdown-item" href="#">First Level 1</a></li>
+                                        <li><a class="dropdown-item" href="#">First Level 2</a></li>
+                                        <li class="dropend">
+                                            <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                                data-bs-auto-close="outside">First
+                                                Level 3</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href=""> Second Level 1</a></li>
+                                                <li><a class="dropdown-item" href=""> Second Level 2</a></li>
+                                                <li><a class="dropdown-item" href=""> Second Level 3</a></li>
+                                                <li class="dropend">
+                                                    <a href="#" class="dropdown-item dropdown-toggle"
+                                                        data-bs-toggle="dropdown">Second Level 4</a>
+                                                    <ul class="dropdown-menu dropdown-submenu shadow">
+                                                        <li><a class="dropdown-item" href=""> Third level 1</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item" href=""> Third level 2</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item" href=""> Third level 3</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item" href=""> Third level 4</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item" href=""> Third level 5</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">First Level 4</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item dropdown dropdown-mega position-static">
+                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                        data-bs-auto-close="outside">Mega Menu</a>
+                                    <div class="dropdown-menu mega-content">
+                                        <div class="px-4">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-12 col-sm-4 col-md-3 py-4">
+                                                        <h5>Title</h5>
+                                                        <div class="list-group">
+                                                            <a class="list-group-item" href="#">Mega Menu
+                                                                Link 1</a>
+                                                            <a class="list-group-item" href="#">Mega Menu
+                                                                Link 2</a>
+                                                            <a class="list-group-item" href="#">Mega Menu
+                                                                Link 3</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-sm-4 col-md-3 py-4">
+                                                        <h5>Card Title</h5>
+                                                        <div class="card">
+                                                            <img class="img-fluid"
+                                                                src="https://picsum.photos/id/987/297/297.webp" alt=""
+                                                                width="297" height="297">
+                                                            <div class="card-body">
+                                                                <p class="card-text">Description goes here...
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-sm-4 col-md-3 py-4">
+                                                        <h5>Title</h5>
+                                                        <p>Description goes here...</p>
+                                                    </div>
+                                                    <div class="col-12 col-sm-12 col-md-3 py-4">
+                                                        <h5>Title</h5>
+                                                        <div class="list-group">
+                                                            <a class="list-group-item" href="#">Menu Link</a>
+                                                            <a class="list-group-item" href="#">Menu Link</a>
+                                                            <a class="list-group-item" href="#">Menu Link</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item contact-us-btn">
+                                    <a class="nav-link nav-btn" href="#">Contact Us</a>
+                                </li>
+
+                            </ul>
+
+                            <div class="d-flex ms-auto nav-far-right-container">
+
+
+                                <nav class="nav-far-right">
+                                    <ul class="nav justify-content-center">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#"><img src="images/search.svg" alt="" width="25"
+                                                    height="25"></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#"><img src="images/person.svg" alt="" width="25"
+                                                    height="25"></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#"><img src="images/globe.svg" alt="" width="25"
+                                                    height="25"></a>
+                                        </li>
+                                        </li>
+                                    </ul>
+                                </nav>
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+            </section>
+
+            <!-- end component: Primary Navigation -->
+
+            <!-- begin component: Breadcrumb -->
+
+            <nav class="breadcrumb-container">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item">Solutions</li>
+                </ol>
+            </nav>
+
+            <!-- end component: Breadcrumb -->
+
 
             <!-- begin component: LP banner with CTA -->
 
@@ -129,7 +299,8 @@
 
                         <div class="callout">
                             <div class="category mb-3">Case Study</div>
-                            <div class="title mb-5"><span class="br-after">VISMA | RAET: Reserving and</span> Managing Workplaces Online</div>
+                            <div class="title mb-5"><span class="br-after">VISMA | RAET: Reserving and</span> Managing
+                                Workplaces Online</div>
                             <div class="meta mb-4">
                                 <a class="btn btn-primary" href="#">Read the full story</a>
                             </div>
@@ -379,6 +550,251 @@
                 </div>
 
             </div>
+
+
+            <!-- begin componenet: LP Card 3 Columns -->
+
+            <section class="card-3-columns lp-card-3-columns">
+
+                <div class="bg-grey">
+
+                    <div class="heading">
+                        <h2>Recommended resources for you</h2>
+                        <div class="view-more-story d-none d-md-block"><a href="#">VIEW MORE STORIES <i
+                                    class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bg-white">
+
+                    <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-5 cards">
+
+                        <!-- 1st row -->
+
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://picsum.photos/id/18/380/180.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <div class="card-category">Article</div>
+                                    <h3 class="card-title">7 Ways to Meet Staff Expectations in the
+                                        Hybrid
+                                        Workplace
+                                    </h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consetetur
+                                        sadipscing
+                                        elitr,
+                                        sed
+                                        diam nonumy</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#">READ MORE <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://picsum.photos/id/19/380/180.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <div class="card-category">Article</div>
+                                    <h3 class="card-title">Remote Work vs Working From Home: What’s the
+                                        Difference
+                                    </h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing
+                                        elitr,
+                                        sed
+                                        diam nonumy</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#">READ MORE <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="https://picsum.photos/id/20/380/180.webp" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <div class="card-category">Case Study</div>
+                                    <h3 class="card-title">Railtrain
+                                    </h3>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing
+                                        elitr,
+                                        sed
+                                        diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                                        erat,
+                                        sed
+                                        diam.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#">READ MORE <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- end component: LP Card 3 Columns -->
+
+
+            <!-- begin component: Footer -->
+
+            <footer>
+
+                <div class="footer-top">
+
+                    <div class="footer-top-content">
+
+                        <div class="row footer-logo">
+                            <div class="col">
+                                <img src="images/logo.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <p class="summary">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                                    diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                                    sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                                    sit.</p>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="row row-cols-1 row-cols-md-4">
+
+                                    <div class="col group-link">
+                                        <p><strong>Footer Heading 1</strong></p>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Footer Link 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Footer Link 2</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Footer Link 3</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col group-link">
+                                        <p><strong>Footer Heading 2</strong></p>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Footer Link 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Footer Link 2</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Footer Link 3</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col group-link">
+                                        <p><strong>Footer Heading 3</strong></p>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Footer Link 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Footer Link 2</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Footer Link 3</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col group-link">
+                                        <p><strong>Footer Heading 4</strong></p>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Footer Link 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Footer Link 2</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Footer Link 3</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="follow-us">
+                                    <h4>Follow Us</h4>
+
+                                    <ul class="list-group list-group-horizontal">
+                                        <li class="list-group-item"><a href="#"><i class="bi-linkedin"></i></a>
+                                        </li>
+                                        <li class="list-group-item"><a href="#"><i class="bi-twitter"></i></a>
+                                        </li>
+                                        <li class="list-group-item"><a href="#"><i class="bi-facebook"></i></a>
+                                        </li>
+                                        <li class="list-group-item"><a href="#"><i class="bi-youtube"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="footer-bottom-content">
+                        <div class="row">
+                            <div class="col">
+
+                                <div class="bottom-links">
+                                    <ul class="nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Privacy</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Terms & Conditions</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Cookie Policy</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Sitemap</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="copyr d-flex align-items-center">
+                                    © 2022 Ricoh Asia Pacific Pte Ltd. All Rights Reserved
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </footer>
+
+            <!-- end component: Footer -->
+
+
         </div>
 
 
@@ -390,6 +806,7 @@
 
         <!-- begin 2X js -->
 
+        <script type="module" src="js/primary-nav.js"></script>
         <script type="module" src="js/share.js"></script>
 
         <!-- end 2X js -->
