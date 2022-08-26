@@ -1,0 +1,27 @@
+.lp-split-cta-thumbnail {
+  background-color: #fff;
+}
+
+.lp-split-cta-thumbnail .btn {
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .lp-split-cta-thumbnail .btn {
+    width: unset;
+  }
+}
+
+.lp-split-cta-thumbnail img {
+  width: 350px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 992px) {
+  .lp-split-cta-thumbnail img {
+    margin-top: unset;
+    margin-bottom: unset;
+  }
+}
+

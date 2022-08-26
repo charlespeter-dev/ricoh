@@ -1,0 +1,206 @@
+.is-mobile .secondary-nav-desktop {
+  display: none;
+}
+
+.is-mobile .secondary-nav-mobile {
+  z-index: 2;
+  background-color: #fff;
+  margin-top: 50px;
+  display: block;
+}
+
+.is-mobile .secondary-nav-mobile:before {
+  content: "";
+  height: 100%;
+  width: 100vw;
+  z-index: -2;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 50vw - .55rem);
+}
+
+.is-mobile .secondary-nav-mobile:after {
+  content: "";
+  height: 1px;
+  width: 100vw;
+  z-index: 10000;
+  background-color: #c9c9c9;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 50vw);
+}
+
+@media screen and (min-width: 992px) {
+  .is-mobile .secondary-nav-mobile:after {
+    left: calc(50% - 50vw - .55rem);
+  }
+}
+
+.is-mobile .secondary-nav-mobile.form-select-lg {
+  padding-left: var(--bs-gutter-x, .75rem);
+  padding-right: var(--bs-gutter-x, .75rem);
+}
+
+.is-mobile .secondary-nav-mobile.sticky-secondary-nav-mobile {
+  z-index: 100000;
+  top: 53px;
+}
+
+.is-mobile .secondary-nav-mobile .form-select {
+  color: #cf142b;
+  border: none;
+  border-radius: 0;
+  padding: .375rem 2.25rem .375rem 0;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.is-desktop .secondary-nav-desktop {
+  z-index: 2;
+  background-color: #fff;
+  display: block;
+}
+
+.is-desktop .secondary-nav-desktop:before {
+  content: "";
+  height: 100%;
+  width: 100vw;
+  z-index: -2;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 50vw - .55rem);
+}
+
+.is-desktop .secondary-nav-desktop:after {
+  content: "";
+  height: 1px;
+  width: 100vw;
+  z-index: 1000;
+  background-color: #c9c9c9;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 50vw - .55rem);
+}
+
+.is-desktop .secondary-nav-desktop .nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.is-desktop .secondary-nav-desktop .nav-link {
+  color: #cf142b;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.is-desktop .secondary-nav-desktop .nav-item {
+  border-right: .5px solid #c9c9c9;
+}
+
+.is-desktop .secondary-nav-desktop .nav-item:nth-last-of-type(1) {
+  border-right: none;
+}
+
+@media screen and (min-width: 992px) {
+  .is-desktop .secondary-nav-desktop.sticky-secondary-nav-desktop {
+    top: 40px;
+  }
+}
+
+.is-desktop .secondary-nav-mobile {
+  display: none;
+}
+
+.sticky-top .nav {
+  background-color: #fff;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+}
+
+.sticky-top .nav .nav-link {
+  color: #0d6efd;
+  padding: .5rem 1rem;
+  text-decoration: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sticky-top .nav .nav-link {
+    transition: none;
+  }
+}
+
+.sticky-top .nav .nav-link:hover, .sticky-top .nav .nav-link:focus {
+  color: #0a58ca;
+}
+
+.sticky-top .nav .nav-link.disabled {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: default;
+}
+
+.sticky-top .form-select {
+  width: 100%;
+  -moz-padding-start: calc(.75rem - 3px);
+  color: #212529;
+  appearance: none;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-position: right .75rem center;
+  background-repeat: no-repeat;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  padding: .375rem 2.25rem .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sticky-top .form-select {
+    transition: none;
+  }
+}
+
+.sticky-top .form-select:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem #0d6efd40;
+}
+
+.sticky-top .form-select[multiple], .sticky-top .form-select[size]:not([size="1"]) {
+  background-image: none;
+  padding-right: .75rem;
+}
+
+.sticky-top .form-select:disabled {
+  background-color: #e9ecef;
+}
+
+.sticky-top .form-select:-moz-focusring {
+  color: #0000;
+  text-shadow: 0 0 #212529;
+}
+
+.sticky-top.form-select-lg {
+  border-radius: .3rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  font-size: 1.25rem;
+}
+
