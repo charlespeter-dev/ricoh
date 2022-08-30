@@ -1,0 +1,125 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" />
+      <mj-wrapper background-color="#eeeeee" />
+      <mj-section background-color="#ffffff" />
+      <mj-text font-size="16px" line-height="22px" color="#333333" />
+      <mj-table font-size="16px" line-height="22px" color="#333333" />
+      <mj-button font-size="18px" line-height="21px" font-weight="700" color="#FFFFFF" background-color="#768EC7" width="100%" border-radius="0" />
+      <mj-divider border-color="#768EC7" border-width="5px" border-style="solid" padding="0" />
+      <mj-class name="h3" font-size="24px" line-height="31px" color="#768EC7" font-weight="700" />
+      <mj-class name="h1" font-size="24px" line-height="31px" font-weight="700" color="#343741" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-wrapper full-width="full-width">
+
+      <!-- header -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="left" />
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- intro & thumbnail -->
+
+      <mj-section background-color="#F3F3F3">
+        <mj-column>
+          <mj-text mj-class="h3">
+            eBook
+          </mj-text>
+          <mj-text mj-class="h1">
+            Effective Customer Retention Strategies to Increase Revenue
+          </mj-text>
+          <mj-button href="https://www.ricoh.com/">
+            Download Now
+          </mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/Thumbnail_Remote-work-vs-Working-from-home.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <!-- content -->
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text>
+            Hi {{lead.First Name:default=there}},
+          </mj-text>
+          <mj-text>
+            It’s no secret that customer acquisition costs are on the rise while brand loyalty—inversely—is at an all-time low. Faced with these odds, how do you continue to thrive? What can you do to stand out among stiff competition and nurture long-lasting relationships without breaking the bank?
+          </mj-text>
+          <mj-text>
+            <strong><a href="https://televerde.com/" style="text-decoration: none; color: #768EC7;">Read this eBook</a></strong>, to learn about:
+          </mj-text>
+          <mj-text padding-top="0">
+            <ul>
+              <li>Why you should pivot from customer service to customer care.</li>
+              <li>4 best customer care strategies you can implement for the greatest impact.</li>
+              <li>How you can accelerate your efforts and see desired results faster at a lower cost with an outsourced partner. </li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- button -->
+
+      <mj-section padding-top="0">
+        <mj-column>
+          <mj-button href="https://televerde.com/" width="250px">
+            Download Now
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer top -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-top" padding-top="25px">
+            © 2022 Ricoh. All rights reserved.
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="right" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer bottom -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-bottom" align="center">
+            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: none;"></span style="color: #333; text-decoration: none;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: none;"><span style="color: #333; text-decoration: none;">Manage Preferences</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
