@@ -51,7 +51,7 @@
             Create a fully functional <br> hybrid workplace
           </mj-text>
           <mj-button href="https://www.ricoh.com/">
-            Download Now
+            Download the eBook
           </mj-button>
         </mj-column>
         <mj-column>
@@ -85,18 +85,26 @@
         <mj-column>
           <mj-table cellpadding="5px" cellspacing="5px">
             <tr>
-              <td style="line-height: 1;">✅</td>
+              <td style="line-height: 1;"><img style="width: 50px; height: auto;" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
               <td style="padding-left: 20px;">Key trends, challenges, and business demands shaping the future of work</td>
             </tr>
             <tr>
-              <td style="line-height: 1;">✅</td>
+              <td style="line-height: 1;"><img style="width: 50px; height: auto;" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
               <td style="padding-left: 20px;">Fundamental principles, imperatives, and technology pillars for creating a hybrid workplace and workforce</td>
             </tr>
             <tr>
-              <td style="line-height: 1;">✅</td>
+              <td style="line-height: 1;"><img style="width: 50px; height: auto;" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
               <td style="padding-left: 20px;">How the right digital partner can help you transform collaboration and build an agile workplace model</td>
             </tr>
           </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text align="center">
+            <strong>Learn how we can help you create a hybrid workplace that meets the needs of your employees and your business.</strong>
+          </mj-text>
         </mj-column>
       </mj-section>
 
@@ -104,8 +112,8 @@
 
       <mj-section padding-top="0">
         <mj-column>
-          <mj-button href="https://televerde.com/" width="250px">
-            Download Now
+          <mj-button href="https://www.ricoh.com/" width="250px">
+            Download the eBook
           </mj-button>
         </mj-column>
       </mj-section>
@@ -136,7 +144,7 @@
       <mj-section padding="0">
         <mj-column>
           <mj-text mj-class="footer-bottom" align="center">
-            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: none;"></span style="color: #333; text-decoration: none;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: none;"><span style="color: #333; text-decoration: none;">Manage Preferences</span></a>
+            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"></span style="color: #333; text-decoration: underline;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"><span style="color: #333; text-decoration: underline;">Manage Preferences</span></a>
           </mj-text>
         </mj-column>
       </mj-section>
