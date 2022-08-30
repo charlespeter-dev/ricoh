@@ -55,7 +55,7 @@
           </mj-button>
         </mj-column>
         <mj-column>
-          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/edm-hw/Header_Banner_Thumbnail_Image.png" alt="" />
+          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/edm-wm/WM-eDM-Header-Banner-Thumbnail-Image.png" alt="" />
         </mj-column>
       </mj-section>
 
@@ -67,16 +67,16 @@
             Hi {{lead.First Name:default=there}},
           </mj-text>
           <mj-text>
-            The way we work is changing, and more organisations are increasingly adopting hybrid models that allow employees to work from anywhere. This shift raises new challenges in how to keep people connected and engaged, how to retain your culture, and how to ensure continuity during times of accelerated change. You need solutions that enable your hybrid workforce to connect and collaborate seamlessly, no matter where they are.
+            Are you facing increasing demand for flexible working arrangements? Is finding available meeting rooms or desk space a challenge for your teams? You are not alone. With new ways of working and enabling technologies the future of work is hybrid. The challenge is to adapt smarter work practices in the office for greater collaboration.
           </mj-text>
           <mj-text>
-            The right hybrid workplace solution not only delivers your employees’ needs—flexibility, agility, and mobility—it also ensures business continuity through security, compliance, and standardised procedures.
+            And one airline at least managed to soar gracefully into the post-COVID skies. Read how easyJet leveraged RICOH Spaces to support flexible hybrid working—enabling a safe return to work, facilitating greater employee collaboration, and more cost-effective use of space.
           </mj-text>
           <mj-text>
-            At Ricoh, we understand the complexity in deploying hybrid working solutions to meet the requirements of your new digital reality. We provide a holistic approach to designing, integrating, and supporting a seamless digital workplace environment. Our extensive portfolio of communication and collaboration tools, and an integrated workspace management platform, will support you as you grow and scale.
+            RICOH Spaces is your platform to design and manage a workplace that keeps up with how your teams meet up, socialise, and collaborate.
           </mj-text>
           <mj-text>
-            Discover your path to creating a fully functional hybrid workplace in this ebook with insights on:
+            It is all about:
           </mj-text>
         </mj-column>
       </mj-section>
@@ -86,35 +86,90 @@
           <mj-table cellpadding="10px" cellspacing="5px">
             <tr>
               <td style="line-height: 1;"><img style="width: 30px; height: 30px;" width="30" height="30" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 20px; padding-bottom: 10px;">Key trends, challenges, and business demands shaping the future of work</td>
+              <td style="padding-left: 20px; padding-bottom: 10px;">Providing a seamless employee and customer experience</td>
             </tr>
             <tr>
               <td style="line-height: 1;"><img style="width: 30px; height: 30px;" width="30" height="30" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 20px; padding-bottom: 10px;">Fundamental principles, imperatives, and technology pillars for creating a hybrid workplace and workforce</td>
+              <td style="padding-left: 20px; padding-bottom: 10px;">Bringing workplace analytics and management under one roof</td>
             </tr>
             <tr>
               <td style="line-height: 1;"><img style="width: 30px; height: 30px;" width="30" height="30" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 20px; padding-bottom: 10px;">How the right digital partner can help you transform collaboration and build an agile workplace model</td>
+              <td style="padding-left: 20px; padding-bottom: 10px;">Combining the best of on-site and remote working</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;"><img style="width: 30px; height: 30px;" width="30" height="30" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 20px; padding-bottom: 10px;">Maximising return on investment, ensuring data security, and minimising risks</td>
             </tr>
           </mj-table>
         </mj-column>
       </mj-section>
 
       <mj-section>
-        <mj-column>
+        <mj-column width="90%" background-color="#f3f3f3" padding="20px">
           <mj-text align="center">
-            <strong>Learn how we can help you create a hybrid workplace that meets the needs of your employees and your business.</strong>
+            <strong>RICOH Spaces unlocks the insights and capabilities required to improve ineffective ways of working—improving collaboration, saving costs, and preparing your business for how tomorrow will work</strong>
+          </mj-text>
+
+          <mj-button href="https://www.ricoh.com/" width="340px">
+            Download the case study now
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text>
+            Click here to find out more. <a href="https://www.ricoh.com/" style="color: #768EC7; text-decoration: none;"><strong style="color: #768EC7; text-decoration: none;">RICOH Spaces Website</strong></a>
           </mj-text>
         </mj-column>
       </mj-section>
 
-      <!-- button -->
+      <!-- divider -->
+
+      <mj-section padding-top="0" padding-left="20px" padding-right="20px">
+        <mj-column>
+          <mj-divider border-color="#c9c9c9" container-background-color="#c9c9c9" border-width="1px" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0" padding-bottom="0">
+        <mj-column>
+          <mj-text>
+            <a href="https://www.ricoh.com/" style="color: #768EC7; text-decoration: none;"><strong style="color: #768EC7; text-decoration: none; font-size: 21px; line-height: 21px;">Contact our experts now</strong></a>
+            <br> and start your journey with RICOH Spaces today.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0" padding-bottom="0">
+        <mj-column>
+          <mj-text>
+            Thank you
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0" padding-bottom="0">
+        <mj-column>
+          <mj-text>
+            Regards,
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0" padding-bottom="0">
+        <mj-column>
+          <mj-text>
+            [Opco Marketing Persona Name] <br> [Marketing Persona Job Title] <br> [Opco]
+          </mj-text>
+        </mj-column>
+      </mj-section>
 
       <mj-section padding-top="0">
         <mj-column>
-          <mj-button href="https://www.ricoh.com/" width="250px">
-            Download Now
-          </mj-button>
+          <mj-text>
+            [Marketing Persona Email address]
+          </mj-text>
         </mj-column>
       </mj-section>
 
