@@ -1,0 +1,155 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" />
+      <mj-wrapper background-color="#eeeeee" />
+      <mj-section background-color="#ffffff" />
+      <mj-text font-size="16px" line-height="22px" color="#333333" />
+      <mj-table font-size="16px" line-height="22px" color="#333333" />
+      <mj-button font-size="18px" line-height="21px" font-weight="700" color="#FFFFFF" background-color="#768EC7" width="100%" border-radius="0" />
+      <mj-divider border-color="#768EC7" container-background-color="#768EC7" border-width="3px" border-style="solid" padding="0" />
+      <mj-class name="subheading" font-size="18px" line-height="23px" color="#666666" />
+      <mj-class name="h1" font-size="26px" line-height="31px" font-weight="700" color="#343741" />
+      <mj-class name="h3" font-size="16px" line-height="21px" color="#768EC7" font-weight="700" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-wrapper full-width="full-width">
+
+      <!-- header -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/edm-hw/logo.png" alt="" width="130px" height="47.89px" align="left" />
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- intro & thumbnail -->
+
+      <mj-section background-color="#F3F3F3" padding-bottom="0">
+        <mj-column>
+          <mj-text mj-class="h3">
+            Case Study
+          </mj-text>
+          <mj-text mj-class="h1" padding-top="0">
+            easyJet’s Hybrid <br> Working Takes off <br> with RICOH Spaces
+          </mj-text>
+          <mj-text mj-class="subheading" padding-top="0" padding-bottom="0">
+            Your Runway to The <br> Future of Work
+          </mj-text>
+          <mj-button href="https://www.ricoh.com/">
+            Download Now
+          </mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/edm-hw/Header_Banner_Thumbnail_Image.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <!-- content -->
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text>
+            Hi {{lead.First Name:default=there}},
+          </mj-text>
+          <mj-text>
+            The way we work is changing, and more organisations are increasingly adopting hybrid models that allow employees to work from anywhere. This shift raises new challenges in how to keep people connected and engaged, how to retain your culture, and how to ensure continuity during times of accelerated change. You need solutions that enable your hybrid workforce to connect and collaborate seamlessly, no matter where they are.
+          </mj-text>
+          <mj-text>
+            The right hybrid workplace solution not only delivers your employees’ needs—flexibility, agility, and mobility—it also ensures business continuity through security, compliance, and standardised procedures.
+          </mj-text>
+          <mj-text>
+            At Ricoh, we understand the complexity in deploying hybrid working solutions to meet the requirements of your new digital reality. We provide a holistic approach to designing, integrating, and supporting a seamless digital workplace environment. Our extensive portfolio of communication and collaboration tools, and an integrated workspace management platform, will support you as you grow and scale.
+          </mj-text>
+          <mj-text>
+            Discover your path to creating a fully functional hybrid workplace in this ebook with insights on:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-table cellpadding="10px" cellspacing="5px">
+            <tr>
+              <td style="line-height: 1;"><img style="width: 30px; height: 30px;" width="30" height="30" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 20px; padding-bottom: 10px;">Key trends, challenges, and business demands shaping the future of work</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;"><img style="width: 30px; height: 30px;" width="30" height="30" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 20px; padding-bottom: 10px;">Fundamental principles, imperatives, and technology pillars for creating a hybrid workplace and workforce</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;"><img style="width: 30px; height: 30px;" width="30" height="30" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 20px; padding-bottom: 10px;">How the right digital partner can help you transform collaboration and build an agile workplace model</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text align="center">
+            <strong>Learn how we can help you create a hybrid workplace that meets the needs of your employees and your business.</strong>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- button -->
+
+      <mj-section padding-top="0">
+        <mj-column>
+          <mj-button href="https://www.ricoh.com/" width="250px">
+            Download Now
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer top -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-top" padding-top="25px">
+            © 2022 Ricoh. All rights reserved.
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/edm-hw/logo.png" alt="" width="130px" height="47.89px" align="right" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer bottom -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-bottom" align="center">
+            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"></span style="color: #333; text-decoration: underline;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"><span style="color: #333; text-decoration: underline;">Manage Preferences</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
