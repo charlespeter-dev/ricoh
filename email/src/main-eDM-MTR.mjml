@@ -1,0 +1,161 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" />
+      <mj-wrapper background-color="#eeeeee" />
+      <mj-section background-color="#ffffff" />
+      <mj-text font-size="16px" line-height="22px" color="#666666" />
+      <mj-table font-size="16px" line-height="22px" color="#666666" />
+      <mj-button font-size="18px" line-height="21px" font-weight="700" color="#FFFFFF" background-color="#768EC7" width="100%" border-radius="0" />
+      <mj-divider border-color="#768EC7" container-background-color="#768EC7" border-width="3px" border-style="solid" padding="0" />
+      <mj-class name="subheading" font-size="18px" line-height="23px" color="#666666" />
+      <mj-class name="h1" font-size="26px" line-height="31px" font-weight="700" color="#333333" />
+      <mj-class name="h3" font-size="16px" line-height="21px" color="#768EC7" font-weight="700" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-wrapper full-width="full-width">
+
+      <!-- header -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/edm-hw/logo.png" alt="" width="130px" height="47.89px" align="left" />
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- intro & thumbnail -->
+
+      <mj-section background-color="#F3F3F3" padding-bottom="0">
+        <mj-column>
+
+          <mj-text mj-class="h1">
+            Microsoft <br>Teams Rooms
+          </mj-text>
+          <mj-text mj-class="subheading" padding-top="0">
+            Connecting people across the hybrid workplace
+          </mj-text>
+          <mj-button href="https://www.ricoh.com/">
+            Book a free workshop
+          </mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/edm-mtr/MTR_eDM_Header_Banner_Thumbnail_Image.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <!-- content -->
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text>
+            Hi {{lead.First Name:default=there}},
+          </mj-text>
+          <mj-text>
+            <strong style="color: #768EC7;">“Flexible work is here to stay: over 80% of managers say they expect more flexible work from home policies, and more than 70% of employees say they expect to take advantage of them”</strong>
+            <p style="font-size: 14px; line-height: 20px;">&mdash; Microsoft’s 2021 Work Trend Index</p>
+          </mj-text>
+          <mj-text>
+            As more organisations pivot towards a hybrid approach to work, they need solutions that enable seamless collaboration between employees, no matter where they are. But with many rooms systems designed primarily for people in the room, it can leave remote users feeling left out.
+          </mj-text>
+          <mj-text>
+            So how do you ensure that all attendees—both in offices and remote—can fully participate in meetings?
+          </mj-text>
+          <mj-text>
+            Ricoh’s Microsoft Teams Rooms offer the perfect solution—a simple, effective way to deliver inclusive meeting experiences with all participants in mind. With a rich ecosystem of connected meeting devices powered by an intuitive app built for Microsoft Teams, Teams Rooms turn any meeting room into an easy-to-use and inclusive collaboration space where everyone has a seat at the table, regardless of where they are. It:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-table cellpadding="10px" cellspacing="5px">
+            <tr>
+              <td style="line-height: 1;"><img style="width: 30px; height: 30px;" width="30" height="30" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 20px; padding-bottom: 10px;">Is easy to use for a consistent user experience</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;"><img style="width: 30px; height: 30px;" width="30" height="30" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 20px; padding-bottom: 10px;">Enables employees to work like they’re in one space</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;"><img style="width: 30px; height: 30px;" width="30" height="30" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 20px; padding-bottom: 10px;">Transforms your meeting rooms into an inclusive collaboration space</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;"><img style="width: 30px; height: 30px;" width="30" height="30" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 20px; padding-bottom: 10px;">Is simple to deploy on scale and easy to manage</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-left="30px" padding-right="30px">
+        <mj-column>
+          <mj-text align="center">
+            <strong>Reach out to Ricoh’s Hybrid Workplace Team for your <strong style="color: #768EC7;">complimentary</strong> assessment and workshop, to evaluate your current meeting room environment.</strong>
+          </mj-text>
+          <mj-text align="center">
+            We will provide recommendations to enable seamless collaboration between team members on-site and those working remotely, or from home, with Microsoft Teams Rooms.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- button -->
+
+      <mj-section padding-top="0">
+        <mj-column>
+          <mj-button href="https://www.ricoh.com/" width="350px">
+            Book your workshop session now
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer top -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-top" padding-top="25px">
+            © 2022 Ricoh. All rights reserved.
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/edm-hw/logo.png" alt="" width="130px" height="47.89px" align="right" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer bottom -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-bottom" align="center">
+            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"></span style="color: #333; text-decoration: underline;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"><span style="color: #333; text-decoration: underline;">Manage Preferences</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
