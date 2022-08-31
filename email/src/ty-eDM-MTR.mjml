@@ -1,0 +1,147 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" />
+      <mj-wrapper background-color="#eeeeee" />
+      <mj-section background-color="#ffffff" />
+      <mj-text font-size="16px" line-height="22px" color="#333333" />
+      <mj-table font-size="16px" line-height="22px" color="#333333" />
+      <mj-button font-size="18px" line-height="21px" font-weight="700" color="#FFFFFF" background-color="#768EC7" width="100%" border-radius="0" />
+      <mj-divider border-color="#768EC7" container-background-color="#768EC7" border-width="3px" border-style="solid" padding="0" />
+      <mj-class name="subheading" font-size="18px" line-height="23px" color="#666666" />
+      <mj-class name="h1" font-size="26px" line-height="31px" font-weight="700" color="#333333" />
+      <mj-class name="h2" font-size="21px" line-height="27px" font-weight="700" color="#333333" />
+      <mj-class name="h3" font-size="16px" line-height="21px" color="#768EC7" font-weight="700" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-wrapper full-width="full-width">
+
+      <!-- header -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/edm-hw/logo.png" alt="" width="130px" height="47.89px" align="left" />
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- intro & thumbnail -->
+
+      <mj-section background-color="#F3F3F3" padding-bottom="0">
+        <mj-column>
+          <mj-text mj-class="h1" padding-bottom="0">
+            Thank you for your interest!
+          </mj-text>
+          <mj-text padding-top="0" padding-bottom="0">
+            <p>To learn more about Ricoh’s Microsoft Teams Room solution, click this link below:</p>
+          </mj-text>
+          <mj-button href="https://www.ricoh.com/">
+            Read more
+          </mj-button>
+        </mj-column>
+        <mj-column>
+          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/edm-mtr/MTR_eDM_Header_Banner_Thumbnail_Image.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text align="center">
+            Need more information? Please <a href="https://www.ricoh.com/" style="text-decoration: none; color: #768EC7;"><strong style="text-decoration: none; color: #768EC7;">contact us</strong></a>.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding-top="0" padding-bottom="0" padding-left="20px" padding-right="20px">
+        <mj-column>
+          <mj-divider border-color="#c9c9c9" container-background-color="#c9c9c9" border-width="1px" />
+        </mj-column>
+      </mj-section>
+
+      <!-- content -->
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text mj-class="h2">
+            Here are some other resources you might find interesting...
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-image fluid-on-mobile="true" src="https://ricoh-email.2xcode.dev/images/edm-mtr/Resources-Thumbnails-7-Ways-to-Meet-Staff-Expectations-in-the-Hybrid-Workplace.png" alt="" padding-bottom="0" border-radius="10px 10px 0px 0px" />
+          <mj-text padding-top="0" padding-bottom="0">
+            <p><strong>7 Ways to Meet Staff Expectations in the Hybrid Workplace</strong></p>
+          </mj-text>
+          <mj-text padding-top="0" padding-bottom="0">
+            <p>With pandemic-driven changes in work models, the growing preference for remote work or a hybrid workplace is gaining traction among employees…</p>
+          </mj-text>
+          <mj-text padding-top="0">
+            <a href="https://www.ricoh.com/" style="text-decoration: none; color: #768EC7;"><strong style="text-decoration: none; color: #768EC7;">Read more</strong></a>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image fluid-on-mobile="true" src="https://ricoh-email.2xcode.dev/images/edm-mtr/Resources-Thumbnails-How-to-Make-the-Hybrid-Model-Work-for-Your-Business.png" alt="" padding-bottom="0" border-radius="10px 10px 0px 0px" />
+          <mj-text padding-top="0" padding-bottom="0">
+            <p><strong>How to Make the Hybrid Model Work for Your Business</strong></p>
+          </mj-text>
+          <mj-text padding-top="0" padding-bottom="0">
+            <p>When the pandemic took the world by storm, what began as a flexible work arrangement to accommodate business needs in times of crisis…</p>
+          </mj-text>
+          <mj-text padding-top="0">
+            <a href="https://www.ricoh.com/" style="text-decoration: none; color: #768EC7;"><strong style="text-decoration: none; color: #768EC7;">Read more</strong></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer top -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-top" padding-top="25px">
+            © 2022 Ricoh. All rights reserved.
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/edm-hw/logo.png" alt="" width="130px" height="47.89px" align="right" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer bottom -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-bottom" align="center">
+            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"></span style="color: #333; text-decoration: underline;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"><span style="color: #333; text-decoration: underline;">Manage Preferences</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
