@@ -1,0 +1,172 @@
+<mjml>
+
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" />
+      <mj-wrapper background-color="#eeeeee" />
+      <mj-section background-color="#ffffff" />
+      <mj-text font-size="14px" line-height="20px" color="#333333" />
+      <mj-table font-size="14px" line-height="20px" color="#333333" />
+      <mj-button font-size="18px" line-height="21px" font-weight="700" color="#FFFFFF" background-color="#768EC7" width="100%" border-radius="0" />
+      <mj-divider border-color="#768EC7" container-background-color="#768EC7" border-width="3px" border-style="solid" padding="0" />
+      <mj-class name="quote" font-size="18px" line-height="23px" font-weight="700" color="#768EC7" />
+      <mj-class name="h1" font-size="26px" line-height="31px" font-weight="700" color="#343741" />
+      <mj-class name="h3" font-size="16px" line-height="22px" color="#768EC7" font-weight="700" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-wrapper full-width="full-width">
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text>
+            Hi {{lead.First Name:default=there}},
+          </mj-text>
+          <mj-text mj-class="quote">
+            “Flexible work is here to stay: over 80% of managers say they expect more flexible work from home policies, and more than 70% of employees say they expect to take advantage of them”
+          </mj-text>
+          <mj-text padding-top="0">
+            &mdash; Microsoft’s 2021 Work Trend Index
+          </mj-text>
+          <mj-text>
+            In today’s business world, the hybrid workplace model is becoming a global trend embraced by leading organisations. This means that employees often work from multiple locations, including in the office and remotely. When work can be anywhere, an open flow of information is crucial. You need to be able to enhance collaboration and engage employee focus with technology that works seamlessly in the background.
+          </mj-text>
+          <mj-text>
+            At Ricoh, we help you design and deliver a productive hybrid workplace to keep your people and business connected. Ricoh’s collaborative technologies deliver excellent user experience and secure collaboration anywhere, anytime, on any platform.
+          </mj-text>
+          <mj-text>
+            Our extensive solutions portfolio and knowledgeable team of workplace experts are ready to help your people connect reliably and effectively and ensure they have everything they need to work.
+          </mj-text>
+          <mj-text>
+            If your business is looking for a hybrid workplace solution that can help to improve collaboration and productivity, the RICOH Microsoft Teams Rooms solution is a great option to consider.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text mj-class="h3">
+            Why RICOH Microsoft Teams Rooms?
+          </mj-text>
+          <mj-text>
+            Microsoft Teams Rooms provides seamless collaboration between team members on-site and those working remotely or from home. It:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-table cellpadding="10px" cellspacing="5px">
+            <tr>
+              <td style="line-height: 1;"><img style="width: 30px; height: 30px;" width="30" height="30" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 20px; padding-bottom: 10px;">Is easy to use for a consistent user experience</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;"><img style="width: 30px; height: 30px;" width="30" height="30" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 20px; padding-bottom: 10px;">Enables employees to work like they’re in one space</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;"><img style="width: 30px; height: 30px;" width="30" height="30" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 20px; padding-bottom: 10px;">Transforms your meeting rooms into an inclusive collaboration space</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;"><img style="width: 30px; height: 30px;" width="30" height="30" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 20px; padding-bottom: 10px;">Is simple to deploy on scale and easy to manage</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-image align="left" width="350px" height="200px" src="https://ricoh-email.2xcode.dev/images/wm-sales-outreach-tpl-1/Thumbnail_1.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="h3">
+            How can Ricoh help?
+          </mj-text>
+          <mj-text>
+            As your Microsoft Teams Rooms partner when deploying and managing meeting rooms solutions, Ricoh offers:
+          </mj-text>
+          <mj-text padding-top="0" padding-bottom="0">
+            <ul>
+              <li>A Microsoft Teams Rooms (MTR) assessment and workshop</li>
+              <li>The right Microsoft Teams Rooms solution to meet your needs</li>
+              <li>Al-driven Managed Services</li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-image align="left" width="350px" height="200px" src="https://ricoh-email.2xcode.dev/images/wm-sales-outreach-tpl-1/Thumbnail_2.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="h3">
+            Ricoh Managed Services for Microsoft Teams Rooms
+          </mj-text>
+          <mj-text>
+            With Ricoh Managed Services for Microsoft Teams Rooms, you can:
+          </mj-text>
+          <mj-text padding-top="0" padding-bottom="0">
+            <ul>
+              <li>Benefit from our operational expertise</li>
+              <li>Free up IT resources</li>
+              <li>Realise a quick return on investment</li>
+              <li>Rely on our proven expertise</li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="h3">
+            Why Ricoh?
+          </mj-text>
+          <mj-text>
+            Our solutions make it easy for your hybrid workforce to work together, using technology that works seamlessly behind the scenes, while inspiring innovation, productivity, and growth.
+          </mj-text>
+          <mj-text>
+            <strong style="color: #768EC7;">Ricoh is your partner when deploying and managing Microsoft Teams Rooms solutions, and offers:</strong>
+          </mj-text>
+          <mj-text padding-top="0" padding-bottom="0">
+            <ul>
+              <li>A <strong>consultative approach to</strong> addressing customers’ pain points and challenges</li>
+              <li><strong>Extensive experience</strong> in the design and deployment of Microsoft Teams Rooms, Audio Visual, and IT services</li>
+              <li><strong>Experienced and certified in-house Audio Visual and IT people.</strong></li>
+              <li><strong>Project delivery and management</strong> with our dedicated delivery team</li>
+              <li>Asia Pacific deployment and support with wider reach through Ricoh Global Services</li>
+              <li>The best of both worlds as a vendor and integrator, with us as your trusted technology partner</li>
+              <li><strong>Extensive managed service experience</strong> in both Audio Visual and IT services</li>
+              <li><strong>Easy-to-buy</strong> standardised solutions, with easy finance options, and proven expertise.</li>
+            </ul>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text>
+            Reach out to our Ricoh’s Hybrid Workplace Team for your <strong>complimentary</strong> assessment and workshop, to evaluate your current meeting room environment. We will provide recommendations to enable seamless collaboration between team members on-site and those working remotely, or from home, with Microsoft Teams Rooms.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+
+  </mj-body>
+</mjml>
