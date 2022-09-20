@@ -32,10 +32,11 @@
     @media screen and (min-width: 992px) {
         padding-top: 30px;
         padding-bottom: 80px;
+        margin-top: 150px;
     }
 
     &::before {
-        content: '';
+        content: "";
         display: block;
         height: 100%;
         position: absolute;

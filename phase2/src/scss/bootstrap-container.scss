@@ -23,7 +23,8 @@
     // background-color: var(--bs-body-bg);
 
 
-    p, ul {
+    p,
+    ul {
         margin-bottom: 1.75rem;
         font-size: var(--bs-body-font-size);
         line-height: var(--bs-body-line-height);
@@ -149,6 +150,12 @@
             width: 100vw;
             z-index: -1;
             background-color: #F3F3F3;
+        }
+
+        &::after {
+            content: "\a";
+            display: block;
+            white-space: pre;
         }
 
         .callout-percentage-1-column .percentage-container .percent-container .percent {
@@ -300,6 +307,10 @@
                 color: themed('primaryColor') !important;
             }
         }
+    }
+
+    .rounded-7 {
+        border-radius: .75rem !important;
     }
 }
 

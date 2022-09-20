@@ -1,0 +1,85 @@
+@import "functions";
+@import "mixins";
+@import "themes";
+
+@include themify($themes) {
+
+    .card-why-ricoh {
+
+        .group {
+
+            .card-top-buffer {
+
+                .card {
+
+                    border-bottom: 5px solid themed(primaryColor);
+                }
+            }
+        }
+    }
+}
+
+.card-why-ricoh {
+
+    margin: 30px 0 50px 0;
+
+    .grey {
+
+        background-color: #F3F3F3;
+        padding: 50px 30px 50px 30px;
+        margin-top: 50px;
+        border-radius: 12px;
+
+        @media screen and (min-width: 992px) {
+            padding: 30px 50px 50px 50px;
+        }
+
+        h3 {
+            color: #333333;
+            font-weight: 700;
+        }
+    }
+
+    .group {
+
+        margin-top: 50px;
+
+        @media screen and (min-width: 992px) {
+            margin-top: 70px;
+        }
+
+        .card-top-buffer {
+
+            padding-top: 50px;
+
+            .card {
+
+                border-top-left-radius: 12px;
+                border-top-right-radius: 12px;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+                position: relative;
+
+
+                img {
+                    position: relative;
+                    margin-top: -50px;
+                    left: 30px;
+                    width: 111px;
+                    height: 111px;
+                }
+
+                .card-body {
+
+                    .card-title {
+
+                        font-size: 1.5rem; // desktop: 24px
+                        line-height: 1.75rem; // desktop: 28px
+                        font-weight: 700;
+                        color: #333333;
+                    }
+                }
+            }
+        }
+    }
+}
