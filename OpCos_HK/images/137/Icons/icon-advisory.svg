@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="111" height="111" viewBox="0 0 111 111">
+  <g id="Group_1489" data-name="Group 1489" transform="translate(0 -1069)">
+    <path id="Path_273" data-name="Path 273" d="M164.758,274.233h-8.39a1.65,1.65,0,0,1-1.649-1.65V181.55a3.311,3.311,0,0,0-3.3-3.314H58.73a3.318,3.318,0,0,0-3.312,3.314v92.683a3.316,3.316,0,0,0,3.312,3.314h91.024a1.655,1.655,0,0,1,1.663,1.657v8.386a1.639,1.639,0,0,0,1.642,1.646h11.7a1.649,1.649,0,0,0,1.66-1.646v-11.7a1.659,1.659,0,0,0-1.66-1.657" transform="translate(-55.418 890.764)" fill="#758cc5"/>
+    <g id="RICOH_advisory_001" transform="translate(27.291 1086.202)">
+      <g id="Group_1433" data-name="Group 1433">
+        <path id="Path_996" data-name="Path 996" d="M215.348,151.8v3.375a.714.714,0,0,1-.711.711H192.716a.714.714,0,0,1-.711-.711V151.8H181.1v55.82h45.139V151.8Z" transform="translate(-181.1 -143.587)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_997" data-name="Path 997" d="M282.788,101.378V97.544h-6.972a.809.809,0,0,1-.809-.809,3.863,3.863,0,0,0-7.725,0,.809.809,0,0,1-.809.809H259.5v6.972a.714.714,0,0,0,.711.711H282.09a.72.72,0,0,0,.725-.725Z" transform="translate(-248.567 -92.9)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+      <g id="Group_1434" data-name="Group 1434" transform="translate(6.54 18.254)">
+        <line id="Line_149" data-name="Line 149" x2="18.895" transform="translate(12.969 2.942)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Line_150" data-name="Line 150" x2="18.895" transform="translate(13.038 14.251)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Line_151" data-name="Line 151" x2="18.895" transform="translate(13.038 25.574)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Line_152" data-name="Line 152" x2="18.895" transform="translate(13.038 36.897)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_998" data-name="Path 998" d="M228,227.509l2.189,2.175L236.1,223.8" transform="translate(-228 -223.8)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_999" data-name="Path 999" d="M228,308.623l2.189,2.175,5.913-5.9" transform="translate(-228 -293.591)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_1000" data-name="Path 1000" d="M228,389.809,230.189,392l5.913-5.9" transform="translate(-228 -363.468)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_1001" data-name="Path 1001" d="M228,471.009l2.189,2.175L236.1,467.3" transform="translate(-228 -433.345)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
