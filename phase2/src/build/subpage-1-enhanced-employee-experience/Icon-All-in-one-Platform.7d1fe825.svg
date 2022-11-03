@@ -1,0 +1,16 @@
+<svg id="Icon-All-in-one-Platform" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_699" data-name="Rectangle 699" width="45" height="31" transform="translate(415 973)" fill="none"></rect>
+    </clipPath>
+  </defs>
+  <path id="Path_273" data-name="Path 273" d="M114.521,230.126h-4.535a.892.892,0,0,1-.891-.892V180.027a1.79,1.79,0,0,0-1.784-1.791h-50.1a1.794,1.794,0,0,0-1.79,1.791v50.1a1.792,1.792,0,0,0,1.79,1.791h49.2a.894.894,0,0,1,.9.9v4.533a.886.886,0,0,0,.887.89h6.324a.892.892,0,0,0,.9-.89v-6.325a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#768ec7"></path>
+  <g id="Group_1987" data-name="Group 1987" transform="translate(-363.609 -830.175)">
+    <g id="Icon_5" transform="translate(-47.037 -132.831)" clip-path="url('#clip-path')">
+      <path id="Path_1512" data-name="Path 1512" d="M421.5,1095.5h39.464v3.171H421.5Z" transform="translate(-3.65 -96.936)" fill="none" stroke="#fff" stroke-miterlimit="8" stroke-width="1.5" fill-rule="evenodd"></path>
+      <path id="Path_1513" data-name="Path 1513" d="M436.5,979.5h33.8v21.9H436.5Z" transform="translate(-15.818 -2.839)" fill="none" stroke="#fff" stroke-miterlimit="8" stroke-width="1.5" fill-rule="evenodd"></path>
+      <path id="Path_1514" data-name="Path 1514" d="M499.252,1008.562l8,4.709a.487.487,0,0,1-.2.895l-4,.642-1.976,3.569a.451.451,0,0,1-.84-.149l-1.731-9.167A.517.517,0,0,1,499.252,1008.562Z" transform="translate(-64.991 -25.941)" fill="none" stroke="#fff" stroke-miterlimit="8" stroke-width="1.5" fill-rule="evenodd"></path>
+      <path id="Path_1515" data-name="Path 1515" d="M448.5,991.5h28.112v16.867H448.5Z" transform="translate(-24.88 -12.321)" fill="none" stroke="#fff" stroke-miterlimit="8" stroke-width="1.5" fill-rule="evenodd"></path>
+    </g>
+  </g>
+</svg>

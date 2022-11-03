@@ -233,6 +233,12 @@
                 position: relative;
                 top: -0.1rem;
             }
+
+            li::after {
+                content: '';
+                display: block;
+                margin-block-end: 10px;
+            }
         }
     }
 
