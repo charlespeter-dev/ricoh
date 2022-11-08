@@ -1,0 +1,94 @@
+.theme-std .card-why-ricoh .group .card-top-buffer .card {
+  border-bottom: 5px solid #cf142b;
+}
+
+.theme-hw .card-why-ricoh .group .card-top-buffer .card {
+  border-bottom: 5px solid #768ec7;
+}
+
+.theme-dwa .card-why-ricoh .group .card-top-buffer .card {
+  border-bottom: 5px solid #8fc740;
+}
+
+.theme-cit .card-why-ricoh .group .card-top-buffer .card {
+  border-bottom: 5px solid #56a3da;
+}
+
+.theme-cs .card-why-ricoh .group .card-top-buffer .card {
+  border-bottom: 5px solid #1859a9;
+}
+
+.card-why-ricoh {
+  margin: 30px 0 50px;
+}
+
+.card-why-ricoh .grey {
+  z-index: 1;
+  margin-top: 50px;
+  padding: 50px 30px;
+  position: relative;
+}
+
+.card-why-ricoh .grey:before {
+  content: "";
+  height: 100%;
+  z-index: -1;
+  width: 100vw;
+  background-color: #f3f3f3;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50%);
+}
+
+@media screen and (min-width: 992px) {
+  .card-why-ricoh .grey {
+    background-color: #f3f3f3;
+    border-radius: 12px;
+    padding: 30px 50px 50px;
+  }
+
+  .card-why-ricoh .grey:before {
+    display: none;
+  }
+}
+
+.card-why-ricoh .grey h3 {
+  color: #333;
+  font-weight: 700;
+}
+
+.card-why-ricoh .group {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  .card-why-ricoh .group {
+    margin-top: 70px;
+  }
+}
+
+.card-why-ricoh .group .card-top-buffer {
+  padding-top: 50px;
+}
+
+.card-why-ricoh .group .card-top-buffer .card {
+  border-radius: 12px 12px 0 0;
+  position: relative;
+}
+
+.card-why-ricoh .group .card-top-buffer .card img {
+  width: 111px;
+  height: 111px;
+  margin-top: -50px;
+  position: relative;
+  left: 30px;
+}
+
+.card-why-ricoh .group .card-top-buffer .card .card-body .card-title {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+

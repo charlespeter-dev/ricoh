@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60.234" height="60.234" viewBox="0 0 60.234 60.234">
+  <g id="Group_1448" data-name="Group 1448" transform="translate(-851.266 -2563.766)">
+    <path id="Path_1004" data-name="Path 1004" d="M114.752,230.329H110.2a.9.9,0,0,1-.895-.9v-49.4a1.8,1.8,0,0,0-1.791-1.8h-50.3a1.8,1.8,0,0,0-1.8,1.8v50.294a1.8,1.8,0,0,0,1.8,1.8H106.61a.9.9,0,0,1,.9.9v4.551a.889.889,0,0,0,.891.893h6.348a.9.9,0,0,0,.9-.893v-6.349a.9.9,0,0,0-.9-.9" transform="translate(795.848 2385.53)" fill="#758cc5"></path>
+    <g id="Group_2116" data-name="Group 2116" transform="translate(858.008 2571.305)">
+      <ellipse id="Ellipse_32" data-name="Ellipse 32" cx="6.52" cy="6.52" rx="6.52" ry="6.52" transform="translate(12.984 12.984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></ellipse>
+      <path id="Path_1559" data-name="Path 1559" d="M645.071,384.952a12.642,12.642,0,0,1,3.663-24.742" transform="translate(-629.23 -353.346)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></path>
+      <path id="Path_1560" data-name="Path 1560" d="M646.892,360.526a12.643,12.643,0,0,1-3.758,24.713" transform="translate(-623.63 -353.095)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></path>
+      <g id="Group_2097" data-name="Group 2097" transform="translate(0 19.503)">
+        <line id="Line_189" data-name="Line 189" x1="6.863" transform="translate(32.144)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+        <line id="Line_190" data-name="Line 190" x1="6.863" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+      </g>
+      <g id="Group_2100" data-name="Group 2100" transform="translate(4.217 4.411)">
+        <g id="Group_2098" data-name="Group 2098" transform="translate(0 6.874)">
+          <line id="Line_191" data-name="Line 191" x1="4.153" y1="2.233" transform="translate(26.419 14.205)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+          <line id="Line_192" data-name="Line 192" x1="4.153" y1="2.233" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+        </g>
+        <g id="Group_2099" data-name="Group 2099" transform="translate(6.717)">
+          <line id="Line_193" data-name="Line 193" x1="2.328" y1="4.1" transform="translate(14.81 26.085)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+          <line id="Line_194" data-name="Line 194" x1="2.328" y1="4.1" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+        </g>
+      </g>
+      <g id="Group_2103" data-name="Group 2103" transform="translate(4.411 4.217)">
+        <g id="Group_2101" data-name="Group 2101" transform="translate(6.874)">
+          <line id="Line_195" data-name="Line 195" y1="4.153" x2="2.233" transform="translate(0 26.419)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+          <line id="Line_196" data-name="Line 196" y1="4.153" x2="2.233" transform="translate(14.205)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+        </g>
+        <g id="Group_2102" data-name="Group 2102" transform="translate(0 6.717)">
+          <line id="Line_197" data-name="Line 197" y1="2.328" x2="4.1" transform="translate(0 14.81)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+          <line id="Line_198" data-name="Line 198" y1="2.328" x2="4.1" transform="translate(26.085)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+        </g>
+      </g>
+      <g id="Group_2104" data-name="Group 2104" transform="translate(19.503)">
+        <line id="Line_199" data-name="Line 199" y1="6.863" transform="translate(0 32.144)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+        <line id="Line_200" data-name="Line 200" y1="6.863" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+      </g>
+    </g>
+  </g>
+</svg>
