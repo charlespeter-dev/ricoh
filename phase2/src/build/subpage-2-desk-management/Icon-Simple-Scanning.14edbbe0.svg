@@ -1,0 +1,28 @@
+<svg id="Icon-Simple-Scanning" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_674" data-name="Rectangle 674" width="46.851" height="45.895" transform="translate(0 0)"></rect>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_672" data-name="Rectangle 672" width="46.851" height="45.895"></rect>
+    </clipPath>
+  </defs>
+  <path id="Path_273" data-name="Path 273" d="M114.521,230.126h-4.535a.892.892,0,0,1-.891-.892V180.027a1.79,1.79,0,0,0-1.784-1.791h-50.1a1.794,1.794,0,0,0-1.79,1.791v50.1a1.792,1.792,0,0,0,1.79,1.791h49.2a.894.894,0,0,1,.9.9v4.533a.886.886,0,0,0,.887.89h6.324a.892.892,0,0,0,.9-.89v-6.325a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#768ec7"></path>
+  <g id="Group_1538" data-name="Group 1538" transform="translate(7 6.712)">
+    <g id="Group_1968" data-name="Group 1968" transform="translate(-89.808 -340.709)">
+      <g id="Group_1943" data-name="Group 1943" transform="translate(85.956 337.956)" clip-path="url('#clip-path')">
+        <g id="Group_1967" data-name="Group 1967" transform="translate(0 0)">
+          <g id="Group_1941" data-name="Group 1941" transform="translate(0 0)" clip-path="url('#clip-path-2')">
+            <g id="Group_1970" data-name="Group 1970" transform="translate(0 0.698)">
+              <path id="Path_1329" data-name="Path 1329" d="M15.993,5.723H5V17.776" transform="translate(3.716)" fill="none" stroke="#fff" stroke-width="1.8"></path>
+              <path id="Path_1332" data-name="Path 1332" d="M15.993,17.8H5V5.723" transform="translate(3.716 20.975)" fill="none" stroke="#fff" stroke-width="1.8"></path>
+              <path id="Path_1330" data-name="Path 1330" d="M5,5.723H15.993V17.776" transform="translate(22.14)" fill="none" stroke="#fff" stroke-width="1.8"></path>
+              <path id="Path_1331" data-name="Path 1331" d="M5,17.8H15.993V5.723" transform="translate(22.14 20.975)" fill="none" stroke="#fff" stroke-width="1.8"></path>
+              <line id="Line_191" data-name="Line 191" x2="37" transform="translate(4.926 21.843)" fill="none" stroke="#fff" stroke-width="1.8"></line>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
