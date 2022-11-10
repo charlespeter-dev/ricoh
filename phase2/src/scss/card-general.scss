@@ -23,6 +23,11 @@
 }
 
 .card-general {
+
+    --bs-border-width: 2px;
+    --bs-border-style: solid;
+    --bs-border-color: #efefef;
+
     padding-top: 3rem;
     padding-bottom: 3rem;
 
