@@ -10,7 +10,7 @@ foreach ($htmls as $k => $html) {
 
         if (isset($argv[1]) && $argv[1] == 'all') {
             exec($cmd, $out);
-        } elseif (!isset($argv[1]) && in_array($foldername, ['subpage-6-iot', 'subpage-7-digital-signage', 'subpage-8-visitor-management'])) {
+        } elseif (!isset($argv[1]) && in_array($foldername, ['subpage-9-mobile-app'])) {
             exec($cmd, $out);
         }
     }
