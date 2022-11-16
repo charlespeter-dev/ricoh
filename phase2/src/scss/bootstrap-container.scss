@@ -56,9 +56,16 @@
 
     h3 {
         font-size: 1.625rem; // desktop: 26px
-        font-weight: 400;
         line-height: 2.125rem; // desktop: 34px
+        font-weight: 400;
         color: #666666;
+
+        &.h3-26-bold-dark {
+            font-size: 1.625rem; // desktop: 26px
+            line-height: 2.125rem; // desktop: 34px
+            font-weight: 700;
+            color: #333333;
+        }
 
         &.h3-24 {
 
@@ -199,7 +206,7 @@
             height: 5px;
             margin-top: 1.75rem;
             width: 200px;
-            
+
             margin-left: 0;
             margin-right: 0;
 
