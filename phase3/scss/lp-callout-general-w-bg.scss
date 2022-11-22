@@ -1,0 +1,32 @@
+@import "../../phase2/src/scss/functions";
+@import "../../phase2/src/scss/mixins";
+@import "../../phase2/src/scss/themes";
+
+.bootstrap-container {
+
+    @include themify($themes) {
+
+        .lp-callout-general-w-bg {
+
+            .top {
+                background-color: themed(primaryColor);
+                color: #ffffff;
+            }
+
+            .bottom {
+                background-color: #F9FCF5;
+                color: #8FC740;
+            }
+        }
+    }
+}
+
+
+.lp-callout-general-w-bg {
+
+    .top,
+    .bottom {
+        display: block;
+        text-align: center;
+    }
+}
