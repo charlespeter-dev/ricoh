@@ -56,6 +56,12 @@
             color: #333333;
             font-weight: 700;
         }
+
+        &.before-unset {
+            &::before {
+                content:unset;
+            }
+        }
     }
 
     .group {

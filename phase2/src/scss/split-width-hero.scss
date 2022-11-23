@@ -49,6 +49,23 @@
                     right: -50px;
                     width: 103px;
                 }
+
+                &.long-imgs {
+                    width:auto;
+                    max-width:90%;
+
+                    .img-main {
+                        width:auto;
+                        height:auto;
+                        max-width:95%;
+                    }
+
+                    .img-ribbon {
+                        bottom: -40px;
+                        right: -20px;
+                        width: 70px;
+                    }
+                }
             }
 
 
@@ -71,6 +88,23 @@
 
                     .img-ribbon {
                         right: 0;
+                    }
+
+                    &.long-imgs {
+                        width:auto;
+                        max-width:75%;
+
+                        .img-main {
+                            width:auto;
+                            height:auto;
+                            max-width:90%;
+                        }
+
+                        .img-ribbon {
+                            bottom: -50px;
+                            right: 0px;
+                            width: 103px;
+                        }
                     }
                 }
             }
