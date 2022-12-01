@@ -13,6 +13,7 @@
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.75rem; // desktop: 28px
     --bs-body-text-align: left;
+    --bs-border-radius-xl: 12px;
 
     // font-family: var(--bs-body-font-family);
     // font-size: var(--bs-body-font-size);
@@ -32,26 +33,36 @@
     }
 
     h1,
-    .h1-44 {
+    .h1-44,
+    .h-44-48 {
         font-size: 2.75rem; // desktop: 44px
         line-height: 3rem; // desktop: 48px
         font-weight: 700;
         color: #333333;
     }
 
-    h2 {
+    h2,
+    .h-32-36 {
         font-size: 2rem; // desktop: 32px
         line-height: 2.25rem; // desktop: 36px
         font-weight: 700;
         color: #333333;
+    }
 
-        &.h2-36 {
+    .h2-36,
+    .h-36-48 {
 
-            font-size: 2.25rem; // desktop: 36px
-            line-height: 3rem; // desktop: 48px
-            font-weight: 700;
-            color: #333333;
-        }
+        font-size: 2.25rem; // desktop: 36px
+        line-height: 3rem; // desktop: 48px
+        font-weight: 700;
+        color: #333333;
+    }
+
+    .h-36-40 {
+        font-size: 2.25rem; // desktop: 36px
+        line-height: 2.5rem; // desktop: 40px
+        font-weight: 700;
+        color: #333333;
     }
 
     h3 {
@@ -76,7 +87,8 @@
         }
     }
 
-    h4 {
+    h4,
+    .h-20-24 {
         font-size: 1.25rem; // desktop: 20px
         font-weight: 700;
         line-height: 1.5rem; // desktop: 24px
@@ -180,6 +192,39 @@
         }
     }
 
+    .center-heading {
+        margin-top: 1.3rem;
+        margin-bottom: 1.3rem;
+
+        text-align: center;
+        display: block;
+
+        .bar {
+            border: 0;
+            height: 5px;
+            margin-top: 1.75rem;
+            width: 200px;
+
+            margin-left: 0;
+            margin-right: 0;
+
+            @media screen and (min-width: 992px) {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+
+    @include themify($themes) {
+
+        .center-heading {
+
+            .bar {
+                border-bottom: 5px solid themed('primaryColor');
+            }
+        }
+    }
+
     .grey,
     .bg-grey {
         background-color: #F3F3F3 !important;
@@ -227,39 +272,6 @@
         span.br-after::after {
             content: "\a";
             white-space: pre;
-        }
-    }
-
-    .center-heading {
-        margin-top: 1.3rem;
-        margin-bottom: 1.3rem;
-
-        text-align: center;
-        display: block;
-
-        .bar {
-            border: 0;
-            height: 5px;
-            margin-top: 1.75rem;
-            width: 200px;
-
-            margin-left: 0;
-            margin-right: 0;
-
-            @media screen and (min-width: 992px) {
-                margin-left: auto;
-                margin-right: auto;
-            }
-        }
-    }
-
-    @include themify($themes) {
-
-        .center-heading {
-
-            .bar {
-                border-bottom: 5px solid themed('primaryColor');
-            }
         }
     }
 

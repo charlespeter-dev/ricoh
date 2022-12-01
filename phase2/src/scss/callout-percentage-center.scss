@@ -168,3 +168,37 @@
         }
     }
 }
+
+@include themify($themes) {
+
+    .grey-fluid {
+
+        .callout-percentage-center {
+
+            &.reverse {
+
+                .percentage-container {
+
+                    .percent-container {
+
+                        .percent {
+
+                            background-color: themed('gfBgColor');
+                        }
+                    }
+                }
+            }
+
+            .percentage-container {
+
+                .percent-container {
+
+                    .percent {
+
+                        background-color: themed('gfBgColor');
+                    }
+                }
+            }
+        }
+    }
+}
