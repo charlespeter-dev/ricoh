@@ -1,0 +1,87 @@
+.lp-callout-percentage-single .percentage-container {
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  display: flex;
+}
+
+.lp-callout-percentage-single .percentage-container .percent-container {
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.lp-callout-percentage-single .percentage-container .percent-container img {
+  width: 70px;
+}
+
+.lp-callout-percentage-single .percentage-container .percent-container .percent {
+  background-color: #fff;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 2.0625rem;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.lp-callout-percentage-single .percentage-container .percent-text {
+  color: #333;
+  margin-left: 15px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+@media screen and (min-width: 992px) {
+  .lp-callout-percentage-single .percentage-container .percent-text {
+    margin-left: 15px;
+  }
+}
+
+.lp-callout-percentage-single .source {
+  color: #666;
+  margin-top: 20px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.theme-std .lp-callout-percentage-single .percentage-container .percent-container .percent {
+  color: #cf142b;
+}
+
+.theme-hw .lp-callout-percentage-single .percentage-container .percent-container .percent {
+  color: #768ec7;
+}
+
+.theme-dwa .lp-callout-percentage-single .percentage-container .percent-container .percent {
+  color: #8fc740;
+}
+
+.theme-cit .lp-callout-percentage-single .percentage-container .percent-container .percent {
+  color: #56a3da;
+}
+
+.theme-cs .lp-callout-percentage-single .percentage-container .percent-container .percent {
+  color: #1859a9;
+}
+
+.theme-std .grey-fluid .lp-callout-percentage-single .percentage-container .percent-container .percent {
+  background-color: #fef5f5;
+}
+
+.theme-hw .grey-fluid .lp-callout-percentage-single .percentage-container .percent-container .percent {
+  background-color: #f4f6fa;
+}
+
+.theme-dwa .grey-fluid .lp-callout-percentage-single .percentage-container .percent-container .percent {
+  background-color: #f3f3f3;
+}
+
+.theme-cit .grey-fluid .lp-callout-percentage-single .percentage-container .percent-container .percent, .theme-cs .grey-fluid .lp-callout-percentage-single .percentage-container .percent-container .percent {
+  background-color: #f4f6fa;
+}
+

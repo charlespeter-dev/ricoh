@@ -34,8 +34,8 @@
         }
 
         .percent-text {
-            font-size: 1rem; // desktop: 32px
-            line-height: 1.25rem; // desktop: 36px
+            font-size: 1.25rem; // desktop 20px
+            line-height: 1.5rem; // desktop 24px
             color: #333333;
             font-weight: 700;
             margin-left: 15px;
@@ -44,6 +44,14 @@
                 margin-left: 15px;
             }
         }
+    }
+
+    .source {
+        font-size: 1.25rem; // desktop 20px
+        line-height: 1.5rem; // desktop 24px
+        font-weight: 700;
+        color: #666666;
+        margin-top: 20px;
     }
 
 }
@@ -59,6 +67,26 @@
                 .percent {
 
                     color: themed('primaryColor');
+                }
+            }
+        }
+    }
+}
+
+@include themify($themes) {
+
+    .grey-fluid {
+
+        .lp-callout-percentage-single {
+
+            .percentage-container {
+
+                .percent-container {
+
+                    .percent {
+
+                        background-color: themed('bgColor');
+                    }
                 }
             }
         }
