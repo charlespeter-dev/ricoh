@@ -10,7 +10,7 @@ foreach ($htmls as $k => $html) {
 
         if (isset($argv[1]) && $argv[1] == 'all') {
             exec($cmd, $out);
-        } elseif (!isset($argv[1]) && in_array($foldername, ['callout-percentage-center', 'card-3-columns', 'card-partner'])) {
+        } elseif (!isset($argv[1]) && in_array($foldername, ['split-text-wo-bg'])) {
             exec($cmd, $out);
         }
     }
