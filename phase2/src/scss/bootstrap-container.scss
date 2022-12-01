@@ -83,6 +83,14 @@
         color: #666666;
     }
 
+    // themify headings font color
+
+    @include themify($themes) {
+        .font-theme-color {
+            color: themed('primaryColor') !important;
+        }
+    }
+
     .btn {
         font-weight: bold;
         font-size: 1.125rem; // desktop: 18px
