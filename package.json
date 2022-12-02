@@ -19,8 +19,5 @@
     "parcel": "^2.8.0",
     "postcss": "^8.4.19",
     "sass": "^1.56.1"
-  },
-  "dependencies": {
-    "path": "^0.12.7"
   }
 }
