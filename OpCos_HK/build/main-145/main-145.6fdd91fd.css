@@ -12100,6 +12100,14 @@ a > .bootstrap-container code {
   line-height: 1.5rem;
 }
 
+.bootstrap-container .fw-300 {
+  font-weight: 300 !important;
+}
+
+.bootstrap-container .fw-400 {
+  font-weight: 400 !important;
+}
+
 .bootstrap-container.theme-std .font-theme-color {
   color: #cf142b !important;
 }
