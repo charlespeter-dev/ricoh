@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-js": "^2.8.0",
     "@parcel/transformer-sass": "^2.8.0",
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
