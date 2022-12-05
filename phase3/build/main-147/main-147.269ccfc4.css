@@ -12489,6 +12489,12 @@ a > .bootstrap-container code {
   border-radius: .75rem !important;
 }
 
+.bootstrap-container .border {
+  --bs-border-width: 1px;
+  --bs-border-style: solid;
+  --bs-border-color: #e8e8e8;
+}
+
 .tooltip {
   --bs-tooltip-zindex: 1080;
   --bs-tooltip-max-width: 200px;

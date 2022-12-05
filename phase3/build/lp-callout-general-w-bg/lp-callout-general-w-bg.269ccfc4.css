@@ -6,6 +6,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.75rem;
   --bs-body-text-align: left;
+  --bs-border-radius-xl: 12px;
 }
 
 .bootstrap-container :root {
@@ -12022,25 +12023,32 @@ a > .bootstrap-container code {
   margin-bottom: 1.75rem;
 }
 
-.bootstrap-container h1, .bootstrap-container .h1, .bootstrap-container .h1-44 {
+.bootstrap-container h1, .bootstrap-container .h1, .bootstrap-container .h1-44, .bootstrap-container .h-44-48 {
   color: #333;
   font-size: 2.75rem;
   font-weight: 700;
   line-height: 3rem;
 }
 
-.bootstrap-container h2, .bootstrap-container .h2 {
+.bootstrap-container h2, .bootstrap-container .h2, .bootstrap-container .h-32-36 {
   color: #333;
   font-size: 2rem;
   font-weight: 700;
   line-height: 2.25rem;
 }
 
-.bootstrap-container h2.h2-36, .bootstrap-container .h2-36.h2 {
+.bootstrap-container .h2-36, .bootstrap-container .h-36-48 {
   color: #333;
   font-size: 2.25rem;
   font-weight: 700;
   line-height: 3rem;
+}
+
+.bootstrap-container .h-36-40 {
+  color: #333;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 2.5rem;
 }
 
 .bootstrap-container h3, .bootstrap-container .h3 {
@@ -12064,7 +12072,7 @@ a > .bootstrap-container code {
   line-height: 1.75rem;
 }
 
-.bootstrap-container h4, .bootstrap-container .h4 {
+.bootstrap-container h4, .bootstrap-container .h4, .bootstrap-container .h-20-24 {
   color: #666;
   font-size: 1.25rem;
   font-weight: 700;
@@ -12248,47 +12256,6 @@ a > .bootstrap-container code {
   border-bottom: 5px solid #1859a9;
 }
 
-.bootstrap-container .grey, .bootstrap-container .bg-grey {
-  background-color: #f3f3f3 !important;
-}
-
-.bootstrap-container .grey-fluid {
-  z-index: 1;
-  background-color: #f3f3f3;
-  margin-top: 6.25rem;
-  padding-top: 1px;
-  position: relative;
-}
-
-.bootstrap-container .grey-fluid:before {
-  content: "";
-  height: 100%;
-  width: 100vw;
-  z-index: -1;
-  background-color: #f3f3f3;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: calc(-50vw + 50%);
-}
-
-.bootstrap-container .grey-fluid:after {
-  content: "\a ";
-  white-space: pre;
-  display: block;
-}
-
-.bootstrap-container .grey-fluid .callout-percentage-1-column .percentage-container .percent-container .percent {
-  background-color: #f3f3f3 !important;
-}
-
-@media screen and (min-width: 992px) {
-  .bootstrap-container span.br-before:before, .bootstrap-container span.br-after:after {
-    content: "\a ";
-    white-space: pre;
-  }
-}
-
 .bootstrap-container .center-heading {
   text-align: center;
   margin-top: 1.3rem;
@@ -12330,6 +12297,47 @@ a > .bootstrap-container code {
 
 .bootstrap-container.theme-cs .center-heading .bar {
   border-bottom: 5px solid #1859a9;
+}
+
+.bootstrap-container .grey, .bootstrap-container .bg-grey {
+  background-color: #f3f3f3 !important;
+}
+
+.bootstrap-container .grey-fluid {
+  z-index: 1;
+  background-color: #f3f3f3;
+  margin-top: 6.25rem;
+  padding-top: 1px;
+  position: relative;
+}
+
+.bootstrap-container .grey-fluid:before {
+  content: "";
+  height: 100%;
+  width: 100vw;
+  z-index: -1;
+  background-color: #f3f3f3;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50%);
+}
+
+.bootstrap-container .grey-fluid:after {
+  content: "\a ";
+  white-space: pre;
+  display: block;
+}
+
+.bootstrap-container .grey-fluid .callout-percentage-1-column .percentage-container .percent-container .percent {
+  background-color: #f3f3f3 !important;
+}
+
+@media screen and (min-width: 992px) {
+  .bootstrap-container span.br-before:before, .bootstrap-container span.br-after:after {
+    content: "\a ";
+    white-space: pre;
+  }
 }
 
 .bootstrap-container ul.marker-theme-color {
@@ -12479,6 +12487,12 @@ a > .bootstrap-container code {
 
 .bootstrap-container .rounded-7 {
   border-radius: .75rem !important;
+}
+
+.bootstrap-container .border {
+  --bs-border-width: 1px;
+  --bs-border-style: solid;
+  --bs-border-color: #e8e8e8;
 }
 
 .tooltip {

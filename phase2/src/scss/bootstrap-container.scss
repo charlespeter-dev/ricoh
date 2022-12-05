@@ -407,6 +407,12 @@
     .rounded-7 {
         border-radius: .75rem !important;
     }
+
+    .border {
+        --bs-border-width: 1px;
+        --bs-border-style: solid;
+        --bs-border-color: #e8e8e8;
+    }
 }
 
 // 
