@@ -119,6 +119,14 @@
         color: #666666;
     }
 
+    .fw-300 {
+        font-weight: 300 !important;
+    }
+
+    .fw-400 {
+        font-weight: 400 !important;
+    }
+
     // themify headings font color
 
     @include themify($themes) {
