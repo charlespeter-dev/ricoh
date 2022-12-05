@@ -1,0 +1,12 @@
+<svg id="Icon-Central-control" xmlns="http://www.w3.org/2000/svg" width="60.162" height="60.162" viewBox="0 0 60.162 60.162">
+  <path id="Path_1198" data-name="Path 1198" d="M114.681,230.266h-4.548a.894.894,0,0,1-.894-.894v-49.34a1.8,1.8,0,0,0-1.789-1.8H57.213a1.8,1.8,0,0,0-1.8,1.8v50.234a1.8,1.8,0,0,0,1.8,1.8h49.335a.9.9,0,0,1,.9.9v4.545a.888.888,0,0,0,.89.892h6.341a.894.894,0,0,0,.9-.892v-6.342a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#758cc5"></path>
+  <g id="Rectangle_917" data-name="Rectangle 917" transform="translate(41.581 7.903) rotate(90)" fill="none" stroke="#fff" stroke-width="2">
+    <rect width="37" height="29" rx="2" stroke="none"></rect>
+    <rect x="1" y="1" width="35" height="27" rx="1" fill="none"></rect>
+  </g>
+  <g id="Rectangle_918" data-name="Rectangle 918" transform="translate(41.581 12.403) rotate(90)" fill="none" stroke="#fff" stroke-width="1.8">
+    <rect width="25" height="29" stroke="none"></rect>
+    <rect x="0.9" y="0.9" width="23.2" height="27.2" fill="none"></rect>
+  </g>
+  <circle id="Ellipse_76" data-name="Ellipse 76" cx="1.5" cy="1.5" r="1.5" transform="translate(26 38.903)" fill="#fff"></circle>
+</svg>

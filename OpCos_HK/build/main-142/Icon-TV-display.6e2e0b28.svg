@@ -1,0 +1,11 @@
+<svg id="Icon-TV-display" xmlns="http://www.w3.org/2000/svg" width="60.162" height="60.162" viewBox="0 0 60.162 60.162">
+  <path id="Path_1198" data-name="Path 1198" d="M114.681,230.266h-4.548a.894.894,0,0,1-.894-.894v-49.34a1.8,1.8,0,0,0-1.789-1.8H57.213a1.8,1.8,0,0,0-1.8,1.8v50.234a1.8,1.8,0,0,0,1.8,1.8h49.335a.9.9,0,0,1,.9.9v4.545a.888.888,0,0,0,.89.892h6.341a.894.894,0,0,0,.9-.892v-6.342a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#758cc5"></path>
+  <g id="Group_2434" data-name="Group 2434" transform="translate(-0.571 0.112)">
+    <g id="Rectangle_914" data-name="Rectangle 914" transform="translate(10.571 12.116)" fill="none" stroke="#fff" stroke-width="2">
+      <rect width="34" height="25" rx="2" stroke="none"></rect>
+      <rect x="1" y="1" width="32" height="23" rx="1" fill="none"></rect>
+    </g>
+    <line id="Line_296" data-name="Line 296" x2="12" transform="translate(21.571 40.615)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></line>
+    <path id="Path_1672" data-name="Path 1672" d="M0,1.064V5" transform="translate(27.542 35.616)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"></path>
+  </g>
+</svg>

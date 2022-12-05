@@ -1,0 +1,52 @@
+@import "../../phase2/src/scss/functions";
+@import "../../phase2/src/scss/mixins";
+@import "../../phase2/src/scss/themes";
+
+@include themify($themes) {
+
+    .comp-custom-hk {
+
+        .card {
+
+            background-color: themed(bgColor);
+        }
+    }
+}
+
+.comp-custom-hk {
+
+    .card {
+
+        padding: 2rem;
+
+        @media screen and (min-width: 992px) {
+            height: 100%;
+        }
+    }
+
+    .icon-plus {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (min-width: 992px) {
+
+            height: 100%;
+        }
+    }
+
+    .icon-svg {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (min-width: 992px) {
+
+            height: 100%;
+        }
+    }
+}

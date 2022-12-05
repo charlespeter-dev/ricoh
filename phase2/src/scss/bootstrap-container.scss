@@ -65,7 +65,15 @@
         color: #333333;
     }
 
-    h3 {
+    .h-30-34 {
+        font-size: 1.875rem; // desktop: 30px
+        line-height: 2.125rem; // desktop: 34px
+        font-weight: 700;
+        color: #333333;
+    }
+
+    h3,
+    .h-26-34 {
         font-size: 1.625rem; // desktop: 26px
         line-height: 2.125rem; // desktop: 34px
         font-weight: 400;
@@ -85,6 +93,22 @@
             font-weight: 700;
             color: #333333;
         }
+    }
+
+    .h3-26-bold-dark {
+        font-size: 1.625rem; // desktop: 26px
+        line-height: 2.125rem; // desktop: 34px
+        font-weight: 700;
+        color: #333333;
+    }
+
+    .h3-24,
+    .h-24-28 {
+
+        font-size: 1.5rem; // desktop: 24px
+        line-height: 1.75rem; // desktop: 28px
+        font-weight: 700;
+        color: #333333;
     }
 
     h4,
@@ -402,6 +426,10 @@
                 color: themed('primaryColor') !important;
             }
         }
+    }
+
+    .rounded {
+        --bs-border-radius: 12px;
     }
 
     .rounded-7 {

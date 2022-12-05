@@ -1,0 +1,52 @@
+.theme-std .comp-custom-hk .card {
+  background-color: #fef5f5;
+}
+
+.theme-hw .comp-custom-hk .card {
+  background-color: #f4f6fa;
+}
+
+.theme-dwa .comp-custom-hk .card {
+  background-color: #f0f5e7;
+}
+
+.theme-cit .comp-custom-hk .card, .theme-cs .comp-custom-hk .card {
+  background-color: #f4f6fa;
+}
+
+.comp-custom-hk .card {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+  .comp-custom-hk .card {
+    height: 100%;
+  }
+}
+
+.comp-custom-hk .icon-plus {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+@media screen and (min-width: 992px) {
+  .comp-custom-hk .icon-plus {
+    height: 100%;
+  }
+}
+
+.comp-custom-hk .icon-svg {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+@media screen and (min-width: 992px) {
+  .comp-custom-hk .icon-svg {
+    height: 100%;
+  }
+}
+

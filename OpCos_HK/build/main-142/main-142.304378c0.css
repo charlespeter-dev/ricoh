@@ -1,0 +1,131 @@
+.carousel-product {
+  margin: 36px 0;
+  padding: 0;
+  position: relative;
+}
+
+.carousel-product .flickity-page-dots {
+  bottom: -24px;
+}
+
+.carousel-product .flickity-page-dots .dot {
+  border-color: #b2b2b2;
+}
+
+.carousel-product .flickity-page-dots .dot.is-selected {
+  border-color: #cf142b;
+}
+
+.carousel-product .flickity-prev-next-button {
+  display: none;
+}
+
+.carousel-product .flickity-enabled {
+  opacity: 1;
+}
+
+.carousel-product .flickity-enabled .carousel-product__cell {
+  visibility: visible;
+}
+
+.carousel-product-container {
+  opacity: 0;
+  margin: 36px 0;
+  transition: opacity .3s ease-in-out;
+  position: relative;
+}
+
+.carousel-product__cell {
+  width: 74.5367%;
+  visibility: hidden;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  margin: 0 12px 0 0;
+  position: relative;
+  overflow: visible;
+}
+
+.initialised .carousel-product__cell {
+  height: 100%;
+}
+
+.carousel-product__cell:first-child {
+  margin-left: 0;
+}
+
+.carousel-product__cell:last-child {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 560px) {
+  .carousel-product__cell {
+    width: 57.5612%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-product {
+    margin: 0;
+    padding: 72px 0;
+  }
+
+  .carousel-product .flickity-page-dots {
+    bottom: -60px;
+  }
+
+  .carousel-product__cell {
+    width: 40.5856%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .carousel-product__cell {
+    width: 32.0979%;
+    margin: 0 24px 0 0;
+  }
+}
+
+@media screen and (min-width: 1296px) {
+  .carousel-product__cell {
+    width: 21.4881%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .carousel-product .flickity-prev-next-button {
+    width: 72px;
+    height: 100%;
+    display: block;
+  }
+
+  .carousel-product .flickity-prev-next-button .arrow {
+    fill: #000;
+  }
+
+  .carousel-product .flickity-prev-next-button svg {
+    width: 50%;
+  }
+
+  .carousel-product .flickity-prev-next-button:disabled {
+    display: none;
+  }
+
+  .carousel-product .flickity-prev-next-button.previous {
+    background: none;
+    left: -72px;
+  }
+
+  .carousel-product .flickity-prev-next-button.previous svg {
+    left: 16px;
+  }
+
+  .carousel-product .flickity-prev-next-button.next {
+    background: none;
+    right: -72px;
+  }
+
+  .carousel-product .flickity-prev-next-button.next svg {
+    left: 18px;
+  }
+}
+
