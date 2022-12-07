@@ -1,0 +1,13 @@
+<svg id="Icon_Unique" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <path id="Path_273" data-name="Path 273" d="M114.521,230.126h-4.535a.892.892,0,0,1-.891-.892V180.027a1.79,1.79,0,0,0-1.784-1.791h-50.1a1.794,1.794,0,0,0-1.79,1.791v50.1a1.792,1.792,0,0,0,1.79,1.791h49.2a.894.894,0,0,1,.9.9v4.533a.886.886,0,0,0,.887.89h6.324a.892.892,0,0,0,.9-.89v-6.325a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#768ec7"/>
+  <g id="Group_1987" data-name="Group 1987" transform="translate(-363.609 -830.175)">
+    <g id="Group_1961" data-name="Group 1961" transform="translate(881.484 -606.426)">
+      <path id="Path_1535" data-name="Path 1535" d="M-491.572,1448.11l4.729,9.582,10.574,1.536-7.651,7.458,1.806,10.531-9.458-4.972-9.458,4.972,1.806-10.531-7.651-7.458,10.574-1.536Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_193" data-name="Line 193" x1="3.927" y2="5.237" transform="translate(-484.286 1449.322)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_194" data-name="Line 194" x2="3.927" y2="5.237" transform="translate(-503.046 1449.322)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_195" data-name="Line 195" x1="5.336" y1="1.929" transform="translate(-480.359 1468.342)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_196" data-name="Line 196" y1="1.929" x2="5.336" transform="translate(-508.381 1468.342)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_197" data-name="Line 197" y2="5.142" transform="translate(-491.598 1476.032)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,196 @@
+.split-width-hero .sw-hero-item {
+  margin: 30px 0 50px;
+}
+
+@media screen and (min-width: 992px) {
+  .split-width-hero .sw-hero-item {
+    margin: 30px 0 100px;
+  }
+}
+
+.split-width-hero .sw-hero-item .reverse-in-mobile {
+  flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 992px) {
+  .split-width-hero .sw-hero-item .reverse-in-mobile {
+    flex-direction: row;
+  }
+}
+
+.split-width-hero .sw-hero-item .sw-hero-item-text {
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0;
+  display: flex;
+}
+
+.split-width-hero .sw-hero-item .sw-hero-item-img {
+  justify-content: flex-start;
+  display: flex;
+  position: relative;
+}
+
+.split-width-hero .sw-hero-item .sw-hero-item-img .imgs {
+  width: auto;
+  position: relative;
+}
+
+.split-width-hero .sw-hero-item .sw-hero-item-img .imgs .img-main {
+  width: 300px;
+  height: auto;
+  border-radius: 5%;
+}
+
+.split-width-hero .sw-hero-item .sw-hero-item-img .imgs .img-ribbon {
+  width: 103px;
+  display: flex;
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+}
+
+.split-width-hero .sw-hero-item .sw-hero-item-img .imgs.long-imgs {
+  width: auto;
+  max-width: 90%;
+}
+
+.split-width-hero .sw-hero-item .sw-hero-item-img .imgs.long-imgs .img-main {
+  width: auto;
+  height: auto;
+  max-width: 95%;
+}
+
+.split-width-hero .sw-hero-item .sw-hero-item-img .imgs.long-imgs .img-ribbon {
+  width: 70px;
+  bottom: -40px;
+  right: -20px;
+}
+
+@media screen and (min-width: 992px) {
+  .split-width-hero .sw-hero-item .sw-hero-item-img {
+    justify-content: flex-end;
+    display: flex;
+  }
+
+  .split-width-hero .sw-hero-item .sw-hero-item-img .imgs {
+    width: 400px;
+  }
+
+  .split-width-hero .sw-hero-item .sw-hero-item-img .imgs .img-main {
+    width: 350px;
+    height: 350px;
+  }
+
+  .split-width-hero .sw-hero-item .sw-hero-item-img .imgs .img-ribbon {
+    right: 0;
+  }
+
+  .split-width-hero .sw-hero-item .sw-hero-item-img .imgs.long-imgs {
+    width: auto;
+    max-width: 75%;
+  }
+
+  .split-width-hero .sw-hero-item .sw-hero-item-img .imgs.long-imgs .img-main {
+    width: auto;
+    height: auto;
+    max-width: 90%;
+  }
+
+  .split-width-hero .sw-hero-item .sw-hero-item-img .imgs.long-imgs .img-ribbon {
+    width: 103px;
+    bottom: -50px;
+    right: 0;
+  }
+
+  .split-width-hero .sw-hero-item .reverse-in-mobile .sw-hero-item-img {
+    justify-content: flex-start;
+    display: flex;
+  }
+}
+
+.split-width-hero .sw-hero-item:nth-last-of-type(1) {
+  margin: 30px 0 100px;
+}
+
+.split-width-hero-carousel .mobile-pb-100px {
+  padding-bottom: 100px;
+}
+
+@media screen and (min-width: 992px) {
+  .split-width-hero-carousel .mobile-pb-100px {
+    padding-bottom: 0;
+  }
+}
+
+.split-width-hero-carousel .carousel {
+  width: 300px;
+  border-radius: 5%;
+}
+
+@media screen and (min-width: 992px) {
+  .split-width-hero-carousel .carousel {
+    width: 350px;
+  }
+}
+
+.split-width-hero-carousel .carousel .carousel-indicators {
+  bottom: -50px;
+}
+
+.split-width-hero-carousel .carousel .carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  width: 10px;
+  height: 10px;
+  text-indent: -999px;
+  cursor: pointer;
+  opacity: 1;
+  background-color: #c9c9c9;
+  background-clip: padding-box;
+  border: 10px solid #0000;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 100%;
+  flex: 0 auto;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 0;
+  transition: opacity .6s;
+}
+
+.split-width-hero-carousel .carousel .visible-caption {
+  width: 350px;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  bottom: -100px;
+}
+
+.split-width-hero-carousel .carousel .visible-caption p {
+  margin: 0;
+  padding: 0;
+}
+
+.theme-std .split-width-hero-carousel .carousel .carousel-indicators [data-bs-target].active {
+  background-color: #cf142b;
+}
+
+.theme-hw .split-width-hero-carousel .carousel .carousel-indicators [data-bs-target].active {
+  background-color: #768ec7;
+}
+
+.theme-dwa .split-width-hero-carousel .carousel .carousel-indicators [data-bs-target].active {
+  background-color: #8fc740;
+}
+
+.theme-cit .split-width-hero-carousel .carousel .carousel-indicators [data-bs-target].active {
+  background-color: #56a3da;
+}
+
+.theme-cs .split-width-hero-carousel .carousel .carousel-indicators [data-bs-target].active {
+  background-color: #1859a9;
+}
+

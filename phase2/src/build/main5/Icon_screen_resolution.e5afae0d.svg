@@ -1,0 +1,15 @@
+<svg id="Icon_screen_resolution" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_699" data-name="Rectangle 699" width="45" height="31" transform="translate(415 973)" fill="none"></rect>
+    </clipPath>
+  </defs>
+  <path id="Path_273" data-name="Path 273" d="M114.521,230.126h-4.535a.892.892,0,0,1-.891-.892V180.027a1.79,1.79,0,0,0-1.784-1.791h-50.1a1.794,1.794,0,0,0-1.79,1.791v50.1a1.792,1.792,0,0,0,1.79,1.791h49.2a.894.894,0,0,1,.9.9v4.533a.886.886,0,0,0,.887.89h6.324a.892.892,0,0,0,.9-.89v-6.325a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#768ec7"></path>
+  <g id="Group_1987" data-name="Group 1987" transform="translate(-363.609 -830.175)">
+    <g id="Icon_5" transform="translate(-47.037 -132.831)" clip-path="url('#clip-path')">
+      <path id="Path_1512" data-name="Path 1512" d="M421.5,1095.5h39.464v3.171H421.5Z" transform="translate(-3.65 -96.936)" fill="none" stroke="#fff" stroke-miterlimit="8" stroke-width="1.5" fill-rule="evenodd"></path>
+      <path id="Path_1513" data-name="Path 1513" d="M436.5,979.5h33.8v21.9H436.5Z" transform="translate(-15.818 -2.839)" fill="none" stroke="#fff" stroke-miterlimit="8" stroke-width="1.5" fill-rule="evenodd"></path>
+      <text id="_4K" data-name="4K" transform="translate(429.5 992)" fill="#fff" font-size="13" font-family="frutiger, frutiger linotype, univers, calibri, gill sans, gill sans mt, myriad pro, myriad, dejavu sans condensed, liberation sans, nimbus sans l, tahoma, geneva, helvetica neue, helvetica, arial, sans-serif" font-weight="700"><tspan x="0" y="0">4K</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg id="Icon_speaker" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <path id="Path_273" data-name="Path 273" d="M114.521,230.126h-4.535a.892.892,0,0,1-.891-.892V180.027a1.79,1.79,0,0,0-1.784-1.791h-50.1a1.794,1.794,0,0,0-1.79,1.791v50.1a1.792,1.792,0,0,0,1.79,1.791h49.2a.894.894,0,0,1,.9.9v4.533a.886.886,0,0,0,.887.89h6.324a.892.892,0,0,0,.9-.89v-6.325a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#768ec7"></path>
+  <g id="Group_1962" data-name="Group 1962" transform="translate(0.295 1)">
+    <g id="Group_1963" data-name="Group 1963" transform="translate(30.705 18.506)">
+      <path id="Path_1531" data-name="Path 1531" d="M245.26,235.264a20.947,20.947,0,0,0-.46-22.065" transform="translate(-239.046 -216.874)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.6"></path>
+      <path id="Path_1532" data-name="Path 1532" d="M281.579,244.345A16.148,16.148,0,0,0,281.2,228.9" transform="translate(-278.328 -229.245)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.6"></path>
+      <path id="Path_1533" data-name="Path 1533" d="M316.4,242.7a10.744,10.744,0,0,1,.259,9.048" transform="translate(-316.4 -239.867)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.6"></path>
+    </g>
+    <path id="Path_1538" data-name="Path 1538" d="M-70,1761.688v-7.3h4.962L-55.21,1748v19.8l-9.9-6.11Z" transform="translate(81.704 -1732.016)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.6"></path>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg id="Icon_resistant" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <path id="Path_273" data-name="Path 273" d="M114.521,230.126h-4.535a.892.892,0,0,1-.891-.892V180.027a1.79,1.79,0,0,0-1.784-1.791h-50.1a1.794,1.794,0,0,0-1.79,1.791v50.1a1.792,1.792,0,0,0,1.79,1.791h49.2a.894.894,0,0,1,.9.9v4.533a.886.886,0,0,0,.887.89h6.324a.892.892,0,0,0,.9-.89v-6.325a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#768ec7"></path>
+  <g id="Group_1966" data-name="Group 1966" transform="translate(-977.212 -7111.906)">
+    <g id="Rectangle_700" data-name="Rectangle 700" transform="translate(989 7142.746)" fill="none" stroke="#fff" stroke-width="1.8">
+      <rect width="30.975" height="6.531" stroke="none"></rect>
+      <rect x="0.9" y="0.9" width="29.175" height="4.731" fill="none"></rect>
+    </g>
+    <path id="Path_1539" data-name="Path 1539" d="M-5706.729,7034.764l10.806,10.145,10.832-17.979" transform="translate(6699.713 97.693)" fill="none" stroke="#fff" stroke-width="1.8"></path>
+    <line id="Line_198" data-name="Line 198" x2="30.975" transform="translate(989 7152.149)" fill="none" stroke="#fff" stroke-width="1.8"></line>
+    <path id="Path_1540" data-name="Path 1540" d="M-5692.633,7023.436l5.552-.768,1.244,5.353" transform="translate(6701.83 101.898)" fill="none" stroke="#fff" stroke-width="1.8"></path>
+  </g>
+</svg>
