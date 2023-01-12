@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.23" height="60.23" viewBox="0 0 60.23 60.23">
+  <defs>
+    <clipPath id="clip-Icon_Dynamics-365_3">
+      <rect width="60.23" height="60.23"></rect>
+    </clipPath>
+  </defs>
+  <g id="Icon_Dynamics-365_3" data-name="Icon_Dynamics-365 – 3" clip-path="url('#clip-Icon_Dynamics-365_3')">
+    <rect width="60.23" height="60.23" fill="#fff"></rect>
+    <g id="Group_1965" data-name="Group 1965" transform="translate(-851.266 -2563.766)">
+      <path id="Path_1004" data-name="Path 1004" d="M114.752,230.329H110.2a.9.9,0,0,1-.895-.9v-49.4a1.8,1.8,0,0,0-1.791-1.8h-50.3a1.8,1.8,0,0,0-1.8,1.8v50.294a1.8,1.8,0,0,0,1.8,1.8H106.61a.9.9,0,0,1,.9.9v4.551a.889.889,0,0,0,.891.893h6.348a.9.9,0,0,0,.9-.893v-6.349a.9.9,0,0,0-.9-.9" transform="translate(795.848 2385.53)" fill="#8fc740"></path>
+      <path id="Article_5_Icons_4" data-name="Article 5 Icons_4" d="M356.317,341.7l6.431,5.9-6.431,5.888m-16.6-15.534,5.888-5.355,5.888,5.355M332.755,359.92l-5.355-5.9,5.355-5.888m-5.355,5.888h12.687a5.579,5.579,0,0,1,5.519,5.632v5.079M362.748,347.6H350.409a4.825,4.825,0,0,0-4.8,4.843v13.363m0,1.075V332.6" transform="translate(532.637 2241.582)" fill="none" stroke="#fff" stroke-miterlimit="8" stroke-width="1.6"></path>
+    </g>
+  </g>
+</svg>
