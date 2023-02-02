@@ -2043,7 +2043,7 @@ a:focus .flickity-page-dots .dot, a:hover .flickity-page-dots .dot, button:focus
   }
 }
 
-@supports ((-webkit-backdrop-filter: blur(12px)) or (backdrop-filter: blur(12px))) {
+@supports ((-webkit-backdrop-filter: blur(12px))) or ((-webkit-backdrop-filter: blur(12px)) or (backdrop-filter: blur(12px))) {
   .tingle-modal {
     -webkit-backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
