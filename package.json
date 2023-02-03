@@ -10,13 +10,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.2",
+    "@parcel/transformer-sass": "^2.8.3",
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
-    "bootstrap-icons": "^1.10.2",
+    "bootstrap-icons": "^1.10.3",
     "cssnano": "^5.1.14",
-    "parcel": "^2.8.2",
-    "postcss": "^8.4.19",
-    "sass": "^1.56.2"
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.21",
+    "sass": "^1.58.0"
   }
 }
