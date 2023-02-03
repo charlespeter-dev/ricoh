@@ -1,0 +1,81 @@
+.reviews {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.reviews .flickity-viewport {
+  will-change: height;
+  transition: height .3s ease-in-out;
+}
+
+.reviews .flickity-prev-next-button {
+  display: none;
+}
+
+.reviews .flickity-page-dots {
+  bottom: 12px;
+}
+
+.reviews .flickity-page-dots .dot {
+  border-color: #cf142b;
+}
+
+.reviews .flickity-enabled .reviews__carousel-cell {
+  visibility: visible;
+}
+
+.reviews__carousel-cell {
+  width: 100%;
+  visibility: hidden;
+  padding: 36px;
+  position: relative;
+  overflow: hidden;
+}
+
+.reviews__text {
+  color: #333;
+  font-weight: 300;
+}
+
+.reviews__text p {
+  font-size: 125%;
+}
+
+.reviews__author-info {
+  display: block;
+  overflow: hidden;
+}
+
+.reviews__author-thumb {
+  width: 50px;
+  height: 50px;
+  float: left;
+  border-radius: 50%;
+  margin: 0 12px 0 0;
+}
+
+.reviews__author-name {
+  margin: 12px 0 0;
+  font-weight: bold;
+  display: block;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews__carousel-cell {
+    width: 40.5856%;
+    padding: 72px 36px;
+  }
+}
+
+@media screen and (min-width: 1296px) {
+  .reviews {
+    padding: 0 36px;
+  }
+
+  .reviews__carousel-cell {
+    width: 25%;
+  }
+}
+
