@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60.234" height="60.234" viewBox="0 0 60.234 60.234"><defs><style>.a {
+  fill: #8fc740;
+}
+
+.b {
+  fill: #fff;
+}
+
+</style></defs><g transform="translate(-851.266 -2563.766)"><path class="a" d="M114.752,230.329H110.2a.9.9,0,0,1-.895-.9v-49.4a1.8,1.8,0,0,0-1.791-1.8h-50.3a1.8,1.8,0,0,0-1.8,1.8v50.294a1.8,1.8,0,0,0,1.8,1.8H106.61a.9.9,0,0,1,.9.9v4.551a.889.889,0,0,0,.891.893h6.348a.9.9,0,0,0,.9-.893v-6.349a.9.9,0,0,0-.9-.9" transform="translate(795.848 2385.53)"></path><g transform="translate(0 2)"><g transform="translate(859.266 2571.807)"><path class="b" d="M-1-1H24.969V33.008H-1ZM22.969,1H1V31.008H22.969Z" transform="translate(7.755 0.392)"></path><path class="b" d="M-.9-.9H4.76V27.655H-.9ZM2.96.9H.9V25.855H2.96Z" transform="translate(3.895 3.018)"></path><path class="b" d="M-.9-.9H4.4V22.353H-.9ZM2.6.9H.9V20.553H2.6Z" transform="translate(0.392 5.669)"></path><path class="b" d="M16.675,1H0V-1H16.675Z" transform="translate(11.401 6.071)"></path><path class="b" d="M16.675,1H0V-1H16.675Z" transform="translate(11.401 9.905)"></path><path class="b" d="M13.708,1H0V-1H13.708Z" transform="translate(11.401 13.74)"></path><path class="b" d="M8.708,1H0V-1H8.708Z" transform="translate(11.401 17.575)"></path></g><ellipse class="a" cx="6.975" cy="6.975" rx="6.975" ry="6.975" transform="translate(878.323 2590.355) rotate(-17)"></ellipse><path class="b" d="M6.975,1.6a5.375,5.375,0,1,0,5.375,5.375A5.382,5.382,0,0,0,6.975,1.6m0-1.6A6.975,6.975,0,1,1,0,6.975,6.975,6.975,0,0,1,6.975,0Z" transform="translate(878.323 2590.355) rotate(-17)"></path><path class="b" d="M3.384,5.666-.632.49.632-.49,4.648,4.685Z" transform="translate(892.09 2598.134) rotate(-17)"></path></g></g></svg>
