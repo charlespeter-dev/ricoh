@@ -2212,11 +2212,11 @@
         // For Promises/A+, convert exceptions into rejections
         // Since jQuery.when doesn't unwrap thenables, we can skip the extra checks appearing in
         // Deferred#then to conditionally suppress rejection.
-        } catch (value1) {
+        } catch (value) {
             // Support: Android 4.0 only
             // Strict mode functions invoked without .call/.apply get global-object context
             reject.apply(undefined, [
-                value1
+                value
             ]);
         }
     }
@@ -5975,11 +5975,11 @@
                 try {
                     completed = false;
                     transport.send(requestHeaders, done);
-                } catch (e1) {
+                } catch (e) {
                     // Rethrow post-completion exceptions
-                    if (completed) throw e1;
+                    if (completed) throw e;
                     // Propagate others as results
-                    done(-1, e1);
+                    done(-1, e);
                 }
             }
             // Callback for when everything is done
