@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60.234" height="60.234" viewBox="0 0 60.234 60.234">
+  <g id="Icon_cost_effective" transform="translate(-851.266 -2563.766)">
+    <path id="Path_1004" data-name="Path 1004" d="M114.752,230.329H110.2a.9.9,0,0,1-.895-.9v-49.4a1.8,1.8,0,0,0-1.791-1.8h-50.3a1.8,1.8,0,0,0-1.8,1.8v50.294a1.8,1.8,0,0,0,1.8,1.8H106.61a.9.9,0,0,1,.9.9v4.551a.889.889,0,0,0,.891.893h6.348a.9.9,0,0,0,.9-.893v-6.349a.9.9,0,0,0-.9-.9" transform="translate(795.848 2385.53)" fill="#8fc740"/>
+    <g id="Group_2156" data-name="Group 2156" transform="translate(856.875 2567.042)">
+      <g id="Group_2433" data-name="Group 2433" transform="translate(-264.191 -1416.616)">
+        <path id="Path_1506" data-name="Path 1506" d="M411,1436a15.516,15.516,0,0,1,11.4,14.925,15.355,15.355,0,0,1-2.071,7.723" transform="translate(-121.276 -11.178)" fill="none" stroke="#fff" stroke-miterlimit="8" stroke-width="2" fill-rule="evenodd"/>
+        <path id="Path_1507" data-name="Path 1507" d="M409.527,1432.749l.431-.244-1.254-2.031,2.211-1.045-.222-.429L408,1430.274Z" transform="translate(-119.059 -5.612)" fill="none" stroke="#fff" stroke-miterlimit="8" stroke-width="1" fill-rule="evenodd"/>
+        <path id="Path_1508" data-name="Path 1508" d="M279.736,1451.4a15.744,15.744,0,0,1,6.235-17.847,15.3,15.3,0,0,1,7.577-2.551" transform="translate(-9.075 -6.928)" fill="none" stroke="#fff" stroke-miterlimit="8" stroke-width="2" fill-rule="evenodd"/>
+        <path id="Path_1509" data-name="Path 1509" d="M276.69,1555.217l-.424-.217-1.022,2.179-2.006-1.224-.238.427,2.445,1.488Z" transform="translate(-4.515 -112.435)" fill="none" stroke="#fff" stroke-miterlimit="8" stroke-width="1" fill-rule="evenodd"/>
+        <path id="Path_1510" data-name="Path 1510" d="M318.3,1593.683a15.543,15.543,0,0,1-18.508,2.785A15.363,15.363,0,0,1,294,1591" transform="translate(-21.825 -142.93)" fill="none" stroke="#fff" stroke-miterlimit="8" stroke-width="2" fill-rule="evenodd"/>
+        <path id="Path_1511" data-name="Path 1511" d="M444,1607.1l.017.495,2.438-.083-.094,2.44.5.017.114-2.971Z" transform="translate(-149.659 -157.069)" fill="none" stroke="#fff" stroke-miterlimit="8" stroke-width="1" fill-rule="evenodd"/>
+        <g id="Group_1537" data-name="Group 1537" transform="translate(280.429 1431.985)">
+          <text id="_" data-name="$" transform="translate(0.152 13.601)" fill="#fff" font-size="18" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">$</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

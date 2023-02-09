@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="Icon_minimised_risk" transform="translate(-0.25 -1068.899)">
+    <path id="Path_273" data-name="Path 273" d="M153.923,264.719h-7.559a1.487,1.487,0,0,1-1.485-1.486V181.222a2.983,2.983,0,0,0-2.974-2.986H58.4a2.989,2.989,0,0,0-2.984,2.986v83.5a2.987,2.987,0,0,0,2.984,2.986h82a1.491,1.491,0,0,1,1.5,1.493v7.555a1.476,1.476,0,0,0,1.479,1.483h10.539a1.486,1.486,0,0,0,1.5-1.483V266.212a1.494,1.494,0,0,0-1.5-1.493" transform="translate(-55.168 890.663)" fill="#8fc740"/>
+    <g id="Group_2712" data-name="Group 2712" transform="translate(4706.973 2139.434)">
+      <g id="RICOH_decrease_001" transform="translate(-4652.031 -1060.075) rotate(68)">
+        <path id="Path_2105" data-name="Path 2105" d="M0,33.1,21.415,11.686l11.89,11.89L56.882,0" transform="translate(0 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_2106" data-name="Path 2106" d="M0,0H14.157V14.148" transform="translate(42.724 0)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+      <g id="RICOH_cancel_001" transform="translate(-4694.883 -1039.665)">
+        <circle id="Ellipse_24" data-name="Ellipse 24" cx="12.16" cy="12.16" r="12.16" transform="translate(0 0)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        <g id="Group_2713" data-name="Group 2713" transform="translate(5.584 5.584)">
+          <line id="Line_405" data-name="Line 405" x2="13.154" y2="13.154" transform="translate(0 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Line_406" data-name="Line 406" y1="13.154" x2="13.154" transform="translate(0 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
