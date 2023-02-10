@@ -44,11 +44,11 @@
   padding: 0 30px !important;
 }
 
-.banner .callout h1, .banner .callout h4 {
+.banner .callout h1, .banner .callout h4, .banner .callout .h-20-24 {
   color: #fff;
 }
 
-.banner .callout h4 {
+.banner .callout h4, .banner .callout .h-20-24 {
   font-weight: 300;
 }
 
