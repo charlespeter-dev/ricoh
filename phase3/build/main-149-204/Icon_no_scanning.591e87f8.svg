@@ -1,0 +1,23 @@
+<svg id="Icon_no_scanning" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <path id="Path_273" data-name="Path 273" d="M114.521,230.126h-4.535a.892.892,0,0,1-.891-.892V180.027a1.79,1.79,0,0,0-1.784-1.791h-50.1a1.794,1.794,0,0,0-1.79,1.791v50.1a1.792,1.792,0,0,0,1.79,1.791h49.2a.894.894,0,0,1,.9.9v4.533a.886.886,0,0,0,.887.89h6.324a.892.892,0,0,0,.9-.89v-6.325a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#8fc740"></path>
+  <g id="Group_1964" data-name="Group 1964" transform="translate(-6.979 -16.545)">
+    <g id="Group_2668" data-name="Group 2668" transform="translate(16.244 29.84)">
+      <rect id="Rectangle_682" data-name="Rectangle 682" width="30.777" height="21.399" rx="3" transform="translate(2 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.6"></rect>
+      <g id="Group_1999" data-name="Group 1999" transform="translate(14.164 21.345)">
+        <line id="Line_191" data-name="Line 191" y2="2.572" transform="translate(0 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.6"></line>
+        <line id="Line_192" data-name="Line 192" y2="2.572" transform="translate(6.449 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.6"></line>
+      </g>
+      <rect id="Rectangle_967" data-name="Rectangle 967" width="12.777" height="3.776" rx="1" transform="translate(11 23.916)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.6"></rect>
+    </g>
+    <line id="Line_209" data-name="Line 209" x2="20" transform="translate(23.074 34.66)" fill="none" stroke="#fff" stroke-width="1.6"></line>
+    <line id="Line_210" data-name="Line 210" x2="19" transform="translate(23.074 39.686)" fill="none" stroke="#fff" stroke-width="1.6"></line>
+    <line id="Line_211" data-name="Line 211" x2="19" transform="translate(23.074 44.686)" fill="none" stroke="#fff" stroke-width="1.6"></line>
+    <g id="Group_2670" data-name="Group 2670" transform="translate(-1105.021 -2156.84)">
+      <g id="Ellipse_21" data-name="Ellipse 21" transform="translate(1137.596 2195.901) rotate(-17)" fill="#8fc740" stroke="#fff" stroke-width="1.6">
+        <ellipse cx="5.611" cy="5.61" rx="5.611" ry="5.61" stroke="none"></ellipse>
+        <ellipse cx="5.611" cy="5.61" rx="4.811" ry="4.81" fill="none"></ellipse>
+      </g>
+      <line id="Line_208" data-name="Line 208" x2="3.23" y2="4.163" transform="translate(1147.821 2202.157) rotate(-17)" fill="none" stroke="#fff" stroke-width="1.6"></line>
+    </g>
+  </g>
+</svg>
