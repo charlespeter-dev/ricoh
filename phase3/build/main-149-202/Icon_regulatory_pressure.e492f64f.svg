@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60.234" height="60.234" viewBox="0 0 60.234 60.234">
+  <g id="Icon_regulatory_pressure" transform="translate(-851.266 -2563.766)">
+    <path id="Path_1004" data-name="Path 1004" d="M114.752,230.329H110.2a.9.9,0,0,1-.895-.9v-49.4a1.8,1.8,0,0,0-1.791-1.8h-50.3a1.8,1.8,0,0,0-1.8,1.8v50.294a1.8,1.8,0,0,0,1.8,1.8H106.61a.9.9,0,0,1,.9.9v4.551a.889.889,0,0,0,.891.893h6.348a.9.9,0,0,0,.9-.893v-6.349a.9.9,0,0,0-.9-.9" transform="translate(795.848 2385.53)" fill="#8fc740"></path>
+    <g id="RICOH_3D_BIO_PRINTER_001" data-name="RICOH_3D BIO PRINTER_001" transform="translate(686.558 2485.981)">
+      <g id="Group_2691" data-name="Group 2691" transform="translate(184.229 88.1)">
+        <rect id="Rectangle_1017" data-name="Rectangle 1017" width="6.618" height="3.329" transform="translate(3.567 0)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"></rect>
+        <path id="Path_2052" data-name="Path 2052" d="M318.357,147l-.746,2.006h-1.865L315,147Z" transform="translate(-309.8 -143.671)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"></path>
+        <path id="Path_2053" data-name="Path 2053" d="M229.87,182.5v2.1c0,.48-.311.718-.842.718h-1.306a2.952,2.952,0,0,0-1.458.147,1.311,1.311,0,0,0-.576,1.074,1.473,1.473,0,0,0,.729,1.447,4.578,4.578,0,0,0,1.735.119c.384.006.769,0,1.147,0h5.437c.65,0,1.56-.17,1.933.531a.963.963,0,0,1-.249,1.192,1.415,1.415,0,0,1-.87.232c-.825,0-1.65-.011-2.475-.011h-8.489c-.475,0-1.1-.107-1.413.322a1.019,1.019,0,0,0-.158.808.921.921,0,0,0,.277.514,1.184,1.184,0,0,0,.808.226c1.854-.034,3.713-.011,5.567-.011h8.449" transform="translate(-222.992 -177.165)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"></path>
+      </g>
+      <g id="Group_2692" data-name="Group 2692" transform="translate(181.907 103.907)">
+        <path id="Path_2054" data-name="Path 2054" d="M200.907,371.773c0,5.861-4.549,4.516-5.623,12.462a.36.36,0,0,1-.333.305h-7.579a.314.314,0,0,1-.333-.333v-3.674h-2.566a.334.334,0,0,1-.333-.333v-3h-1.922a.308.308,0,0,1-.271-.136.324.324,0,0,1,0-.305l1.379-5.052a9.268,9.268,0,0,1,.825-3.905h15.926A9.329,9.329,0,0,1,200.907,371.773Z" transform="translate(-181.907 -367.8)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"></path>
+      </g>
+    </g>
+  </g>
+</svg>

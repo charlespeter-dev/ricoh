@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60.234" height="60.234" viewBox="0 0 60.234 60.234">
+  <g id="Icon_multiple_systems" transform="translate(-851.266 -2563.766)">
+    <path id="Path_1004" data-name="Path 1004" d="M114.752,230.329H110.2a.9.9,0,0,1-.895-.9v-49.4a1.8,1.8,0,0,0-1.791-1.8h-50.3a1.8,1.8,0,0,0-1.8,1.8v50.294a1.8,1.8,0,0,0,1.8,1.8H106.61a.9.9,0,0,1,.9.9v4.551a.889.889,0,0,0,.891.893h6.348a.9.9,0,0,0,.9-.893v-6.349a.9.9,0,0,0-.9-.9" transform="translate(795.848 2385.53)" fill="#8fc740"></path>
+    <g id="Group_2705" data-name="Group 2705" transform="translate(7011.158 3630.836)">
+      <g id="Group_2704" data-name="Group 2704" transform="translate(-6152.146 -1053.428)">
+        <rect id="Rectangle_1025" data-name="Rectangle 1025" width="31.574" height="20.397" transform="translate(2.605 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"></rect>
+        <rect id="Rectangle_1026" data-name="Rectangle 1026" width="36.791" height="1.377" transform="translate(0 20.397)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"></rect>
+        <rect id="Rectangle_1027" data-name="Rectangle 1027" width="27.252" height="16.444" transform="translate(4.769 1.973)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"></rect>
+      </g>
+      <g id="Group_2703" data-name="Group 2703" transform="translate(-6125.787 -1046.107)">
+        <g id="RICOH_device_001" transform="translate(0 0)">
+          <path id="Path_2055" data-name="Path 2055" d="M233.34,46.084V63.523a1.685,1.685,0,0,1-1.684,1.684h-8.972A1.685,1.685,0,0,1,221,63.523V46.084a1.685,1.685,0,0,1,1.684-1.684h8.972A1.685,1.685,0,0,1,233.34,46.084Z" transform="translate(-221 -44.4)" fill="#8fc740" stroke="#fff" stroke-miterlimit="10" stroke-width="1"></path>
+          <path id="Path_2056" data-name="Path 2056" d="M233.34,46.084v1.392H221V46.084a1.685,1.685,0,0,1,1.684-1.684h8.972A1.685,1.685,0,0,1,233.34,46.084Z" transform="translate(-221 -44.4)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"></path>
+          <path id="Path_2057" data-name="Path 2057" d="M233.34,540.8v2.1a1.685,1.685,0,0,1-1.684,1.684h-8.972A1.685,1.685,0,0,1,221,542.9v-2.1Z" transform="translate(-221 -523.776)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"></path>
+          <line id="Line_399" data-name="Line 399" x2="2.373" transform="translate(7.95 19.007)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"></line>
+          <line id="Line_400" data-name="Line 400" x2="2.377" transform="translate(2.017 19.007)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"></line>
+          <line id="Line_401" data-name="Line 401" x2="4.911" transform="translate(3.498 1.629)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"></line>
+          <circle id="Ellipse_20" data-name="Ellipse 20" cx="0.281" cy="0.281" r="0.281" transform="translate(5.889 18.725)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"></circle>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

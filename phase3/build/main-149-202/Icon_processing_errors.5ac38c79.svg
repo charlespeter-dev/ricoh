@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60.234" height="60.234" viewBox="0 0 60.234 60.234">
+  <g id="Icon_processing_errors" transform="translate(-851.266 -2563.766)">
+    <path id="Path_1004" data-name="Path 1004" d="M114.752,230.329H110.2a.9.9,0,0,1-.895-.9v-49.4a1.8,1.8,0,0,0-1.791-1.8h-50.3a1.8,1.8,0,0,0-1.8,1.8v50.294a1.8,1.8,0,0,0,1.8,1.8H106.61a.9.9,0,0,1,.9.9v4.551a.889.889,0,0,0,.891.893h6.348a.9.9,0,0,0,.9-.893v-6.349a.9.9,0,0,0-.9-.9" transform="translate(795.848 2385.53)" fill="#8fc740"></path>
+    <g id="Group_2701" data-name="Group 2701" transform="translate(7441.785 3336.223)">
+      <g id="Group_2700" data-name="Group 2700" transform="translate(164 423)">
+        <g id="RICOH_Integration_001.svg_" data-name="RICOH_Integration_001.svg " transform="translate(-6746 -1186)">
+          <g id="Group_2698" data-name="Group 2698" transform="translate(0 0)">
+            <g id="Group_2695" data-name="Group 2695" transform="translate(24.105)">
+              <path id="Path_2081" data-name="Path 2081" d="M332.64,178.49a18.423,18.423,0,0,1,11.017,26.916" transform="translate(-332.208 -177.276)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"></path>
+            </g>
+            <g id="Group_2696" data-name="Group 2696" transform="translate(0 0.438)">
+              <path id="Path_2083" data-name="Path 2083" d="M172.446,197.15a18.423,18.423,0,0,1,16.428-24" transform="translate(-170.45 -173.15)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"></path>
+            </g>
+            <g id="Group_2697" data-name="Group 2697" transform="translate(3.735 28.722)">
+              <path id="Path_2085" data-name="Path 2085" d="M218.457,370.918a18.423,18.423,0,0,1-28.907-3.208" transform="translate(-189.55 -367.71)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"></path>
+            </g>
+          </g>
+          <g id="Group_2699" data-name="Group 2699" transform="translate(4.826 4.146)">
+            <g id="RICOH_cancel_001" transform="translate(0 0)">
+              <ellipse id="Ellipse_22" data-name="Ellipse 22" cx="14.61" cy="14.61" rx="14.61" ry="14.61" transform="translate(0 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"></ellipse>
+            </g>
+            <g id="Group_2699-2" data-name="Group 2699" transform="translate(6.708 6.708)">
+              <line id="Line_402" data-name="Line 402" x2="15.803" y2="15.803" transform="translate(0 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"></line>
+              <line id="Line_403" data-name="Line 403" y1="15.803" x2="15.803" transform="translate(0 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"></line>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="Path_2086" data-name="Path 2086" d="M-6584.318-741.294l3.438,1.936,1.407-3.378" transform="translate(-373.769 1570.8) rotate(14)" fill="none" stroke="#fff" stroke-width="1.5"></path>
+      <path id="Path_2087" data-name="Path 2087" d="M-6584.318-741.294l3.438,1.936,1.407-3.378" transform="matrix(-0.454, -0.891, 0.891, -0.454, -8877.72, -6931.48)" fill="none" stroke="#fff" stroke-width="1.5"></path>
+      <path id="Path_2088" data-name="Path 2088" d="M-6584.318-741.294l3.438,1.936,1.407-3.378" transform="matrix(-0.208, 0.978, -0.978, -0.208, -8649.186, 5522.431)" fill="none" stroke="#fff" stroke-width="1.5"></path>
+    </g>
+  </g>
+</svg>
