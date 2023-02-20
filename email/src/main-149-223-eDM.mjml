@@ -41,7 +41,7 @@
       <!-- intro & thumbnail -->
 
       <mj-section background-color="#F3F3F3">
-        <mj-column>
+        <mj-column width="51%">
 
           <mj-text mj-class="resource-type" padding-bottom="0">
             Article
@@ -60,8 +60,8 @@
           </mj-button>
 
         </mj-column>
-        <mj-column>
-          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/159-220/EDM-BookThumbnail.png" alt="" />
+        <mj-column width="49%">
+          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/149-223/EDM-BookThumbnail.png" alt="" />
         </mj-column>
       </mj-section>
 
