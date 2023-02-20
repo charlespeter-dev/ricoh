@@ -1,0 +1,167 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" />
+      <mj-wrapper background-color="#eeeeee" />
+      <mj-section background-color="#ffffff" />
+      <mj-text font-size="16px" line-height="24px" color="#666666" />
+      <mj-table font-size="16px" line-height="22px" color="#666666" />
+      <mj-button font-size="18px" line-height="22px" font-weight="700" color="#FFFFFF" background-color="#8FC740" width="100%" border-radius="0" />
+      <mj-divider border-color="#8FC740" container-background-color="#8FC740" border-width="3px" border-style="solid" padding="0" />
+      <mj-class name="subheading" font-size="18px" line-height="23px" color="#666666" />
+      <mj-class name="h1" font-size="26px" line-height="32px" font-weight="700" color="#333333" />
+      <mj-class name="h3" font-size="16px" line-height="22px" color="#8FC740" font-weight="700" />
+      <mj-class name="resource-type" font-size="16px" line-height="22px" color="#8FC740" font-weight="700" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-wrapper full-width="full-width">
+
+      <!-- header -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/edm-hw/logo.png" alt="" width="130px" height="47.89px" align="left" />
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- intro & thumbnail -->
+
+      <mj-section background-color="#F3F3F3">
+        <mj-column>
+
+          <mj-text mj-class="resource-type" padding-bottom="0">
+            Article
+          </mj-text>
+
+          <mj-text mj-class="h1">
+            The Evolution of Work with Robotic Process Automation
+          </mj-text>
+
+          <mj-text mj-class="subheading" padding-top="0">
+            Meet tomorrow’s work expectations with agile, automated operations
+          </mj-text>
+
+          <mj-button href="https://www.ricoh.com/">
+            Download now
+          </mj-button>
+
+        </mj-column>
+        <mj-column>
+          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/159-220/EDM-BookThumbnail.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <!-- content -->
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+
+          <mj-text>
+            Hi {first name},
+          </mj-text>
+
+          <mj-text>
+            In an increasingly competitive and fast-paced business landscape, technologies such as Robotic Process Automation (RPA) have become a key enabler of efficient and resilient operations. It empowers businesses to simplify complex workloads faster and easier than ever before. <strong>But how does RPA work?</strong>
+          </mj-text>
+
+          <mj-text>
+            Using software robots, or ‘bots,’ RPA automates traditionally repetitive, labour-intensive tasks and time-consuming manual processes for optimised operations. These bots can be programmed to perform various work, from data entry to processing customer service requests. According to AI Multiple, <strong>70% to 80% of rules-based processes can be automated using RPA tools</strong>. This helps improve accuracy and save costs while freeing your employees to focus on higher value work.
+          </mj-text>
+
+          <mj-text>
+            But like any technology, RPA is not a silver bullet on its own. It requires the right solution and a partner that empowers agile processes. Find out more from our <span style="color: #8FC740;">Ricoh RPA &amp; RED Solution website</span>.
+          </mj-text>
+
+          <mj-text>
+            With Ricoh Electronic Digital Worker (RED), you get the best of both worlds with an RPA solutions partner ready to take your business to greater heights. RED is an electronic ‘digital worker’ that transforms manual workplace processes using powerful automation tools and leveraging the expertise of Ricoh Professional Services. It enables:
+          </mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-left="20px" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-table cellpadding="4px">
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">Easy, fast, and error-free process automation</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">Seamless integration with all applications and systems</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">Employees to focus on high-value tasks, improving operational efficiency</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-left="30px" padding-right="30px">
+        <mj-column>
+          <mj-text align="center" padding-bottom="0">
+            <strong>Learn how we can help you kickstart your journey to automation and agile operations today.</strong>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- button -->
+
+      <mj-section padding-top="0">
+        <mj-column>
+          <mj-button padding-top="0" href="https://www.ricoh.com/" width="350px">
+            Download the full article
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer top -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-top" padding-top="25px">
+            © 2023 Ricoh. All rights reserved.
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/edm-hw/logo.png" alt="" width="130px" height="47.89px" align="right" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer bottom -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-bottom" align="center">
+            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"></span style="color: #333; text-decoration: underline;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"><span style="color: #333; text-decoration: underline;">Manage Preferences</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
