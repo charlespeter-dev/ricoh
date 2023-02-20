@@ -1,0 +1,167 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" />
+      <mj-wrapper background-color="#eeeeee" />
+      <mj-section background-color="#ffffff" />
+      <mj-text font-size="16px" line-height="24px" color="#666666" />
+      <mj-table font-size="16px" line-height="22px" color="#666666" />
+      <mj-button font-size="18px" line-height="22px" font-weight="700" color="#FFFFFF" background-color="#8FC740" width="100%" border-radius="0" />
+      <mj-divider border-color="#8FC740" border-width="3px" border-style="solid" padding="0" />
+      <mj-class name="subheading" font-size="18px" line-height="23px" color="#666666" />
+      <mj-class name="h1" font-size="26px" line-height="32px" font-weight="700" color="#333333" />
+      <mj-class name="h3" font-size="16px" line-height="22px" color="#8FC740" font-weight="700" />
+      <mj-class name="resource-type" font-size="16px" line-height="22px" color="#8FC740" font-weight="700" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-wrapper full-width="full-width">
+
+      <!-- header -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/edm-hw/logo.png" alt="" width="130px" height="47.89px" align="left" />
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- intro & thumbnail -->
+
+      <mj-section background-color="#F3F3F3">
+        <mj-column>
+
+          <mj-text mj-class="resource-type" padding-bottom="0">
+            Case Study
+          </mj-text>
+
+          <mj-text mj-class="h1">
+            How a Real Estate Leader Enabled Agile HR Workflow with Ricoh
+          </mj-text>
+
+          <mj-text mj-class="subheading" padding-top="0">
+            Streamlining HR operations with cutting-edge solutions
+          </mj-text>
+
+          <mj-button href="https://www.ricoh.com/">
+            Download now
+          </mj-button>
+
+        </mj-column>
+        <mj-column>
+          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/159-220/EDM-BookThumbnail.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <!-- content -->
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+
+          <mj-text>
+            Hi {first name},
+          </mj-text>
+
+          <mj-text>
+            The hurdles in the paper-based HR documentation process can burden your HR department tremendously. Having to track, store, and handle HR documentation manually should be a thing of the past. Today, the future of work lies in adopting modern Content and Collaboration solutions that empower businesses, to free up employees for higher-value work.
+          </mj-text>
+
+          <mj-text>
+            That’s the kind of solution Mapletree Investments Pte. Ltd, a global real estate leader, unlocked when they partnered with Ricoh. Ricoh’s Content and Collaboration solutions allow you to store documents in the cloud, create a modern and social intranet, and automate the capture and processing of information, streamlining your HR processes and enabling a more efficient workflow.
+          </mj-text>
+
+          <mj-text>
+            Learn how Mapletree Investments leveraged Ricoh solutions to bring agility to their HR workflow—enabling seamless day-to-day operations while increasing efficiency and productivity.
+          </mj-text>
+
+          <mj-text>
+            Explore how Ricoh’s Content and Collaboration solutions enable you to:
+          </mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-left="20px" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-table cellpadding="4px">
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">Securely access documents when you need them</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">Retrieve what you need with powerful search options</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">Keep your workflow moving with lists and reminders</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-left="30px" padding-right="30px">
+        <mj-column>
+          <mj-text align="center" padding-bottom="0">
+            <strong>Learn more about how Ricoh Content and Collaboration solutions can transform the way you work.</strong>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- button -->
+
+      <mj-section padding-top="0">
+        <mj-column>
+          <mj-button padding-top="0" href="https://www.ricoh.com/" width="350px">
+            Download the case study now
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer top -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-top" padding-top="25px">
+            © 2023 Ricoh. All rights reserved.
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/edm-hw/logo.png" alt="" width="130px" height="47.89px" align="right" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer bottom -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-bottom" align="center">
+            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"></span style="color: #333; text-decoration: underline;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"><span style="color: #333; text-decoration: underline;">Manage Preferences</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
