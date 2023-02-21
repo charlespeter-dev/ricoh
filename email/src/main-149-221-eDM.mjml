@@ -48,11 +48,11 @@
           </mj-text>
 
           <mj-text mj-class="h1">
-            The Evolution of Work with Robotic Process Automation
+            Process Automation Is the Future of Business
           </mj-text>
 
           <mj-text mj-class="subheading" padding-top="0">
-            Meet tomorrow’s work expectations with agile, automated operations
+            Accelerating digital transformation through automation
           </mj-text>
 
           <mj-button href="https://www.ricoh.com/">
@@ -61,7 +61,7 @@
 
         </mj-column>
         <mj-column width="49%">
-          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/149-223/EDM-BookThumbnail.png" alt="" />
+          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/149-221/BookThumbnail.png" alt="" />
         </mj-column>
       </mj-section>
 
