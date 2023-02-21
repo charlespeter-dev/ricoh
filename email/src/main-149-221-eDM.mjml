@@ -56,7 +56,7 @@
           </mj-text>
 
           <mj-button href="https://www.ricoh.com/">
-            Download now
+            Read now
           </mj-button>
 
         </mj-column>
@@ -75,19 +75,15 @@
           </mj-text>
 
           <mj-text>
-            In an increasingly competitive and fast-paced business landscape, technologies such as Robotic Process Automation (RPA) have become a key enabler of efficient and resilient operations. It empowers businesses to simplify complex workloads faster and easier than ever before. <strong>But how does RPA work?</strong>
+            Process automation has become an essential tool for companies looking to streamline their operations, increase productivity, and drive profitability. By automating manual and repetitive tasks, businesses can save time, reduce costs, and scale their operations more effectively to stay competitive in today’s fast-paced business landscape. So, how do you go about it?
           </mj-text>
 
           <mj-text>
-            Using software robots, or ‘bots,’ RPA automates traditionally repetitive, labour-intensive tasks and time-consuming manual processes for optimised operations. These bots can be programmed to perform various work, from data entry to processing customer service requests. According to AI Multiple, <strong>70% to 80% of rules-based processes can be automated using RPA tools</strong>. This helps improve accuracy and save costs while freeing your employees to focus on higher value work.
+            At Ricoh, we offer a wide range of services and solutions that ensure our clients get the most out of their process automation investments. Our team of experts can provide consulting and advisory services on anything from software selection, system integration, and workflow optimisation to developing tailored business processes and training users in best practices.
           </mj-text>
 
           <mj-text>
-            But like any technology, RPA is not a silver bullet on its own. It requires the right solution and a partner that empowers agile processes. Find out more from our <span style="color: #8FC740;">Ricoh RPA &amp; RED Solution website</span>.
-          </mj-text>
-
-          <mj-text>
-            With Ricoh Electronic Digital Worker (RED), you get the best of both worlds with an RPA solutions partner ready to take your business to greater heights. RED is an electronic ‘digital worker’ that transforms manual workplace processes using powerful automation tools and leveraging the expertise of Ricoh Professional Services. It enables:
+            Our <span style="color: #8FC740;">Process Automation</span> solutions are tailored to suit the unique needs of each business. In this article, you’ll learn:
           </mj-text>
 
         </mj-column>
@@ -98,35 +94,43 @@
           <mj-table cellpadding="4px">
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Easy, fast, and error-free process automation</td>
+              <td style="padding-left: 10px;">Why workflow automation is key to digital transformation</td>
             </tr>
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Seamless integration with all applications and systems</td>
+              <td style="padding-left: 10px;">Top 5 benefits of adopting workflow automation solutions</td>
             </tr>
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Employees to focus on high-value tasks, improving operational efficiency</td>
+              <td style="padding-left: 10px;">How to transform your operations with outcomes-based solutions</td>
             </tr>
           </mj-table>
         </mj-column>
       </mj-section>
 
-      <mj-section padding-left="30px" padding-right="30px">
+      <!-- button -->
+
+      <mj-section>
         <mj-column>
-          <mj-text align="center" padding-bottom="0">
-            <strong>Learn how we can help you kickstart your journey to automation and agile operations today.</strong>
-          </mj-text>
+          <mj-button padding-top="0" href="https://www.ricoh.com/" width="350px">
+            Read the article now
+          </mj-button>
         </mj-column>
       </mj-section>
 
-      <!-- button -->
+      <!-- more bold text -->
 
-      <mj-section padding-top="0">
+      <mj-section padding-top="0" padding-left="30px" padding-right="30px">
         <mj-column>
-          <mj-button padding-top="0" href="https://www.ricoh.com/" width="350px">
-            Download the full article
-          </mj-button>
+          <mj-text>
+            <strong>Find out how you can leverage <span style="color: #8FC740;">Ricoh’s Process Automation</span> solutions to transform your business at scale.</strong>
+          </mj-text>
+          <mj-text>
+            <strong><span style="color: #8FC740;">Contact our experts now</span> and empower your workflow today.</strong>
+          </mj-text>
+          <mj-text>
+            <strong>Thank you.</strong>
+          </mj-text>
         </mj-column>
       </mj-section>
 
