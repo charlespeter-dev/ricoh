@@ -584,7 +584,7 @@ function $3b4ec12f7f30e6e9$export$378fa78a8fea596f(_ref2) {
 function $3b4ec12f7f30e6e9$var$computeStyles(_ref5) {
     var state = _ref5.state, options = _ref5.options;
     var _options$gpuAccelerat = options.gpuAcceleration, gpuAcceleration = _options$gpuAccelerat === void 0 ? true : _options$gpuAccelerat, _options$adaptive = options.adaptive, adaptive = _options$adaptive === void 0 ? true : _options$adaptive, _options$roundOffsets = options.roundOffsets, roundOffsets = _options$roundOffsets === void 0 ? true : _options$roundOffsets;
-    var transitionProperty, property;
+    var transitionProperty;
     var commonStyles = {
         placement: (0, $0f2f0199dbc7c8d3$export$2e2bcd8739ae039)(state.placement),
         variation: (0, $55d412c966f7cc47$export$2e2bcd8739ae039)(state.placement),
@@ -1551,7 +1551,7 @@ function $df51816adb601187$export$ed5e13716264f202(generatorOptions) {
                 state.orderedModifiers = orderedModifiers.filter(function(m) {
                     return m.enabled;
                 }); // Validate the provided modifiers so that the consumer will get warned
-                var modifiers, _ref, name, flipModifier, _ref2, name1, _getComputedStyle, marginTop, marginRight, marginBottom, marginLeft, margin;
+                var modifiers, flipModifier, _getComputedStyle, marginTop, marginRight, marginBottom, marginLeft;
                 runModifierEffects();
                 return instance.update();
             },
