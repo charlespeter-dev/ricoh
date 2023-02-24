@@ -10,7 +10,7 @@ foreach ($htmls as $k => $html) {
 
         if (isset($argv[1]) && $argv[1] == 'all') {
             exec($cmd, $out);
-        } elseif (!isset($argv[1]) && in_array($foldername, ['main-147', 'main-149', 'main-151', 'main-152', 'main-158', 'main-159', 'main-176'])) {
+        } elseif (!isset($argv[1]) && in_array($foldername, ['main-159'])) {
             exec($cmd, $out);
         }
     }
