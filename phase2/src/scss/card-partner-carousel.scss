@@ -34,4 +34,16 @@
         transform: translateX(0);
     }
 
+    /* bs overrides */
+
+    .card {
+        --bs-card-bg: #f3f3f3;
+
+        .card-img {
+            img {
+                padding-inline: 1rem;
+            }
+        }
+    }
+
 }
