@@ -1,0 +1,37 @@
+@media (max-width: 767px) {
+  .card-partner-carousel .carousel-inner .carousel-item > div {
+    display: none;
+  }
+
+  .card-partner-carousel .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.card-partner-carousel .carousel-inner .carousel-item.active, .card-partner-carousel .carousel-inner .carousel-item-next, .card-partner-carousel .carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .card-partner-carousel .carousel-inner .carousel-item-end.active, .card-partner-carousel .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .card-partner-carousel .carousel-inner .carousel-item-start.active, .card-partner-carousel .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.card-partner-carousel .carousel-inner .carousel-item-end, .card-partner-carousel .carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+
+.card-partner-carousel .carousel-item {
+  text-align: center;
+}
+
+.card-partner-carousel .card {
+  --bs-card-bg: #f3f3f3;
+  align-items: center;
+}
+
