@@ -36,14 +36,13 @@
 
     /* bs overrides */
 
+    .carousel-item {
+        text-align: center;
+    }
+
     .card {
         --bs-card-bg: #f3f3f3;
-
-        .card-img {
-            img {
-                padding-inline: 1rem;
-            }
-        }
+        align-items: center;
     }
 
 }
