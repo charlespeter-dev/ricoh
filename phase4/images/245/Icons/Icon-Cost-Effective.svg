@@ -1,0 +1,16 @@
+<svg id="Icon-Reduce-Operational-Costs" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <path id="Path_273" data-name="Path 273" d="M114.521,230.126h-4.535a.892.892,0,0,1-.891-.892V180.027a1.79,1.79,0,0,0-1.784-1.791h-50.1a1.794,1.794,0,0,0-1.79,1.791v50.1a1.792,1.792,0,0,0,1.79,1.791h49.2a.894.894,0,0,1,.9.9v4.533a.886.886,0,0,0,.887.89h6.324a.892.892,0,0,0,.9-.89v-6.325a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#56a3da"/>
+  <g id="Group_2312" data-name="Group 2312" transform="translate(7.847 10.184)">
+    <rect id="Rectangle_753" data-name="Rectangle 753" width="8.661" height="16.385" transform="translate(0 13.778)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" style="isolation: isolate"/>
+    <path id="Path_1582" data-name="Path 1582" d="M-141.406-364.248a1.777,1.777,0,0,0,2.073-.1l13.082-8.906a1.6,1.6,0,0,0,.421-2.218l-.617-.9a1.593,1.593,0,0,0-2.212-.42l-5.616,3.825" transform="translate(163.095 395.425)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_1583" data-name="Path 1583" d="M-137.042-371.7v-.875a1.384,1.384,0,0,0-1.383-1.388h-8.359a1.378,1.378,0,0,0-.922.351,1.381,1.381,0,0,0-.466,1.037v.945a1.389,1.389,0,0,0,1.388,1.389" transform="translate(165.861 394.154)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_1584" data-name="Path 1584" d="M-150.247-367.32a1.388,1.388,0,0,1,1.383-1.388h1.233l6.852-.021a2.319,2.319,0,0,0,1.358-.446l1.658-1.1" transform="translate(166.71 392.647)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_1585" data-name="Path 1585" d="M-163.148-379.64l3.131.046a4.516,4.516,0,0,1,2.243.686l4.135,3.1" transform="translate(171.985 396.477)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_1586" data-name="Path 1586" d="M-163.148-363.283l1.456.022a2.446,2.446,0,0,1,.913.191l5.706,2.689c.232.1,1.748.751,1.993.813l3.253,1.118" transform="translate(171.985 389.789)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <ellipse id="Ellipse_38" data-name="Ellipse 38" cx="6.165" cy="6.165" rx="6.165" ry="6.165" transform="translate(16.462 4.355)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_221" data-name="Line 221" y2="4.398" transform="translate(22.612 -2.716)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_222" data-name="Line 222" y2="3.505" transform="translate(18.032 -0.651)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_223" data-name="Line 223" y2="3.505" transform="translate(27.191 -0.651)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+    <text id="_" data-name="$" transform="translate(20.704 12.668)" fill="#fff" font-size="8" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">$</tspan></text>
+  </g>
+</svg>
