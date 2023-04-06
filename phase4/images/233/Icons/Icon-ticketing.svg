@@ -1,0 +1,29 @@
+<svg id="Icon-ticketing" xmlns="http://www.w3.org/2000/svg" width="60.234" height="60.234" viewBox="0 0 60.234 60.234">
+  <path id="Path_1004" data-name="Path 1004" d="M114.752,230.329H110.2a.9.9,0,0,1-.895-.9v-49.4a1.8,1.8,0,0,0-1.791-1.8h-50.3a1.8,1.8,0,0,0-1.8,1.8v50.294a1.8,1.8,0,0,0,1.8,1.8H106.61a.9.9,0,0,1,.9.9v4.551a.889.889,0,0,0,.891.893h6.348a.9.9,0,0,0,.9-.893v-6.349a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#0f7ac9"/>
+  <g id="Group_2718" data-name="Group 2718" transform="translate(9 9.816)">
+    <g id="Group_2715" data-name="Group 2715" transform="translate(0 0)">
+      <g id="Rectangle_977" data-name="Rectangle 977" transform="translate(0 0)" fill="none" stroke="#fff" stroke-width="2">
+        <rect width="33" height="10" stroke="none"/>
+        <rect x="1" y="1" width="31" height="8" fill="none"/>
+      </g>
+      <line id="Line_315" data-name="Line 315" y2="7.149" transform="translate(10.276 1.937)" fill="none" stroke="#fff" stroke-width="2"/>
+      <path id="Path_1578" data-name="Path 1578" d="M0,2.218,1.582,3.323,3.952,0" transform="matrix(0.956, 0.292, -0.292, 0.956, 4.029, 2.696)" fill="none" stroke="#fff" stroke-width="1.6"/>
+    </g>
+    <g id="Group_2717" data-name="Group 2717" transform="translate(0 25)">
+      <g id="Rectangle_977-2" data-name="Rectangle 977" transform="translate(0 0)" fill="none" stroke="#fff" stroke-width="2">
+        <rect width="33" height="10" stroke="none"/>
+        <rect x="1" y="1" width="31" height="8" fill="none"/>
+      </g>
+      <line id="Line_315-2" data-name="Line 315" y2="7.149" transform="translate(10.276 1.958)" fill="none" stroke="#fff" stroke-width="2"/>
+      <path id="Path_1578-2" data-name="Path 1578" d="M0,2.218,1.582,3.323,3.952,0" transform="matrix(0.956, 0.292, -0.292, 0.956, 4.029, 2.717)" fill="none" stroke="#fff" stroke-width="1.6"/>
+    </g>
+    <g id="Group_2716" data-name="Group 2716" transform="translate(4 13)">
+      <g id="Rectangle_977-3" data-name="Rectangle 977" transform="translate(0 0)" fill="none" stroke="#fff" stroke-width="2">
+        <rect width="33" height="9" stroke="none"/>
+        <rect x="1" y="1" width="31" height="7" fill="none"/>
+      </g>
+      <line id="Line_315-3" data-name="Line 315" y2="7.149" transform="translate(9.851 1.448)" fill="none" stroke="#fff" stroke-width="2"/>
+      <path id="Path_1578-3" data-name="Path 1578" d="M0,2.218,1.582,3.323,3.952,0" transform="matrix(0.956, 0.292, -0.292, 0.956, 3.603, 2.206)" fill="none" stroke="#fff" stroke-width="1.6"/>
+    </g>
+  </g>
+</svg>
