@@ -1,6 +1,6 @@
 import "../../../node_modules/bootstrap/js/src/carousel";
 
-const carousels = document.querySelectorAll('.carousel');
+const carousels = document.querySelectorAll('.twox-partner-logo-carousel');
 
 carousels.forEach(function (el) {
 
