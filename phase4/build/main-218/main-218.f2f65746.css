@@ -1,0 +1,165 @@
+.callout-percentage-center {
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 0 50px;
+  display: flex;
+  position: relative;
+}
+
+@media screen and (min-width: 992px) {
+  .callout-percentage-center {
+    padding: 30px 0 50px;
+  }
+
+  .callout-percentage-center.reverse {
+    margin: 0 100px;
+  }
+}
+
+.callout-percentage-center.reverse .percentage-container {
+  flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 992px) {
+  .callout-percentage-center.reverse .percentage-container {
+    flex-direction: row-reverse;
+  }
+}
+
+.callout-percentage-center.reverse .percentage-container .source-mobile-reversed {
+  color: #666;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  display: block;
+}
+
+@media screen and (min-width: 992px) {
+  .callout-percentage-center.reverse .percentage-container .source-mobile-reversed {
+    display: none;
+  }
+}
+
+.callout-percentage-center.reverse .percentage-container .percent-text {
+  margin-top: unset;
+  left: unset;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 992px) {
+  .callout-percentage-center.reverse .percentage-container .percent-text {
+    text-align: right;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 15px;
+  }
+}
+
+.callout-percentage-center.reverse .percentage-container .percent-text .source {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .callout-percentage-center.reverse .percentage-container .percent-text .source {
+    text-align: right;
+    display: block;
+  }
+}
+
+.callout-percentage-center .percentage-container {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+@media screen and (min-width: 992px) {
+  .callout-percentage-center .percentage-container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.callout-percentage-center .percentage-container .percent-container {
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.callout-percentage-center .percentage-container .percent-container img {
+  width: 200px;
+}
+
+.callout-percentage-center .percentage-container .percent-container .percent {
+  background-color: #fff;
+  font-size: 6.25rem;
+  font-weight: 700;
+  line-height: 6.875rem;
+  position: absolute;
+  left: 40px;
+}
+
+@media screen and (min-width: 992px) {
+  .callout-percentage-center .percentage-container .percent-container .percent {
+    position: relative;
+    left: -150px;
+  }
+}
+
+.callout-percentage-center .percentage-container .percent-text {
+  margin-top: 30px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+  position: relative;
+}
+
+@media screen and (min-width: 992px) {
+  .callout-percentage-center .percentage-container .percent-text {
+    margin-top: 0;
+    left: -120px;
+  }
+}
+
+.callout-percentage-center .percentage-container .percent-text .source {
+  color: #666;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+
+.theme-std .callout-percentage-center.reverse .percentage-container .percent-container .percent, .theme-std .callout-percentage-center.reverse .percentage-container .percent-text, .theme-std .callout-percentage-center .percentage-container .percent-container .percent, .theme-std .callout-percentage-center .percentage-container .percent-text {
+  color: #cf142b;
+}
+
+.theme-hw .callout-percentage-center.reverse .percentage-container .percent-container .percent, .theme-hw .callout-percentage-center.reverse .percentage-container .percent-text, .theme-hw .callout-percentage-center .percentage-container .percent-container .percent, .theme-hw .callout-percentage-center .percentage-container .percent-text {
+  color: #768ec7;
+}
+
+.theme-dwa .callout-percentage-center.reverse .percentage-container .percent-container .percent, .theme-dwa .callout-percentage-center.reverse .percentage-container .percent-text, .theme-dwa .callout-percentage-center .percentage-container .percent-container .percent, .theme-dwa .callout-percentage-center .percentage-container .percent-text {
+  color: #8fc740;
+}
+
+.theme-cit .callout-percentage-center.reverse .percentage-container .percent-container .percent, .theme-cit .callout-percentage-center.reverse .percentage-container .percent-text, .theme-cit .callout-percentage-center .percentage-container .percent-container .percent, .theme-cit .callout-percentage-center .percentage-container .percent-text {
+  color: #0f7ac9;
+}
+
+.theme-cs .callout-percentage-center.reverse .percentage-container .percent-container .percent, .theme-cs .callout-percentage-center.reverse .percentage-container .percent-text, .theme-cs .callout-percentage-center .percentage-container .percent-container .percent, .theme-cs .callout-percentage-center .percentage-container .percent-text {
+  color: #00328f;
+}
+
+.theme-std .grey-fluid .callout-percentage-center.reverse .percentage-container .percent-container .percent, .theme-std .grey-fluid .callout-percentage-center .percentage-container .percent-container .percent, .theme-hw .grey-fluid .callout-percentage-center.reverse .percentage-container .percent-container .percent, .theme-hw .grey-fluid .callout-percentage-center .percentage-container .percent-container .percent, .theme-dwa .grey-fluid .callout-percentage-center.reverse .percentage-container .percent-container .percent, .theme-dwa .grey-fluid .callout-percentage-center .percentage-container .percent-container .percent {
+  background-color: #f3f3f3;
+}
+
+.theme-cit .grey-fluid .callout-percentage-center.reverse .percentage-container .percent-container .percent, .theme-cit .grey-fluid .callout-percentage-center .percentage-container .percent-container .percent {
+  background-color: #e5fbff;
+}
+
+.theme-cs .grey-fluid .callout-percentage-center.reverse .percentage-container .percent-container .percent, .theme-cs .grey-fluid .callout-percentage-center .percentage-container .percent-container .percent {
+  background-color: #eff5fa;
+}
+
