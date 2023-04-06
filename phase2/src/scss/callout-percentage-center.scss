@@ -94,7 +94,6 @@
                 font-size: 6.25rem; // desktop: 100px
                 line-height: 6.875rem; // desktop: 110px
                 font-weight: 700;
-                background-color: #fff;
 
                 position: absolute;
                 left: 40px;
@@ -142,6 +141,7 @@
                 .percent-container {
                     .percent {
                         color: themed('primaryColor');
+                        background-color: themed('bgColor');
                     }
                 }
 
@@ -159,6 +159,7 @@
                 .percent {
 
                     color: themed('primaryColor');
+                    background-color: themed('bgColor');
                 }
             }
 
