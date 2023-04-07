@@ -56,7 +56,7 @@
 }
 
 .theme-cit .split-text-w-bg, .theme-cit .split-text-w-bg:before {
-  background-color: #e5fbff;
+  background-color: #e8f6ff;
 }
 
 .theme-cit .split-text-w-bg:after {
@@ -64,12 +64,12 @@
 }
 
 .theme-cit .split-text-w-bg .callout-percentage-1-column .percentage-container .percent-container .percent {
-  background-color: #e5fbff;
+  background-color: #e8f6ff;
 }
 
 @media screen and (min-width: 992px) {
   .theme-cit .split-text-w-bg {
-    background-color: #e5fbff;
+    background-color: #e8f6ff;
     border-bottom: 5px solid #0f7ac9;
   }
 }
