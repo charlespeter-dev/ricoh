@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Icon_Minimise" transform="translate(0)">
+    <path id="Path_273" data-name="Path 273" d="M114.521,230.126h-4.535a.892.892,0,0,1-.891-.892V180.027a1.79,1.79,0,0,0-1.784-1.791h-50.1a1.794,1.794,0,0,0-1.79,1.791v50.1a1.792,1.792,0,0,0,1.79,1.791h49.2a.894.894,0,0,1,.9.9v4.533a.886.886,0,0,0,.887.89h6.324a.892.892,0,0,0,.9-.89v-6.325a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#0f7ac9"></path>
+    <g id="Group_2761" data-name="Group 2761" transform="translate(10 5.897)">
+      <g id="Group_2754" data-name="Group 2754" transform="translate(-0.465 4.418)">
+        <g id="Group_2763" data-name="Group 2763">
+          <line id="Line_315" data-name="Line 315" x1="12.053" y1="12.053" transform="translate(0.396 0.396)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+        </g>
+      </g>
+      <path id="Path_1929" data-name="Path 1929" d="M16.988,24.3h9.277V14.569" transform="translate(-14.282 -7.431)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></path>
+      <g id="Group_2756" data-name="Group 2756" transform="translate(21.003 4.814)">
+        <g id="Group_2762" data-name="Group 2762" transform="translate(0 0)">
+          <line id="Line_316" data-name="Line 316" y1="12.053" x2="12.053" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+        </g>
+      </g>
+      <path id="Path_1930" data-name="Path 1930" d="M143.2,24.3h-9.277V14.569" transform="translate(-112.919 -7.431)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></path>
+      <g id="Group_2758" data-name="Group 2758" transform="translate(-0.465)">
+        <g id="Group_2764" data-name="Group 2764">
+          <line id="Line_317" data-name="Line 317" x1="12.053" y2="12.053" transform="translate(0.396 24.948)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+        </g>
+      </g>
+      <path id="Path_1931" data-name="Path 1931" d="M16.988,133.628h9.277v9.729" transform="translate(-14.282 -108.68)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></path>
+      <g id="Group_2760" data-name="Group 2760" transform="translate(-4)">
+        <g id="Group_2765" data-name="Group 2765">
+          <line id="Line_318" data-name="Line 318" x2="12.053" y2="12.053" transform="translate(25.003 24.948)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+        </g>
+      </g>
+      <path id="Path_1932" data-name="Path 1932" d="M143.2,133.628h-9.277v9.729" transform="translate(-112.919 -108.68)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></path>
+    </g>
+  </g>
+</svg>
