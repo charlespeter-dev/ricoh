@@ -1,0 +1,132 @@
+.lets-connect {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  .lets-connect {
+    margin-bottom: 100px;
+  }
+}
+
+.lets-connect .bg-grey {
+  height: 467px;
+  z-index: 1;
+  background-color: #f3f3f3;
+  margin-top: -200px;
+  position: relative;
+}
+
+@media screen and (min-width: 992px) {
+  .lets-connect .bg-grey {
+    height: 244px;
+    margin-top: 0;
+  }
+}
+
+.lets-connect .bg-grey:before {
+  content: "";
+  height: 100%;
+  width: 100vw;
+  z-index: -1;
+  background-color: #f3f3f3;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 50vw - .55rem);
+}
+
+.lets-connect .bg-red {
+  color: #fff;
+  z-index: 1;
+  background-color: #cf142b;
+  border-radius: 12px;
+  margin-top: -233.5px;
+  padding: 30px;
+  position: relative;
+}
+
+@media screen and (min-width: 992px) {
+  .lets-connect .bg-red {
+    margin-top: -122px;
+  }
+}
+
+.lets-connect .bg-red .left {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.lets-connect .bg-red .left .heading {
+  margin-left: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 2.75rem;
+}
+
+@media screen and (min-width: 992px) {
+  .lets-connect .bg-red .left {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .lets-connect .bg-red .left .heading {
+    margin-left: 30px;
+  }
+}
+
+.lets-connect .bg-red .right {
+  flex-direction: column;
+  display: flex;
+}
+
+.lets-connect .bg-red .right .heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+
+.lets-connect .bg-red .right .btn {
+  width: 176px;
+  background-color: #cf142b;
+  border: 1px solid #fff;
+}
+
+@media (min-width: 992px) {
+  .lets-connect .col-lg-6 {
+    width: 50%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+    flex: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .lets-connect .row {
+    --bs-gutter-x: 1.5rem;
+  }
+}
+
+.lets-connect .row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.lets-connect .mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.lets-connect .btn {
+  padding: 15px 30px;
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 1.75rem;
+}
+
