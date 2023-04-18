@@ -292,6 +292,32 @@
         }
     }
 
+    .white-fluid {
+        position: relative;
+        z-index: 1;
+        background-color: #FFFFFF;
+        padding-top: 1px;
+        margin-top: 6.25rem;
+
+        &::before {
+            content: '';
+            display: block;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: calc((100vw - 100%) / -2);
+            width: 100vw;
+            z-index: -1;
+            background-color: #FFFFFF;
+        }
+
+        &::after {
+            content: "\a";
+            display: block;
+            white-space: pre;
+        }
+    }
+
     /* emulate <br> behavior */
 
     @media screen and (min-width: 992px) {
