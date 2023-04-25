@@ -12362,6 +12362,32 @@ a > .bootstrap-container code {
   background-color: #f3f3f3 !important;
 }
 
+.bootstrap-container .white-fluid {
+  z-index: 1;
+  background-color: #fff;
+  margin-top: 6.25rem;
+  padding-top: 1px;
+  position: relative;
+}
+
+.bootstrap-container .white-fluid:before {
+  content: "";
+  height: 100%;
+  width: 100vw;
+  z-index: -1;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50%);
+}
+
+.bootstrap-container .white-fluid:after {
+  content: "\a ";
+  white-space: pre;
+  display: block;
+}
+
 @media screen and (min-width: 992px) {
   .bootstrap-container span.br-before:before, .bootstrap-container span.br-after:after {
     content: "\a ";
