@@ -26,7 +26,7 @@
 
       <mj-section padding="0">
         <mj-column padding="0">
-          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/edm-hw/logo.png" alt="" width="130px" height="47.89px" align="left" />
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="left" />
         </mj-column>
       </mj-section>
 
@@ -44,24 +44,24 @@
         <mj-column width="51%">
 
           <mj-text mj-class="resource-type" padding-bottom="0">
-            Article
+            eBook
           </mj-text>
 
           <mj-text mj-class="h1">
-            Boost Your Growth With Business Applications
+            Maximise Your Business Potential Through Cloud Computing
           </mj-text>
 
           <mj-text mj-class="subheading" padding-top="0">
-            Empower your workforce for greater efficiency and productivity
+            Gain efficiency, accessibility, and flexibility with Ricoh’s cloud-based solutions
           </mj-text>
 
           <mj-button href="https://www.ricoh.com/">
-            Read now
+            Download Now
           </mj-button>
 
         </mj-column>
         <mj-column width="49%">
-          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/147-222/BookThumbnail.png" alt="" />
+          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/270-P4-S2_eDM2_Cloud_Computing/WM-eDM-Header-Banner-Thumbnail-Image.png" alt="" />
         </mj-column>
       </mj-section>
 
@@ -75,15 +75,15 @@
           </mj-text>
 
           <mj-text>
-            In today’s fast-paced, highly competitive, and challenging business landscape, companies of all sizes are looking for innovative ways to increase productivity, efficiency, and profitability. Whether it’s streamlining workflows, automating processes, or enhancing communication and collaboration, the right tools and solutions can make all the difference. That’s where the Business Applications solutions come in.
+            Are you looking to stay competitive in today’s digital landscape? Cloud computing has proven to be a game changer for businesses by enhancing collaboration, strengthening resilience, and boosting customer engagement. Embrace the full potential of your business with a “cloud-first” approach.
           </mj-text>
 
           <mj-text>
-            From cloud-based applications to on-premises solutions, <span style="color: #0F7AC9;">Ricoh’s Business Applications solutions</span> offer the flexibility and scalability businesses need to streamline operations, reduce costs, and boost productivity. Our solutions cover a wide range of areas, such as document management, customer relationship management, billing, and accounting, to name a few.
+            At Ricoh, we help our customers in their digital transformation journey by offering our expertise in migrating their on-premises systems to cloud-based solutions like Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS), Software as a Service (SaaS) and hybrid and multi-cloud solutions. With us, you can unleash the power of the cloud to innovate faster, generate new revenue streams, and respond to customer demands with greater agility.
           </mj-text>
 
           <mj-text>
-            Our latest article, “<span style="color: #0F7AC9;">The Advantages of MS Business Applications Power Platform</span>,” provides an in-depth look at how this suite of tools can help transform your business. Explore more about:
+            Our complimentary ebook, “<span style="color: #0F7AC9;">The Cloud Computing Advantage</span>,” is packed with valuable insights and takeaways. Here’s a sneak peek of what you can expect:
           </mj-text>
 
         </mj-column>
@@ -94,42 +94,42 @@
           <mj-table cellpadding="4px">
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Microsoft’s Intelligent Business Application platform and integrated applications</td>
+              <td style="padding-left: 10px;">How leveraging IaaS and PaaS can improve overall efficiency and scalability</td>
             </tr>
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">How Dynamics 365 can benefit your business processes</td>
+              <td style="padding-left: 10px;">The transformative benefits of SaaS applications in granting users access anytime and anywhere they need it</td>
             </tr>
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Use cases for Microsoft Power Apps that simplify workflow</td>
+              <td style="padding-left: 10px;">Navigating secure hybrid cloud and multi-cloud options that address regulatory requirements and technical considerations, offering you the flexibility and peace of mind you deserve.</td>
             </tr>
           </mj-table>
         </mj-column>
       </mj-section>
 
-      <!-- button -->
-
       <mj-section>
-        <mj-column>
-          <mj-button padding-top="0" href="https://www.ricoh.com/" width="350px">
-            Read the article now
+        <mj-column width="90%" background-color="#f3f3f3" padding="20px">
+          <mj-text align="center">
+            <strong>Let Ricoh partner with you in your digital transformation and cloud journey. Download our complimentary ebook to discover the cloud computing advantage for yourself. Learn more about <u style="color: #0F7AC9;">Cloud Computing</u>.</strong>
+          </mj-text>
+
+          <mj-button href="https://www.ricoh.com/" width="340px">
+            Download the eBook now!
           </mj-button>
         </mj-column>
       </mj-section>
 
-      <!-- more bold text -->
-
-      <mj-section padding-top="0" padding-left="30px" padding-right="30px">
+      <mj-section padding-left="30px" padding-right="30px">
         <mj-column>
-          <mj-text>
-            <strong>With <span style="color: #0F7AC9;">Ricoh’s Business Applications solutions</span>, you can focus on what really matters—growing your business and delivering value to your customers.</strong>
-          </mj-text>
-          <mj-text>
-            <strong><span style="color: #0F7AC9;">Contact our experts</span> now to learn more.</strong>
-          </mj-text>
-          <mj-text>
-            <strong>Thank you.</strong>
+          <mj-divider border-color="#c9c9c9" container-background-color="#c9c9c9" border-width="1px" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text padding-top="0" padding-left="30px" padding-right="30px">
+            Sincerely, <br> Your Ricoh Team.
           </mj-text>
         </mj-column>
       </mj-section>
@@ -151,7 +151,7 @@
           </mj-text>
         </mj-column>
         <mj-column>
-          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/edm-hw/logo.png" alt="" width="130px" height="47.89px" align="right" />
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="right" />
         </mj-column>
       </mj-section>
 
