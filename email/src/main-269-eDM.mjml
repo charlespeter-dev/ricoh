@@ -1,0 +1,167 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" />
+      <mj-wrapper background-color="#eeeeee" />
+      <mj-section background-color="#ffffff" />
+      <mj-text font-size="16px" line-height="24px" color="#666666" />
+      <mj-table font-size="16px" line-height="22px" color="#666666" />
+      <mj-button font-size="18px" line-height="22px" font-weight="700" color="#FFFFFF" background-color="#0F7AC9" width="100%" border-radius="0" />
+      <mj-divider border-color="#0F7AC9" container-background-color="#0F7AC9" border-width="3px" border-style="solid" padding="0" />
+      <mj-class name="subheading" font-size="18px" line-height="23px" color="#666666" />
+      <mj-class name="h1" font-size="26px" line-height="32px" font-weight="700" color="#333333" />
+      <mj-class name="h3" font-size="16px" line-height="22px" color="#0F7AC9" font-weight="700" />
+      <mj-class name="resource-type" font-size="16px" line-height="22px" color="#0F7AC9" font-weight="700" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-wrapper full-width="full-width">
+
+      <!-- header -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="left" />
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- intro & thumbnail -->
+
+      <mj-section background-color="#F3F3F3">
+        <mj-column width="51%">
+
+          <mj-text mj-class="resource-type" padding-bottom="0">
+            Article
+          </mj-text>
+
+          <mj-text mj-class="h1">
+            Unlocking Productivity in the Modern Workplace
+          </mj-text>
+
+          <mj-text mj-class="subheading" padding-top="0">
+            Discover how Ricoh’s solutions can help you maximise workplace productivity
+          </mj-text>
+
+          <mj-button href="https://www.ricoh.com/">
+            Download Now
+          </mj-button>
+
+        </mj-column>
+        <mj-column width="49%">
+          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/269-P4-S2_eDM1_Modern_Workplace/eDM-1-Modern-Workplace-BookThumbnail.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <!-- content -->
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+
+          <mj-text>
+            Hi {first name},
+          </mj-text>
+
+          <mj-text>
+            Looking for the right tools to help take your workplace productivity to the next level? Or perhaps creative collaboration tops your team’s list of things to do. Whichever your goal is, the modern way of work has created a whole new set of challenges for organisations—from how to remain productive while working remotely to how to maintain secure operations in an increasingly digitalised environment. And it’s not just about having the right technology—you need effective solutions that can help your organisation stay agile and secure.
+          </mj-text>
+
+          <mj-text>
+            Ricoh’s Modern Workplace solutions provide just this. Investing in the right technology, allows you to work the way you want to work. We help organisations create an integrated and secure environment where employees can communicate and collaborate easily without compromising security or data integrity. Here are three takeaways from our article “<span style="color: #0F7AC9;">Bridging Creativity and Productivity in the Modern Workplace</span>”:
+          </mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-left="20px" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-table cellpadding="4px">
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">How creativity and productivity can coexist in the modern workplace</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">Strategies for fostering a productive and creative work environment</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">Tips on how to stay productive while still encouraging innovation.</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="90%" background-color="#f3f3f3" padding="20px">
+          <mj-text align="center">
+            <strong>Learn how Ricoh can help you bridge creativity and productivity in the modern workplace by downloading our article! Find out more about our <span style="color: #0F7AC9;">Modern Workplace</span> solutions.</strong>
+          </mj-text>
+
+          <mj-button href="https://www.ricoh.com/" width="340px">
+            Download Now
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-left="30px" padding-right="30px">
+        <mj-column>
+          <mj-divider border-color="#c9c9c9" container-background-color="#c9c9c9" border-width="1px" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text padding-top="0" padding-left="30px" padding-right="30px">
+            Sincerely, <br> Your Ricoh Team.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer top -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-top" padding-top="25px">
+            © 2023 Ricoh. All rights reserved.
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="right" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer bottom -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-bottom" align="center">
+            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"></span style="color: #333; text-decoration: underline;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"><span style="color: #333; text-decoration: underline;">Manage Preferences</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
