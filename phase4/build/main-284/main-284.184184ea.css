@@ -1,0 +1,26 @@
+.lp-split-list-icon .list-item-container {
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 30px 0;
+  display: flex;
+}
+
+.lp-split-list-icon .list-item-container .text {
+  margin: 0;
+  padding-inline-start: 10px;
+}
+
+@media screen and (width >= 992px) {
+  .lp-split-list-icon .list-item-container .text {
+    padding-inline-start: 20px !important;
+  }
+}
+
+.lp-split-list-icon .list-item-container .text strong {
+  color: #666;
+}
+
+.lp-split-list-icon .list-item-container .text p {
+  margin: 0;
+}
+
