@@ -1,0 +1,39 @@
+.accordion__content--modifier {
+  position: relative;
+}
+
+.accordion__title-text {
+  text-align: center;
+  font-weight: 400;
+}
+
+.accordion__icon--modifier {
+  right: initial;
+  margin-left: 10px;
+  top: 12px;
+}
+
+.accordion__trigger--modifier {
+  min-height: 40px;
+  padding: 0;
+}
+
+.accordion__image, .accordion__bg {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.accordion__desc {
+  position: relative;
+}
+
+.accordion__desc h1, .accordion__desc h2, .accordion__desc h3, .accordion__desc h4, .accordion__desc h5, .accordion__desc h6 {
+  color: inherit;
+}
+

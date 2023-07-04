@@ -1,0 +1,83 @@
+.callout-percentage-2-columns {
+  padding-bottom: 50px;
+}
+
+@media screen and (width >= 992px) {
+  .callout-percentage-2-columns {
+    padding: 50px 100px;
+  }
+}
+
+.callout-percentage-2-columns .percentage-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.callout-percentage-2-columns .percentage-container .percent-container {
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.callout-percentage-2-columns .percentage-container .percent-container img {
+  width: 200px;
+}
+
+.callout-percentage-2-columns .percentage-container .percent-container .percent {
+  z-index: 1;
+  background-color: #fff;
+  height: 100px;
+  font-size: 6.25rem;
+  font-weight: 700;
+  line-height: 6.875rem;
+  position: relative;
+  top: -170px;
+  left: 30px;
+}
+
+.callout-percentage-2-columns .percentage-container .percent-text {
+  text-align: center;
+  height: 1px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+  position: relative;
+  top: -100px;
+}
+
+.callout-percentage-2-columns .percentage-container .percent-text .source {
+  color: #666;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+
+.theme-std .callout-percentage-2-columns .percentage-container .percent-container .percent, .theme-std .callout-percentage-2-columns .percentage-container .percent-text {
+  color: #cf142b;
+}
+
+.theme-hw .callout-percentage-2-columns .percentage-container .percent-container .percent, .theme-hw .callout-percentage-2-columns .percentage-container .percent-text {
+  color: #768ec7;
+}
+
+.theme-dwa .callout-percentage-2-columns .percentage-container .percent-container .percent, .theme-dwa .callout-percentage-2-columns .percentage-container .percent-text {
+  color: #8fc740;
+}
+
+.theme-cit .callout-percentage-2-columns .percentage-container .percent-container .percent, .theme-cit .callout-percentage-2-columns .percentage-container .percent-text {
+  color: #0f7ac9;
+}
+
+.theme-cs .callout-percentage-2-columns .percentage-container .percent-container .percent, .theme-cs .callout-percentage-2-columns .percentage-container .percent-text {
+  color: #00328f;
+}
+

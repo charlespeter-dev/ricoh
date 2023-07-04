@@ -192,6 +192,11 @@
                     font-size: 1.25rem; // desktop: 20px
                     line-height: 1.5rem; // desktop: 24px
 
+                    .btn {
+                        padding: 10px 30px;
+                        border-radius: 5px;
+                    }
+
                     .dot {
                         margin-top: -2px;
                         padding-left: 10px;

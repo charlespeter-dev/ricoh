@@ -1,0 +1,251 @@
+.lp-split-list-icon .list-item-container {
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px 0;
+  display: flex;
+}
+
+@media screen and (width >= 992px) {
+  .lp-split-list-icon .list-item-container {
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 30px 0;
+  }
+}
+
+.lp-split-list-icon .list-item-container .text {
+  margin: 20px 0;
+}
+
+@media screen and (width >= 992px) {
+  .lp-split-list-icon .list-item-container .text {
+    margin: 0;
+    padding-left: 20px;
+  }
+}
+
+.lp-split-list-icon .list-item-container .text strong {
+  color: #333;
+}
+
+.lp-split-list-icon .list-item-container .text p {
+  margin: 0;
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list .left {
+    padding-top: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list .right {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list .right .lp-split-list-icon .list-item-container {
+    align-items: center;
+  }
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list .left {
+    padding-top: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list .right {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list .right .lp-split-list-icon .list-item-container {
+    align-items: center;
+  }
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list .left {
+    padding-top: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list .right {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list .right .lp-split-list-icon .list-item-container {
+    align-items: center;
+  }
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list .left {
+    padding-top: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list .right {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list .right .lp-split-list-icon .list-item-container {
+    align-items: center;
+  }
+}
+
+.split-text-list {
+  padding-top: 1px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list {
+    padding-bottom: 50px;
+  }
+}
+
+.split-text-list:before {
+  content: "";
+  z-index: -1;
+  background-color: #f3f3f3;
+  width: 100vw;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 50vw - .55rem);
+}
+
+.split-text-list .left {
+  padding-top: 30px;
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list .left {
+    padding-top: 50px;
+    padding-right: 50px;
+  }
+}
+
+.split-text-list .right {
+  padding-top: 30px;
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list .right {
+    padding-top: 50px;
+  }
+}
+
+.split-text-list .right .lp-split-list-icon .list-item-container {
+  align-items: flex-start;
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list .right .lp-split-list-icon .list-item-container {
+    align-items: center;
+  }
+
+  .split-text-list .main-heading {
+    margin-top: 100px;
+  }
+}
+
+.split-text-list .row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+  flex-wrap: wrap;
+  display: flex;
+}
+
+@media screen and (width >= 992px) {
+  .split-text-list .row {
+    --bs-gutter-x: 1.5rem;
+  }
+}
+
+.split-text-list p {
+  margin-bottom: 1.75rem;
+}
+
+.split-text-list h1 {
+  color: #333;
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+.split-text-list h2 {
+  color: #333;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.split-text-list h3 {
+  color: #666;
+  font-size: 1.625rem;
+  font-weight: 400;
+  line-height: 2.125rem;
+}
+
+.split-text-list h4 {
+  color: #666;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.split-text-list .main-heading {
+  margin-top: 60px;
+}
+
+@media (width >= 992px) {
+  .split-text-list .col-lg-6 {
+    flex: none;
+    width: 50%;
+  }
+}
+

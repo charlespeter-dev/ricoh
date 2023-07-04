@@ -1,0 +1,225 @@
+.is-desktop .bootstrap-container .lp-banner {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+.is-desktop .bootstrap-container .lp-banner:before {
+  content: "";
+  z-index: 1;
+  background-color: #f3f3f3;
+  width: 100vw;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50%);
+}
+
+.is-desktop .bootstrap-container .lp-banner:after {
+  content: "";
+  z-index: 2;
+  width: 100vw;
+  height: 5px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: calc(-50vw + 50%);
+}
+
+.is-desktop .bootstrap-container .lp-banner .left {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+.is-desktop .bootstrap-container .lp-banner .left .callout {
+  z-index: 1 !important;
+  position: relative !important;
+}
+
+.is-desktop .bootstrap-container .lp-banner .right {
+  position: relative;
+}
+
+.is-desktop .bootstrap-container .lp-banner .right .img-bg-desktop {
+  z-index: 2;
+  object-fit: cover;
+  width: 100%;
+  position: relative;
+  left: -64%;
+  height: 100% !important;
+}
+
+.is-desktop .bootstrap-container .lp-banner .img-right {
+  z-index: 4;
+  width: 375px;
+  position: absolute;
+  top: 0;
+  right: 1.5rem;
+}
+
+.is-mobile .bootstrap-container .lp-banner {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  display: flex;
+  position: relative;
+}
+
+.is-mobile .bootstrap-container .lp-banner:before {
+  content: "";
+  z-index: 0;
+  background-color: #f3f3f3;
+  width: 100vw;
+  height: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: calc(-50vw + 50%);
+}
+
+.is-mobile .bootstrap-container .lp-banner:after {
+  content: "";
+  z-index: 2;
+  width: 100vw;
+  height: 5px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: calc(-50vw + 50%);
+}
+
+.is-mobile .bootstrap-container .lp-banner .left .callout {
+  margin-bottom: 60px;
+  z-index: 1 !important;
+  position: relative !important;
+}
+
+.is-mobile .bootstrap-container .lp-banner .right {
+  min-height: 200px;
+  position: relative;
+}
+
+.is-mobile .bootstrap-container .lp-banner .right .img-bg-mobile {
+  z-index: 2;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: calc(-50vw + 50%);
+}
+
+.is-mobile .bootstrap-container .lp-banner .right .img-bg-desktop {
+  display: none;
+}
+
+.is-mobile .bootstrap-container .lp-banner .img-right {
+  z-index: 4;
+  width: 300px;
+  position: absolute;
+  bottom: -77.5px;
+}
+
+.bootstrap-container .lp-banner > .row {
+  --bs-gutter-x: 0;
+}
+
+.bootstrap-container .lp-banner .left .callout .category {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.bootstrap-container .lp-banner .left .callout .title {
+  color: #333;
+  font-weight: 700;
+  line-height: 3rem;
+  font-size: 2.5rem !important;
+}
+
+.bootstrap-container .lp-banner .left .callout .meta {
+  flex-direction: row;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  display: flex;
+}
+
+.bootstrap-container .lp-banner .left .callout .meta .btn {
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+.bootstrap-container .lp-banner .left .callout .meta .dot {
+  margin-top: -2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.is-desktop .bootstrap-container.theme-std .lp-banner:after {
+  background-color: #cf142b;
+}
+
+.is-desktop .bootstrap-container.theme-hw .lp-banner:after {
+  background-color: #768ec7;
+}
+
+.is-desktop .bootstrap-container.theme-dwa .lp-banner:after {
+  background-color: #8fc740;
+}
+
+.is-desktop .bootstrap-container.theme-cit .lp-banner:after {
+  background-color: #0f7ac9;
+}
+
+.is-desktop .bootstrap-container.theme-cs .lp-banner:after {
+  background-color: #00328f;
+}
+
+.is-mobile .bootstrap-container.theme-std .lp-banner:after {
+  background-color: #cf142b;
+}
+
+.is-mobile .bootstrap-container.theme-hw .lp-banner:after {
+  background-color: #768ec7;
+}
+
+.is-mobile .bootstrap-container.theme-dwa .lp-banner:after {
+  background-color: #8fc740;
+}
+
+.is-mobile .bootstrap-container.theme-cit .lp-banner:after {
+  background-color: #0f7ac9;
+}
+
+.is-mobile .bootstrap-container.theme-cs .lp-banner:after {
+  background-color: #00328f;
+}
+
+.bootstrap-container.theme-std .lp-banner .left .callout .category, .bootstrap-container.theme-std .lp-banner .left .callout .meta .dot {
+  color: #cf142b;
+}
+
+.bootstrap-container.theme-hw .lp-banner .left .callout .category, .bootstrap-container.theme-hw .lp-banner .left .callout .meta .dot {
+  color: #768ec7;
+}
+
+.bootstrap-container.theme-dwa .lp-banner .left .callout .category, .bootstrap-container.theme-dwa .lp-banner .left .callout .meta .dot {
+  color: #8fc740;
+}
+
+.bootstrap-container.theme-cit .lp-banner .left .callout .category, .bootstrap-container.theme-cit .lp-banner .left .callout .meta .dot {
+  color: #0f7ac9;
+}
+
+.bootstrap-container.theme-cs .lp-banner .left .callout .category, .bootstrap-container.theme-cs .lp-banner .left .callout .meta .dot {
+  color: #00328f;
+}
+

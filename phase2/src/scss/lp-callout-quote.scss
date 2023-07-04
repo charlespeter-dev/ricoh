@@ -32,6 +32,20 @@
                 margin-top: 1.5rem;
             }
         }
+
+        .text-normal {
+            font-size: var(--bs-body-font-size);
+            line-height: var(--bs-body-line-height);
+            color: var(--bs-body-color);
+
+            padding-left: 30px;
+            margin-top: 30px;
+
+            .source {
+                font-weight: 700;
+                margin-top: 1.5rem;
+            }
+        }
     }
 }
 
@@ -39,7 +53,8 @@
 
     .lp-callout-quote {
 
-        .text {
+        .text,
+        .text-normal {
 
             border-left: 5px solid themed('primaryColor');
         }

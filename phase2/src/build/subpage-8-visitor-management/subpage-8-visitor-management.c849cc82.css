@@ -1,0 +1,78 @@
+.cta {
+  color: #cf142b;
+  white-space: nowrap;
+  cursor: pointer;
+  padding-bottom: 3px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+  display: inline-block;
+  position: relative;
+}
+
+.cta:after {
+  font-variant: normal;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
+  margin: 0 0 0 3px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  transition: left .5s ease-in-out .1s;
+  position: relative;
+  top: 2px;
+  left: 0;
+  font-family: ricons !important;
+}
+
+a:focus .cta, a:hover .cta, .cta:focus, .cta:hover {
+  color: #cf142b;
+  outline: 0;
+  transform: translateX(3px);
+}
+
+a:focus .cta:after, a:hover .cta:after, .cta:focus:after, .cta:hover:after {
+  left: 5px;
+}
+
+.cta:active {
+  transform: translate(3px, 1px);
+}
+
+.cta:empty:after {
+  display: none;
+}
+
+.btn + .cta {
+  margin: 12px 0;
+}
+
+.cta--back:before {
+  font-variant: normal;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
+  margin: 0 3px 0 0;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  position: relative;
+  top: 2px;
+  font-family: ricons !important;
+}
+
+.cta--back:after {
+  display: none;
+}
+
+@media screen and (width >= 768px) {
+  .btn + .cta {
+    margin: 0 0 0 12px;
+  }
+}
+

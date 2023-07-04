@@ -1,0 +1,70 @@
+.theme-std .card-general .cards .card .card-body .card-category {
+  background-color: #cf142b;
+}
+
+.theme-hw .card-general .cards .card .card-body .card-category {
+  background-color: #768ec7;
+}
+
+.theme-dwa .card-general .cards .card .card-body .card-category {
+  background-color: #8fc740;
+}
+
+.theme-cit .card-general .cards .card .card-body .card-category {
+  background-color: #0f7ac9;
+}
+
+.theme-cs .card-general .cards .card .card-body .card-category {
+  background-color: #00328f;
+}
+
+.card-general {
+  --bs-border-width: 2px;
+  --bs-border-style: solid;
+  --bs-border-color: #efefef;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.card-general h1 {
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+
+@media screen and (width >= 992px) {
+  .card-general h1 {
+    margin-bottom: 1.3rem;
+    padding-top: 0;
+  }
+}
+
+.card-general .cards .card {
+  border-radius: 12px;
+  padding-bottom: 2rem;
+}
+
+.card-general .cards .card img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card-general .cards .card .card-body .card-title {
+  color: #333;
+  margin-bottom: 1.25rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+
+.card-general .cards .card .card-footer {
+  background-color: #fff;
+  border-top: none;
+}
+
+.card-general .cards .card .card-footer a, .card-general .cards .card .card-footer a:link, .card-general .cards .card .card-footer a:active, .card-general .cards .card .card-footer a:visited {
+  color: #cf142b;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+}
+

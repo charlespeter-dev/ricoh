@@ -1,0 +1,125 @@
+.lp-hyperlinks .row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.lp-hyperlinks .row > * {
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-top: var(--bs-gutter-y);
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.lp-hyperlinks .col {
+  flex: 1 0;
+}
+
+.lp-hyperlinks .row-cols-auto > * {
+  flex: none;
+  width: auto;
+}
+
+.lp-hyperlinks .row-cols-1 > * {
+  flex: none;
+  width: 100%;
+}
+
+.lp-hyperlinks .row-cols-2 > * {
+  flex: none;
+  width: 50%;
+}
+
+.lp-hyperlinks .row-cols-3 > * {
+  flex: none;
+  width: 33.3333%;
+}
+
+.lp-hyperlinks .row-cols-4 > * {
+  flex: none;
+  width: 25%;
+}
+
+.lp-hyperlinks .row-cols-5 > * {
+  flex: none;
+  width: 20%;
+}
+
+.lp-hyperlinks.row-cols-6 > * {
+  flex: none;
+  width: 16.6667%;
+}
+
+@media (width >= 768px) {
+  .lp-hyperlinks .row-cols-md-auto > * {
+    flex: none;
+    width: auto;
+  }
+
+  .lp-hyperlinks .row-cols-md-1 > * {
+    flex: none;
+    width: 100%;
+  }
+
+  .lp-hyperlinks .row-cols-md-2 > * {
+    flex: none;
+    width: 50%;
+  }
+
+  .lp-hyperlinks .row-cols-md-3 > * {
+    flex: none;
+    width: 33.3333%;
+  }
+
+  .lp-hyperlinks .row-cols-md-4 > * {
+    flex: none;
+    width: 25%;
+  }
+
+  .lp-hyperlinks .row-cols-md-5 > * {
+    flex: none;
+    width: 20%;
+  }
+}
+
+.lp-hyperlinks {
+  background-color: #fff;
+  padding: 30px 0;
+}
+
+.lp-hyperlinks p {
+  margin-bottom: 1.75rem;
+}
+
+.lp-hyperlinks .hyperlink {
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px;
+  display: flex;
+}
+
+.lp-hyperlinks .hyperlink a {
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.625rem;
+  text-decoration: none;
+  color: #333 !important;
+}
+
+.lp-hyperlinks .hyperlink .arrow {
+  color: #cf142b;
+  border-left: 1px solid #fff;
+  margin-left: auto;
+  padding: 10px;
+}
+

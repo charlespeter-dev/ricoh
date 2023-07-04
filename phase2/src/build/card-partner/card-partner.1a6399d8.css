@@ -1,0 +1,40 @@
+.card-partner {
+  z-index: 0;
+  background-color: #f3f3f3;
+  padding: 30px 30px 0;
+  position: relative;
+}
+
+@media screen and (width >= 992px) {
+  .card-partner {
+    padding: 50px 50px 0;
+  }
+}
+
+.card-partner:before {
+  content: "";
+  z-index: -1;
+  background-color: #f3f3f3;
+  width: 100vw;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50%);
+}
+
+.card-partner .card {
+  margin-left: 10px;
+}
+
+@media screen and (width >= 992px) {
+  .card-partner .card {
+    margin-left: unset;
+  }
+}
+
+.card-partner .card .card-img-top {
+  border-bottom-left-radius: var(--bs-card-inner-border-radius);
+  border-bottom-right-radius: var(--bs-card-inner-border-radius);
+}
+
