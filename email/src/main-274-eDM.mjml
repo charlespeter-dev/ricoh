@@ -7,12 +7,12 @@
       <mj-section background-color="#ffffff" />
       <mj-text font-size="16px" line-height="24px" color="#666666" />
       <mj-table font-size="16px" line-height="22px" color="#666666" />
-      <mj-button font-size="18px" line-height="22px" font-weight="700" color="#FFFFFF" background-color="#00328F" width="100%" border-radius="0" />
-      <mj-divider border-color="#00328F" container-background-color="#00328F" border-width="3px" border-style="solid" padding="0" />
+      <mj-button font-size="18px" line-height="22px" font-weight="700" color="#FFFFFF" background-color="#0F7AC9" width="100%" border-radius="0" />
+      <mj-divider border-color="#0F7AC9" container-background-color="#0F7AC9" border-width="3px" border-style="solid" padding="0" />
       <mj-class name="subheading" font-size="18px" line-height="23px" color="#666666" />
       <mj-class name="h1" font-size="26px" line-height="32px" font-weight="700" color="#333333" />
-      <mj-class name="h3" font-size="16px" line-height="22px" color="#00328F" font-weight="700" />
-      <mj-class name="resource-type" font-size="16px" line-height="22px" color="#00328F" font-weight="700" />
+      <mj-class name="h3" font-size="16px" line-height="22px" color="#0F7AC9" font-weight="700" />
+      <mj-class name="resource-type" font-size="16px" line-height="22px" color="#0F7AC9" font-weight="700" />
       <mj-class name="footer-top" font-size="14px" line-height="16px" />
       <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
     </mj-attributes>
@@ -83,7 +83,7 @@
           </mj-text>
 
           <mj-text>
-            Gain key insights from our article, “<span style="color: #00328F;">5 Truths About Ransomware—Ware Do We Begin?</span>” to:
+            Gain key insights from our article, “<span style="color: #0F7AC9;">5 Truths About Ransomware—Ware Do We Begin?</span>” to:
           </mj-text>
 
         </mj-column>
@@ -111,7 +111,7 @@
       <mj-section>
         <mj-column>
           <mj-text>
-            Explore how leveraging <span style="color: #00328F;">Ricoh’s Cybersecurity solutions</span> can help you safeguard your business, strengthen defences, and gain the peace of mind you deserve.
+            Explore how leveraging <span style="color: #0F7AC9;">Ricoh’s Cybersecurity solutions</span> can help you safeguard your business, strengthen defences, and gain the peace of mind you deserve.
           </mj-text>
         </mj-column>
       </mj-section>
