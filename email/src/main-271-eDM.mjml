@@ -1,0 +1,167 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" />
+      <mj-wrapper background-color="#eeeeee" />
+      <mj-section background-color="#ffffff" />
+      <mj-text font-size="16px" line-height="24px" color="#666666" />
+      <mj-table font-size="16px" line-height="22px" color="#666666" />
+      <mj-button font-size="18px" line-height="22px" font-weight="700" color="#FFFFFF" background-color="#0F7AC9" width="100%" border-radius="0" />
+      <mj-divider border-color="#0F7AC9" container-background-color="#0F7AC9" border-width="3px" border-style="solid" padding="0" />
+      <mj-class name="subheading" font-size="18px" line-height="23px" color="#666666" />
+      <mj-class name="h1" font-size="26px" line-height="32px" font-weight="700" color="#333333" />
+      <mj-class name="h3" font-size="16px" line-height="22px" color="#0F7AC9" font-weight="700" />
+      <mj-class name="resource-type" font-size="16px" line-height="22px" color="#0F7AC9" font-weight="700" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-wrapper full-width="full-width">
+
+      <!-- header -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="left" />
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- intro & thumbnail -->
+
+      <mj-section background-color="#F3F3F3">
+        <mj-column width="52%">
+
+          <mj-text mj-class="h1">
+            Minimise Downtime, Maximise Business Continuity
+          </mj-text>
+
+          <mj-text mj-class="subheading" padding-top="0">
+            Leverage Ricoh’s Backup and Data Protection solutions for uninterrupted business operations
+          </mj-text>
+
+          <mj-button href="https://www.ricoh.com/">
+            Learn More
+          </mj-button>
+
+        </mj-column>
+        <mj-column width="48%">
+          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/272-P4-S2_eDM4_Managed_Services/eDM-Header-Banner-Thumbnail-Image-Managed_Services.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <!-- content -->
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+
+          <mj-text>
+            Hi {first name},
+          </mj-text>
+
+          <mj-text>
+            Are you finding it increasingly challenging to manage your organisation’s technology needs while striving for business advancement? In today’s fast-paced business landscape, staying on top of modern workplace technologies, end-user computing, cloud solutions, networking, and cybersecurity can be overwhelming. But what if we told you there’s a solution that can offload these priorities and allow you to focus solely on propelling your business forward?
+          </mj-text>
+
+          <mj-text>
+            At Ricoh, we understand the complexities and pain points that come with managing IT infrastructure. That’s why <strong style="color: #0F7AC9;">Ricoh Professional and Managed Services</strong> is the answer to your IT management challenges. Whether it’s managing your IT infrastructure, optimising your network connectivity, or safeguarding your valuable data with resilient cybersecurity measures, our experienced team is ready to assist you every step of the way.
+          </mj-text>
+
+          <mj-text>
+            Discover the real-world benefits of our Professional and Managed Services solutions when you read our article: “Coffee, Tea, or Managed Services.” Here are three key insights you can gain:
+          </mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-left="20px" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-table cellpadding="4px">
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">An understanding of what managed services provide</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">How they free up organisations for growth opportunities</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">The importance of selecting an experienced partner provider</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="90%" background-color="#f3f3f3" padding="20px">
+          <mj-text align="center">
+            <strong>Let Ricoh be your trusted partner in simplifying your IT infrastructure management, so you can focus on what truly matters—driving your business forward. Download our article today to learn more.</strong>
+          </mj-text>
+
+          <mj-button href="https://www.ricoh.com/" width="340px">
+            Read the article
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-left="30px" padding-right="30px">
+        <mj-column>
+          <mj-divider border-color="#c9c9c9" container-background-color="#c9c9c9" border-width="1px" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text padding-top="0" padding-left="30px" padding-right="30px">
+            Sincerely, <br> Your Ricoh Team.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer top -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-top" padding-top="25px">
+            © 2023 Ricoh. All rights reserved.
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="right" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer bottom -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-bottom" align="center">
+            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"></span style="color: #333; text-decoration: underline;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"><span style="color: #333; text-decoration: underline;">Manage Preferences</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
