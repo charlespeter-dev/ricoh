@@ -41,18 +41,18 @@
       <!-- intro & thumbnail -->
 
       <mj-section background-color="#F3F3F3">
-        <mj-column width="52%">
+        <mj-column>
 
           <mj-text mj-class="resource-type" padding-bottom="0">
             Article
           </mj-text>
 
           <mj-text mj-class="h1">
-            Strengthen Your Cybersecurity Posture With Ricoh
+            Elevate Your Business With Seamless Connectivity
           </mj-text>
 
           <mj-text mj-class="subheading" padding-top="0">
-            Stay ahead of evolving threats with our cybersecurity solutions
+            Ready for a network that fuels growth and efficiency? Explore Ricoh’s Network Services today.
           </mj-text>
 
           <mj-button href="https://www.ricoh.com/">
@@ -60,8 +60,8 @@
           </mj-button>
 
         </mj-column>
-        <mj-column width="48%">
-          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/273-P4-S2_eDM5_Cybersecurity/eDM%205-Cybersecurity_BookThumbnail.png" alt="" />
+        <mj-column>
+          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/274-P4-S2_eDM6_Network_Services/eDM_6-Network_Services_BookThumbnail.png" alt="" />
         </mj-column>
       </mj-section>
 
@@ -75,15 +75,15 @@
           </mj-text>
 
           <mj-text>
-            Are you prepared to tackle the growing cybersecurity threats and potential risks to your business? Every day, more sophisticated attacks are being launched, and it’s important to have a reliable security system that is equipped for future threats. Protecting your organisation from such threats requires a comprehensive and up-to-date cybersecurity strategy—and traditional IT security measures just isn’t sufficient.
+            Are network challenges hindering your business’s true potential? In today’s complex networking landscape, cybersecurity vulnerabilities, the lack of expert resources, and downtime can significantly impact an organisation like yours. Now, imagine having a network that seamlessly connects your teams and enables efficient operation.
           </mj-text>
 
           <mj-text>
-            Ricoh can help. With our trusted cybersecurity solutions, you can elevate your current security system and gain the capacity to scale while mitigating threats. Our diverse layers of protection cover network security, endpoint security, and email security—ensuring comprehensive defence for every person and resources in your organisation.
+            At Ricoh, we offer comprehensive Network Services solutions designed to empower your business and keep it running smoothly. Our expert team will analyse and deliver tailored services to meet your unique networking and security requirements. Whether you need Software-Defined Wide Area Networking (SD-WAN), Secure Access Service Edge (SASE), or Virtual Private Network (VPN), we have a range of agile solutions to meet your needs.
           </mj-text>
 
           <mj-text>
-            Gain key insights from our article, “<span style="color: #0F7AC9;">5 Truths About Ransomware—Ware Do We Begin?</span>” to:
+            Take the first step toward transforming your network and empowering your business. Get insights from our article, “<span style="color: #0F7AC9;">Elevate Your Business Potential With Network Cloud Solutions</span>” on:
           </mj-text>
 
         </mj-column>
@@ -94,32 +94,24 @@
           <mj-table cellpadding="4px">
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Understand evolving ransomware tactics and their impact on your business</td>
+              <td style="padding-left: 10px;">How to ensure business continuity and adaptability</td>
             </tr>
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Learn effective strategies to detect, prevent, and mitigate ransomware attacks</td>
+              <td style="padding-left: 10px;">The benefits of leveraging SD-WAN for enhanced performance and security</td>
             </tr>
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Discover the importance of backups and robust incident response plans.</td>
+              <td style="padding-left: 10px;">How SASE can simplify your network architecture and improve user experience.</td>
             </tr>
           </mj-table>
         </mj-column>
       </mj-section>
 
       <mj-section>
-        <mj-column>
-          <mj-text>
-            Explore how leveraging <span style="color: #0F7AC9;">Ricoh’s Cybersecurity solutions</span> can help you safeguard your business, strengthen defences, and gain the peace of mind you deserve.
-          </mj-text>
-        </mj-column>
-      </mj-section>
-
-      <mj-section>
         <mj-column width="90%" background-color="#f3f3f3" padding="20px">
           <mj-text align="center">
-            <strong>Take the first step towards protecting every digital touchpoint in your organisation with resilient cybersecurity. Download our article to learn more.</strong>
+            <strong>Learn how Ricoh’s Network Services can help you navigate the complex networking landscape and elevate your business potential. Download our article today.</strong>
           </mj-text>
 
           <mj-button href="https://www.ricoh.com/" width="340px">
