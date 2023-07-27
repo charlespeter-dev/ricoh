@@ -86,4 +86,10 @@ Optimized for resolution 360px <---> 1920px
             font-weight: 700;
         }
     }
+
+    @media screen and (max-width: 768px) {
+        ~.article {
+            padding-top: 0;
+        }
+    }
 }
