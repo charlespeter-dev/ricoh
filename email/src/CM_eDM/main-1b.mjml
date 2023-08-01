@@ -118,10 +118,10 @@
 
       <mj-section>
         <mj-column mj-class="bg-light-blue">
-          <mj-text align="center" color="#333333">
+          <mj-text align="center" color="#333333" padding="0">
             <b>Want to know how Ricoh-Cisco Meraki Smart <br> Service optimises your network functions?</b>
           </mj-text>
-          <mj-button href="https://www.ricoh.com/">
+          <mj-button href="https://www.ricoh.com/" padding="0">
             Click Here
           </mj-button>
         </mj-column>

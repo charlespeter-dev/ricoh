@@ -24,87 +24,53 @@
           <mj-image padding-bottom="35px" width="210px" align="center" src="https://ricoh-email.2xcode.dev/images/CM_eDM/C-Suite/1A/EDM-C-Suite_Cisco-Meraki_Logo.svg" alt="" />
 
           <mj-text mj-class="h1">
-            Seamless Connectivity.<br> Secure Workspaces.
+            Revolutionise Your Organisation: <br> The Cloud Computing Advantage
           </mj-text>
 
           <mj-text mj-class="h2">
-            Harness the transformative power of network cloud <br> solutions for enhanced productivity and resilience.
+            Boost productivity, reduce costs, and drive innovation <br> with Ricoh-Cisco Meraki Smart Service
           </mj-text>
 
           <mj-button href="https://www.ricoh.com/">
-            Read the article
+            Read the eBook
           </mj-button>
         </mj-column>
       </mj-section>
 
       <mj-section padding="0">
         <mj-column>
-          <mj-image padding="0" src="https://ricoh-email.2xcode.dev/images/CM_eDM/C-Suite/1A/EDM-1A_C-Suite_Seamless-Connectivity-Secure-Workspaces_Banner-cut.png" alt="" />
+          <mj-image padding="0" src="https://ricoh-email.2xcode.dev/images/CM_eDM/C-Suite/2A/EDM-2A_C-Suite_Revolutionise-Your-Organisation_The-Cloud-Computing-Advantage_Banner-cut.png" alt="" />
         </mj-column>
       </mj-section>
 
       <mj-section>
         <mj-column>
           <mj-text>
-            Hi [C-suite executive],
+            Hi [C-Suite Executive],
           </mj-text>
 
           <mj-text>
-            Are you aware of the transformative potential of modern workspace and IT management in today’s business world? As a leader, you understand the importance of secure and connected workspaces for driving productivity and staying competitive. But are you fully harnessing the power of innovative solutions and technologies to maximise your organisation’s potential?
+            As a business leader, you are constantly seeking ways to enhance your organisation’s efficiency, collaboration, and performance. One powerful solution that can facilitate these goals is to embrace cloud computing alongside our comprehensive Ricoh-Cisco Meraki Smart Service.
           </mj-text>
 
           <mj-text>
-            Our article “<a href="https://www.ricoh-ap.com/insights/2023/03/30/elevate-your-business-potential-with-network-cloud-solutions" style="color: #0F7AC9;">Elevate Your Business Potential With Network Cloud Solutions</a>” is a deep dive into the transformative power of network cloud solutions. Here’s a sneak peek into key takeaways:
+            By strategically investing in the right technology and connectivity, you can equip your organisation with the tools and connectivity required to drive performance to new heights.
+          </mj-text>
+
+          <mj-text>
+            Our eBook “<a href="https://www.ricoh-ap.com/insights/2023/04/18/the-cloud-computing-advantage" style="text-decoration: underline;"><span style="color: #0F7AC9;">The Cloud Computing Advantage</span></a>” explores the benefits cloud computing offers businesses like yours, including:
           </mj-text>
         </mj-column>
       </mj-section>
 
-      <mj-section padding-top="0">
-        <mj-group>
-          <mj-column width="25%">
-            <mj-image padding-right="0" height="100px" width="100px" src="https://ricoh-email.2xcode.dev/images/CM_eDM/C-Suite/1A/Icons/EDM-1A_C-Suite_Icon-Gain-Agility-and-Scalability.svg" alt="" />
-          </mj-column>
-          <mj-column width="75%">
-            <mj-text>
-              <b>Gain agility and scalability</b>
-            </mj-text>
-            <mj-text padding-top="0">
-              How to scale your infrastructure and adapt to changing business needs
-            </mj-text>
-          </mj-column>
-        </mj-group>
-      </mj-section>
+      <mj-section padding-top="0" padding-bottom="0">
+        <mj-column>
+          <mj-image src="https://ricoh-email.2xcode.dev/images/CM_eDM/C-Suite/2A/EDM-2A_C-Suite_The-Cloud-Computing-Advantage-Infographic.png" alt="" />
 
-      <mj-section padding-top="0">
-        <mj-group>
-          <mj-column width="25%">
-            <mj-image padding-right="0" height="100px" width="100px" src="https://ricoh-email.2xcode.dev/images/CM_eDM/C-Suite/1A/Icons/EDM-1A_C-Suite_Icon-Enable-Collaboration-and-Productivity.svg" alt="" />
-          </mj-column>
-          <mj-column width="75%">
-            <mj-text>
-              <b>Enable collaboration and productivity</b>
-            </mj-text>
-            <mj-text padding-top="0">
-              See how cloud-based networks seamlessly connect teams, enabling efficient collaboration and driving productivity
-            </mj-text>
-          </mj-column>
-        </mj-group>
-      </mj-section>
-
-      <mj-section padding-top="0">
-        <mj-group>
-          <mj-column width="25%">
-            <mj-image padding-right="0" height="100px" width="100px" src="https://ricoh-email.2xcode.dev/images/CM_eDM/C-Suite/1A/Icons/EDM-1A_C-Suite_Icon-Ensure-Resilient-Security-and-Data-protection.svg" alt="" />
-          </mj-column>
-          <mj-column width="75%">
-            <mj-text>
-              <b>Ensure resilient security and data protection</b>
-            </mj-text>
-            <mj-text padding-top="0">
-              Strengthen your security posture, mitigate cybersecurity risks, and ensure business continuity with the right support
-            </mj-text>
-          </mj-column>
-        </mj-group>
+          <mj-button href="https://www.ricoh.com/">
+            Read the eBook
+          </mj-button>
+        </mj-column>
       </mj-section>
 
       <mj-section>
@@ -115,8 +81,8 @@
 
       <mj-section padding="0">
         <mj-column>
-          <mj-text>
-            Empower your team members with workspaces powered by our <span style="color: #0F7AC9;">Ricoh-Cisco Meraki Smart Service</span>. We’re here to help you on your digital transformation journey.
+          <mj-text align="center">
+            With Ricoh-Cisco Meraki Smart Service, you can revolutionise the way your organisation operates, propelling it towards success in the digital era.
           </mj-text>
         </mj-column>
       </mj-section>
@@ -124,20 +90,20 @@
       <mj-section>
         <mj-column mj-class="bg-light-blue">
           <mj-text align="center" color="#333333" padding="0">
-            <b>Want to know how Ricoh-Cisco Meraki Smart <br> Service helps you unlock your business’s <br> true potential?</b>
+            <b>Want to know how Ricoh-Cisco Meraki Smart <br> Service enables effective collaboration?</b>
           </mj-text>
           <mj-button href="https://www.ricoh.com/" padding="0">
-            Click Here
+            Read the eBook
           </mj-button>
         </mj-column>
       </mj-section>
 
       <mj-section>
         <mj-column>
-          <mj-text>
+          <mj-text align="center">
             <div>Best regards,</div>
             <div>Your Ricoh Team</div>
-            <div><a href="https://www.ricoh-ap.com/cloud-and-it-infrastructure/network-and-internet-services/" style="color: #0F7AC9; font-weight: 700; text-decoration: none;">Ricoh Network and Internet Services</a></div>
+            <div><a href="https://www.ricoh-ap.com/cloud-and-it-infrastructure/network-and-internet-services/" style="color: #0F7AC9; font-weight: 700; text-decoration: none;">Ricoh Professional &amp; Managed Services</a></div>
           </mj-text>
         </mj-column>
       </mj-section>
