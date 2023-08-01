@@ -1,0 +1,93 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" font-size="18px" line-height="28px" color="#666666" />
+      <mj-wrapper background-color="#eeeeee" />
+      <mj-section background-color="#ffffff" />
+      <mj-button font-size="14px" line-height="20px" font-weight="700" color="#FFFFFF" background-color="#03599A" border-radius="0" padding-top="30px" width="164px" />
+      <mj-class name="h1" font-size="32px" line-height="36px" font-weight="700" color="#FFFFFF" align="center" />
+      <mj-class name="h2" font-size="20px" line-height="24px" color="#FFFFFF" align="center" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-section background-color="#0F7AC9">
+      <mj-column>
+        <mj-image padding-bottom="35px" width="210px" align="center" src="https://ricoh-email.2xcode.dev/images/CM_eDM/C-Suite/1A/EDM-C-Suite_Cisco-Meraki_Logo.svg" alt="" />
+
+        <mj-text mj-class="h1">
+          Seamless Connectivity.<br> Secure Workspaces.
+        </mj-text>
+
+        <mj-text mj-class="h2">
+          Harness the transformative power of network cloud <br> solutions for enhanced productivity and resilience.
+        </mj-text>
+
+        <mj-button href="https://www.ricoh.com/">
+          Read the article
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image padding="0" src="https://ricoh-email.2xcode.dev/images/CM_eDM/C-Suite/1A/EDM-1A_C-Suite_Seamless-Connectivity-Secure-Workspaces_Banner-cut.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          Hi [C-suite executive],
+        </mj-text>
+
+        <mj-text>
+          Are you aware of the transformative potential of modern workspace and IT management in today’s business world? As a leader, you understand the importance of secure and connected workspaces for driving productivity and staying competitive. But are you fully harnessing the power of innovative solutions and technologies to maximise your organisation’s potential?
+        </mj-text>
+
+        <mj-text>
+          Our article “Elevate Your Business Potential With Network Cloud Solutions” is a deep dive into the transformative power of network cloud solutions. Here’s a sneak peek into key takeaways:
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-table>
+          <tr>
+            <td>
+              <img height="80px" width="80px" src="https://ricoh-email.2xcode.dev/images/CM_eDM/C-Suite/1A/Icons/EDM-1A_C-Suite_Icon-Gain-Agility-and-Scalability.svg" alt="">
+            </td>
+            <td>
+              <div><b>Gain agility and scalability</b></div>
+              How to scale your infrastructure and adapt to changing business needs
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-group>
+        <mj-column>
+
+          <mj-raw>
+
+          </mj-raw>
+
+          <mj-text>
+            <b>Gain agility and scalability</b>
+          </mj-text>
+          <mj-text>
+            How to scale your infrastructure and adapt to changing business needs
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+  </mj-body>
+</mjml>
