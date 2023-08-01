@@ -1,0 +1,169 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" font-size="18px" line-height="28px" color="#666666" />
+      <mj-wrapper background-color="#eeeeee" padding="0" />
+      <mj-section background-color="#ffffff" />
+      <mj-button font-size="14px" line-height="20px" font-weight="700" color="#FFFFFF" background-color="#03599A" border-radius="0" padding-top="30px" width="164px" />
+      <mj-class name="h1" font-size="32px" line-height="36px" font-weight="700" color="#FFFFFF" align="center" />
+      <mj-class name="h2" font-size="20px" line-height="24px" color="#FFFFFF" align="center" />
+      <mj-class name="divider-default" border-color="#F3F3F3" border-width="2px" border-style="solid" padding-top="0" padding-bottom="0" />
+      <mj-class name="bg-light-blue" background-color="#E8F6FF" width="90%" padding="20px" />
+      <mj-class name="footer-divider" border-color="#0F7AC9" container-background-color="#0F7AC9" border-width="3px" border-style="solid" padding="0" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-wrapper full-width="full-width">
+      <mj-section background-color="#0F7AC9">
+        <mj-column>
+          <mj-image padding-bottom="35px" width="210px" align="center" src="https://ricoh-email.2xcode.dev/images/CM_eDM/C-Suite/3A/EDM-C-Suite_Cisco-Meraki_Logo.svg" alt="" />
+
+          <mj-text mj-class="h1">
+            Managed Network Services <br> for Businesses of ALL Sizes
+          </mj-text>
+
+          <mj-text mj-class="h2">
+            Experience technology that revolutionises user,  <br> application, and device management
+          </mj-text>
+
+          <mj-button href="https://www.ricoh.com/">
+            Read the article
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-image padding="0" src="https://ricoh-email.2xcode.dev/images/CM_eDM/IT-Directors/3B/EDM-3B_IT-Directors-Managers_Managed-Network-Services-for-Businesses-of-ALL-Sizes_Banner-cut.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text>
+            Hi [IT Executive],
+          </mj-text>
+
+          <mj-text>
+            Are you an IT professional looking to stay ahead and sustain growth with the latest technology, but held back by budget constraints? A COMPTIA survey revealed that using a Managed Services Provider could lead up to 49% savings in annual IT costs for 33% of businesses. Ricoh-Cisco Meraki Smart Service could be the ideal, holistic IT choice to access advanced technology within your budget.
+          </mj-text>
+
+          <mj-text>
+            In “<a href="https://www.ricoh-ap.com/insights/2023/04/13/coffee-tea-or-managed-services" style="text-decoration: underline;"><span style="color: #0F7AC9;">Coffee, Tea, or Managed Services</span></a>”, uncover the secret to how businesses level the playing field by investing in managed services. We talk about five top reasons to choose Managed Services, including:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0">
+        <mj-group>
+          <mj-column width="40%">
+            <mj-image padding-right="0" width="200px" src="https://ricoh-email.2xcode.dev/images/CM_eDM/IT-Directors/3B/EDM-3B_IT-Directors-Managers_Access-to%20scalable-and-flexible-IT.png" alt="" />
+          </mj-column>
+          <mj-column width="60%">
+            <mj-text>
+              <b>Access to scalable and flexible IT support</b> like technical, functional, and training consultants
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding-top="0">
+        <mj-group>
+          <mj-column width="40%">
+            <mj-image padding-right="0" width="200px" src="https://ricoh-email.2xcode.dev/images/CM_eDM/IT-Directors/3B/EDM-3B_IT-Directors-Managers_Business-protection-from-costly-downtime.png" alt="" />
+          </mj-column>
+          <mj-column width="60%">
+            <mj-text>
+              <b>Business protection from costly downtime</b> with proactive maintenance on your IT systems
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding-top="0">
+        <mj-group>
+          <mj-column width="40%">
+            <mj-image padding-right="0" width="200px" src="https://ricoh-email.2xcode.dev/images/CM_eDM/IT-Directors/3B/EDM-3B_IT-Directors-Managers_C-Suite_Ensured-security-and-compliance.png" alt="" />
+          </mj-column>
+          <mj-column width="60%">
+            <mj-text>
+              <b>Ensured security and compliance with experts</b> alongside your risk management and legal teams
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-divider mj-class="divider-default" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text align="center">
+            With Ricoh Managed Services and Cisco Meraki, you can improve work life using smarter workplace technology to create positive outcomes. Have the peace of mind in knowing that your systems and processes are effectively managed, driving organisational success.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column mj-class="bg-light-blue">
+          <mj-text align="center" color="#333333" padding="0">
+            <b>Want to know how Ricoh-Cisco Meraki Smart <br> Service elevates businesses via managed network <br> services?</b>
+          </mj-text>
+          <mj-button href="https://www.ricoh.com/" padding="0">
+            Click Here
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text align="center">
+            <div>Best regards,</div>
+            <div>Your Ricoh Team</div>
+            <div><a href="https://www.ricoh-ap.com/cloud-and-it-infrastructure/network-and-internet-services" style="color: #0F7AC9; font-weight: 700; text-decoration: none;">Ricoh Network and Internet Services</a></div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider mj-class="footer-divider" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer top -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-top" padding-top="25px">
+            © 2023 Ricoh. All rights reserved.
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="right" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer bottom -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-bottom" align="center">
+            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"></span style="color: #333; text-decoration: underline;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"><span style="color: #333; text-decoration: underline;">Manage Preferences</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
