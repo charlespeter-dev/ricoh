@@ -64,12 +64,12 @@
 
       <mj-section padding="0">
         <mj-column>
-          <mj-image fluid-on-mobile="true" src="https://ricoh-email.2xcode.dev/images/272-P4-S2_eDM4_Managed_Services/Resources_Thumbnail_Image_01_The_Cloud_Computing_Advantage.png" alt="" border-radius="10px 10px 0px 0px" />
+          <mj-image fluid-on-mobile="true" src="https://ricoh-email.2xcode.dev/images/CM_eDM/Resources_Assets/Resources_Thumbnail-Elevate-Your-Business-Potential-With-Network-Cloud-Solutions.png" alt="" border-radius="10px 10px 0px 0px" />
           <mj-text padding-bottom="0">
-            <strong>The Cloud Computing Advantage</strong>
+            <strong>Elevate Your Business Potential With Network Cloud Solutions</strong>
           </mj-text>
           <mj-text padding-top="0" padding-bottom="0">
-            <p>Why do you need to embrace the future of cloud computing? This ebook highlights the advantages of fully virtualised environments in transforming your business.</p>
+            <p>Learn how to harness the power of network cloud solutions to achieve new heights of efficiency, scalability, and security in the digital age.</p>
           </mj-text>
           <mj-text padding-top="0">
             <a href="https://www.ricoh.com/" style="text-decoration: none; color: #0F7AC9;"><strong style="text-decoration: none; color: #0F7AC9;">Read more</strong></a>
@@ -77,12 +77,12 @@
         </mj-column>
 
         <mj-column>
-          <mj-image fluid-on-mobile="true" src="https://ricoh-email.2xcode.dev/images/270-P4-S2_eDM2_Cloud_Computing/Resources_Thumbnail-VismaRaet-Reserving-and-Managing-Workplaces-Online.png" alt="" border-radius="10px 10px 0px 0px" />
+          <mj-image fluid-on-mobile="true" src="https://ricoh-email.2xcode.dev/images/CM_eDM/Resources_Assets/Resources_Thumbnail-Coffee-Tea-or-Managed-Services.png" alt="" border-radius="10px 10px 0px 0px" />
           <mj-text padding-bottom="0">
-            <strong>Bridging Creativity and Productivity in the Modern Workplace</strong>
+            <strong>Coffee, Tea, or Managed Services</strong>
           </mj-text>
           <mj-text padding-top="0" padding-bottom="0">
-            <p>Strike a balance between creativity and productivity in your organisation with innovative solutions that empower effective collaboration in a modern workplace.</p>
+            <p>Say goodbye to the hassle of managing IT infrastructure and let experts handle it for you. Learn how managed services can benefit your organisation.</p>
           </mj-text>
           <mj-text padding-top="0">
             <a href="https://www.ricoh.com/" style="text-decoration: none; color: #0F7AC9;"><strong style="text-decoration: none; color: #0F7AC9;">Read more</strong></a>
