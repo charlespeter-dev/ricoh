@@ -20,27 +20,9 @@
   <mj-body>
 
     <mj-wrapper full-width="full-width">
-      <mj-section background-color="#0F7AC9">
-        <mj-column>
-          <mj-image padding-bottom="35px" width="210px" align="center" src="https://ricoh-email.2xcode.dev/images/CM_eDM/C-Suite/1A/EDM-C-Suite_Cisco-Meraki_Logo.svg" alt="" />
-
-          <mj-text mj-class="h1">
-            Thank you for your interest!
-          </mj-text>
-
-          <mj-text mj-class="h2">
-            You can read the article by clicking on the link below.
-          </mj-text>
-
-          <mj-button href="https://www.ricoh.com/">
-            Read the article
-          </mj-button>
-        </mj-column>
-      </mj-section>
-
       <mj-section padding="0">
         <mj-column>
-          <mj-image padding="0" src="https://ricoh-email.2xcode.dev/images/CM_eDM/C-Suite/1A/EDM-1A_C-Suite_Seamless-Connectivity-Secure-Workspaces_Banner-cut.png" alt="" />
+          <mj-image href="https://www.ricoh.com/" padding="0" src="https://ricoh-email.2xcode.dev/images/CM_eDM/Solid_Header/EDM_1A_C-Suite_TYP_Banner.jpg" alt="" />
         </mj-column>
       </mj-section>
 
