@@ -24,6 +24,8 @@ Optimized for resolution 360px <---> 1920px
 
 .lp-banner-cisco {
 
+    background-color: #0F7AC9;
+    
     .full-width {
         width: 100vw;
         position: relative;
@@ -84,9 +86,6 @@ Optimized for resolution 360px <---> 1920px
             @include fluid(font-size, 36px, 46px);
             @include fluid(line-height, 40px, 50px);
             font-weight: 700;
-
-            background-color: transparent;
-            color: #fff;
         }
     }
 
