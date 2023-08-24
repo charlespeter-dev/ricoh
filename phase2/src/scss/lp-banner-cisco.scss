@@ -84,6 +84,9 @@ Optimized for resolution 360px <---> 1920px
             @include fluid(font-size, 36px, 46px);
             @include fluid(line-height, 40px, 50px);
             font-weight: 700;
+
+            background-color: transparent;
+            color: #fff;
         }
     }
 
