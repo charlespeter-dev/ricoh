@@ -1,125 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- begin RICOH css -->
-
-    <link rel="stylesheet" href="footer.a62eb2a5.css">
-    <link rel="stylesheet" href="footer.b26a13ef.css">
-    <link rel="stylesheet" href="footer.03e384bc.css">
-    <link rel="stylesheet" href="footer.6acd0062.css">
-    <link rel="stylesheet" href="footer.edc579c0.css">
-    <link rel="stylesheet" href="footer.2baeb64a.css">
-    <link rel="stylesheet" href="footer.0c21e964.css">
-    <link rel="stylesheet" href="footer.d1a64954.css">
-    <link rel="stylesheet" href="footer.3e17f6e9.css">
-    <link rel="stylesheet" href="footer.6558a9ce.css">
-    <link rel="stylesheet" href="footer.2886dc49.css">
-    <link rel="stylesheet" href="footer.6267d155.css">
-    <link rel="stylesheet" href="footer.bba93fd6.css">
-    <link rel="stylesheet" href="footer.a029d12a.css">
-    <link rel="stylesheet" href="footer.3bd42064.css">
-    <link rel="stylesheet" href="footer.0d02b924.css">
-    <link rel="stylesheet" href="footer.4c5417f0.css">
-    <link rel="stylesheet" href="footer.d85b1054.css">
-    <link rel="stylesheet" href="footer.040b4fbb.css">
-    <link rel="stylesheet" href="footer.3c1fc5b3.css">
-    <link rel="stylesheet" href="footer.a90dd014.css">
-    <link rel="stylesheet" href="footer.ba2c2aad.css">
-    <link rel="stylesheet" href="footer.de61049f.css">
-    <link rel="stylesheet" href="footer.affba787.css">
-    <link rel="stylesheet" href="footer.1d1fdd1d.css">
-    <link rel="stylesheet" href="footer.c314a984.css">
-    <link rel="stylesheet" href="footer.8d004954.css">
-    <link rel="stylesheet" href="footer.78f0465d.css">
-    <link rel="stylesheet" href="footer.6d34519a.css">
-    <link rel="stylesheet" href="footer.47e59e0a.css">
-    <link rel="stylesheet" href="footer.4c2c04c8.css">
-    <link rel="stylesheet" href="footer.49e42d9b.css">
-    <link rel="stylesheet" href="footer.1cc0b51d.css">
-    <link rel="stylesheet" href="footer.f543bb6c.css">
-    <link rel="stylesheet" href="footer.530072e2.css">
-    <link rel="stylesheet" href="footer.3762424b.css">
-    <link rel="stylesheet" href="footer.3bc21116.css">
-    <link rel="stylesheet" href="footer.8d4ce9c5.css">
-    <link rel="stylesheet" href="footer.e8e3aba9.css">
-    <link rel="stylesheet" href="footer.fe3b6b74.css">
-    <link rel="stylesheet" href="footer.bb2b9d46.css">
-    <link rel="stylesheet" href="footer.77f3aa5e.css">
-    <link rel="stylesheet" href="footer.ebd766cf.css">
-    <link rel="stylesheet" href="footer.538c207d.css">
-    <link rel="stylesheet" href="footer.b16d6051.css">
-    <link rel="stylesheet" href="footer.65046283.css">
-    <link rel="stylesheet" href="footer.1131db26.css">
-    <link rel="stylesheet" href="footer.ca0e6094.css">
-    <link rel="stylesheet" href="footer.4e9b5a19.css">
-    <link rel="stylesheet" href="footer.950ccdf6.css">
-    <link rel="stylesheet" href="footer.10696d2e.css">
-    <link rel="stylesheet" href="footer.b65c502f.css">
-    <link rel="stylesheet" href="footer.b0267085.css">
-    <link rel="stylesheet" href="footer.7eaa051e.css">
-    <link rel="stylesheet" href="footer.9ef3658b.css">
-    <link rel="stylesheet" href="footer.138f43a9.css">
-    <link rel="stylesheet" href="footer.7276388e.css">
-    <link rel="stylesheet" href="footer.ee18945e.css">
-    <link rel="stylesheet" href="footer.6734f1bb.css">
-    <link rel="stylesheet" href="footer.ef5a1b5e.css">
-    <link rel="stylesheet" href="footer.c7c1b684.css">
-    <link rel="stylesheet" href="footer.5e0d0e02.css">
-    <link rel="stylesheet" href="footer.567675df.css">
-    <link rel="stylesheet" href="footer.a052fb70.css">
-    <link rel="stylesheet" href="footer.04a7ec24.css">
-    <link rel="stylesheet" href="footer.3621241b.css">
-    <link rel="stylesheet" href="footer.617c64fc.css">
-    <link rel="stylesheet" href="footer.c5a60989.css">
-    <link rel="stylesheet" href="footer.e2abcccc.css">
-    <link rel="stylesheet" href="footer.7ccf8f86.css">
-    <link rel="stylesheet" href="footer.df635195.css">
-    <link rel="stylesheet" href="footer.d89b3542.css">
-    <link rel="stylesheet" href="footer.d898307d.css">
-    <link rel="stylesheet" href="footer.4f432076.css">
-    <link rel="stylesheet" href="footer.2b8f89f8.css">
-    <link rel="stylesheet" href="footer.3448f492.css">
-    <link rel="stylesheet" href="footer.a3d64e08.css">
-    <link rel="stylesheet" href="footer.56afb88c.css">
-    <link rel="stylesheet" href="footer.422a4ea9.css">
-    <link rel="stylesheet" href="footer.6fa012f6.css">
-    <link rel="stylesheet" href="footer.c1c03284.css">
-    <link rel="stylesheet" href="footer.88212372.css">
-    <link rel="stylesheet" href="footer.daf723ef.css">
-    <link rel="stylesheet" href="footer.6255375c.css">
-    <link rel="stylesheet" href="footer.ac29a30e.css">
-    <link rel="stylesheet" href="footer.5eb42b3c.css">
-    <link rel="stylesheet" href="footer.3b001ef2.css">
-    <link rel="stylesheet" href="footer.d2014969.css">
-
-    <!-- end RICOH css -->
-
-    <!-- begin 2X css -->
-
-    <link rel="stylesheet" href="footer.29d8b5da.css">
-    <link rel="stylesheet" href="footer.7c066681.css">
-
-    <!-- end 2X css -->
-
-    <title>Footer</title>
-</head>
-
-<body>
-
-
-
-    <div class="bootstrap-container theme-hw">
-
-        <div class="container">
-
-            <!-- begin component: Footer -->
-
-            <section>
+a:1:{s:6:"footer";a:5:{s:5:"label";s:6:"Footer";s:5:"build";a:1:{i:0;s:6:"footer";}s:6:"iframe";a:1:{s:6:"footer";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}}s:4:"html";a:1:{s:6:"footer";s:8105:"<section>
                 <footer>
                     <div class="footer-top">
                         <div class="footer-top-content">
@@ -226,7 +105,7 @@
                                                 <a class="nav-link" href="#">Privacy</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="#">Terms & Conditions</a>
+                                                <a class="nav-link" href="#">Terms &amp; Conditions</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="#">Cookie Policy</a>
@@ -245,22 +124,163 @@
                     </div>
                 </footer>
             </section>
+";}s:3:"css";a:1:{s:6:"footer";s:3784:".bootstrap-container footer {
+  z-index: 1;
+  position: relative;
+}
 
-            <!-- end component: Footer -->
+.bootstrap-container footer a, .bootstrap-container footer strong, .bootstrap-container footer p, .bootstrap-container footer h4 {
+  color: #333 !important;
+}
 
-        </div>
-    </div>
+.bootstrap-container footer .footer-top {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
 
+.bootstrap-container footer .footer-top .footer-top-content:before {
+  content: "";
+  z-index: -1;
+  background-color: #f3f3f3;
+  width: 100vw;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50%);
+}
 
+.bootstrap-container footer .footer-top .footer-top-content .footer-logo {
+  margin-bottom: 50px;
+}
 
-    <!-- begin RICOH js -->
+@media screen and (width >= 992px) {
+  .bootstrap-container footer .footer-top .footer-top-content .footer-logo {
+    position: unset;
+    top: unset;
+    left: unset;
+    transform: unset;
+  }
+}
 
-    <script src="footer.e73a1af4.js"></script>
-    <script type="module" src="footer.764ef2dc.js"></script>
-    <script type="module" src="footer.bae93e82.js"></script>
+.bootstrap-container footer .footer-top .footer-top-content .footer-logo img {
+  width: 146px;
+}
 
-    <!-- end RICOH js -->
+.bootstrap-container footer .footer-top .footer-top-content .summary {
+  text-align: justify;
+  padding-right: 1.625rem;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
 
-</body>
+.bootstrap-container footer .footer-top .footer-top-content .group-link {
+  margin-top: 30px;
+}
 
-</html>
+@media screen and (width >= 992px) {
+  .bootstrap-container footer .footer-top .footer-top-content .group-link {
+    margin-top: 0;
+  }
+}
+
+.bootstrap-container footer .footer-top .footer-top-content .nav-link {
+  padding-left: 0;
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+.bootstrap-container footer .footer-top .footer-top-content .follow-us {
+  margin-top: 30px;
+}
+
+.bootstrap-container footer .footer-top .footer-top-content .follow-us .list-group-item:first-of-type {
+  margin-left: 0;
+}
+
+.bootstrap-container footer .footer-top .footer-top-content > .list-group-item a {
+  padding-left: 0;
+}
+
+.bootstrap-container footer .footer-top .footer-top-content .list-group-item {
+  background-color: #0000;
+  border-radius: .25rem;
+  margin: 10px;
+}
+
+.bootstrap-container footer .footer-top .footer-top-content .list-group-item + .list-group-item {
+  border-left-width: 1px;
+}
+
+.bootstrap-container footer .footer-top .footer-top-content .list-group-item i {
+  color: #b1b1b1;
+  font-size: 25px;
+}
+
+.bootstrap-container footer .footer-bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.bootstrap-container footer .footer-bottom .footer-bottom-content:before {
+  content: "";
+  z-index: -1;
+  background-color: #c9c9c9;
+  width: 100vw;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50% - .55rem);
+}
+
+.bootstrap-container footer .footer-bottom .footer-bottom-content .row .col {
+  flex-direction: column;
+  display: flex;
+}
+
+@media screen and (width >= 992px) {
+  .bootstrap-container footer .footer-bottom .footer-bottom-content .row .col {
+    flex-direction: row;
+  }
+}
+
+.bootstrap-container footer .footer-bottom .footer-bottom-content .bottom-links {
+  flex-direction: column;
+}
+
+@media screen and (width >= 992px) {
+  .bootstrap-container footer .footer-bottom .footer-bottom-content .bottom-links {
+    margin-right: auto;
+  }
+}
+
+.bootstrap-container footer .footer-bottom .footer-bottom-content .bottom-links .nav-link {
+  font-size: .875rem;
+  line-height: 1.5rem;
+}
+
+.bootstrap-container footer .footer-bottom .footer-bottom-content .bottom-links .nav-link:first-of-type {
+  padding-left: 0;
+}
+
+.bootstrap-container footer .footer-bottom .footer-bottom-content .copyr {
+  color: #333;
+  margin-top: 20px;
+  font-size: .875rem;
+  line-height: 1.5rem;
+}
+
+@media screen and (width >= 992px) {
+  .bootstrap-container footer .footer-bottom .footer-bottom-content .copyr {
+    margin-top: 0;
+  }
+}
+
+.bootstrap-container .nav {
+  background-color: #0000 !important;
+}
+
+";}}}
