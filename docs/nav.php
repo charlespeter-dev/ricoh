@@ -38,7 +38,7 @@ if ($files):
                         <?php foreach ($files as $file): ?>
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="<?= $file ?>">
-                                    <?= ucwords(str_replace('.php', '', $file)) ?>
+                                    <?= _ucwords(str_replace('.php', '', $file)) ?>
                                 </a>
                             </li>
                         <?php endforeach ?>

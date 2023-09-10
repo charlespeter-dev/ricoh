@@ -30,7 +30,7 @@ if (!empty($components)):
             <div class="container">
                 <div class="py-5 text-center">
                     <h1>
-                        <?= sprintf('%s and its variants', $components['label']) ?>
+                        <?= sprintf('%s and its variants', _ucwords($components['label'])) ?>
                     </h1>
                 </div>
             </div>

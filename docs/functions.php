@@ -85,3 +85,11 @@ function get_serialized_component($components, $DB_FILE, $BUILD_PATH)
 
     return $components;
 }
+
+/**
+ * ucwords
+ */
+function _ucwords($subject)
+{
+    return ucwords(str_replace(['_', '-'], ' ', $subject));
+}
