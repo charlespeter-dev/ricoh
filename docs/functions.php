@@ -1,6 +1,11 @@
 <?php
 
-define('DEV', true);
+if (isset($_SERVER['HTTP_HOST']) && strpos($_SERVER['HTTP_HOST'], 'localhost') !== false) {
+    define('DEV', true);
+} else {
+    define('DEV', false);
+}
+
 define('GH_BUILD_URL', 'https://ricoh-ph2.2xcode.dev');
 
 /**
@@ -15,7 +20,7 @@ function scan_php()
 
     foreach ($phpfiles as $file) {
 
-        if (!preg_match("/(serialize|nav|functions|index).php/i", $file))
+        if (!preg_match("/(serialize|nav|functions|index|base).php/i", $file))
             $files[] = $file;
     }
     return $files;
@@ -45,7 +50,7 @@ function get_serialized_component($components, $DB_FILE, $BUILD_PATH)
                          * html
                          */
 
-                        $out = shell_exec(sprintf("node parse-html.js %s %s", $html_path, $file['class'][$dir]));
+                        $out = shell_exec(sprintf("node parse-html.js %s %s", $html_path, 'section:first-child'));
 
                         $components[$key]['html'][$dir] = $out;
 

@@ -4,34 +4,44 @@ require_once 'functions.php';
 $basename = str_replace('.php', '', basename(__FILE__));
 $DB_FILE = $basename . '.serialize.php';
 $BUILD_PATH = sprintf('%s/phase2/src/build/', dirname(dirname(__FILE__)));
-$SLUG = 'banner';
+$SLUG = 'card';
 
 $comp_meta = [
     $SLUG => [
         'label' => ucwords($SLUG),
         'build' => [
-            'banner',
-            'lp-banner',
-            'lp-banner-cta',
-            'lp-banner-cisco'
+            'card-3-columns',
+            'card-partner',
+            'card-partner-2-columns',
+            'card-partner-carousel',
+            'card-why-ricoh',
+            'lp-card-3-columns'
         ],
         'iframe' => [
-            'banner' => [
+            'card-3-columns' => [
                 'width' => '100%',
                 'height' => '500px'
             ],
-            'lp-banner' => [
+            'card-partner' => [
                 'width' => '100%',
                 'height' => '500px'
             ],
-            'lp-banner-cta' => [
+            'card-partner-2-columns' => [
                 'width' => '100%',
                 'height' => '500px'
             ],
-            'lp-banner-cisco' => [
+            'card-partner-carousel' => [
                 'width' => '100%',
                 'height' => '500px'
-            ]
+            ],
+            'card-why-ricoh' => [
+                'width' => '100%',
+                'height' => '500px'
+            ],
+            'lp-card-3-columns' => [
+                'width' => '100%',
+                'height' => '500px'
+            ],
         ]
     ],
 ];

@@ -4,31 +4,21 @@ require_once 'functions.php';
 $basename = str_replace('.php', '', basename(__FILE__));
 $DB_FILE = $basename . '.serialize.php';
 $BUILD_PATH = sprintf('%s/phase2/src/build/', dirname(dirname(__FILE__)));
-$SLUG = 'banner';
+$SLUG = 'lets-connect';
 
 $comp_meta = [
     $SLUG => [
-        'label' => ucwords($SLUG),
+        'label' => "Let's Connect",
         'build' => [
-            'banner',
-            'lp-banner',
-            'lp-banner-cta',
-            'lp-banner-cisco'
+            'lets-connect',
+            'lp-lets-connect'
         ],
         'iframe' => [
-            'banner' => [
+            'lets-connect' => [
                 'width' => '100%',
                 'height' => '500px'
             ],
-            'lp-banner' => [
-                'width' => '100%',
-                'height' => '500px'
-            ],
-            'lp-banner-cta' => [
-                'width' => '100%',
-                'height' => '500px'
-            ],
-            'lp-banner-cisco' => [
+            'lp-lets-connect' => [
                 'width' => '100%',
                 'height' => '500px'
             ]
