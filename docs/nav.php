@@ -29,6 +29,7 @@ if ($files):
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
                         Components
+                        <div class="ms-3"><h6>&mdash; and its variants</h6></div>
                     </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
@@ -44,7 +45,7 @@ if ($files):
                     </ul>
                 </div>
                 <div class="ps-3 mb-5">
-                    <h5>Source</h5>
+                    <h5>Source Code</h5>
                     <a href="https://github.com/charlespeter-dev/ricoh/" target="_blank">
                         <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32"
                             data-view-component="true" class="octicon octicon-mark-github v-align-middle color-fg-default">
