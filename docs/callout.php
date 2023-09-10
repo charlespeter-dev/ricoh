@@ -17,7 +17,8 @@ $comp_meta = [
             'callout-percentage-reverse',
             'lp-callout-percentage-single',
             'lp-callout-quote',
-            'lp-callout-quote-w-percentage'
+            'lp-callout-quote-w-percentage',
+            'lp-callout-general-w-bg'
         ],
         'iframe' => [
             'callout-fraction-center' => [
@@ -52,7 +53,10 @@ $comp_meta = [
                 'width' => '100%',
                 'height' => '500px'
             ],
-
+            'lp-callout-general-w-bg' => [
+                'width' => '100%',
+                'height' => '500px'
+            ],
         ]
     ],
 ];

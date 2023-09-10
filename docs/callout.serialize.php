@@ -1,4 +1,4 @@
-a:1:{s:7:"callout";a:5:{s:5:"label";s:7:"Callout";s:5:"build";a:8:{i:0;s:23:"callout-fraction-center";i:1;s:27:"callout-percentage-1-column";i:2;s:28:"callout-percentage-2-columns";i:3;s:25:"callout-percentage-center";i:4;s:26:"callout-percentage-reverse";i:5;s:28:"lp-callout-percentage-single";i:6;s:16:"lp-callout-quote";i:7;s:29:"lp-callout-quote-w-percentage";}s:6:"iframe";a:8:{s:23:"callout-fraction-center";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}s:27:"callout-percentage-1-column";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}s:28:"callout-percentage-2-columns";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}s:25:"callout-percentage-center";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}s:26:"callout-percentage-reverse";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}s:28:"lp-callout-percentage-single";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}s:16:"lp-callout-quote";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}s:29:"lp-callout-quote-w-percentage";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}}s:4:"html";a:8:{s:23:"callout-fraction-center";s:587:"<section class="callout-fraction-center">
+a:1:{s:7:"callout";a:5:{s:5:"label";s:7:"Callout";s:5:"build";a:9:{i:0;s:23:"callout-fraction-center";i:1;s:27:"callout-percentage-1-column";i:2;s:28:"callout-percentage-2-columns";i:3;s:25:"callout-percentage-center";i:4;s:26:"callout-percentage-reverse";i:5;s:28:"lp-callout-percentage-single";i:6;s:16:"lp-callout-quote";i:7;s:29:"lp-callout-quote-w-percentage";i:8;s:23:"lp-callout-general-w-bg";}s:6:"iframe";a:9:{s:23:"callout-fraction-center";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}s:27:"callout-percentage-1-column";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}s:28:"callout-percentage-2-columns";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}s:25:"callout-percentage-center";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}s:26:"callout-percentage-reverse";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}s:28:"lp-callout-percentage-single";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}s:16:"lp-callout-quote";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}s:29:"lp-callout-quote-w-percentage";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}s:23:"lp-callout-general-w-bg";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}}s:4:"html";a:9:{s:23:"callout-fraction-center";s:587:"<section class="callout-fraction-center">
 
                 <div class="percentage-container">
 
@@ -180,7 +180,24 @@ a:1:{s:7:"callout";a:5:{s:5:"label";s:7:"Callout";s:5:"build";a:8:{i:0;s:23:"cal
                 </div>
 
             </section>
-";}s:3:"css";a:8:{s:23:"callout-fraction-center";s:5797:".callout-fraction-center {
+";s:23:"lp-callout-general-w-bg";s:721:"<section class="lp-callout-general-w-bg">
+
+                <div class="row">
+                    <div class="col top p-3">
+                        Here is a simple formula you can use to calculate the potential business and operating
+                        advantages of automated workflows that readily translate into financial gain:
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col bottom p-3">
+                        [Task Time Pre Automation] – [Task Time Post Automation] x [Hourly wage cost] x [Number of Times
+                        Task is Performed] = Your ROI
+                    </div>
+                </div>
+
+            </section>
+";}s:3:"css";a:9:{s:23:"callout-fraction-center";s:5797:".callout-fraction-center {
   flex-direction: row;
   justify-content: center;
   padding: 20px 0 50px;
@@ -1255,6 +1272,61 @@ a:1:{s:7:"callout";a:5:{s:5:"label";s:7:"Callout";s:5:"build";a:8:{i:0;s:23:"cal
 
 .theme-cs .lp-callout-quote-w-percentage .percentage-container .percent-text {
   border-left: 5px solid #00328f;
+}
+
+";s:23:"lp-callout-general-w-bg";s:1235:".bootstrap-container.theme-std .lp-callout-general-w-bg .top {
+  color: #fff;
+  background-color: #cf142b;
+}
+
+.bootstrap-container.theme-std .lp-callout-general-w-bg .bottom {
+  color: #8fc740;
+  background-color: #f9fcf5;
+}
+
+.bootstrap-container.theme-hw .lp-callout-general-w-bg .top {
+  color: #fff;
+  background-color: #768ec7;
+}
+
+.bootstrap-container.theme-hw .lp-callout-general-w-bg .bottom {
+  color: #8fc740;
+  background-color: #f9fcf5;
+}
+
+.bootstrap-container.theme-dwa .lp-callout-general-w-bg .top {
+  color: #fff;
+  background-color: #8fc740;
+}
+
+.bootstrap-container.theme-dwa .lp-callout-general-w-bg .bottom {
+  color: #8fc740;
+  background-color: #f9fcf5;
+}
+
+.bootstrap-container.theme-cit .lp-callout-general-w-bg .top {
+  color: #fff;
+  background-color: #0f7ac9;
+}
+
+.bootstrap-container.theme-cit .lp-callout-general-w-bg .bottom {
+  color: #8fc740;
+  background-color: #f9fcf5;
+}
+
+.bootstrap-container.theme-cs .lp-callout-general-w-bg .top {
+  color: #fff;
+  background-color: #00328f;
+}
+
+.bootstrap-container.theme-cs .lp-callout-general-w-bg .bottom {
+  color: #8fc740;
+  background-color: #f9fcf5;
+}
+
+.lp-callout-general-w-bg .top, .lp-callout-general-w-bg .bottom {
+  text-align: center;
+  display: block;
 }
 
 ";}}}

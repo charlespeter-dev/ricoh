@@ -1,0 +1,55 @@
+.bootstrap-container.theme-std .lp-callout-general-w-bg .top {
+  color: #fff;
+  background-color: #cf142b;
+}
+
+.bootstrap-container.theme-std .lp-callout-general-w-bg .bottom {
+  color: #8fc740;
+  background-color: #f9fcf5;
+}
+
+.bootstrap-container.theme-hw .lp-callout-general-w-bg .top {
+  color: #fff;
+  background-color: #768ec7;
+}
+
+.bootstrap-container.theme-hw .lp-callout-general-w-bg .bottom {
+  color: #8fc740;
+  background-color: #f9fcf5;
+}
+
+.bootstrap-container.theme-dwa .lp-callout-general-w-bg .top {
+  color: #fff;
+  background-color: #8fc740;
+}
+
+.bootstrap-container.theme-dwa .lp-callout-general-w-bg .bottom {
+  color: #8fc740;
+  background-color: #f9fcf5;
+}
+
+.bootstrap-container.theme-cit .lp-callout-general-w-bg .top {
+  color: #fff;
+  background-color: #0f7ac9;
+}
+
+.bootstrap-container.theme-cit .lp-callout-general-w-bg .bottom {
+  color: #8fc740;
+  background-color: #f9fcf5;
+}
+
+.bootstrap-container.theme-cs .lp-callout-general-w-bg .top {
+  color: #fff;
+  background-color: #00328f;
+}
+
+.bootstrap-container.theme-cs .lp-callout-general-w-bg .bottom {
+  color: #8fc740;
+  background-color: #f9fcf5;
+}
+
+.lp-callout-general-w-bg .top, .lp-callout-general-w-bg .bottom {
+  text-align: center;
+  display: block;
+}
+
