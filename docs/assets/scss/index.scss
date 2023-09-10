@@ -18,6 +18,10 @@
     background: #cfcdcd !important;
 }
 
+.navbar {
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
     --bs-nav-tabs-link-active-bg: #cfcdcd;
@@ -29,6 +33,7 @@
 
     span {
         font-weight: bold;
+
         a {
             text-decoration: none;
         }
