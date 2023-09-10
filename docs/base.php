@@ -27,6 +27,14 @@ if (!empty($components)):
 
         <div class="container-fluid">
 
+            <div class="container">
+                <div class="py-5 text-center">
+                    <h1>
+                        <?= sprintf('%s and its variants', $components['label']) ?>
+                    </h1>
+                </div>
+            </div>
+
             <?php foreach ($components['build'] as $key => $dir): ?>
 
                 <div class="iframe">
