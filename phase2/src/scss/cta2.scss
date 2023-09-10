@@ -1,0 +1,175 @@
+.btn-cta2 {
+
+    $text-arrow-space: 10px;
+    $shaft-width: 20px;
+    $newshaft-width: 26px;
+    $shaft-thickness: 2px;
+    $arrow-head-width: 8px;
+    $arrow-head-thickness: $shaft-thickness;
+
+    display: inline-block;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.1s;
+    transition-delay: 0;
+
+    .the-arrow {
+
+        width: 0;
+
+        &.-right {
+
+            >.shaft {
+                width: $shaft-width;
+                opacity: 1;
+
+                &:before,
+                &:after {
+                    width: $arrow-head-width;
+                }
+
+                &:before {
+                    transform: rotate(40deg);
+                }
+
+                &:after {
+                    transform: rotate(-40deg);
+                }
+            }
+        }
+
+        >.shaft {
+
+            display: block;
+            height: $shaft-thickness;
+            position: relative;
+            transition: all 0.2s;
+            transition-delay: 0;
+            will-change: transform;
+
+            &:before,
+            &:after {
+                content: "";
+                display: block;
+                height: $arrow-head-thickness;
+                position: absolute;
+                top: 0;
+                right: 0;
+                transition: all 0.2s;
+                transition-delay: 0;
+            }
+
+            &:before {
+                transform-origin: top right;
+            }
+
+            &:after {
+                transform-origin: bottom right;
+            }
+        }
+    }
+
+    >.btn-main {
+        display: flex;
+        align-items: center;
+
+        >.text {
+            padding: $text-arrow-space;
+            text-transform: uppercase;
+        }
+
+        >.the-arrow {
+            position: relative;
+        }
+    }
+
+    &:hover {
+
+        padding-right: calc($shaft-width + $text-arrow-space + 10px);
+
+        >.btn-main {
+
+            >.the-arrow.-right {
+
+                >.shaft {
+                    width: $newshaft-width;
+                    opacity: 1;
+                    transition-delay: 0.1s;
+
+                    &:before,
+                    &:after {
+                        width: $arrow-head-width;
+                        transition-delay: 0.1s;
+                    }
+
+                    &:before {
+                        transform: rotate(40deg);
+                    }
+
+                    &:after {
+                        transform: rotate(-40deg);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@import "../../../web/src/scss/functions";
+@import "../../../web/src/scss/mixins";
+@import "../../../web/src/scss/themes";
+
+@include themify($themes) {
+
+    .btn-cta2 {
+
+        color: themed('primaryColor');
+
+        .the-arrow {
+
+            width: 0;
+
+            &.-right {
+
+                >.shaft {
+                    background-color: themed('primaryColor');
+
+                    &:before,
+                    &:after {
+                        background-color: themed('primaryColor');
+                    }
+                }
+            }
+
+            >.shaft {
+
+                background-color: themed('primaryColor');
+
+                &:before,
+                &:after {
+                    background-color: themed('primaryColor');
+                }
+            }
+        }
+
+        &:hover {
+
+            color: themed('primaryColor');
+
+            >.btn-main {
+
+                >.the-arrow.-right {
+
+                    >.shaft {
+                        background-color: themed('primaryColor');
+
+                        &:before,
+                        &:after {
+                            background-color: themed('primaryColor');
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
