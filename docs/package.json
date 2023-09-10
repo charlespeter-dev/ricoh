@@ -1,0 +1,20 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx sass --watch assets/scss:assets/css",
+    "build": "npx sass assets/scss:assets/css",
+    "bsync": "npx browser-sync start --config bs.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "browser-sync": "^2.29.3",
+    "jsdom": "^22.1.0",
+    "sass": "~1.64.2"
+  }
+}

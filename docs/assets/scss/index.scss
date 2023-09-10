@@ -1,0 +1,46 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    --bs-gutter-x: 0;
+}
+
+.html {
+    background-color: #afabab;
+}
+
+.hljs {
+    background: #cfcdcd !important;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    --bs-nav-tabs-link-active-bg: #cfcdcd;
+    border-color: transparent;
+}
+
+.nav-link {
+    cursor: pointer;
+
+    span {
+        font-weight: bold;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+pre {
+    margin-bottom: 0;
+}
+
+.navbar-toggler {
+    @include media-breakpoint-up(lg) {
+        margin-inline-start: 1rem;
+    }
+}
