@@ -1,0 +1,28 @@
+@import "functions";
+@import "mixins";
+@import "themes";
+
+
+@include themify($themes) {
+
+    .lp-table {
+        margin: 50px 0;
+        background-color: #ffffff;
+
+        .table {
+            --bs-table-striped-color: themed('primaryColor');
+            color: #333333;
+
+            th {
+                &.text-theme-color {
+                    color: themed('primaryColor');
+                }
+            }
+        }
+
+        .heading {
+            background-color: themed('primaryColor');
+            color: #ffffff;
+        }
+    }
+}
