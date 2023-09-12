@@ -29,12 +29,19 @@ if ($files):
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
                         Components
-                        <div class="ms-3"><h6>&mdash; and its variants</h6></div>
+                        <div class="ms-3">
+                            <h6>&mdash; and its variants</h6>
+                        </div>
                     </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.php">
+                                Home
+                            </a>
+                        </li>
                         <?php foreach ($files as $file): ?>
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="<?= $file ?>">
