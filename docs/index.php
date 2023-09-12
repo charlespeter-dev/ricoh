@@ -109,7 +109,7 @@ require_once 'functions.php';
 
                     <ol>
                         <li>
-                            <strong>Phase 1 &mdash; Phase 3</strong>
+                            <strong>Phase 1</strong>
 
                             <ol type="a">
                                 <li>
@@ -123,7 +123,7 @@ require_once 'functions.php';
                         </li>
 
                         <li>
-                            <strong>Phase 4</strong>
+                            <strong>Phase 2 &mdash; Phase 4</strong>
                             <ol type="a">
                                 <li>
                                     The bootstrap source code recompiled and jailed under one CSS class called
