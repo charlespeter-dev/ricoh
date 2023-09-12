@@ -15,7 +15,7 @@ $comp_meta = [
         'iframe' => [
             'lp-table' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '830px'
             ]
         ]
     ],

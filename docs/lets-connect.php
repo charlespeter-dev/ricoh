@@ -16,7 +16,7 @@ $comp_meta = [
         'iframe' => [
             'lets-connect' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '400px'
             ],
             'lp-lets-connect' => [
                 'width' => '100%',

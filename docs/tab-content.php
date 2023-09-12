@@ -15,7 +15,7 @@ $comp_meta = [
         'iframe' => [
             'tab-nav-2-columns-content' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '680px'
             ]
         ]
     ],

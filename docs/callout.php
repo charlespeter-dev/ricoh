@@ -23,39 +23,39 @@ $comp_meta = [
         'iframe' => [
             'callout-fraction-center' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '260px'
             ],
             'callout-percentage-1-column' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '260px'
             ],
             'callout-percentage-2-columns' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '400px'
             ],
             'callout-percentage-center' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '260px'
             ],
             'callout-percentage-reverse' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '260px'
             ],
             'lp-callout-percentage-single' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '320px'
             ],
             'lp-callout-quote' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '260px'
             ],
             'lp-callout-quote-w-percentage' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '400px'
             ],
             'lp-callout-general-w-bg' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '100px'
             ],
         ]
     ],

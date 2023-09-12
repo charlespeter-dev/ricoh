@@ -18,19 +18,19 @@ $comp_meta = [
         'iframe' => [
             'banner' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '400px'
             ],
             'lp-banner' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '300px'
             ],
             'lp-banner-cta' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '300px'
             ],
             'lp-banner-cisco' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '400px'
             ]
         ]
     ],

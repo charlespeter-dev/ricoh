@@ -15,7 +15,7 @@ $comp_meta = [
         'iframe' => [
             'primary-nav' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '100px'
             ],
         ]
     ],

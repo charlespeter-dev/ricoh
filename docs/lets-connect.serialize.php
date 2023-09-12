@@ -1,4 +1,4 @@
-a:1:{s:12:"lets-connect";a:5:{s:5:"label";s:13:"Let's Connect";s:5:"build";a:2:{i:0;s:12:"lets-connect";i:1;s:15:"lp-lets-connect";}s:6:"iframe";a:2:{s:12:"lets-connect";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}s:15:"lp-lets-connect";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}}s:4:"html";a:2:{s:12:"lets-connect";s:1074:"<section class="lets-connect">
+a:1:{s:12:"lets-connect";a:5:{s:5:"label";s:13:"Let's Connect";s:5:"build";a:2:{i:0;s:12:"lets-connect";i:1;s:15:"lp-lets-connect";}s:6:"iframe";a:2:{s:12:"lets-connect";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"400px";}s:15:"lp-lets-connect";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}}s:4:"html";a:2:{s:12:"lets-connect";s:1074:"<section class="lets-connect">
 
                 <div class="bg-grey"></div>
 

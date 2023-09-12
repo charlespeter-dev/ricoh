@@ -20,23 +20,23 @@ $comp_meta = [
         'iframe' => [
             'lp-split-cta-thumbnail' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '300px'
             ],
             'split-text-w-bg' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '450px'
             ],
             'split-text-wo-bg' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '600px'
             ],
             'split-video-text' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '700px'
             ],
             'split-width-hero' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '1600px'
             ],
             'split-width-hero-carousel' => [
                 'width' => '100%',

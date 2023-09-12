@@ -18,19 +18,19 @@ $comp_meta = [
         'iframe' => [
             'list-icon-mirror' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '680px'
             ],
             'lp-mega-list' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '800px'
             ],
             'lp-mega-list-unordered' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '800px'
             ],
             'lp-split-list-icon' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '450px'
             ],
         ]
     ],

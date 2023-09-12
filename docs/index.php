@@ -44,7 +44,7 @@ require_once 'functions.php';
                     </h2>
 
                     <p>
-                        This documentation is all about components and its variants that was built by 2X. The
+                        This documentation is all about components and its variants that was built by 2X for RICOH. The
                         developer in 2X job scope is basically to support Ui/Ux translating the mock designs into to
                         reusable component, building complete web page with HTML and bootstrap framework. Once it is
                         completed, we communicate with Jason from RICOH which is the person in charge relating to

@@ -1,4 +1,4 @@
-a:1:{s:5:"share";a:5:{s:5:"label";s:5:"Share";s:5:"build";a:1:{i:0;s:8:"lp-share";}s:6:"iframe";a:1:{s:8:"lp-share";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}}s:4:"html";a:1:{s:8:"lp-share";s:1031:"<section class="lp-share">
+a:1:{s:5:"share";a:5:{s:5:"label";s:5:"Share";s:5:"build";a:1:{i:0;s:8:"lp-share";}s:6:"iframe";a:1:{s:8:"lp-share";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"200px";}}s:4:"html";a:1:{s:8:"lp-share";s:1031:"<section class="lp-share">
 
                 <div class="text">
                     share

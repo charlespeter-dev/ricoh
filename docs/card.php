@@ -20,27 +20,27 @@ $comp_meta = [
         'iframe' => [
             'card-3-columns' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '700px'
             ],
             'card-partner' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '550px'
             ],
             'card-partner-2-columns' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '780px'
             ],
             'card-partner-carousel' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '180px'
             ],
             'card-why-ricoh' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '750px'
             ],
             'lp-card-3-columns' => [
                 'width' => '100%',
-                'height' => '500px'
+                'height' => '780px'
             ],
         ]
     ],

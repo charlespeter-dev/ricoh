@@ -1,4 +1,4 @@
-a:1:{s:5:"table";a:5:{s:5:"label";s:5:"Table";s:5:"build";a:1:{i:0;s:8:"lp-table";}s:6:"iframe";a:1:{s:8:"lp-table";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}}s:4:"html";a:1:{s:8:"lp-table";s:6896:"<section>
+a:1:{s:5:"table";a:5:{s:5:"label";s:5:"Table";s:5:"build";a:1:{i:0;s:8:"lp-table";}s:6:"iframe";a:1:{s:8:"lp-table";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"830px";}}s:4:"html";a:1:{s:8:"lp-table";s:6896:"<section>
                 <div class="row">
                     <div class="col-lg-8">
                         <section class="lp-table">
