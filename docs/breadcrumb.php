@@ -12,7 +12,13 @@ $comp_meta = [
         'build' => [
             'breadcrumb'
         ],
-        'iframe' => [
+        'iframe-desktop' => [
+            'breadcrumb' => [
+                'width' => '100%',
+                'height' => '100px'
+            ]
+        ],
+        'iframe-mobile' => [
             'breadcrumb' => [
                 'width' => '100%',
                 'height' => '100px'

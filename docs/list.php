@@ -15,7 +15,7 @@ $comp_meta = [
             'lp-mega-list-unordered',
             'lp-split-list-icon'
         ],
-        'iframe' => [
+        'iframe-desktop' => [
             'list-icon-mirror' => [
                 'width' => '100%',
                 'height' => '680px'
@@ -31,6 +31,24 @@ $comp_meta = [
             'lp-split-list-icon' => [
                 'width' => '100%',
                 'height' => '450px'
+            ],
+        ],
+        'iframe-mobile' => [
+            'list-icon-mirror' => [
+                'width' => '100%',
+                'height' => '1880px'
+            ],
+            'lp-mega-list' => [
+                'width' => '100%',
+                'height' => '800px'
+            ],
+            'lp-mega-list-unordered' => [
+                'width' => '100%',
+                'height' => '800px'
+            ],
+            'lp-split-list-icon' => [
+                'width' => '100%',
+                'height' => '850px'
             ],
         ]
     ],

@@ -14,7 +14,21 @@ $comp_meta = [
             'button-cta2',
             'button-std'
         ],
-        'iframe' => [
+        'iframe-desktop' => [
+            'button-cta1' => [
+                'width' => '100%',
+                'height' => '100px'
+            ],
+            'button-cta2' => [
+                'width' => '100%',
+                'height' => '100px'
+            ],
+            'button-std' => [
+                'width' => '100%',
+                'height' => '100px'
+            ],
+        ],
+        'iframe-mobile' => [
             'button-cta1' => [
                 'width' => '100%',
                 'height' => '100px'

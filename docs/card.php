@@ -17,7 +17,7 @@ $comp_meta = [
             'card-why-ricoh',
             'lp-card-3-columns'
         ],
-        'iframe' => [
+        'iframe-desktop' => [
             'card-3-columns' => [
                 'width' => '100%',
                 'height' => '700px'
@@ -41,6 +41,32 @@ $comp_meta = [
             'lp-card-3-columns' => [
                 'width' => '100%',
                 'height' => '780px'
+            ],
+        ],
+        'iframe-mobile' => [
+            'card-3-columns' => [
+                'width' => '100%',
+                'height' => '3700px'
+            ],
+            'card-partner' => [
+                'width' => '100%',
+                'height' => '1100px'
+            ],
+            'card-partner-2-columns' => [
+                'width' => '100%',
+                'height' => '1100px'
+            ],
+            'card-partner-carousel' => [
+                'width' => '100%',
+                'height' => '200px'
+            ],
+            'card-why-ricoh' => [
+                'width' => '100%',
+                'height' => '1630px'
+            ],
+            'lp-card-3-columns' => [
+                'width' => '100%',
+                'height' => '1980px'
             ],
         ]
     ],

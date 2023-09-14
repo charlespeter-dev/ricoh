@@ -15,6 +15,22 @@ if (!empty($components)):
         <title>
             <?= $comp_meta[$SLUG]['label'] ?> | Component
         </title>
+
+        <style>
+            <?php foreach ($components['build'] as $key => $dir): ?>
+                .iframe-<?= $dir ?> {
+                    width:<?= $components['iframe-mobile'][$dir]['width'] ?>;
+                    height:<?= $components['iframe-mobile'][$dir]['height'] ?>;
+                }
+
+                @media screen and (min-width: 992px) {
+                    .iframe-<?= $dir ?> {
+                        width:<?= $components['iframe-desktop'][$dir]['width'] ?>;
+                        height:<?= $components['iframe-desktop'][$dir]['height'] ?>;
+                    }
+                }
+            <?php endforeach ?>
+        </style>
     </head>
 
     <body>
@@ -38,12 +54,11 @@ if (!empty($components)):
             <?php foreach ($components['build'] as $key => $dir): ?>
 
                 <div class="iframe">
-                    <iframe src="<?= sprintf('%s/%s/%s.html', GH_BUILD_URL, $dir, $dir) ?>"
-                        style="width: <?= $components['iframe'][$dir]['width'] ?>; min-height: <?= $components['iframe'][$dir]['height'] ?>;"
+                    <iframe class="iframe-<?= $dir ?>" src="<?= sprintf('%s/%s/%s.html', GH_BUILD_URL, $dir, $dir) ?>"
                         frameborder="0" scrolling="no"></iframe>
                 </div>
 
-                <div class="html py-lg-5 my-lg-5">
+                <div class="html py-5 my-5">
                     <div class="container">
 
                         <nav>

@@ -12,10 +12,16 @@ $comp_meta = [
         'build' => [
             'primary-nav'
         ],
-        'iframe' => [
+        'iframe-desktop' => [
             'primary-nav' => [
                 'width' => '100%',
                 'height' => '100px'
+            ],
+        ],
+        'iframe-mobile' => [
+            'primary-nav' => [
+                'width' => '100%',
+                'height' => '1000px'
             ],
         ]
     ],

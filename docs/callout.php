@@ -20,14 +20,14 @@ $comp_meta = [
             'lp-callout-quote-w-percentage',
             'lp-callout-general-w-bg'
         ],
-        'iframe' => [
+        'iframe-desktop' => [
             'callout-fraction-center' => [
                 'width' => '100%',
                 'height' => '260px'
             ],
             'callout-percentage-1-column' => [
                 'width' => '100%',
-                'height' => '260px'
+                'height' => '330px'
             ],
             'callout-percentage-2-columns' => [
                 'width' => '100%',
@@ -56,6 +56,44 @@ $comp_meta = [
             'lp-callout-general-w-bg' => [
                 'width' => '100%',
                 'height' => '100px'
+            ],
+        ],
+        'iframe-mobile' => [
+            'callout-fraction-center' => [
+                'width' => '100%',
+                'height' => '500px'
+            ],
+            'callout-percentage-1-column' => [
+                'width' => '100%',
+                'height' => '430px'
+            ],
+            'callout-percentage-2-columns' => [
+                'width' => '100%',
+                'height' => '790px'
+            ],
+            'callout-percentage-center' => [
+                'width' => '100%',
+                'height' => '430px'
+            ],
+            'callout-percentage-reverse' => [
+                'width' => '100%',
+                'height' => '550px'
+            ],
+            'lp-callout-percentage-single' => [
+                'width' => '100%',
+                'height' => '310px'
+            ],
+            'lp-callout-quote' => [
+                'width' => '100%',
+                'height' => '340px'
+            ],
+            'lp-callout-quote-w-percentage' => [
+                'width' => '100%',
+                'height' => '550px'
+            ],
+            'lp-callout-general-w-bg' => [
+                'width' => '100%',
+                'height' => '270px'
             ],
         ]
     ],

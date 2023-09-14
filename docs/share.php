@@ -12,7 +12,13 @@ $comp_meta = [
         'build' => [
             'lp-share'
         ],
-        'iframe' => [
+        'iframe-desktop' => [
+            'lp-share' => [
+                'width' => '100%',
+                'height' => '200px'
+            ]
+        ],
+        'iframe-mobile' => [
             'lp-share' => [
                 'width' => '100%',
                 'height' => '200px'

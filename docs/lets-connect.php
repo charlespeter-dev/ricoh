@@ -13,7 +13,7 @@ $comp_meta = [
             'lets-connect',
             'lp-lets-connect'
         ],
-        'iframe' => [
+        'iframe-desktop' => [
             'lets-connect' => [
                 'width' => '100%',
                 'height' => '400px'
@@ -21,6 +21,16 @@ $comp_meta = [
             'lp-lets-connect' => [
                 'width' => '100%',
                 'height' => '500px'
+            ]
+        ],
+        'iframe-mobile' => [
+            'lets-connect' => [
+                'width' => '100%',
+                'height' => '600px'
+            ],
+            'lp-lets-connect' => [
+                'width' => '100%',
+                'height' => '520px'
             ]
         ]
     ],

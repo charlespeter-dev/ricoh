@@ -12,10 +12,16 @@ $comp_meta = [
         'build' => [
             'tab-nav-2-columns-content'
         ],
-        'iframe' => [
+        'iframe-desktop' => [
             'tab-nav-2-columns-content' => [
                 'width' => '100%',
                 'height' => '680px'
+            ]
+        ],
+        'iframe-mobile' => [
+            'tab-nav-2-columns-content' => [
+                'width' => '100%',
+                'height' => '1330px'
             ]
         ]
     ],

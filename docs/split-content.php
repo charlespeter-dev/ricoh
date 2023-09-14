@@ -17,7 +17,7 @@ $comp_meta = [
             'split-width-hero',
             'split-width-hero-carousel'
         ],
-        'iframe' => [
+        'iframe-desktop' => [
             'lp-split-cta-thumbnail' => [
                 'width' => '100%',
                 'height' => '300px'
@@ -41,6 +41,32 @@ $comp_meta = [
             'split-width-hero-carousel' => [
                 'width' => '100%',
                 'height' => '500px'
+            ],
+        ],
+        'iframe-mobile' => [
+            'lp-split-cta-thumbnail' => [
+                'width' => '100%',
+                'height' => '530px'
+            ],
+            'split-text-w-bg' => [
+                'width' => '100%',
+                'height' => '900px'
+            ],
+            'split-text-wo-bg' => [
+                'width' => '100%',
+                'height' => '1000px'
+            ],
+            'split-video-text' => [
+                'width' => '100%',
+                'height' => '1230px'
+            ],
+            'split-width-hero' => [
+                'width' => '100%',
+                'height' => '2500px'
+            ],
+            'split-width-hero-carousel' => [
+                'width' => '100%',
+                'height' => '1200px'
             ],
         ]
     ],

@@ -12,10 +12,16 @@ $comp_meta = [
         'build' => [
             'footer'
         ],
-        'iframe' => [
+        'iframe-desktop' => [
             'footer' => [
                 'width' => '100%',
                 'height' => '500px'
+            ],
+        ],
+        'iframe-mobile' => [
+            'footer' => [
+                'width' => '100%',
+                'height' => '1000px'
             ],
         ]
     ],

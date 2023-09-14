@@ -12,10 +12,16 @@ $comp_meta = [
         'build' => [
             'lp-table'
         ],
-        'iframe' => [
+        'iframe-desktop' => [
             'lp-table' => [
                 'width' => '100%',
                 'height' => '830px'
+            ]
+        ],
+        'iframe-mobile' => [
+            'lp-table' => [
+                'width' => '100%',
+                'height' => '1930px'
             ]
         ]
     ],

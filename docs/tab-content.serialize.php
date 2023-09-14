@@ -1,4 +1,4 @@
-a:1:{s:11:"tab-content";a:5:{s:5:"label";s:11:"Tab-content";s:5:"build";a:1:{i:0;s:25:"tab-nav-2-columns-content";}s:6:"iframe";a:1:{s:25:"tab-nav-2-columns-content";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"680px";}}s:4:"html";a:1:{s:25:"tab-nav-2-columns-content";s:15425:"<section class="tab-nav-2-columns-content">
+a:1:{s:11:"tab-content";a:6:{s:5:"label";s:11:"Tab-content";s:5:"build";a:1:{i:0;s:25:"tab-nav-2-columns-content";}s:14:"iframe-desktop";a:1:{s:25:"tab-nav-2-columns-content";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"680px";}}s:13:"iframe-mobile";a:1:{s:25:"tab-nav-2-columns-content";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:6:"1330px";}}s:4:"html";a:1:{s:25:"tab-nav-2-columns-content";s:15425:"<section class="tab-nav-2-columns-content">
 
                 <!-- show this DIV in desktop only -->
 

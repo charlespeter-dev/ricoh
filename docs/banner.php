@@ -15,7 +15,7 @@ $comp_meta = [
             'lp-banner-cta',
             'lp-banner-cisco'
         ],
-        'iframe' => [
+        'iframe-desktop' => [
             'banner' => [
                 'width' => '100%',
                 'height' => '400px'
@@ -31,6 +31,24 @@ $comp_meta = [
             'lp-banner-cisco' => [
                 'width' => '100%',
                 'height' => '400px'
+            ]
+        ],
+        'iframe-mobile' => [
+            'banner' => [
+                'width' => '100%',
+                'height' => '510px'
+            ],
+            'lp-banner' => [
+                'width' => '100%',
+                'height' => '700px'
+            ],
+            'lp-banner-cta' => [
+                'width' => '100%',
+                'height' => '760px'
+            ],
+            'lp-banner-cisco' => [
+                'width' => '100%',
+                'height' => '850px'
             ]
         ]
     ],
