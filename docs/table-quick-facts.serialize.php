@@ -1,0 +1,1 @@
+a:1:{s:17:"table-quick-facts";a:4:{s:5:"label";s:17:"Table-quick-facts";s:5:"build";a:1:{i:0;s:17:"table-quick-facts";}s:14:"iframe-desktop";a:1:{s:17:"table-quick-facts";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"830px";}}s:13:"iframe-mobile";a:1:{s:17:"table-quick-facts";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:6:"1930px";}}}}
