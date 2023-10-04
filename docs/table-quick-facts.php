@@ -15,13 +15,13 @@ $comp_meta = [
         'iframe-desktop' => [
             'lp-table-quick-facts' => [
                 'width' => '100%',
-                'height' => '830px'
+                'height' => '350px'
             ]
         ],
         'iframe-mobile' => [
             'lp-table-quick-facts' => [
                 'width' => '100%',
-                'height' => '1930px'
+                'height' => '500px'
             ]
         ]
     ],
