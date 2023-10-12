@@ -17,7 +17,7 @@ if ($files):
             </button>
             <a class="navbar-brand" data-bs-toggle="offcanvas" href="#offcanvasNavbar">
 
-                <img src="https://www.2x.marketing/img/logo-scroll-2x.png" alt="" class="img-fluid"
+                <img src="https://2x.marketing/wp-content/uploads/2023/09/logo-scroll-2x.png" alt="" class="img-fluid"
                     style="height: 40px; margin-inline-end: 1rem;">
 
                 <img src="https://www.ricoh.com/-/Media/Ricoh/Common/cmn_g_header_footer/img/logo/logo.svg" alt=""
