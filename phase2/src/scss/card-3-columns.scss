@@ -25,6 +25,15 @@
 .card-3-columns {
 
     background-color: #F3F3F3;
+
+    &.bgwhite {
+        background-color: #FFF;
+
+        &::before {
+            background-color: #FFF;
+        }
+    }
+
     position: relative;
     z-index: 1;
     padding-bottom: 50px;

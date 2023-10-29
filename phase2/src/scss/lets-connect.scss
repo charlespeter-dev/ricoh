@@ -34,6 +34,31 @@
         }
     }
 
+    .bg-white {
+        background-color: #FFF;
+        position: relative;
+        height: $fixed-mobile-height;
+        margin-top: 0;
+        z-index: 1;
+
+        @media screen and (min-width: 992px) {
+            height: $fixed-desktop-height;
+            margin-top: 0;
+        }
+
+        &::before {
+            content: '';
+            display: block;
+            height: 100%;
+            position: absolute;
+            top: -1px;
+            left: calc((100vw - 100%) / -2);
+            width: 100vw;
+            z-index: -1;
+            background-color: #FFF;
+        }
+    }
+
     .bg-red {
 
         background-color: #CF142B;
