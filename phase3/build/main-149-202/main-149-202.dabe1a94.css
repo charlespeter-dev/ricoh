@@ -1,0 +1,12 @@
+.split-text-wo-bg {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (width >= 992px) {
+  .split-text-wo-bg {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+}
+
