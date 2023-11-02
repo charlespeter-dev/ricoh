@@ -7,9 +7,9 @@
       <mj-section background-color="#ffffff" />
       <mj-button font-size="14px" line-height="20px" font-weight="700" color="#FFFFFF" background-color="#CF142B" border-radius="0" padding-top="30px" width="164px" />
       <mj-class name="h1" font-size="32px" line-height="36px" font-weight="700" color="#333333" align="center" />
-      <mj-class name="h2" font-size="20px" line-height="24px" color="#FFFFFF" align="center" />
+      <mj-class name="h2" font-size="20px" line-height="24px" color="#333333" align="center" />
       <mj-class name="divider-default" border-color="#F3F3F3" border-width="2px" border-style="solid" padding-top="0" padding-bottom="0" />
-      <mj-class name="bg-light-blue" background-color="#E8F6FF" width="90%" padding="20px" />
+      <mj-class name="bg-theme" background-color="#FEF5F5" width="90%" padding="20px" />
       <mj-class name="footer-divider" border-color="#0F7AC9" container-background-color="#0F7AC9" border-width="3px" border-style="solid" padding="0" />
       <mj-class name="footer-top" font-size="14px" line-height="16px" />
       <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
@@ -31,31 +31,56 @@
             Transform Your <br> HR Operations With DocuWare
           </mj-text>
 
-          <mj-text align="center">
+          <mj-text mj-class="h2" align="center">
             Effortlessly Manage Employee Records.
           </mj-text>
 
-          <mj-button>
+          <mj-button href="https://www.ricoh.com/">
             Book a Demo
           </mj-button>
         </mj-column>
       </mj-section>
 
-      <mj-section background-color="#F5F5F5">
+      <mj-section padding="0" background-color="#F5F5F5">
         <mj-column>
           <mj-image href="https://www.ricoh.com/" padding="0" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/RICOH%20-%20P6-DocuWare_Banner_Desktop.jpg" alt="" />
         </mj-column>
       </mj-section>
 
-      <mj-section padding-top="0">
+      <mj-section>
+        <mj-column>
+          <mj-text>
+            Dear [Prospect name],
+          </mj-text>
+          <mj-text>
+            HR teams today face diverse challenges, from managing complex hiring processes to overseeing timely on- and off-boarding tasks while cultivating an engaged workforce. To stay on top of things, you need an innovative solution that not only answers today’s needs but anticipates tomorrow’s demands—an easy-to-use solution that lets your team get work done.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/DocuWare-eDM1-Video-Thumbnail.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text>
+            DocuWare is a robust document management solution that is secure, user-friendly, and quick to deploy. With intelligent indexing, your team can automatically digitise, organise, and store incoming data, no matter where it’s coming from. Advanced security features such as role-based access controls and audit trails ensure compliance and audit readiness.
+          </mj-text>
+          <mj-text>
+            Discover how automation can simplify complexity for your organisation with:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
         <mj-group>
           <mj-column width="25%">
-            <mj-image padding-right="0" height="100px" width="100px" src="https://ricoh-email.2xcode.dev/images/CM_eDM/C-Suite/1A/Icons/EDM-1A_C-Suite_Icon-Gain-Agility-and-Scalability.svg" alt="" />
+            <mj-image padding-right="0" padding-top="0" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/Icon-Centralised.svg" alt="" />
           </mj-column>
           <mj-column width="75%">
-            <mj-text>
-              <b>Gain agility and scalability</b>
-            </mj-text>
             <mj-text padding-top="0">
               How to scale your infrastructure and adapt to changing business needs
             </mj-text>
@@ -66,12 +91,9 @@
       <mj-section padding-top="0">
         <mj-group>
           <mj-column width="25%">
-            <mj-image padding-right="0" height="100px" width="100px" src="https://ricoh-email.2xcode.dev/images/CM_eDM/C-Suite/1A/Icons/EDM-1A_C-Suite_Icon-Enable-Collaboration-and-Productivity.svg" alt="" />
+            <mj-image padding-right="0" padding-top="0" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/Icon-Ready-to-use.svg" alt="" />
           </mj-column>
           <mj-column width="75%">
-            <mj-text>
-              <b>Enable collaboration and productivity</b>
-            </mj-text>
             <mj-text padding-top="0">
               See how cloud-based networks seamlessly connect teams, enabling efficient collaboration and driving productivity
             </mj-text>
@@ -82,17 +104,22 @@
       <mj-section padding-top="0">
         <mj-group>
           <mj-column width="25%">
-            <mj-image padding-right="0" height="100px" width="100px" src="https://ricoh-email.2xcode.dev/images/CM_eDM/C-Suite/1A/Icons/EDM-1A_C-Suite_Icon-Ensure-Resilient-Security-and-Data-protection.svg" alt="" />
+            <mj-image padding-right="0" padding-top="0" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/Icon-Audit-Compliance.svg" alt="" />
           </mj-column>
           <mj-column width="75%">
-            <mj-text>
-              <b>Ensure resilient security and data protection</b>
-            </mj-text>
             <mj-text padding-top="0">
               Strengthen your security posture, mitigate cybersecurity risks, and ensure business continuity with the right support
             </mj-text>
           </mj-column>
         </mj-group>
+      </mj-section>
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text>
+            Learn how we can drive your business forward. Connect with our experts to see DocuWare in action.
+          </mj-text>
+        </mj-column>
       </mj-section>
 
       <mj-section>
@@ -101,31 +128,22 @@
         </mj-column>
       </mj-section>
 
-      <mj-section padding="0">
-        <mj-column>
-          <mj-text>
-            Empower your team members with workspaces powered by our <span style="color: #0F7AC9;">Ricoh-Cisco Meraki Smart Service</span>. We’re here to help you on your digital transformation journey.
-          </mj-text>
-        </mj-column>
-      </mj-section>
-
       <mj-section>
-        <mj-column mj-class="bg-light-blue">
+        <mj-column mj-class="bg-theme">
           <mj-text align="center" color="#333333" padding="0">
-            <b>Want to know how Ricoh-Cisco Meraki Smart <br> Service helps you unlock your business’s <br> true potential?</b>
+            <b>Ready to transform your HR operations and unlock growth potential? Discover how Ricoh and DocuWare can get you there.</b>
           </mj-text>
-          <mj-button href="https://www.ricoh.com/" padding="0">
-            Click Here
+          <mj-button href="https://www.ricoh.com/">
+            Book a Demo
           </mj-button>
         </mj-column>
       </mj-section>
 
-      <mj-section>
+      <mj-section padding-top="0">
         <mj-column>
-          <mj-text>
+          <mj-text align="center">
             <div>Best regards,</div>
-            <div>Your Ricoh Team</div>
-            <div><a href="https://www.ricoh-ap.com/cloud-and-it-infrastructure/network-and-internet-services/" style="color: #0F7AC9; font-weight: 700; text-decoration: none;">Ricoh Network and Internet Services</a></div>
+            <div><b><span style="color: #CF142B;">Your Ricoh Team</span></b></div>
           </mj-text>
         </mj-column>
       </mj-section>
