@@ -2,11 +2,11 @@
 
   <mj-head>
     <mj-attributes>
-      <mj-all font-family="Arial, san-serif" font-size="18px" line-height="28px" color="#666666" />
+      <mj-all font-family="Arial, san-serif" font-size="18px" line-height="28px" color="#333333" />
       <mj-wrapper background-color="#eeeeee" padding="0" />
       <mj-section background-color="#ffffff" />
-      <mj-button font-size="14px" line-height="20px" font-weight="700" color="#FFFFFF" background-color="#03599A" border-radius="0" padding-top="30px" width="164px" />
-      <mj-class name="h1" font-size="32px" line-height="36px" font-weight="700" color="#FFFFFF" align="center" />
+      <mj-button font-size="14px" line-height="20px" font-weight="700" color="#FFFFFF" background-color="#CF142B" border-radius="0" padding-top="30px" width="164px" />
+      <mj-class name="h1" font-size="32px" line-height="36px" font-weight="700" color="#333333" align="center" />
       <mj-class name="h2" font-size="20px" line-height="24px" color="#FFFFFF" align="center" />
       <mj-class name="divider-default" border-color="#F3F3F3" border-width="2px" border-style="solid" padding-top="0" padding-bottom="0" />
       <mj-class name="bg-light-blue" background-color="#E8F6FF" width="90%" padding="20px" />
@@ -19,25 +19,31 @@
   <mj-body>
 
     <mj-wrapper full-width="full-width">
-      <mj-section padding="0">
+      <mj-section background-color="#F5F5F5">
         <mj-column>
-          <mj-image href="https://www.ricoh.com/" padding="0" src="https://ricoh-email.2xcode.dev/images/CM_eDM/Solid_Header/EDM_1A_C-Suite_Banner.jpg" alt="" />
+          <mj-image href="https://www.ricoh.com/" height="50px" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/Docuware_Logo.svg" alt="" />
         </mj-column>
       </mj-section>
 
-      <mj-section>
+      <mj-section background-color="#F5F5F5">
         <mj-column>
-          <mj-text>
-            Hi [C-suite executive],
+          <mj-text mj-class="h1" align="center">
+            Transform Your <br> HR Operations With DocuWare
           </mj-text>
 
-          <mj-text>
-            Are you aware of the transformative potential of modern workspace and IT management in today’s business world? As a leader, you understand the importance of secure and connected workspaces for driving productivity and staying competitive. But are you fully harnessing the power of innovative solutions and technologies to maximise your organisation’s potential?
+          <mj-text align="center">
+            Effortlessly Manage Employee Records.
           </mj-text>
 
-          <mj-text>
-            Our article “<a href="https://www.ricoh-ap.com/insights/2023/03/30/elevate-your-business-potential-with-network-cloud-solutions" style="color: #0F7AC9;">Elevate Your Business Potential With Network Cloud Solutions</a>” is a deep dive into the transformative power of network cloud solutions. Here’s a sneak peek into key takeaways:
-          </mj-text>
+          <mj-button>
+            Book a Demo
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#F5F5F5">
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" padding="0" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/RICOH%20-%20P6-DocuWare_Banner_Desktop.jpg" alt="" />
         </mj-column>
       </mj-section>
 
