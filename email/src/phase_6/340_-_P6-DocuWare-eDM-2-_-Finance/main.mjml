@@ -43,7 +43,7 @@
 
       <mj-section padding="0" background-color="#F5F5F5">
         <mj-column>
-          <mj-image href="https://www.ricoh.com/" padding="0" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/RICOH%20-%20P6-DocuWare_Banner_Desktop.jpg" alt="" />
+          <mj-image href="https://www.ricoh.com/" padding="0" src="https://ricoh-email.2xcode.dev/phase_6/340_-_P6-DocuWare-eDM-2-_-Finance/images/RICOH%20-%20P6-DocuWare_Banner_Desktop_eDM_2.jpg" alt="" />
         </mj-column>
       </mj-section>
 
@@ -53,24 +53,24 @@
             Dear [Prospect name],
           </mj-text>
           <mj-text>
-            HR teams today face diverse challenges, from managing complex hiring processes to overseeing timely on- and off-boarding tasks while cultivating an engaged workforce. To stay on top of things, you need an innovative solution that not only answers today’s needs but anticipates tomorrow’s demands—an easy-to-use solution that lets your team get work done.
+            Are manual processes holding your team back? Manual AP workflows often result in errors, duplications, delayed approvals, and the dreaded late payments. However, there’s an innovative solution that integrates seamlessly with your ERP systems. One that frees your team from repetitive manual AP tasks and tracking, enabling them to focus on efficiency and higher-value tasks that drive your business forward: DocuWare.
           </mj-text>
         </mj-column>
       </mj-section>
 
       <mj-section padding="0">
         <mj-column>
-          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/DocuWare-eDM1-Video-Thumbnail.png" alt="" />
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/340_-_P6-DocuWare-eDM-2-_-Finance/images/Content_Thumbnail_Transform-Your-Finance-Workflows-With-DocuWare.png" alt="" />
         </mj-column>
       </mj-section>
 
       <mj-section>
         <mj-column>
           <mj-text>
-            DocuWare is a robust document management solution that is secure, user-friendly, and quick to deploy. With intelligent indexing, your team can automatically digitise, organise, and store incoming data, no matter where it’s coming from. Advanced security features such as role-based access controls and audit trails ensure compliance and audit readiness.
+            DocuWare transforms your finance operations with a secure, user-friendly, and comprehensive solution. Our cloud-based invoice processing streamlines your AP processes while ensuring compliance, enabling your team to work securely anywhere, anytime.
           </mj-text>
           <mj-text>
-            Discover how automation can simplify complexity for your organisation with:
+            Explore how DocuWare can help your organisation to:
           </mj-text>
         </mj-column>
       </mj-section>
@@ -78,11 +78,11 @@
       <mj-section>
         <mj-group>
           <mj-column width="25%">
-            <mj-image padding-right="0" padding-top="0" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/Icon-Centralised.svg" alt="" />
+            <mj-image padding-right="0" padding-top="0" src="https://ricoh-email.2xcode.dev/phase_6/340_-_P6-DocuWare-eDM-2-_-Finance/images/Icons/Icon-Streamline-Workflows.svg" alt="" />
           </mj-column>
           <mj-column width="75%">
             <mj-text padding-top="0">
-              How to scale your infrastructure and adapt to changing business needs
+              <b>Streamline workflows for a mobile and agile workforce</b>
             </mj-text>
           </mj-column>
         </mj-group>
@@ -91,11 +91,11 @@
       <mj-section padding-top="0">
         <mj-group>
           <mj-column width="25%">
-            <mj-image padding-right="0" padding-top="0" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/Icon-Ready-to-use.svg" alt="" />
+            <mj-image padding-right="0" padding-top="0" src="https://ricoh-email.2xcode.dev/phase_6/340_-_P6-DocuWare-eDM-2-_-Finance/images/Icons/Icon-Technology.svg" alt="" />
           </mj-column>
           <mj-column width="75%">
             <mj-text padding-top="0">
-              See how cloud-based networks seamlessly connect teams, enabling efficient collaboration and driving productivity
+              <b>Leverage Intelligent Indexing technology to eliminate manual tasks</b>
             </mj-text>
           </mj-column>
         </mj-group>
@@ -104,11 +104,11 @@
       <mj-section padding-top="0">
         <mj-group>
           <mj-column width="25%">
-            <mj-image padding-right="0" padding-top="0" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/Icon-Audit-Compliance.svg" alt="" />
+            <mj-image padding-right="0" padding-top="0" src="https://ricoh-email.2xcode.dev/phase_6/340_-_P6-DocuWare-eDM-2-_-Finance/images/Icons/Icon-Secure-Centralised.svg" alt="" />
           </mj-column>
           <mj-column width="75%">
             <mj-text padding-top="0">
-              Strengthen your security posture, mitigate cybersecurity risks, and ensure business continuity with the right support
+              <b>Access secure centralised repositories on any device.</b>
             </mj-text>
           </mj-column>
         </mj-group>
@@ -117,7 +117,7 @@
       <mj-section padding-bottom="0">
         <mj-column>
           <mj-text>
-            Learn how we can drive your business forward. Connect with our experts to see DocuWare in action.
+            Speak to our experts to learn how DocuWare can uncover hidden opportunities for efficiency in your organisation.
           </mj-text>
         </mj-column>
       </mj-section>
@@ -131,7 +131,7 @@
       <mj-section>
         <mj-column mj-class="bg-theme">
           <mj-text align="center" color="#333333" padding="0">
-            <b>Ready to transform your HR operations and unlock growth potential? Discover how Ricoh and DocuWare can get you there.</b>
+            <b>Ready to take your Finance workflows to the next level? Learn how Ricoh and DocuWare can get you there.</b>
           </mj-text>
           <mj-button href="https://www.ricoh.com/">
             Book a Demo
