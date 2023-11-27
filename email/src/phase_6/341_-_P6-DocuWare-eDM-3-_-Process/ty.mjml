@@ -1,0 +1,128 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" font-size="18px" line-height="28px" color="#333333" />
+      <mj-wrapper background-color="#eeeeee" padding="0" />
+      <mj-section background-color="#ffffff" />
+      <mj-button font-size="14px" line-height="20px" font-weight="700" color="#FFFFFF" background-color="#CF142B" border-radius="0" padding-top="30px" width="164px" />
+      <mj-class name="h1" font-size="32px" line-height="36px" font-weight="700" color="#333333" align="center" />
+      <mj-class name="h2" font-size="20px" line-height="24px" color="#333333" align="center" />
+      <mj-class name="divider-default" border-color="#F3F3F3" border-width="2px" border-style="solid" padding-top="0" padding-bottom="0" />
+      <mj-class name="bg-theme" background-color="#FEF5F5" width="90%" padding="20px" />
+      <mj-class name="resource-heading" font-size="22px" line-height="28px" font-weight="700" color="#333333" />
+      <mj-class name="footer-divider" border-color="#CF142B" container-background-color="#CF142B" border-width="3px" border-style="solid" padding="0" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-wrapper full-width="full-width">
+      <mj-section background-color="#F5F5F5">
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" width="208.08px" height="50px" src="https://ricoh-email.2xcode.dev/phase_6/341_-_P6-DocuWare-eDM-3-_-Process/images/Logo/RICOH-Logo-Header.svg" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#F5F5F5">
+        <mj-column>
+          <mj-text mj-class="h1" align="center">
+            Thank You For Your Interest
+          </mj-text>
+
+          <mj-text mj-class="h2" align="center">
+            Learn more about DocuWare by clicking the link below.
+          </mj-text>
+
+          <mj-button href="https://www.ricoh.com/">
+            Explore Now
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0" background-color="#F5F5F5">
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" padding="0" src="https://ricoh-email.2xcode.dev/phase_6/341_-_P6-DocuWare-eDM-3-_-Process/images/RICOH%20-%20P6-DocuWare_Banner_Desktop_eDM_3.jpg" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text align="center">
+            Need more information? Please <a href="https://www.ricoh.com/" style="text-decoration: none; color: #CF142B;"><strong style="text-decoration: none; color: #CF142B;">contact us</strong></a>.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0">
+        <mj-column>
+          <mj-text mj-class="resource-heading">
+            Here are additional resources you may find interesting.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-image fluid-on-mobile="true" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/DocuWare-eDM1-Resources-Thumbnail.png" alt="" border-radius="10px 10px 0px 0px" />
+          <mj-text padding-bottom="0">
+            <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong>
+          </mj-text>
+          <mj-text padding-top="0" padding-bottom="0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper volutpat metus, id viverra mauris lacinia justo, iaculis sit amet mattis et, commodo et risus.</p>
+          </mj-text>
+          <mj-text padding-top="0">
+            <a href="https://www.ricoh.com/" style="text-decoration: none; color: #CF142B;"><strong style="text-decoration: none; color: #CF142B;">Read more</strong></a>
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-image fluid-on-mobile="true" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/DocuWare-eDM1-Resources-Thumbnail.png" alt="" border-radius="10px 10px 0px 0px" />
+          <mj-text padding-bottom="0">
+            <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong>
+          </mj-text>
+          <mj-text padding-top="0" padding-bottom="0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam semper volutpat metus, id viverra mauris lacinia justo, iaculis sit amet mattis et, commodo et risus.</p>
+          </mj-text>
+          <mj-text padding-top="0">
+            <a href="https://www.ricoh.com/" style="text-decoration: none; color: #CF142B;"><strong style="text-decoration: none; color: #CF142B;">Read more</strong></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider mj-class="footer-divider" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer top -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-top" padding-top="25px">
+            © 2023 Ricoh. All rights reserved.
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="right" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer bottom -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-bottom" align="center">
+            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"></span style="color: #333; text-decoration: underline;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"><span style="color: #333; text-decoration: underline;">Manage Preferences</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>

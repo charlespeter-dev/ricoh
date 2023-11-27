@@ -1,0 +1,184 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" font-size="18px" line-height="28px" color="#333333" />
+      <mj-wrapper background-color="#eeeeee" padding="0" />
+      <mj-section background-color="#ffffff" />
+      <mj-button font-size="14px" line-height="20px" font-weight="700" color="#FFFFFF" background-color="#CF142B" border-radius="0" padding-top="30px" width="164px" />
+      <mj-class name="h1" font-size="32px" line-height="36px" font-weight="700" color="#333333" align="center" />
+      <mj-class name="h2" font-size="20px" line-height="24px" color="#333333" align="center" />
+      <mj-class name="divider-default" border-color="#F3F3F3" border-width="2px" border-style="solid" padding-top="0" padding-bottom="0" />
+      <mj-class name="bg-theme" background-color="#FEF5F5" width="90%" padding="20px" />
+      <mj-class name="footer-divider" border-color="#0F7AC9" container-background-color="#0F7AC9" border-width="3px" border-style="solid" padding="0" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-wrapper full-width="full-width">
+      <mj-section background-color="#F5F5F5">
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" width="208.08px" height="50px" src="https://ricoh-email.2xcode.dev/phase_6/341_-_P6-DocuWare-eDM-3-_-Process/images/Logo/RICOH-Logo-Header.svg" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#F5F5F5">
+        <mj-column>
+          <mj-text mj-class="h1" align="center">
+            Capture, Index, and Retrieve Documents With Ease
+          </mj-text>
+
+          <mj-text mj-class="h2" align="center">
+            Smart Document Control <br> with DocuWare.
+          </mj-text>
+
+          <mj-button href="https://www.ricoh.com/">
+            Book a Demo
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0" background-color="#F5F5F5">
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" padding="0" src="https://ricoh-email.2xcode.dev/phase_6/341_-_P6-DocuWare-eDM-3-_-Process/images/RICOH%20-%20P6-DocuWare_Banner_Desktop_eDM_3.jpg" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text>
+            Dear [Prospect name],
+          </mj-text>
+          <mj-text>
+            We’ve all been there—spending valuable time going through stacks of files and documents to find key information. Manual document management processes, whether paper-based or a digital-paper hybrid, also often incur high costs. A cloud-based intelligent document management solution could hold the key to unlocking the true business value of your documents.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/341_-_P6-DocuWare-eDM-3-_-Process/images/Content_Thumbnail-Capture-Index-and-Retrieve-Documents-With-Ease.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text>
+            Say hello to DocuWare—a cost-effective, cloud-based solution, designed to simplify and streamline all your document processes. DocuWare offers a user-friendly interface, powered by intelligent archiving technology that captures and organises data from any source. This means you can optimise workflows effortlessly while also ensuring security and compliance.
+          </mj-text>
+          <mj-text>
+            Discover how DocuWare can help your organisation:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-group>
+          <mj-column width="25%" vertical-align="middle">
+            <mj-image padding-right="0" padding-top="0" src="https://ricoh-email.2xcode.dev/phase_6/341_-_P6-DocuWare-eDM-3-_-Process/images/Icons/Icon-Streamline-Automate-Workflow.svg" alt="" />
+          </mj-column>
+          <mj-column width="75%" vertical-align="middle">
+            <mj-text padding-top="0">
+              <b>Streamline and automate workflows, reducing manual tasks and increasing efficiency</b>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding-top="0">
+        <mj-group>
+          <mj-column width="25%" vertical-align="middle">
+            <mj-image padding-right="0" padding-top="0" src="https://ricoh-email.2xcode.dev/phase_6/341_-_P6-DocuWare-eDM-3-_-Process/images/Icons/Icon-Data-Security.svg" alt="" />
+          </mj-column>
+          <mj-column width="75%" vertical-align="middle">
+            <mj-text padding-top="0">
+              <b>Provide document and data security such as access control, audit trails, and secure archiving, while ensuring regulatory compliance</b>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding-top="0">
+        <mj-group>
+          <mj-column width="25%" vertical-align="middle">
+            <mj-image padding-right="0" padding-top="0" src="https://ricoh-email.2xcode.dev/phase_6/341_-_P6-DocuWare-eDM-3-_-Process/images/Icons/Icon-Improving-Accessibility.svg" alt="" />
+          </mj-column>
+          <mj-column width="75%" vertical-align="middle">
+            <mj-text padding-top="0">
+              <b>Enhance document retrieval with powerful search capabilities, saving time and improving accessibility.</b>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text>
+            Chat with our experts to see DocuWare in action now.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-divider mj-class="divider-default" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column mj-class="bg-theme">
+          <mj-text align="center" color="#333333" padding="0">
+            <b>Ready to transform your processes? Learn how <span style="color:#CF142B;">Ricoh and DocuWare</span> can help your business uncover hidden opportunities.</b>
+          </mj-text>
+          <mj-button href="https://www.ricoh.com/">
+            Book a Demo
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0">
+        <mj-column>
+          <mj-text align="center">
+            <div>Best regards,</div>
+            <div><b><span style="color: #CF142B;">Your Ricoh Team</span></b></div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider mj-class="footer-divider" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer top -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-top" padding-top="25px">
+            © 2023 Ricoh. All rights reserved.
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="right" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer bottom -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-bottom" align="center">
+            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"></span style="color: #333; text-decoration: underline;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"><span style="color: #333; text-decoration: underline;">Manage Preferences</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
