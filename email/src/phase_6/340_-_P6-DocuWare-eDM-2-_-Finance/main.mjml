@@ -28,11 +28,11 @@
       <mj-section background-color="#F5F5F5">
         <mj-column>
           <mj-text mj-class="h1" align="center">
-            Transform Your Finance <br> Workflows With DocuWare
+            Secure, Streamline, and Simplify Your AP Processes
           </mj-text>
 
           <mj-text mj-class="h2" align="center">
-            Quickly Secure, Streamline and Simplify <br> Your AP Processes.
+            Cloud-based Invoice Processing <br> with DocuWare.
           </mj-text>
 
           <mj-button href="https://www.ricoh.com/">
@@ -60,7 +60,7 @@
 
       <mj-section padding="0">
         <mj-column>
-          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/340_-_P6-DocuWare-eDM-2-_-Finance/images/Content_Thumbnail_Transform-Your-Finance-Workflows-With-DocuWare.png" alt="" />
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/340_-_P6-DocuWare-eDM-2-_-Finance/images/Content_Thumbnail_Secure-Streamline-and-Simplify-Your-AP-Processes.png" alt="" />
         </mj-column>
       </mj-section>
 
@@ -77,10 +77,10 @@
 
       <mj-section>
         <mj-group>
-          <mj-column width="25%">
+          <mj-column width="25%" vertical-align="middle">
             <mj-image padding-right="0" padding-top="0" src="https://ricoh-email.2xcode.dev/phase_6/340_-_P6-DocuWare-eDM-2-_-Finance/images/Icons/Icon-Streamline-Workflows.svg" alt="" />
           </mj-column>
-          <mj-column width="75%">
+          <mj-column width="75%" vertical-align="middle">
             <mj-text padding-top="0">
               <b>Streamline workflows for a mobile and agile workforce</b>
             </mj-text>
@@ -90,10 +90,10 @@
 
       <mj-section padding-top="0">
         <mj-group>
-          <mj-column width="25%">
+          <mj-column width="25%" vertical-align="middle">
             <mj-image padding-right="0" padding-top="0" src="https://ricoh-email.2xcode.dev/phase_6/340_-_P6-DocuWare-eDM-2-_-Finance/images/Icons/Icon-Technology.svg" alt="" />
           </mj-column>
-          <mj-column width="75%">
+          <mj-column width="75%" vertical-align="middle">
             <mj-text padding-top="0">
               <b>Leverage Intelligent Indexing technology to eliminate manual tasks</b>
             </mj-text>
@@ -103,10 +103,10 @@
 
       <mj-section padding-top="0">
         <mj-group>
-          <mj-column width="25%">
+          <mj-column width="25%" vertical-align="middle">
             <mj-image padding-right="0" padding-top="0" src="https://ricoh-email.2xcode.dev/phase_6/340_-_P6-DocuWare-eDM-2-_-Finance/images/Icons/Icon-Secure-Centralised.svg" alt="" />
           </mj-column>
-          <mj-column width="75%">
+          <mj-column width="75%" vertical-align="middle">
             <mj-text padding-top="0">
               <b>Access secure centralised repositories on any device.</b>
             </mj-text>
