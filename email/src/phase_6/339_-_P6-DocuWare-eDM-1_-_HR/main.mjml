@@ -60,7 +60,7 @@
 
       <mj-section padding="0">
         <mj-column>
-          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/DocuWare-eDM1-Video-Thumbnail.png" alt="" />
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/Content_Thumbnail-Centralise-Organise-and-Secure-Your-HR-Processes.png" alt="" />
         </mj-column>
       </mj-section>
 
@@ -77,12 +77,12 @@
 
       <mj-section>
         <mj-group>
-          <mj-column width="25%">
+          <mj-column width="25%" vertical-align="middle">
             <mj-image padding-right="0" padding-top="0" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/Icon-Centralised.svg" alt="" />
           </mj-column>
-          <mj-column width="75%">
+          <mj-column width="75%" vertical-align="middle">
             <mj-text padding-top="0">
-              How to scale your infrastructure and adapt to changing business needs
+              <b>Centralised, organised, and safe employee records</b>
             </mj-text>
           </mj-column>
         </mj-group>
@@ -90,12 +90,12 @@
 
       <mj-section padding-top="0">
         <mj-group>
-          <mj-column width="25%">
+          <mj-column width="25%" vertical-align="middle">
             <mj-image padding-right="0" padding-top="0" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/Icon-Ready-to-use.svg" alt="" />
           </mj-column>
-          <mj-column width="75%">
+          <mj-column width="75%" vertical-align="middle">
             <mj-text padding-top="0">
-              See how cloud-based networks seamlessly connect teams, enabling efficient collaboration and driving productivity
+              <b>Ready-to-use workflows for a productive, service-oriented HR</b>
             </mj-text>
           </mj-column>
         </mj-group>
@@ -103,12 +103,12 @@
 
       <mj-section padding-top="0">
         <mj-group>
-          <mj-column width="25%">
+          <mj-column width="25%" vertical-align="middle">
             <mj-image padding-right="0" padding-top="0" src="https://ricoh-email.2xcode.dev/phase_6/339_-_P6-DocuWare-eDM-1_-_HR/images/Icon-Audit-Compliance.svg" alt="" />
           </mj-column>
-          <mj-column width="75%">
+          <mj-column width="75%" vertical-align="middle">
             <mj-text padding-top="0">
-              Strengthen your security posture, mitigate cybersecurity risks, and ensure business continuity with the right support
+              <b>Audit readiness and compliance with GDPR, HIPAA, and other standards.</b>
             </mj-text>
           </mj-column>
         </mj-group>
