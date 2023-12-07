@@ -18,32 +18,17 @@ if (!empty($components)):
 
         <style>
             <?php foreach ($components['build'] as $key => $dir): ?>
-                .iframe-
-
-                <?= $dir ?>
-                    {
-                    width:
-                        <?= $components['iframe-mobile'][$dir]['width'] ?>
-                    ;
-                    height:
-                        <?= $components['iframe-mobile'][$dir]['height'] ?>
-                    ;
+                .iframe-<?= $dir ?> {
+                    width:<?= $components['iframe-mobile'][$dir]['width'] ?>;
+                    height:<?= $components['iframe-mobile'][$dir]['height'] ?>;
                 }
 
                 @media screen and (min-width: 992px) {
-                    .iframe-
-
-                    <?= $dir ?>
-                        {
-                        width:
-                            <?= $components['iframe-desktop'][$dir]['width'] ?>
-                        ;
-                        height:
-                            <?= $components['iframe-desktop'][$dir]['height'] ?>
-                        ;
+                    .iframe-<?= $dir ?> {
+                        width:<?= $components['iframe-desktop'][$dir]['width'] ?>;
+                        height:<?= $components['iframe-desktop'][$dir]['height'] ?>;
                     }
                 }
-
             <?php endforeach ?>
         </style>
     </head>
