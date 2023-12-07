@@ -18,17 +18,32 @@ if (!empty($components)):
 
         <style>
             <?php foreach ($components['build'] as $key => $dir): ?>
-                .iframe-<?= $dir ?> {
-                    width:<?= $components['iframe-mobile'][$dir]['width'] ?>;
-                    height:<?= $components['iframe-mobile'][$dir]['height'] ?>;
+                .iframe-
+
+                <?= $dir ?>
+                    {
+                    width:
+                        <?= $components['iframe-mobile'][$dir]['width'] ?>
+                    ;
+                    height:
+                        <?= $components['iframe-mobile'][$dir]['height'] ?>
+                    ;
                 }
 
                 @media screen and (min-width: 992px) {
-                    .iframe-<?= $dir ?> {
-                        width:<?= $components['iframe-desktop'][$dir]['width'] ?>;
-                        height:<?= $components['iframe-desktop'][$dir]['height'] ?>;
+                    .iframe-
+
+                    <?= $dir ?>
+                        {
+                        width:
+                            <?= $components['iframe-desktop'][$dir]['width'] ?>
+                        ;
+                        height:
+                            <?= $components['iframe-desktop'][$dir]['height'] ?>
+                        ;
                     }
                 }
+
             <?php endforeach ?>
         </style>
     </head>
@@ -53,7 +68,7 @@ if (!empty($components)):
 
             <?php foreach ($components['build'] as $key => $dir): ?>
 
-                <div class="iframe">
+                <div class="iframe" id="iframe-<?= $dir ?>">
                     <iframe class="iframe-<?= $dir ?>" src="<?= sprintf('%s/%s/%s.html', GH_BUILD_URL, $dir, $dir) ?>"
                         frameborder="0" scrolling="no"></iframe>
                 </div>
