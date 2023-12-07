@@ -10,7 +10,7 @@ foreach ($htmls as $k => $html) {
 
         if (isset($argv[1]) && $argv[1] == 'all') {
             exec($cmd, $out);
-        } elseif (!isset($argv[1]) && in_array($foldername, ['lp-banner-docuware'])) {
+        } elseif (!isset($argv[1]) && in_array($foldername, ['lp-banner-docuware', 'tab-nav-2-columns-content'])) {
             exec($cmd, $out);
         }
     }

@@ -250,7 +250,7 @@ a:1:{s:11:"tab-content";a:6:{s:5:"label";s:11:"Tab-content";s:5:"build";a:1:{i:0
                 </div>
 
             </section>
-";}s:3:"css";a:1:{s:25:"tab-nav-2-columns-content";s:6192:".theme-std .tab-nav-2-columns-content h2 {
+";}s:3:"css";a:1:{s:25:"tab-nav-2-columns-content";s:6229:".theme-std .tab-nav-2-columns-content h2 {
   color: #cf142b;
 }
 
@@ -394,6 +394,7 @@ a:1:{s:11:"tab-content";a:6:{s:5:"label";s:11:"Tab-content";s:5:"build";a:1:{i:0
 }
 
 .is-desktop .tab-nav-2-columns-content .desktop-only .nav-tabs .nav-link {
+  --bs-nav-tabs-border-radius: 10px;
   color: #666;
   border-color: #0000;
   position: relative;

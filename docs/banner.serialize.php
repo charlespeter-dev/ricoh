@@ -737,7 +737,7 @@ a:1:{s:6:"banner";a:6:{s:5:"label";s:6:"Banner";s:5:"build";a:5:{i:0;s:6:"banner
   }
 }
 
-";s:18:"lp-banner-docuware";s:1764:".lp-banner-docuware {
+";s:18:"lp-banner-docuware";s:1463:".lp-banner-docuware {
   position: relative;
 }
 
@@ -754,6 +754,7 @@ a:1:{s:6:"banner";a:6:{s:5:"label";s:6:"Banner";s:5:"build";a:5:{i:0;s:6:"banner
 
 .lp-banner-docuware:after {
   content: "";
+  background-color: #cf142b;
   width: 100vw;
   height: 5px;
   display: block;
@@ -815,27 +816,8 @@ a:1:{s:6:"banner";a:6:{s:5:"label";s:6:"Banner";s:5:"build";a:5:{i:0;s:6:"banner
 @media screen and (width <= 768px) {
   .lp-banner-docuware ~ .article {
     padding-top: 0;
+    padding-bottom: 0;
   }
-}
-
-.theme-std .lp-banner-docuware:after {
-  background-color: #cf142b;
-}
-
-.theme-hw .lp-banner-docuware:after {
-  background-color: #768ec7;
-}
-
-.theme-dwa .lp-banner-docuware:after {
-  background-color: #8fc740;
-}
-
-.theme-cit .lp-banner-docuware:after {
-  background-color: #0f7ac9;
-}
-
-.theme-cs .lp-banner-docuware:after {
-  background-color: #00328f;
 }
 
 ";}}}

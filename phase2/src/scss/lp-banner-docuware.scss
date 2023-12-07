@@ -26,6 +26,7 @@
         left: calc((100vw - 100%) / -2);
         width: 100vw;
         height: 5px;
+        background-color: #cf142b;
     }
 
     .full-width {
@@ -79,16 +80,17 @@
     @media screen and (max-width: 768px) {
         ~.article {
             padding-top: 0;
+            padding-bottom: 0;
         }
     }
 }
 
-@include themify($themes) {
+// @include themify($themes) {
 
-    .lp-banner-docuware {
+//     .lp-banner-docuware {
 
-        &::after {
-            background-color: themed('primaryColor');
-        }
-    }
-}
+//         &::after {
+//             background-color: themed('primaryColor');
+//         }
+//     }
+// }
