@@ -1,6 +1,11 @@
 @import "mixin";
+@import "functions.scss";
+@import "themes.scss";
+@import "mixins.scss";
 
 .lp-banner-docuware {
+
+    position: relative;
 
     &::before {
         content: '';
@@ -64,6 +69,23 @@
     @media screen and (max-width: 768px) {
         ~.article {
             padding-top: 0;
+        }
+    }
+}
+
+@include themify($themes) {
+
+    .lp-banner-docuware {
+
+        &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: calc((100vw - 100%) / -2);
+            width: 100vw;
+            background-color: themed('primaryColor');
+            height: 5px;
         }
     }
 }
