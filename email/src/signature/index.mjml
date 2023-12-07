@@ -3,7 +3,6 @@
   <mj-head>
     <mj-attributes>
       <mj-all font-family="Arial, san-serif" font-size="14px" line-height="20px" color="#000" />
-      <mj-text padding-left="0" />
       <mj-class name="name" font-size="18px" font-weight="bold" />
       <mj-class name="red" color="#CF142B" font-weight="bold" />
       <mj-class name="bg-white" background-color="#FFFFFF" />
@@ -12,7 +11,7 @@
   </mj-head>
   <mj-body>
 
-    <mj-section mj-class="bg-white" padding="0">
+    <mj-section mj-class="bg-white" padding="0" border="1px solid #e6e6e6">
 
       <mj-column width="60%" vertical-align="middle">
 

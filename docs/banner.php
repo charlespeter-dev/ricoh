@@ -13,7 +13,8 @@ $comp_meta = [
             'banner',
             'lp-banner',
             'lp-banner-cta',
-            'lp-banner-cisco'
+            'lp-banner-cisco',
+            'lp-banner-docuware'
         ],
         'iframe-desktop' => [
             'banner' => [
@@ -29,6 +30,10 @@ $comp_meta = [
                 'height' => '300px'
             ],
             'lp-banner-cisco' => [
+                'width' => '100%',
+                'height' => '400px'
+            ],
+            'lp-banner-docuware' => [
                 'width' => '100%',
                 'height' => '400px'
             ]
@@ -47,6 +52,10 @@ $comp_meta = [
                 'height' => '760px'
             ],
             'lp-banner-cisco' => [
+                'width' => '100%',
+                'height' => '850px'
+            ],
+            'lp-banner-docuware' => [
                 'width' => '100%',
                 'height' => '850px'
             ]

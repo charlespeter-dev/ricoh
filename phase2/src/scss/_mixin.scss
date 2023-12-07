@@ -1,0 +1,18 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+
+@mixin fluid($properties, $min-value, $max-value) {
+    @each $property in $properties {
+        #{$property}: calc(#{$min-value} + #{strip-unit($max-value - $min-value)} * (100vw - 375px) / (1920 - 375));
+    }
+}
+
+@function strip-unit($number) {
+    @if type-of($number)=="number" and not unitless($number) {
+        @return calc($number / ($number * 0 + 1px));
+    }
+
+    @return $number;
+}
