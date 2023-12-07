@@ -1,4 +1,4 @@
-a:1:{s:6:"banner";a:6:{s:5:"label";s:6:"Banner";s:5:"build";a:5:{i:0;s:6:"banner";i:1;s:9:"lp-banner";i:2;s:13:"lp-banner-cta";i:3;s:15:"lp-banner-cisco";i:4;s:18:"lp-banner-docuware";}s:14:"iframe-desktop";a:5:{s:6:"banner";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"400px";}s:9:"lp-banner";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"300px";}s:13:"lp-banner-cta";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"300px";}s:15:"lp-banner-cisco";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"400px";}s:18:"lp-banner-docuware";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"400px";}}s:13:"iframe-mobile";a:5:{s:6:"banner";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"510px";}s:9:"lp-banner";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"700px";}s:13:"lp-banner-cta";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"760px";}s:15:"lp-banner-cisco";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"850px";}s:18:"lp-banner-docuware";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"850px";}}s:4:"html";a:4:{s:6:"banner";s:456:"<section class="banner">
+a:1:{s:6:"banner";a:6:{s:5:"label";s:6:"Banner";s:5:"build";a:5:{i:0;s:6:"banner";i:1;s:9:"lp-banner";i:2;s:13:"lp-banner-cta";i:3;s:15:"lp-banner-cisco";i:4;s:18:"lp-banner-docuware";}s:14:"iframe-desktop";a:5:{s:6:"banner";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"400px";}s:9:"lp-banner";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"400px";}s:13:"lp-banner-cta";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"400px";}s:15:"lp-banner-cisco";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"400px";}s:18:"lp-banner-docuware";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}}s:13:"iframe-mobile";a:5:{s:6:"banner";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"510px";}s:9:"lp-banner";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"700px";}s:13:"lp-banner-cta";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"760px";}s:15:"lp-banner-cisco";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"850px";}s:18:"lp-banner-docuware";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"850px";}}s:4:"html";a:5:{s:6:"banner";s:456:"<section class="banner">
 
                 <div class="callout">
                     <h1 class="mb-4">Hybrid Workplace</h1>
@@ -96,7 +96,36 @@ a:1:{s:6:"banner";a:6:{s:5:"label";s:6:"Banner";s:5:"build";a:5:{i:0;s:6:"banner
                     </div>
 
             </div></section>
-";}s:3:"css";a:4:{s:6:"banner";s:1440:".theme-std .banner .callout {
+";s:18:"lp-banner-docuware";s:1276:"<section class="lp-banner-docuware pt-5 pt-lg-0">
+
+                <div class="position-relative">
+
+                    <img class="full-width d-none d-lg-block" src="Header_Banner-Smart-and-Secure-Business-Processes-With-DocuWare-Desktop.ba038ba2.webp" alt="">
+
+                    <div class="hero-content">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="logo mb-5">
+                                    <img src="Ricoh_Docuware_Logo.4517c766.svg" alt="">
+                                </div>
+
+                                <div class="main-heading mb-4">
+                                    Smart and Secure Business Processes With DocuWare
+                                </div>
+
+                                <div class="sub-heading mb-4">
+                                    Streamline document management and workflows effortlessly
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="full-width d-block d-lg-none" src="Header_Banner-Smart-and-Secure-Business-Processes-With-DocuWare-Mobile.f40d30d5.webp" alt="">
+
+                </div>
+
+            </section>
+";}s:3:"css";a:5:{s:6:"banner";s:1440:".theme-std .banner .callout {
   background-color: #cf142b;
 }
 
@@ -704,6 +733,73 @@ a:1:{s:6:"banner";a:6:{s:5:"label";s:6:"Banner";s:5:"build";a:5:{i:0;s:6:"banner
 
 @media screen and (width <= 768px) {
   .lp-banner-cisco ~ .article {
+    padding-top: 0;
+  }
+}
+
+";s:18:"lp-banner-docuware";s:1207:".lp-banner-docuware:before {
+  content: "";
+  background-color: #f5f5f5;
+  width: 100vw;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50%);
+}
+
+.lp-banner-docuware .full-width {
+  object-fit: cover;
+  display: unset;
+  max-width: unset;
+  width: 100vw;
+  height: 100%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+}
+
+@media (width >= 992px) {
+  .lp-banner-docuware .full-width {
+    height: 500px;
+  }
+}
+
+.lp-banner-docuware .hero-content {
+  color: #333;
+  flex-direction: column;
+  justify-content: flex-start;
+  display: flex;
+  position: relative;
+}
+
+@media (width >= 992px) {
+  .lp-banner-docuware .hero-content {
+    justify-content: center;
+    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    position: absolute;
+    top: 0;
+  }
+}
+
+.lp-banner-docuware .hero-content .main-heading {
+  text-wrap: balance;
+  margin: 0;
+  font-size: calc(.38835vw + 38.5437px);
+  font-weight: 700;
+  line-height: calc(.38835vw + 42.5437px);
+}
+
+.lp-banner-docuware .hero-content .sub-heading {
+  text-wrap: balance;
+}
+
+@media screen and (width <= 768px) {
+  .lp-banner-docuware ~ .article {
     padding-top: 0;
   }
 }

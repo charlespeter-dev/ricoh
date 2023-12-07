@@ -23,11 +23,11 @@ $comp_meta = [
             ],
             'lp-banner' => [
                 'width' => '100%',
-                'height' => '300px'
+                'height' => '400px'
             ],
             'lp-banner-cta' => [
                 'width' => '100%',
-                'height' => '300px'
+                'height' => '400px'
             ],
             'lp-banner-cisco' => [
                 'width' => '100%',
@@ -35,7 +35,7 @@ $comp_meta = [
             ],
             'lp-banner-docuware' => [
                 'width' => '100%',
-                'height' => '400px'
+                'height' => '500px'
             ]
         ],
         'iframe-mobile' => [
