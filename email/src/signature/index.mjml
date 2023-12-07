@@ -3,6 +3,7 @@
   <mj-head>
     <mj-attributes>
       <mj-all font-family="Arial, san-serif" font-size="14px" line-height="20px" color="#000" />
+      <mj-text padding-left="0" />
       <mj-class name="name" font-size="18px" font-weight="bold" />
       <mj-class name="red" color="#CF142B" font-weight="bold" />
       <mj-class name="bg-white" background-color="#FFFFFF" />
@@ -11,7 +12,7 @@
   </mj-head>
   <mj-body>
 
-    <mj-section mj-class="bg-white" border="1px solid #CCCCCC" padding="0">
+    <mj-section mj-class="bg-white" padding="0">
 
       <mj-column width="60%" vertical-align="middle">
 
@@ -46,7 +47,7 @@
       </mj-column>
 
       <mj-column width="40%" vertical-align="middle">
-        <mj-image align="right" padding="0" src="signature_01.png" alt="" />
+        <mj-image align="right" padding="0" src="https://ricoh-email.2xcode.dev/signature/signature_01.png" alt="" />
       </mj-column>
 
     </mj-section>
