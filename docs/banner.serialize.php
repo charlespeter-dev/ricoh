@@ -737,7 +737,7 @@ a:1:{s:6:"banner";a:6:{s:5:"label";s:6:"Banner";s:5:"build";a:5:{i:0;s:6:"banner
   }
 }
 
-";s:18:"lp-banner-docuware";s:2237:".lp-banner-docuware {
+";s:18:"lp-banner-docuware";s:1764:".lp-banner-docuware {
   position: relative;
 }
 
@@ -749,6 +749,16 @@ a:1:{s:6:"banner";a:6:{s:5:"label";s:6:"Banner";s:5:"build";a:5:{i:0;s:6:"banner
   display: block;
   position: absolute;
   top: 0;
+  left: calc(-50vw + 50%);
+}
+
+.lp-banner-docuware:after {
+  content: "";
+  width: 100vw;
+  height: 5px;
+  display: block;
+  position: absolute;
+  bottom: 0;
   left: calc(-50vw + 50%);
 }
 
@@ -809,58 +819,23 @@ a:1:{s:6:"banner";a:6:{s:5:"label";s:6:"Banner";s:5:"build";a:5:{i:0;s:6:"banner
 }
 
 .theme-std .lp-banner-docuware:after {
-  content: "";
   background-color: #cf142b;
-  width: 100vw;
-  height: 5px;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: calc(-50vw + 50%);
 }
 
 .theme-hw .lp-banner-docuware:after {
-  content: "";
   background-color: #768ec7;
-  width: 100vw;
-  height: 5px;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: calc(-50vw + 50%);
 }
 
 .theme-dwa .lp-banner-docuware:after {
-  content: "";
   background-color: #8fc740;
-  width: 100vw;
-  height: 5px;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: calc(-50vw + 50%);
 }
 
 .theme-cit .lp-banner-docuware:after {
-  content: "";
   background-color: #0f7ac9;
-  width: 100vw;
-  height: 5px;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: calc(-50vw + 50%);
 }
 
 .theme-cs .lp-banner-docuware:after {
-  content: "";
   background-color: #00328f;
-  width: 100vw;
-  height: 5px;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: calc(-50vw + 50%);
 }
 
 ";}}}

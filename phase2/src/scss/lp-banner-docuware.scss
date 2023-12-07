@@ -18,6 +18,16 @@
         background-color: #F5F5F5;
     }
 
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: calc((100vw - 100%) / -2);
+        width: 100vw;
+        height: 5px;
+    }
+
     .full-width {
         width: 100vw;
         position: relative;
@@ -78,14 +88,7 @@
     .lp-banner-docuware {
 
         &::after {
-            content: "";
-            display: block;
-            position: absolute;
-            bottom: 0;
-            left: calc((100vw - 100%) / -2);
-            width: 100vw;
             background-color: themed('primaryColor');
-            height: 5px;
         }
     }
 }
