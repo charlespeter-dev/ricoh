@@ -1,0 +1,71 @@
+.lp-banner-cisco {
+  background-color: #0f7ac9;
+}
+
+.lp-banner-cisco .full-width {
+  object-fit: cover;
+  display: unset;
+  max-width: unset;
+  background-color: #0f7ac9;
+  width: 100vw;
+  height: 100%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+}
+
+@media screen and (width >= 768px) {
+  .lp-banner-cisco .full-width {
+    height: 415px;
+  }
+}
+
+@media screen and (width >= 2000px) {
+  .lp-banner-cisco .full-width {
+    height: 500px;
+  }
+}
+
+.lp-banner-cisco .hero-content {
+  z-index: 2;
+  color: #fff;
+  padding-right: calc(var(--bs-gutter-x) * 1);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 60px;
+}
+
+@media screen and (width >= 768px) {
+  .lp-banner-cisco .hero-content {
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+    top: 0;
+  }
+
+  .lp-banner-cisco .hero-content span.br-before:before, .lp-banner-cisco .hero-content span.br-after:after {
+    content: "\a ";
+    white-space: pre;
+  }
+}
+
+.lp-banner-cisco .hero-content .main-heading {
+  margin: 0;
+  font-size: calc(.641026vw + 33.6923px);
+  font-weight: 700;
+  line-height: calc(.641026vw + 37.6923px);
+}
+
+@media screen and (width <= 768px) {
+  .lp-banner-cisco ~ .article {
+    padding-top: 0;
+  }
+}
+
