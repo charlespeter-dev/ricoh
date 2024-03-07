@@ -13,7 +13,7 @@
 
     <mj-section mj-class="bg-white" padding="0" border="1px solid #e6e6e6">
 
-      <mj-column width="60%" vertical-align="top">
+      <mj-column width="60%" vertical-align="top" padding-top="20px">
 
         <mj-text mj-class="name">
           James Loginov
@@ -45,7 +45,7 @@
 
       </mj-column>
 
-      <mj-column width="40%" vertical-align="bottom">
+      <mj-column width="40%" vertical-align="top">
         <mj-image align="right" padding="0" src="https://ricoh-email.2xcode.dev/signature/global-100/Ricoh_Email_Signature_Option_01_Assets.png" alt="" />
       </mj-column>
 
