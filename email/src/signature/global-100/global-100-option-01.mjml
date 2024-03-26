@@ -46,7 +46,7 @@
       </mj-column>
 
       <mj-column width="40%" vertical-align="top">
-        <mj-image align="right" padding="0" src="https://ricoh-email.2xcode.dev/signature/global-100/Ricoh_Email_Signature_Option_01_Assets.png" alt="" />
+        <mj-image align="right" padding="0" src="https://ricoh-email.2xcode.dev/signature/global-100/Ricoh_Email_Signature_Option_01_Assets_v0.02.png" alt="" />
       </mj-column>
 
     </mj-section>
