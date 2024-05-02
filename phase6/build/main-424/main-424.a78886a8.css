@@ -1,0 +1,15 @@
+.download-categories-container .dowload-categories__header {
+  font-size: 26px !important;
+}
+
+.download-categories-container .dowload-category__title {
+  margin-top: 40px;
+  margin-bottom: 5px;
+  font-size: 18px !important;
+}
+
+.download-categories-container .dowload-link-selector {
+  border-radius: 4px;
+  width: 100%;
+  height: 32px;
+}

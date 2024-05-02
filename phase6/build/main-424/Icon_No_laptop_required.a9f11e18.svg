@@ -1,0 +1,23 @@
+<svg id="Icon_No_laptop_required" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_679" data-name="Rectangle 679" width="44.416" height="44.416" transform="translate(98 481)" fill="none"></rect>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_678" data-name="Rectangle 678" width="41.581" height="41.581" fill="none"></rect>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_677" data-name="Rectangle 677" width="41.581" height="41.581" transform="translate(0 0)" fill="none"></rect>
+    </clipPath>
+  </defs>
+  <path id="Path_273" data-name="Path 273" d="M114.521,230.126h-4.535a.892.892,0,0,1-.891-.892V180.027a1.79,1.79,0,0,0-1.784-1.791h-50.1a1.794,1.794,0,0,0-1.79,1.791v50.1a1.792,1.792,0,0,0,1.79,1.791h49.2a.894.894,0,0,1,.9.9v4.533a.886.886,0,0,0,.887.89h6.324a.892.892,0,0,0,.9-.89v-6.325a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#606cbf"></path>
+  <g id="Icon_7" transform="translate(-93 -477.562)" clip-path="url('#clip-path')">
+    <g id="Group_1946" data-name="Group 1946" transform="translate(99.89 482.89)" clip-path="url('#clip-path-2')">
+      <g id="Group_1945" data-name="Group 1945" clip-path="url('#clip-path-3')">
+        <g id="Group_1944" data-name="Group 1944" transform="translate(0 0)" clip-path="url('#clip-path-2')">
+          <path id="Path_1322" data-name="Path 1322" d="M106.934,516.973l13-13,13.43,13.429.607-.606-13.43-13.43,13.43-13.43-.607-.606-13.43,13.429-13-13-.606.607,13,13-13,13Z" transform="translate(-99.765 -482.384)" fill="none" stroke="#fff" stroke-width="1.6"></path>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

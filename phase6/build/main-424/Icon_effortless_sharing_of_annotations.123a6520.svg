@@ -1,0 +1,30 @@
+<svg id="Icon_effortless_sharing_of_annotations" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <path id="Path_273" data-name="Path 273" d="M114.521,230.126h-4.535a.892.892,0,0,1-.891-.892V180.027a1.79,1.79,0,0,0-1.784-1.791h-50.1a1.794,1.794,0,0,0-1.79,1.791v50.1a1.792,1.792,0,0,0,1.79,1.791h49.2a.894.894,0,0,1,.9.9v4.533a.886.886,0,0,0,.887.89h6.324a.892.892,0,0,0,.9-.89v-6.325a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#606cbf"></path>
+  <g id="Group_2310" data-name="Group 2310" transform="translate(7.618 7.317)">
+    <ellipse id="Ellipse_32" data-name="Ellipse 32" cx="10.576" cy="10.576" rx="10.576" ry="10.576" transform="translate(0 8.451)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" style="isolation: isolate"></ellipse>
+    <path id="Path_1579" data-name="Path 1579" d="M-162.693-629.949a6.974,6.974,0,0,1-6.975-6.974,6.974,6.974,0,0,1,6.975-6.975" transform="translate(173.269 655.984)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" style="isolation: isolate"></path>
+    <ellipse id="Ellipse_33" data-name="Ellipse 33" cx="3.553" cy="3.553" rx="3.553" ry="3.553" transform="translate(7.022 15.468)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" style="isolation: isolate"></ellipse>
+    <line id="Line_198" data-name="Line 198" y1="4.182" x2="4.155" transform="translate(19.427 5.954)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" style="isolation: isolate"></line>
+    <line id="Line_199" data-name="Line 199" y1="4.639" x2="4.609" transform="translate(13.244 11.72)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" style="isolation: isolate"></line>
+    <line id="Line_200" data-name="Line 200" x2="4.558" y2="0.037" transform="translate(26.427 18.99)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+    <line id="Line_201" data-name="Line 201" x2="1.289" y2="0.01" transform="translate(24.071 18.971)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+    <line id="Line_202" data-name="Line 202" x2="1.245" y2="0.01" transform="translate(21.714 18.953)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+    <line id="Line_203" data-name="Line 203" x2="1.156" y2="0.009" transform="translate(19.401 18.934)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+    <line id="Line_204" data-name="Line 204" x2="3.779" y2="0.03" transform="translate(14.378 18.894)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+    <line id="Line_205" data-name="Line 205" x2="4.227" y2="4.2" transform="translate(19.355 27.9)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+    <line id="Line_206" data-name="Line 206" x2="4.717" y2="4.687" transform="translate(13.11 21.695)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"></line>
+    <line id="Line_207" data-name="Line 207" y2="1.668" transform="translate(10.538 18.226)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" style="isolation: isolate"></line>
+    <g id="Group_2163" data-name="Group 2163" transform="translate(22.474)">
+      <ellipse id="Ellipse_34" data-name="Ellipse 34" cx="3.553" cy="3.553" rx="3.553" ry="3.553" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" style="isolation: isolate"></ellipse>
+      <line id="Line_208" data-name="Line 208" y2="1.735" transform="translate(3.515 2.686)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" style="isolation: isolate"></line>
+    </g>
+    <g id="Group_2164" data-name="Group 2164" transform="translate(30.833 15.474)">
+      <ellipse id="Ellipse_35" data-name="Ellipse 35" cx="3.553" cy="3.553" rx="3.553" ry="3.553" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" style="isolation: isolate"></ellipse>
+      <line id="Line_209" data-name="Line 209" y2="1.673" transform="translate(3.516 2.717)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" style="isolation: isolate"></line>
+    </g>
+    <g id="Group_2165" data-name="Group 2165" transform="translate(22.518 30.947)">
+      <ellipse id="Ellipse_36" data-name="Ellipse 36" cx="3.553" cy="3.553" rx="3.553" ry="3.553" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" style="isolation: isolate"></ellipse>
+      <line id="Line_210" data-name="Line 210" y2="1.815" transform="translate(3.516 2.646)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" style="isolation: isolate"></line>
+    </g>
+  </g>
+</svg>
