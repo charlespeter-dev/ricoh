@@ -1,0 +1,65 @@
+.theme-std .lp-table-quick-facts .table-container {
+  background-color: #cf142b;
+}
+
+.theme-hw .lp-table-quick-facts .table-container {
+  background-color: #606cbf;
+}
+
+.theme-dwa .lp-table-quick-facts .table-container {
+  background-color: #8fc740;
+}
+
+.theme-cit .lp-table-quick-facts .table-container {
+  background-color: #0f7ac9;
+}
+
+.theme-cs .lp-table-quick-facts .table-container {
+  background-color: #00328f;
+}
+
+.lp-table-quick-facts .table-container {
+  color: #fff;
+  border-radius: 15px;
+  width: 100%;
+  padding: 1rem;
+}
+
+@media screen and (width >= 768px) {
+  .lp-table-quick-facts .table-container {
+    width: 70%;
+  }
+}
+
+.lp-table-quick-facts .table-container table {
+  width: 100%;
+}
+
+.lp-table-quick-facts .table-container caption {
+  padding-inline: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.lp-table-quick-facts .table-container td {
+  padding: .1rem 1rem;
+  display: grid;
+}
+
+.lp-table-quick-facts .table-container td:first-child {
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
+
+@media screen and (width >= 992px) {
+  .lp-table-quick-facts .table-container td {
+    padding: .1rem 1rem;
+    display: table-cell;
+  }
+
+  .lp-table-quick-facts .table-container td:first-child {
+    padding-top: unset;
+    padding-bottom: unset;
+  }
+}
