@@ -1,0 +1,59 @@
+.cookie-notification__popup {
+  z-index: 2147483640;
+  color: #ddd;
+  background: #333;
+  width: 100%;
+  padding: 20px 28px;
+  position: fixed;
+  bottom: 0;
+}
+
+.cookie-notification__container .info {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.cookie-notification__popup .close {
+  display: none;
+}
+
+.learn-more__link {
+  color: #ddd;
+  font-size: 14px;
+}
+
+.learn-more__link:focus, .learn-more__link:hover, .learn-more__link:active {
+  color: #cf142b;
+}
+
+.btn__cookie-notification {
+  background-color: #c40112;
+  padding: 10px 36px;
+  font-size: 14px;
+}
+
+@media screen and (width >= 1361px) {
+  .cookie-notification__popup {
+    padding: 0;
+  }
+
+  .cookie-notification__container {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 1296px;
+    margin: 0 auto;
+    padding: 20px 12px;
+    display: flex;
+  }
+
+  .cookie-notification__container .info {
+    max-width: 81%;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (width <= 768px) {
+  .cookie-notification__container .info {
+    margin-bottom: 20px;
+  }
+}

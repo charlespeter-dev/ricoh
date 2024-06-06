@@ -1,0 +1,119 @@
+.search-download-tab .tabcontent-inner {
+  background-color: #fff;
+  border: 1px solid #dedede;
+  padding: 16px;
+}
+
+.search-download-tab .tab {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.search-download-tab .tab button {
+  background-color: inherit;
+  float: left;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  font-size: 17px;
+  transition: all .3s;
+}
+
+.search-download-tab .tab button:hover {
+  background-color: #ddd;
+}
+
+.search-download-tab .tab button.active {
+  background-color: #ccc;
+}
+
+.search-download-tab .tabcontent {
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 16px 16px 32px;
+  display: none;
+}
+
+.search-download-tab .search-bar-section {
+  background-color: #dedede;
+  margin-bottom: 14px;
+  padding: 16px 16px 24px;
+  position: relative;
+}
+
+.search-download-tab .search-bar-section h2 {
+  margin-bottom: 8px;
+  font-size: 20px !important;
+}
+
+.search-download-tab .search-bar-section input {
+  background-color: #fff;
+  background-position: 1%;
+  background-repeat: no-repeat;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  padding: 7px 8px 7px 32px;
+  font-size: 16px;
+  background-image: url("icon_search.928780c8.png") !important;
+  width: 100% !important;
+}
+
+.search-download-tab .search-result-section {
+  background-color: #f3f3f3;
+  border: 1px solid #dedede;
+  padding: 16px 16px 24px;
+  position: relative;
+}
+
+.search-download-tab .search-result-section h2 {
+  margin-bottom: 8px;
+  font-size: 20px !important;
+}
+
+.search-download-tab .search-result-section .box-result {
+  background: #fff;
+  border: 1px solid #dedede;
+  width: auto;
+  margin: 0 15px;
+  overflow: auto;
+}
+
+.search-download-tab .search-result-section .cell-result {
+  background-color: #fff;
+  height: 150px;
+  padding: 16px;
+  display: block;
+  overflow: auto;
+}
+
+.search-download-tab .search-bar-section:after {
+  content: "";
+  -webkit-background-size: 24px auto;
+  background-image: url("icon_s_arrowb.f12efb5a.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 24px;
+  width: 24px;
+  height: 11px;
+  margin-left: -12px;
+  position: absolute;
+  bottom: -11px;
+  left: 50%;
+}
+
+.search-download-tab .search-result-section:after {
+  content: "";
+  -webkit-background-size: 26px auto;
+  background-image: url("icon_s_arrowb_u.aab25711.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 26px;
+  width: 26px;
+  height: 14px;
+  margin-left: -13px;
+  position: absolute;
+  top: -1px;
+  left: 50%;
+}
