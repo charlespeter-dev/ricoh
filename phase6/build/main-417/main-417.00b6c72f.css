@@ -1,0 +1,61 @@
+.lp-callout-percentage .percentage-container {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.lp-callout-percentage .percentage-container .percent-container {
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.lp-callout-percentage .percentage-container .percent-container img {
+  width: 70px;
+}
+
+.lp-callout-percentage .percentage-container .percent-container .percent {
+  background-color: #fff;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 2.0625rem;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.lp-callout-percentage .percentage-container .percent-text {
+  color: #333;
+  margin-left: 15px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+@media screen and (width >= 992px) {
+  .lp-callout-percentage .percentage-container .percent-text {
+    margin-left: 15px;
+  }
+}
+
+.theme-std .lp-callout-percentage .percentage-container .percent-container .percent {
+  color: #cf142b;
+}
+
+.theme-hw .lp-callout-percentage .percentage-container .percent-container .percent {
+  color: #606cbf;
+}
+
+.theme-dwa .lp-callout-percentage .percentage-container .percent-container .percent {
+  color: #8fc740;
+}
+
+.theme-cit .lp-callout-percentage .percentage-container .percent-container .percent {
+  color: #0f7ac9;
+}
+
+.theme-cs .lp-callout-percentage .percentage-container .percent-container .percent {
+  color: #00328f;
+}

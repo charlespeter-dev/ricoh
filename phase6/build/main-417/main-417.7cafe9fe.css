@@ -1,0 +1,134 @@
+.theme-std .lp-table {
+  background-color: #fff;
+  margin: 50px 0;
+}
+
+.theme-std .lp-table .table {
+  --bs-table-striped-color: #fff;
+  color: #333;
+}
+
+.theme-std .lp-table .table th {
+  border-bottom: 3px solid #f3f3f3;
+}
+
+.theme-std .lp-table .table th.text-theme-color {
+  color: #cf142b;
+}
+
+.theme-std .lp-table .table td {
+  border-bottom: 3px solid #f3f3f3;
+}
+
+.theme-std .lp-table .heading {
+  color: #fff;
+  background-color: #cf142b;
+}
+
+.theme-hw .lp-table {
+  background-color: #fff;
+  margin: 50px 0;
+}
+
+.theme-hw .lp-table .table {
+  --bs-table-striped-color: #fff;
+  color: #333;
+}
+
+.theme-hw .lp-table .table th {
+  border-bottom: 3px solid #f3f3f3;
+}
+
+.theme-hw .lp-table .table th.text-theme-color {
+  color: #606cbf;
+}
+
+.theme-hw .lp-table .table td {
+  border-bottom: 3px solid #f3f3f3;
+}
+
+.theme-hw .lp-table .heading {
+  color: #fff;
+  background-color: #606cbf;
+}
+
+.theme-dwa .lp-table {
+  background-color: #fff;
+  margin: 50px 0;
+}
+
+.theme-dwa .lp-table .table {
+  --bs-table-striped-color: #fff;
+  color: #333;
+}
+
+.theme-dwa .lp-table .table th {
+  border-bottom: 3px solid #f3f3f3;
+}
+
+.theme-dwa .lp-table .table th.text-theme-color {
+  color: #8fc740;
+}
+
+.theme-dwa .lp-table .table td {
+  border-bottom: 3px solid #f3f3f3;
+}
+
+.theme-dwa .lp-table .heading {
+  color: #fff;
+  background-color: #8fc740;
+}
+
+.theme-cit .lp-table {
+  background-color: #fff;
+  margin: 50px 0;
+}
+
+.theme-cit .lp-table .table {
+  --bs-table-striped-color: #fff;
+  color: #333;
+}
+
+.theme-cit .lp-table .table th {
+  border-bottom: 3px solid #f3f3f3;
+}
+
+.theme-cit .lp-table .table th.text-theme-color {
+  color: #0f7ac9;
+}
+
+.theme-cit .lp-table .table td {
+  border-bottom: 3px solid #f3f3f3;
+}
+
+.theme-cit .lp-table .heading {
+  color: #fff;
+  background-color: #0f7ac9;
+}
+
+.theme-cs .lp-table {
+  background-color: #fff;
+  margin: 50px 0;
+}
+
+.theme-cs .lp-table .table {
+  --bs-table-striped-color: #fff;
+  color: #333;
+}
+
+.theme-cs .lp-table .table th {
+  border-bottom: 3px solid #f3f3f3;
+}
+
+.theme-cs .lp-table .table th.text-theme-color {
+  color: #00328f;
+}
+
+.theme-cs .lp-table .table td {
+  border-bottom: 3px solid #f3f3f3;
+}
+
+.theme-cs .lp-table .heading {
+  color: #fff;
+  background-color: #00328f;
+}
