@@ -10,13 +10,20 @@
         background-color: #ffffff;
 
         .table {
-            --bs-table-striped-color: themed('primaryColor');
+            --bs-table-striped-color: #fff;
+            
             color: #333333;
 
             th {
                 &.text-theme-color {
                     color: themed('primaryColor');
                 }
+
+                border-bottom: 3px solid #f3f3f3;
+            }
+
+            td {
+                border-bottom: 3px solid #f3f3f3;
             }
         }
 
