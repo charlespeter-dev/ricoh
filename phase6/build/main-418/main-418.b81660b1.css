@@ -1,0 +1,162 @@
+.lp-share * {
+  box-sizing: border-box;
+}
+
+.lp-share {
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  display: flex;
+}
+
+@media screen and (width >= 992px) {
+  .lp-share {
+    margin-top: 0;
+  }
+}
+
+.lp-share .dropdown-custom-toggle, .lp-share .icon.copy-link {
+  margin-left: 10px;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.lp-share > div:first-of-type {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.lp-share > div.text {
+  text-transform: uppercase;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.lp-share > div.icon, .lp-share div.dropdown-custom-toggle {
+  cursor: pointer;
+  border: .5px solid #b1b1b1;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 37px;
+  height: 42px;
+  display: flex;
+}
+
+.lp-share > div.icon i, .lp-share div.dropdown-custom i {
+  font-size: 25px;
+  position: relative;
+  top: 4px;
+}
+
+.lp-share .dropdown-custom-toggle {
+  cursor: pointer;
+  border: .5px solid #b1b1b1;
+  border-radius: 8px;
+}
+
+.lp-share .dropdown-custom {
+  position: relative;
+}
+
+.lp-share .dropdown-custom-menu.open {
+  display: block;
+}
+
+.lp-share .dropdown-custom-menu {
+  z-index: 1000;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #00000026;
+  border-radius: .25rem;
+  min-width: 10rem;
+  margin: 0;
+  padding: .5rem 0;
+  font-size: 1rem;
+  list-style: none;
+  display: none;
+  position: absolute;
+}
+
+.lp-share .dropdown-custom-item {
+  clear: both;
+  color: #333;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: #0000;
+  border: 0;
+  width: 100%;
+  padding: .25rem 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  display: block;
+}
+
+.lp-share .dropdown-custom-item:hover, .lp-share .dropdown-custom-item:focus {
+  color: #1e2125;
+  background-color: #e9ecef;
+}
+
+.lp-share [tooltip] {
+  position: relative;
+}
+
+.lp-share [tooltip]:before, .lp-share [tooltip]:after {
+  text-transform: none;
+  -webkit-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  opacity: 0;
+  font-size: .9em;
+  line-height: 1;
+  display: none;
+  position: absolute;
+}
+
+.lp-share [tooltip]:before {
+  content: "";
+  z-index: 1001;
+  border: 5px solid #0000;
+}
+
+.lp-share [tooltip]:after {
+  content: attr(tooltip);
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #fff;
+  z-index: 1000;
+  background: #333;
+  border-radius: .3ch;
+  min-width: 3em;
+  max-width: 21em;
+  padding: 1ch 1.5ch;
+  overflow: hidden;
+  box-shadow: 0 1em 2em -.5em #00000059;
+}
+
+.lp-share [tooltip]:hover:before, .lp-share [tooltip]:hover:after {
+  opacity: 1;
+  display: block;
+}
+
+.lp-share [tooltip=""]:before, .lp-share [tooltip=""]:after {
+  display: none !important;
+}
+
+.lp-share [tooltip][flow^="down"]:before {
+  border-top-width: 0;
+  border-bottom-color: #333;
+  top: 100%;
+}
+
+.lp-share [tooltip][flow^="down"]:after {
+  top: calc(100% + 5px);
+}
+
+.lp-share [tooltip][flow^="down"]:before, .lp-share [tooltip][flow^="down"]:after {
+  left: 50%;
+  transform: translate(-50%, .5em);
+}

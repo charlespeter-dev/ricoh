@@ -1,0 +1,224 @@
+.theme-std .lp-callout-quote {
+  flex-direction: column;
+  margin: 30px 0;
+  display: flex;
+}
+
+.theme-std .lp-callout-quote img {
+  width: 100px;
+  height: 100px;
+}
+
+.theme-std .lp-callout-quote .text {
+  color: #333;
+  margin-top: 30px;
+  padding-left: 30px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.theme-std .lp-callout-quote .text .source {
+  color: #666;
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+
+.theme-std .lp-callout-quote .text-normal {
+  font-size: var(--bs-body-font-size);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.theme-std .lp-callout-quote .text-normal .source {
+  margin-top: 1.5rem;
+  font-weight: 700;
+}
+
+.theme-hw .lp-callout-quote {
+  flex-direction: column;
+  margin: 30px 0;
+  display: flex;
+}
+
+.theme-hw .lp-callout-quote img {
+  width: 100px;
+  height: 100px;
+}
+
+.theme-hw .lp-callout-quote .text {
+  color: #333;
+  margin-top: 30px;
+  padding-left: 30px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.theme-hw .lp-callout-quote .text .source {
+  color: #666;
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+
+.theme-hw .lp-callout-quote .text-normal {
+  font-size: var(--bs-body-font-size);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.theme-hw .lp-callout-quote .text-normal .source {
+  margin-top: 1.5rem;
+  font-weight: 700;
+}
+
+.theme-dwa .lp-callout-quote {
+  flex-direction: column;
+  margin: 30px 0;
+  display: flex;
+}
+
+.theme-dwa .lp-callout-quote img {
+  width: 100px;
+  height: 100px;
+}
+
+.theme-dwa .lp-callout-quote .text {
+  color: #333;
+  margin-top: 30px;
+  padding-left: 30px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.theme-dwa .lp-callout-quote .text .source {
+  color: #666;
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+
+.theme-dwa .lp-callout-quote .text-normal {
+  font-size: var(--bs-body-font-size);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.theme-dwa .lp-callout-quote .text-normal .source {
+  margin-top: 1.5rem;
+  font-weight: 700;
+}
+
+.theme-cit .lp-callout-quote {
+  flex-direction: column;
+  margin: 30px 0;
+  display: flex;
+}
+
+.theme-cit .lp-callout-quote img {
+  width: 100px;
+  height: 100px;
+}
+
+.theme-cit .lp-callout-quote .text {
+  color: #333;
+  margin-top: 30px;
+  padding-left: 30px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.theme-cit .lp-callout-quote .text .source {
+  color: #666;
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+
+.theme-cit .lp-callout-quote .text-normal {
+  font-size: var(--bs-body-font-size);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.theme-cit .lp-callout-quote .text-normal .source {
+  margin-top: 1.5rem;
+  font-weight: 700;
+}
+
+.theme-cs .lp-callout-quote {
+  flex-direction: column;
+  margin: 30px 0;
+  display: flex;
+}
+
+.theme-cs .lp-callout-quote img {
+  width: 100px;
+  height: 100px;
+}
+
+.theme-cs .lp-callout-quote .text {
+  color: #333;
+  margin-top: 30px;
+  padding-left: 30px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.theme-cs .lp-callout-quote .text .source {
+  color: #666;
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+
+.theme-cs .lp-callout-quote .text-normal {
+  font-size: var(--bs-body-font-size);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.theme-cs .lp-callout-quote .text-normal .source {
+  margin-top: 1.5rem;
+  font-weight: 700;
+}
+
+.theme-std .lp-callout-quote .text, .theme-std .lp-callout-quote .text-normal {
+  border-left: 5px solid #cf142b;
+}
+
+.theme-hw .lp-callout-quote .text, .theme-hw .lp-callout-quote .text-normal {
+  border-left: 5px solid #606cbf;
+}
+
+.theme-dwa .lp-callout-quote .text, .theme-dwa .lp-callout-quote .text-normal {
+  border-left: 5px solid #8fc740;
+}
+
+.theme-cit .lp-callout-quote .text, .theme-cit .lp-callout-quote .text-normal {
+  border-left: 5px solid #0f7ac9;
+}
+
+.theme-cs .lp-callout-quote .text, .theme-cs .lp-callout-quote .text-normal {
+  border-left: 5px solid #00328f;
+}

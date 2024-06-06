@@ -1,0 +1,7 @@
+html:lang(vi-vn) body, html:lang(en) .language-selector-toggle.header__utility a {
+  font-family: arial, frutiger, frutiger linotype, univers, calibri, gill sans, gill sans mt, myriad pro, myriad, dejavu sans condensed, liberation sans, nimbus sans l, tahoma, geneva, helvetica neue, helvetica, sans-serif;
+}
+
+html:lang(vi-VN) .language-selector-toggle.header__utility a {
+  font-family: frutiger, frutiger linotype, univers, calibri, gill sans, gill sans mt, myriad pro, myriad, dejavu sans condensed, liberation sans, nimbus sans l, tahoma, geneva, helvetica neue, helvetica, arial, sans-serif;
+}

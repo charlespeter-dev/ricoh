@@ -1,0 +1,32 @@
+.split-text {
+  z-index: 1;
+  background-color: #fef5f5;
+  border-bottom: 6px solid #cf142b;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin: 30px 0 50px;
+  padding: 50px 20px;
+  position: relative;
+}
+
+@media screen and (width >= 992px) {
+  .split-text {
+    background-color: #fef5f5;
+    border-bottom: 5px solid #768ec7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 50px 60px;
+  }
+
+  .split-text:before, .split-text:after {
+    display: none;
+  }
+}
+
+@media screen and (width <= 991px) {
+  .split-text .col-1, .split-text .col-2 {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+  }
+}
