@@ -1,4 +1,4 @@
-a:1:{s:7:"callout";a:6:{s:5:"label";s:7:"Callout";s:5:"build";a:9:{i:0;s:23:"callout-fraction-center";i:1;s:27:"callout-percentage-1-column";i:2;s:28:"callout-percentage-2-columns";i:3;s:25:"callout-percentage-center";i:4;s:26:"callout-percentage-reverse";i:5;s:28:"lp-callout-percentage-single";i:6;s:16:"lp-callout-quote";i:7;s:29:"lp-callout-quote-w-percentage";i:8;s:23:"lp-callout-general-w-bg";}s:14:"iframe-desktop";a:9:{s:23:"callout-fraction-center";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"260px";}s:27:"callout-percentage-1-column";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"330px";}s:28:"callout-percentage-2-columns";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"400px";}s:25:"callout-percentage-center";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"260px";}s:26:"callout-percentage-reverse";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"260px";}s:28:"lp-callout-percentage-single";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"320px";}s:16:"lp-callout-quote";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"260px";}s:29:"lp-callout-quote-w-percentage";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"400px";}s:23:"lp-callout-general-w-bg";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"100px";}}s:13:"iframe-mobile";a:9:{s:23:"callout-fraction-center";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}s:27:"callout-percentage-1-column";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"430px";}s:28:"callout-percentage-2-columns";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"790px";}s:25:"callout-percentage-center";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"430px";}s:26:"callout-percentage-reverse";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"550px";}s:28:"lp-callout-percentage-single";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"310px";}s:16:"lp-callout-quote";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"340px";}s:29:"lp-callout-quote-w-percentage";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"550px";}s:23:"lp-callout-general-w-bg";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"270px";}}s:4:"html";a:9:{s:23:"callout-fraction-center";s:587:"<section class="callout-fraction-center">
+a:1:{s:7:"callout";a:6:{s:5:"label";s:7:"Callout";s:5:"build";a:10:{i:0;s:23:"callout-fraction-center";i:1;s:21:"lp-callout-percentage";i:2;s:27:"callout-percentage-1-column";i:3;s:28:"callout-percentage-2-columns";i:4;s:25:"callout-percentage-center";i:5;s:26:"callout-percentage-reverse";i:6;s:28:"lp-callout-percentage-single";i:7;s:16:"lp-callout-quote";i:8;s:29:"lp-callout-quote-w-percentage";i:9;s:23:"lp-callout-general-w-bg";}s:14:"iframe-desktop";a:10:{s:23:"callout-fraction-center";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"260px";}s:21:"lp-callout-percentage";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"400px";}s:27:"callout-percentage-1-column";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"330px";}s:28:"callout-percentage-2-columns";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"400px";}s:25:"callout-percentage-center";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"260px";}s:26:"callout-percentage-reverse";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"260px";}s:28:"lp-callout-percentage-single";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"320px";}s:16:"lp-callout-quote";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"260px";}s:29:"lp-callout-quote-w-percentage";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"400px";}s:23:"lp-callout-general-w-bg";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"100px";}}s:13:"iframe-mobile";a:10:{s:23:"callout-fraction-center";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"500px";}s:21:"lp-callout-percentage";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"790px";}s:27:"callout-percentage-1-column";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"430px";}s:28:"callout-percentage-2-columns";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"790px";}s:25:"callout-percentage-center";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"430px";}s:26:"callout-percentage-reverse";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"550px";}s:28:"lp-callout-percentage-single";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"310px";}s:16:"lp-callout-quote";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"340px";}s:29:"lp-callout-quote-w-percentage";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"550px";}s:23:"lp-callout-general-w-bg";a:2:{s:5:"width";s:4:"100%";s:6:"height";s:5:"270px";}}s:4:"html";a:10:{s:23:"callout-fraction-center";s:587:"<section class="callout-fraction-center">
 
                 <div class="percentage-container">
 
@@ -12,6 +12,80 @@ a:1:{s:7:"callout";a:6:{s:5:"label";s:7:"Callout";s:5:"build";a:9:{i:0;s:23:"cal
                         <div class="source">Microsoft, 2022</div>
                     </div>
 
+                </div>
+
+            </section>
+";s:21:"lp-callout-percentage";s:2331:"<section class="lp-callout-percentage">
+
+                <div class="row row-cols-1 row-cols-md-2">
+
+                    <div class="col mb-4">
+
+                        <div class="percentage-container">
+
+                            <div class="percent-container">
+                                <img src="Ricoh-ribbon.f5745b81.svg" alt="">
+                                <div class="percent">68%</div>
+                            </div>
+
+                            <div class="percent-text">
+                                Fewer interruptions
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col mb-4">
+
+                        <div class="percentage-container">
+
+                            <div class="percent-container">
+                                <img src="Ricoh-ribbon.f5745b81.svg" alt="">
+                                <div class="percent">68%</div>
+                            </div>
+
+                            <div class="percent-text">
+                                A quiet work environment
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col mb-4">
+
+                        <div class="percentage-container">
+
+                            <div class="percent-container">
+                                <img src="Ricoh-ribbon.f5745b81.svg" alt="">
+                                <div class="percent">66%</div>
+                            </div>
+
+                            <div class="percent-text">
+                                A more comfortable workplace
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col mb-4">
+
+                        <div class="percentage-container">
+
+                            <div class="percent-container">
+                                <img src="Ricoh-ribbon.f5745b81.svg" alt="">
+                                <div class="percent">63%</div>
+                            </div>
+
+                            <div class="percent-text">
+                                More focused time
+                            </div>
+
+                        </div>
+
+                    </div>
                 </div>
 
             </section>
@@ -197,7 +271,7 @@ a:1:{s:7:"callout";a:6:{s:5:"label";s:7:"Callout";s:5:"build";a:9:{i:0;s:23:"cal
                 </div>
 
             </section>
-";}s:3:"css";a:9:{s:23:"callout-fraction-center";s:5797:".callout-fraction-center {
+";}s:3:"css";a:10:{s:23:"callout-fraction-center";s:5797:".callout-fraction-center {
   flex-direction: row;
   justify-content: center;
   padding: 20px 0 50px;
@@ -362,6 +436,67 @@ a:1:{s:7:"callout";a:6:{s:5:"label";s:7:"Callout";s:5:"build";a:9:{i:0;s:23:"cal
   background-color: #f4f7ff;
 }
 
+";s:21:"lp-callout-percentage";s:1418:".lp-callout-percentage .percentage-container {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.lp-callout-percentage .percentage-container .percent-container {
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.lp-callout-percentage .percentage-container .percent-container img {
+  width: 70px;
+}
+
+.lp-callout-percentage .percentage-container .percent-container .percent {
+  background-color: #fff;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 2.0625rem;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.lp-callout-percentage .percentage-container .percent-text {
+  color: #333;
+  margin-left: 15px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+@media screen and (width >= 992px) {
+  .lp-callout-percentage .percentage-container .percent-text {
+    margin-left: 15px;
+  }
+}
+
+.theme-std .lp-callout-percentage .percentage-container .percent-container .percent {
+  color: #cf142b;
+}
+
+.theme-hw .lp-callout-percentage .percentage-container .percent-container .percent {
+  color: #606cbf;
+}
+
+.theme-dwa .lp-callout-percentage .percentage-container .percent-container .percent {
+  color: #8fc740;
+}
+
+.theme-cit .lp-callout-percentage .percentage-container .percent-container .percent {
+  color: #0f7ac9;
+}
+
+.theme-cs .lp-callout-percentage .percentage-container .percent-container .percent {
+  color: #00328f;
+}
 ";s:27:"callout-percentage-1-column";s:2330:".callout-percentage-1-column {
   flex-direction: row;
   padding: 20px 0 50px;

@@ -11,6 +11,7 @@ $comp_meta = [
         'label' => ucwords($SLUG),
         'build' => [
             'callout-fraction-center',
+            'lp-callout-percentage',
             'callout-percentage-1-column',
             'callout-percentage-2-columns',
             'callout-percentage-center',
@@ -24,6 +25,10 @@ $comp_meta = [
             'callout-fraction-center' => [
                 'width' => '100%',
                 'height' => '260px'
+            ],
+            'lp-callout-percentage' => [
+                'width' => '100%',
+                'height' => '400px'
             ],
             'callout-percentage-1-column' => [
                 'width' => '100%',
@@ -62,6 +67,10 @@ $comp_meta = [
             'callout-fraction-center' => [
                 'width' => '100%',
                 'height' => '500px'
+            ],
+            'lp-callout-percentage' => [
+                'width' => '100%',
+                'height' => '790px'
             ],
             'callout-percentage-1-column' => [
                 'width' => '100%',
