@@ -1,0 +1,49 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" font-size="14px" line-height="20px" color="#000" />
+      <mj-class name="name" font-size="18px" font-weight="bold" />
+      <mj-class name="red" color="#CF142B" font-weight="bold" />
+      <mj-class name="bg-white" background-color="#FFFFFF" />
+      <mj-class name="small-font" font-size="12px" />
+    </mj-attributes>
+
+  </mj-head>
+  <mj-body>
+
+    <mj-section mj-class="bg-white" border="1px solid #e6e6e6">
+      <mj-column vertical-align="top">
+
+        <mj-text mj-class="name">
+          [ Your Name ]
+        </mj-text>
+
+        <mj-text padding-top="0" padding-bottom="0">
+          [ Your Designation / Position ]
+        </mj-text>
+
+        <mj-text mj-class="red" padding-top="0">
+          [ Your Department ]
+        </mj-text>
+
+        <mj-text padding-top="0" padding-bottom="0">
+          <hr align="left" width="50%" color="#eee">
+        </mj-text>
+
+        <mj-text mj-class="red" padding-bottom="0">
+          [ Company Suffixes by Country / Region ]
+        </mj-text>
+
+        <mj-text mj-class="small-font" padding-top="0">
+          [ Your Email Address ] &nbsp; | &nbsp; [ Your Phone Number ]
+          <br>
+          [ Your Location / Address ]
+          <br>
+          [ Ricoh Website Address Link ]
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
