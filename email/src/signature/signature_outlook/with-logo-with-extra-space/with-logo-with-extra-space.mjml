@@ -1,0 +1,49 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" font-size="14px" line-height="20px" color="#000" />
+      <mj-class name="name" font-size="18px" font-weight="bold" />
+      <mj-class name="red" color="#CF142B" font-weight="bold" />
+      <mj-class name="bg-white" background-color="#FFFFFF" />
+      <mj-class name="small-font" font-size="12px" />
+    </mj-attributes>
+
+  </mj-head>
+  <mj-body>
+
+    <mj-section mj-class="bg-white">
+      <mj-column vertical-align="top" width="60%">
+
+        <mj-text mj-class="name">
+          Your Name
+        </mj-text>
+
+        <mj-text padding-top="0" padding-bottom="0">
+          Designation / Position
+        </mj-text>
+
+        <mj-text mj-class="red" padding-top="0" padding-bottom="0">
+          Department
+        </mj-text>
+
+        <mj-text>
+          <hr align="left" width="300px" color="#eee">
+        </mj-text>
+
+        <mj-text mj-class="small-font" padding-top="0">
+          [Email Address] &nbsp; | &nbsp; [Phone Number]
+          <br>
+          <strong>[Company Suffixes by Country / Region]</strong> [Address]
+          <br>
+          [Ricoh Website Address Link]
+        </mj-text>
+
+      </mj-column>
+
+      <mj-column vertical-align="top" width="40%">
+        <mj-image width="182px" height="82px" src="https://ricoh-email.2xcode.dev/signature/images/v0.04/Assets/Ricoh_Global_Logo.png" alt="" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
