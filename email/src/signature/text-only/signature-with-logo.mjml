@@ -12,7 +12,7 @@
   </mj-head>
   <mj-body>
 
-    <mj-section mj-class="bg-white" border="1px solid #e6e6e6">
+    <mj-section mj-class="bg-white">
       <mj-column vertical-align="top" width="60%">
 
         <mj-text mj-class="name">
@@ -28,7 +28,7 @@
         </mj-text>
 
         <mj-text padding-top="0" padding-bottom="0">
-          <hr align="left" width="50%" color="#eee">
+          <hr align="left" width="300px" color="#eee">
         </mj-text>
 
         <mj-text mj-class="red" padding-bottom="0">
