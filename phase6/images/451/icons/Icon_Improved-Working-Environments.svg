@@ -1,0 +1,16 @@
+<svg id="Icon_desk" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <path id="Path_273" data-name="Path 273" d="M114.521,230.126h-4.535a.892.892,0,0,1-.891-.892V180.027a1.79,1.79,0,0,0-1.784-1.791h-50.1a1.794,1.794,0,0,0-1.79,1.791v50.1a1.792,1.792,0,0,0,1.79,1.791h49.2a.894.894,0,0,1,.9.9v4.533a.886.886,0,0,0,.887.89h6.324a.892.892,0,0,0,.9-.89v-6.325a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#606cbf"/>
+  <g id="Group_1537" data-name="Group 1537" transform="translate(10.583 8.666)">
+    <g id="Group_1927" data-name="Group 1927" transform="translate(7017.702 -2286.933)">
+      <path id="Path_1271" data-name="Path 1271" d="M-6715.1,2342.392h-27.187v-2h27.187Z" transform="translate(-280 -39.402)" fill="#fff"/>
+      <path id="Path_1272" data-name="Path 1272" d="M-6717.714,2359.368h-2V2341.9h2Z" transform="translate(-298.516 -39.801)" fill="#fff"/>
+      <path id="Path_1273" data-name="Path 1273" d="M-6717.714,2359.368h-2V2341.9h2Z" transform="translate(-281.573 -39.801)" fill="#fff"/>
+      <path id="Path_1274" data-name="Path 1274" d="M1,16.943H-1V0H1Z" transform="translate(-7000.288 2309.782) rotate(90)" fill="#fff"/>
+      <path id="Path_1275" data-name="Path 1275" d="M-6679.748,2299.777h-10.978l-.3-.459-4.847-7.544,1.683-1.081,4.551,7.084h9.886Z" transform="translate(-317.124)" fill="#fff"/>
+      <path id="Path_1276" data-name="Path 1276" d="M-6604.866,2315.691H-6618.6v-2h11.733v-13.669h2Z" transform="translate(-377.16 -6.904)" fill="#fff"/>
+      <path id="Path_1277" data-name="Path 1277" d="M-6610.82,2380.94l-1.968-.358,2.194-12.039,1.968.358Z" transform="translate(-382.498 -60.87)" fill="#fff"/>
+      <path id="Path_1278" data-name="Path 1278" d="M-6571.241,2380.849l-2.192-11.947,1.967-.361,2.192,11.947Z" transform="translate(-413.412 -60.87)" fill="#fff"/>
+      <path id="Path_1279" data-name="Path 1279" d="M-6598.83,2401.373h-8.884v-2h8.884Z" transform="translate(-385.711 -85.734)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

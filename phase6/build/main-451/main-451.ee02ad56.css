@@ -1,0 +1,94 @@
+.theme-hw ul.marker-theme-color {
+  list-style: none;
+  display: table;
+}
+
+.theme-hw ul.marker-theme-color li {
+  display: table-row;
+}
+
+.theme-hw ul.marker-theme-color li:before {
+  content: "■";
+  color: #768ec7;
+  width: 1em;
+  font-weight: bold;
+  display: table-cell;
+  position: relative;
+  top: -.1rem;
+}
+
+.theme-hw .ext-resources ul {
+  padding-left: .75rem;
+}
+
+.theme-hw .ext-resources a {
+  font-size: .875rem;
+  line-height: 1.5rem;
+  text-decoration: none;
+  color: #768ec7 !important;
+}
+
+.theme-hw .lp-ext-resources {
+  background-color: #fff;
+  padding: 30px 0;
+}
+
+.theme-hw .lp-ext-resources ul.ext-resources {
+  color: #768ec7;
+  list-style-type: square;
+}
+
+.theme-hw .lp-ext-resources ul.ext-resources li {
+  margin-bottom: 1.5rem;
+}
+
+.theme-hw .lp-ext-resources .link-heading {
+  font-size: .875rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.theme-hw .lp-ext-resources .link {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+  width: 90%;
+  font-size: .875rem;
+  line-height: 1.5rem;
+}
+
+@media screen and (width >= 992px) {
+  .theme-hw .lp-ext-resources .link {
+    width: 80%;
+  }
+}
+
+.theme-hw .lp-ext-resources ol, .theme-hw .lp-ext-resources ul, .theme-hw .lp-ext-resources dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.theme-hw .lp-ext-resources ol, .theme-hw .lp-ext-resources ul {
+  padding-left: 2rem;
+}
+
+.theme-hw .lp-ext-resources p {
+  margin-bottom: 1.75rem;
+}
+
+.is-desktop .theme-hw .lp-ext-resources .link-container {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.theme-hw .lp-ext-resources .link a {
+  text-decoration: none;
+  color: #768ec7 !important;
+}
+
+.is-desktop .theme-hw .lp-ext-resources .link-container .link-heading {
+  width: 130px;
+  display: block;
+}
