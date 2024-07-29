@@ -1,0 +1,10 @@
+<svg id="Icon_Easily-Monitor-Printer" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Ricoh_Ribbon_-_HW" data-name="Ricoh Ribbon - HW">
+    <path id="Path_1004" data-name="Path 1004" d="M114.521,230.126h-4.535a.892.892,0,0,1-.891-.892V180.027a1.79,1.79,0,0,0-1.784-1.791h-50.1a1.794,1.794,0,0,0-1.79,1.791v50.1a1.792,1.792,0,0,0,1.79,1.791h49.2a.894.894,0,0,1,.9.9v4.533a.886.886,0,0,0,.887.89h6.324a.892.892,0,0,0,.9-.89v-6.325a.9.9,0,0,0-.9-.9" transform="translate(-55.418 -178.236)" fill="#cf142b"></path>
+  </g>
+  <g id="Icon_feather-printer" data-name="Icon feather-printer" transform="translate(12.464 11.501)">
+    <path id="Path_1673" data-name="Path 1673" d="M9,13.5V3H27V13.5" transform="translate(-3 -3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+    <path id="Path_1674" data-name="Path 1674" d="M9,27H6a3,3,0,0,1-3-3V16.5a3,3,0,0,1,3-3H30a3,3,0,0,1,3,3V24a3,3,0,0,1-3,3H27" transform="translate(-3 -3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+    <path id="Path_1675" data-name="Path 1675" d="M9,21H27V33H9Z" transform="translate(-3 -3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+  </g>
+</svg>
