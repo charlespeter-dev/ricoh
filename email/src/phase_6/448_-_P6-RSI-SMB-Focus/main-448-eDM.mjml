@@ -1,0 +1,174 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" />
+      <mj-wrapper background-color="#eeeeee" />
+      <mj-section background-color="#ffffff" />
+      <mj-text font-size="16px" line-height="26px" color="#666666" />
+      <mj-table font-size="16px" line-height="22px" color="#666666" />
+      <mj-button font-size="18px" line-height="22px" font-weight="700" color="#FFFFFF" background-color="#606CBF" width="100%" border-radius="0" />
+      <mj-divider border-color="#606CBF" container-background-color="#606CBF" border-width="3px" border-style="solid" padding="0" />
+      <mj-class name="subheading" font-size="18px" line-height="23px" color="#666666" />
+      <mj-class name="h1" font-size="26px" line-height="32px" font-weight="700" color="#333333" />
+      <mj-class name="h3" font-size="16px" line-height="22px" color="#606CBF" font-weight="700" />
+      <mj-class name="resource-type" font-size="16px" line-height="22px" color="#606CBF" font-weight="700" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    <mj-wrapper full-width="full-width">
+
+      <!-- header -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="left" />
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- intro & thumbnail -->
+
+      <mj-section background-color="#F3F3F3">
+        <mj-column width="51%">
+
+          <mj-text mj-class="resource-type" padding-bottom="0">
+            Brochure
+          </mj-text>
+
+          <mj-text mj-class="h1">
+            Maximise Your RICOH Multifunction Printers With RSI
+          </mj-text>
+
+          <mj-text mj-class="subheading" padding-top="0">
+            Get more done with your RICOH devices
+          </mj-text>
+
+          <mj-button href="https://www.ricoh.com/">
+            Learn More
+          </mj-button>
+
+        </mj-column>
+        <mj-column width="49%">
+          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/448_-_P6-RSI-SMB-Focus/RSI-SMB-focus-Header-Banner-Thumbnail-Image.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <!-- content -->
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+
+          <mj-text>
+            Hi [Name],
+          </mj-text>
+
+          <mj-text>
+            Today’s document management needs are evolving. As organisations digitise workflows, it’s crucial to maximise the security, productivity and efficiency of your document processes by optimising your available technology.
+          </mj-text>
+
+          <mj-text>
+            Unlock the full potential of your RICOH multifunction printers with RICOH Smart Integration (RSI). This comprehensive cloud-based platform has innovative and secure features that streamline your workflows, secure key documents, and enhance productivity.
+          </mj-text>
+
+          <mj-text>
+            With RICOH Smart Integration, you can:
+          </mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-left="20px" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-table cellpadding="4px">
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">Automate manual workflows to accelerate processes so your teams can focus on more strategic tasks</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">Enhance security through pull printing and multiple supported authentication protocols</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">Simplify print device management through a centralised platform to reduce IT burdens and control your print usage to save costs.</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="90%" background-color="#f3f3f3" padding="20px">
+          <mj-text align="center">
+            <strong>Streamline your workflows and enhance productivity in your workspaces with minimal hassle. Unleash the full potential of your RICOH multifunction printer with RICOH Smart Integration.</strong>
+          </mj-text>
+
+          <mj-button href="https://www.ricoh.com/" width="340px">
+            Learn More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-left="30px" padding-right="30px">
+        <mj-column>
+          <mj-divider border-color="#c9c9c9" container-background-color="#c9c9c9" border-width="1px" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text>
+            Contact us to discover how you can maximise your RICOH multifunction printers in your existing workflows.
+          </mj-text>
+          <mj-text padding-top="0" padding-left="30px" padding-right="30px">
+            Best Regards, <br> [Ricoh Team Info]
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer top -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-top" padding-top="25px">
+            © 2024 Ricoh. All rights reserved.
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="right" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer bottom -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-bottom" align="center">
+            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"></span style="color: #333; text-decoration: underline;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"><span style="color: #333; text-decoration: underline;">Manage Preferences</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
