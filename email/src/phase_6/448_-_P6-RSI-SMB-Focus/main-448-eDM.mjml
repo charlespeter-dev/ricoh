@@ -61,7 +61,7 @@
 
         </mj-column>
         <mj-column width="49%">
-          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/448_-_P6-RSI-SMB-Focus/RSI-SMB-focus-Header-Banner-Thumbnail-Image.png" alt="" />
+          <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/448_-_P6-RSI-SMB-Focus/images/RSI-SMB-focus-Header-Banner-Thumbnail-Image.png" alt="" />
         </mj-column>
       </mj-section>
 
