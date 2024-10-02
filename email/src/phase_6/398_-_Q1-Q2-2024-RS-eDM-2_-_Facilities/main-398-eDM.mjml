@@ -60,7 +60,7 @@
       </mj-column>
       <mj-column width="49%">
         <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/398_-_Q1-Q2-2024-RS-eDM-2_-_Facilities/images/RS-eDM-2-Header-Banner-Thumbnail-Image.png" alt="" />
-        <mj-button href="https://www.ricoh.com/" padding-top="0" padding-bottom="0">
+        <mj-button href="https://www.ricoh-ap.com/insights/2024/07/12/creating-a-destination-workplace-for-hybrid-work" padding-top="0" padding-bottom="0">
           Get the case study
         </mj-button>
 
@@ -120,7 +120,7 @@
           <mj-text padding-top="0" padding-bottom="0">
             you can build up your workplace into an innovative, collaborative space with RICOH Spaces.
           </mj-text>
-          <mj-button href="https://www.ricoh.com/">
+          <mj-button href="https://www.ricoh-ap.com/insights/2024/07/12/creating-a-destination-workplace-for-hybrid-work">
             Read the case study
           </mj-button>
         </mj-column>

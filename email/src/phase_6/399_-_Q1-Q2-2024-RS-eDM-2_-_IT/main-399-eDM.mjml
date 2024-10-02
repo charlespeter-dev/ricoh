@@ -60,7 +60,7 @@
       </mj-column>
       <mj-column width="49%">
         <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/399_-_Q1-Q2-2024-RS-eDM-2_-_IT/images/RS-eDM-3-Header-Banner-Thumbnail-Image.png" alt="" />
-        <mj-button href="https://www.ricoh.com/" padding-top="0" padding-bottom="0">
+        <mj-button href="https://www.ricoh-ap.com/insights/2024/05/22/fueling-innovation-in-the-hybrid-workplace-with-ricoh-spaces" padding-top="0" padding-bottom="0">
           Get the case study
         </mj-button>
 
@@ -73,7 +73,7 @@
       <mj-column>
 
         <mj-text mj-class="p-medium">
-          According to Gallup, 80% of remote-capable employees expect to work hybrid or remotely. This shift has made maintaining IT infrastructure to support onsite, hybrid, and remote teams an ongoing and complex challenge.
+          According to <a href="https://www.gallup.com/workplace/511994/future-office-arrived-hybrid.aspx" target="_blank">Gallup</a>, 80% of remote-capable employees expect to work hybrid or remotely. This shift has made maintaining IT infrastructure to support onsite, hybrid, and remote teams an ongoing and complex challenge.
         </mj-text>
 
         <mj-text>
@@ -120,7 +120,7 @@
           <mj-text padding-top="0" padding-bottom="0">
             you can maintain an efficient, collaborative, and secure workplace with RICOH Spaces.
           </mj-text>
-          <mj-button href="https://www.ricoh.com/">
+          <mj-button href="https://www.ricoh-ap.com/insights/2024/05/22/fueling-innovation-in-the-hybrid-workplace-with-ricoh-spaces">
             Read the case study
           </mj-button>
         </mj-column>

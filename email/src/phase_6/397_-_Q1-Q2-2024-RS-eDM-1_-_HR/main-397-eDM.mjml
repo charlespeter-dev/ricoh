@@ -61,7 +61,7 @@
       <mj-column width="49%">
         <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/397_-_Q1-Q2-2024-RS-eDM-1_-_HR/images/RS-eDM-1-Header-Banner-Thumbnail-Image.png" alt="" />
         <mj-button href="https://www.ricoh.com/" padding-top="0" padding-bottom="0">
-          Read the case study
+          Get the case study
         </mj-button>
 
       </mj-column>
