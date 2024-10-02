@@ -1,0 +1,175 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" />
+      <mj-body background-color="#eeeeee" />
+      <mj-wrapper background-color="#eeeeee" />
+      <mj-section background-color="#ffffff" />
+      <mj-text font-size="16px" line-height="26px" color="#666666" />
+      <mj-table font-size="16px" line-height="22px" color="#666666" />
+      <mj-button font-size="18px" line-height="22px" font-weight="700" color="#FFFFFF" background-color="#606CBF" width="100%" border-radius="0" />
+      <mj-divider border-color="#606CBF" container-background-color="#606CBF" border-width="3px" border-style="solid" padding="0" />
+      <mj-class name="subheading" font-size="18px" line-height="23px" color="#666666" />
+      <mj-class name="h1" font-size="26px" line-height="32px" font-weight="700" color="#333333" />
+      <mj-class name="h3" font-size="16px" line-height="22px" color="#606CBF" font-weight="700" />
+      <mj-class name="p-medium" font-size="20px" line-height="30px" />
+      <mj-class name="resource-type" font-size="16px" line-height="22px" color="#606CBF" font-weight="700" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    <!-- header -->
+
+    <mj-wrapper full-width padding-left="0" padding-bottom="0" padding-right="0">
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="left" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- divider -->
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-divider />
+      </mj-column>
+    </mj-section>
+
+    <!-- intro & thumbnail -->
+
+    <mj-section background-color="#F3F3F3">
+      <mj-column width="51%">
+
+        <mj-text mj-class="resource-type" padding-bottom="0">
+          Case Study
+        </mj-text>
+
+        <mj-text mj-class="h1">
+          Reduce Costs and Strengthen Collaboration with RICOH Spaces
+        </mj-text>
+
+        <mj-text mj-class="subheading">
+          Drive Workplace Innovation
+        </mj-text>
+
+      </mj-column>
+      <mj-column width="49%">
+        <mj-image padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/398_-_Q1-Q2-2024-RS-eDM-2_-_Facilities/images/RS-eDM-2-Header-Banner-Thumbnail-Image.png" alt="" />
+        <mj-button href="https://www.ricoh.com/" padding-top="0" padding-bottom="0">
+          Get the case study
+        </mj-button>
+
+      </mj-column>
+    </mj-section>
+
+    <!-- content -->
+
+    <mj-section padding-bottom="0">
+      <mj-column>
+
+        <mj-text mj-class="p-medium">
+          Reducing facility costs by at least 10% is a key priority, according to Gartner’s 2024 Budget Priorities for CFOs. Achieving this can be challenging, especially when managing a workplace in an evolving environment.
+        </mj-text>
+
+        <mj-text>
+          Creating a future-proof workplace that avoids space mismanagement is crucial to reducing costs and improving employee satisfaction, especially in the hybrid work era. So, how do you create your workplace of the future while lowering costs and improving business outcomes?
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="20px" padding-bottom="20px">
+      <mj-column width="70%">
+        <mj-divider border-color="#c9c9c9" container-background-color="#c9c9c9" border-width="1px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0">
+      <mj-column>
+        <mj-text>
+          Find out how Ricoh New Zealand transformed their workplace with RICOH Spaces to create a ‘Destination Workplace’ that encourages innovation with:
+        </mj-text>
+        <mj-table cellpadding="4px">
+          <tr>
+            <td style="line-height: 2;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+            <td style="padding-left: 10px;"><strong>Dynamic desk booking and management</strong> that fosters collaboration and productivity.</td>
+          </tr>
+          <tr>
+            <td style="line-height: 2;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+            <td style="padding-left: 10px;"><strong>Redesigned room layouts with advanced technology</strong> for improved hybrid working support and seamless employee experiences.</td>
+          </tr>
+          <tr>
+            <td style="line-height: 2;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+            <td style="padding-left: 10px;"><strong>Real-time data and historical insights</strong> that help optimise space utilisation and adjust working conditions.</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper background-color="#fff" padding-left="30px" padding-right="30px">
+      <mj-section padding-left="5px" background-color="#f3f3f3">
+        <mj-column width="52%">
+          <mj-text padding-bottom="0">
+            <strong>Learn how…</strong>
+          </mj-text>
+          <mj-text padding-top="0" padding-bottom="0">
+            you can build up your workplace into an innovative, collaborative space with RICOH Spaces.
+          </mj-text>
+          <mj-button href="https://www.ricoh.com/">
+            Read the case study
+          </mj-button>
+        </mj-column>
+        <mj-column width="48%">
+          <mj-image padding="0" src="https://ricoh-email.2xcode.dev/phase_6/398_-_Q1-Q2-2024-RS-eDM-2_-_Facilities/images/RS-eDM-2-Call-Out-Box-Banner-Thumbnail-Image.png" alt="" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section>
+      <mj-column>
+        <mj-text padding-top="0" padding-left="30px" padding-right="30px">
+          Best Regards, <br> [Ricoh Team Info]
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- divider -->
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-divider />
+      </mj-column>
+    </mj-section>
+
+    <!-- footer top -->
+
+    <mj-section background-color="#F3F3F3" padding="0">
+      <mj-column>
+        <mj-text mj-class="footer-top" padding-top="25px">
+          © 2024 Ricoh. All rights reserved.
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="right" />
+      </mj-column>
+    </mj-section>
+
+    <!-- footer bottom -->
+
+    <mj-wrapper full-width padding-left="0" padding-top="0" padding-right="0">
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-bottom" align="center">
+            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"></span style="color: #333; text-decoration: underline;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"><span style="color: #333; text-decoration: underline;">Manage Preferences</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
