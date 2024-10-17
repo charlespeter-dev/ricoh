@@ -1,0 +1,14 @@
+{
+  "name": "notification-bubble",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch index.scss:index.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.80.1"
+  }
+}

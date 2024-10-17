@@ -1,0 +1,62 @@
+.notification-bubble {
+  z-index: 999;
+  background: #ffffff;
+  position: fixed;
+  bottom: 30px;
+  right: 3%;
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: 5px solid #CF142B;
+  box-shadow: 2px 4px 30px 0px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+@media screen and (min-width: 992px) {
+  .notification-bubble {
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 0;
+  }
+}
+.notification-bubble-text-heading {
+  color: #333;
+  font-family: "frutiger";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  margin: 0;
+}
+.notification-bubble-text p {
+  color: #666;
+  font-family: "frutiger";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0;
+}
+.notification-bubble-text p a {
+  color: #CF142B;
+  font-family: "frutiger";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  text-decoration-line: underline;
+}
+.notification-bubble-text::before {
+  content: "";
+  position: absolute;
+  right: 10%;
+  top: 100%;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid #CF142B;
+}
+
+/*# sourceMappingURL=index.css.map */
