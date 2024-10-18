@@ -22,7 +22,7 @@
             <img src="icon-geolocation.svg" alt="">
         </div>
         <div class="notification-bubble-text">
-            
+
             <h3 class="notification-bubble-text-heading">
                 Looks like you are in Vietnam!
             </h3>
@@ -36,6 +36,24 @@
             </p>
         </div>
     </div>
+
+    <script>
+        //
+        // demo:
+        // - hide the bubble on page load
+        // - display it after 1 second
+        //
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const notificationBuble = document.querySelector('.notification-bubble');
+            notificationBuble.style.display = 'none';
+
+            setTimeout(function () {
+                notificationBuble.style.display = 'flex';
+            }, 1000);
+        });
+
+    </script>
 
 </body>
 

@@ -8,7 +8,6 @@ $callout-darker-green: #138A72;
     position: fixed;
     bottom: 30px;
     right: 3%;
-    max-width: 360px;
 
     border-radius: 10px 10px 0px 0px;
     border-bottom: 5px solid #CF142B;
@@ -24,6 +23,7 @@ $callout-darker-green: #138A72;
         flex-direction: row;
         gap: 1rem;
         margin-left: 0;
+        max-width: 360px;
     }
 
     &-text {
