@@ -21,6 +21,9 @@
     max-width: 360px;
   }
 }
+.notification-bubble-text {
+  position: relative;
+}
 .notification-bubble-text-heading {
   color: #333;
   font-family: "frutiger";
@@ -28,7 +31,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 27px;
-  margin: 0;
+  margin-block-end: 0.3rem;
 }
 .notification-bubble-text p {
   color: #666;
@@ -37,7 +40,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
-  margin: 0;
+  margin-block-end: 0.3rem;
 }
 .notification-bubble-text p a {
   color: #CF142B;
@@ -48,11 +51,18 @@
   line-height: 27px;
   text-decoration-line: underline;
 }
+.notification-bubble-text-cta {
+  display: flex;
+  justify-content: space-between;
+}
+.notification-bubble-text-cta svg {
+  cursor: pointer;
+}
 .notification-bubble-text::before {
   content: "";
   position: absolute;
   right: 10%;
-  top: 100%;
+  top: calc(100% + 1rem);
   width: 0;
   height: 0;
   border-left: 15px solid transparent;

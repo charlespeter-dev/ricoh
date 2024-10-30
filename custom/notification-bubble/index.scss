@@ -28,6 +28,8 @@ $callout-darker-green: #138A72;
 
     &-text {
 
+        position: relative;
+
 
         &-heading {
             color: #333;
@@ -36,7 +38,7 @@ $callout-darker-green: #138A72;
             font-style: normal;
             font-weight: 700;
             line-height: 27px;
-            margin: 0;
+            margin-block-end: .3rem;
         }
 
         p {
@@ -46,7 +48,7 @@ $callout-darker-green: #138A72;
             font-style: normal;
             font-weight: 400;
             line-height: 18px;
-            margin: 0;
+            margin-block-end: .3rem;
 
             a {
                 color: #CF142B;
@@ -59,11 +61,20 @@ $callout-darker-green: #138A72;
             }
         }
 
+        &-cta {
+            display: flex;
+            justify-content: space-between;
+
+            svg {
+                cursor: pointer;
+            }
+        }
+
         &::before {
             content: "";
             position: absolute;
             right: 10%;
-            top: 100%;
+            top: calc(100% + 1rem);
             width: 0;
             height: 0;
             border-left: 15px solid transparent;
