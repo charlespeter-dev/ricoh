@@ -1,0 +1,20 @@
+<mjml>
+    <mj-head>
+    <mj-breakpoint width="480px" />
+    <mj-style>
+      @media all and (max-width: 480px) {
+        .header-img { 
+          content: url(mobile.png);
+          width: 100%;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+        <mj-column>
+            <mj-image css-class="header-img" src="desktop.png"></mj-image>
+        </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
