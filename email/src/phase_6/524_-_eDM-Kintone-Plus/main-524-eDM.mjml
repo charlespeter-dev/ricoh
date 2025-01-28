@@ -62,7 +62,7 @@
 
         </mj-column>
         <mj-column vertical-align="middle">
-          <mj-image fluid-on-mobile="true" padding="0" href="https://www.ricoh.com/" src="images/Kintone-Plus_Thumbnail_with_Gradient.png" alt="" />
+          <mj-image fluid-on-mobile="true" padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/524_-_eDM-Kintone-Plus/images/Kintone-Plus_Thumbnail_with_Gradient.png" alt="" />
         </mj-column>
       </mj-section>
 
