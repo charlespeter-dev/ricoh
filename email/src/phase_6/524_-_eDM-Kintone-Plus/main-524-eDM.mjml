@@ -16,6 +16,17 @@
       <mj-class name="footer-top" font-size="14px" line-height="16px" />
       <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
     </mj-attributes>
+    <mj-style>
+        @media screen and (max-width: 480px) {
+          .h1-header > div {
+            padding-top: 30px !important;
+          }
+
+          .img-header img {
+            padding-bottom: 30px !important;
+          }
+        }
+      </mj-style>
   </mj-head>
 
   <mj-body>
@@ -40,17 +51,17 @@
 
       <!-- intro & thumbnail -->
 
-      <mj-section background-color="#e4a739" padding="0">
-        <mj-column vertical-align="middle" width="53%">
+      <mj-section background-color="#e7a939" padding="0">
+        <mj-column vertical-align="middle">
 
-          <mj-text mj-class="h1" align="left">
+          <mj-text mj-class="h1" align="left" css-class="h1-header">
             Automate Your Everyday
           </mj-text>
 
-          <mj-image align="left" src="https://ricoh-email.2xcode.dev/phase_6/524_-_eDM-Kintone-Plus/images/RICOH-Kintone-Plus.png" alt="" />
+          <mj-image css-class="img-header" align="left" padding-right="0" src="https://ricoh-email.2xcode.dev/phase_6/524_-_eDM-Kintone-Plus/images/With-RICOH-kintone-plus-logo.png" alt="" />
 
         </mj-column>
-        <mj-column vertical-align="middle" width="47%">
+        <mj-column vertical-align="middle">
           <mj-image fluid-on-mobile="true" padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/524_-_eDM-Kintone-Plus/images/Kintone-Plus_Thumbnail.png" alt="" />
         </mj-column>
       </mj-section>
