@@ -57,7 +57,7 @@
 
         </mj-column>
         <mj-column>
-          <mj-image align="right" padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/149-224/BookThumbnail.png" alt="" />
+          <mj-image fluid-on-mobile="true" padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/149-224/BookThumbnail.png" alt="" />
         </mj-column>
       </mj-section>
 
