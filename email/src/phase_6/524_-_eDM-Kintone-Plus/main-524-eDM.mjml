@@ -3,7 +3,7 @@
   <mj-head>
     <mj-attributes>
       <mj-all font-family="Arial, san-serif" />
-      <mj-wrapper background-color="#eeeeee" />
+      <mj-wrapper background-color="#eeeeee" padding="0" />
       <mj-section background-color="#ffffff" />
       <mj-text font-size="16px" line-height="26px" color="#666666" />
       <mj-table font-size="16px" line-height="22px" color="#666666" />
@@ -37,7 +37,7 @@
 
       <mj-section padding="0">
         <mj-column padding="0">
-          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="left" />
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/logo.png" alt="" width="130px" height="47.89px" align="left" />
         </mj-column>
       </mj-section>
 
@@ -150,7 +150,7 @@
           </mj-text>
         </mj-column>
         <mj-column>
-          <mj-image href="https://www.ricoh.com/" src="https://ricoh.2xcode.dev/ricoh/web/src/images/logo.svg" alt="" width="130px" height="47.89px" align="right" />
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/logo.png" alt="" width="130px" height="47.89px" align="right" />
         </mj-column>
       </mj-section>
 
