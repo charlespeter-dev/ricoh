@@ -1,0 +1,115 @@
+.split-width-hero .sw-hero-item {
+  margin: 30px 0 50px;
+}
+
+@media screen and (width >= 992px) {
+  .split-width-hero .sw-hero-item {
+    margin: 30px 0 100px;
+  }
+}
+
+.split-width-hero .sw-hero-item .reverse-in-mobile {
+  flex-direction: column-reverse;
+}
+
+@media screen and (width >= 992px) {
+  .split-width-hero .sw-hero-item .reverse-in-mobile {
+    flex-direction: row;
+  }
+}
+
+.split-width-hero .sw-hero-item .sw-hero-item-text {
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 20px 0;
+  display: flex;
+}
+
+.split-width-hero .sw-hero-item .sw-hero-item-img {
+  justify-content: flex-start;
+  display: flex;
+  position: relative;
+}
+
+.split-width-hero .sw-hero-item .sw-hero-item-img .imgs {
+  width: auto;
+  position: relative;
+}
+
+.split-width-hero .sw-hero-item .sw-hero-item-img .imgs .img-main {
+  border-radius: 5%;
+  width: 300px;
+  height: auto;
+}
+
+.split-width-hero .sw-hero-item .sw-hero-item-img .imgs .img-ribbon {
+  width: 103px;
+  display: flex;
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+}
+
+.split-width-hero .sw-hero-item .sw-hero-item-img .imgs.long-imgs {
+  width: auto;
+  max-width: 90%;
+}
+
+.split-width-hero .sw-hero-item .sw-hero-item-img .imgs.long-imgs .img-main {
+  width: auto;
+  max-width: 95%;
+  height: auto;
+}
+
+.split-width-hero .sw-hero-item .sw-hero-item-img .imgs.long-imgs .img-ribbon {
+  width: 70px;
+  bottom: -40px;
+  right: -20px;
+}
+
+@media screen and (width >= 992px) {
+  .split-width-hero .sw-hero-item .sw-hero-item-img {
+    justify-content: flex-end;
+    display: flex;
+  }
+
+  .split-width-hero .sw-hero-item .sw-hero-item-img .imgs {
+    width: 400px;
+  }
+
+  .split-width-hero .sw-hero-item .sw-hero-item-img .imgs .img-main {
+    width: 350px;
+    height: 350px;
+  }
+
+  .split-width-hero .sw-hero-item .sw-hero-item-img .imgs .img-ribbon {
+    right: 0;
+  }
+
+  .split-width-hero .sw-hero-item .sw-hero-item-img .imgs.long-imgs {
+    width: auto;
+    max-width: 75%;
+  }
+
+  .split-width-hero .sw-hero-item .sw-hero-item-img .imgs.long-imgs .img-main {
+    width: auto;
+    max-width: 90%;
+    height: auto;
+  }
+
+  .split-width-hero .sw-hero-item .sw-hero-item-img .imgs.long-imgs .img-ribbon {
+    width: 103px;
+    bottom: -50px;
+    right: 0;
+  }
+
+  .split-width-hero .sw-hero-item .reverse-in-mobile .sw-hero-item-img {
+    justify-content: flex-start;
+    display: flex;
+  }
+}
+
+.split-width-hero .sw-hero-item:last-of-type {
+  margin: 30px 0 100px;
+}
