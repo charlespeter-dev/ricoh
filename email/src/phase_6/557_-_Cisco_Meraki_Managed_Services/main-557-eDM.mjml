@@ -64,19 +64,19 @@
         <mj-column>
 
           <mj-text>
-            IT downtime, security threats, and limited resources can quickly disrupt your business and drive up costs.
+            IT disruptions, security risks, and limited resources can slow your business down and drive up costs.
           </mj-text>
 
           <mj-text>
-            RICOH-Cisco Meraki Smart Service is a cloud-managed network solution that gives your organisation enterprise-grade connectivity with simplified management. Make your network even more powerful with our limited time offer.
+            Stay ahead with RICOH-Cisco Meraki Smart Service—a cloud-managed network solution that delivers enterprise-grade connectivity with simple, efficient management.
           </mj-text>
 
           <mj-text>
-            When you purchase RICOH-Cisco Meraki Smart Service before <strong style="color: #0F7AC9 !important; font-weight: 700 !important;">24 December 2025</strong>, you'll receive 12 months of 24/7 network monitoring and alerts at no additional cost. Stay informed about your network's performance while your team focuses on strategic initiatives.
+            For a limited time, get 12 months of 24/7 monitoring and alerts at no extra cost when you purchase RICOH-Cisco Meraki Smart Service before <strong style="color: #0F7AC9 !important; font-weight: 700 !important;">24 December 2025</strong>.
           </mj-text>
 
           <mj-text>
-            Keep your business running smoothly with:
+            Let your team focus on what matters while we keep your network running smoothly with:
           </mj-text>
 
         </mj-column>
@@ -91,15 +91,15 @@
             </tr>
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Automated network oversight that reduces IT management burden</td>
+              <td style="padding-left: 10px;">Automated network oversight to reduce IT workload</td>
             </tr>
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Continuous security monitoring to detect potential threats</td>
+              <td style="padding-left: 10px;">Continuous security monitoring to detect and respond to threats</td>
             </tr>
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Optional upgrades for full incident management when you need extra support.</td>
+              <td style="padding-left: 10px;">Optional upgrades for full incident management when extra support is needed.</td>
             </tr>
           </mj-table>
         </mj-column>
@@ -108,10 +108,10 @@
       <mj-section>
         <mj-column width="91%" background-color="#f3f3f3" padding="20px">
           <mj-text align="center">
-            <strong>Transform how you monitor your network—without additional overhead.</strong>
+            <strong>Don’t miss out—claim your 12 months of free monitoring today!</strong>
           </mj-text>
           <mj-button href="https://www.ricoh.com/" width="300px">
-           Purchase now
+           Get Connected
           </mj-button>
         </mj-column>
       </mj-section>
