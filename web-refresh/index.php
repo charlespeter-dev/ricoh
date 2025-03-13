@@ -4,6 +4,7 @@ $css = [
     'assets/css/optimized1.css',
     'assets/css/optimized2.css',
     'assets/css/global.css',
+    'assets/css/bs-wr.css',
     'assets/css/campaign-banner-01.css'
 ];
 
@@ -16,7 +17,7 @@ $css = [
     <title>Ricoh - Web Refresh</title>
 
     <?php foreach ($css as $file): ?>
-        <link rel="stylesheet" href="<?= $file ?>">
+        <link rel="stylesheet" href="<?= $file ?>?t=<?= time() ?>">
     <?php endforeach; ?>
 
 </head>

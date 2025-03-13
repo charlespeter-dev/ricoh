@@ -1,5 +1,37 @@
-<section class="bsc wr campaign-banner-01">
+<section class="bsc wr campaign-banner-01"
+    style=" --ricoh-section-background-color: #f5f5f5; --ricoh-section-height-desktop: 400px; --ricoh-section-height-mobile: 300px; --ricoh-background-image-mobile: url('../images/campaign-banner-01/mobile.png');">
 
-asac
-    
+    <img src="assets/images/campaign-banner-01/desktop.png" class="__full-width" alt="">
+
+    <div class="__hero-content">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="__logo">
+                    <img src="assets/images/campaign-banner-01/logo.svg" alt="">
+                </div>
+                <div class="__main-heading">
+                    <h2>
+                        Smart and Secure Business <br class="d-none d-lg-block"> Processes <span class="__red">With
+                            DocuWare</span>
+                    </h2>
+                </div>
+                <div class="__sub-heading">
+                    <p>
+                        Streamline document management and workflows effortlessly
+                    </p>
+                </div>
+                <div class="__cta-container">
+                    <a href="" class="__cta-primary">
+                        Explore More
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="__bg-mobile">
+                    <img class="img-fluid" src="assets/images/campaign-banner-01/mobile.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
 </section>
