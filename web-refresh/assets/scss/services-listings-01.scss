@@ -1,0 +1,84 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+
+.bsc.wr.services-listings-01 {
+
+    position: relative;
+    background-color: transparent;
+    padding-block: 4rem;
+
+    .___main-menu {
+
+        position: relative;
+        margin: 0;
+        padding: 0;
+
+        >li {
+            display: flex;
+            border-right: 1px solid #ccc;
+            width: var(--ricoh-main-menu-width);
+
+            >a {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                width: var(--ricoh-main-menu-width);
+
+                color: #8D8C8C;
+                font-family: "frutiger", sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 27px;
+                text-decoration: none;
+                padding-block: .5rem;
+
+            }
+
+            .__sub-menu-container {
+                display: none;
+            }
+
+            &:hover {
+                .__sub-menu-container {
+                    display: block;
+                    height: 100%;
+                    width: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: var(--ricoh-main-menu-width);
+
+                    .__sub-menu {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        >li {
+                            width: 50%;
+
+                            >a {
+                                display: flex;
+                                align-items: center;
+                                gap: 1rem;
+
+                                color: #000;
+                                font-family: "frutiger", sans-serif;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 27px;
+                                text-decoration: none;
+                                padding-block: .5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

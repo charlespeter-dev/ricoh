@@ -1,0 +1,65 @@
+.bsc.wr.services-listings-01 {
+  position: relative;
+  background-color: transparent;
+  padding-block: 4rem;
+}
+.bsc.wr.services-listings-01 .___main-menu {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.bsc.wr.services-listings-01 .___main-menu > li {
+  display: flex;
+  border-right: 1px solid #ccc;
+  width: var(--ricoh-main-menu-width);
+}
+.bsc.wr.services-listings-01 .___main-menu > li > a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: var(--ricoh-main-menu-width);
+  color: #8D8C8C;
+  font-family: "frutiger", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  text-decoration: none;
+  padding-block: 0.5rem;
+}
+.bsc.wr.services-listings-01 .___main-menu > li .__sub-menu-container {
+  display: none;
+}
+.bsc.wr.services-listings-01 .___main-menu > li:hover .__sub-menu-container {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: var(--ricoh-main-menu-width);
+}
+.bsc.wr.services-listings-01 .___main-menu > li:hover .__sub-menu-container .__sub-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bsc.wr.services-listings-01 .___main-menu > li:hover .__sub-menu-container .__sub-menu > li {
+  width: 50%;
+}
+.bsc.wr.services-listings-01 .___main-menu > li:hover .__sub-menu-container .__sub-menu > li > a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #000;
+  font-family: "frutiger", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  text-decoration: none;
+  padding-block: 0.5rem;
+}
+
+/*# sourceMappingURL=services-listings-01.css.map */
