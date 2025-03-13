@@ -21,7 +21,7 @@
                     </p>
                 </div>
                 <div class="__cta-container">
-                    <a href="" class="__cta-primary">
+                    <a href="#" class="__cta-primary">
                         Explore More
                     </a>
                 </div>

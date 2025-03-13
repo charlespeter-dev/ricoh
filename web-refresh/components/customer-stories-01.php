@@ -1,0 +1,166 @@
+<section class="bsc wr customer-stories-01" style="--ricoh-section-height-desktop: 400px;">
+
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="__left-top">
+                <div class="__main-heading">
+                    <h2>
+                        Customer <br class="d-none d-lg-block"> Success Stories
+                    </h2>
+                </div>
+                <div class="__sub-heading">
+                    <p>
+                        See an improved work life through the eyes of our customers – what they imagined, how they
+                        changed and the results.
+                    </p>
+                </div>
+                <div class="__cta-container">
+                    <a href="#" class="__cta-secondary">
+                        <span>
+                            Read More
+                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="11" viewBox="0 0 19 11" fill="none">
+                            <path d="M13 9.73828L17.2383 5.5L13 1.26172" stroke="#CF142B" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <line x1="15.9531" y1="5.73877" x2="1" y2="5.73877" stroke="#CF142B" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="__left-bottom">
+                <div class="__navigation">
+                    <div class="__swiper-button-prev">
+                        <svg width="42" height="39" viewBox="0 0 42 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="icon-pagination-arrow-left">
+                                <path id="Rectangle 442"
+                                    d="M32.5938 0H9.34375C4.52852 0 0.625 3.68349 0.625 8.2273V30.1668C0.625 34.7106 4.52852 38.3941 9.34375 38.3941H32.5938C37.409 38.3941 41.3125 34.7106 41.3125 30.1668V8.2273C41.3125 3.68349 37.409 0 32.5938 0Z"
+                                    fill="#F8CCC9" />
+                                <path id="Path 985" d="M24.2193 13.0621L17.7173 19.1971L24.2193 25.3321" stroke="white"
+                                    stroke-width="3" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="__swiper-button-next">
+                        <svg width="41" height="39" viewBox="0 0 41 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="icon-pagination-arrow-right">
+                                <path id="Rectangle 442"
+                                    d="M32.2812 0H9.03125C4.21602 0 0.3125 3.68349 0.3125 8.2273V30.1668C0.3125 34.7106 4.21602 38.3941 9.03125 38.3941H32.2812C37.0965 38.3941 41 34.7106 41 30.1668V8.2273C41 3.68349 37.0965 0 32.2812 0Z"
+                                    fill="#F8CCC9" />
+                                <path id="Path 985" d="M17.4048 13.0621L23.9068 19.1971L17.4048 25.3321" stroke="white"
+                                    stroke-width="3" />
+                            </g>
+                        </svg>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8">
+
+            <div class="__testimonial-container">
+                <div class="__quote">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
+                        <path
+                            d="M98.5047 86.4833H90.9459C90.1291 86.4833 89.4605 85.8202 89.4605 84.997V2.98556C89.4605 1.34256 88.1299 0 86.4864 0H2.98398C1.3372 0 0 1.34256 0 2.98556V86.4833C0 88.1297 1.3372 89.4689 2.98398 89.4689H84.9878C85.8145 89.4689 86.4864 90.1286 86.4864 90.9616V98.5169C86.4864 99.3401 87.1451 100 87.9652 100H98.5047C99.3314 100 100 99.3401 100 98.5169V87.9761C100 87.1529 99.3314 86.4833 98.5047 86.4833Z"
+                            fill="#CF142B" />
+                        <path
+                            d="M33.4043 42.9255C32.9512 42.9255 32.5184 42.9945 32.0856 43.058C32.2263 42.5874 32.3696 42.1086 32.6009 41.6785C32.8322 41.0537 33.1933 40.5128 33.553 39.9664C33.8533 39.3767 34.382 38.9764 34.7715 38.472C35.1786 37.981 35.7345 37.6537 36.1754 37.2467C36.6081 36.8207 37.1734 36.607 37.6238 36.3067C38.0944 36.0363 38.5042 35.7387 38.9424 35.5967L40.0352 35.1464L40.9967 34.7474L40.0122 30.8159L38.8018 31.108C38.415 31.2054 37.9416 31.319 37.4047 31.4556C36.8543 31.557 36.2687 31.8343 35.6155 32.0885C34.9704 32.3766 34.2238 32.5714 33.53 33.0339C32.8322 33.4761 32.0275 33.8453 31.3175 34.4377C30.6291 35.049 29.8001 35.5778 29.1874 36.3541C28.518 37.0803 27.8566 37.8431 27.3427 38.7113C26.7476 39.539 26.3446 40.4478 25.9186 41.3459C25.5332 42.2439 25.2221 43.1635 24.9692 44.0561C24.4891 45.8454 24.2727 47.5453 24.1902 48.9992C24.1212 50.4557 24.1618 51.6662 24.247 52.5439C24.2768 52.9577 24.3349 53.3594 24.3755 53.6366L24.4269 53.9775L24.4796 53.9653C25.483 58.6522 29.9403 61.765 34.6861 61.093C39.4319 60.421 42.8498 56.193 42.5124 51.4118C42.175 46.6305 38.1974 42.9245 33.4043 42.9255ZM55.7192 42.9255C55.2661 42.9255 54.8333 42.9945 54.4006 43.058C54.5412 42.5874 54.6846 42.1086 54.9158 41.6785C55.1471 41.0537 55.5082 40.5128 55.8679 39.9664C56.1682 39.3767 56.697 38.9764 57.0865 38.472C57.4935 37.981 58.0494 37.6537 58.4903 37.2467C58.923 36.8207 59.4884 36.607 59.9387 36.3067C60.4093 36.0363 60.8191 35.7387 61.2573 35.5967L62.3501 35.1464L63.3116 34.7474L62.3271 30.8159L61.1167 31.108C60.7299 31.2054 60.2565 31.319 59.7196 31.4556C59.1692 31.557 58.5836 31.8343 57.9304 32.0885C57.2866 32.378 56.5387 32.5714 55.8449 33.0366C55.1471 33.4788 54.3424 33.848 53.6324 34.4404C52.944 35.0517 52.115 35.5805 51.5023 36.3554C50.8329 37.0817 50.1715 37.8444 49.6576 38.7127C49.0626 39.5404 48.6595 40.4492 48.2335 41.3472C47.8481 42.2452 47.537 43.1649 47.2841 44.0575C46.804 45.8467 46.5876 47.5467 46.5051 49.0005C46.4362 50.4571 46.4767 51.6675 46.5619 52.5452C46.5917 52.9591 46.6498 53.3607 46.6904 53.638L46.7418 53.9788L46.7945 53.9666C47.7986 58.6532 52.256 61.7653 57.0015 61.0929C61.7471 60.4204 65.1645 56.1926 64.827 51.4115C64.4895 46.6305 60.5121 42.9246 55.7192 42.9255Z"
+                            fill="white" />
+                    </svg>
+                </div>
+
+                <div class="swiper __testimonial-swiper">
+                    <div class="swiper-wrapper">
+
+                        <!-- 1st slide -->
+                        <figure class="swiper-slide">
+                            <blockquote class="__testimony">
+                                <p>
+                                    Westpac is creating a more productive and sustainable place to work, we are
+                                    introducing smarter printers and we are becoming greener. Ricoh is helping Westpac
+                                    achieve its carbon footprint targets by reducing power consumption and paper waste.
+                                    Together these initiatives are delivering a simpler, smarter, greener place to work.
+                                </p>
+                            </blockquote>
+                            <div class="__cite-bottom">
+                                <figcaption class="__author">
+                                    <cite class="__author-name">
+                                        Gary Sim
+                                    </cite>
+                                    <cite class="__author-title">
+                                        General Manager of Westpac’s Service Delivery Infrastructure Group
+                                    </cite>
+                                </figcaption>
+                                <img class="img-fluid __logo"
+                                    src="assets/images/customer-stories-01/customer-story-logo-westpac.png" alt="">
+                            </div>
+                        </figure>
+
+                        <!-- 2nd slide -->
+                        <figure class="swiper-slide">
+                            <blockquote class="__testimony">
+                                <p>
+                                    The Ricoh solution has given us the ability to allow our dealers to track warranty
+                                    claims throughout the entire process via the customer portal. The portal also gives
+                                    them the ability to track return packages via our transport partners.
+                                </p>
+                            </blockquote>
+                            <div class="__cite-bottom">
+                                <figcaption class="__author">
+                                    <cite class="__author-name">
+                                        Tim Clarke
+                                    </cite>
+                                    <cite class="__author-title">
+                                        IT Manager at Shimano Oceania Holdings
+                                    </cite>
+                                </figcaption>
+                                <img class="img-fluid __logo"
+                                    src="assets/images/customer-stories-01/customer-story-logo-shimano.png" alt="">
+                            </div>
+                        </figure>
+
+                        <!-- 3rd slide -->
+                        <figure class="swiper-slide">
+                            <blockquote class="__testimony">
+                                <p>
+                                    We found that the RICOH Interactive White Board enables us to concentrate on our
+                                    main role and encourage smooth and productive meetings.
+                                </p>
+                            </blockquote>
+                            <div class="__cite-bottom">
+                                <figcaption class="__author">
+                                    <cite class="__author-name">
+                                        Mr Fujino
+                                    </cite>
+                                    <cite class="__author-title">
+                                        IT Group, JX Holdings
+                                    </cite>
+                                </figcaption>
+                                <img class="img-fluid __logo"
+                                    src="assets/images/customer-stories-01/customer-story-logo-jx.png" alt="">
+                            </div>
+                        </figure>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+            var customerStoriesTestimonialSwiper = new Swiper(".customer-stories-01 .__testimonial-swiper", {
+                speed: 700,
+                freeMode: false,
+                loop: false,
+                navigation: {
+                    nextEl: ".customer-stories-01 .__swiper-button-next",
+                    prevEl: ".customer-stories-01 .__swiper-button-prev",
+                },
+            });
+        });
+    </script>
+</section>
