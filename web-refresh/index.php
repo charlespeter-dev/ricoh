@@ -5,9 +5,7 @@ $css = [
     'assets/css/optimized2.css',
     'assets/css/global.css',
     'assets/css/bs-wr.css',
-    'assets/css/campaign-banner-01.css',
-    'assets/css/customer-stories-01.css',
-    'assets/css/sections-space.css',
+    'assets/css/insights-blocks-01.css',
 ];
 
 ?><!DOCTYPE html>
@@ -27,8 +25,7 @@ $css = [
 <body>
 
     <main class="container">
-        <?php include 'components/campaign-banner-01.php'; ?>
-        <?php include 'components/customer-stories-01.php'; ?>
+        <?php include 'components/insights-blocks-01.php'; ?>
     </main>
 
     <script src="../assets/js/bs.js"></script>

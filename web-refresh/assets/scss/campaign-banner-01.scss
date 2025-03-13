@@ -17,6 +17,7 @@
         position: absolute;
         top: 0;
         left: calc(-50vw + 50%);
+        z-index: -1;
     }
 
     .__red {

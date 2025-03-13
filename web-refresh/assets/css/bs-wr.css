@@ -10950,4 +10950,10 @@ a > .bsc.wr code {
   }
 }
 
+/* override ricoh css */
+html:has(.bsc.wr),
+body:has(.bsc.wr) {
+  background-color: unset;
+}
+
 /*# sourceMappingURL=bs-wr.css.map */

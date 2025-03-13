@@ -1,0 +1,201 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+
+.bsc.wr.insights-blocks-01 {
+
+    position: relative;
+    background-color: transparent;
+    padding-block: 4rem;
+
+    &::before {
+        content: "";
+        background-color: var(--ricoh-section-background-color, #F3F3F3);
+        width: 100vw;
+        height: 100%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: calc(-50vw + 50%);
+        z-index: -1;
+    }
+
+    .__red {
+        color: #CF142B;
+    }
+
+    .__main-heading {
+
+        margin-block-end: 1.5rem;
+
+        h2 {
+            color: #333;
+            font-family: "frutiger", sans-serif;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 39px;
+            text-wrap: pretty;
+            margin: 0;
+        }
+    }
+
+    .__sub-heading {
+
+        margin-block-end: 1.5rem;
+
+        p {
+            color: #666;
+            font-family: "frutiger", sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 27px;
+            text-wrap: pretty;
+            margin: 0;
+        }
+    }
+
+    .__featured {
+
+        height: 100%;
+
+        .card {
+            border-radius: 12px;
+            background-color: #ffffff;
+            padding-block-start: .5rem;
+            padding-block-end: 0rem;
+            padding-inline: 0;
+            margin: 0;
+
+            @include media-breakpoint-up(lg) {
+                padding-block-start: 2rem;
+                padding-block-end: 1rem;
+                padding-inline: 1rem;
+            }
+
+            .card-header {
+                img {
+                    border-radius: 12px;
+                    height: 330px;
+                    object-fit: cover;
+                    width: 100%;
+                }
+            }
+
+            .card-body {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    .__related {
+
+        height: 100%;
+
+        >.row {
+            flex-direction: column;
+            justify-content: start;
+            height: 100%;
+            gap: 1.5rem;
+        }
+
+        .card {
+            flex-direction: column;
+            border-radius: 12px;
+            background-color: #ffffff;
+            margin: 0;
+
+            @include media-breakpoint-up(md) {
+                flex-direction: row;
+            }
+
+            .card-header {
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-block: 1rem;
+
+                img {
+                    border-radius: 12px;
+                    height: 330px;
+                    width: 100%;
+                    object-fit: cover;
+
+                    @include media-breakpoint-up(md) {
+                        height: 100%;
+                        width: 360px;
+                    }
+                }
+            }
+        }
+
+        .__cta-container {
+            display: flex;
+            gap: 1rem;
+
+            .__cta-default {
+                color: #CF142B;
+                font-family: "frutiger", sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 27px;
+            }
+        }
+    }
+
+    .__resource-category {
+        color: #CF142B;
+        font-family: "frutiger", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21px;
+        text-wrap: pretty;
+    }
+
+    .__title {
+        color: #666;
+        font-family: "frutiger", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        text-wrap: pretty;
+    }
+
+    .__excerpt {
+        color: #666;
+        font-family: "frutiger", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        text-wrap: pretty;
+    }
+
+    .__cta-container {
+        display: flex;
+        gap: 1rem;
+
+        .__cta-secondary {
+            color: #CF142B;
+            font-family: "frutiger", sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 27px;
+            text-decoration: none;
+
+            display: flex;
+            gap: .5rem;
+            align-items: center;
+        }
+    }
+}
