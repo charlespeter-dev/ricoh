@@ -3,7 +3,7 @@
         <div class="col">
             <div class="__main-heading">
                 <h2>
-                    Ideas that <strong>Drive Change.</strong><br class="d-none d-md-block">Solutions that
+                    Ideas that <strong>Drive Change. </strong><br class="d-none d-md-block">Solutions that
                     <strong>Transform Business.</strong>
                 </h2>
             </div>
