@@ -1,11 +1,21 @@
 <section class="bsc wr services-listings-01" style="--ricoh-main-menu-width: 400px;">
     <div class="row">
         <div class="col">
+            <div class="__main-heading">
+                <h2>
+                    Ideas that <strong>Drive Change.</strong><br class="d-none d-md-block">Solutions that
+                    <strong>Transform Business.</strong>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
             <nav>
-                <ul class="___main-menu">
+                <ul class="__main-menu">
 
                     <!-- 1st main menu -->
-                    <li>
+                    <li class="__hover-office-printing">
                         <a href="#">
                             <svg width="55" height="55" viewBox="0 0 55 55" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -34,43 +44,63 @@
                             <span>Office Printing</span>
                         </a>
                         <div class="__sub-menu-container">
-                            <ul class="__sub-menu">
-                                <li>
+                            <ul class="__sub-menu row row-cols-1 row-cols-lg-2">
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/workspace-management.png" alt="">
-                                        <div>
-                                            Workspace Management 1
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Workspace Management
+                                            </p>
+                                            <p class="__description">
+                                                Digitally enhanced spaces to enable hybrid work
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/connect-collaborate.png" alt="">
-                                        <div>
-                                            Connect & Collaborate 1
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Connect & Collaborate
+                                            </p>
+                                            <p class="__description">
+                                                Simple solutions for complex collaboration issues
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/ms-teams-rooms.png" alt="">
-                                        <div>
-                                            Microsoft Teams Rooms 1
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Microsoft Teams Rooms
+                                            </p>
+                                            <p class="__description">
+                                                Simple solutions for complex collaborations
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/creative-collaboration.png" alt="">
-                                        <div>
-                                            Creative Collaboration Hub 1
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Creative Collaboration Hub
+                                            </p>
+                                            <p class="__description">
+                                                An all-in-one collaborative meeting solution
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </li>
-                    <li>
+                    <li class="__hover-hybrid-workplace">
                         <a href="#">
                             <svg width="55" height="55" viewBox="0 0 55 55" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -90,43 +120,63 @@
                             <span>Hybrid Workplace</span>
                         </a>
                         <div class="__sub-menu-container">
-                            <ul class="__sub-menu">
-                                <li>
+                            <ul class="__sub-menu row row-cols-1 row-cols-lg-2">
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/workspace-management.png" alt="">
-                                        <div>
-                                            Workspace Management 2
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Workspace Management
+                                            </p>
+                                            <p class="__description">
+                                                Digitally enhanced spaces to enable hybrid work
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/connect-collaborate.png" alt="">
-                                        <div>
-                                            Connect & Collaborate 2
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Connect & Collaborate
+                                            </p>
+                                            <p class="__description">
+                                                Simple solutions for complex collaboration issues
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/ms-teams-rooms.png" alt="">
-                                        <div>
-                                            Microsoft Teams Rooms 2
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Microsoft Teams Rooms
+                                            </p>
+                                            <p class="__description">
+                                                Simple solutions for complex collaborations
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/creative-collaboration.png" alt="">
-                                        <div>
-                                            Creative Collaboration Hub 2
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Creative Collaboration Hub
+                                            </p>
+                                            <p class="__description">
+                                                An all-in-one collaborative meeting solution
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </li>
-                    <li>
+                    <li class="__hover-workflow-automation">
                         <a href="#">
                             <svg width="55" height="55" viewBox="0 0 55 55" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -195,43 +245,63 @@
                             <span>Workflow and Automation</span>
                         </a>
                         <div class="__sub-menu-container">
-                            <ul class="__sub-menu">
-                                <li>
+                            <ul class="__sub-menu row row-cols-1 row-cols-lg-2">
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/workspace-management.png" alt="">
-                                        <div>
-                                            Workspace Management 3
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Workspace Management
+                                            </p>
+                                            <p class="__description">
+                                                Digitally enhanced spaces to enable hybrid work
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/connect-collaborate.png" alt="">
-                                        <div>
-                                            Connect & Collaborate 3
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Connect & Collaborate
+                                            </p>
+                                            <p class="__description">
+                                                Simple solutions for complex collaboration issues
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/ms-teams-rooms.png" alt="">
-                                        <div>
-                                            Microsoft Teams Rooms 3
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Microsoft Teams Rooms
+                                            </p>
+                                            <p class="__description">
+                                                Simple solutions for complex collaborations
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/creative-collaboration.png" alt="">
-                                        <div>
-                                            Creative Collaboration Hub 3
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Creative Collaboration Hub
+                                            </p>
+                                            <p class="__description">
+                                                An all-in-one collaborative meeting solution
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </li>
-                    <li>
+                    <li class="__hover-cloud-it">
                         <a href="#">
                             <svg width="55" height="55" viewBox="0 0 55 55" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -257,43 +327,63 @@
                             <span>Cloud and IT</span>
                         </a>
                         <div class="__sub-menu-container">
-                            <ul class="__sub-menu">
-                                <li>
+                            <ul class="__sub-menu row row-cols-1 row-cols-lg-2">
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/workspace-management.png" alt="">
-                                        <div>
-                                            Workspace Management 4
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Workspace Management
+                                            </p>
+                                            <p class="__description">
+                                                Digitally enhanced spaces to enable hybrid work
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/connect-collaborate.png" alt="">
-                                        <div>
-                                            Connect & Collaborate 4
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Connect & Collaborate
+                                            </p>
+                                            <p class="__description">
+                                                Simple solutions for complex collaboration issues
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/ms-teams-rooms.png" alt="">
-                                        <div>
-                                            Microsoft Teams Rooms 4
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Microsoft Teams Rooms
+                                            </p>
+                                            <p class="__description">
+                                                Simple solutions for complex collaborations
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/creative-collaboration.png" alt="">
-                                        <div>
-                                            Creative Collaboration Hub 4
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Creative Collaboration Hub
+                                            </p>
+                                            <p class="__description">
+                                                An all-in-one collaborative meeting solution
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </li>
-                    <li>
+                    <li class="__hover-cybersecurity">
                         <a href="#">
                             <svg width="55" height="55" viewBox="0 0 55 55" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -322,43 +412,63 @@
                             <span>Cybersecurity</span>
                         </a>
                         <div class="__sub-menu-container">
-                            <ul class="__sub-menu">
-                                <li>
+                            <ul class="__sub-menu row row-cols-1 row-cols-lg-2">
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/workspace-management.png" alt="">
-                                        <div>
-                                            Workspace Management 5
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Workspace Management
+                                            </p>
+                                            <p class="__description">
+                                                Digitally enhanced spaces to enable hybrid work
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/connect-collaborate.png" alt="">
-                                        <div>
-                                            Connect & Collaborate 5
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Connect & Collaborate
+                                            </p>
+                                            <p class="__description">
+                                                Simple solutions for complex collaboration issues
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/ms-teams-rooms.png" alt="">
-                                        <div>
-                                            Microsoft Teams Rooms 5
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Microsoft Teams Rooms
+                                            </p>
+                                            <p class="__description">
+                                                Simple solutions for complex collaborations
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/creative-collaboration.png" alt="">
-                                        <div>
-                                            Creative Collaboration Hub 5
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Creative Collaboration Hub
+                                            </p>
+                                            <p class="__description">
+                                                An all-in-one collaborative meeting solution
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </li>
-                    <li>
+                    <li class="__hover-commercial-industrial-print">
                         <a href="#">
                             <svg width="55" height="55" viewBox="0 0 55 55" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -378,36 +488,56 @@
                             <span>Commercial and Industrial Print</span>
                         </a>
                         <div class="__sub-menu-container">
-                            <ul class="__sub-menu">
-                                <li>
+                            <ul class="__sub-menu row row-cols-1 row-cols-lg-2">
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/workspace-management.png" alt="">
-                                        <div>
-                                            Workspace Management 6
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Workspace Management
+                                            </p>
+                                            <p class="__description">
+                                                Digitally enhanced spaces to enable hybrid work
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/connect-collaborate.png" alt="">
-                                        <div>
-                                            Connect & Collaborate 6
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Connect & Collaborate
+                                            </p>
+                                            <p class="__description">
+                                                Simple solutions for complex collaboration issues
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/ms-teams-rooms.png" alt="">
-                                        <div>
-                                            Microsoft Teams Rooms 6
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Microsoft Teams Rooms
+                                            </p>
+                                            <p class="__description">
+                                                Simple solutions for complex collaborations
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/creative-collaboration.png" alt="">
-                                        <div>
-                                            Creative Collaboration Hub 6
+                                        <div class="__description-container">
+                                            <p class="__title">
+                                                Creative Collaboration Hub
+                                            </p>
+                                            <p class="__description">
+                                                An all-in-one collaborative meeting solution
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
@@ -418,4 +548,43 @@
             </nav>
         </div>
     </div>
+
+    <script>
+
+        // show submenu on hover
+
+        document.addEventListener('DOMContentLoaded', function () {
+
+            const mainMenuItems = document.querySelectorAll('.__main-menu > li');
+
+            mainMenuItems.forEach(item => {
+
+                item.addEventListener('mouseenter', function () {
+
+                    // hide all submenus first
+                    document.querySelectorAll('.__sub-menu-container').forEach(submenu => {
+                        submenu.classList.remove('active');
+                    });
+
+                    // remove active class from all main menu items
+                    mainMenuItems.forEach(menuItem => {
+                        menuItem.classList.remove('active');
+                    });
+
+                    // add active class to main menu item
+                    this.classList.add('active');
+
+                    // add active class to submenu container
+                    this.querySelector('.__sub-menu-container').classList.add('active');
+                });
+            });
+
+            // show first submenu by default
+
+            if (mainMenuItems.length > 0) {
+                mainMenuItems[0].classList.add('active');
+                mainMenuItems[0].querySelector('.__sub-menu-container').classList.add('active');
+            }
+        });
+    </script>
 </section>

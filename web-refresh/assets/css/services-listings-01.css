@@ -3,17 +3,32 @@
   background-color: transparent;
   padding-block: 4rem;
 }
-.bsc.wr.services-listings-01 .___main-menu {
+.bsc.wr.services-listings-01 .__main-heading {
+  margin-block-end: 2rem;
+}
+.bsc.wr.services-listings-01 .__main-heading h2 {
+  color: #333;
+  font-family: "frutiger", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px;
+}
+.bsc.wr.services-listings-01 .__main-heading strong {
+  color: #CF142B;
+  font-weight: 700;
+}
+.bsc.wr.services-listings-01 .__main-menu {
   position: relative;
   margin: 0;
   padding: 0;
 }
-.bsc.wr.services-listings-01 .___main-menu > li {
+.bsc.wr.services-listings-01 .__main-menu > li {
   display: flex;
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #B1B1B1;
   width: var(--ricoh-main-menu-width);
 }
-.bsc.wr.services-listings-01 .___main-menu > li > a {
+.bsc.wr.services-listings-01 .__main-menu > li > a {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -27,39 +42,108 @@
   text-decoration: none;
   padding-block: 0.5rem;
 }
-.bsc.wr.services-listings-01 .___main-menu > li .__sub-menu-container {
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-office-printing, .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-commercial-industrial-print {
+  --ricoh-brand-color: #CF142B;
+  --ricoh-brand-color-hover: #FEF5F5;
+  background-color: var(--ricoh-brand-color-hover);
+}
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-office-printing > a, .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-commercial-industrial-print > a {
+  color: var(--ricoh-brand-color);
+  border-right: var(--ricoh-brand-color) 3px solid;
+}
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-office-printing > a > svg > path:first-child, .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-commercial-industrial-print > a > svg > path:first-child {
+  fill: var(--ricoh-brand-color);
+}
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-hybrid-workplace {
+  --ricoh-brand-color: #606CBF;
+  --ricoh-brand-color-hover: #F5F6FA;
+  background-color: var(--ricoh-brand-color-hover);
+}
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-hybrid-workplace > a {
+  color: var(--ricoh-brand-color);
+  border-right: var(--ricoh-brand-color) 3px solid;
+}
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-hybrid-workplace > a > svg > path:first-child {
+  fill: var(--ricoh-brand-color);
+}
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-workflow-automation {
+  --ricoh-brand-color: #517D32;
+  --ricoh-brand-color-hover: #F0F5E7;
+  background-color: var(--ricoh-brand-color-hover);
+}
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-workflow-automation > a {
+  color: var(--ricoh-brand-color);
+  border-right: var(--ricoh-brand-color) 3px solid;
+}
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-workflow-automation > a > svg > path:first-child {
+  fill: var(--ricoh-brand-color);
+}
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-cloud-it {
+  --ricoh-brand-color: #0F7AC9;
+  --ricoh-brand-color-hover: #E8F6FF;
+  background-color: var(--ricoh-brand-color-hover);
+}
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-cloud-it > a {
+  color: var(--ricoh-brand-color);
+  border-right: var(--ricoh-brand-color) 3px solid;
+}
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-cloud-it > a > svg > path:first-child {
+  fill: var(--ricoh-brand-color);
+}
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-cybersecurity {
+  --ricoh-brand-color: #00328F;
+  --ricoh-brand-color-hover: #EFF5FA;
+  background-color: var(--ricoh-brand-color-hover);
+}
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-cybersecurity > a {
+  color: var(--ricoh-brand-color);
+  border-right: var(--ricoh-brand-color) 3px solid;
+}
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-cybersecurity > a > svg > path:first-child {
+  fill: var(--ricoh-brand-color);
+}
+.bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container {
   display: none;
 }
-.bsc.wr.services-listings-01 .___main-menu > li:hover .__sub-menu-container {
+.bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active {
   display: block;
   height: 100%;
-  width: 100%;
+  width: calc(100% - var(--ricoh-main-menu-width));
   position: absolute;
   top: 0;
   left: var(--ricoh-main-menu-width);
 }
-.bsc.wr.services-listings-01 .___main-menu > li:hover .__sub-menu-container .__sub-menu {
+.bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu {
   position: absolute;
   top: 0;
   left: 0;
-  display: flex;
-  flex-wrap: wrap;
 }
-.bsc.wr.services-listings-01 .___main-menu > li:hover .__sub-menu-container .__sub-menu > li {
-  width: 50%;
-}
-.bsc.wr.services-listings-01 .___main-menu > li:hover .__sub-menu-container .__sub-menu > li > a {
+.bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a {
   display: flex;
   align-items: center;
   gap: 1rem;
+  text-decoration: none;
+  padding-block: 0.5rem;
+}
+.bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__title {
   color: #000;
   font-family: "frutiger", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 27px;
-  text-decoration: none;
-  padding-block: 0.5rem;
+  text-wrap: pretty;
+  margin: 0;
+}
+.bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__description {
+  color: #333;
+  font-family: "frutiger", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-wrap: pretty;
+  margin: 0;
 }
 
 /*# sourceMappingURL=services-listings-01.css.map */
