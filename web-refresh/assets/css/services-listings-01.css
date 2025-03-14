@@ -25,14 +25,19 @@
 }
 .bsc.wr.services-listings-01 .__main-menu > li {
   display: flex;
+  flex-direction: column;
   border-right: 1px solid #B1B1B1;
-  width: var(--ricoh-main-menu-width);
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-01 .__main-menu > li {
+    width: var(--ricoh-main-menu-width);
+    flex-direction: row;
+  }
 }
 .bsc.wr.services-listings-01 .__main-menu > li > a {
   display: flex;
   align-items: center;
   gap: 1rem;
-  width: var(--ricoh-main-menu-width);
   color: #8D8C8C;
   font-family: "frutiger", sans-serif;
   font-size: 18px;
@@ -41,6 +46,11 @@
   line-height: 27px;
   text-decoration: none;
   padding-block: 0.5rem;
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-01 .__main-menu > li > a {
+    width: var(--ricoh-main-menu-width);
+  }
 }
 .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-office-printing, .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-commercial-industrial-print {
   --ricoh-brand-color: #CF142B;
@@ -108,15 +118,26 @@
 .bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active {
   display: block;
   height: 100%;
-  width: calc(100% - var(--ricoh-main-menu-width));
-  position: absolute;
-  top: 0;
-  left: var(--ricoh-main-menu-width);
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active {
+    height: 100%;
+    width: calc(100% - var(--ricoh-main-menu-width));
+    position: absolute;
+    top: 0;
+    left: var(--ricoh-main-menu-width);
+  }
 }
 .bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu {
-  position: absolute;
-  top: 0;
-  left: 0;
+  padding-inline-start: 0.5rem;
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-inline-start: 1rem;
+  }
 }
 .bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a {
   display: flex;
@@ -124,6 +145,17 @@
   gap: 1rem;
   text-decoration: none;
   padding-block: 0.5rem;
+  padding-inline-start: 1rem;
+  border-radius: 8px;
+}
+.bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a:hover {
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, var(--ricoh-brand-color-hover) 100%);
+}
+.bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a:hover .__description-container .__title {
+  color: var(--ricoh-brand-color);
+}
+.bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a:hover .__description-container .__title svg path {
+  stroke: var(--ricoh-brand-color);
 }
 .bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__title {
   color: #000;
@@ -134,6 +166,15 @@
   line-height: 27px;
   text-wrap: pretty;
   margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-inline-end: 0.9rem;
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__title {
+    padding-inline-end: 0;
+  }
 }
 .bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__description {
   color: #333;
