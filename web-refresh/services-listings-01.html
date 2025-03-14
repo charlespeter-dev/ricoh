@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ricoh - Web Refresh - services-listings-01</title>
 
-            <link rel="stylesheet" href="assets/css/optimized1.css?t=1741938028">
-            <link rel="stylesheet" href="assets/css/optimized2.css?t=1741938028">
-            <link rel="stylesheet" href="assets/css/global.css?t=1741938028">
-            <link rel="stylesheet" href="assets/css/bs-wr.css?t=1741938028">
-            <link rel="stylesheet" href="assets/css/services-listings-01.css?t=1741938028">
+            <link rel="stylesheet" href="assets/css/optimized1.css?t=1741938922">
+            <link rel="stylesheet" href="assets/css/optimized2.css?t=1741938922">
+            <link rel="stylesheet" href="assets/css/global.css?t=1741938922">
+            <link rel="stylesheet" href="assets/css/bs-wr.css?t=1741938922">
+            <link rel="stylesheet" href="assets/css/services-listings-01.css?t=1741938922">
     
 </head>
 
@@ -720,6 +720,12 @@
                 // disable click on anchor tag
                 item.querySelector('a:first-child').addEventListener('click', function (e) {
                     e.preventDefault();
+                    e.stopPropagation();
+                });
+
+                item.querySelector('a:first-child').addEventListener('touchstart', function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
                 });
             });
 
@@ -729,6 +735,7 @@
                 mainMenuItems[0].classList.add('active');
                 mainMenuItems[0].querySelector('.__sub-menu-container').classList.add('active');
             }
+
         });
     </script>
 </section>    </main>
