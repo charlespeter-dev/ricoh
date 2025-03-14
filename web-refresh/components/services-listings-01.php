@@ -697,6 +697,11 @@
                     // add active class to submenu container
                     this.querySelector('.__sub-menu-container').classList.add('active');
                 });
+
+                // disable click on anchor tag
+                item.querySelector('a:first-child').addEventListener('click', function (e) {
+                    e.preventDefault();
+                });
             });
 
             // show first submenu by default
