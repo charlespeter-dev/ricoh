@@ -703,11 +703,6 @@
                     e.preventDefault();
                     e.stopPropagation();
                 });
-
-                item.querySelector('a:first-child').addEventListener('touchstart', function (e) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                });
             });
 
             // show first submenu by default
