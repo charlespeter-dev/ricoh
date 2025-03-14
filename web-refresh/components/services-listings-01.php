@@ -701,6 +701,12 @@
                 // disable click on anchor tag
                 item.querySelector('a:first-child').addEventListener('click', function (e) {
                     e.preventDefault();
+                    e.stopPropagation();
+                });
+
+                item.querySelector('a:first-child').addEventListener('touchstart', function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
                 });
             });
 
@@ -710,6 +716,7 @@
                 mainMenuItems[0].classList.add('active');
                 mainMenuItems[0].querySelector('.__sub-menu-container').classList.add('active');
             }
+
         });
     </script>
 </section>
