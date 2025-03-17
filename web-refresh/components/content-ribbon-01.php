@@ -1,0 +1,58 @@
+<section class="bsc wr content-ribbon-01">
+
+    <div class="__content-ribbon">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+            <div class="col">
+                <a class="__content-ribbon-item" href="#" target="_blank">
+                    <div class="__icon">
+                        <img src="assets/images/content-ribbon-01/content-ribbon-icon-01.png" alt="">
+                    </div>
+                    <div class="__description-container">
+                        <p class="__title">
+                            Insights
+                        </p>
+                        <p class="__description">
+                            How to create a Hybrid Workplace That Works
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col d-none d-md-block">
+                <a class="__content-ribbon-item" href="#" target="_blank">
+                    <div class="__icon">
+                        <img src="assets/images/content-ribbon-01/content-ribbon-icon-02.png" alt="">
+                    </div>
+                    <div class="__description-container">
+                        <p class="__title">
+                            Case Study
+                        </p>
+                        <p class="__description">
+                            Creating a Destination Workplace for Hybrid Work
+                        </p>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="col d-none d-lg-block">
+                <a class="__content-ribbon-item" href="#" target="_blank">
+                    <div class="__icon">
+                        <img src="assets/images/content-ribbon-01/content-ribbon-icon-03.png" alt="">
+                    </div>
+                    <div class="__description-container">
+                        <p class="__title">
+                            Solution
+                        </p>
+                        <p class="__description">
+                            Enhanced Employee Experience
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+</section>

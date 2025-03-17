@@ -1,0 +1,80 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+
+.bsc.wr.content-ribbon-01 {
+
+    padding-block: 3rem;
+
+    .__content-ribbon {
+        position: relative;
+        border-radius: 12px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        padding: 1rem;
+
+        @include media-breakpoint-up(lg) {
+            top: var(--ricoh-ribbon-top);
+        }
+
+        & .col:nth-child(2) {
+
+            @include media-breakpoint-up(md) {
+                border-inline-start: 1px solid #B1B1B1;
+            }
+
+            @include media-breakpoint-up(lg) {
+                border-inline: 1px solid #B1B1B1;
+            }
+        }
+
+        .__content-ribbon-item {
+
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+
+            text-decoration: none;
+
+            .__icon {
+                width: 85px;
+                height: 85px;
+
+                img {
+                    width: 85px;
+                    height: 85px;
+                    object-fit: cover;
+                }
+            }
+
+            .__title {
+                color: #CF142B;
+                font-family: "frutiger", sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 21px;
+                margin: 0;
+                text-wrap: pretty;
+            }
+
+            .__description {
+                color: #B1B1B1;
+                font-family: "frutiger", sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px;
+                margin: 0;
+                text-wrap: pretty;
+            }
+        }
+    }
+}

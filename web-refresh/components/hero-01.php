@@ -55,7 +55,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
             <div class="col">
-                <div class="__content-ribbon-item">
+                <a class="__content-ribbon-item" href="#" target="_blank">
                     <div class="__icon">
                         <img src="assets/images/content-ribbon-01/content-ribbon-icon-01.png" alt="">
                     </div>
@@ -67,13 +67,13 @@
                             How to create a Hybrid Workplace That Works
                         </p>
                     </div>
-                </div>
+                </a>
             </div>
 
             <!-- hide this in mobile -->
 
             <div class="col d-none d-md-block">
-                <div class="__content-ribbon-item">
+                <a class="__content-ribbon-item" href="#" target="_blank">
                     <div class="__icon">
                         <img src="assets/images/content-ribbon-01/content-ribbon-icon-02.png" alt="">
                     </div>
@@ -85,14 +85,14 @@
                             Creating a Destination Workplace for Hybrid Work
                         </p>
                     </div>
-                </div>
+                </a>
 
             </div>
 
             <!-- hide this in tablet -->
 
             <div class="col d-none d-lg-block">
-                <div class="__content-ribbon-item">
+                <a class="__content-ribbon-item" href="#" target="_blank">
                     <div class="__icon">
                         <img src="assets/images/content-ribbon-01/content-ribbon-icon-03.png" alt="">
                     </div>
@@ -104,7 +104,7 @@
                             Enhanced Employee Experience
                         </p>
                     </div>
-                </div>
+                </a>
             </div>
 
         </div>
