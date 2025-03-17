@@ -50,6 +50,7 @@
         @include media-breakpoint-up(lg) {
             position: absolute;
             top: 0;
+            height: var(--ricoh-section-height-desktop);
         }
 
         .__stage {
@@ -102,9 +103,17 @@
             .__cta-containers {
 
                 display: flex;
-                align-items: center;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
                 gap: 1rem;
-                
+
+                @include media-breakpoint-up(lg) {
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: center;
+                }
+
                 .__cta-container {
 
                     display: flex;
@@ -147,5 +156,72 @@
         }
     }
 
+    .__content-ribbon {
+        position: relative;
+        border-radius: 12px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        padding: 1rem;
+
+        @include media-breakpoint-up(lg) {
+            top: var(--ricoh-ribbon-top);
+        }
+
+        & .col:nth-child(2) {
+
+            @include media-breakpoint-up(md) {
+                border-inline-start: 1px solid #B1B1B1;
+            }
+
+            @include media-breakpoint-up(lg) {
+                border-inline: 1px solid #B1B1B1;
+            }
+        }
+
+        .__content-ribbon-item {
+
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+
+            .__icon {
+                width: 85px;
+                height: 85px;
+
+                img {
+                    width: 85px;
+                    height: 85px;
+                    object-fit: cover;
+                }
+            }
+
+            .__title {
+                color: #CF142B;
+                font-family: "frutiger", sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 21px;
+                margin: 0;
+                text-wrap: pretty;
+            }
+
+            .__description {
+                color: #B1B1B1;
+                font-family: "frutiger", sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px;
+                margin: 0;
+                text-wrap: pretty;
+            }
+        }
+    }
 
 }

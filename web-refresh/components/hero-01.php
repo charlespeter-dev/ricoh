@@ -1,4 +1,5 @@
-<section class="bsc wr hero-01" style="--ricoh-section-height-desktop: 600px; --ricoh-section-height-mobile: 400px;">
+<section class="bsc wr hero-01"
+    style="--ricoh-section-height-desktop: 800px; --ricoh-section-height-mobile: 400px; --ricoh-ribbon-top: -58.5px;">
 
     <img src="assets/images/hero-01/desktop.jpeg" class="__full-width" alt="">
 
@@ -41,6 +42,67 @@
                                 </svg>
                             </a>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- content ribbon enabled / disable -->
+
+    <div class="__content-ribbon">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+            <div class="col">
+                <div class="__content-ribbon-item">
+                    <div class="__icon">
+                        <img src="assets/images/content-ribbon-01/content-ribbon-icon-01.png" alt="">
+                    </div>
+                    <div class="__description-container">
+                        <p class="__title">
+                            Insights
+                        </p>
+                        <p class="__description">
+                            How to create a Hybrid Workplace That Works
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- hide this in mobile -->
+
+            <div class="col d-none d-md-block">
+                <div class="__content-ribbon-item">
+                    <div class="__icon">
+                        <img src="assets/images/content-ribbon-01/content-ribbon-icon-02.png" alt="">
+                    </div>
+                    <div class="__description-container">
+                        <p class="__title">
+                            Case Study
+                        </p>
+                        <p class="__description">
+                            Creating a Destination Workplace for Hybrid Work
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- hide this in tablet -->
+
+            <div class="col d-none d-lg-block">
+                <div class="__content-ribbon-item">
+                    <div class="__icon">
+                        <img src="assets/images/content-ribbon-01/content-ribbon-icon-03.png" alt="">
+                    </div>
+                    <div class="__description-container">
+                        <p class="__title">
+                            Solution
+                        </p>
+                        <p class="__description">
+                            Enhanced Employee Experience
+                        </p>
                     </div>
                 </div>
             </div>
