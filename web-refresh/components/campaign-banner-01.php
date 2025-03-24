@@ -10,10 +10,10 @@
                     <img src="assets/images/campaign-banner-01/logo.svg" alt="">
                 </div>
                 <div class="__main-heading">
-                    <h2>
+                    <h1>
                         Smart and Secure Business <br class="d-none d-lg-block"> Processes <span class="__red">With
                             DocuWare</span>
-                    </h2>
+                    </h1>
                 </div>
                 <div class="__sub-heading">
                     <p>

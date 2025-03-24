@@ -46,6 +46,7 @@
   line-height: 27px;
   text-decoration: none;
   padding-block: 0.5rem;
+  padding-inline-start: 0.5rem;
 }
 @media (min-width: 992px) {
   .bsc.wr.services-listings-01 .__main-menu > li > a {
@@ -54,8 +55,13 @@
 }
 .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-office-printing, .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-commercial-industrial-print {
   --ricoh-brand-color: #CF142B;
-  --ricoh-brand-color-hover: #FEF5F5;
+  --ricoh-brand-color-hover: transparent;
   background-color: var(--ricoh-brand-color-hover);
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-office-printing, .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-commercial-industrial-print {
+    --ricoh-brand-color-hover: #FEF5F5;
+  }
 }
 .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-office-printing > a, .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-commercial-industrial-print > a {
   color: var(--ricoh-brand-color);
@@ -66,8 +72,13 @@
 }
 .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-hybrid-workplace {
   --ricoh-brand-color: #606CBF;
-  --ricoh-brand-color-hover: #F5F6FA;
+  --ricoh-brand-color-hover: transparent;
   background-color: var(--ricoh-brand-color-hover);
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-hybrid-workplace {
+    --ricoh-brand-color-hover: #F5F6FA;
+  }
 }
 .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-hybrid-workplace > a {
   color: var(--ricoh-brand-color);
@@ -78,8 +89,13 @@
 }
 .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-workflow-automation {
   --ricoh-brand-color: #517D32;
-  --ricoh-brand-color-hover: #F0F5E7;
+  --ricoh-brand-color-hover: transparent;
   background-color: var(--ricoh-brand-color-hover);
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-workflow-automation {
+    --ricoh-brand-color-hover: #F0F5E7;
+  }
 }
 .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-workflow-automation > a {
   color: var(--ricoh-brand-color);
@@ -90,8 +106,13 @@
 }
 .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-cloud-it {
   --ricoh-brand-color: #0F7AC9;
-  --ricoh-brand-color-hover: #E8F6FF;
+  --ricoh-brand-color-hover: transparent;
   background-color: var(--ricoh-brand-color-hover);
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-cloud-it {
+    --ricoh-brand-color-hover: #E8F6FF;
+  }
 }
 .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-cloud-it > a {
   color: var(--ricoh-brand-color);
@@ -102,8 +123,13 @@
 }
 .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-cybersecurity {
   --ricoh-brand-color: #00328F;
-  --ricoh-brand-color-hover: #EFF5FA;
+  --ricoh-brand-color-hover: transparent;
   background-color: var(--ricoh-brand-color-hover);
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-cybersecurity {
+    --ricoh-brand-color-hover: #EFF5FA;
+  }
 }
 .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-cybersecurity > a {
   color: var(--ricoh-brand-color);
@@ -118,6 +144,7 @@
 .bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active {
   display: block;
   height: 100%;
+  padding-block: 1rem;
 }
 @media (min-width: 992px) {
   .bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active {
@@ -126,6 +153,7 @@
     position: absolute;
     top: 0;
     left: var(--ricoh-main-menu-width);
+    padding-block: 0;
   }
 }
 .bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu {
@@ -141,21 +169,26 @@
 }
 .bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 1rem;
   text-decoration: none;
   padding-block: 0.5rem;
   padding-inline-start: 1rem;
   border-radius: 8px;
 }
-.bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a:hover {
-  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, var(--ricoh-brand-color-hover) 100%);
-}
 .bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a:hover .__description-container .__title {
   color: var(--ricoh-brand-color);
 }
 .bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a:hover .__description-container .__title svg path {
   stroke: var(--ricoh-brand-color);
+}
+.bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a > img {
+  display: none;
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a > img {
+    display: block;
+  }
 }
 .bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__title {
   color: #000;

@@ -28,7 +28,7 @@
 
     .__main-heading {
 
-        margin-block-end: 1.5rem;
+        margin-block-end: 1rem;
 
         h2 {
             color: #333;
@@ -58,6 +58,23 @@
         }
     }
 
+    .__grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+
+        @media (max-width: 1200px) {
+            grid-template-columns: 1fr;
+            height: auto;
+        }
+    }
+
+    .__right {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 1rem;
+    }
+
     .__featured {
 
         height: 100%;
@@ -69,12 +86,6 @@
             padding-block-end: 0rem;
             padding-inline: 0;
             margin: 0;
-
-            @include media-breakpoint-up(lg) {
-                padding-block-start: 2rem;
-                padding-block-end: 1rem;
-                padding-inline: 1rem;
-            }
 
             .card-header {
                 img {
@@ -95,15 +106,6 @@
 
     .__related {
 
-        height: 100%;
-
-        >.row {
-            flex-direction: column;
-            justify-content: start;
-            height: 100%;
-            gap: 1.5rem;
-        }
-
         .card {
             flex-direction: column;
             border-radius: 12px;
@@ -121,6 +123,10 @@
                 align-items: center;
                 padding-block: 1rem;
 
+                @include media-breakpoint-up(md) {
+                    padding-inline-end: 0;
+                }
+
                 img {
                     border-radius: 12px;
                     height: 330px;
@@ -129,23 +135,9 @@
 
                     @include media-breakpoint-up(md) {
                         height: 100%;
-                        width: 360px;
+                        width: 500px;
                     }
                 }
-            }
-        }
-
-        .__cta-container {
-            display: flex;
-            gap: 1rem;
-
-            .__cta-default {
-                color: #CF142B;
-                font-family: "frutiger", sans-serif;
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 27px;
             }
         }
     }
@@ -183,6 +175,15 @@
     .__cta-container {
         display: flex;
         gap: 1rem;
+
+        .__cta-default {
+            color: #CF142B;
+            font-family: "frutiger", sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 27px;
+        }
 
         .__cta-secondary {
             color: #CF142B;

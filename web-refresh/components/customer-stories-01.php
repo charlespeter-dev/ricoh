@@ -1,4 +1,4 @@
-<section class="bsc wr customer-stories-01" style="--ricoh-section-height-desktop: 400px;">
+<section class="bsc wr customer-stories-01" style="--ricoh-section-min-height-desktop: 300px;">
 
     <div class="row">
         <div class="col-lg-4">
@@ -153,9 +153,10 @@
     <script>
         window.addEventListener('DOMContentLoaded', function () {
             var customerStoriesTestimonialSwiper = new Swiper(".customer-stories-01 .__testimonial-swiper", {
-                speed: 700,
-                freeMode: false,
-                loop: false,
+                effect: "fade",
+                fadeEffect: {
+                    crossFade: true,
+                },
                 navigation: {
                     nextEl: ".customer-stories-01 .__swiper-button-next",
                     prevEl: ".customer-stories-01 .__swiper-button-prev",

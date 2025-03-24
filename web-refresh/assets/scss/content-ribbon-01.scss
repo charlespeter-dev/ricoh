@@ -13,12 +13,12 @@
         border-radius: 12px;
         background: #FFFFFF;
         box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
-
         height: 100%;
         display: flex;
         align-items: center;
-
-        padding: 1rem;
+        padding: 1.5rem;
+        margin-inline: auto;
+        max-width: var(--ricoh-ribbon-max-width);
 
         @include media-breakpoint-up(lg) {
             top: var(--ricoh-ribbon-top);
@@ -37,11 +37,26 @@
 
         .__content-ribbon-item {
 
+            --ricoh-brand-color-hover: #FEF5F5;
+
             display: flex;
             align-items: flex-start;
             gap: 1rem;
-
             text-decoration: none;
+
+            &:hover {
+
+                background-color: var(--ricoh-brand-color-hover);
+                border-radius: .45rem;
+
+                .__icon {
+
+                    img {
+                        scale: 1.05;
+                        transform-origin: center;
+                    }
+                }
+            }
 
             .__icon {
                 width: 85px;
@@ -51,6 +66,7 @@
                     width: 85px;
                     height: 85px;
                     object-fit: cover;
+                    transition: all 0.2s ease;
                 }
             }
 
@@ -66,7 +82,7 @@
             }
 
             .__description {
-                color: #B1B1B1;
+                color: #666;
                 font-family: "frutiger", sans-serif;
                 font-size: 16px;
                 font-style: normal;

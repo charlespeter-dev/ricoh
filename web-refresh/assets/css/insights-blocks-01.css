@@ -18,7 +18,7 @@
   color: #CF142B;
 }
 .bsc.wr.insights-blocks-01 .__main-heading {
-  margin-block-end: 1.5rem;
+  margin-block-end: 1rem;
 }
 .bsc.wr.insights-blocks-01 .__main-heading h2 {
   color: #333;
@@ -43,6 +43,22 @@
   text-wrap: pretty;
   margin: 0;
 }
+.bsc.wr.insights-blocks-01 .__grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+@media (max-width: 1200px) {
+  .bsc.wr.insights-blocks-01 .__grid-container {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+}
+.bsc.wr.insights-blocks-01 .__right {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+}
 .bsc.wr.insights-blocks-01 .__featured {
   height: 100%;
 }
@@ -54,13 +70,6 @@
   padding-inline: 0;
   margin: 0;
 }
-@media (min-width: 992px) {
-  .bsc.wr.insights-blocks-01 .__featured .card {
-    padding-block-start: 2rem;
-    padding-block-end: 1rem;
-    padding-inline: 1rem;
-  }
-}
 .bsc.wr.insights-blocks-01 .__featured .card .card-header img {
   border-radius: 12px;
   height: 330px;
@@ -71,15 +80,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-.bsc.wr.insights-blocks-01 .__related {
-  height: 100%;
-}
-.bsc.wr.insights-blocks-01 .__related > .row {
-  flex-direction: column;
-  justify-content: start;
-  height: 100%;
-  gap: 1.5rem;
 }
 .bsc.wr.insights-blocks-01 .__related .card {
   flex-direction: column;
@@ -98,6 +98,11 @@
   align-items: center;
   padding-block: 1rem;
 }
+@media (min-width: 768px) {
+  .bsc.wr.insights-blocks-01 .__related .card .card-header {
+    padding-inline-end: 0;
+  }
+}
 .bsc.wr.insights-blocks-01 .__related .card .card-header img {
   border-radius: 12px;
   height: 330px;
@@ -107,20 +112,8 @@
 @media (min-width: 768px) {
   .bsc.wr.insights-blocks-01 .__related .card .card-header img {
     height: 100%;
-    width: 360px;
+    width: 500px;
   }
-}
-.bsc.wr.insights-blocks-01 .__related .__cta-container {
-  display: flex;
-  gap: 1rem;
-}
-.bsc.wr.insights-blocks-01 .__related .__cta-container .__cta-default {
-  color: #CF142B;
-  font-family: "frutiger", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 27px;
 }
 .bsc.wr.insights-blocks-01 .__resource-category {
   color: #CF142B;
@@ -152,6 +145,14 @@
 .bsc.wr.insights-blocks-01 .__cta-container {
   display: flex;
   gap: 1rem;
+}
+.bsc.wr.insights-blocks-01 .__cta-container .__cta-default {
+  color: #CF142B;
+  font-family: "frutiger", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
 }
 .bsc.wr.insights-blocks-01 .__cta-container .__cta-secondary {
   color: #CF142B;

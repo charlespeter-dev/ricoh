@@ -1,7 +1,7 @@
 <section class="bsc wr hero-01"
-    style="--ricoh-section-height-desktop: 800px; --ricoh-section-height-mobile: 400px; --ricoh-ribbon-top: -58.5px;">
+    style="--ricoh-section-height-mobile: 400px; --ricoh-h1-color: #666; --ricoh-ribbon-top: -66.5px;">
 
-    <img src="assets/images/hero-01/desktop.jpeg" class="__full-width" alt="">
+    <img src="assets/images/hero-01/desktop.png" class="__full-width" alt="">
 
     <img src="assets/images/hero-01/mobile.png" class="__full-width-mobile" alt="">
 
@@ -70,8 +70,6 @@
                 </a>
             </div>
 
-            <!-- hide this in mobile -->
-
             <div class="col d-none d-md-block">
                 <a class="__content-ribbon-item" href="#" target="_blank">
                     <div class="__icon">
@@ -88,8 +86,6 @@
                 </a>
 
             </div>
-
-            <!-- hide this in tablet -->
 
             <div class="col d-none d-lg-block">
                 <a class="__content-ribbon-item" href="#" target="_blank">

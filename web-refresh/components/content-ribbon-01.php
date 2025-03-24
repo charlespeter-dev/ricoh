@@ -1,4 +1,4 @@
-<section class="bsc wr content-ribbon-01">
+<section class="bsc wr content-ribbon-01" style="--ricoh-ribbon-max-width: 1140px; --ricoh-ribbon-top: 0;">
 
     <div class="__content-ribbon">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">

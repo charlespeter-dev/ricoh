@@ -9,7 +9,9 @@
   height: 100%;
   display: flex;
   align-items: center;
-  padding: 1rem;
+  padding: 1.5rem;
+  margin-inline: auto;
+  max-width: var(--ricoh-ribbon-max-width);
 }
 @media (min-width: 992px) {
   .bsc.wr.content-ribbon-01 .__content-ribbon {
@@ -27,10 +29,19 @@
   }
 }
 .bsc.wr.content-ribbon-01 .__content-ribbon .__content-ribbon-item {
+  --ricoh-brand-color-hover: #FEF5F5;
   display: flex;
   align-items: flex-start;
   gap: 1rem;
   text-decoration: none;
+}
+.bsc.wr.content-ribbon-01 .__content-ribbon .__content-ribbon-item:hover {
+  background-color: var(--ricoh-brand-color-hover);
+  border-radius: 0.45rem;
+}
+.bsc.wr.content-ribbon-01 .__content-ribbon .__content-ribbon-item:hover .__icon img {
+  scale: 1.05;
+  transform-origin: center;
 }
 .bsc.wr.content-ribbon-01 .__content-ribbon .__content-ribbon-item .__icon {
   width: 85px;
@@ -40,6 +51,7 @@
   width: 85px;
   height: 85px;
   object-fit: cover;
+  transition: all 0.2s ease;
 }
 .bsc.wr.content-ribbon-01 .__content-ribbon .__content-ribbon-item .__title {
   color: #CF142B;
@@ -52,7 +64,7 @@
   text-wrap: pretty;
 }
 .bsc.wr.content-ribbon-01 .__content-ribbon .__content-ribbon-item .__description {
-  color: #B1B1B1;
+  color: #666;
   font-family: "frutiger", sans-serif;
   font-size: 16px;
   font-style: normal;

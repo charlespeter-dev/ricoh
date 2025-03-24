@@ -10,7 +10,7 @@
     .__full-width {
         position: relative;
         width: 100vw;
-        height: var(--ricoh-section-height-desktop, 400px);
+        height: calc(100vh + (var(--ricoh-ribbon-top) * 2));
         left: 50%;
         right: 50%;
         margin-left: -50vw;
@@ -50,15 +50,20 @@
         @include media-breakpoint-up(lg) {
             position: absolute;
             top: 0;
-            height: var(--ricoh-section-height-desktop);
+            height: calc(100vh + (var(--ricoh-ribbon-top) * 2));
         }
 
         .__stage {
             border-radius: 10px;
-            background: var(--Content-Base-Text-Invert, #FFF);
+            background: #FFF;
             padding: 3rem 1rem;
 
             @include media-breakpoint-up(lg) {
+                padding: 1.5rem;
+                margin-block-end: 3.5rem;
+            }
+
+            @include media-breakpoint-up(xxl) {
                 padding: 3rem;
             }
 
@@ -67,19 +72,19 @@
                 margin-block-end: 1.5rem;
 
                 h1 {
-                    color: var(--Red-Red-500, #CF142B);
+                    color: var(--ricoh-h1-color, #666);
                     font-family: "frutiger", sans-serif;
-                    font-size: 44px;
+                    font-size: clamp(30px, 2vw, 40px);
                     font-style: normal;
                     font-weight: 700;
-                    line-height: 48px;
+                    line-height: clamp(34px, 2vw, 44px);
                     text-wrap: pretty;
                 }
 
                 .__bar {
                     margin-block-start: 1.5rem;
                     height: 5px;
-                    background: var(--Red-Red-500, #CF142B);
+                    background: #CF142B;
                     width: 37%;
                 }
             }
@@ -91,10 +96,10 @@
                 p {
                     color: #666;
                     font-family: "frutiger", sans-serif;
-                    font-size: 18px;
+                    font-size: clamp(16px, 1vw, 18px);
                     font-style: normal;
                     font-weight: 400;
-                    line-height: 27px;
+                    line-height: 25px;
                     text-wrap: pretty;
                     margin: 0;
                 }
@@ -108,7 +113,7 @@
                 align-items: flex-start;
                 gap: 1rem;
 
-                @include media-breakpoint-up(lg) {
+                @include media-breakpoint-up(md) {
                     flex-direction: row;
                     justify-content: flex-start;
                     align-items: center;
@@ -123,20 +128,20 @@
                     .__cta-secondary {
                         color: #CF142B;
                         font-family: "frutiger", sans-serif;
-                        font-size: 18px;
+                        font-size: 16px;
                         font-style: normal;
                         font-weight: 700;
-                        line-height: 27px;
+                        line-height: 25px;
                         text-decoration: none;
                     }
 
                     .__cta-primary {
-                        color: #fff;
+                        color: #FFF;
                         font-family: "frutiger", sans-serif;
-                        font-size: 18px;
+                        font-size: 16px;
                         font-style: normal;
                         font-weight: 700;
-                        line-height: 27px;
+                        line-height: 25px;
 
                         display: flex;
                         width: fit-content;
@@ -161,15 +166,20 @@
         border-radius: 12px;
         background: #FFFFFF;
         box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
-
         height: 100%;
         display: flex;
         align-items: center;
-
-        padding: 1rem;
+        padding: 1.3rem;
+        margin-inline: auto;
+        max-width: 100%;
+        /* will fit to the parent container */
 
         @include media-breakpoint-up(lg) {
             top: var(--ricoh-ribbon-top);
+        }
+
+        @include media-breakpoint-up(xxl) {
+            padding: 1.5rem;
         }
 
         & .col:nth-child(2) {
@@ -185,11 +195,26 @@
 
         .__content-ribbon-item {
 
+            --ricoh-brand-color-hover: #FEF5F5;
+
             display: flex;
             align-items: flex-start;
             gap: 1rem;
-
             text-decoration: none;
+
+            &:hover {
+
+                background-color: var(--ricoh-brand-color-hover);
+                border-radius: .45rem;
+
+                .__icon {
+
+                    img {
+                        scale: 1.05;
+                        transform-origin: center;
+                    }
+                }
+            }
 
             .__icon {
                 width: 85px;
@@ -199,6 +224,7 @@
                     width: 85px;
                     height: 85px;
                     object-fit: cover;
+                    transition: all 0.2s ease;
                 }
             }
 
@@ -214,7 +240,7 @@
             }
 
             .__description {
-                color: #B1B1B1;
+                color: #666;
                 font-family: "frutiger", sans-serif;
                 font-size: 16px;
                 font-style: normal;
@@ -225,5 +251,4 @@
             }
         }
     }
-
 }

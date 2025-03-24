@@ -5,6 +5,7 @@ $css = [
     'assets/css/optimized2.css',
     'assets/css/global.css',
     'assets/css/bs-wr.css',
+    'assets/css/hero-01.css',
     'assets/css/content-ribbon-01.css',
 ];
 
@@ -25,7 +26,7 @@ $css = [
 <body>
 
     <main class="container">
-        <?php include 'components/content-ribbon-01.php'; ?>
+        <?php include 'components/hero-01.php'; ?>
     </main>
 
     <script src="../assets/js/bs.js"></script>

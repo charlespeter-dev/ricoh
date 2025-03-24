@@ -44,18 +44,13 @@
                             <span>Office Printing</span>
                         </a>
                         <div class="__sub-menu-container">
-                            <ul class="__sub-menu row row-cols-1 row-cols-lg-2 g-4">
+                            <ul class="__sub-menu row row-cols-1 row-cols-lg-2 g-2 g-lg-4">
                                 <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/workspace-management.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Workspace Management</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 Digitally enhanced spaces to enable hybrid work
@@ -69,11 +64,6 @@
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Connect & Collaborate</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 Simple solutions for complex collaboration issues
@@ -87,11 +77,6 @@
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Microsoft Teams Rooms</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 Simple solutions for complex collaborations
@@ -105,11 +90,6 @@
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Creative Collaboration Hub</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 An all-in-one collaborative meeting solution
@@ -140,18 +120,13 @@
                             <span>Hybrid Workplace</span>
                         </a>
                         <div class="__sub-menu-container">
-                            <ul class="__sub-menu row row-cols-1 row-cols-lg-2 g-4">
+                            <ul class="__sub-menu row row-cols-1 row-cols-lg-2 g-2 g-lg-4">
                                 <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/workspace-management.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Workspace Management</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 Digitally enhanced spaces to enable hybrid work
@@ -165,11 +140,6 @@
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Connect & Collaborate</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 Simple solutions for complex collaboration issues
@@ -183,11 +153,6 @@
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Microsoft Teams Rooms</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 Simple solutions for complex collaborations
@@ -201,11 +166,6 @@
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Creative Collaboration Hub</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 An all-in-one collaborative meeting solution
@@ -285,18 +245,13 @@
                             <span>Workflow and Automation</span>
                         </a>
                         <div class="__sub-menu-container">
-                            <ul class="__sub-menu row row-cols-1 row-cols-lg-2 g-4">
+                            <ul class="__sub-menu row row-cols-1 row-cols-lg-2 g-2 g-lg-4">
                                 <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/workspace-management.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Workspace Management</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 Digitally enhanced spaces to enable hybrid work
@@ -310,11 +265,6 @@
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Connect & Collaborate</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 Simple solutions for complex collaboration issues
@@ -328,11 +278,6 @@
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Microsoft Teams Rooms</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 Simple solutions for complex collaborations
@@ -346,11 +291,6 @@
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Creative Collaboration Hub</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 An all-in-one collaborative meeting solution
@@ -387,18 +327,13 @@
                             <span>Cloud and IT</span>
                         </a>
                         <div class="__sub-menu-container">
-                            <ul class="__sub-menu row row-cols-1 row-cols-lg-2 g-4">
+                            <ul class="__sub-menu row row-cols-1 row-cols-lg-2 g-2 g-lg-4">
                                 <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/workspace-management.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Workspace Management</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 Digitally enhanced spaces to enable hybrid work
@@ -412,11 +347,6 @@
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Connect & Collaborate</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 Simple solutions for complex collaboration issues
@@ -430,11 +360,6 @@
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Microsoft Teams Rooms</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 Simple solutions for complex collaborations
@@ -448,11 +373,6 @@
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Creative Collaboration Hub</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 An all-in-one collaborative meeting solution
@@ -492,18 +412,13 @@
                             <span>Cybersecurity</span>
                         </a>
                         <div class="__sub-menu-container">
-                            <ul class="__sub-menu row row-cols-1 row-cols-lg-2 g-4">
+                            <ul class="__sub-menu row row-cols-1 row-cols-lg-2 g-2 g-lg-4">
                                 <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/workspace-management.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Workspace Management</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 Digitally enhanced spaces to enable hybrid work
@@ -517,11 +432,6 @@
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Connect & Collaborate</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 Simple solutions for complex collaboration issues
@@ -535,11 +445,6 @@
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Microsoft Teams Rooms</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 Simple solutions for complex collaborations
@@ -553,11 +458,6 @@
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Creative Collaboration Hub</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 An all-in-one collaborative meeting solution
@@ -588,18 +488,13 @@
                             <span>Commercial and Industrial Print</span>
                         </a>
                         <div class="__sub-menu-container">
-                            <ul class="__sub-menu row row-cols-1 row-cols-lg-2 g-4">
+                            <ul class="__sub-menu row row-cols-1 row-cols-lg-2 g-2 g-lg-4">
                                 <li class="col">
                                     <a href="#">
                                         <img src="assets/images/services-listings-01/workspace-management.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Workspace Management</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 Digitally enhanced spaces to enable hybrid work
@@ -613,11 +508,6 @@
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Connect & Collaborate</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 Simple solutions for complex collaboration issues
@@ -631,11 +521,6 @@
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Microsoft Teams Rooms</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 Simple solutions for complex collaborations
@@ -649,11 +534,6 @@
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Creative Collaboration Hub</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="16"
-                                                    viewBox="0 0 6 11" fill="none">
-                                                    <path d="M1 1L5 5.5L1 10" stroke="#000000" stroke-width="3"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
                                             </p>
                                             <p class="__description">
                                                 An all-in-one collaborative meeting solution

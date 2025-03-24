@@ -91,7 +91,6 @@
     .__testimonial-swiper {
         overflow: hidden;
         width: 100%;
-        height: 100%;
         background-color: #F3F3F3;
 
         .swiper-slide {
@@ -99,6 +98,13 @@
             flex-direction: column;
             justify-content: space-between;
             background-color: #F3F3F3;
+            opacity: 1 !important;
+            transition: all 0.6s ease-in-out;
+            margin: 0;
+
+            &:not(.swiper-slide-active) {
+                opacity: 0 !important;
+            }
         }
     }
 
@@ -109,11 +115,10 @@
         margin-block-end: 0;
         margin-block-start: 50px;
         padding: 5rem 1rem 1rem;
-        height: 100%;
 
         @include media-breakpoint-up(lg) {
             padding: 5rem 3rem 3rem;
-            height: var(--ricoh-section-height-desktop, 400px);
+            min-height: var(--ricoh-section-min-height-desktop, 300px);
         }
 
         .__quote {
@@ -126,6 +131,7 @@
         }
 
         .__testimony {
+            margin: 0;
             p {
                 color: #333;
                 font-family: "frutiger", sans-serif;
@@ -133,6 +139,7 @@
                 font-style: normal;
                 font-weight: 700;
                 line-height: 28px;
+                margin: 0;
             }
         }
 

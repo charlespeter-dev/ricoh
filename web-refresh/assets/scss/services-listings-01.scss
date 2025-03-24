@@ -31,8 +31,6 @@
 
     .__main-menu {
 
-
-
         position: relative;
         margin: 0;
         padding: 0;
@@ -60,6 +58,7 @@
                 line-height: 27px;
                 text-decoration: none;
                 padding-block: .5rem;
+                padding-inline-start: .5rem;
 
                 @include media-breakpoint-up(lg) {
                     width: var(--ricoh-main-menu-width);
@@ -72,7 +71,11 @@
                 &.__hover-commercial-industrial-print {
 
                     --ricoh-brand-color: #CF142B;
-                    --ricoh-brand-color-hover: #FEF5F5;
+                    --ricoh-brand-color-hover: transparent;
+
+                    @include media-breakpoint-up(lg) {
+                        --ricoh-brand-color-hover: #FEF5F5;
+                    }
 
                     background-color: var(--ricoh-brand-color-hover);
 
@@ -91,7 +94,11 @@
                 &.__hover-hybrid-workplace {
 
                     --ricoh-brand-color: #606CBF;
-                    --ricoh-brand-color-hover: #F5F6FA;
+                    --ricoh-brand-color-hover: transparent;
+
+                    @include media-breakpoint-up(lg) {
+                        --ricoh-brand-color-hover: #F5F6FA;
+                    }
 
                     background-color: var(--ricoh-brand-color-hover);
 
@@ -110,7 +117,11 @@
                 &.__hover-workflow-automation {
 
                     --ricoh-brand-color: #517D32;
-                    --ricoh-brand-color-hover: #F0F5E7;
+                    --ricoh-brand-color-hover: transparent;
+
+                    @include media-breakpoint-up(lg) {
+                        --ricoh-brand-color-hover: #F0F5E7;
+                    }
 
                     background-color: var(--ricoh-brand-color-hover);
 
@@ -129,7 +140,11 @@
                 &.__hover-cloud-it {
 
                     --ricoh-brand-color: #0F7AC9;
-                    --ricoh-brand-color-hover: #E8F6FF;
+                    --ricoh-brand-color-hover: transparent;
+
+                    @include media-breakpoint-up(lg) {
+                        --ricoh-brand-color-hover: #E8F6FF;
+                    }
 
                     background-color: var(--ricoh-brand-color-hover);
 
@@ -148,7 +163,11 @@
                 &.__hover-cybersecurity {
 
                     --ricoh-brand-color: #00328F;
-                    --ricoh-brand-color-hover: #EFF5FA;
+                    --ricoh-brand-color-hover: transparent;
+
+                    @include media-breakpoint-up(lg) {
+                        --ricoh-brand-color-hover: #EFF5FA;
+                    }
 
                     background-color: var(--ricoh-brand-color-hover);
 
@@ -173,6 +192,7 @@
 
                     display: block;
                     height: 100%;
+                    padding-block: 1rem;
 
                     @include media-breakpoint-up(lg) {
                         height: 100%;
@@ -180,6 +200,7 @@
                         position: absolute;
                         top: 0;
                         left: var(--ricoh-main-menu-width);
+                        padding-block: 0;
                     }
 
                     .__sub-menu {
@@ -197,7 +218,7 @@
 
                             >a {
                                 display: flex;
-                                align-items: center;
+                                align-items: flex-start;
                                 gap: 1rem;
                                 text-decoration: none;
                                 padding-block: .5rem;
@@ -205,9 +226,10 @@
                                 border-radius: 8px;
 
                                 &:hover {
-                                    background: linear-gradient(270deg, rgba(255, 255, 255, 0.00) 0%, var(--ricoh-brand-color-hover) 100%);
+                                    // background: linear-gradient(270deg, rgba(255, 255, 255, 0.00) 0%, var(--ricoh-brand-color-hover) 100%);
 
                                     .__description-container {
+
                                         .__title {
                                             color: var(--ricoh-brand-color);
 
@@ -217,6 +239,14 @@
                                                 }
                                             }
                                         }
+                                    }
+                                }
+
+                                >img {
+                                    display: none;
+
+                                    @include media-breakpoint-up(lg) {
+                                        display: block;
                                     }
                                 }
 

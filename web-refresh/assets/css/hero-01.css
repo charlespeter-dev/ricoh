@@ -4,7 +4,7 @@
 .bsc.wr.hero-01 .__full-width {
   position: relative;
   width: 100vw;
-  height: var(--ricoh-section-height-desktop, 400px);
+  height: calc(100vh + var(--ricoh-ribbon-top) * 2);
   left: 50%;
   right: 50%;
   margin-left: -50vw;
@@ -45,15 +45,21 @@
   .bsc.wr.hero-01 .__hero-content {
     position: absolute;
     top: 0;
-    height: var(--ricoh-section-height-desktop);
+    height: calc(100vh + var(--ricoh-ribbon-top) * 2);
   }
 }
 .bsc.wr.hero-01 .__hero-content .__stage {
   border-radius: 10px;
-  background: var(--Content-Base-Text-Invert, #FFF);
+  background: #FFF;
   padding: 3rem 1rem;
 }
 @media (min-width: 992px) {
+  .bsc.wr.hero-01 .__hero-content .__stage {
+    padding: 1.5rem;
+    margin-block-end: 3.5rem;
+  }
+}
+@media (min-width: 1400px) {
   .bsc.wr.hero-01 .__hero-content .__stage {
     padding: 3rem;
   }
@@ -62,18 +68,18 @@
   margin-block-end: 1.5rem;
 }
 .bsc.wr.hero-01 .__hero-content .__stage .__main-heading h1 {
-  color: var(--Red-Red-500, #CF142B);
+  color: var(--ricoh-h1-color, #666);
   font-family: "frutiger", sans-serif;
-  font-size: 44px;
+  font-size: clamp(30px, 2vw, 40px);
   font-style: normal;
   font-weight: 700;
-  line-height: 48px;
+  line-height: clamp(34px, 2vw, 44px);
   text-wrap: pretty;
 }
 .bsc.wr.hero-01 .__hero-content .__stage .__main-heading .__bar {
   margin-block-start: 1.5rem;
   height: 5px;
-  background: var(--Red-Red-500, #CF142B);
+  background: #CF142B;
   width: 37%;
 }
 .bsc.wr.hero-01 .__hero-content .__stage .__sub-heading {
@@ -82,10 +88,10 @@
 .bsc.wr.hero-01 .__hero-content .__stage .__sub-heading p {
   color: #666;
   font-family: "frutiger", sans-serif;
-  font-size: 18px;
+  font-size: clamp(16px, 1vw, 18px);
   font-style: normal;
   font-weight: 400;
-  line-height: 27px;
+  line-height: 25px;
   text-wrap: pretty;
   margin: 0;
 }
@@ -96,7 +102,7 @@
   align-items: flex-start;
   gap: 1rem;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .bsc.wr.hero-01 .__hero-content .__stage .__cta-containers {
     flex-direction: row;
     justify-content: flex-start;
@@ -111,19 +117,19 @@
 .bsc.wr.hero-01 .__hero-content .__stage .__cta-containers .__cta-container .__cta-secondary {
   color: #CF142B;
   font-family: "frutiger", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 27px;
+  line-height: 25px;
   text-decoration: none;
 }
 .bsc.wr.hero-01 .__hero-content .__stage .__cta-containers .__cta-container .__cta-primary {
-  color: #fff;
+  color: #FFF;
   font-family: "frutiger", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 27px;
+  line-height: 25px;
   display: flex;
   width: fit-content;
   height: 47px;
@@ -144,11 +150,19 @@
   height: 100%;
   display: flex;
   align-items: center;
-  padding: 1rem;
+  padding: 1.3rem;
+  margin-inline: auto;
+  max-width: 100%;
+  /* will fit to the parent container */
 }
 @media (min-width: 992px) {
   .bsc.wr.hero-01 .__content-ribbon {
     top: var(--ricoh-ribbon-top);
+  }
+}
+@media (min-width: 1400px) {
+  .bsc.wr.hero-01 .__content-ribbon {
+    padding: 1.5rem;
   }
 }
 @media (min-width: 768px) {
@@ -162,10 +176,19 @@
   }
 }
 .bsc.wr.hero-01 .__content-ribbon .__content-ribbon-item {
+  --ricoh-brand-color-hover: #FEF5F5;
   display: flex;
   align-items: flex-start;
   gap: 1rem;
   text-decoration: none;
+}
+.bsc.wr.hero-01 .__content-ribbon .__content-ribbon-item:hover {
+  background-color: var(--ricoh-brand-color-hover);
+  border-radius: 0.45rem;
+}
+.bsc.wr.hero-01 .__content-ribbon .__content-ribbon-item:hover .__icon img {
+  scale: 1.05;
+  transform-origin: center;
 }
 .bsc.wr.hero-01 .__content-ribbon .__content-ribbon-item .__icon {
   width: 85px;
@@ -175,6 +198,7 @@
   width: 85px;
   height: 85px;
   object-fit: cover;
+  transition: all 0.2s ease;
 }
 .bsc.wr.hero-01 .__content-ribbon .__content-ribbon-item .__title {
   color: #CF142B;
@@ -187,7 +211,7 @@
   text-wrap: pretty;
 }
 .bsc.wr.hero-01 .__content-ribbon .__content-ribbon-item .__description {
-  color: #B1B1B1;
+  color: #666;
   font-family: "frutiger", sans-serif;
   font-size: 16px;
   font-style: normal;
