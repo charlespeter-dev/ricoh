@@ -1,0 +1,27 @@
+<svg width="10" height="19" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="10" height="19" fill="#F5F5F5"/>
+<g id="Homepage_Mockup_Desktop" clip-path="url(#clip0_3552_3733)">
+<rect width="1440" height="4996" transform="translate(-1158 -54)" fill="white"/>
+<g id="header-group-navigation-update">
+<g id="header_desktop_module">
+<g id="top-menu">
+<mask id="path-1-inside-1_3552_3733" fill="white">
+<path d="M-1158 -54H282V59H-1158V-54Z"/>
+</mask>
+<path d="M-1158 -54H282V59H-1158V-54Z" fill="white"/>
+<path d="M-1158 -51H282V-57H-1158V-51Z" fill="#CF142B" mask="url(#path-1-inside-1_3552_3733)"/>
+<g id="top-header">
+<g id="group-3">
+<path id="F" d="M6.4061 18.8855V11.2789H9.07664L9.63054 7.88368H6.4061V6.68268C6.4061 4.88825 7.03151 4.19843 8.65001 4.19843C9.15285 4.19843 9.55748 4.21258 9.79004 4.23999V1.16143C9.34848 1.02346 8.26974 0.885498 7.64434 0.885498C4.34604 0.885498 2.82574 2.63836 2.82574 6.42001V7.8828H0.790039V11.278H2.82574V18.8846H6.4061V18.8855Z" fill="#1877F2"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_3552_3733">
+<rect width="1440" height="4996" fill="white" transform="translate(-1158 -54)"/>
+</clipPath>
+</defs>
+</svg>

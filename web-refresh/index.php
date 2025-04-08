@@ -5,7 +5,7 @@ $css = [
     'assets/css/optimized2.css',
     'assets/css/global.css',
     'assets/css/bs-wr.css',
-    'assets/css/services-listings-01.css',
+    'assets/css/header-01.css',
 ];
 
 ?><!DOCTYPE html>
@@ -22,10 +22,10 @@ $css = [
 
 </head>
 
-<body>
+<body style="min-height: 1500px;">
 
-    <main class="container">
-        <?php include 'components/services-listings-01.php'; ?>
+    <main>
+        <?php include 'components/header-01.php'; ?>
     </main>
 
     <script src="../assets/js/bs.js"></script>
