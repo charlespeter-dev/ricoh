@@ -50,92 +50,235 @@
                         </a>
                         <nav>
                             <div class="subnav-level-1">
-                                <p class="section-title">
+                                <p class="section-title-start">
                                     Resources
                                 </p>
                                 <ul>
                                     <li>
                                         <a href="#">
                                             <span>Insights</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
-                                                <p class="section-title">
+                                                <p class="section-title-end">
                                                     <span>Insights</span>
                                                     <span>|</span>
                                                     <span>Ideas and Information to grow your business</span>
                                                 </p>
-                                                <p class="section-subtitle">
-                                                    Discover article, guides, ebooks and more from our library of
-                                                    resources
-                                                </p>
-                                                <ul>
-                                                    <li>
-                                                        <a href="#">
-                                                            <span>Read Insights</span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
+
+                                                <!-- featured enabled start -->
+                                                <div class="featured">
+                                                    <div class="row">
+                                                        <div class="col-lg-8">
+                                                            <p class="section-subtitle">
+                                                                Discover article, guides, ebooks and more from our
+                                                                library of resources
+                                                            </p>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <span>Read Insights</span>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="18" height="10" viewBox="0 0 18 10"
+                                                                            fill="none">
+                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                                stroke="#CF142B" stroke-width="1.5"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
+                                                                                y2="4.98877" stroke="#CF142B"
+                                                                                stroke-width="1.5"
+                                                                                stroke-linecap="round" />
+                                                                        </svg>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="featured-box">
+                                                                <p class="title">
+                                                                    Featured Insight
+                                                                </p>
+                                                                <p class="post-title">
+                                                                    Attract and Retain Talent with a Modern Workplace
+                                                                    Experience
+                                                                </p>
+                                                                <img class="img-fluid"
+                                                                    src="assets/images/header-01/featured-image.png"
+                                                                    alt="">
+                                                                <p>
+                                                                    <a href="#">
+                                                                        Read the article
+                                                                    </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- featured enabled end -->
+
                                             </div>
                                         </nav>
                                     </li>
                                     <li>
                                         <a href="#">
                                             <span>Customer Stories</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
-                                                <p class="section-title">
+                                                <p class="section-title-end">
                                                     <span>Customer Stories</span>
                                                     <span>|</span>
                                                     <span>Shared insights from Our Customers</span>
                                                 </p>
-                                                <p class="section-subtitle">
-                                                    Discover how businesses like yours have achieved success with our
-                                                    solutions and expertise.
-                                                </p>
-                                                <ul>
-                                                    <li>
-                                                        <a href="#">
-                                                            <span>Read Customer Stories</span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
+
+                                                <!-- featured enabled start -->
+                                                <div class="featured">
+                                                    <div class="row">
+                                                        <div class="col-lg-8">
+                                                            <p class="section-subtitle">
+                                                                Discover how businesses like yours have achieved success
+                                                                with our solutions and expertise.
+                                                            </p>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <span>Read Customer Stories</span>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="18" height="10" viewBox="0 0 18 10"
+                                                                            fill="none">
+                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                                stroke="#CF142B" stroke-width="1.5"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
+                                                                                y2="4.98877" stroke="#CF142B"
+                                                                                stroke-width="1.5"
+                                                                                stroke-linecap="round" />
+                                                                        </svg>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="featured-box">
+                                                                <p class="title">
+                                                                    Featured Insight
+                                                                </p>
+                                                                <p class="post-title">
+                                                                    Attract and Retain Talent with a Modern Workplace
+                                                                    Experience
+                                                                </p>
+                                                                <img class="img-fluid"
+                                                                    src="assets/images/header-01/featured-image.png"
+                                                                    alt="">
+                                                                <p>
+                                                                    <a href="#">
+                                                                        Read the article
+                                                                    </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- featured enabled end -->
+
                                             </div>
                                         </nav>
                                     </li>
                                     <li>
                                         <a href="#">
                                             <span>News</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
-                                                <p class="section-title">
+                                                <p class="section-title-end">
                                                     <span>News</span>
                                                     <span>|</span>
                                                     <span>Company News and Updates</span>
                                                 </p>
-                                                <p class="section-subtitle">
-                                                    Explore key updates, press releases, and news about our business and
-                                                    innovations.
-                                                </p>
-                                                <ul>
-                                                    <li>
-                                                        <a href="#">
-                                                            <span>Latest News</span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
+
+                                                <!-- featured enabled start -->
+                                                <div class="featured">
+                                                    <div class="row">
+                                                        <div class="col-lg-8">
+                                                            <p class="section-subtitle">
+                                                                Explore key updates, press releases, and news about our
+                                                                business and innovations.
+                                                            </p>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <span>Latest News</span>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="18" height="10" viewBox="0 0 18 10"
+                                                                            fill="none">
+                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                                stroke="#CF142B" stroke-width="1.5"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
+                                                                                y2="4.98877" stroke="#CF142B"
+                                                                                stroke-width="1.5"
+                                                                                stroke-linecap="round" />
+                                                                        </svg>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="featured-box">
+                                                                <p class="title">
+                                                                    Featured Insight
+                                                                </p>
+                                                                <p class="post-title">
+                                                                    Attract and Retain Talent with a Modern Workplace
+                                                                    Experience
+                                                                </p>
+                                                                <img class="img-fluid"
+                                                                    src="assets/images/header-01/featured-image.png"
+                                                                    alt="">
+                                                                <p>
+                                                                    <a href="#">
+                                                                        Read the article
+                                                                    </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- featured enabled end -->
+
                                             </div>
                                         </nav>
                                     </li>
                                     <li>
                                         <a href="#">
                                             <span>About Us</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
-                                                <p class="section-title">
+                                                <p class="section-title-end">
                                                     <span>About Ricoh</span>
                                                     <span>|</span>
                                                     <span>Our Business, Our Values, Our Commitment</span>
@@ -148,31 +291,85 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Ricoh Way</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="#">
                                                             <span>Corporate Overview</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="#">
                                                             <span>Environment and Sustainability</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="#">
                                                             <span>Awards</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="#">
                                                             <span>Global Executive Message</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="#">
                                                             <span>Regional Executive Message</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -189,26 +386,123 @@
                         </a>
                         <nav>
                             <div class="subnav-level-1">
-                                <p class="section-title">
+                                <p class="section-title-start">
                                     Service
                                 </p>
                                 <ul>
                                     <li>
                                         <a href="#">
                                             <span>Office Printing</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
-                                                <p class="section-title">
+                                                <p class="section-title-end">
                                                     <span>Office Printing</span>
                                                     <span>|</span>
                                                     <span>Smart Printing for Smarter Work</span>
+                                                </p>
+                                                <p class="section-subtitle">
+                                                    Equip your workspaces with innovative printing solutions that
+                                                    enhance productivity and reduce operational hassle.
                                                 </p>
                                                 <ul>
                                                     <li>
                                                         <a href="#">
                                                             <span>Office Printing</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
                                                         </a>
+                                                        <nav>
+                                                            <div class="subnav-level-3">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Managed Print Services</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Multifunction Printers</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Dynamic Workplace Intelligence</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Print Management</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <nav>
+                                                            <div class="subnav-level-3">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Cloud Print Solutions</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -217,27 +511,765 @@
                                     <li>
                                         <a href="#">
                                             <span>Hybrid Workplace</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
                                         </a>
+                                        <nav>
+                                            <div class="subnav-level-2">
+                                                <p class="section-title-end">
+                                                    <span>Hybrid Workplace</span>
+                                                    <span>|</span>
+                                                    <span>Smart Printing for Smarter Work</span>
+                                                </p>
+                                                <p class="section-subtitle">
+                                                    Unlock the potential of hybrid work with innovative technologies
+                                                    that bridge the gap between office and remote teams.
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Workspace Management</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <nav>
+                                                            <div class="subnav-level-3">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Space Booking</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Workspace Insights</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Connect and Collaboration</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <nav>
+                                                            <div class="subnav-level-3">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Collaboration Hubs</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Digital Signage</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Meeting Solutions</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <nav>
+                                                            <div class="subnav-level-3">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Space Booking</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Microsoft Teams Rooms</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </nav>
                                     </li>
                                     <li>
                                         <a href="#">
                                             <span>Workflow &amp; Automation</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
                                         </a>
+                                        <nav>
+                                            <div class="subnav-level-2">
+                                                <p class="section-title-end">
+                                                    <span>Workflow &amp; Automation</span>
+                                                    <span>|</span>
+                                                    <span>Streamline Your Processes with Intelligent Solutions</span>
+                                                </p>
+                                                <p class="section-subtitle">
+                                                    Simplify workflows with smart automation solutions that improve
+                                                    efficiency and productivity across your organisation.
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Process Automation</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <nav>
+                                                            <div class="subnav-level-3">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Digital Forms and Workflow</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Robotic Process Automation</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Connect and Collaboration</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <nav>
+                                                            <div class="subnav-level-3">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Collaboration Hubs</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Content and Collaboration</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <nav>
+                                                            <div class="subnav-level-3">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Intelligent Capture</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Content Service</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </nav>
                                     </li>
                                     <li>
                                         <a href="#">
                                             <span>Cloud &amp; IT Infrastructure</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
                                         </a>
+                                        <nav>
+                                            <div class="subnav-level-2">
+                                                <p class="section-title-end">
+                                                    <span>Cloud &amp; IT Infrastructure</span>
+                                                    <span>|</span>
+                                                    <span>Flexible Solutions for Modern Work</span>
+                                                </p>
+                                                <p class="section-subtitle">
+                                                    Transform your IT infrastructure with cloud solutions that enable
+                                                    your teams to perform anywhere, anytime with ease.
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Cloud Computing</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <nav>
+                                                            <div class="subnav-level-3">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Modern Workplace</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Backup and Data protection</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Connect and Collaboration</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <nav>
+                                                            <div class="subnav-level-3">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Microsoft Business Applications</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>e-Invoicing</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Meeting Solutions</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <nav>
+                                                            <div class="subnav-level-3">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Microsoft Teams Rooms</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </nav>
                                     </li>
                                     <li>
                                         <a href="#">
                                             <span>Cybersecurity</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
                                         </a>
+                                        <nav>
+                                            <div class="subnav-level-2">
+                                                <p class="section-title-end">
+                                                    <span>Cybersecurity</span>
+                                                    <span>|</span>
+                                                    <span>Proactive Protection for Your Business</span>
+                                                </p>
+                                                <p class="section-subtitle">
+                                                    Stay ahead of cyber risks with robust solutions that protect your
+                                                    operations and enable secure growth.
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Workspace Management</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <nav>
+                                                            <div class="subnav-level-3">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Digital Signage</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Space Booking</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Workspace Insights</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Connect and Collaboration</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <nav>
+                                                            <div class="subnav-level-3">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Collaboration Hubs</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Meeting Solutions</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <nav>
+                                                            <div class="subnav-level-3">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Microsoft Teams Rooms</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </nav>
                                     </li>
                                     <li>
                                         <a href="#">
                                             <span>Graphic Communications</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
                                         </a>
+                                        <nav>
+                                            <div class="subnav-level-2">
+                                                <p class="section-title-end">
+                                                    <span>Graphic Communications</span>
+                                                    <span>|</span>
+                                                    <span>Bringing Big Ideas to Life</span>
+                                                </p>
+                                                <p class="section-subtitle">
+                                                    Deliver outstanding results with cutting-edge commercial and
+                                                    industrial printing solutions tailored to your business
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Workspace Management</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <nav>
+                                                            <div class="subnav-level-3">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Digital Signage</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Space Booking</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Workspace Insights</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Connect and Collaboration</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <nav>
+                                                            <div class="subnav-level-3">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Collaboration Hubs</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Meeting Solutions</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                        <nav>
+                                                            <div class="subnav-level-3">
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            <span>Microsoft Teams Rooms</span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                width="5" height="8" viewBox="0 0 5 8"
+                                                                                fill="none">
+                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
+                                                                                    stroke-width="1.5"
+                                                                                    stroke-linecap="round"
+                                                                                    stroke-linejoin="round" />
+                                                                            </svg>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </nav>
                                     </li>
                                 </ul>
                             </div>
@@ -247,16 +1279,888 @@
                         <a href="#">
                             <span>Products &amp; Software</span>
                         </a>
+                        <nav>
+                            <div class="subnav-level-1">
+                                <p class="section-title-start">
+                                    Products &amp; Software
+                                </p>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <span>Office Printing</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </a>
+                                        <nav>
+                                            <div class="subnav-level-2">
+                                                <p class="section-title-end">
+                                                    <span>Office Printing</span>
+                                                    <span>|</span>
+                                                    <span>Find the right solution for your workspaces</span>
+                                                </p>
+
+                                                <!-- featured enable strat -->
+                                                <div class="featured">
+                                                    <div class="row">
+                                                        <div class="col-lg-8">
+                                                            <p class="section-subtitle">
+                                                                Vivamus semper dolor nibh, nec commodo ipsum tincidunt
+                                                                a.
+                                                            </p>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <span>Office Printing</span>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="18" height="10" viewBox="0 0 18 10"
+                                                                            fill="none">
+                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                                stroke="#CF142B" stroke-width="1.5"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
+                                                                                y2="4.98877" stroke="#CF142B"
+                                                                                stroke-width="1.5"
+                                                                                stroke-linecap="round" />
+                                                                        </svg>
+                                                                    </a>
+                                                                    <nav>
+                                                                        <div class="subnav-level-3">
+                                                                            <ul>
+                                                                                <li>
+                                                                                    <a href="#">
+                                                                                        <span>Multifunction Printer
+                                                                                            Colour</span>
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                            width="5" height="8"
+                                                                                            viewBox="0 0 5 8"
+                                                                                            fill="none">
+                                                                                            <path d="M1 7L4 4L1 1"
+                                                                                                stroke="#333333"
+                                                                                                stroke-width="1.5"
+                                                                                                stroke-linecap="round"
+                                                                                                stroke-linejoin="round" />
+                                                                                        </svg>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="#">
+                                                                                        <span>Wide Format
+                                                                                            Printers</span>
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                            width="5" height="8"
+                                                                                            viewBox="0 0 5 8"
+                                                                                            fill="none">
+                                                                                            <path d="M1 7L4 4L1 1"
+                                                                                                stroke="#333333"
+                                                                                                stroke-width="1.5"
+                                                                                                stroke-linecap="round"
+                                                                                                stroke-linejoin="round" />
+                                                                                        </svg>
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </nav>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="featured-box">
+                                                                <p class="title">
+                                                                    Featured Product
+                                                                </p>
+                                                                <p class="post-title">
+                                                                    Attract and Retain Talent with a Modern Workplace
+                                                                    Experience
+                                                                </p>
+                                                                <img class="img-fluid"
+                                                                    src="assets/images/header-01/featured-image.png"
+                                                                    alt="">
+                                                                <p>
+                                                                    <a href="#">
+                                                                        IMC 320F Compact MFP
+                                                                    </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- featured enable end -->
+
+                                            </div>
+                                        </nav>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Software Solutions</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </a>
+                                        <nav>
+                                            <div class="subnav-level-2">
+                                                <p class="section-title-end">
+                                                    <span>Software Solutions</span>
+                                                    <span>|</span>
+                                                    <span>Nunc hendrerit ante justo, quis tincidunt tellus
+                                                        lacinia.</span>
+                                                </p>
+
+                                                <!-- featured enable strat -->
+                                                <div class="featured">
+                                                    <div class="row">
+                                                        <div class="col-lg-8">
+                                                            <p class="section-subtitle">
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            </p>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <span>Software Solutions</span>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="18" height="10" viewBox="0 0 18 10"
+                                                                            fill="none">
+                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                                stroke="#CF142B" stroke-width="1.5"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
+                                                                                y2="4.98877" stroke="#CF142B"
+                                                                                stroke-width="1.5"
+                                                                                stroke-linecap="round" />
+                                                                        </svg>
+                                                                    </a>
+                                                                    <nav>
+                                                                        <div class="subnav-level-3">
+                                                                            <ul>
+                                                                                <li>
+                                                                                    <a href="#">
+                                                                                        <span>Link 1</span>
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                            width="5" height="8"
+                                                                                            viewBox="0 0 5 8"
+                                                                                            fill="none">
+                                                                                            <path d="M1 7L4 4L1 1"
+                                                                                                stroke="#333333"
+                                                                                                stroke-width="1.5"
+                                                                                                stroke-linecap="round"
+                                                                                                stroke-linejoin="round" />
+                                                                                        </svg>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="#">
+                                                                                        <span>Link 2</span>
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                            width="5" height="8"
+                                                                                            viewBox="0 0 5 8"
+                                                                                            fill="none">
+                                                                                            <path d="M1 7L4 4L1 1"
+                                                                                                stroke="#333333"
+                                                                                                stroke-width="1.5"
+                                                                                                stroke-linecap="round"
+                                                                                                stroke-linejoin="round" />
+                                                                                        </svg>
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </nav>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="featured-box">
+                                                                <p class="title">
+                                                                    Featured Product
+                                                                </p>
+                                                                <p class="post-title">
+                                                                    Attract and Retain Talent with a Modern Workplace
+                                                                    Experience
+                                                                </p>
+                                                                <img class="img-fluid"
+                                                                    src="assets/images/header-01/featured-image.png"
+                                                                    alt="">
+                                                                <p>
+                                                                    <a href="#">
+                                                                        IMC 320F Compact MFP
+                                                                    </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- featured enable end -->
+
+                                            </div>
+                                        </nav>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Graphic Communication</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </a>
+                                        <nav>
+                                            <div class="subnav-level-2">
+                                                <p class="section-title-end">
+                                                    <span>Graphic Communication</span>
+                                                    <span>|</span>
+                                                    <span>Donec finibus elit ut diam tincidunt lacinia. Nullam eu odio
+                                                        magna.</span>
+                                                </p>
+
+                                                <!-- featured enable strat -->
+                                                <div class="featured">
+                                                    <div class="row">
+                                                        <div class="col-lg-8">
+                                                            <p class="section-subtitle">
+                                                                Proin sodales est eu imperdiet tempus. Nam ut velit
+                                                                ligula.
+                                                            </p>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <span>Graphic Communication</span>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="18" height="10" viewBox="0 0 18 10"
+                                                                            fill="none">
+                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                                stroke="#CF142B" stroke-width="1.5"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
+                                                                                y2="4.98877" stroke="#CF142B"
+                                                                                stroke-width="1.5"
+                                                                                stroke-linecap="round" />
+                                                                        </svg>
+                                                                    </a>
+                                                                    <nav>
+                                                                        <div class="subnav-level-3">
+                                                                            <ul>
+                                                                                <li>
+                                                                                    <a href="#">
+                                                                                        <span>Link 1</span>
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                            width="5" height="8"
+                                                                                            viewBox="0 0 5 8"
+                                                                                            fill="none">
+                                                                                            <path d="M1 7L4 4L1 1"
+                                                                                                stroke="#333333"
+                                                                                                stroke-width="1.5"
+                                                                                                stroke-linecap="round"
+                                                                                                stroke-linejoin="round" />
+                                                                                        </svg>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="#">
+                                                                                        <span>Link 2</span>
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                            width="5" height="8"
+                                                                                            viewBox="0 0 5 8"
+                                                                                            fill="none">
+                                                                                            <path d="M1 7L4 4L1 1"
+                                                                                                stroke="#333333"
+                                                                                                stroke-width="1.5"
+                                                                                                stroke-linecap="round"
+                                                                                                stroke-linejoin="round" />
+                                                                                        </svg>
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </nav>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="featured-box">
+                                                                <p class="title">
+                                                                    Featured Product
+                                                                </p>
+                                                                <p class="post-title">
+                                                                    Attract and Retain Talent with a Modern Workplace
+                                                                    Experience
+                                                                </p>
+                                                                <img class="img-fluid"
+                                                                    src="assets/images/header-01/featured-image.png"
+                                                                    alt="">
+                                                                <p>
+                                                                    <a href="#">
+                                                                        IMC 320F Compact MFP
+                                                                    </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- featured enable end -->
+
+                                            </div>
+                                        </nav>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Workplace Solutions</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </a>
+                                        <nav>
+                                            <div class="subnav-level-2">
+                                                <p class="section-title-end">
+                                                    <span>Workplace Solutions</span>
+                                                    <span>|</span>
+                                                    <span>Etiam volutpat et turpis et feugiat.</span>
+                                                </p>
+
+                                                <!-- featured enable strat -->
+                                                <div class="featured">
+                                                    <div class="row">
+                                                        <div class="col-lg-8">
+                                                            <p class="section-subtitle">
+                                                                Donec sit amet feugiat augue, eu fringilla magna.
+                                                            </p>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <span>Workplace Solutions</span>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="18" height="10" viewBox="0 0 18 10"
+                                                                            fill="none">
+                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                                stroke="#CF142B" stroke-width="1.5"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
+                                                                                y2="4.98877" stroke="#CF142B"
+                                                                                stroke-width="1.5"
+                                                                                stroke-linecap="round" />
+                                                                        </svg>
+                                                                    </a>
+                                                                    <nav>
+                                                                        <div class="subnav-level-3">
+                                                                            <ul>
+                                                                                <li>
+                                                                                    <a href="#">
+                                                                                        <span>Link 1</span>
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                            width="5" height="8"
+                                                                                            viewBox="0 0 5 8"
+                                                                                            fill="none">
+                                                                                            <path d="M1 7L4 4L1 1"
+                                                                                                stroke="#333333"
+                                                                                                stroke-width="1.5"
+                                                                                                stroke-linecap="round"
+                                                                                                stroke-linejoin="round" />
+                                                                                        </svg>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="#">
+                                                                                        <span>Link 2</span>
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                            width="5" height="8"
+                                                                                            viewBox="0 0 5 8"
+                                                                                            fill="none">
+                                                                                            <path d="M1 7L4 4L1 1"
+                                                                                                stroke="#333333"
+                                                                                                stroke-width="1.5"
+                                                                                                stroke-linecap="round"
+                                                                                                stroke-linejoin="round" />
+                                                                                        </svg>
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </nav>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="featured-box">
+                                                                <p class="title">
+                                                                    Featured Product
+                                                                </p>
+                                                                <p class="post-title">
+                                                                    Attract and Retain Talent with a Modern Workplace
+                                                                    Experience
+                                                                </p>
+                                                                <img class="img-fluid"
+                                                                    src="assets/images/header-01/featured-image.png"
+                                                                    alt="">
+                                                                <p>
+                                                                    <a href="#">
+                                                                        IMC 320F Compact MFP
+                                                                    </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- featured enable end -->
+
+                                            </div>
+                                        </nav>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Device Configurator</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </a>
+                                        <nav>
+                                            <div class="subnav-level-2">
+                                                <p class="section-title-end">
+                                                    <span>Device Configurator</span>
+                                                    <span>|</span>
+                                                    <span>Phasellus ornare nibh nec massa blandit.</span>
+                                                </p>
+
+                                                <!-- featured enable strat -->
+                                                <div class="featured">
+                                                    <div class="row">
+                                                        <div class="col-lg-8">
+                                                            <p class="section-subtitle">
+                                                                Duis accumsan dui ac quam dapibus, a blandit ipsum
+                                                                dapibus.
+                                                            </p>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <span>Device Configurator</span>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="18" height="10" viewBox="0 0 18 10"
+                                                                            fill="none">
+                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                                stroke="#CF142B" stroke-width="1.5"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
+                                                                                y2="4.98877" stroke="#CF142B"
+                                                                                stroke-width="1.5"
+                                                                                stroke-linecap="round" />
+                                                                        </svg>
+                                                                    </a>
+                                                                    <nav>
+                                                                        <div class="subnav-level-3">
+                                                                            <ul>
+                                                                                <li>
+                                                                                    <a href="#">
+                                                                                        <span>Link 1</span>
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                            width="5" height="8"
+                                                                                            viewBox="0 0 5 8"
+                                                                                            fill="none">
+                                                                                            <path d="M1 7L4 4L1 1"
+                                                                                                stroke="#333333"
+                                                                                                stroke-width="1.5"
+                                                                                                stroke-linecap="round"
+                                                                                                stroke-linejoin="round" />
+                                                                                        </svg>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="#">
+                                                                                        <span>Link 2</span>
+                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                            width="5" height="8"
+                                                                                            viewBox="0 0 5 8"
+                                                                                            fill="none">
+                                                                                            <path d="M1 7L4 4L1 1"
+                                                                                                stroke="#333333"
+                                                                                                stroke-width="1.5"
+                                                                                                stroke-linecap="round"
+                                                                                                stroke-linejoin="round" />
+                                                                                        </svg>
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </nav>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="featured-box">
+                                                                <p class="title">
+                                                                    Featured Product
+                                                                </p>
+                                                                <p class="post-title">
+                                                                    Attract and Retain Talent with a Modern Workplace
+                                                                    Experience
+                                                                </p>
+                                                                <img class="img-fluid"
+                                                                    src="assets/images/header-01/featured-image.png"
+                                                                    alt="">
+                                                                <p>
+                                                                    <a href="#">
+                                                                        IMC 320F Compact MFP
+                                                                    </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- featured enable end -->
+
+                                            </div>
+                                        </nav>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
                     </li>
                     <li>
                         <a href="#">
                             <span>Support &amp; Downloads</span>
                         </a>
+                        <nav>
+                            <div class="subnav-level-1">
+                                <p class="section-title-start">
+                                    Support &amp; Downloads
+                                </p>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <span>Downloads</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </a>
+                                        <nav>
+                                            <div class="subnav-level-2">
+                                                <p class="section-title-end">
+                                                    <span>Downloads</span>
+                                                    <span>|</span>
+                                                    <span>Manuals, Drivers, and More</span>
+                                                </p>
+
+                                                <!-- featured enable strat -->
+                                                <div class="featured">
+                                                    <div class="row">
+                                                        <div class="col-lg-8">
+                                                            <p class="section-subtitle">
+                                                                Access drivers, manuals, and resources to keep your
+                                                                devices and workflows running smoothly.
+                                                            </p>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <span>Downloads</span>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="18" height="10" viewBox="0 0 18 10"
+                                                                            fill="none">
+                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                                stroke="#CF142B" stroke-width="1.5"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
+                                                                                y2="4.98877" stroke="#CF142B"
+                                                                                stroke-width="1.5"
+                                                                                stroke-linecap="round" />
+                                                                        </svg>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="featured-box">
+                                                                <p class="title">
+                                                                    Featured Service
+                                                                </p>
+                                                                <p class="post-title">
+                                                                    Attract and Retain Talent with a Modern Workplace
+                                                                    Experience
+                                                                </p>
+                                                                <img class="img-fluid"
+                                                                    src="assets/images/header-01/featured-image.png"
+                                                                    alt="">
+                                                                <p>
+                                                                    <a href="#">
+                                                                        IMC 320F Compact MFP
+                                                                    </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- featured enable end -->
+
+                                            </div>
+                                        </nav>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Guides and Self Help</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </a>
+                                        <nav>
+                                            <div class="subnav-level-2">
+                                                <p class="section-title-end">
+                                                    <span>Guides and Self Help</span>
+                                                    <span>|</span>
+                                                    <span>Step-by-Step Support</span>
+                                                </p>
+
+                                                <!-- featured enable strat -->
+                                                <div class="featured">
+                                                    <div class="row">
+                                                        <div class="col-lg-8">
+                                                            <p class="section-subtitle">
+                                                                Easy-to-follow guides, videos and self-help tools
+                                                                designed to keep things running smoothly.
+                                                            </p>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <span>How To Videos</span>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="18" height="10" viewBox="0 0 18 10"
+                                                                            fill="none">
+                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                                stroke="#CF142B" stroke-width="1.5"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
+                                                                                y2="4.98877" stroke="#CF142B"
+                                                                                stroke-width="1.5"
+                                                                                stroke-linecap="round" />
+                                                                        </svg>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <span>Knowledge Base</span>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="18" height="10" viewBox="0 0 18 10"
+                                                                            fill="none">
+                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                                stroke="#CF142B" stroke-width="1.5"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
+                                                                                y2="4.98877" stroke="#CF142B"
+                                                                                stroke-width="1.5"
+                                                                                stroke-linecap="round" />
+                                                                        </svg>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="featured-box">
+                                                                <p class="title">
+                                                                    Featured Service
+                                                                </p>
+                                                                <p class="post-title">
+                                                                    Attract and Retain Talent with a Modern Workplace
+                                                                    Experience
+                                                                </p>
+                                                                <img class="img-fluid"
+                                                                    src="assets/images/header-01/featured-image.png"
+                                                                    alt="">
+                                                                <p>
+                                                                    <a href="#">
+                                                                        IMC 320F Compact MFP
+                                                                    </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- featured enable end -->
+
+                                            </div>
+                                        </nav>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Security Alerts</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </a>
+                                        <nav>
+                                            <div class="subnav-level-2">
+                                                <p class="section-title-end">
+                                                    <span>Security Alerts</span>
+                                                    <span>|</span>
+                                                    <span>Your Source for Security Updates</span>
+                                                </p>
+
+                                                <!-- featured enable strat -->
+                                                <div class="featured">
+                                                    <div class="row">
+                                                        <div class="col-lg-8">
+                                                            <p class="section-subtitle">
+                                                                Find the latest updates on vulnerabilities and security
+                                                                risks to keep your systems protected.
+                                                            </p>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        <span>Security Alerts</span>
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="18" height="10" viewBox="0 0 18 10"
+                                                                            fill="none">
+                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                                stroke="#CF142B" stroke-width="1.5"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
+                                                                                y2="4.98877" stroke="#CF142B"
+                                                                                stroke-width="1.5"
+                                                                                stroke-linecap="round" />
+                                                                        </svg>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-lg-4">
+                                                            <div class="featured-box">
+                                                                <p class="title">
+                                                                    Featured Service
+                                                                </p>
+                                                                <p class="post-title">
+                                                                    Attract and Retain Talent with a Modern Workplace
+                                                                    Experience
+                                                                </p>
+                                                                <img class="img-fluid"
+                                                                    src="assets/images/header-01/featured-image.png"
+                                                                    alt="">
+                                                                <p>
+                                                                    <a href="#">
+                                                                        IMC 320F Compact MFP
+                                                                    </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- featured enable end -->
+
+                                            </div>
+                                        </nav>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
                     </li>
                     <li>
                         <a href="#">
                             <span>Contact</span>
                         </a>
+                        <nav>
+                            <div class="subnav-level-1">
+                                <p class="section-title-start">
+                                    Contact
+                                </p>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <span>Contact</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </a>
+                                        <nav>
+                                            <div class="subnav-level-2">
+                                                <p class="section-title-end">
+                                                    <span>Contact</span>
+                                                    <span>|</span>
+                                                    <span>Connect with Us</span>
+                                                </p>
+                                                <p class="section-subtitle">
+                                                    Reach out to our team for assistance, support, or answers to your
+                                                    questions.
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Contact</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </nav>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Where to Buy</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
+                                                viewBox="0 0 8 6" fill="none">
+                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </a>
+                                        <nav>
+                                            <div class="subnav-level-2">
+                                                <p class="section-title-end">
+                                                    <span>Where to Buy</span>
+                                                    <span>|</span>
+                                                    <span>Connect with Us</span>
+                                                </p>
+                                                <p class="section-subtitle">
+                                                    Reach out to our team for assistance, support, or answers to your
+                                                    questions.
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Where to Buy</span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
+                                                                height="10" viewBox="0 0 18 10" fill="none">
+                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
+                                                                    stroke="#CF142B" stroke-width="1.5"
+                                                                    stroke-linecap="round" />
+                                                            </svg>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </nav>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
                     </li>
                 </ul>
             </nav>
@@ -352,41 +2256,49 @@
         }
 
         function activateTopNav() {
+
             const topNavigations = document.querySelectorAll('.top-navigation > ul > li');
+
             topNavigations.forEach(function (topNavigation) {
                 topNavigation.addEventListener('mouseenter', function () {
-                    topNavigations.forEach(function (nav) {
-                        nav.classList.remove('active');
-                    });
-
                     topNavigation.classList.add('active');
+                    topNavigation.querySelector('a').classList.add('active');
 
-                    const subNavLevel1 = topNavigation.querySelector('nav > .subnav-level-1');
-                    if (subNavLevel1) {
-                        const subNavLevelItems = subNavLevel1.querySelectorAll('ul > li');
-                        subNavLevelItems.forEach(function (subNavLevelItem) {
-                            subNavLevelItem.addEventListener('mouseenter', function () {
-                                subNavLevelItems.forEach(function (item) {
+                    const subNavLevel1Items = topNavigation.querySelectorAll('nav > .subnav-level-1 > ul > li');
+                    if (subNavLevel1Items) {
+
+                        // clear all active subNavLevel1Items
+                        subNavLevel1Items.forEach(function (item) {
+                            item.classList.remove('active');
+                            const anchor = item.querySelector('a');
+                            anchor.classList.remove('active');
+                        });
+
+                        subNavLevel1Items.forEach(function (subNavLevel1Item, i) {
+                            subNavLevel1Item.addEventListener('mouseenter', function () {
+
+                                // clear all active subNavLevel1Items
+                                subNavLevel1Items.forEach(function (item) {
                                     item.classList.remove('active');
+                                    const anchor = item.querySelector('a');
+                                    anchor.classList.remove('active');
                                 });
-                                subNavLevelItem.classList.add('active');
-                            });
-                            subNavLevelItem.addEventListener('mouseleave', function () {
-                                subNavLevelItem.classList.remove('active');
+
+                                subNavLevel1Item.classList.add('active');
+                                const anchor = subNavLevel1Item.querySelector('a');
+                                anchor.classList.add('active');
                             });
                         });
-                    }
 
+                        // activate the first subnav level 1 item by default
+                        subNavLevel1Items[0].classList.add('active');
+                        subNavLevel1Items[0].querySelector('a').classList.add('active');
+                    }
                 });
+
                 topNavigation.addEventListener('mouseleave', function () {
                     topNavigation.classList.remove('active');
-                    const subNavLevel1 = topNavigation.querySelector('nav > .subnav-level-1');
-                    if (subNavLevel1) {
-                        const subNavLevelItems = subNavLevel1.querySelectorAll('ul > li');
-                        subNavLevelItems.forEach(function (subNavLevelItem) {
-                            subNavLevelItem.classList.remove('active');
-                        });
-                    }
+                    topNavigation.querySelector('a').classList.remove('active');
                 });
             });
         }
