@@ -2293,7 +2293,7 @@
                     topNavigation.querySelector('a').classList.add('active');
 
                     const subNavLevel1Items = topNavigation.querySelectorAll('nav > .subnav-level-1 > ul > li');
-                    if (subNavLevel1Items) {
+                    if (subNavLevel1Items.length > 0) {
 
                         // clear all active subNavLevel1Items
                         subNavLevel1Items.forEach(function (item) {
