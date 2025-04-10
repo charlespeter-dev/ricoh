@@ -186,7 +186,7 @@
   display: flex;
   align-items: center;
   order: 4;
-  padding-block: 1rem;
+  padding-block: 0;
 }
 .bsc.wr.header-01 .top-navigation-container::before {
   content: "";
@@ -202,6 +202,57 @@
   left: calc(-50vw + 50%);
   z-index: -1;
 }
+@media (max-width: 991.98px) {
+  .bsc.wr.header-01 .top-navigation-container .top-navigation {
+    height: 400px;
+    overflow-y: scroll;
+    margin-block-end: 3rem;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation :is(p, .featured-box) {
+    display: none;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation a {
+    text-decoration: none;
+    padding-block: 1rem;
+    color: #333;
+    font-family: "frutiger", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-inline-start: 0;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul li {
+    padding-block: 0.5rem;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul li.push-right {
+    padding-block-start: 0;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul li.push-right ul {
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul li.push-right ul > li.separator {
+    display: none;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul nav {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    transition-behavior: allow-discrete;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul nav.show {
+    max-height: 100%;
+    opacity: 1;
+  }
+}
 @media (min-width: 992px) {
   .bsc.wr.header-01 .top-navigation-container .top-navigation {
     margin-inline: auto;
@@ -211,6 +262,33 @@
     padding: 0;
     margin: 0;
     position: relative;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li {
+    display: flex;
+    align-items: center;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.push-right {
+    margin-inline-start: auto;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.push-right ul {
+    display: flex;
+    padding-inline-start: 0;
+    gap: 1rem;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.push-right ul > li a {
+    color: #333;
+    font-family: "frutiger", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.push-right ul > li.buy-online a {
+    color: #CF142B;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.push-right ul > li .separator {
+    color: #f3f3f3;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li > a {
     text-decoration: none;
@@ -423,6 +501,9 @@
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 .featured > .row > [class*=col-] > ul > li > nav > .subnav-level-3 > ul > li a:hover svg {
     transform: translateX(10px);
   }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 .featured > .row > [class*=col-] > ul > li > nav > .subnav-level-3 > ul > li a:hover svg path {
+    stroke: #CF142B;
+  }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 .featured > .row > [class*=col-] .featured-box {
     display: flex;
     flex-direction: column;
@@ -533,6 +614,9 @@
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 > ul > li > nav > .subnav-level-3 > ul > li a:hover svg {
     transform: translateX(10px);
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 > ul > li > nav > .subnav-level-3 > ul > li a:hover svg path {
+    stroke: #CF142B;
   }
 }
 .bsc.wr.header-01 .nav-fade {

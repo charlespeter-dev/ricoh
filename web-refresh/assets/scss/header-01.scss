@@ -212,7 +212,7 @@
         display: flex;
         align-items: center;
         order: 4;
-        padding-block: 1rem;
+        padding-block: 0;
 
         &::before {
             content: "";
@@ -231,6 +231,71 @@
 
         .top-navigation {
 
+            @include media-breakpoint-down(lg) {
+                height: 400px;
+                overflow-y: scroll;
+                margin-block-end: 3rem;
+
+                :is(p, .featured-box) {
+                    display: none;
+                }
+
+                a {
+                    text-decoration: none;
+                    padding-block: 1rem;
+
+                    color: #333;
+                    font-family: "frutiger", sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+
+
+                // first level nav menu
+                >ul {
+                    display: flex;
+                    flex-direction: column;
+                    gap: .5rem;
+                    padding-inline-start: 0;
+
+                    li {
+                        padding-block: .5rem;
+
+                        &.push-right {
+
+                            padding-block-start: 0;
+
+                            ul {
+                                display: flex;
+                                flex-direction: column;
+                                padding-inline-start: 0;
+
+                                >li {
+                                    &.separator {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    nav {
+                        max-height: 0;
+                        opacity: 0;
+                        overflow: hidden;
+                        transition: all 0.3s ease;
+                        transition-behavior: allow-discrete;
+
+                        &.show {
+                            max-height: 100%;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+
             @include media-breakpoint-up(lg) {
 
                 margin-inline: auto;
@@ -243,6 +308,43 @@
                     position: relative;
 
                     >li {
+                        display: flex;
+                        align-items: center;
+
+                        &.push-right {
+
+                            margin-inline-start: auto;
+
+                            ul {
+                                display: flex;
+                                padding-inline-start: 0;
+                                gap: 1rem;
+
+                                >li {
+
+                                    a {
+                                        color: #333;
+                                        font-family: "frutiger", sans-serif;
+                                        font-size: 14px;
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        line-height: normal;
+                                        text-decoration: none;
+                                    }
+
+                                    &.buy-online {
+
+                                        a {
+                                            color: #CF142B;
+                                        }
+                                    }
+
+                                    .separator {
+                                        color: #f3f3f3;
+                                    }
+                                }
+                            }
+                        }
 
                         >a {
                             text-decoration: none;
@@ -512,6 +614,10 @@
 
                                                                                                     svg {
                                                                                                         transform: translateX(10px);
+
+                                                                                                        path {
+                                                                                                            stroke: #CF142B;
+                                                                                                        }
                                                                                                     }
                                                                                                 }
                                                                                             }
@@ -658,6 +764,10 @@
 
                                                                                         svg {
                                                                                             transform: translateX(10px);
+
+                                                                                            path {
+                                                                                                stroke: #CF142B;
+                                                                                            }
                                                                                         }
                                                                                     }
                                                                                 }

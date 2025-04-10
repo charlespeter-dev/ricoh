@@ -2162,19 +2162,41 @@
                             </div>
                         </nav>
                     </li>
+
+                    <!-- push right -->
+
+                    <li class="push-right">
+                        <ul>
+                            <li class="buy-online">
+                                <a href="#">
+                                    <span>Buy Online</span>
+                                </a>
+                            </li>
+                            <li class="separator">
+                                |
+                            </li>
+                            <li class="portal-login">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="13" viewBox="0 0 11 13"
+                                        fill="none">
+                                        <path
+                                            d="M6.76144 7.8877H3.8109C2.18121 7.8877 0.860352 9.20856 0.860352 10.8382V11.33C0.860352 11.33 2.39709 11.8218 5.28617 11.8218C8.17524 11.8218 9.71199 11.33 9.71199 11.33V10.8382C9.71199 9.20856 8.39113 7.8877 6.76144 7.8877Z"
+                                            stroke="#333333" stroke-width="1.2" stroke-miterlimit="10"
+                                            stroke-linecap="square" />
+                                        <path
+                                            d="M2.82739 3.63701C2.82739 2.27927 3.92844 1.17822 5.28618 1.17822C6.64392 1.17822 7.74497 2.27927 7.74497 3.63701C7.74497 4.99475 6.64392 6.58755 5.28618 6.58755C3.92844 6.58755 2.82739 4.99475 2.82739 3.63701Z"
+                                            stroke="#333333" stroke-width="1.2" stroke-miterlimit="10"
+                                            stroke-linecap="square" />
+                                    </svg>
+                                    <span>Portal Login</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </div>
     </div>
-
-    <!-- ricoh javascript start / please remove in production -->
-
-    <script src="https://www.ricoh-ap.com/-/media/base-themes/core-libraries/scripts/optimized-min.js"></script>
-    <script src="https://www.ricoh-ap.com/-/media/base-themes/xa-api/scripts/optimized-min.js"></script>
-    <script src="https://www.ricoh-ap.com/-/media/base-themes/switch-core-libraries/scripts/optimized-min.js"></script>
-    <script src="https://www.ricoh-ap.com/-/media/project/ricoh/knowledge/ricohtheme/scripts/optimized-min.js"></script>
-
-    <!-- ricoh javascript end / please remove in production -->
 
     <script>
 
@@ -2182,15 +2204,17 @@
             modifyPlaceholder();
             showSectionOnMobile();
             activateTopNav();
+            mobileNav();
         });
 
-        window.addEventListener('resize', function () {
-            setTimeout(function () {
-                modifyPlaceholder();
-                showSectionOnMobile();
-                stickyNavigation();
-            }, 300); // Debounce resize event
-        });
+        // window.addEventListener('resize', function () {
+        //     setTimeout(function () {
+        //         modifyPlaceholder();
+        //         showSectionOnMobile();
+        //         stickyNavigation();
+        //         mobileNav();
+        //     }, 300); // Debounce resize event
+        // });
 
         window.addEventListener('scroll', function () {
             stickyNavigation();
@@ -2216,7 +2240,7 @@
         // function to modify placeholder
         function modifyPlaceholder() {
             const searchInput = document.querySelector('.header-01 .search-input');
-            const isMobile = document.body.classList.contains('is-mobile');
+            const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
             if (isMobile) {
                 searchInput.setAttribute('placeholder', 'Find with our integrated AI copilot...');
@@ -2228,7 +2252,7 @@
 
         // function to show section on mobile
         function showSectionOnMobile() {
-            const isMobile = document.body.classList.contains('is-mobile');
+            const isMobile = window.matchMedia("(max-width: 768px)").matches;
             if (!isMobile)
                 return;
 
@@ -2243,7 +2267,7 @@
 
         // function to update header sibling height
         function updateHeaderSiblingHeight() {
-            const isMobile = document.body.classList.contains('is-mobile');
+            const isMobile = window.matchMedia("(max-width: 768px)").matches;
             if (!isMobile)
                 return;
 
@@ -2256,6 +2280,10 @@
         }
 
         function activateTopNav() {
+
+            const isMobile = window.matchMedia("(max-width: 768px)").matches;
+            if (isMobile)
+                return;
 
             const topNavigations = document.querySelectorAll('.top-navigation > ul > li');
 
@@ -2300,6 +2328,69 @@
                     topNavigation.classList.remove('active');
                     topNavigation.querySelector('a').classList.remove('active');
                 });
+            });
+        }
+
+        function mobileNav() {
+            const isMobile = window.matchMedia("(max-width: 768px)").matches;
+            if (!isMobile)
+                return;
+
+            const topNavigations = document.querySelectorAll('.top-navigation > ul > li');
+
+            topNavigations.forEach(function (item) {
+                const link = item.querySelector('a');
+                const nav = item.querySelector('nav');
+
+                if (nav) {
+                    const submenu = nav.querySelector('ul li a');
+                    // Only add click handler if item has a submenu
+                    if (submenu) {
+                        // Add visual indicator (+) to links with submenus
+                        if (!link.classList.contains('has-submenu')) {
+                            link.classList.add('has-submenu');
+                        }
+
+                        link.addEventListener('click', function (e) {
+                            e.preventDefault(); // Prevent navigation
+
+                            // Toggle the submenu visibility
+                            if (nav.classList.contains('show')) {
+                                nav.classList.remove('show');
+                            } else {
+                                nav.classList.add('show');
+                            }
+                        });
+                    }
+                }
+            });
+
+            const subMenuLevel1Items = document.querySelectorAll('.subnav-level-1 > ul > li');
+            subMenuLevel1Items.forEach(function (item) {
+                const link = item.querySelector('a');
+                const nav = item.querySelector('nav');
+
+                if (nav) {
+                    const submenu = nav.querySelector('ul li a');
+                    // Only add click handler if item has a submenu
+                    if (submenu) {
+                        // Add visual indicator (+) to links with submenus
+                        if (!link.classList.contains('has-submenu')) {
+                            link.classList.add('has-submenu');
+                        }
+
+                        link.addEventListener('click', function (e) {
+                            e.preventDefault(); // Prevent navigation
+
+                            // Toggle the submenu visibility
+                            if (nav.classList.contains('show')) {
+                                nav.classList.remove('show');
+                            } else {
+                                nav.classList.add('show');
+                            }
+                        });
+                    }
+                }
             });
         }
     </script>
