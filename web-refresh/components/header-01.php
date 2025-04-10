@@ -2211,7 +2211,7 @@
         //     setTimeout(function () {
         //         modifyPlaceholder();
         //         showSectionOnMobile();
-        //         stickyNavigation();
+        //         activateTopNav();
         //         mobileNav();
         //     }, 300); // Debounce resize event
         // });

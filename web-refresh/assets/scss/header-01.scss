@@ -232,7 +232,7 @@
         .top-navigation {
 
             @include media-breakpoint-down(lg) {
-                height: 400px;
+                height: 200px;
                 overflow-y: scroll;
                 margin-block-end: 3rem;
 

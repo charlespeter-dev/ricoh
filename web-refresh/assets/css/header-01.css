@@ -204,7 +204,7 @@
 }
 @media (max-width: 991.98px) {
   .bsc.wr.header-01 .top-navigation-container .top-navigation {
-    height: 400px;
+    height: 200px;
     overflow-y: scroll;
     margin-block-end: 3rem;
   }
