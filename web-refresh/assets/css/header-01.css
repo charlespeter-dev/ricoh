@@ -66,10 +66,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   order: 2;
-  padding-block: 1.5rem 2.5rem;
-  border-block-end: 1px solid #F3F3F3;
+  padding-block-start: 1.5rem;
+  padding-block-end: 1rem;
 }
 @media (min-width: 992px) {
   .bsc.wr.header-01 .search-container {
@@ -118,7 +118,7 @@
 }
 .bsc.wr.header-01 .social-language-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   order: 3;
   padding-block: 1.5rem;
@@ -204,31 +204,44 @@
 }
 @media (max-width: 991.98px) {
   .bsc.wr.header-01 .top-navigation-container .top-navigation {
-    height: 200px;
+    height: 300px;
     overflow-y: scroll;
-    margin-block-end: 3rem;
+    margin-block-end: 0;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation :is(p, .featured-box) {
     display: none;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation a {
     text-decoration: none;
-    padding-block: 1rem;
     color: #333;
     font-family: "frutiger", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
     padding-inline-start: 0;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul li {
-    padding-block: 0.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul li::before {
+    content: "";
+    background-color: #f3f3f3;
+    width: 100vw;
+    height: 1px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul li.push-right {
     padding-block-start: 0;
@@ -240,6 +253,13 @@
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul li.push-right ul > li.separator {
     display: none;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul li.push-right ul > li a {
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul li > a {
+    padding-block: 1rem;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul nav {
     max-height: 0;

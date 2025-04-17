@@ -78,10 +78,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
         order: 2;
-        padding-block: 1.5rem 2.5rem;
-        border-block-end: 1px solid #F3F3F3;
+        padding-block-start: 1.5rem;
+        padding-block-end: 1rem;
 
         @include media-breakpoint-up(lg) {
             align-items: flex-end;
@@ -134,7 +134,7 @@
 
     .social-language-container {
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         order: 3;
         padding-block: 1.5rem;
@@ -232,9 +232,9 @@
         .top-navigation {
 
             @include media-breakpoint-down(lg) {
-                height: 200px;
+                height: 300px;
                 overflow-y: scroll;
-                margin-block-end: 3rem;
+                margin-block-end: 0;
 
                 :is(p, .featured-box) {
                     display: none;
@@ -242,7 +242,6 @@
 
                 a {
                     text-decoration: none;
-                    padding-block: 1rem;
 
                     color: #333;
                     font-family: "frutiger", sans-serif;
@@ -250,6 +249,10 @@
                     font-style: normal;
                     font-weight: 700;
                     line-height: normal;
+
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
                 }
 
 
@@ -257,11 +260,23 @@
                 >ul {
                     display: flex;
                     flex-direction: column;
-                    gap: .5rem;
                     padding-inline-start: 0;
 
                     li {
-                        padding-block: .5rem;
+                        position: relative;
+                        overflow: hidden;
+
+                        &::before {
+                            content: "";
+                            background-color: #f3f3f3;
+                            width: 100vw;
+                            height: 1px;
+                            display: block;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            z-index: -1;
+                        }
 
                         &.push-right {
 
@@ -276,8 +291,17 @@
                                     &.separator {
                                         display: none;
                                     }
+
+                                    a {
+                                        justify-content: flex-start;
+                                        gap: .5rem;
+                                    }
                                 }
                             }
+                        }
+
+                        >a {
+                            padding-block: 1rem;
                         }
                     }
 
