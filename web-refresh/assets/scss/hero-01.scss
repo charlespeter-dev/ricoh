@@ -26,13 +26,17 @@
     .__full-width-mobile {
         position: relative;
         width: 100vw;
-        height: var(--ricoh-section-height-mobile, 400px);
+        height: var(--ricoh-section-height-mobile, 300px);
         left: 50%;
         right: 50%;
         margin-left: -50vw;
         margin-right: -50vw;
         object-fit: cover;
         display: block;
+
+        @include media-breakpoint-up(md) {
+            height: calc(var(--ricoh-section-height-mobile, 300px) + 100px);
+        }
 
         @include media-breakpoint-up(lg) {
             display: none;
@@ -146,7 +150,7 @@
                         display: flex;
                         width: fit-content;
                         height: 47px;
-                        padding: 10px 25px;
+                        padding: 5px 10px;
                         justify-content: center;
                         align-items: center;
                         gap: 10px;
@@ -155,6 +159,10 @@
                         background: #CF142B;
 
                         text-decoration: none;
+
+                        @include media-breakpoint-up(xl) {
+                            padding: 10px 25px;
+                        }
                     }
                 }
             }
@@ -195,8 +203,6 @@
 
         .__content-ribbon-item {
 
-            --ricoh-brand-color-hover: #FEF5F5;
-
             display: flex;
             align-items: flex-start;
             gap: 1rem;
@@ -204,15 +210,16 @@
 
             &:hover {
 
-                background-color: var(--ricoh-brand-color-hover);
-                border-radius: .45rem;
-
                 .__icon {
 
                     img {
                         scale: 1.05;
                         transform-origin: center;
                     }
+                }
+
+                .__description {
+                    color: #CF142B;
                 }
             }
 

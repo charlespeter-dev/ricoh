@@ -85,6 +85,14 @@
                     }
                 }
             }
+
+            svg {
+                &:hover {
+                    path {
+                        fill: #CF142B;
+                    }
+                }
+            }
         }
     }
 
@@ -97,6 +105,7 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            row-gap: 2rem;
             background-color: #F3F3F3;
             opacity: 1 !important;
             transition: all 0.6s ease-in-out;
@@ -132,6 +141,7 @@
 
         .__testimony {
             margin: 0;
+
             p {
                 color: #333;
                 font-family: "frutiger", sans-serif;

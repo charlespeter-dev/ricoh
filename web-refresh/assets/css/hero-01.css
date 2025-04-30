@@ -20,13 +20,18 @@
 .bsc.wr.hero-01 .__full-width-mobile {
   position: relative;
   width: 100vw;
-  height: var(--ricoh-section-height-mobile, 400px);
+  height: var(--ricoh-section-height-mobile, 300px);
   left: 50%;
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
   object-fit: cover;
   display: block;
+}
+@media (min-width: 768px) {
+  .bsc.wr.hero-01 .__full-width-mobile {
+    height: calc(var(--ricoh-section-height-mobile, 300px) + 100px);
+  }
 }
 @media (min-width: 992px) {
   .bsc.wr.hero-01 .__full-width-mobile {
@@ -133,7 +138,7 @@
   display: flex;
   width: fit-content;
   height: 47px;
-  padding: 10px 25px;
+  padding: 5px 10px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -141,6 +146,11 @@
   border-radius: 7px;
   background: #CF142B;
   text-decoration: none;
+}
+@media (min-width: 1200px) {
+  .bsc.wr.hero-01 .__hero-content .__stage .__cta-containers .__cta-container .__cta-primary {
+    padding: 10px 25px;
+  }
 }
 .bsc.wr.hero-01 .__content-ribbon {
   position: relative;
@@ -176,19 +186,17 @@
   }
 }
 .bsc.wr.hero-01 .__content-ribbon .__content-ribbon-item {
-  --ricoh-brand-color-hover: #FEF5F5;
   display: flex;
   align-items: flex-start;
   gap: 1rem;
   text-decoration: none;
 }
-.bsc.wr.hero-01 .__content-ribbon .__content-ribbon-item:hover {
-  background-color: var(--ricoh-brand-color-hover);
-  border-radius: 0.45rem;
-}
 .bsc.wr.hero-01 .__content-ribbon .__content-ribbon-item:hover .__icon img {
   scale: 1.05;
   transform-origin: center;
+}
+.bsc.wr.hero-01 .__content-ribbon .__content-ribbon-item:hover .__description {
+  color: #CF142B;
 }
 .bsc.wr.hero-01 .__content-ribbon .__content-ribbon-item .__icon {
   width: 85px;

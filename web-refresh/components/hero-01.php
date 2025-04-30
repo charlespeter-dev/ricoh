@@ -1,5 +1,5 @@
 <section class="bsc wr hero-01"
-    style="--ricoh-section-height-mobile: 400px; --ricoh-h1-color: #666; --ricoh-ribbon-top: -66.5px;">
+    style="--ricoh-section-height-mobile: 300px; --ricoh-h1-color: #666; --ricoh-ribbon-top: -66.5px;">
 
     <img src="assets/images/hero-01/desktop.png" class="__full-width" alt="">
 

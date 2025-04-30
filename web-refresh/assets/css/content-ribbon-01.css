@@ -29,19 +29,17 @@
   }
 }
 .bsc.wr.content-ribbon-01 .__content-ribbon .__content-ribbon-item {
-  --ricoh-brand-color-hover: #FEF5F5;
   display: flex;
   align-items: flex-start;
   gap: 1rem;
   text-decoration: none;
 }
-.bsc.wr.content-ribbon-01 .__content-ribbon .__content-ribbon-item:hover {
-  background-color: var(--ricoh-brand-color-hover);
-  border-radius: 0.45rem;
-}
 .bsc.wr.content-ribbon-01 .__content-ribbon .__content-ribbon-item:hover .__icon img {
   scale: 1.05;
   transform-origin: center;
+}
+.bsc.wr.content-ribbon-01 .__content-ribbon .__content-ribbon-item:hover .__description {
+  color: #CF142B;
 }
 .bsc.wr.content-ribbon-01 .__content-ribbon .__content-ribbon-item .__icon {
   width: 85px;
