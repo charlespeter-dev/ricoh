@@ -231,6 +231,10 @@
 
         .top-navigation {
 
+            .wr-icon-arrow-down {
+                font-size: 8px;
+            }
+
             @include media-breakpoint-down(lg) {
                 height: 300px;
                 overflow-y: scroll;
@@ -474,20 +478,19 @@
                                                 align-items: center;
                                                 padding-inline-end: 1rem;
 
-                                                svg {
+                                                [class*="wr-icon"] {
                                                     transition: all 0.3s;
                                                 }
 
                                                 &.active {
                                                     color: #CF142B;
 
-                                                    svg {
+                                                    [class*="wr-icon"] {
                                                         transform: rotate(-90deg);
                                                         font-weight: 700;
 
-                                                        >path {
-                                                            stroke: #CF142B;
-                                                            stroke-width: 2;
+                                                        &::before {
+                                                            color: #CF142B;
                                                         }
                                                     }
                                                 }
@@ -587,14 +590,15 @@
                                                                                 gap: .5rem;
                                                                                 align-items: center;
 
-                                                                                svg {
+                                                                                [class*="wr-icon-"] {
                                                                                     transition: all 0.3s;
+                                                                                    font-size: 1em;
                                                                                 }
 
                                                                                 &:hover {
                                                                                     color: #CF142B;
 
-                                                                                    svg {
+                                                                                    [class*="wr-icon-"] {
                                                                                         transform: translateX(10px);
                                                                                     }
                                                                                 }
@@ -629,18 +633,20 @@
                                                                                                 gap: .5rem;
                                                                                                 align-items: center;
 
-                                                                                                svg {
+                                                                                                [class*="wr-icon-"] {
                                                                                                     transition: all 0.3s;
+                                                                                                    font-size: .5em;
                                                                                                 }
 
                                                                                                 &:hover {
+
                                                                                                     color: #CF142B;
 
-                                                                                                    svg {
+                                                                                                    [class*="wr-icon-"] {
                                                                                                         transform: translateX(10px);
 
-                                                                                                        path {
-                                                                                                            stroke: #CF142B;
+                                                                                                        &::before {
+                                                                                                            color: #CF142B;
                                                                                                         }
                                                                                                     }
                                                                                                 }
@@ -737,14 +743,15 @@
                                                                     gap: .5rem;
                                                                     align-items: center;
 
-                                                                    svg {
+                                                                    [class*="wr-icon-"] {
                                                                         transition: all 0.3s;
+                                                                        font-size: 1em;
                                                                     }
 
                                                                     &:hover {
                                                                         color: #CF142B;
 
-                                                                        svg {
+                                                                        [class*="wr-icon-"] {
                                                                             transform: translateX(10px);
                                                                         }
                                                                     }
@@ -779,18 +786,19 @@
                                                                                     gap: .5rem;
                                                                                     align-items: center;
 
-                                                                                    svg {
+                                                                                    [class*="wr-icon-"] {
                                                                                         transition: all 0.3s;
+                                                                                        font-size: .5em;
                                                                                     }
 
                                                                                     &:hover {
                                                                                         color: #CF142B;
 
-                                                                                        svg {
+                                                                                        [class*="wr-icon-"] {
                                                                                             transform: translateX(10px);
 
-                                                                                            path {
-                                                                                                stroke: #CF142B;
+                                                                                            &::before {
+                                                                                                color: #CF142B;
                                                                                             }
                                                                                         }
                                                                                     }

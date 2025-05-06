@@ -23,6 +23,9 @@
   margin: 0;
   padding: 0;
 }
+.bsc.wr.services-listings-01 .__main-menu [class^=wr-icon-] {
+  font-size: 55px;
+}
 .bsc.wr.services-listings-01 .__main-menu > li {
   display: flex;
   flex-direction: column;
@@ -67,8 +70,8 @@
   color: var(--ricoh-brand-color);
   border-right: var(--ricoh-brand-color) 3px solid;
 }
-.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-office-printing > a > svg > path:first-child, .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-commercial-industrial-print > a > svg > path:first-child {
-  fill: var(--ricoh-brand-color);
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-office-printing > a > [class*=wr-icon-] .path1::before, .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-commercial-industrial-print > a > [class*=wr-icon-] .path1::before {
+  color: var(--ricoh-brand-color);
 }
 .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-hybrid-workplace {
   --ricoh-brand-color: #606CBF;
@@ -84,8 +87,8 @@
   color: var(--ricoh-brand-color);
   border-right: var(--ricoh-brand-color) 3px solid;
 }
-.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-hybrid-workplace > a > svg > path:first-child {
-  fill: var(--ricoh-brand-color);
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-hybrid-workplace > a > [class*=wr-icon-] .path3::before {
+  color: var(--ricoh-brand-color);
 }
 .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-workflow-automation {
   --ricoh-brand-color: #517D32;
@@ -101,8 +104,8 @@
   color: var(--ricoh-brand-color);
   border-right: var(--ricoh-brand-color) 3px solid;
 }
-.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-workflow-automation > a > svg > path:first-child {
-  fill: var(--ricoh-brand-color);
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-workflow-automation > a > [class*=wr-icon-] .path1::before {
+  color: var(--ricoh-brand-color);
 }
 .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-cloud-it {
   --ricoh-brand-color: #0F7AC9;
@@ -118,8 +121,8 @@
   color: var(--ricoh-brand-color);
   border-right: var(--ricoh-brand-color) 3px solid;
 }
-.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-cloud-it > a > svg > path:first-child {
-  fill: var(--ricoh-brand-color);
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-cloud-it > a > [class*=wr-icon-] .path1::before {
+  color: var(--ricoh-brand-color);
 }
 .bsc.wr.services-listings-01 .__main-menu > li.active.__hover-cybersecurity {
   --ricoh-brand-color: #00328F;
@@ -135,8 +138,8 @@
   color: var(--ricoh-brand-color);
   border-right: var(--ricoh-brand-color) 3px solid;
 }
-.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-cybersecurity > a > svg > path:first-child {
-  fill: var(--ricoh-brand-color);
+.bsc.wr.services-listings-01 .__main-menu > li.active.__hover-cybersecurity > a > [class*=wr-icon-] .path1::before {
+  color: var(--ricoh-brand-color);
 }
 .bsc.wr.services-listings-01 .__main-menu > li .__sub-menu-container {
   display: none;

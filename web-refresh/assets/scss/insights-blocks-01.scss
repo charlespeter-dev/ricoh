@@ -197,6 +197,17 @@
             display: flex;
             gap: .5rem;
             align-items: center;
+
+            [class*="wr-icon-"] {
+                transition: all 0.3s;
+                font-size: 1em;
+            }
+
+            &:hover {
+                [class*="wr-icon-"] {
+                    transform: translateX(10px);
+                }
+            }
         }
     }
 }

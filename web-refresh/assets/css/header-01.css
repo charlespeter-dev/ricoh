@@ -202,6 +202,9 @@
   left: calc(-50vw + 50%);
   z-index: -1;
 }
+.bsc.wr.header-01 .top-navigation-container .top-navigation .wr-icon-arrow-down {
+  font-size: 8px;
+}
 @media (max-width: 991.98px) {
   .bsc.wr.header-01 .top-navigation-container .top-navigation {
     height: 300px;
@@ -393,19 +396,18 @@
     align-items: center;
     padding-inline-end: 1rem;
   }
-  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li > a svg {
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li > a [class*=wr-icon] {
     transition: all 0.3s;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li > a.active {
     color: #CF142B;
   }
-  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li > a.active svg {
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li > a.active [class*=wr-icon] {
     transform: rotate(-90deg);
     font-weight: 700;
   }
-  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li > a.active svg > path {
-    stroke: #CF142B;
-    stroke-width: 2;
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li > a.active [class*=wr-icon]::before {
+    color: #CF142B;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li > nav {
     display: none;
@@ -481,13 +483,14 @@
     gap: 0.5rem;
     align-items: center;
   }
-  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 .featured > .row > [class*=col-] > ul > li > a svg {
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 .featured > .row > [class*=col-] > ul > li > a [class*=wr-icon-] {
     transition: all 0.3s;
+    font-size: 1em;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 .featured > .row > [class*=col-] > ul > li > a:hover {
     color: #CF142B;
   }
-  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 .featured > .row > [class*=col-] > ul > li > a:hover svg {
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 .featured > .row > [class*=col-] > ul > li > a:hover [class*=wr-icon-] {
     transform: translateX(10px);
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 .featured > .row > [class*=col-] > ul > li > nav {
@@ -512,17 +515,18 @@
     gap: 0.5rem;
     align-items: center;
   }
-  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 .featured > .row > [class*=col-] > ul > li > nav > .subnav-level-3 > ul > li a svg {
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 .featured > .row > [class*=col-] > ul > li > nav > .subnav-level-3 > ul > li a [class*=wr-icon-] {
     transition: all 0.3s;
+    font-size: 0.5em;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 .featured > .row > [class*=col-] > ul > li > nav > .subnav-level-3 > ul > li a:hover {
     color: #CF142B;
   }
-  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 .featured > .row > [class*=col-] > ul > li > nav > .subnav-level-3 > ul > li a:hover svg {
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 .featured > .row > [class*=col-] > ul > li > nav > .subnav-level-3 > ul > li a:hover [class*=wr-icon-] {
     transform: translateX(10px);
   }
-  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 .featured > .row > [class*=col-] > ul > li > nav > .subnav-level-3 > ul > li a:hover svg path {
-    stroke: #CF142B;
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 .featured > .row > [class*=col-] > ul > li > nav > .subnav-level-3 > ul > li a:hover [class*=wr-icon-]::before {
+    color: #CF142B;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 .featured > .row > [class*=col-] .featured-box {
     display: flex;
@@ -595,13 +599,14 @@
     gap: 0.5rem;
     align-items: center;
   }
-  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 > ul > li > a svg {
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 > ul > li > a [class*=wr-icon-] {
     transition: all 0.3s;
+    font-size: 1em;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 > ul > li > a:hover {
     color: #CF142B;
   }
-  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 > ul > li > a:hover svg {
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 > ul > li > a:hover [class*=wr-icon-] {
     transform: translateX(10px);
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 > ul > li > nav {
@@ -626,17 +631,18 @@
     gap: 0.5rem;
     align-items: center;
   }
-  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 > ul > li > nav > .subnav-level-3 > ul > li a svg {
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 > ul > li > nav > .subnav-level-3 > ul > li a [class*=wr-icon-] {
     transition: all 0.3s;
+    font-size: 0.5em;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 > ul > li > nav > .subnav-level-3 > ul > li a:hover {
     color: #CF142B;
   }
-  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 > ul > li > nav > .subnav-level-3 > ul > li a:hover svg {
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 > ul > li > nav > .subnav-level-3 > ul > li a:hover [class*=wr-icon-] {
     transform: translateX(10px);
   }
-  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 > ul > li > nav > .subnav-level-3 > ul > li a:hover svg path {
-    stroke: #CF142B;
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.active > nav > .subnav-level-1 > ul > li.active > nav > .subnav-level-2 > ul > li > nav > .subnav-level-3 > ul > li a:hover [class*=wr-icon-]::before {
+    color: #CF142B;
   }
 }
 .bsc.wr.header-01 .nav-fade {

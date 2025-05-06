@@ -5,6 +5,7 @@ $css = [
     'assets/css/optimized2.css',
     'assets/css/global.css',
     'assets/css/bs-wr.css',
+    'assets/css/wr-icons.css',
     'assets/css/header-01.css',
 ];
 

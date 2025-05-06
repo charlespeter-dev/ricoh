@@ -46,6 +46,12 @@
   font-weight: 700;
   line-height: 27px;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.bsc.wr.customer-stories-01 .__cta-container .__cta-secondary .wr-icon-arrow-red {
+  font-size: 1em;
 }
 .bsc.wr.customer-stories-01 .__left-bottom {
   padding-block: 2rem;
@@ -65,12 +71,19 @@
     justify-content: flex-start;
   }
 }
-.bsc.wr.customer-stories-01 .__left-bottom .__navigation .__swiper-button-prev.swiper-button-disabled svg path,
-.bsc.wr.customer-stories-01 .__left-bottom .__navigation .__swiper-button-next.swiper-button-disabled svg path {
-  fill: #f3f3f3;
+.bsc.wr.customer-stories-01 .__left-bottom .__navigation .__swiper-button-prev.swiper-button-disabled .path1::before,
+.bsc.wr.customer-stories-01 .__left-bottom .__navigation .__swiper-button-next.swiper-button-disabled .path1::before {
+  color: #f3f3f3;
 }
-.bsc.wr.customer-stories-01 .__left-bottom .__navigation svg:hover path {
-  fill: #CF142B;
+.bsc.wr.customer-stories-01 .__left-bottom .__navigation .__swiper-button-prev.swiper-button-disabled:hover .path1::before,
+.bsc.wr.customer-stories-01 .__left-bottom .__navigation .__swiper-button-next.swiper-button-disabled:hover .path1::before {
+  color: #f3f3f3;
+}
+.bsc.wr.customer-stories-01 .__left-bottom .__navigation [class*=wr-icon-] .path1::before {
+  color: #f8ccc9;
+}
+.bsc.wr.customer-stories-01 .__left-bottom .__navigation [class*=wr-icon-]:hover .path1::before {
+  color: #CF142B;
 }
 .bsc.wr.customer-stories-01 .__testimonial-swiper {
   overflow: hidden;
@@ -112,6 +125,9 @@
   .bsc.wr.customer-stories-01 .__testimonial-container .__quote {
     top: -50px;
   }
+}
+.bsc.wr.customer-stories-01 .__testimonial-container .__quote .wr-icon-ribbon-quote-module-sm {
+  font-size: 100px;
 }
 .bsc.wr.customer-stories-01 .__testimonial-container .__testimony {
   margin: 0;

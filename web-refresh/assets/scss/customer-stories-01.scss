@@ -58,6 +58,14 @@
             font-weight: 700;
             line-height: 27px;
             text-decoration: none;
+
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+
+            .wr-icon-arrow-red {
+                font-size: 1em;
+            }
         }
     }
 
@@ -79,17 +87,25 @@
 
             .__swiper-button-prev.swiper-button-disabled,
             .__swiper-button-next.swiper-button-disabled {
-                svg {
-                    path {
-                        fill: #f3f3f3;
+                .path1::before {
+                    color: #f3f3f3;
+                }
+
+                &:hover {
+                    .path1::before {
+                        color: #f3f3f3;
                     }
                 }
             }
 
-            svg {
+            [class*="wr-icon-"] {
+                .path1::before {
+                    color: #f8ccc9;
+                }
+
                 &:hover {
-                    path {
-                        fill: #CF142B;
+                    .path1::before {
+                        color: #CF142B;
                     }
                 }
             }
@@ -136,6 +152,10 @@
 
             @include media-breakpoint-up(lg) {
                 top: -50px;
+            }
+
+            .wr-icon-ribbon-quote-module-sm {
+                font-size: 100px;
             }
         }
 

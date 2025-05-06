@@ -127,6 +127,16 @@
   font-weight: 700;
   line-height: 25px;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.bsc.wr.hero-01 .__hero-content .__stage .__cta-containers .__cta-container .__cta-secondary [class*=wr-icon-] {
+  transition: all 0.3s;
+  font-size: 1em;
+}
+.bsc.wr.hero-01 .__hero-content .__stage .__cta-containers .__cta-container .__cta-secondary:hover [class*=wr-icon-] {
+  transform: translateX(10px);
 }
 .bsc.wr.hero-01 .__hero-content .__stage .__cta-containers .__cta-container .__cta-primary {
   color: #FFF;

@@ -43,13 +43,7 @@
                         <div class="__cta-container">
                             <a class="__cta-secondary" href="#">
                                 <span>Read more</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="11" viewBox="0 0 19 11"
-                                    fill="none">
-                                    <path d="M13 9.73828L17.2383 5.5L13 1.26172" stroke="#CF142B" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                    <line x1="15.9531" y1="5.73877" x2="1" y2="5.73877" stroke="#CF142B"
-                                        stroke-width="2" stroke-linecap="round" />
-                                </svg>
+                                <span class="wr-icon-arrow-red"></span>
                             </a>
                         </div>
                     </div>
@@ -80,13 +74,7 @@
                         <div class="__cta-container">
                             <a class="__cta-secondary" href="#">
                                 <span>Read more</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="11" viewBox="0 0 19 11"
-                                    fill="none">
-                                    <path d="M13 9.73828L17.2383 5.5L13 1.26172" stroke="#CF142B" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                    <line x1="15.9531" y1="5.73877" x2="1" y2="5.73877" stroke="#CF142B"
-                                        stroke-width="2" stroke-linecap="round" />
-                                </svg>
+                                <span class="wr-icon-arrow-red"></span>
                             </a>
                         </div>
                     </div>
@@ -115,13 +103,7 @@
                         <div class="__cta-container">
                             <a class="__cta-secondary" href="#">
                                 <span>Read more</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="11" viewBox="0 0 19 11"
-                                    fill="none">
-                                    <path d="M13 9.73828L17.2383 5.5L13 1.26172" stroke="#CF142B" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                    <line x1="15.9531" y1="5.73877" x2="1" y2="5.73877" stroke="#CF142B"
-                                        stroke-width="2" stroke-linecap="round" />
-                                </svg>
+                                <span class="wr-icon-arrow-red"></span>
                             </a>
                         </div>
                     </div>

@@ -35,6 +35,10 @@
         margin: 0;
         padding: 0;
 
+        [class^=wr-icon-] {
+            font-size: 55px;
+        }
+
         >li {
             display: flex;
             flex-direction: column;
@@ -83,9 +87,9 @@
                         color: var(--ricoh-brand-color);
                         border-right: var(--ricoh-brand-color) 3px solid;
 
-                        >svg {
-                            >path:first-child {
-                                fill: var(--ricoh-brand-color);
+                        >[class*="wr-icon-"] {
+                            .path1::before {
+                                color: var(--ricoh-brand-color);
                             }
                         }
                     }
@@ -106,9 +110,9 @@
                         color: var(--ricoh-brand-color);
                         border-right: var(--ricoh-brand-color) 3px solid;
 
-                        >svg {
-                            >path:first-child {
-                                fill: var(--ricoh-brand-color);
+                        >[class*="wr-icon-"] {
+                            .path3::before {
+                                color: var(--ricoh-brand-color);
                             }
                         }
                     }
@@ -129,9 +133,9 @@
                         color: var(--ricoh-brand-color);
                         border-right: var(--ricoh-brand-color) 3px solid;
 
-                        >svg {
-                            >path:first-child {
-                                fill: var(--ricoh-brand-color);
+                        >[class*="wr-icon-"] {
+                            .path1::before {
+                                color: var(--ricoh-brand-color);
                             }
                         }
                     }
@@ -152,9 +156,9 @@
                         color: var(--ricoh-brand-color);
                         border-right: var(--ricoh-brand-color) 3px solid;
 
-                        >svg {
-                            >path:first-child {
-                                fill: var(--ricoh-brand-color);
+                        >[class*="wr-icon-"] {
+                            .path1::before {
+                                color: var(--ricoh-brand-color);
                             }
                         }
                     }
@@ -175,9 +179,9 @@
                         color: var(--ricoh-brand-color);
                         border-right: var(--ricoh-brand-color) 3px solid;
 
-                        >svg {
-                            >path:first-child {
-                                fill: var(--ricoh-brand-color);
+                        >[class*="wr-icon-"] {
+                            .path1::before {
+                                color: var(--ricoh-brand-color);
                             }
                         }
                     }

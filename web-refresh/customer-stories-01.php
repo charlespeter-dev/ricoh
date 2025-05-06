@@ -5,6 +5,7 @@ $css = [
     'assets/css/optimized2.css',
     'assets/css/global.css',
     'assets/css/bs-wr.css',
+    'assets/css/wr-icons.css',
     'assets/css/customer-stories-01.css',
 ];
 
@@ -29,5 +30,4 @@ $css = [
     </main>
 
 </body>
-
 </html>

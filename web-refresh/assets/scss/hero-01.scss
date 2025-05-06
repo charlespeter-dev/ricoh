@@ -137,6 +137,20 @@
                         font-weight: 700;
                         line-height: 25px;
                         text-decoration: none;
+                        display: flex;
+                        align-items: center;
+                        gap: .5rem;
+
+                        [class*="wr-icon-"] {
+                            transition: all 0.3s;
+                            font-size: 1em;
+                        }
+
+                        &:hover {
+                            [class*="wr-icon-"] {
+                                transform: translateX(10px);
+                            }
+                        }
                     }
 
                     .__cta-primary {

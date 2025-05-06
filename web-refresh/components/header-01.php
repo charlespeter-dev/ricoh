@@ -18,11 +18,7 @@
                     <img class="ms-copilot-logo" src="assets/images/header-01/ms-copilot-logo.png" alt="">
                     <input type="text" class="form-control search-input" placeholder="">
                     <button class="input-group-text submit-button" type="button">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19" fill="none">
-                            <path
-                                d="M17.2242 17.2138L12.4112 12.3748C13.5618 10.9866 14.1334 9.20852 14.0073 7.40985C13.8812 5.61118 13.0671 3.93021 11.7341 2.7161C10.401 1.50198 8.65152 0.848034 6.84893 0.890094C5.04634 0.932153 3.32923 1.66698 2.05426 2.94195C0.779288 4.21692 0.0444575 5.93403 0.00239826 7.73662C-0.0396609 9.53921 0.614284 11.2887 1.8284 12.6218C3.04252 13.9548 4.72349 14.7689 6.52215 14.895C8.32082 15.0211 10.0989 14.4495 11.4872 13.2988L16.3262 18.1118L17.2242 17.2138ZM1.28715 7.91285C1.28715 6.77818 1.62362 5.66899 2.25401 4.72554C2.8844 3.7821 3.7804 3.04677 4.8287 2.61255C5.877 2.17833 7.03052 2.06472 8.14338 2.28608C9.25625 2.50745 10.2785 3.05384 11.0808 3.85618C11.8832 4.65851 12.4296 5.68075 12.6509 6.79361C12.8723 7.90648 12.7587 9.06 12.3244 10.1083C11.8902 11.1566 11.1549 12.0526 10.2115 12.683C9.26801 13.3134 8.15882 13.6498 7.02415 13.6498C5.5026 13.6498 4.04338 13.0454 2.96748 11.9695C1.89158 10.8936 1.28715 9.43439 1.28715 7.91285Z"
-                                fill="#B1B1B1" />
-                        </svg>
+                        <i class="bi bi-search"></i>
                     </button>
                 </div>
             </div>
@@ -57,11 +53,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Insights</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -83,18 +75,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Read Insights</span>
-                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                            width="18" height="10" viewBox="0 0 18 10"
-                                                                            fill="none">
-                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                                stroke="#CF142B" stroke-width="1.5"
-                                                                                stroke-linecap="round"
-                                                                                stroke-linejoin="round" />
-                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
-                                                                                y2="4.98877" stroke="#CF142B"
-                                                                                stroke-width="1.5"
-                                                                                stroke-linecap="round" />
-                                                                        </svg>
+                                                                        <span class="wr-icon-arrow-red"></span>
                                                                     </a>
                                                                 </li>
                                                             </ul>
@@ -128,11 +109,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Customer Stories</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -154,18 +131,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Read Customer Stories</span>
-                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                            width="18" height="10" viewBox="0 0 18 10"
-                                                                            fill="none">
-                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                                stroke="#CF142B" stroke-width="1.5"
-                                                                                stroke-linecap="round"
-                                                                                stroke-linejoin="round" />
-                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
-                                                                                y2="4.98877" stroke="#CF142B"
-                                                                                stroke-width="1.5"
-                                                                                stroke-linecap="round" />
-                                                                        </svg>
+                                                                        <span class="wr-icon-arrow-red"></span>
                                                                     </a>
                                                                 </li>
                                                             </ul>
@@ -199,11 +165,7 @@
                                     <li>
                                         <a href="#">
                                             <span>News</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -225,18 +187,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Latest News</span>
-                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                            width="18" height="10" viewBox="0 0 18 10"
-                                                                            fill="none">
-                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                                stroke="#CF142B" stroke-width="1.5"
-                                                                                stroke-linecap="round"
-                                                                                stroke-linejoin="round" />
-                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
-                                                                                y2="4.98877" stroke="#CF142B"
-                                                                                stroke-width="1.5"
-                                                                                stroke-linecap="round" />
-                                                                        </svg>
+                                                                        <span class="wr-icon-arrow-red"></span>
                                                                     </a>
                                                                 </li>
                                                             </ul>
@@ -270,11 +221,7 @@
                                     <li>
                                         <a href="#">
                                             <span>About Us</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -291,85 +238,37 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Ricoh Way</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="#">
                                                             <span>Corporate Overview</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="#">
                                                             <span>Environment and Sustainability</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="#">
                                                             <span>Awards</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="#">
                                                             <span>Global Executive Message</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="#">
                                                             <span>Regional Executive Message</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -393,11 +292,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Office Printing</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -414,15 +309,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Office Printing</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -430,27 +317,15 @@
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Managed Print Services</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Multifunction Printers</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -460,29 +335,13 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Dynamic Workplace Intelligence</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="#">
                                                             <span>Print Management</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -490,14 +349,8 @@
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Cloud Print Solutions</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -511,11 +364,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Hybrid Workplace</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -532,15 +381,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Workspace Management</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -548,27 +389,15 @@
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Space Booking</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Workspace Insights</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -578,15 +407,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Connect and Collaboration</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -594,27 +415,15 @@
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Collaboration Hubs</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Digital Signage</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -624,15 +433,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Meeting Solutions</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <<span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -640,27 +441,15 @@
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Space Booking</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Microsoft Teams Rooms</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -674,11 +463,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Workflow &amp; Automation</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -695,15 +480,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Process Automation</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -711,27 +488,15 @@
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Digital Forms and Workflow</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Robotic Process Automation</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -741,15 +506,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Connect and Collaboration</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -757,14 +514,8 @@
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Collaboration Hubs</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -774,15 +525,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Content and Collaboration</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -790,27 +533,15 @@
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Intelligent Capture</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Content Service</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -824,11 +555,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Cloud &amp; IT Infrastructure</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -845,15 +572,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Cloud Computing</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -861,27 +580,15 @@
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Modern Workplace</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Backup and Data protection</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -891,15 +598,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Connect and Collaboration</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -907,27 +606,15 @@
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Microsoft Business Applications</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>e-Invoicing</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -937,15 +624,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Meeting Solutions</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -953,14 +632,8 @@
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Microsoft Teams Rooms</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -974,11 +647,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Cybersecurity</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -995,15 +664,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Workspace Management</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -1011,40 +672,22 @@
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Digital Signage</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Space Booking</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Workspace Insights</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -1054,15 +697,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Connect and Collaboration</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -1070,14 +705,8 @@
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Collaboration Hubs</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -1087,15 +716,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Meeting Solutions</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -1103,14 +724,8 @@
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Microsoft Teams Rooms</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -1124,11 +739,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Graphic Communications</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -1145,15 +756,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Workspace Management</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -1161,40 +764,22 @@
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Digital Signage</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Space Booking</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Workspace Insights</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -1204,15 +789,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Connect and Collaboration</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -1220,14 +797,8 @@
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Collaboration Hubs</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -1237,15 +808,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Meeting Solutions</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -1253,14 +816,8 @@
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Microsoft Teams Rooms</span>
-                                                                            <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                width="5" height="8" viewBox="0 0 5 8"
-                                                                                fill="none">
-                                                                                <path d="M1 7L4 4L1 1" stroke="#333333"
-                                                                                    stroke-width="1.5"
-                                                                                    stroke-linecap="round"
-                                                                                    stroke-linejoin="round" />
-                                                                            </svg>
+                                                                            <span
+                                                                                class="wr-icon-arrow-right-greyscale"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -1288,11 +845,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Office Printing</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -1314,18 +867,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Office Printing</span>
-                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                            width="18" height="10" viewBox="0 0 18 10"
-                                                                            fill="none">
-                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                                stroke="#CF142B" stroke-width="1.5"
-                                                                                stroke-linecap="round"
-                                                                                stroke-linejoin="round" />
-                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
-                                                                                y2="4.98877" stroke="#CF142B"
-                                                                                stroke-width="1.5"
-                                                                                stroke-linecap="round" />
-                                                                        </svg>
+                                                                        <span class="wr-icon-arrow-red"></span>
                                                                     </a>
                                                                     <nav>
                                                                         <div class="subnav-level-3">
@@ -1334,32 +876,16 @@
                                                                                     <a href="#">
                                                                                         <span>Multifunction Printer
                                                                                             Colour</span>
-                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                            width="5" height="8"
-                                                                                            viewBox="0 0 5 8"
-                                                                                            fill="none">
-                                                                                            <path d="M1 7L4 4L1 1"
-                                                                                                stroke="#333333"
-                                                                                                stroke-width="1.5"
-                                                                                                stroke-linecap="round"
-                                                                                                stroke-linejoin="round" />
-                                                                                        </svg>
+                                                                                        <span
+                                                                                            class="wr-icon-arrow-right-greyscale"></span>
                                                                                     </a>
                                                                                 </li>
                                                                                 <li>
                                                                                     <a href="#">
                                                                                         <span>Wide Format
                                                                                             Printers</span>
-                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                            width="5" height="8"
-                                                                                            viewBox="0 0 5 8"
-                                                                                            fill="none">
-                                                                                            <path d="M1 7L4 4L1 1"
-                                                                                                stroke="#333333"
-                                                                                                stroke-width="1.5"
-                                                                                                stroke-linecap="round"
-                                                                                                stroke-linejoin="round" />
-                                                                                        </svg>
+                                                                                        <span
+                                                                                            class="wr-icon-arrow-right-greyscale"></span>
                                                                                     </a>
                                                                                 </li>
                                                                             </ul>
@@ -1397,11 +923,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Software Solutions</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -1423,18 +945,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Software Solutions</span>
-                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                            width="18" height="10" viewBox="0 0 18 10"
-                                                                            fill="none">
-                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                                stroke="#CF142B" stroke-width="1.5"
-                                                                                stroke-linecap="round"
-                                                                                stroke-linejoin="round" />
-                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
-                                                                                y2="4.98877" stroke="#CF142B"
-                                                                                stroke-width="1.5"
-                                                                                stroke-linecap="round" />
-                                                                        </svg>
+                                                                        <span class="wr-icon-arrow-red"></span>
                                                                     </a>
                                                                     <nav>
                                                                         <div class="subnav-level-3">
@@ -1442,31 +953,15 @@
                                                                                 <li>
                                                                                     <a href="#">
                                                                                         <span>Link 1</span>
-                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                            width="5" height="8"
-                                                                                            viewBox="0 0 5 8"
-                                                                                            fill="none">
-                                                                                            <path d="M1 7L4 4L1 1"
-                                                                                                stroke="#333333"
-                                                                                                stroke-width="1.5"
-                                                                                                stroke-linecap="round"
-                                                                                                stroke-linejoin="round" />
-                                                                                        </svg>
+                                                                                        <span
+                                                                                            class="wr-icon-arrow-right-greyscale"></span>
                                                                                     </a>
                                                                                 </li>
                                                                                 <li>
                                                                                     <a href="#">
                                                                                         <span>Link 2</span>
-                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                            width="5" height="8"
-                                                                                            viewBox="0 0 5 8"
-                                                                                            fill="none">
-                                                                                            <path d="M1 7L4 4L1 1"
-                                                                                                stroke="#333333"
-                                                                                                stroke-width="1.5"
-                                                                                                stroke-linecap="round"
-                                                                                                stroke-linejoin="round" />
-                                                                                        </svg>
+                                                                                        <span
+                                                                                            class="wr-icon-arrow-right-greyscale"></span>
                                                                                     </a>
                                                                                 </li>
                                                                             </ul>
@@ -1504,11 +999,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Graphic Communication</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -1531,18 +1022,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Graphic Communication</span>
-                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                            width="18" height="10" viewBox="0 0 18 10"
-                                                                            fill="none">
-                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                                stroke="#CF142B" stroke-width="1.5"
-                                                                                stroke-linecap="round"
-                                                                                stroke-linejoin="round" />
-                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
-                                                                                y2="4.98877" stroke="#CF142B"
-                                                                                stroke-width="1.5"
-                                                                                stroke-linecap="round" />
-                                                                        </svg>
+                                                                        <span class="wr-icon-arrow-red"></span>
                                                                     </a>
                                                                     <nav>
                                                                         <div class="subnav-level-3">
@@ -1550,31 +1030,15 @@
                                                                                 <li>
                                                                                     <a href="#">
                                                                                         <span>Link 1</span>
-                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                            width="5" height="8"
-                                                                                            viewBox="0 0 5 8"
-                                                                                            fill="none">
-                                                                                            <path d="M1 7L4 4L1 1"
-                                                                                                stroke="#333333"
-                                                                                                stroke-width="1.5"
-                                                                                                stroke-linecap="round"
-                                                                                                stroke-linejoin="round" />
-                                                                                        </svg>
+                                                                                        <span
+                                                                                            class="wr-icon-arrow-right-greyscale"></span>
                                                                                     </a>
                                                                                 </li>
                                                                                 <li>
                                                                                     <a href="#">
                                                                                         <span>Link 2</span>
-                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                            width="5" height="8"
-                                                                                            viewBox="0 0 5 8"
-                                                                                            fill="none">
-                                                                                            <path d="M1 7L4 4L1 1"
-                                                                                                stroke="#333333"
-                                                                                                stroke-width="1.5"
-                                                                                                stroke-linecap="round"
-                                                                                                stroke-linejoin="round" />
-                                                                                        </svg>
+                                                                                        <span
+                                                                                            class="wr-icon-arrow-right-greyscale"></span>
                                                                                     </a>
                                                                                 </li>
                                                                             </ul>
@@ -1612,11 +1076,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Workplace Solutions</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -1637,18 +1097,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Workplace Solutions</span>
-                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                            width="18" height="10" viewBox="0 0 18 10"
-                                                                            fill="none">
-                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                                stroke="#CF142B" stroke-width="1.5"
-                                                                                stroke-linecap="round"
-                                                                                stroke-linejoin="round" />
-                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
-                                                                                y2="4.98877" stroke="#CF142B"
-                                                                                stroke-width="1.5"
-                                                                                stroke-linecap="round" />
-                                                                        </svg>
+                                                                        <span class="wr-icon-arrow-red"></span>
                                                                     </a>
                                                                     <nav>
                                                                         <div class="subnav-level-3">
@@ -1656,31 +1105,15 @@
                                                                                 <li>
                                                                                     <a href="#">
                                                                                         <span>Link 1</span>
-                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                            width="5" height="8"
-                                                                                            viewBox="0 0 5 8"
-                                                                                            fill="none">
-                                                                                            <path d="M1 7L4 4L1 1"
-                                                                                                stroke="#333333"
-                                                                                                stroke-width="1.5"
-                                                                                                stroke-linecap="round"
-                                                                                                stroke-linejoin="round" />
-                                                                                        </svg>
+                                                                                        <span
+                                                                                            class="wr-icon-arrow-right-greyscale"></span>
                                                                                     </a>
                                                                                 </li>
                                                                                 <li>
                                                                                     <a href="#">
                                                                                         <span>Link 2</span>
-                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                            width="5" height="8"
-                                                                                            viewBox="0 0 5 8"
-                                                                                            fill="none">
-                                                                                            <path d="M1 7L4 4L1 1"
-                                                                                                stroke="#333333"
-                                                                                                stroke-width="1.5"
-                                                                                                stroke-linecap="round"
-                                                                                                stroke-linejoin="round" />
-                                                                                        </svg>
+                                                                                        <span
+                                                                                            class="wr-icon-arrow-right-greyscale"></span>
                                                                                     </a>
                                                                                 </li>
                                                                             </ul>
@@ -1718,11 +1151,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Device Configurator</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -1744,18 +1173,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Device Configurator</span>
-                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                            width="18" height="10" viewBox="0 0 18 10"
-                                                                            fill="none">
-                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                                stroke="#CF142B" stroke-width="1.5"
-                                                                                stroke-linecap="round"
-                                                                                stroke-linejoin="round" />
-                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
-                                                                                y2="4.98877" stroke="#CF142B"
-                                                                                stroke-width="1.5"
-                                                                                stroke-linecap="round" />
-                                                                        </svg>
+                                                                        <span class="wr-icon-arrow-red"></span>
                                                                     </a>
                                                                     <nav>
                                                                         <div class="subnav-level-3">
@@ -1763,31 +1181,15 @@
                                                                                 <li>
                                                                                     <a href="#">
                                                                                         <span>Link 1</span>
-                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                            width="5" height="8"
-                                                                                            viewBox="0 0 5 8"
-                                                                                            fill="none">
-                                                                                            <path d="M1 7L4 4L1 1"
-                                                                                                stroke="#333333"
-                                                                                                stroke-width="1.5"
-                                                                                                stroke-linecap="round"
-                                                                                                stroke-linejoin="round" />
-                                                                                        </svg>
+                                                                                        <span
+                                                                                            class="wr-icon-arrow-right-greyscale"></span>
                                                                                     </a>
                                                                                 </li>
                                                                                 <li>
                                                                                     <a href="#">
                                                                                         <span>Link 2</span>
-                                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                            width="5" height="8"
-                                                                                            viewBox="0 0 5 8"
-                                                                                            fill="none">
-                                                                                            <path d="M1 7L4 4L1 1"
-                                                                                                stroke="#333333"
-                                                                                                stroke-width="1.5"
-                                                                                                stroke-linecap="round"
-                                                                                                stroke-linejoin="round" />
-                                                                                        </svg>
+                                                                                        <span
+                                                                                            class="wr-icon-arrow-right-greyscale"></span>
                                                                                     </a>
                                                                                 </li>
                                                                             </ul>
@@ -1839,11 +1241,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Downloads</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -1865,18 +1263,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Downloads</span>
-                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                            width="18" height="10" viewBox="0 0 18 10"
-                                                                            fill="none">
-                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                                stroke="#CF142B" stroke-width="1.5"
-                                                                                stroke-linecap="round"
-                                                                                stroke-linejoin="round" />
-                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
-                                                                                y2="4.98877" stroke="#CF142B"
-                                                                                stroke-width="1.5"
-                                                                                stroke-linecap="round" />
-                                                                        </svg>
+                                                                        <span class="wr-icon-arrow-red"></span>
                                                                     </a>
                                                                 </li>
                                                             </ul>
@@ -1910,11 +1297,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Guides and Self Help</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -1936,35 +1319,13 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>How To Videos</span>
-                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                            width="18" height="10" viewBox="0 0 18 10"
-                                                                            fill="none">
-                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                                stroke="#CF142B" stroke-width="1.5"
-                                                                                stroke-linecap="round"
-                                                                                stroke-linejoin="round" />
-                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
-                                                                                y2="4.98877" stroke="#CF142B"
-                                                                                stroke-width="1.5"
-                                                                                stroke-linecap="round" />
-                                                                        </svg>
+                                                                        <span class="wr-icon-arrow-red"></span>
                                                                     </a>
                                                                 </li>
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Knowledge Base</span>
-                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                            width="18" height="10" viewBox="0 0 18 10"
-                                                                            fill="none">
-                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                                stroke="#CF142B" stroke-width="1.5"
-                                                                                stroke-linecap="round"
-                                                                                stroke-linejoin="round" />
-                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
-                                                                                y2="4.98877" stroke="#CF142B"
-                                                                                stroke-width="1.5"
-                                                                                stroke-linecap="round" />
-                                                                        </svg>
+                                                                        <span class="wr-icon-arrow-red"></span>
                                                                     </a>
                                                                 </li>
                                                             </ul>
@@ -1998,11 +1359,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Security Alerts</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -2024,18 +1381,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Security Alerts</span>
-                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                            width="18" height="10" viewBox="0 0 18 10"
-                                                                            fill="none">
-                                                                            <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                                stroke="#CF142B" stroke-width="1.5"
-                                                                                stroke-linecap="round"
-                                                                                stroke-linejoin="round" />
-                                                                            <line x1="16.2031" y1="4.98877" x2="0.75"
-                                                                                y2="4.98877" stroke="#CF142B"
-                                                                                stroke-width="1.5"
-                                                                                stroke-linecap="round" />
-                                                                        </svg>
+                                                                        <span class="wr-icon-arrow-red"></span>
                                                                     </a>
                                                                 </li>
                                                             </ul>
@@ -2083,11 +1429,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Contact</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -2104,15 +1446,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Contact</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -2122,11 +1456,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Where to Buy</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="6"
-                                                viewBox="0 0 8 6" fill="none">
-                                                <path d="M1 1.5L4 4.5L7 1.5" stroke="#333333" stroke-width="1.5"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                                            <span class="wr-icon-arrow-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -2143,15 +1473,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Where to Buy</span>
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="18"
-                                                                height="10" viewBox="0 0 18 10" fill="none">
-                                                                <path d="M13 9.23828L17.2383 5L13 0.761718"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                                <line x1="16.2031" y1="4.98877" x2="0.75" y2="4.98877"
-                                                                    stroke="#CF142B" stroke-width="1.5"
-                                                                    stroke-linecap="round" />
-                                                            </svg>
+                                                            <span class="wr-icon-arrow-red"></span>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -2177,17 +1499,7 @@
                             </li>
                             <li class="portal-login">
                                 <a href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="13" viewBox="0 0 11 13"
-                                        fill="none">
-                                        <path
-                                            d="M6.76144 7.8877H3.8109C2.18121 7.8877 0.860352 9.20856 0.860352 10.8382V11.33C0.860352 11.33 2.39709 11.8218 5.28617 11.8218C8.17524 11.8218 9.71199 11.33 9.71199 11.33V10.8382C9.71199 9.20856 8.39113 7.8877 6.76144 7.8877Z"
-                                            stroke="#333333" stroke-width="1.2" stroke-miterlimit="10"
-                                            stroke-linecap="square" />
-                                        <path
-                                            d="M2.82739 3.63701C2.82739 2.27927 3.92844 1.17822 5.28618 1.17822C6.64392 1.17822 7.74497 2.27927 7.74497 3.63701C7.74497 4.99475 6.64392 6.58755 5.28618 6.58755C3.92844 6.58755 2.82739 4.99475 2.82739 3.63701Z"
-                                            stroke="#333333" stroke-width="1.2" stroke-miterlimit="10"
-                                            stroke-linecap="square" />
-                                    </svg>
+                                    <i class="bi bi-person"></i>
                                     <span>Portal Login</span>
                                 </a>
                             </li>

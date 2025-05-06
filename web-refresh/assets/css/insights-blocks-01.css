@@ -166,5 +166,12 @@
   gap: 0.5rem;
   align-items: center;
 }
+.bsc.wr.insights-blocks-01 .__cta-container .__cta-secondary [class*=wr-icon-] {
+  transition: all 0.3s;
+  font-size: 1em;
+}
+.bsc.wr.insights-blocks-01 .__cta-container .__cta-secondary:hover [class*=wr-icon-] {
+  transform: translateX(10px);
+}
 
 /*# sourceMappingURL=insights-blocks-01.css.map */
