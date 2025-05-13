@@ -48,73 +48,73 @@
                     <div class="swiper-wrapper">
 
                         <!-- 1st slide -->
-                        <figure class="swiper-slide">
-                            <blockquote class="__testimony">
+                        <div class="swiper-slide">
+                            <div class="__testimony">
                                 <p>
                                     Westpac is creating a more productive and sustainable place to work, we are
                                     introducing smarter printers and we are becoming greener. Ricoh is helping Westpac
                                     achieve its carbon footprint targets by reducing power consumption and paper waste.
                                     Together these initiatives are delivering a simpler, smarter, greener place to work.
                                 </p>
-                            </blockquote>
+                            </div>
                             <div class="__cite-bottom">
-                                <figcaption class="__author">
+                                <div class="__author">
                                     <cite class="__author-name">
                                         Gary Sim
                                     </cite>
                                     <cite class="__author-title">
                                         General Manager of Westpac’s Service Delivery Infrastructure Group
                                     </cite>
-                                </figcaption>
+                                </div>
                                 <img class="img-fluid __logo"
                                     src="assets/images/customer-stories-01/customer-story-logo-westpac.png" alt="">
                             </div>
-                        </figure>
+                        </div>
 
                         <!-- 2nd slide -->
-                        <figure class="swiper-slide">
-                            <blockquote class="__testimony">
+                        <div class="swiper-slide">
+                            <div class="__testimony">
                                 <p>
                                     The Ricoh solution has given us the ability to allow our dealers to track warranty
                                     claims throughout the entire process via the customer portal. The portal also gives
                                     them the ability to track return packages via our transport partners.
                                 </p>
-                            </blockquote>
+                            </div>
                             <div class="__cite-bottom">
-                                <figcaption class="__author">
+                                <div class="__author">
                                     <cite class="__author-name">
                                         Tim Clarke
                                     </cite>
                                     <cite class="__author-title">
                                         IT Manager at Shimano Oceania Holdings
                                     </cite>
-                                </figcaption>
+                                </div>
                                 <img class="img-fluid __logo"
                                     src="assets/images/customer-stories-01/customer-story-logo-shimano.png" alt="">
                             </div>
-                        </figure>
+                        </div>
 
                         <!-- 3rd slide -->
-                        <figure class="swiper-slide">
-                            <blockquote class="__testimony">
+                        <div class="swiper-slide">
+                            <div class="__testimony">
                                 <p>
                                     We found that the RICOH Interactive White Board enables us to concentrate on our
                                     main role and encourage smooth and productive meetings.
                                 </p>
-                            </blockquote>
+                            </div>
                             <div class="__cite-bottom">
-                                <figcaption class="__author">
+                                <div class="__author">
                                     <cite class="__author-name">
                                         Mr Fujino
                                     </cite>
                                     <cite class="__author-title">
                                         IT Group, JX Holdings
                                     </cite>
-                                </figcaption>
+                                </div>
                                 <img class="img-fluid __logo"
                                     src="assets/images/customer-stories-01/customer-story-logo-jx.png" alt="">
                             </div>
-                        </figure>
+                        </div>
 
                     </div>
                 </div>
@@ -126,7 +126,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         window.addEventListener('DOMContentLoaded', function () {
-            const customerStoriesTestimonialSwiper = new Swiper(".customer-stories-01 .__testimonial-swiper", {
+            var customerStoriesTestimonialSwiper = new Swiper(".customer-stories-01 .__testimonial-swiper", {
                 effect: "fade",
                 fadeEffect: {
                     crossFade: true,
@@ -137,26 +137,6 @@
                 },
                 allowTouchMove: false,
             });
-
-            // Re-rendering Swiper on Window Resize
-            // debounce the resize handler to avoid excessive updates
-            // Debounce function
-            function debounce(func, wait) {
-                let timeout;
-                return function () {
-                    clearTimeout(timeout);
-                    timeout = setTimeout(() => func.apply(this, arguments), wait);
-                };
-            }
-
-            // Debounced resize handler
-            const handleResize = debounce(() => {
-                customerStoriesTestimonialSwiper.update();
-                console.log('Swiper updated on resize');
-            }, 200);
-
-            // Attach the event listener
-            window.addEventListener('resize', handleResize);
         });
     </script>
 </section>
