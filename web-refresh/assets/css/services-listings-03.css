@@ -1,0 +1,289 @@
+.bsc.wr.services-listings-03 {
+  position: relative;
+  background-color: transparent;
+  padding-block: 4rem;
+}
+.bsc.wr.services-listings-03 .__main-heading {
+  margin-block-end: 2rem;
+}
+.bsc.wr.services-listings-03 .__main-heading h2 {
+  color: #333;
+  font-family: "frutiger", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px;
+}
+.bsc.wr.services-listings-03 .__main-heading strong {
+  color: #CF142B;
+  font-weight: 700;
+}
+.bsc.wr.services-listings-03 .__main-menu {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.bsc.wr.services-listings-03 .__main-menu [class^=wr-icon-] {
+  font-size: 55px;
+}
+.bsc.wr.services-listings-03 .__main-menu > li {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #B1B1B1;
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-03 .__main-menu > li {
+    width: var(--ricoh-main-menu-width);
+    flex-direction: row;
+  }
+}
+.bsc.wr.services-listings-03 .__main-menu > li > a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #666;
+  font-family: "frutiger", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  text-decoration: none;
+  padding-block: 0.5rem;
+  padding-inline-start: 0.5rem;
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-03 .__main-menu > li > a {
+    width: var(--ricoh-main-menu-width);
+  }
+}
+.bsc.wr.services-listings-03 .__main-menu > li.active.__hover-office-printing, .bsc.wr.services-listings-03 .__main-menu > li.active.__hover-commercial-industrial-print {
+  --ricoh-brand-color: #CF142B;
+  --ricoh-brand-color-hover: transparent;
+  background-color: var(--ricoh-brand-color-hover);
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-03 .__main-menu > li.active.__hover-office-printing, .bsc.wr.services-listings-03 .__main-menu > li.active.__hover-commercial-industrial-print {
+    --ricoh-brand-color-hover: #FEF5F5;
+  }
+}
+.bsc.wr.services-listings-03 .__main-menu > li.active.__hover-office-printing > a, .bsc.wr.services-listings-03 .__main-menu > li.active.__hover-commercial-industrial-print > a {
+  color: var(--ricoh-brand-color);
+  border-right: var(--ricoh-brand-color) 3px solid;
+}
+.bsc.wr.services-listings-03 .__main-menu > li.active.__hover-office-printing > a > [class*=wr-icon-] .path1::before, .bsc.wr.services-listings-03 .__main-menu > li.active.__hover-commercial-industrial-print > a > [class*=wr-icon-] .path1::before {
+  color: var(--ricoh-brand-color);
+}
+.bsc.wr.services-listings-03 .__main-menu > li.active.__hover-hybrid-workplace {
+  --ricoh-brand-color: #606CBF;
+  --ricoh-brand-color-hover: transparent;
+  background-color: var(--ricoh-brand-color-hover);
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-03 .__main-menu > li.active.__hover-hybrid-workplace {
+    --ricoh-brand-color-hover: #F5F6FA;
+  }
+}
+.bsc.wr.services-listings-03 .__main-menu > li.active.__hover-hybrid-workplace > a {
+  color: var(--ricoh-brand-color);
+  border-right: var(--ricoh-brand-color) 3px solid;
+}
+.bsc.wr.services-listings-03 .__main-menu > li.active.__hover-hybrid-workplace > a > [class*=wr-icon-] .path3::before {
+  color: var(--ricoh-brand-color);
+}
+.bsc.wr.services-listings-03 .__main-menu > li.active.__hover-workflow-automation {
+  --ricoh-brand-color: #517D32;
+  --ricoh-brand-color-hover: transparent;
+  background-color: var(--ricoh-brand-color-hover);
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-03 .__main-menu > li.active.__hover-workflow-automation {
+    --ricoh-brand-color-hover: #F0F5E7;
+  }
+}
+.bsc.wr.services-listings-03 .__main-menu > li.active.__hover-workflow-automation > a {
+  color: var(--ricoh-brand-color);
+  border-right: var(--ricoh-brand-color) 3px solid;
+}
+.bsc.wr.services-listings-03 .__main-menu > li.active.__hover-workflow-automation > a > [class*=wr-icon-] .path1::before {
+  color: var(--ricoh-brand-color);
+}
+.bsc.wr.services-listings-03 .__main-menu > li.active.__hover-cloud-it {
+  --ricoh-brand-color: #0F7AC9;
+  --ricoh-brand-color-hover: transparent;
+  background-color: var(--ricoh-brand-color-hover);
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-03 .__main-menu > li.active.__hover-cloud-it {
+    --ricoh-brand-color-hover: #E8F6FF;
+  }
+}
+.bsc.wr.services-listings-03 .__main-menu > li.active.__hover-cloud-it > a {
+  color: var(--ricoh-brand-color);
+  border-right: var(--ricoh-brand-color) 3px solid;
+}
+.bsc.wr.services-listings-03 .__main-menu > li.active.__hover-cloud-it > a > [class*=wr-icon-] .path1::before {
+  color: var(--ricoh-brand-color);
+}
+.bsc.wr.services-listings-03 .__main-menu > li.active.__hover-cybersecurity {
+  --ricoh-brand-color: #00328F;
+  --ricoh-brand-color-hover: transparent;
+  background-color: var(--ricoh-brand-color-hover);
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-03 .__main-menu > li.active.__hover-cybersecurity {
+    --ricoh-brand-color-hover: #EFF5FA;
+  }
+}
+.bsc.wr.services-listings-03 .__main-menu > li.active.__hover-cybersecurity > a {
+  color: var(--ricoh-brand-color);
+  border-right: var(--ricoh-brand-color) 3px solid;
+}
+.bsc.wr.services-listings-03 .__main-menu > li.active.__hover-cybersecurity > a > [class*=wr-icon-] .path1::before {
+  color: var(--ricoh-brand-color);
+}
+.bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container {
+  display: none;
+}
+.bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active {
+  display: block;
+  height: 100%;
+  padding-block: 1rem;
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active {
+    height: 100%;
+    width: calc(100% - var(--ricoh-main-menu-width));
+    position: absolute;
+    top: 0;
+    left: var(--ricoh-main-menu-width);
+    padding-block: 0;
+  }
+}
+.bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu {
+  flex-direction: column;
+  gap: 1rem;
+  padding-inline-start: 0.5rem;
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu {
+    padding-inline-start: 1rem;
+    gap: 1.5rem;
+  }
+}
+.bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a {
+  display: flex;
+  align-items: center;
+  padding-inline: 1rem;
+  padding-block: 1.3rem;
+  text-decoration: none;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a {
+    gap: 1rem;
+  }
+}
+.bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a:hover {
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, var(--ricoh-brand-color-hover) 100%);
+}
+.bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a:hover .__description-container .__ribbon svg path {
+  fill: var(--ricoh-brand-color);
+}
+.bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a:hover .__description-container .__title {
+  color: var(--ricoh-brand-color);
+}
+.bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a:hover .__description-container .__extra_cta_text [class*=wr-icon-] {
+  transform: translateX(10px);
+}
+.bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a > img {
+  display: none;
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a > img {
+    display: block;
+  }
+}
+.bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
+.bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__ribbon {
+  display: flex;
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__ribbon {
+    gap: 1rem;
+  }
+}
+.bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__ribbon svg {
+  display: none;
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__ribbon svg {
+    display: inline-block;
+  }
+  .bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__ribbon svg path {
+    fill: #fff;
+  }
+}
+.bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__title {
+  color: #000;
+  font-family: "frutiger", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  text-wrap: pretty;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-inline-end: 0.9rem;
+}
+@media (min-width: 992px) {
+  .bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__title {
+    padding-inline-end: 0;
+  }
+}
+.bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__description {
+  color: #333;
+  font-family: "frutiger", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-wrap: pretty;
+  margin: 0;
+}
+.bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__extra_cta_text {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #CF142B;
+  font-family: "frutiger", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  margin: 0;
+}
+.bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__extra_cta_text [class*=wr-icon-] {
+  transition: all 0.3s;
+  font-size: 10px;
+}
+.bsc.wr.services-listings-03 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__extra_cta_text [class*=wr-icon-]::before {
+  color: #CF142B;
+}
+
+/*# sourceMappingURL=services-listings-03.css.map */

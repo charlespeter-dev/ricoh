@@ -1,0 +1,816 @@
+<section class="bsc wr services-listings-03" style="--ricoh-main-menu-width: 400px;">
+    <div class="row">
+        <div class="col">
+            <div class="__main-heading">
+                <h2>
+                    Ideas that <strong>Drive Change. </strong><br class="d-none d-md-block">Solutions that
+                    <strong>Transform Business.</strong>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <nav>
+                <ul class="__main-menu">
+
+                    <!-- 1st main menu -->
+                    <li class="__hover-office-printing">
+                        <a href="#">
+                            <span class="wr-icon-greyscale-office-printing"><span class="path1"></span><span
+                                    class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                    class="path5"></span><span class="path6"></span><span class="path7"></span></span>
+                            <span>Office Printing</span>
+                        </a>
+                        <div class="__sub-menu-container">
+                            <ul class="__sub-menu row">
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Workspace Management</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        Digitally enhanced spaces to enable hybrid work
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Connect & Collaborate</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        Simple solutions for complex collaboration issues
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Microsoft Teams Rooms</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        Simple solutions for complex collaborations
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Creative Collaboration Hub</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        An all-in-one collaborative meeting solution
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="__hover-hybrid-workplace">
+                        <a href="#">
+                            <span class="wr-icon-greyscale-hybrid-workplace"><span class="path1"></span><span
+                                    class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                    class="path5"></span><span class="path6"></span></span>
+                            <span>Hybrid Workplace</span>
+                        </a>
+                        <div class="__sub-menu-container">
+                            <ul class="__sub-menu row">
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Workspace Management</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        Digitally enhanced spaces to enable hybrid work
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Connect & Collaborate</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        Simple solutions for complex collaboration issues
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Microsoft Teams Rooms</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        Simple solutions for complex collaborations
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Creative Collaboration Hub</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        An all-in-one collaborative meeting solution
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="__hover-workflow-automation">
+                        <a href="#">
+                            <span class="wr-icon-greyscale-workflow-and-automation"><span class="path1"></span><span
+                                    class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                    class="path5"></span><span class="path6"></span><span class="path7"></span><span
+                                    class="path8"></span><span class="path9"></span><span class="path10"></span><span
+                                    class="path11"></span><span class="path12"></span><span class="path13"></span><span
+                                    class="path14"></span><span class="path15"></span><span
+                                    class="path16"></span></span>
+                            <span>Workflow and Automation</span>
+                        </a>
+                        <div class="__sub-menu-container">
+                            <ul class="__sub-menu row">
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Workspace Management</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        Digitally enhanced spaces to enable hybrid work
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Connect & Collaborate</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        Simple solutions for complex collaboration issues
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Microsoft Teams Rooms</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        Simple solutions for complex collaborations
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Creative Collaboration Hub</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        An all-in-one collaborative meeting solution
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="__hover-cloud-it">
+                        <a href="#">
+                            <span class="wr-icon-greyscale-cloud-it-infrastructure"><span class="path1"></span><span
+                                    class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                    class="path5"></span><span class="path6"></span></span>
+                            <span>Cloud and IT</span>
+                        </a>
+                        <div class="__sub-menu-container">
+                            <ul class="__sub-menu row">
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Workspace Management</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        Digitally enhanced spaces to enable hybrid work
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Connect & Collaborate</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        Simple solutions for complex collaboration issues
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Microsoft Teams Rooms</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        Simple solutions for complex collaborations
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Creative Collaboration Hub</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        An all-in-one collaborative meeting solution
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="__hover-cybersecurity">
+                        <a href="#">
+                            <span class="wr-icon-greyscale-cybersecurity"><span class="path1"></span><span
+                                    class="path2"></span><span class="path3"></span><span class="path4"></span><span
+                                    class="path5"></span><span class="path6"></span><span class="path7"></span></span>
+                            <span>Cybersecurity</span>
+                        </a>
+                        <div class="__sub-menu-container">
+                            <ul class="__sub-menu row">
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Workspace Management</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        Digitally enhanced spaces to enable hybrid work
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Connect & Collaborate</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        Simple solutions for complex collaboration issues
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Microsoft Teams Rooms</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        Simple solutions for complex collaborations
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Creative Collaboration Hub</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        An all-in-one collaborative meeting solution
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="__hover-commercial-industrial-print">
+                        <a href="#">
+                            <span class="wr-icon-greyscale-commercial-and-industrial-print"><span
+                                    class="path1"></span><span class="path2"></span><span class="path3"></span><span
+                                    class="path4"></span></span>
+                            <span>Commercial and Industrial Print</span>
+                        </a>
+                        <div class="__sub-menu-container">
+                            <ul class="__sub-menu row">
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Workspace Management</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        Digitally enhanced spaces to enable hybrid work
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Connect & Collaborate</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        Simple solutions for complex collaboration issues
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Microsoft Teams Rooms</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        Simple solutions for complex collaborations
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="col">
+                                    <a href="#">
+                                        <div class="__description-container">
+                                            <div class="__ribbon">
+                                                <div>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        viewBox="0 0 18 18" fill="none">
+                                                        <path
+                                                            d="M17.7308 15.567H16.3703C16.2232 15.567 16.1029 15.4476 16.1029 15.2995V0.537401C16.1029 0.241661 15.8634 0 15.5675 0H0.537117C0.240695 0 0 0.241661 0 0.537401V15.567C0 15.8633 0.240695 16.1044 0.537117 16.1044H15.2978C15.4466 16.1044 15.5675 16.2231 15.5675 16.3731V17.733C15.5675 17.8812 15.6861 18 15.8337 18H17.7308C17.8797 18 18 17.8812 18 17.733V15.8357C18 15.6875 17.8797 15.567 17.7308 15.567Z"
+                                                            fill="#606CBF" />
+                                                    </svg>
+                                                </div>
+                                                <div class="d-flex flex-column">
+                                                    <p class="__title">
+                                                        <span>Creative Collaboration Hub</span>
+                                                    </p>
+                                                    <p class="__description">
+                                                        An all-in-one collaborative meeting solution
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <script>
+
+        // show submenu on hover
+
+        document.addEventListener('DOMContentLoaded', function () {
+
+            const mainMenuItems = document.querySelectorAll('.__main-menu > li');
+
+            mainMenuItems.forEach(item => {
+
+                item.addEventListener('mouseenter', function () {
+
+                    // hide all submenus first
+                    document.querySelectorAll('.__sub-menu-container').forEach(submenu => {
+                        submenu.classList.remove('active');
+                    });
+
+                    // remove active class from all main menu items
+                    mainMenuItems.forEach(menuItem => {
+                        menuItem.classList.remove('active');
+                    });
+
+                    // add active class to main menu item
+                    this.classList.add('active');
+
+                    // add active class to submenu container
+                    this.querySelector('.__sub-menu-container').classList.add('active');
+                });
+
+                // disable click on anchor tag
+                item.querySelector('a:first-child').addEventListener('click', function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                });
+            });
+
+            // show first submenu by default
+
+            if (mainMenuItems.length > 0) {
+                mainMenuItems[0].classList.add('active');
+                mainMenuItems[0].querySelector('.__sub-menu-container').classList.add('active');
+            }
+
+        });
+    </script>
+</section>

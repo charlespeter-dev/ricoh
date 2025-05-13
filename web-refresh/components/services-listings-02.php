@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ricoh - Web Refresh - services-listings-01</title>
-
-            <link rel="stylesheet" href="assets/css/optimized1.css?t=1747129411">
-            <link rel="stylesheet" href="assets/css/optimized2.css?t=1747129411">
-            <link rel="stylesheet" href="assets/css/global.css?t=1747129411">
-            <link rel="stylesheet" href="assets/css/bs-wr.css?t=1747129411">
-            <link rel="stylesheet" href="assets/css/wr-icons.css?t=1747129411">
-            <link rel="stylesheet" href="assets/css/services-listings-01.css?t=1747129411">
-    
-</head>
-
-<body>
-
-    <main class="container">
-        <section class="bsc wr services-listings-01" style="--ricoh-main-menu-width: 400px;">
+<section class="bsc wr services-listings-02" style="--ricoh-main-menu-width: 400px;">
     <div class="row">
         <div class="col">
             <div class="__main-heading">
@@ -46,7 +26,7 @@
                             <ul class="__sub-menu row row-cols-1 row-cols-lg-2 g-2 g-lg-4">
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/workspace-management.png" alt="">
+                                        <img src="assets/images/services-listings-02/workspace-management.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Workspace Management</span>
@@ -54,12 +34,16 @@
                                             <p class="__description">
                                                 Digitally enhanced spaces to enable hybrid work
                                             </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/connect-collaborate.png" alt="">
+                                        <img src="assets/images/services-listings-02/connect-collaborate.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Connect & Collaborate</span>
@@ -67,12 +51,16 @@
                                             <p class="__description">
                                                 Simple solutions for complex collaboration issues
                                             </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/ms-teams-rooms.png" alt="">
+                                        <img src="assets/images/services-listings-02/ms-teams-rooms.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Microsoft Teams Rooms</span>
@@ -80,18 +68,26 @@
                                             <p class="__description">
                                                 Simple solutions for complex collaborations
                                             </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/creative-collaboration.png" alt="">
+                                        <img src="assets/images/services-listings-02/creative-collaboration.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Creative Collaboration Hub</span>
                                             </p>
                                             <p class="__description">
                                                 An all-in-one collaborative meeting solution
+                                            </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -110,7 +106,7 @@
                             <ul class="__sub-menu row row-cols-1 row-cols-lg-2 g-2 g-lg-4">
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/workspace-management.png" alt="">
+                                        <img src="assets/images/services-listings-02/workspace-management.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Workspace Management</span>
@@ -118,12 +114,16 @@
                                             <p class="__description">
                                                 Digitally enhanced spaces to enable hybrid work
                                             </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/connect-collaborate.png" alt="">
+                                        <img src="assets/images/services-listings-02/connect-collaborate.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Connect & Collaborate</span>
@@ -131,12 +131,16 @@
                                             <p class="__description">
                                                 Simple solutions for complex collaboration issues
                                             </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/ms-teams-rooms.png" alt="">
+                                        <img src="assets/images/services-listings-02/ms-teams-rooms.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Microsoft Teams Rooms</span>
@@ -144,18 +148,26 @@
                                             <p class="__description">
                                                 Simple solutions for complex collaborations
                                             </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/creative-collaboration.png" alt="">
+                                        <img src="assets/images/services-listings-02/creative-collaboration.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Creative Collaboration Hub</span>
                                             </p>
                                             <p class="__description">
                                                 An all-in-one collaborative meeting solution
+                                            </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -178,7 +190,7 @@
                             <ul class="__sub-menu row row-cols-1 row-cols-lg-2 g-2 g-lg-4">
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/workspace-management.png" alt="">
+                                        <img src="assets/images/services-listings-02/workspace-management.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Workspace Management</span>
@@ -186,12 +198,16 @@
                                             <p class="__description">
                                                 Digitally enhanced spaces to enable hybrid work
                                             </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/connect-collaborate.png" alt="">
+                                        <img src="assets/images/services-listings-02/connect-collaborate.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Connect & Collaborate</span>
@@ -199,12 +215,16 @@
                                             <p class="__description">
                                                 Simple solutions for complex collaboration issues
                                             </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/ms-teams-rooms.png" alt="">
+                                        <img src="assets/images/services-listings-02/ms-teams-rooms.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Microsoft Teams Rooms</span>
@@ -212,18 +232,26 @@
                                             <p class="__description">
                                                 Simple solutions for complex collaborations
                                             </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/creative-collaboration.png" alt="">
+                                        <img src="assets/images/services-listings-02/creative-collaboration.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Creative Collaboration Hub</span>
                                             </p>
                                             <p class="__description">
                                                 An all-in-one collaborative meeting solution
+                                            </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -242,7 +270,7 @@
                             <ul class="__sub-menu row row-cols-1 row-cols-lg-2 g-2 g-lg-4">
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/workspace-management.png" alt="">
+                                        <img src="assets/images/services-listings-02/workspace-management.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Workspace Management</span>
@@ -250,12 +278,16 @@
                                             <p class="__description">
                                                 Digitally enhanced spaces to enable hybrid work
                                             </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/connect-collaborate.png" alt="">
+                                        <img src="assets/images/services-listings-02/connect-collaborate.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Connect & Collaborate</span>
@@ -263,12 +295,16 @@
                                             <p class="__description">
                                                 Simple solutions for complex collaboration issues
                                             </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/ms-teams-rooms.png" alt="">
+                                        <img src="assets/images/services-listings-02/ms-teams-rooms.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Microsoft Teams Rooms</span>
@@ -276,18 +312,26 @@
                                             <p class="__description">
                                                 Simple solutions for complex collaborations
                                             </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/creative-collaboration.png" alt="">
+                                        <img src="assets/images/services-listings-02/creative-collaboration.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Creative Collaboration Hub</span>
                                             </p>
                                             <p class="__description">
                                                 An all-in-one collaborative meeting solution
+                                            </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -306,7 +350,7 @@
                             <ul class="__sub-menu row row-cols-1 row-cols-lg-2 g-2 g-lg-4">
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/workspace-management.png" alt="">
+                                        <img src="assets/images/services-listings-02/workspace-management.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Workspace Management</span>
@@ -314,12 +358,16 @@
                                             <p class="__description">
                                                 Digitally enhanced spaces to enable hybrid work
                                             </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/connect-collaborate.png" alt="">
+                                        <img src="assets/images/services-listings-02/connect-collaborate.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Connect & Collaborate</span>
@@ -327,12 +375,16 @@
                                             <p class="__description">
                                                 Simple solutions for complex collaboration issues
                                             </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/ms-teams-rooms.png" alt="">
+                                        <img src="assets/images/services-listings-02/ms-teams-rooms.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Microsoft Teams Rooms</span>
@@ -340,18 +392,26 @@
                                             <p class="__description">
                                                 Simple solutions for complex collaborations
                                             </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/creative-collaboration.png" alt="">
+                                        <img src="assets/images/services-listings-02/creative-collaboration.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Creative Collaboration Hub</span>
                                             </p>
                                             <p class="__description">
                                                 An all-in-one collaborative meeting solution
+                                            </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -370,7 +430,7 @@
                             <ul class="__sub-menu row row-cols-1 row-cols-lg-2 g-2 g-lg-4">
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/workspace-management.png" alt="">
+                                        <img src="assets/images/services-listings-02/workspace-management.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Workspace Management</span>
@@ -378,12 +438,16 @@
                                             <p class="__description">
                                                 Digitally enhanced spaces to enable hybrid work
                                             </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/connect-collaborate.png" alt="">
+                                        <img src="assets/images/services-listings-02/connect-collaborate.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Connect & Collaborate</span>
@@ -391,12 +455,16 @@
                                             <p class="__description">
                                                 Simple solutions for complex collaboration issues
                                             </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/ms-teams-rooms.png" alt="">
+                                        <img src="assets/images/services-listings-02/ms-teams-rooms.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Microsoft Teams Rooms</span>
@@ -404,18 +472,26 @@
                                             <p class="__description">
                                                 Simple solutions for complex collaborations
                                             </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                            </p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="col">
                                     <a href="#">
-                                        <img src="assets/images/services-listings-01/creative-collaboration.png" alt="">
+                                        <img src="assets/images/services-listings-02/creative-collaboration.png" alt="">
                                         <div class="__description-container">
                                             <p class="__title">
                                                 <span>Creative Collaboration Hub</span>
                                             </p>
                                             <p class="__description">
                                                 An all-in-one collaborative meeting solution
+                                            </p>
+                                            <p class="__extra_cta_text">
+                                                <span>Find out more</span>
+                                                <span class="wr-icon-arrow-right-greyscale"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -473,9 +549,4 @@
 
         });
     </script>
-</section>    </main>
-
-    <script src="./assets/js/bs.js"></script>
-</body>
-
-</html>
+</section>

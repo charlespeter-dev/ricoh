@@ -6,7 +6,7 @@ $css = [
     'assets/css/global.css',
     'assets/css/bs-wr.css',
     'assets/css/wr-icons.css',
-    'assets/css/services-listings-01.css',
+    'assets/css/services-listings-02.css',
 ];
 
 ?><!DOCTYPE html>
@@ -15,7 +15,7 @@ $css = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ricoh - Web Refresh - services-listings-01</title>
+    <title>Ricoh - Web Refresh - services-listings-02</title>
 
     <?php foreach ($css as $file): ?>
         <link rel="stylesheet" href="<?= $file ?>?t=<?= time() ?>">
@@ -26,7 +26,7 @@ $css = [
 <body>
 
     <main class="container">
-        <?php include 'components/services-listings-01.php'; ?>
+        <?php include 'components/services-listings-02.php'; ?>
     </main>
 
     <script src="./assets/js/bs.js"></script>
