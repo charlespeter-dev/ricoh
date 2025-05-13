@@ -90,11 +90,6 @@
   width: 100%;
   background-color: #F3F3F3;
 }
-.bsc.wr.customer-stories-01 .__testimonial-swiper figure,
-.bsc.wr.customer-stories-01 .__testimonial-swiper blockquote {
-  margin: 0;
-  padding: 0;
-}
 .bsc.wr.customer-stories-01 .__testimonial-swiper .swiper-slide {
   display: flex;
   flex-direction: column;

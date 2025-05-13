@@ -49,70 +49,81 @@
 
                         <!-- 1st slide -->
                         <div class="swiper-slide">
-                            <div class="__testimony">
-                                <p>
-                                    Westpac is creating a more productive and sustainable place to work, we are
-                                    introducing smarter printers and we are becoming greener. Ricoh is helping Westpac
-                                    achieve its carbon footprint targets by reducing power consumption and paper waste.
-                                    Together these initiatives are delivering a simpler, smarter, greener place to work.
-                                </p>
-                            </div>
-                            <div class="__cite-bottom">
-                                <div class="__author">
-                                    <cite class="__author-name">
-                                        Gary Sim
-                                    </cite>
-                                    <cite class="__author-title">
-                                        General Manager of Westpac’s Service Delivery Infrastructure Group
-                                    </cite>
+                            <div>
+                                <div class="__testimony">
+                                    <p>
+                                        Westpac is creating a more productive and sustainable place to work, we are
+                                        introducing smarter printers and we are becoming greener. Ricoh is helping
+                                        Westpac
+                                        achieve its carbon footprint targets by reducing power consumption and paper
+                                        waste.
+                                        Together these initiatives are delivering a simpler, smarter, greener place to
+                                        work.
+                                    </p>
                                 </div>
-                                <img class="img-fluid __logo"
-                                    src="assets/images/customer-stories-01/customer-story-logo-westpac.png" alt="">
+                                <div class="__cite-bottom">
+                                    <div class="__author">
+                                        <cite class="__author-name">
+                                            Gary Sim
+                                        </cite>
+                                        <cite class="__author-title">
+                                            General Manager of Westpac’s Service Delivery Infrastructure Group
+                                        </cite>
+                                    </div>
+                                    <img class="img-fluid __logo"
+                                        src="assets/images/customer-stories-01/customer-story-logo-westpac.png" alt="">
+                                </div>
                             </div>
                         </div>
 
                         <!-- 2nd slide -->
                         <div class="swiper-slide">
-                            <div class="__testimony">
-                                <p>
-                                    The Ricoh solution has given us the ability to allow our dealers to track warranty
-                                    claims throughout the entire process via the customer portal. The portal also gives
-                                    them the ability to track return packages via our transport partners.
-                                </p>
-                            </div>
-                            <div class="__cite-bottom">
-                                <div class="__author">
-                                    <cite class="__author-name">
-                                        Tim Clarke
-                                    </cite>
-                                    <cite class="__author-title">
-                                        IT Manager at Shimano Oceania Holdings
-                                    </cite>
+                            <div>
+                                <div class="__testimony">
+                                    <p>
+                                        The Ricoh solution has given us the ability to allow our dealers to track
+                                        warranty
+                                        claims throughout the entire process via the customer portal. The portal also
+                                        gives
+                                        them the ability to track return packages via our transport partners.
+                                    </p>
                                 </div>
-                                <img class="img-fluid __logo"
-                                    src="assets/images/customer-stories-01/customer-story-logo-shimano.png" alt="">
+                                <div class="__cite-bottom">
+                                    <div class="__author">
+                                        <cite class="__author-name">
+                                            Tim Clarke
+                                        </cite>
+                                        <cite class="__author-title">
+                                            IT Manager at Shimano Oceania Holdings
+                                        </cite>
+                                    </div>
+                                    <img class="img-fluid __logo"
+                                        src="assets/images/customer-stories-01/customer-story-logo-shimano.png" alt="">
+                                </div>
                             </div>
                         </div>
 
                         <!-- 3rd slide -->
                         <div class="swiper-slide">
-                            <div class="__testimony">
-                                <p>
-                                    We found that the RICOH Interactive White Board enables us to concentrate on our
-                                    main role and encourage smooth and productive meetings.
-                                </p>
-                            </div>
-                            <div class="__cite-bottom">
-                                <div class="__author">
-                                    <cite class="__author-name">
-                                        Mr Fujino
-                                    </cite>
-                                    <cite class="__author-title">
-                                        IT Group, JX Holdings
-                                    </cite>
+                            <div>
+                                <div class="__testimony">
+                                    <p>
+                                        We found that the RICOH Interactive White Board enables us to concentrate on our
+                                        main role and encourage smooth and productive meetings.
+                                    </p>
                                 </div>
-                                <img class="img-fluid __logo"
-                                    src="assets/images/customer-stories-01/customer-story-logo-jx.png" alt="">
+                                <div class="__cite-bottom">
+                                    <div class="__author">
+                                        <cite class="__author-name">
+                                            Mr Fujino
+                                        </cite>
+                                        <cite class="__author-title">
+                                            IT Group, JX Holdings
+                                        </cite>
+                                    </div>
+                                    <img class="img-fluid __logo"
+                                        src="assets/images/customer-stories-01/customer-story-logo-jx.png" alt="">
+                                </div>
                             </div>
                         </div>
 
