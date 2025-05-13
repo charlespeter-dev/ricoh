@@ -126,7 +126,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         window.addEventListener('DOMContentLoaded', function () {
-            var customerStoriesTestimonialSwiper = new Swiper(".customer-stories-01 .__testimonial-swiper", {
+            const customerStoriesTestimonialSwiper = new Swiper(".customer-stories-01 .__testimonial-swiper", {
                 effect: "fade",
                 fadeEffect: {
                     crossFade: true,
