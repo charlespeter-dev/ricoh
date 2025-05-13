@@ -126,7 +126,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         window.addEventListener('DOMContentLoaded', function () {
-            var customerStoriesTestimonialSwiper = new Swiper(".customer-stories-01 .__testimonial-swiper", {
+            const customerStoriesTestimonialSwiper = new Swiper(".customer-stories-01 .__testimonial-swiper", {
                 effect: "fade",
                 fadeEffect: {
                     crossFade: true,
@@ -135,7 +135,28 @@
                     nextEl: ".customer-stories-01 .__swiper-button-next",
                     prevEl: ".customer-stories-01 .__swiper-button-prev",
                 },
+                allowTouchMove: false,
             });
+
+            // Re-rendering Swiper on Window Resize
+            // debounce the resize handler to avoid excessive updates
+            // Debounce function
+            function debounce(func, wait) {
+                let timeout;
+                return function () {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(() => func.apply(this, arguments), wait);
+                };
+            }
+
+            // Debounced resize handler
+            const handleResize = debounce(() => {
+                customerStoriesTestimonialSwiper.update();
+                console.log('Swiper updated on resize');
+            }, 200);
+
+            // Attach the event listener
+            window.addEventListener('resize', handleResize);
         });
     </script>
 </section>
