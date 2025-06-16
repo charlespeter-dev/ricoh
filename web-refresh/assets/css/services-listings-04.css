@@ -29,12 +29,12 @@
 .bsc.wr.services-listings-04 .__main-menu > li {
   display: flex;
   flex-direction: column;
-  border-right: 1px solid #B1B1B1;
 }
 @media (min-width: 992px) {
   .bsc.wr.services-listings-04 .__main-menu > li {
     width: var(--ricoh-main-menu-width);
     flex-direction: row;
+    border-right: 1px solid #B1B1B1;
   }
 }
 .bsc.wr.services-listings-04 .__main-menu > li > a {
@@ -178,16 +178,13 @@
   text-decoration: none;
   padding-block: 0.5rem;
   padding-inline-start: 1rem;
-  border-radius: 8px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
 @media (min-width: 992px) {
   .bsc.wr.services-listings-04 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a {
     gap: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
   }
-}
-.bsc.wr.services-listings-04 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a:hover {
-  background: var(--ricoh-brand-color-hover);
 }
 .bsc.wr.services-listings-04 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a:hover .__description-container .__title {
   color: var(--ricoh-brand-color);
@@ -241,7 +238,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: #CF142B;
+  color: var(--ricoh-brand-color);
   font-family: "frutiger", sans-serif;
   font-size: 15px;
   font-style: normal;
@@ -254,7 +251,7 @@
   font-size: 10px;
 }
 .bsc.wr.services-listings-04 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__extra_cta_text [class*=wr-icon-]::before {
-  color: #CF142B;
+  color: var(--ricoh-brand-color);
 }
 
 /*# sourceMappingURL=services-listings-04.css.map */
