@@ -48,11 +48,11 @@
           </mj-text>
 
           <mj-text mj-class="subheading" padding-bottom="20px">
-            Build organisational responsiveness with our guide to managing disruption
+            Take a step towards financial resilience with our guide to managing disruption
           </mj-text>
         </mj-column>
         <mj-column width="47%" vertical-align="middle">
-          <mj-image fluid-on-mobile="true" padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/631/images/631-Q2-2025-Tariff-Optimisation-Plan-EDM-Header-Banner-Persona-1-Thumbnail-Image.png" alt="" />
+          <mj-image fluid-on-mobile="true" padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/631/images/631-Q2-2025-Tariff-Optimisation-Plan-EDM-Header-Banner-Persona-4-Thumbnail-Image.png" alt="" />
         </mj-column>
       </mj-section>
 
@@ -64,15 +64,19 @@
         <mj-column>
 
           <mj-text>
-          Over the last 5 years, operational disruption has become the norm rather than the exception. From fluctuating markets to disrupted supply chains, today’s business climate places immense pressure on operations leaders to deliver consistency and control amidst uncertainty.
+          From supply chain disruptions and changing trade conditions to rapid shifts in customer expectations and cost pressures, business leaders across APAC are navigating some of the toughest conditions in years.
           </mj-text>
 
           <mj-text>
-          What we’ve discovered from our customers is that businesses that weather disruption best are typically led by COOs who prioritise operational agility. They take a more strategic approach by reducing operational friction, increasing responsiveness, and enabling faster, more informed decision-making.
+          There’s no longer a clear path back to stability, but there is a smarter way forward.
           </mj-text>
 
           <mj-text>
-          To support this shift, we’ve developed a new resource, <strong style="color: #CF142B; font-weight: 700;">“Focus on Forward: A Guide to Navigating Disruption”</strong>,  where we outline how forward-focused organisations are:
+          The organisations weathering the storm best are the ones investing in the right mix of financial resilience, operational agility, and insight visibility across their business.
+          </mj-text>
+
+          <mj-text>
+          Our new guide, <strong style="color: #CF142B; font-weight: 700;">“Focus on Forward: A Guide to Navigating Disruption”</strong>, outlines how organisations are:
           </mj-text>
 
         </mj-column>
@@ -83,15 +87,15 @@
           <mj-table cellpadding="4px">
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Streamlining workflows to reduce bottlenecks and administrative overhead</td>
+              <td style="padding-left: 10px;">Streamlining operations to reduce friction and increase responsiveness</td>
             </tr>
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Improving data visibility to enhance decision speed and accuracy</td>
+              <td style="padding-left: 10px;">Freeing up team capacity through automation and better workflow design</td>
             </tr>
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Scaling operations without increasing headcount or complexity.</td>
+              <td style="padding-left: 10px;">Improving decision-making with clearer, more accessible business data.</td>
             </tr>
           </mj-table>
         </mj-column>
@@ -100,7 +104,7 @@
       <mj-section padding-top="0" padding-bottom="0">
         <mj-column>
           <mj-text>
-            Whether you're addressing inefficiencies or planning for long-term resilience, this guide offers clear, actionable insights based on real-world examples.
+          Whether you're driving finance, operations, technology, or all three, this guide provides actionable ways to improve performance today while preparing for whatever comes next.
           </mj-text>
         </mj-column>
       </mj-section>
@@ -108,7 +112,7 @@
       <mj-section>
         <mj-column width="91%" background-color="#f3f3f3" padding="20px">
           <mj-text align="center">
-            <strong>Gain clarity, build agility, and take the next step forward.</strong>
+            <strong>Gain clarity. Reduce complexity. Move forward with confidence.</strong>
           </mj-text>
           <mj-button href="https://www.ricoh.com/" width="300px">
            Download the Guide

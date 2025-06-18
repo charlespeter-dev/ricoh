@@ -52,7 +52,7 @@
           </mj-text>
         </mj-column>
         <mj-column width="47%" vertical-align="middle">
-          <mj-image fluid-on-mobile="true" padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/631/images/631-Q2%202025-Tariff-Optimisation-Plan-EDM-Header-Banner-Persona-2-Thumbnail-Image.png" alt="" />
+          <mj-image fluid-on-mobile="true" padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/631/images/631-Q2-2025-Tariff-Optimisation-Plan-EDM-Header-Banner-Persona-2-Thumbnail-Image.png" alt="" />
         </mj-column>
       </mj-section>
 

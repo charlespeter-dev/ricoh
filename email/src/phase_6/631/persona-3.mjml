@@ -48,11 +48,11 @@
           </mj-text>
 
           <mj-text mj-class="subheading" padding-bottom="20px">
-            Stay responsive in the face of change with our guide to managing disruption
+            Take a step towards financial resilience with our guide to managing disruption
           </mj-text>
         </mj-column>
         <mj-column width="47%" vertical-align="middle">
-          <mj-image fluid-on-mobile="true" padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/631/images/631-Q2%202025-Tariff-Optimisation-Plan-EDM-Header-Banner-Persona-2-Thumbnail-Image.png" alt="" />
+          <mj-image fluid-on-mobile="true" padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/631/images/631-Q2-2025-Tariff-Optimisation-Plan-EDM-Header-Banner-Persona-3-Thumbnail-Image.png" alt="" />
         </mj-column>
       </mj-section>
 
@@ -64,19 +64,19 @@
         <mj-column>
 
           <mj-text>
-          In a growing organisation, most projects now involve a digital component, placing IT at its centre. So, technology isn’t just a support function anymore—it’s the engine behind nearly every business initiative, especially in response to disruption.
+          Finance functions across APAC are facing sharper disruption than ever before—from unpredictable economic decisions and currency swings to delayed payments, rising costs, and tightening market conditions.
           </mj-text>
 
           <mj-text>
-          From supply chain shifts and economic volatility to the rapid rise of AI, ongoing disruption is accelerating digital transformation across the board. This means IT managers are under pressure to enable secure, scalable systems while managing growing demands and shrinking resources.
+          Today’s finance leaders are expected to protect cash flow and profitability while enabling smart decision-making to prepare for what’s next. Waiting for stability isn’t a viable strategy anymore.
           </mj-text>
 
           <mj-text>
-          The most forward-thinking IT leaders are meeting this challenge not by doing it all themselves, but by simplifying and scaling with the right support.
+          The most effective CFOs are building financial resilience into their organisation by identifying friction points, freeing up trapped resources, and building a road map to provide a buffer against the next inevitable disruption.
           </mj-text>
 
           <mj-text>
-          Our new guide, <strong style="color: #CF142B; font-weight: 700;">“Focus on Forward: A Guide to Navigating Disruption”</strong>, shares how IT leaders are:
+          Our new guide, <strong style="color: #CF142B; font-weight: 700;">“Focus on Forward: A Guide to Navigating Disruption”</strong>, shares how finance leaders are:
           </mj-text>
 
         </mj-column>
@@ -87,15 +87,15 @@
           <mj-table cellpadding="4px">
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Reducing risk and support load with managed IT and security services</td>
+              <td style="padding-left: 10px;">Automating the full accounts payable chain to reduce risk and free up team resources</td>
             </tr>
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Simplifying infrastructure with scalable cloud platforms</td>
+              <td style="padding-left: 10px;">Streamlining finance workflows to optimise cost and accelerate cashflow</td>
             </tr>
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Enabling secure collaboration through digitisation and access control.</td>
+              <td style="padding-left: 10px;">Enabling faster, more informed decisions with real-time data visibility.</td>
             </tr>
           </mj-table>
         </mj-column>
@@ -104,7 +104,7 @@
       <mj-section padding-top="0" padding-bottom="0">
         <mj-column>
           <mj-text>
-          Whether you're dealing with user sprawl, growing risk, or competing infrastructure priorities, this guide offers practical ways to ease the pressure and support sustainable growth.
+          This guide outlines practical ways finance leaders can strengthen control, improve visibility, and build resilience across cashflow, forecasting, and compliance.
           </mj-text>
         </mj-column>
       </mj-section>
@@ -112,7 +112,7 @@
       <mj-section>
         <mj-column width="91%" background-color="#f3f3f3" padding="20px">
           <mj-text align="center">
-            <strong>Protect your organisation against disruption—without overstretching your team.</strong>
+            <strong>Take the next step toward financial clarity and confidence.</strong>
           </mj-text>
           <mj-button href="https://www.ricoh.com/" width="300px">
            Download the Guide
