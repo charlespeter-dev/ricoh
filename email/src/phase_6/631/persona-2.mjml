@@ -1,0 +1,173 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" />
+      <mj-wrapper background-color="#eeeeee" padding="0" />
+      <mj-section background-color="#ffffff" />
+      <mj-text font-size="16px" line-height="26px" color="#666666" />
+      <mj-table font-size="16px" line-height="22px" color="#666666" />
+      <mj-button font-size="18px" line-height="22px" font-weight="700" color="#FFFFFF" background-color="#CF142B" width="100%" border-radius="0" />
+      <mj-divider border-color="#CF142B" container-background-color="#CF142B" border-width="3px" border-style="solid" padding="0" />
+      <mj-class name="subheading" font-size="18px" line-height="23px" color="#666666" />
+      <mj-class name="h1" font-size="26px" line-height="32px" font-weight="700" color="#333333" />
+      <mj-class name="h3" font-size="16px" line-height="22px" color="#CF142B" font-weight="700" />
+      <mj-class name="resource-type" font-size="16px" line-height="22px" color="#CF142B" font-weight="700" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+
+  </mj-head>
+
+  <mj-body>
+
+    <mj-wrapper full-width="full-width">
+
+      <!-- header -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/logo.png" alt="" width="130px" height="47.89px" align="left" />
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- hero start -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column width="53%" vertical-align="middle">
+          <mj-text mj-class="h1">
+           Disruption Is the New Normal
+          </mj-text>
+
+          <mj-text mj-class="subheading" padding-bottom="20px">
+            Stay responsive in the face of change with our guide to managing disruption
+          </mj-text>
+        </mj-column>
+        <mj-column width="47%" vertical-align="middle">
+          <mj-image fluid-on-mobile="true" padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/631/images/631-Q2%202025-Tariff-Optimisation-Plan-EDM-Header-Banner-Persona-2-Thumbnail-Image.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <!-- hero end -->
+
+      <!-- content start -->
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+
+          <mj-text>
+          In a growing organisation, most projects now involve a digital component, placing IT at its centre. So, technology isn’t just a support function anymore—it’s the engine behind nearly every business initiative, especially in response to disruption.
+          </mj-text>
+
+          <mj-text>
+          From supply chain shifts and economic volatility to the rapid rise of AI, ongoing disruption is accelerating digital transformation across the board. This means IT managers are under pressure to enable secure, scalable systems while managing growing demands and shrinking resources.
+          </mj-text>
+
+          <mj-text>
+          The most forward-thinking IT leaders are meeting this challenge not by doing it all themselves, but by simplifying and scaling with the right support.
+          </mj-text>
+
+          <mj-text>
+          Our new guide, <strong style="color: #CF142B; font-weight: 700;">“Focus on Forward: A Guide to Navigating Disruption”</strong>, shares how IT leaders are:
+          </mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-left="0" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-table cellpadding="4px">
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">Reducing risk and support load with managed IT and security services</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">Simplifying infrastructure with scalable cloud platforms</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">Enabling secure collaboration through digitisation and access control.</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0" padding-bottom="0">
+        <mj-column>
+          <mj-text>
+          Whether you're dealing with user sprawl, growing risk, or competing infrastructure priorities, this guide offers practical ways to ease the pressure and support sustainable growth.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="91%" background-color="#f3f3f3" padding="20px">
+          <mj-text align="center">
+            <strong>Protect your organisation against disruption—without overstretching your team.</strong>
+          </mj-text>
+          <mj-button href="https://www.ricoh.com/" width="300px">
+           Download the Guide
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text>
+          Let’s Focus on Forward together.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0">
+        <mj-column>
+          <mj-text>
+            Best Regards, <br> [Ricoh Team Info]
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer top -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column vertical-align="middle">
+          <mj-text mj-class="footer-top">
+            © 2025 Ricoh. All rights reserved.
+          </mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle">
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/logo.png" alt="" width="130px" height="47.89px" align="right" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer bottom -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-bottom" align="center">
+            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"></span style="color: #333; text-decoration: underline;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"><span style="color: #333; text-decoration: underline;">Manage Preferences</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
