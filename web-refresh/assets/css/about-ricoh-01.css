@@ -1,0 +1,168 @@
+.bsc.wr.about-ricoh-01 {
+  padding-block: 64px;
+}
+.bsc.wr.about-ricoh-01 .__main-heading {
+  margin-block-end: 40px;
+}
+.bsc.wr.about-ricoh-01 .__main-heading h2 {
+  color: #333;
+  font-family: "frutiger", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+  text-wrap: pretty;
+  margin: 0;
+}
+.bsc.wr.about-ricoh-01 .__cards {
+  margin-block-end: 64px;
+}
+.bsc.wr.about-ricoh-01 .__cards .__card-item {
+  display: block;
+  position: relative;
+  background-image: var(--ricoh-background-image);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  width: 100%;
+  height: 325px;
+  transition: all 0.3s ease;
+  transform-origin: bottom;
+}
+.bsc.wr.about-ricoh-01 .__cards .__card-item::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 3.23%, var(--Greyscale-Black, #000) 90.78%);
+  width: 100%;
+  height: 100%;
+}
+.bsc.wr.about-ricoh-01 .__cards .__card-item:hover::before {
+  background: linear-gradient(180deg, rgba(207, 20, 43, 0) 3.23%, rgba(124, 9, 23, 0.9) 90.78%);
+}
+.bsc.wr.about-ricoh-01 .__cards .__card-item:hover .__description-container .__description {
+  transform: translateY(0);
+}
+.bsc.wr.about-ricoh-01 .__cards .__card-item .__card-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+.bsc.wr.about-ricoh-01 .__cards .__card-item .__description-container {
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  padding: 16px;
+}
+@media (min-width: 992px) {
+  .bsc.wr.about-ricoh-01 .__cards .__card-item .__description-container {
+    bottom: 0;
+  }
+}
+.bsc.wr.about-ricoh-01 .__cards .__card-item .__description-container .__title {
+  color: #FFF;
+  font-family: "frutiger", sans-serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin-block-end: 5px;
+}
+.bsc.wr.about-ricoh-01 .__cards .__card-item .__description-container .__description {
+  color: #FFF;
+  font-family: "frutiger", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+  margin-block-end: 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  transition: all 0.3s ease;
+}
+@media (min-width: 992px) {
+  .bsc.wr.about-ricoh-01 .__cards .__card-item .__description-container .__description {
+    transform: translateY(200%);
+  }
+}
+.bsc.wr.about-ricoh-01 .__cards .__card-item .__description-container .__description .wr-icon-arrow-red {
+  font-size: 15px;
+}
+.bsc.wr.about-ricoh-01 .__cards .__card-item .__description-container .__description .wr-icon-arrow-red::before {
+  color: #FFF;
+}
+.bsc.wr.about-ricoh-01 .__lets-connect {
+  border-radius: 12px;
+  background: #CF142B;
+  padding: 32px;
+}
+@media (min-width: 992px) {
+  .bsc.wr.about-ricoh-01 .__lets-connect {
+    padding: 48px;
+  }
+}
+.bsc.wr.about-ricoh-01 .__lets-connect .__left-column .__icon-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+@media (min-width: 992px) {
+  .bsc.wr.about-ricoh-01 .__lets-connect .__left-column .__icon-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+.bsc.wr.about-ricoh-01 .__lets-connect .__left-column .__main-heading {
+  color: #FFF;
+  font-family: "frutiger", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+  margin: 0;
+}
+.bsc.wr.about-ricoh-01 .__lets-connect .__description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.bsc.wr.about-ricoh-01 .__lets-connect .__description-container .__title {
+  color: #FFF;
+  font-family: "frutiger", sans-serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.bsc.wr.about-ricoh-01 .__lets-connect .__description-container .__description {
+  color: #FFF;
+  font-family: "frutiger", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+.bsc.wr.about-ricoh-01 .__lets-connect .__description-container .__cta {
+  display: inline-block;
+  background-color: #CF142B;
+  color: #FFF;
+  font-family: "frutiger", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  border-radius: 7px;
+  border: 2px solid #FFF;
+  padding: 10px 24px;
+}
+
+/*# sourceMappingURL=about-ricoh-01.css.map */
