@@ -226,6 +226,12 @@
     justify-content: space-between;
     align-items: center;
   }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation .subnav-level-1 a [class*=wr-icon-] {
+    font-size: 0.8em;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation .subnav-level-1 .subnav-level-2 a [class*=wr-icon-] {
+    font-size: 1.2em;
+  }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul {
     display: flex;
     flex-direction: column;

@@ -11,8 +11,8 @@
   "author": "charles",
   "license": "ISC",
   "devDependencies": {
-    "bootstrap": "^5.3.3",
-    "browser-sync": "^3.0.3",
-    "sass": "^1.85.1"
+    "bootstrap": "^5.3.7",
+    "browser-sync": "^3.0.4",
+    "sass": "^1.89.2"
   }
 }

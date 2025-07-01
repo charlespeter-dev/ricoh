@@ -257,8 +257,27 @@
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+
+
                 }
 
+                .subnav-level-1 {
+                    a {
+
+                        [class*="wr-icon-"] {
+                            font-size: .8em;
+                        }
+                    }
+
+                    .subnav-level-2 {
+                        a {
+
+                            [class*="wr-icon-"] {
+                                font-size: 1.2em;
+                            }
+                        }
+                    }
+                }
 
                 // first level nav menu
                 >ul {
