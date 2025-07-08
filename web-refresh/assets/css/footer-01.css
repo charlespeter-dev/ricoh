@@ -1,0 +1,77 @@
+.bsc.wr.footer-01 {
+  position: relative;
+  background-color: transparent;
+  padding-block: 4rem;
+}
+.bsc.wr.footer-01::before {
+  content: "";
+  background-color: var(--ricoh-section-background-color, #F3F3F3);
+  width: 100vw;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: calc(-50vw + 50%);
+  z-index: -1;
+}
+.bsc.wr.footer-01 .right-ribbon {
+  display: none;
+}
+@media (min-width: 768px) {
+  .bsc.wr.footer-01 .right-ribbon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: calc(-50vw + 50%);
+  }
+}
+.bsc.wr.footer-01 h2,
+.bsc.wr.footer-01 h3 {
+  color: #333;
+  font-family: frutiger, "frutiger linotype", univers, calibri, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+.bsc.wr.footer-01 nav ul {
+  padding-inline-start: 0;
+  margin-block-end: 1.5rem;
+}
+.bsc.wr.footer-01 nav a {
+  color: #333;
+  font-family: frutiger, "frutiger linotype", univers, calibri, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+.bsc.wr.footer-01 .social {
+  margin-block-start: 2rem;
+  align-items: center;
+}
+.bsc.wr.footer-01 .social ul {
+  display: flex;
+  gap: 0.5rem;
+}
+.bsc.wr.footer-01 .social ul a > svg {
+  height: 40px;
+  width: 40px;
+}
+.bsc.wr.footer-01 .social .back-top-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.bsc.wr.footer-01 .social .back-top-top > svg {
+  margin-inline-end: 1.5rem;
+  margin-block-end: 0.5rem;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=footer-01.css.map */

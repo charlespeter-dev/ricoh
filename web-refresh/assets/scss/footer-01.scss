@@ -1,0 +1,97 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+
+.bsc.wr.footer-01 {
+
+    position: relative;
+    background-color: transparent;
+    padding-block: 4rem;
+
+    &::before {
+        content: "";
+        background-color: var(--ricoh-section-background-color, #F3F3F3);
+        width: 100vw;
+        height: 100%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: calc(-50vw + 50%);
+        z-index: -1;
+    }
+
+    .right-ribbon {
+        display: none;
+
+        @include media-breakpoint-up(md) {
+            display: block;
+            position: absolute;
+            top: 0;
+            right: calc(-50vw + 50%);
+        }
+    }
+
+    h2,
+    h3 {
+        color: #333;
+        font-family: frutiger, "frutiger linotype", univers, calibri, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 1rem;
+    }
+
+    nav {
+
+        ul {
+            padding-inline-start: 0;
+            margin-block-end: 1.5rem;
+        }
+
+        a {
+            color: #333;
+            font-family: frutiger, "frutiger linotype", univers, calibri, sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-decoration: none;
+        }
+    }
+
+    .social {
+
+        margin-block-start: 2rem;
+        align-items: center;
+
+        ul {
+            display: flex;
+            gap: .5rem;
+
+            a {
+                >svg {
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+        }
+
+        .back-top-top {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+
+            >svg {
+                margin-inline-end: 1.5rem;
+                margin-block-end: .5rem;
+                width: 42px;
+                height: 42px;
+                cursor: pointer;
+            }
+        }
+    }
+}
