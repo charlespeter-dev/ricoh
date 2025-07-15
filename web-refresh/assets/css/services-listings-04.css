@@ -247,7 +247,7 @@
 }
 .bsc.wr.services-listings-04 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__extra_cta_text [class*=wr-icon-] {
   transition: all 0.3s;
-  font-size: 10px;
+  font-size: 6px;
 }
 .bsc.wr.services-listings-04 .__main-menu > li .__sub-menu-container.active .__sub-menu > li > a .__description-container .__extra_cta_text [class*=wr-icon-]::before {
   color: var(--ricoh-brand-color);
