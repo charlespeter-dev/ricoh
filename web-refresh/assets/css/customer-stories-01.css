@@ -50,8 +50,12 @@
   align-items: center;
   gap: 0.5rem;
 }
-.bsc.wr.customer-stories-01 .__cta-container .__cta-secondary .wr-icon-arrow-red {
-  font-size: 1em;
+.bsc.wr.customer-stories-01 .__cta-container .__cta-secondary .wr-icon-arrow-right {
+  font-size: 12px;
+  transition: all 0.3s ease;
+}
+.bsc.wr.customer-stories-01 .__cta-container .__cta-secondary:hover .wr-icon-arrow-right {
+  transform: translateX(7px);
 }
 .bsc.wr.customer-stories-01 .__left-bottom {
   padding-block: 2rem;
@@ -71,19 +75,26 @@
     justify-content: flex-start;
   }
 }
-.bsc.wr.customer-stories-01 .__left-bottom .__navigation .__swiper-button-prev.swiper-button-disabled .path1::before,
-.bsc.wr.customer-stories-01 .__left-bottom .__navigation .__swiper-button-next.swiper-button-disabled .path1::before {
-  color: #f3f3f3;
-}
-.bsc.wr.customer-stories-01 .__left-bottom .__navigation .__swiper-button-prev.swiper-button-disabled:hover .path1::before,
-.bsc.wr.customer-stories-01 .__left-bottom .__navigation .__swiper-button-next.swiper-button-disabled:hover .path1::before {
-  color: #f3f3f3;
-}
-.bsc.wr.customer-stories-01 .__left-bottom .__navigation [class*=wr-icon-] .path1::before {
-  color: #f8ccc9;
-}
-.bsc.wr.customer-stories-01 .__left-bottom .__navigation [class*=wr-icon-]:hover .path1::before {
+.bsc.wr.customer-stories-01 .__left-bottom .__navigation .__swiper-button-prev {
   color: #CF142B;
+}
+.bsc.wr.customer-stories-01 .__left-bottom .__navigation .__swiper-button-prev .wr-icon-chevron-right-square {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+.bsc.wr.customer-stories-01 .__left-bottom .__navigation .__swiper-button-prev.swiper-button-disabled .wr-icon-chevron-right-square {
+  color: #f3f3f3;
+  cursor: not-allowed;
+}
+.bsc.wr.customer-stories-01 .__left-bottom .__navigation .__swiper-button-next {
+  color: #CF142B;
+}
+.bsc.wr.customer-stories-01 .__left-bottom .__navigation .__swiper-button-next .wr-icon-chevron-right-square {
+  display: inline-block;
+}
+.bsc.wr.customer-stories-01 .__left-bottom .__navigation .__swiper-button-next.swiper-button-disabled .wr-icon-chevron-right-square {
+  color: #f3f3f3;
+  cursor: not-allowed;
 }
 .bsc.wr.customer-stories-01 .__testimonial-swiper {
   overflow: hidden;

@@ -43,7 +43,7 @@
                         <div class="__cta-container">
                             <a class="__cta-secondary" href="#">
                                 <span>Read more</span>
-                                <span class="wr-icon-arrow-red"></span>
+                                <span class="wr-icon-arrow-right"></span>
                             </a>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                         <div class="__cta-container">
                             <a class="__cta-secondary" href="#">
                                 <span>Read more</span>
-                                <span class="wr-icon-arrow-red"></span>
+                                <span class="wr-icon-arrow-right"></span>
                             </a>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
                         <div class="__cta-container">
                             <a class="__cta-secondary" href="#">
                                 <span>Read more</span>
-                                <span class="wr-icon-arrow-red"></span>
+                                <span class="wr-icon-arrow-right"></span>
                             </a>
                         </div>
                     </div>

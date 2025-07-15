@@ -160,7 +160,6 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 27px;
   text-decoration: none;
   display: flex;
   gap: 0.5rem;
@@ -168,7 +167,7 @@
 }
 .bsc.wr.insights-blocks-01 .__cta-container .__cta-secondary [class*=wr-icon-] {
   transition: all 0.3s;
-  font-size: 1em;
+  font-size: 12px;
 }
 .bsc.wr.insights-blocks-01 .__cta-container .__cta-secondary:hover [class*=wr-icon-] {
   transform: translateX(10px);

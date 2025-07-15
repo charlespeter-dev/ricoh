@@ -36,7 +36,7 @@
         padding: 0;
 
         [class^=wr-icon-] {
-            font-size: 55px;
+            font-size: 50px;
         }
 
         >li {
@@ -59,9 +59,8 @@
                 font-size: 18px;
                 font-style: normal;
                 font-weight: 700;
-                line-height: 27px;
                 text-decoration: none;
-                padding-block: .5rem;
+                padding-block: 0;
                 padding-inline-start: .5rem;
 
                 @include media-breakpoint-up(lg) {

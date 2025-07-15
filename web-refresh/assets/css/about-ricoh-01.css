@@ -90,10 +90,10 @@
     transform: translateY(200%);
   }
 }
-.bsc.wr.about-ricoh-01 .__cards .__card-item .__description-container .__description .wr-icon-arrow-red {
-  font-size: 15px;
+.bsc.wr.about-ricoh-01 .__cards .__card-item .__description-container .__description .wr-icon-arrow-right {
+  font-size: 12px;
 }
-.bsc.wr.about-ricoh-01 .__cards .__card-item .__description-container .__description .wr-icon-arrow-red::before {
+.bsc.wr.about-ricoh-01 .__cards .__card-item .__description-container .__description .wr-icon-arrow-right::before {
   color: #FFF;
 }
 .bsc.wr.about-ricoh-01 .__lets-connect {

@@ -133,7 +133,7 @@
 }
 .bsc.wr.hero-01 .__hero-content .__stage .__cta-containers .__cta-container .__cta-secondary [class*=wr-icon-] {
   transition: all 0.3s;
-  font-size: 1em;
+  font-size: 10px;
 }
 .bsc.wr.hero-01 .__hero-content .__stage .__cta-containers .__cta-container .__cta-secondary:hover [class*=wr-icon-] {
   transform: translateX(10px);

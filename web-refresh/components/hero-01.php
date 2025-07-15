@@ -33,7 +33,7 @@
                                 <span>
                                     Hybrid Workplace
                                 </span>
-                                <span class="wr-icon-arrow-red"></span>
+                                <span class="wr-icon-arrow-right"></span>
                             </a>
                         </div>
                     </div>

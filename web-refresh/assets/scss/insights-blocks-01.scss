@@ -191,7 +191,6 @@
             font-size: 18px;
             font-style: normal;
             font-weight: 700;
-            line-height: 27px;
             text-decoration: none;
 
             display: flex;
@@ -200,7 +199,7 @@
 
             [class*="wr-icon-"] {
                 transition: all 0.3s;
-                font-size: 1em;
+                font-size: 12px;
             }
 
             &:hover {

@@ -53,7 +53,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Insights</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -75,7 +75,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Read Insights</span>
-                                                                        <span class="wr-icon-arrow-red"></span>
+                                                                        <span class="wr-icon-arrow-right"></span>
                                                                     </a>
                                                                 </li>
                                                             </ul>
@@ -109,7 +109,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Customer Stories</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -131,7 +131,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Read Customer Stories</span>
-                                                                        <span class="wr-icon-arrow-red"></span>
+                                                                        <span class="wr-icon-arrow-right"></span>
                                                                     </a>
                                                                 </li>
                                                             </ul>
@@ -165,7 +165,7 @@
                                     <li>
                                         <a href="#">
                                             <span>News</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -187,7 +187,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Latest News</span>
-                                                                        <span class="wr-icon-arrow-red"></span>
+                                                                        <span class="wr-icon-arrow-right"></span>
                                                                     </a>
                                                                 </li>
                                                             </ul>
@@ -221,7 +221,7 @@
                                     <li>
                                         <a href="#">
                                             <span>About Us</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -238,37 +238,37 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Ricoh Way</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="#">
                                                             <span>Corporate Overview</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="#">
                                                             <span>Environment and Sustainability</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="#">
                                                             <span>Awards</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="#">
                                                             <span>Global Executive Message</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="#">
                                                             <span>Regional Executive Message</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -292,7 +292,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Office Printing</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -309,7 +309,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Office Printing</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -318,14 +318,14 @@
                                                                         <a href="#">
                                                                             <span>Managed Print Services</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Multifunction Printers</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -335,13 +335,13 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Dynamic Workplace Intelligence</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a href="#">
                                                             <span>Print Management</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -350,7 +350,7 @@
                                                                         <a href="#">
                                                                             <span>Cloud Print Solutions</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -364,7 +364,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Hybrid Workplace</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -381,7 +381,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Workspace Management</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -390,14 +390,14 @@
                                                                         <a href="#">
                                                                             <span>Space Booking</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Workspace Insights</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -407,7 +407,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Connect and Collaboration</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -416,14 +416,14 @@
                                                                         <a href="#">
                                                                             <span>Collaboration Hubs</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Digital Signage</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -433,7 +433,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Meeting Solutions</span>
-                                                            <<span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -442,14 +442,14 @@
                                                                         <a href="#">
                                                                             <span>Space Booking</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Microsoft Teams Rooms</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -463,7 +463,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Workflow &amp; Automation</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -480,7 +480,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Process Automation</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -489,14 +489,14 @@
                                                                         <a href="#">
                                                                             <span>Digital Forms and Workflow</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Robotic Process Automation</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -506,7 +506,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Connect and Collaboration</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -515,7 +515,7 @@
                                                                         <a href="#">
                                                                             <span>Collaboration Hubs</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -525,7 +525,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Content and Collaboration</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -534,14 +534,14 @@
                                                                         <a href="#">
                                                                             <span>Intelligent Capture</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Content Service</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -555,7 +555,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Cloud &amp; IT Infrastructure</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -572,7 +572,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Cloud Computing</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -581,14 +581,14 @@
                                                                         <a href="#">
                                                                             <span>Modern Workplace</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Backup and Data protection</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -598,7 +598,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Connect and Collaboration</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -607,14 +607,14 @@
                                                                         <a href="#">
                                                                             <span>Microsoft Business Applications</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>e-Invoicing</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -624,7 +624,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Meeting Solutions</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -633,7 +633,7 @@
                                                                         <a href="#">
                                                                             <span>Microsoft Teams Rooms</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -647,7 +647,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Cybersecurity</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -664,7 +664,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Workspace Management</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -673,21 +673,21 @@
                                                                         <a href="#">
                                                                             <span>Digital Signage</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Space Booking</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Workspace Insights</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -697,7 +697,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Connect and Collaboration</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -706,7 +706,7 @@
                                                                         <a href="#">
                                                                             <span>Collaboration Hubs</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -716,7 +716,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Meeting Solutions</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -725,7 +725,7 @@
                                                                         <a href="#">
                                                                             <span>Microsoft Teams Rooms</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -739,7 +739,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Graphic Communications</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -756,7 +756,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Workspace Management</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -765,21 +765,21 @@
                                                                         <a href="#">
                                                                             <span>Digital Signage</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Space Booking</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                     <li>
                                                                         <a href="#">
                                                                             <span>Workspace Insights</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -789,7 +789,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Connect and Collaboration</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -798,7 +798,7 @@
                                                                         <a href="#">
                                                                             <span>Collaboration Hubs</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -808,7 +808,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Meeting Solutions</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                         <nav>
                                                             <div class="subnav-level-3">
@@ -817,7 +817,7 @@
                                                                         <a href="#">
                                                                             <span>Microsoft Teams Rooms</span>
                                                                             <span
-                                                                                class="wr-icon-arrow-right-greyscale"></span>
+                                                                                class="wr-icon-chevron-right"></span>
                                                                         </a>
                                                                     </li>
                                                                 </ul>
@@ -845,7 +845,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Office Printing</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -867,7 +867,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Office Printing</span>
-                                                                        <span class="wr-icon-arrow-red"></span>
+                                                                        <span class="wr-icon-arrow-right"></span>
                                                                     </a>
                                                                     <nav>
                                                                         <div class="subnav-level-3">
@@ -877,7 +877,7 @@
                                                                                         <span>Multifunction Printer
                                                                                             Colour</span>
                                                                                         <span
-                                                                                            class="wr-icon-arrow-right-greyscale"></span>
+                                                                                            class="wr-icon-chevron-right"></span>
                                                                                     </a>
                                                                                 </li>
                                                                                 <li>
@@ -885,7 +885,7 @@
                                                                                         <span>Wide Format
                                                                                             Printers</span>
                                                                                         <span
-                                                                                            class="wr-icon-arrow-right-greyscale"></span>
+                                                                                            class="wr-icon-chevron-right"></span>
                                                                                     </a>
                                                                                 </li>
                                                                             </ul>
@@ -923,7 +923,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Software Solutions</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -945,7 +945,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Software Solutions</span>
-                                                                        <span class="wr-icon-arrow-red"></span>
+                                                                        <span class="wr-icon-arrow-right"></span>
                                                                     </a>
                                                                     <nav>
                                                                         <div class="subnav-level-3">
@@ -954,14 +954,14 @@
                                                                                     <a href="#">
                                                                                         <span>Link 1</span>
                                                                                         <span
-                                                                                            class="wr-icon-arrow-right-greyscale"></span>
+                                                                                            class="wr-icon-chevron-right"></span>
                                                                                     </a>
                                                                                 </li>
                                                                                 <li>
                                                                                     <a href="#">
                                                                                         <span>Link 2</span>
                                                                                         <span
-                                                                                            class="wr-icon-arrow-right-greyscale"></span>
+                                                                                            class="wr-icon-chevron-right"></span>
                                                                                     </a>
                                                                                 </li>
                                                                             </ul>
@@ -999,7 +999,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Graphic Communication</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -1022,7 +1022,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Graphic Communication</span>
-                                                                        <span class="wr-icon-arrow-red"></span>
+                                                                        <span class="wr-icon-arrow-right"></span>
                                                                     </a>
                                                                     <nav>
                                                                         <div class="subnav-level-3">
@@ -1031,14 +1031,14 @@
                                                                                     <a href="#">
                                                                                         <span>Link 1</span>
                                                                                         <span
-                                                                                            class="wr-icon-arrow-right-greyscale"></span>
+                                                                                            class="wr-icon-chevron-right"></span>
                                                                                     </a>
                                                                                 </li>
                                                                                 <li>
                                                                                     <a href="#">
                                                                                         <span>Link 2</span>
                                                                                         <span
-                                                                                            class="wr-icon-arrow-right-greyscale"></span>
+                                                                                            class="wr-icon-chevron-right"></span>
                                                                                     </a>
                                                                                 </li>
                                                                             </ul>
@@ -1076,7 +1076,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Workplace Solutions</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -1097,7 +1097,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Workplace Solutions</span>
-                                                                        <span class="wr-icon-arrow-red"></span>
+                                                                        <span class="wr-icon-arrow-right"></span>
                                                                     </a>
                                                                     <nav>
                                                                         <div class="subnav-level-3">
@@ -1106,14 +1106,14 @@
                                                                                     <a href="#">
                                                                                         <span>Link 1</span>
                                                                                         <span
-                                                                                            class="wr-icon-arrow-right-greyscale"></span>
+                                                                                            class="wr-icon-chevron-right"></span>
                                                                                     </a>
                                                                                 </li>
                                                                                 <li>
                                                                                     <a href="#">
                                                                                         <span>Link 2</span>
                                                                                         <span
-                                                                                            class="wr-icon-arrow-right-greyscale"></span>
+                                                                                            class="wr-icon-chevron-right"></span>
                                                                                     </a>
                                                                                 </li>
                                                                             </ul>
@@ -1151,7 +1151,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Device Configurator</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -1173,7 +1173,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Device Configurator</span>
-                                                                        <span class="wr-icon-arrow-red"></span>
+                                                                        <span class="wr-icon-arrow-right"></span>
                                                                     </a>
                                                                     <nav>
                                                                         <div class="subnav-level-3">
@@ -1182,14 +1182,14 @@
                                                                                     <a href="#">
                                                                                         <span>Link 1</span>
                                                                                         <span
-                                                                                            class="wr-icon-arrow-right-greyscale"></span>
+                                                                                            class="wr-icon-chevron-right"></span>
                                                                                     </a>
                                                                                 </li>
                                                                                 <li>
                                                                                     <a href="#">
                                                                                         <span>Link 2</span>
                                                                                         <span
-                                                                                            class="wr-icon-arrow-right-greyscale"></span>
+                                                                                            class="wr-icon-chevron-right"></span>
                                                                                     </a>
                                                                                 </li>
                                                                             </ul>
@@ -1241,7 +1241,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Downloads</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -1263,7 +1263,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Downloads</span>
-                                                                        <span class="wr-icon-arrow-red"></span>
+                                                                        <span class="wr-icon-arrow-right"></span>
                                                                     </a>
                                                                 </li>
                                                             </ul>
@@ -1297,7 +1297,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Guides and Self Help</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -1319,13 +1319,13 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>How To Videos</span>
-                                                                        <span class="wr-icon-arrow-red"></span>
+                                                                        <span class="wr-icon-arrow-right"></span>
                                                                     </a>
                                                                 </li>
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Knowledge Base</span>
-                                                                        <span class="wr-icon-arrow-red"></span>
+                                                                        <span class="wr-icon-arrow-right"></span>
                                                                     </a>
                                                                 </li>
                                                             </ul>
@@ -1359,7 +1359,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Security Alerts</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -1381,7 +1381,7 @@
                                                                 <li>
                                                                     <a href="#">
                                                                         <span>Security Alerts</span>
-                                                                        <span class="wr-icon-arrow-red"></span>
+                                                                        <span class="wr-icon-arrow-right"></span>
                                                                     </a>
                                                                 </li>
                                                             </ul>
@@ -1429,7 +1429,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Contact</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -1446,7 +1446,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Contact</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -1456,7 +1456,7 @@
                                     <li>
                                         <a href="#">
                                             <span>Where to Buy</span>
-                                            <span class="wr-icon-arrow-down"></span>
+                                            <span class="wr-icon-chevron-down"></span>
                                         </a>
                                         <nav>
                                             <div class="subnav-level-2">
@@ -1473,7 +1473,7 @@
                                                     <li>
                                                         <a href="#">
                                                             <span>Where to Buy</span>
-                                                            <span class="wr-icon-arrow-red"></span>
+                                                            <span class="wr-icon-arrow-right"></span>
                                                         </a>
                                                     </li>
                                                 </ul>

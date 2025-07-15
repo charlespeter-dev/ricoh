@@ -231,8 +231,23 @@
 
         .top-navigation {
 
-            .wr-icon-arrow-down {
-                font-size: 8px;
+            .wr-icon-chevron-down {
+                font-size: 6px;
+            }
+
+            .wr-icon-arrow-right {
+                font-size: 10px;
+
+                &::before {
+                    color: #CF142B;
+                    font-size: 10px;
+                }
+            }
+
+            .wr-icon-chevron-right {
+                &::before {
+                    font-size: 6px;
+                }
             }
 
             @include media-breakpoint-down(lg) {

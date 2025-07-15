@@ -22,7 +22,7 @@
                         </p>
                         <p class="__description">
                             <span>Read More</span>
-                            <span class="wr-icon-arrow-red"></span>
+                            <span class="wr-icon-arrow-right"></span>
                         </p>
                     </div>
                 </a>
@@ -37,7 +37,7 @@
                         </p>
                         <p class="__description">
                             <span>Read More</span>
-                            <span class="wr-icon-arrow-red"></span>
+                            <span class="wr-icon-arrow-right"></span>
                         </p>
                     </div>
                 </a>
@@ -53,7 +53,7 @@
                         </p>
                         <p class="__description">
                             <span>Read More</span>
-                            <span class="wr-icon-arrow-red"></span>
+                            <span class="wr-icon-arrow-right"></span>
                         </p>
                     </div>
                 </a>
@@ -68,7 +68,7 @@
                         </p>
                         <p class="__description">
                             <span>Read More</span>
-                            <span class="wr-icon-arrow-red"></span>
+                            <span class="wr-icon-arrow-right"></span>
                         </p>
                     </div>
                 </a>

@@ -24,7 +24,7 @@
   padding: 0;
 }
 .bsc.wr.services-listings-04 .__main-menu [class^=wr-icon-] {
-  font-size: 55px;
+  font-size: 50px;
 }
 .bsc.wr.services-listings-04 .__main-menu > li {
   display: flex;
@@ -46,9 +46,8 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 27px;
   text-decoration: none;
-  padding-block: 0.5rem;
+  padding-block: 0;
   padding-inline-start: 0.5rem;
 }
 @media (min-width: 992px) {

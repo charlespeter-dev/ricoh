@@ -56,7 +56,7 @@
   display: flex;
   gap: 0.5rem;
 }
-.bsc.wr.footer-01 .social ul a > svg {
+.bsc.wr.footer-01 .social ul a > img {
   height: 40px;
   width: 40px;
 }
@@ -66,7 +66,7 @@
   justify-content: center;
   align-items: flex-end;
 }
-.bsc.wr.footer-01 .social .back-top-top > svg {
+.bsc.wr.footer-01 .social .back-top-top > img {
   margin-inline-end: 1.5rem;
   margin-block-end: 0.5rem;
   width: 42px;

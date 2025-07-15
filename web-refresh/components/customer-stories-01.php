@@ -19,19 +19,17 @@
                         <span>
                             Read More
                         </span>
-                        <span class="wr-icon-arrow-red"></span>
+                        <span class="wr-icon-arrow-right"></span>
                     </a>
                 </div>
             </div>
             <div class="__left-bottom">
                 <div class="__navigation">
                     <div class="__swiper-button-prev">
-                        <span class="wr-icon-pagination-arrow-left-greyscale"><span class="path1"></span><span
-                                class="path2"></span></span>
+                        <span class="wr-icon-chevron-right-square"></span>
                     </div>
                     <div class="__swiper-button-next">
-                        <span class="wr-icon-pagination-arrow-right-greyscale"><span class="path1"></span><span
-                                class="path2"></span></span>
+                        <span class="wr-icon-chevron-right-square"></span>
                     </div>
                 </div>
             </div>
@@ -40,8 +38,7 @@
 
             <div class="__testimonial-container">
                 <div class="__quote">
-                    <span class="wr-icon-ribbon-quote-module-sm"><span class="path1"></span><span
-                            class="path2"></span></span>
+                    <img src="./assets/images/customer-stories-01/quote.svg" alt="">
                 </div>
 
                 <div class="swiper __testimonial-swiper">

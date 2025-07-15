@@ -17,9 +17,7 @@
                     <!-- 1st main menu -->
                     <li class="__hover-office-printing">
                         <a href="#">
-                            <span class="wr-icon-greyscale-office-printing"><span class="path1"></span><span
-                                    class="path2"></span><span class="path3"></span><span class="path4"></span><span
-                                    class="path5"></span><span class="path6"></span><span class="path7"></span></span>
+                            <span class="wr-icon-office-printing"></span>
                             <span>Office Printing</span>
                         </a>
                         <div class="__sub-menu-container">
@@ -35,7 +33,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -51,7 +49,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -67,7 +65,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -83,7 +81,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -93,9 +91,7 @@
                     </li>
                     <li class="__hover-hybrid-workplace">
                         <a href="#">
-                            <span class="wr-icon-greyscale-hybrid-workplace"><span class="path1"></span><span
-                                    class="path2"></span><span class="path3"></span><span class="path4"></span><span
-                                    class="path5"></span><span class="path6"></span></span>
+                            <span class="wr-icon-hybrid-workplace"></span>
                             <span>Hybrid Workplace</span>
                         </a>
                         <div class="__sub-menu-container">
@@ -111,7 +107,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -127,7 +123,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -143,7 +139,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -159,7 +155,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -169,13 +165,7 @@
                     </li>
                     <li class="__hover-workflow-automation">
                         <a href="#">
-                            <span class="wr-icon-greyscale-workflow-and-automation"><span class="path1"></span><span
-                                    class="path2"></span><span class="path3"></span><span class="path4"></span><span
-                                    class="path5"></span><span class="path6"></span><span class="path7"></span><span
-                                    class="path8"></span><span class="path9"></span><span class="path10"></span><span
-                                    class="path11"></span><span class="path12"></span><span class="path13"></span><span
-                                    class="path14"></span><span class="path15"></span><span
-                                    class="path16"></span></span>
+                            <span class="wr-icon-workflow-and-automation"></span>
                             <span>Workflow and Automation</span>
                         </a>
                         <div class="__sub-menu-container">
@@ -191,7 +181,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -207,7 +197,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -223,7 +213,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -239,7 +229,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -249,9 +239,7 @@
                     </li>
                     <li class="__hover-cloud-it">
                         <a href="#">
-                            <span class="wr-icon-greyscale-cloud-it-infrastructure"><span class="path1"></span><span
-                                    class="path2"></span><span class="path3"></span><span class="path4"></span><span
-                                    class="path5"></span><span class="path6"></span></span>
+                            <span class="wr-icon-cloud-it-infrastructure"></span>
                             <span>Cloud and IT</span>
                         </a>
                         <div class="__sub-menu-container">
@@ -267,7 +255,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -283,7 +271,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -299,7 +287,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -315,7 +303,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -325,9 +313,7 @@
                     </li>
                     <li class="__hover-cybersecurity">
                         <a href="#">
-                            <span class="wr-icon-greyscale-cybersecurity"><span class="path1"></span><span
-                                    class="path2"></span><span class="path3"></span><span class="path4"></span><span
-                                    class="path5"></span><span class="path6"></span><span class="path7"></span></span>
+                            <span class="wr-icon-cybersecurity"></span>
                             <span>Cybersecurity</span>
                         </a>
                         <div class="__sub-menu-container">
@@ -343,7 +329,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -359,7 +345,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -375,7 +361,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -391,7 +377,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -401,9 +387,7 @@
                     </li>
                     <li class="__hover-commercial-industrial-print">
                         <a href="#">
-                            <span class="wr-icon-greyscale-commercial-and-industrial-print"><span
-                                    class="path1"></span><span class="path2"></span><span class="path3"></span><span
-                                    class="path4"></span></span>
+                            <span class="wr-icon-commercial-and-industrial-print"></span>
                             <span>Commercial and Industrial Print</span>
                         </a>
                         <div class="__sub-menu-container">
@@ -419,7 +403,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -435,7 +419,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -451,7 +435,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
@@ -467,7 +451,7 @@
                                             </p>
                                             <p class="__extra_cta_text">
                                                 <span>Find out more</span>
-                                                <span class="wr-icon-arrow-right-greyscale"></span>
+                                                <span class="wr-icon-chevron-right-nocolor"></span>
                                             </p>
                                         </div>
                                     </a>
