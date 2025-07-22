@@ -1,0 +1,60 @@
+.lp-mega-list.reverse ol, .lp-mega-list.reverse ul {
+  flex-direction: column-reverse;
+  display: flex;
+}
+
+.lp-mega-list ol, .lp-mega-list ul {
+  padding-left: 1rem;
+}
+
+@media screen and (width >= 992px) {
+  .lp-mega-list ol, .lp-mega-list ul {
+    padding-left: 2rem;
+  }
+}
+
+.lp-mega-list ol li, .lp-mega-list ul li {
+  padding-left: 1rem;
+}
+
+@media screen and (width >= 992px) {
+  .lp-mega-list ol li, .lp-mega-list ul li {
+    padding-left: 1.5rem;
+  }
+}
+
+.lp-mega-list ol li::marker {
+  font-weight: 700;
+}
+
+.lp-mega-list ul li::marker {
+  content: "■";
+  font-weight: 700;
+}
+
+.lp-mega-list .heading {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.theme-std .lp-mega-list ol li::marker, .theme-std .lp-mega-list ul li::marker, .theme-std .lp-mega-list .heading {
+  color: #cf142b;
+}
+
+.theme-hw .lp-mega-list ol li::marker, .theme-hw .lp-mega-list ul li::marker, .theme-hw .lp-mega-list .heading {
+  color: #606cbf;
+}
+
+.theme-dwa .lp-mega-list ol li::marker, .theme-dwa .lp-mega-list ul li::marker, .theme-dwa .lp-mega-list .heading {
+  color: #8fc740;
+}
+
+.theme-cit .lp-mega-list ol li::marker, .theme-cit .lp-mega-list ul li::marker, .theme-cit .lp-mega-list .heading {
+  color: #0f7ac9;
+}
+
+.theme-cs .lp-mega-list ol li::marker, .theme-cs .lp-mega-list ul li::marker, .theme-cs .lp-mega-list .heading {
+  color: #00328f;
+}

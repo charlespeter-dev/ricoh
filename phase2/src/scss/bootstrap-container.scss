@@ -93,6 +93,13 @@
             font-weight: 700;
             color: #333333;
         }
+
+        &.h3-24-34 {
+            font-size: 1.5rem; // desktop: 24px
+            line-height: 2.125rem; // desktop: 34px
+            font-weight: 700;
+            color: #333333;
+        }
     }
 
     .h3-26-bold-dark {
@@ -117,6 +124,13 @@
         font-weight: 700;
         line-height: 1.5rem; // desktop: 24px
         color: #666666;
+
+        &.h4-24-34 {
+            font-size: 1.5rem; // desktop: 24px
+            line-height: 2.125rem; // desktop: 34px
+            font-weight: 700;
+            color: #333333;
+        }
     }
 
     .fw-300 {

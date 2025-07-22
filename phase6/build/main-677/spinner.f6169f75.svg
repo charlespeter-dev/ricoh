@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 60 60">
+	<!-- blue -->
+	<path d="M.4 25.9h2.3c.2 0 .4-.2.4-.4V.9c.1-.5.5-.9 1-.9h25c.5 0 .9.4.9.9v25c0 .5-.4.9-.9.9H4.5c-.2 0-.4.2-.4.4v2.3c0 .2-.2.4-.4.4H.4c-.2.1-.4-.1-.4-.3v-3.2c0-.3.2-.5.4-.5" style="transform-origin: 0 100%" fill="#75BDE6" id="blue">
+		<!-- opacity -->
+		<animate xlink:href="#blue" attributeName="opacity" calcMode="spline" values="0; 1; 1; 0; 0" keyTimes="0; 0.05; 0.4; 0.45; 1" keySplines="0.42, 0, 1, 1;
+						0, 0, 1, 1;
+						0, 0, 0.59, 1;
+						0, 0, 1, 1;" dur="1.5s" begin="0s" repeatCount="indefinite"/>
+		<!-- scale -->
+		<animateTransform xlink:href="#blue" attributeName="transform" calcMode="spline" type="scale" additive="sum" values="0.5 0.5; 1 1; 1 1; 0.25 0.25; 0.25 0.25" keyTimes="0; 0.1; 0.3; 0.4; 1" keySplines="0.42, 0, 1, 1;
+						0, 0, 1, 1;
+						0, 0, 0.59, 1;
+						0, 0, 1, 1;" dur="1.5s" begin="0s" repeatCount="indefinite"/>
+	</path>
+
+	<!-- green -->
+	<path d="M30.4 55.9h2.3c.2 0 .4-.2.4-.4V30.9c0-.5.4-.9.9-.9h25c.5 0 .9.4.9.9v25c0 .5-.4.9-.9.9H34.5c-.2 0-.4.2-.4.4v2.3c0 .2-.2.4-.4.4h-3.2c-.2 0-.4-.2-.4-.4v-3.2c-.1-.2.1-.4.3-.4" style="transform-origin: 0 100%" fill="#B7D14D" id="green">
+		<!-- start transparent -->
+		<animate xlink:href="#green" attributeName="opacity" from="0" to="0" dur="0.1s" begin="0s"/>
+		<!-- opacity -->
+		<animate xlink:href="#green" attributeName="opacity" calcMode="spline" values="0; 1; 1; 0; 0" keyTimes="0; 0.05; 0.4; 0.45; 1" keySplines="0.42, 0, 1, 1;
+						0, 0, 1, 1;
+						0, 0, 0.59, 1;
+						0, 0, 1, 1;" dur="1.5s" begin="0.1s" repeatCount="indefinite"/>
+		<!-- scale -->
+		<animateTransform xlink:href="#green" attributeName="transform" calcMode="spline" type="scale" additive="sum" values="0.5 0.5; 1 1; 1 1; 0.25 0.25; 0.25 0.25" keyTimes="0; 0.1; 0.3; 0.4; 1" keySplines="0.42, 0, 1, 1;
+						0, 0, 1, 1;
+						0, 0, 0.59, 1;
+						0, 0, 1, 1;" dur="1.5s" begin="0.1s" repeatCount="indefinite"/>
+	</path>
+
+	<!-- pink -->
+	<path d="M30.4 25.9h2.3c.2 0 .4-.2.4-.4V.9c0-.5.4-.9.9-.9h25c.6 0 1 .4 1 .9v25c0 .5-.4.9-.9.9H34.5c-.2 0-.4.2-.4.4v2.3c0 .2-.2.4-.4.4h-3.2c-.2 0-.4-.2-.4-.4v-3.2c-.1-.2.1-.4.3-.4" style="transform-origin: 0 100%" fill="#EF9194" id="pink">
+		<!-- start transparent -->
+		<animate xlink:href="#pink" attributeName="opacity" from="0" to="0" dur="0.2s" begin="0s"/>
+		<!-- opacity -->
+		<animate xlink:href="#pink" attributeName="opacity" calcMode="spline" values="0; 1; 1; 0; 0" keyTimes="0; 0.05; 0.4; 0.45; 1" keySplines="0.42, 0, 1, 1;
+						0, 0, 1, 1;
+						0, 0, 0.59, 1;
+						0, 0, 1, 1;" dur="1.5s" begin="0.2s" repeatCount="indefinite"/>
+		<!-- scale -->
+		<animateTransform xlink:href="#pink" attributeName="transform" calcMode="spline" type="scale" additive="sum" values="0.5 0.5; 1 1; 1 1; 0.25 0.25; 0.25 0.25" keyTimes="0; 0.1; 0.3; 0.4; 1" keySplines="0.42, 0, 1, 1;
+						0, 0, 1, 1;
+						0, 0, 0.59, 1;
+						0, 0, 1, 1;" dur="1.5s" begin="0.2s" repeatCount="indefinite"/>
+	</path>
+
+	<!-- yellow -->
+	<path d="M.4 55.9h2.3c.2 0 .4-.2.4-.4V30.9c0-.5.4-.9.9-.9h25c.5 0 .9.4.9.9v25c0 .5-.4.9-.9.9H4.5c-.2 0-.4.2-.4.4v2.3c0 .2-.2.4-.4.4H.4c-.2.1-.4-.1-.4-.3v-3.2c0-.3.2-.5.4-.5" style="transform-origin: 0 100%" fill="#F7BE56" id="yellow">
+		<!-- start transparent -->
+		<animate xlink:href="#yellow" attributeName="opacity" from="0" to="0" dur="0.3s" begin="0s"/>
+		<!-- opacity -->
+		<animate xlink:href="#yellow" attributeName="opacity" calcMode="spline" values="0; 1; 1; 0; 0" keyTimes="0; 0.05; 0.4; 0.45; 1" keySplines="0.42, 0, 1, 1;
+						0, 0, 1, 1;
+						0, 0, 0.59, 1;
+						0, 0, 1, 1;" dur="1.5s" begin="0.3s" repeatCount="indefinite"/>
+		<!-- scale -->
+		<animateTransform xlink:href="#yellow" attributeName="transform" calcMode="spline" type="scale" additive="sum" values="0.5 0.5; 1 1; 1 1; 0.25 0.25; 0.25 0.25" keyTimes="0; 0.1; 0.3; 0.4; 1" keySplines="0.42, 0, 1, 1;
+						0, 0, 1, 1;
+						0, 0, 0.59, 1;
+						0, 0, 1, 1;" dur="1.5s" begin="0.3s" repeatCount="indefinite"/>
+	</path>
+
+	<!-- red -->
+	<path d="M.9 51.9h4.5c.5 0 .9-.4.9-.9V1.8C6.3.8 7.1 0 8.1 0h50.1c1 0 1.8.8 1.8 1.8v50.1c0 1-.8 1.8-1.8 1.8H9c-.5 0-.9.4-.9.9v4.5c0 .5-.4.9-.9.9H.9c-.5 0-.9-.4-.9-.9v-6.3c0-.5.4-.9.9-.9" style="transform-origin: 0 100%" fill="#D61E3F" id="red">
+		<!-- start transparent -->
+		<animate xlink:href="#red" attributeName="opacity" from="0" to="0" dur="0.4s" begin="0s"/>
+		<!-- opacity -->
+		<animate xlink:href="#red" attributeName="opacity" calcMode="spline" values="0; 1; 1; 0; 0" keyTimes="0; 0.05; 0.45; 0.5; 1" keySplines="0.42, 0, 1, 1;
+						0, 0, 1, 1;
+						0, 0, 0.59, 1;
+						0, 0, 1, 1;" dur="1.5s" begin="0.4s" repeatCount="indefinite"/>
+		<!-- scale -->
+		<animateTransform xlink:href="#red" attributeName="transform" calcMode="spline" type="scale" additive="sum" values="0.5 0.5; 0.85 0.85; 1 1; 0.85 0.85; 1 1; 1 1" keyTimes="0; 0.1; 0.15; 0.2; 0.25; 1" keySplines="0.42, 0, 1, 1;
+						0.17, 0.67, 0.83, 0.67;
+						0.17, 0.67, 0.83, 0.67;
+						0.17, 0.67, 0.83, 0.67;
+						0, 0, 1, 1;" dur="1.5s" begin="0.4s" repeatCount="indefinite"/>
+	</path>
+</svg>
