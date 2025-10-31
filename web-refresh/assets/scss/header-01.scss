@@ -80,8 +80,8 @@
         justify-content: center;
         align-items: flex-end;
         order: 2;
-        padding-block-start: 1.5rem;
-        padding-block-end: 1rem;
+        padding-block-start: 0;
+        padding-block-end: 0;
 
         @include media-breakpoint-up(lg) {
             align-items: flex-end;

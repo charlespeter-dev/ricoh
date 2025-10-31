@@ -6,13 +6,13 @@
   "scripts": {
     "dev": "npx sass --quiet --watch assets/scss:assets/css",
     "build": "npx sass --style=compressed assets/scss:assets/css",
-    "bsync": "npx browser-sync start --config bs.js"
+    "serve": "npx live-server --port=8080 --no-css-inject"
   },
   "author": "charles",
   "license": "ISC",
   "devDependencies": {
     "bootstrap": "^5.3.7",
-    "browser-sync": "^3.0.4",
+    "live-server": "^1.2.2",
     "sass": "^1.89.2"
   }
 }
