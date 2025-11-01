@@ -47,7 +47,6 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        order: 1;
         padding-block: 1.5rem;
         border-block-end: 1px solid #F3F3F3;
 
@@ -79,13 +78,15 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-end;
-        order: 2;
-        padding-block-start: 0;
-        padding-block-end: 0;
+        padding-block-start: .5rem;
+        padding-block-end: .5rem;
 
         @include media-breakpoint-up(lg) {
             align-items: flex-end;
             border-block-end: none;
+
+            padding-block-start: 0;
+            padding-block-end: 0;
         }
 
         .powered-by {
@@ -136,24 +137,21 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        order: 3;
         padding-block: 1.5rem;
         border-block-end: 1px solid #F3F3F3;
 
         @include media-breakpoint-up(lg) {
             justify-content: flex-end;
             border-block-end: none;
+            padding-block-end: 0;
+            padding-block-start: 20px;
         }
 
-        .bi {
+        .bi-globe2 {
             font-size: 1.5rem;
         }
 
         --padding-inline: 1rem;
-
-        @include media-breakpoint-up(xl) {
-            --padding-inline: .7rem;
-        }
 
         .social-icons {
             display: flex;
@@ -194,14 +192,49 @@
             }
 
             :nth-child(2) {
-                padding-inline-start: var(--padding-inline);
+                padding-inline: var(--padding-inline);
+                border-inline-end: 1px solid #F3F3F3;
                 cursor: pointer;
             }
+        }
 
-            :nth-child(3) {
-                padding-inline-start: 2px;
-                cursor: pointer;
-                font-size: 12px;
+        .buy-online {
+            border-inline-end: 1px solid #F3F3F3;
+            padding-inline: var(--padding-inline);
+            height: 36px;
+            display: flex;
+            align-items: center;
+
+            color: #666;
+            font-family: "frutiger", sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+
+            a {
+                text-decoration: none;
+                color: #CF142B;
+                text-wrap: nowrap;
+            }
+        }
+
+        .portal-login {
+            padding-inline-start: var(--padding-inline);
+            height: 36px;
+            display: flex;
+            align-items: center;
+
+            color: #666;
+            font-family: "frutiger", sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+
+            a {
+                text-decoration: none;
+                text-wrap: nowrap;
             }
         }
     }
@@ -217,7 +250,6 @@
         &::before {
             content: "";
             background: #FFF;
-            box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.05) inset;
             border-block-start: 1px solid #F3F3F3;
             border-block-end: 1px solid #F3F3F3;
             width: 100vw;
@@ -326,8 +358,14 @@
                                 padding-inline-start: 0;
 
                                 >li {
-                                    &.separator {
-                                        display: none;
+
+                                    &.buy-online,
+                                    &.portal-login {
+
+                                        a {
+                                            color: #3171AD;
+                                            font-size: 1.5rem;
+                                        }
                                     }
 
                                     a {
@@ -375,34 +413,36 @@
 
                         &.push-right {
 
+                            --padding-inline: 1rem;
+
+                            @include media-breakpoint-up(xl) {
+                                --padding-inline: .7rem;
+                            }
+
                             margin-inline-start: auto;
 
                             ul {
                                 display: flex;
                                 padding-inline-start: 0;
-                                gap: 1rem;
 
                                 >li {
 
-                                    a {
-                                        color: #333;
-                                        font-family: "frutiger", sans-serif;
-                                        font-size: 14px;
-                                        font-style: normal;
-                                        font-weight: 700;
-                                        line-height: normal;
-                                        text-decoration: none;
-                                    }
-
-                                    &.buy-online {
+                                    &.buy-online,
+                                    &.portal-login {
 
                                         a {
-                                            color: #CF142B;
+                                            color: #3171AD;
+                                            font-size: 1.5rem;
                                         }
                                     }
 
-                                    .separator {
-                                        color: #f3f3f3;
+                                    &.buy-online {
+                                        padding-inline-end: var(--padding-inline);
+                                        border-inline-end: 1px solid #F3F3F3;
+                                    }
+
+                                    &.portal-login {
+                                        padding-inline-start: var(--padding-inline);
                                     }
                                 }
                             }
@@ -420,18 +460,39 @@
                             font-weight: 700;
                             line-height: normal;
 
-                            &.active {
-                                color: #CF142B;
-                            }
-                        }
+                            display: inline-block;
+                            position: relative;
 
-                        &:first-child {
-                            >a {
-                                &:first-child {
-                                    padding-inline-start: 0;
+                            &::before {
+                                content: '';
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 3px;
+                                background: #CF142B;
+                                opacity: 0;
+                                transition: transform 0.3s ease;
+                                z-index: 11;
+                            }
+
+                            &.active,
+                            &:hover {
+                                color: #CF142B;
+
+                                &::before {
+                                    opacity: 1;
                                 }
                             }
                         }
+
+                        // &:first-child {
+                        //     >a {
+                        //         &:first-child {
+                        //             padding-inline-start: 0;
+                        //         }
+                        //     }
+                        // }
 
                         >nav {
                             display: none;
@@ -444,27 +505,24 @@
                                 display: block;
                                 position: absolute;
                                 z-index: 10;
-                                top: 30px;
+                                top: 48px;
                                 left: 0;
                                 width: 100%;
                                 background-color: transparent;
-                                padding-block-start: 2rem;
 
                                 >.subnav-level-1 {
 
-                                    --ricoh-subnav-left-column-width: 300px;
-                                    --ricoh-subnav-left-column-height: 300px;
-                                    --ricoh-subnav-level-2-left: 316px;
-                                    --ricoh-subnav-featured-insight-height: 316px;
+                                    --ricoh-subnav-left-column-width: 30%;
+                                    --ricoh-subnav-left-column-height: 350px;
+                                    --ricoh-subnav-level-2-left: 30%;
+                                    --ricoh-subnav-featured-insight-height: calc(var(--ricoh-subnav-left-column-height) + 1rem);
 
                                     background-color: #fff;
                                     border: 1px solid #F3F3F3;
                                     padding: 1rem;
                                     position: relative;
 
-                                    border-radius: 10px;
-                                    border-bottom: 11px solid #CF142B;
-                                    box-shadow: 0px 4px 45px 0px rgba(0, 0, 0, 0.25);
+                                    border-bottom: 3px solid #CF142B;
 
                                     >.section-title-start {
 
@@ -472,7 +530,7 @@
                                         border-inline-end: 1px solid #F3F3F3;
                                         border-block-end: 1px solid #F3F3F3;
                                         margin: 0;
-                                        padding-block: .7rem;
+                                        padding-block: .69rem;
                                         width: var(--ricoh-subnav-left-column-width);
 
                                         color: #666;
@@ -721,6 +779,12 @@
                                                                             font-weight: 700;
                                                                             line-height: 22px;
                                                                             text-wrap: pretty;
+                                                                        }
+
+                                                                        img {
+                                                                            height: 150px;
+                                                                            object-fit: cover;
+                                                                            border-radius: 1rem;
                                                                         }
 
                                                                         a {
