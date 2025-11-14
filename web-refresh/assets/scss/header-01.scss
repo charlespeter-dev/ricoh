@@ -396,8 +396,8 @@
 
                                 >li {
 
-                                    &.buy-online,
-                                    &.portal-login {
+                                    &.social-linkedin,
+                                    &.social-facebook {
 
                                         a {
                                             color: #3171AD;
@@ -464,8 +464,8 @@
 
                                 >li {
 
-                                    &.buy-online,
-                                    &.portal-login {
+                                    &.social-linkedin,
+                                    &.social-facebook {
 
                                         a {
                                             color: #3171AD;
@@ -473,12 +473,12 @@
                                         }
                                     }
 
-                                    &.buy-online {
+                                    &.social-linkedin {
                                         padding-inline-end: var(--padding-inline);
                                         border-inline-end: 1px solid #F3F3F3;
                                     }
 
-                                    &.portal-login {
+                                    &.social-facebook {
                                         padding-inline-start: var(--padding-inline);
                                     }
                                 }
