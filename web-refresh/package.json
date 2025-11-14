@@ -4,7 +4,7 @@
   "description": "ricoh web refresh",
   "main": "index.js",
   "scripts": {
-    "dev": "npx sass --quiet --watch assets/scss:assets/css",
+    "dev": "npx sass --watch assets/scss:assets/css",
     "build": "npx sass --style=compressed assets/scss:assets/css",
     "serve": "npx live-server --port=8080 --no-css-inject"
   },

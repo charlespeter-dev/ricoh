@@ -382,7 +382,7 @@
     display: flex;
     padding-inline-start: 0;
   }
-  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.push-right ul > li.social-linkedin a, .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.push-right ul > li.social-facebook a {
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.push-right ul > li.social-linkedin i, .bsc.wr.header-01 .top-navigation-container .top-navigation > ul > li.push-right ul > li.social-facebook i {
     color: #3171AD;
     font-size: 1.5rem;
   }
