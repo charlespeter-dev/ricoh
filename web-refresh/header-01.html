@@ -30,6 +30,7 @@
                         </div>
                         <button class="navbar-toggler" type="button">
                             <span class="navbar-toggler-icon"></span>
+                            <p class="d-none">Toggler</p>
                         </button>
                     </div>
                     <div class="col-lg-8 p-0 d-flex align-items-center">
@@ -39,14 +40,14 @@
                                 <div class="input-group flex-nowrap">
                                     <img class="ms-copilot-logo" src="assets/images/header-01/ms-copilot-logo.png"
                                         alt="">
-                                    <input type="text" class="form-control search-input" placeholder="">
+                                    <input type="text" class="form-control search-input" placeholder="" id="search-input" aria-labelledby="search-input">
                                     <button class="input-group-text submit-button" type="button">
                                         <i class="bi bi-search"></i>
                                     </button>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-xl-5 social-language-container nav-fade">
-                                <div class="language-selection">
+                                <div class="language-selection" aria-label="Language selection">
                                     <span class="language-button">ENG</span>
                                     <i class="bi bi-globe2"></i>
                                 </div>
@@ -1630,7 +1631,7 @@
                 // function to modify placeholder
                 function modifyPlaceholder() {
                     const searchInput = document.querySelector('.header-01 .search-input');
-                    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+                    const isMobile = window.matchMedia("(max-width: 1024px)").matches;
 
                     if (isMobile) {
                         searchInput.setAttribute('placeholder', 'Find with our integrated AI copilot...');
