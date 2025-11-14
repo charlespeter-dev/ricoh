@@ -188,10 +188,19 @@
 .bsc.wr.header-01 .social-language-container .buy-online a {
   text-decoration: none;
   text-wrap: nowrap;
+  position: relative;
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .bsc.wr.header-01 .social-language-container .buy-online a span {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 }
 .bsc.wr.header-01 .social-language-container .portal-login {
@@ -209,10 +218,19 @@
 .bsc.wr.header-01 .social-language-container .portal-login a {
   text-decoration: none;
   text-wrap: nowrap;
+  position: relative;
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .bsc.wr.header-01 .social-language-container .portal-login a span {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 }
 .bsc.wr.header-01 .top-navigation-container {
