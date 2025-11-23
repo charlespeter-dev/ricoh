@@ -1,0 +1,28 @@
+.basic-form {
+  background-color: #F3F3F3;
+  border-radius: 10px 10px 0 0;
+  padding: 1.5rem;
+  border-block-end: 4px solid #CF142B;
+}
+@media (min-width: 992px) {
+  .basic-form {
+    padding: 3rem;
+  }
+}
+.basic-form h4 {
+  color: #333;
+  text-wrap: pretty;
+  margin-block-end: 1.75rem;
+}
+.basic-form .bolder {
+  font-weight: 700;
+}
+.basic-form .asterisk {
+  color: #CF142B;
+  margin-left: 0.1rem;
+}
+.basic-form button[type=submit] {
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=basic-form.css.map */

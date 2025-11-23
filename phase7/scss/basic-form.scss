@@ -1,0 +1,33 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+.basic-form {
+    background-color: #F3F3F3;
+    border-radius: 10px 10px 0 0;
+    padding: 1.5rem;
+    border-block-end: 4px solid #CF142B;
+
+    @include media-breakpoint-up(lg) {
+        padding: 3rem;
+    }
+
+    h4 {
+        color: #333;
+        text-wrap: pretty;
+        margin-block-end: 1.75rem;
+    }
+
+    .bolder {
+        font-weight: 700;
+    }
+
+    .asterisk {
+        color: #CF142B;
+        margin-left: 0.1rem;
+    }
+
+    button[type="submit"] {
+        border-radius: 5px;
+    }
+}
