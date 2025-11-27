@@ -1597,16 +1597,14 @@
                     showSectionOnMobile();
                     activateTopNav();
                     mobileNav();
+                    stickyNavigation();
                 });
 
-                // window.addEventListener('resize', function () {
-                //     setTimeout(function () {
-                //         modifyPlaceholder();
-                //         showSectionOnMobile();
-                //         activateTopNav();
-                //         mobileNav();
-                //     }, 300); // Debounce resize event
-                // });
+                window.addEventListener('resize', function () {
+                    setTimeout(function () {
+                        modifyPlaceholder();
+                    }, 300); // Debounce resize event
+                });
 
                 window.addEventListener('scroll', function () {
                     stickyNavigation();
@@ -1614,18 +1612,27 @@
 
                 // sticky navigation function
                 const navbar = document.querySelector('.top-navigation-container');
-                const sticky = navbar.offsetTop;
+                const navbarParent = navbar.parentElement;
 
                 function stickyNavigation() {
                     if (window.innerWidth > 768) {
+                        let el = navbarParent;
+                        let sticky = 0;
+                        while (el) {
+                            sticky += el.offsetTop;
+                            el = el.offsetParent;
+                        }
 
                         if (window.pageYOffset >= sticky) {
                             navbar.classList.add("sticky");
+                            navbarParent.style.height = navbar.offsetHeight + 'px';
                         } else {
                             navbar.classList.remove("sticky");
+                            navbarParent.style.height = 'auto';
                         }
                     } else {
                         navbar.classList.remove("sticky");
+                        navbarParent.style.height = 'auto';
                     }
                 }
 
@@ -1644,17 +1651,15 @@
 
                 // function to show section on mobile
                 function showSectionOnMobile() {
-                    const isMobile = window.matchMedia("(max-width: 768px)").matches;
-                    if (!isMobile)
-                        return;
-
                     const navbarToggler = document.querySelector('.navbar-toggler');
-                    navbarToggler.addEventListener('click', function () {
-                        const navCollapses = document.querySelectorAll('.nav-fade');
-                        navCollapses.forEach(function (navCollapse) {
-                            navCollapse.classList.toggle('show');
+                    if (navbarToggler) {
+                        navbarToggler.addEventListener('click', function () {
+                            const navCollapses = document.querySelectorAll('.nav-fade');
+                            navCollapses.forEach(function (navCollapse) {
+                                navCollapse.classList.toggle('show');
+                            });
                         });
-                    });
+                    }
                 }
 
                 // function to update header sibling height
@@ -1673,10 +1678,6 @@
 
                 function activateTopNav() {
 
-                    const isMobile = window.matchMedia("(max-width: 768px)").matches;
-                    if (isMobile)
-                        return;
-
                     const topNavigations = document.querySelectorAll('.top-navigation > ul > li');
                     const topNavigationAnchors = document.querySelectorAll('.top-navigation > ul > li > a');
 
@@ -1689,6 +1690,7 @@
 
                     topNavigations.forEach(function (topNavigation) {
                         topNavigation.addEventListener('click', function () {
+                            if (window.matchMedia("(max-width: 768px)").matches) return;
 
                             // clear all active states when clicking on the same top navigation link again
                             if (topNavigation.classList.contains('active')) {
@@ -1761,10 +1763,6 @@
                 }
 
                 function mobileNav() {
-                    const isMobile = window.matchMedia("(max-width: 768px)").matches;
-                    if (!isMobile)
-                        return;
-
                     const topNavigations = document.querySelectorAll('.top-navigation > ul > li');
 
                     topNavigations.forEach(function (item) {
@@ -1781,6 +1779,7 @@
                                 }
 
                                 link.addEventListener('click', function (e) {
+                                    if (!window.matchMedia("(max-width: 768px)").matches) return;
                                     e.preventDefault(); // Prevent navigation
 
                                     // Toggle the submenu visibility
@@ -1809,6 +1808,7 @@
                                 }
 
                                 link.addEventListener('click', function (e) {
+                                    if (!window.matchMedia("(max-width: 768px)").matches) return;
                                     e.preventDefault(); // Prevent navigation
 
                                     // Toggle the submenu visibility
