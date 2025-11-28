@@ -1664,7 +1664,7 @@
 
                 // function to update header sibling height
                 function updateHeaderSiblingHeight() {
-                    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+                    const isMobile = window.matchMedia("(max-width: 992px)").matches;
                     if (!isMobile)
                         return;
 
@@ -1690,7 +1690,7 @@
 
                     topNavigations.forEach(function (topNavigation) {
                         topNavigation.addEventListener('click', function () {
-                            if (window.matchMedia("(max-width: 768px)").matches) return;
+                            if (window.matchMedia("(max-width: 992px)").matches) return;
 
                             // clear all active states when clicking on the same top navigation link again
                             if (topNavigation.classList.contains('active')) {
@@ -1726,6 +1726,7 @@
                                 // preventDefault anchor behavior
                                 subNavLevel1ItemAnchors.forEach(function (anchor) {
                                     anchor.addEventListener('click', function (e) {
+                                        if (window.matchMedia("(max-width: 992px)").matches) return;
                                         e.stopImmediatePropagation();
                                         e.preventDefault();
                                     });
@@ -1740,6 +1741,7 @@
 
                                 subNavLevel1Items.forEach(function (subNavLevel1Item, i) {
                                     subNavLevel1Item.addEventListener('mouseenter', function () {
+                                        if (window.matchMedia("(max-width: 992px)").matches) return;
 
                                         // clear all active subNavLevel1Items
                                         subNavLevel1Items.forEach(function (item) {
@@ -1779,7 +1781,7 @@
                                 }
 
                                 link.addEventListener('click', function (e) {
-                                    if (!window.matchMedia("(max-width: 768px)").matches) return;
+                                    if (!window.matchMedia("(max-width: 992px)").matches) return;
                                     e.preventDefault(); // Prevent navigation
 
                                     // Toggle the submenu visibility
@@ -1808,7 +1810,7 @@
                                 }
 
                                 link.addEventListener('click', function (e) {
-                                    if (!window.matchMedia("(max-width: 768px)").matches) return;
+                                    if (!window.matchMedia("(max-width: 992px)").matches) return;
                                     e.preventDefault(); // Prevent navigation
 
                                     // Toggle the submenu visibility
