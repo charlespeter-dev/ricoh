@@ -1652,12 +1652,17 @@
                 // function to show section on mobile
                 function showSectionOnMobile() {
                     const navbarToggler = document.querySelector('.navbar-toggler');
+                    const headerSection = document.querySelector('.bsc.wr.header-01');
+
                     if (navbarToggler) {
                         navbarToggler.addEventListener('click', function () {
                             const navCollapses = document.querySelectorAll('.nav-fade');
                             navCollapses.forEach(function (navCollapse) {
                                 navCollapse.classList.toggle('show');
                             });
+                            if (headerSection) {
+                                headerSection.classList.toggle('mobile-menu-open');
+                            }
                         });
                     }
                 }

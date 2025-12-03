@@ -18,6 +18,12 @@ main.container:has(.bsc.wr.header-01) {
     width: 100%;
     padding-inline: 1rem;
 
+    &.mobile-menu-open {
+        @include media-breakpoint-down(lg) {
+            position: relative;
+        }
+    }
+
     @include media-breakpoint-up(lg) {
         position: relative;
         padding-inline: 0;
@@ -321,9 +327,7 @@ main.container:has(.bsc.wr.header-01) {
             }
 
             @include media-breakpoint-down(lg) {
-                height: 320px;
-                overflow-y: scroll;
-                overflow-x: hidden;
+                height: auto;
                 margin-block-end: 0;
 
                 :is(p, .featured-box) {
@@ -353,7 +357,7 @@ main.container:has(.bsc.wr.header-01) {
                         font-size: 14px;
 
                         [class*="wr-icon-"] {
-                            font-size: .5em;
+                            font-size: 6px;
                         }
                     }
 
@@ -375,6 +379,7 @@ main.container:has(.bsc.wr.header-01) {
                     display: flex;
                     flex-direction: column;
                     padding-inline-start: 0;
+                    padding-bottom: 80px;
 
                     li {
                         position: relative;
@@ -394,7 +399,15 @@ main.container:has(.bsc.wr.header-01) {
 
                         &.push-right {
 
-                            padding-block-start: 0;
+                            position: fixed;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            background-color: #fff;
+                            z-index: 1000;
+                            padding-inline: 1rem;
+                            border-top: 1px solid #F3F3F3;
+                            overflow: visible;
 
                             ul {
                                 display: flex;
@@ -403,6 +416,10 @@ main.container:has(.bsc.wr.header-01) {
                                 gap: 1rem;
 
                                 >li {
+
+                                    &::before {
+                                        display: none;
+                                    }
 
                                     &.social-linkedin,
                                     &.social-facebook {

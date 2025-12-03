@@ -11,6 +11,11 @@ main.container:has(.bsc.wr.header-01) {
   width: 100%;
   padding-inline: 1rem;
 }
+@media (max-width: 991.98px) {
+  .bsc.wr.header-01.mobile-menu-open {
+    position: relative;
+  }
+}
 @media (min-width: 992px) {
   .bsc.wr.header-01 {
     position: relative;
@@ -278,9 +283,7 @@ main.container:has(.bsc.wr.header-01) {
 }
 @media (max-width: 991.98px) {
   .bsc.wr.header-01 .top-navigation-container .top-navigation {
-    height: 320px;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    height: auto;
     margin-block-end: 0;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation :is(p, .featured-box) {
@@ -302,7 +305,7 @@ main.container:has(.bsc.wr.header-01) {
     font-size: 14px;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation .subnav-level-1 a [class*=wr-icon-] {
-    font-size: 0.5em;
+    font-size: 6px;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation .subnav-level-1 .subnav-level-2 a {
     font-size: 14px;
@@ -315,6 +318,7 @@ main.container:has(.bsc.wr.header-01) {
     display: flex;
     flex-direction: column;
     padding-inline-start: 0;
+    padding-bottom: 80px;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul li {
     position: relative;
@@ -332,13 +336,24 @@ main.container:has(.bsc.wr.header-01) {
     z-index: -1;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul li.push-right {
-    padding-block-start: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    padding-inline: 1rem;
+    border-top: 1px solid #F3F3F3;
+    overflow: visible;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul li.push-right ul {
     display: flex;
     flex-direction: row;
     padding-inline-start: 0;
     gap: 1rem;
+  }
+  .bsc.wr.header-01 .top-navigation-container .top-navigation > ul li.push-right ul > li::before {
+    display: none;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul li.push-right ul > li.social-linkedin a, .bsc.wr.header-01 .top-navigation-container .top-navigation > ul li.push-right ul > li.social-facebook a {
     color: #3171AD;
