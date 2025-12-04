@@ -318,7 +318,7 @@ main.container:has(.bsc.wr.header-01) {
     display: flex;
     flex-direction: column;
     padding-inline-start: 0;
-    padding-bottom: 80px;
+    padding-bottom: 200px;
   }
   .bsc.wr.header-01 .top-navigation-container .top-navigation > ul li {
     position: relative;
