@@ -1,0 +1,165 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" />
+      <mj-wrapper background-color="#eeeeee" padding="0" />
+      <mj-section background-color="#ffffff" />
+      <mj-text font-size="16px" line-height="26px" color="#666666" />
+      <mj-table font-size="16px" line-height="22px" color="#666666" />
+      <mj-button font-size="18px" line-height="22px" font-weight="700" color="#FFFFFF" background-color="#CF142B" width="100%" border-radius="0" />
+      <mj-divider border-color="#CF142B" container-background-color="#CF142B" border-width="3px" border-style="solid" padding="0" />
+      <mj-class name="subheading" font-size="18px" line-height="23px" color="#666666" />
+      <mj-class name="h1" font-size="26px" line-height="32px" font-weight="700" color="#333333" />
+      <mj-class name="h3" font-size="16px" line-height="22px" color="#CF142B" font-weight="700" />
+      <mj-class name="resource-type" font-size="16px" line-height="22px" color="#CF142B" font-weight="700" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+
+  </mj-head>
+
+  <mj-body>
+
+    <mj-wrapper full-width="full-width">
+
+      <!-- header -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/logo.png" alt="" width="130px" height="47.89px" align="left" />
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- hero start -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column width="53%" vertical-align="middle">
+          <mj-text mj-class="h1">
+           Your New MVP: Most Valuable Printer
+          </mj-text>
+
+          <mj-text mj-class="subheading" padding-bottom="20px">
+            Power up your productivity
+          </mj-text>
+        </mj-column>
+        <mj-column width="47%" vertical-align="middle">
+          <mj-image fluid-on-mobile="true" padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/601-_-Tao/images/TAO-EDM-Thumbnail-Right_v01.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <!-- hero end -->
+
+      <!-- content start -->
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+
+          <mj-text>
+          Updating your print infrastructure shouldn't mean compromising on performance or budgets.
+          </mj-text>
+
+          <mj-text>
+          Our latest RICOH A3 black and white multifunction printers (MFP) provides reliable A3 printing in a space-saving design.
+          </mj-text>
+
+          <mj-text>
+          Built for your evolving operations, the M 2510, M 2310N, and M 2810N have been upgraded to meet all your office needs—from smaller tasks to bigger demands.
+          </mj-text>
+
+          <mj-text>
+          Upgrade your productivity with:
+          </mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-left="20px" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-table cellpadding="4px">
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">Responsive MFPs that <strong style="color:#CF142B;">eliminate frustrating wait times</strong> with quicker scanning, faster warm up, and speedier first copy times</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">Versatile connection options that <strong style="color:#CF142B;">simplify document sharing</strong> and ease connectivity within small office networks</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;">Flexible scanning options for <strong style="color:#CF142B;">streamlined document digitisation</strong>, ensuring a smooth transition to digital workflows.</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="91%" background-color="#f3f3f3" padding="20px">
+          <mj-text align="center">
+            <strong>Enhance your workflows with exceptional A3 performance, upgraded speed, reliability, and efficiency.</strong>
+          </mj-text>
+          <mj-button href="https://www.ricoh.com/" width="300px">
+           Download brochure
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text>
+            Contact us today to learn how these new MFPs can strengthen your infrastructure while meeting your cost and compliance needs.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0">
+        <mj-column>
+          <mj-text>
+            Best Regards, <br> [Ricoh Team Info]
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer top -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column vertical-align="middle">
+          <mj-text mj-class="footer-top">
+            © 2025 Ricoh. All rights reserved.
+          </mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle">
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/logo.png" alt="" width="130px" height="47.89px" align="right" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer bottom -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-bottom" align="center">
+            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"></span style="color: #333; text-decoration: underline;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"><span style="color: #333; text-decoration: underline;">Manage Preferences</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
