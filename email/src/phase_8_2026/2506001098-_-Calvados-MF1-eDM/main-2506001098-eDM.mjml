@@ -44,15 +44,15 @@
       <mj-section background-color="#F3F3F3" padding="0">
         <mj-column width="53%" vertical-align="middle">
           <mj-text mj-class="h1">
-           Your New MVP: Most Valuable Printer
+           All day,<br>Every day
           </mj-text>
 
           <mj-text mj-class="subheading" padding-bottom="20px">
-            Power up your productivity
+            The RICOH IM xx10 Series
           </mj-text>
         </mj-column>
         <mj-column width="47%" vertical-align="middle">
-          <mj-image fluid-on-mobile="true" padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_6/601-_-Tao/images/TAO-EDM-Thumbnail-Right_v01.png" alt="" />
+          <mj-image fluid-on-mobile="true" padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_8_2026/2506001098-_-Calvados-MF1-eDM/images/Calvados-MF1-eDM-Header-Banner-Thumbnail-Image.png" alt="" />
         </mj-column>
       </mj-section>
 
@@ -63,20 +63,24 @@
       <mj-section padding-bottom="0">
         <mj-column>
 
+        <mj-text>
+          Hi [name],
+        </mj-text>
+
           <mj-text>
-          Updating your print infrastructure shouldn't mean compromising on performance or budgets.
+          <strong>Invoices, delivery notes, work orders—documents keep organisations moving</strong>. When your team needs to print them to keep work flowing, they need reliability they can count on.
           </mj-text>
 
           <mj-text>
-          Our latest RICOH A3 black and white multifunction printers (MFP) provides reliable A3 printing in a space-saving design.
+          The <strong>RICOH IM xx10 Series</strong> is a new range of A3 black-and-white multifunction printers built for everyday performance.
           </mj-text>
 
           <mj-text>
-          Built for your evolving operations, the M 2510, M 2310N, and M 2810N have been upgraded to meet all your office needs—from smaller tasks to bigger demands.
+          Designed for busy environments, the range delivers dependable output, robust security, and energy-efficient operation, helping your print infrastructure keep pace.
           </mj-text>
 
           <mj-text>
-          Upgrade your productivity with:
+          With the RICOH IM xx10 Series, you can:
           </mj-text>
 
         </mj-column>
@@ -87,15 +91,23 @@
           <mj-table cellpadding="4px">
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Responsive MFPs that <strong style="color:#CF142B;">eliminate frustrating wait times</strong> with quicker scanning, faster warm up, and speedier first copy times</td>
+              <td style="padding-left: 10px;"><strong>Keep work moving</strong> with fast performance and consistent output</td>
             </tr>
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Versatile connection options that <strong style="color:#CF142B;">simplify document sharing</strong> and ease connectivity within small office networks</td>
+              <td style="padding-left: 10px;"><strong>Manage costs</strong> with energy-efficient operation and low power consumption</td>
             </tr>
             <tr>
               <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
-              <td style="padding-left: 10px;">Flexible scanning options for <strong style="color:#CF142B;">streamlined document digitisation</strong>, ensuring a smooth transition to digital workflows.</td>
+              <td style="padding-left: 10px;"><strong>Support sustainability goals</strong> with devices built using 50% recycled plastics</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;"><strong>Protect sensitive information</strong> with built-in safeguards and automatic updates</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;"><strong>Expand capabilities</strong> with flexible finishing and seamless workflow integration</td>
             </tr>
           </mj-table>
         </mj-column>
@@ -104,10 +116,10 @@
       <mj-section>
         <mj-column width="91%" background-color="#f3f3f3" padding="20px">
           <mj-text align="center">
-            <strong>Enhance your workflows with exceptional A3 performance, upgraded speed, reliability, and efficiency.</strong>
+            <strong>Dependable, secure, and built for long-term value, the RICOH IM xx10 Series keeps operations running smoothly.</strong>
           </mj-text>
           <mj-button href="https://www.ricoh.com/" width="300px">
-           Download brochure
+           Learn More
           </mj-button>
         </mj-column>
       </mj-section>
@@ -115,7 +127,7 @@
       <mj-section padding="0">
         <mj-column>
           <mj-text>
-            Contact us today to learn how these new MFPs can strengthen your infrastructure while meeting your cost and compliance needs.
+            Contact us to learn more about how the RICOH IM xx10 series can support your team with reliable, high-quality printing—all day, every day.
           </mj-text>
         </mj-column>
       </mj-section>
@@ -141,7 +153,7 @@
       <mj-section background-color="#F3F3F3" padding="0">
         <mj-column vertical-align="middle">
           <mj-text mj-class="footer-top">
-            © 2025 Ricoh. All rights reserved.
+            © 2026 Ricoh. All rights reserved.
           </mj-text>
         </mj-column>
         <mj-column vertical-align="middle">
