@@ -1,0 +1,15 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-class name="bg-white" background-color="#FFFFFF" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section mj-class="bg-white" padding="0">
+      <mj-column padding="0">
+        <mj-image padding="0" width="500px" height="167px" href="https://www.ricoh.com/" fluid-on-mobile="true" src="https://ricoh-email.2xcode.dev/signature/SDG-Action-Month_-_e-Signature/assets/PNG/E-Sign_02.png" alt="" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
