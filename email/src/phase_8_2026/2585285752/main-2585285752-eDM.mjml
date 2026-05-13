@@ -1,0 +1,177 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, san-serif" />
+      <mj-wrapper background-color="#eeeeee" padding="0" />
+      <mj-section background-color="#ffffff" />
+      <mj-text font-size="16px" line-height="26px" color="#666666" />
+      <mj-table font-size="16px" line-height="22px" color="#666666" />
+      <mj-button font-size="18px" line-height="22px" font-weight="700" color="#FFFFFF" background-color="#CF142B" width="100%" border-radius="0" />
+      <mj-divider border-color="#CF142B" container-background-color="#CF142B" border-width="3px" border-style="solid" padding="0" />
+      <mj-class name="subheading" font-size="18px" line-height="23px" color="#666666" />
+      <mj-class name="h1" font-size="26px" line-height="32px" font-weight="700" color="#333333" />
+      <mj-class name="h3" font-size="16px" line-height="22px" color="#CF142B" font-weight="700" />
+      <mj-class name="resource-type" font-size="16px" line-height="22px" color="#CF142B" font-weight="700" />
+      <mj-class name="footer-top" font-size="14px" line-height="16px" />
+      <mj-class name="footer-bottom" font-size="12px" line-height="14px" />
+    </mj-attributes>
+
+  </mj-head>
+
+  <mj-body>
+
+    <mj-wrapper full-width="full-width">
+
+      <!-- header -->
+
+      <mj-section padding="0">
+        <mj-column padding="0">
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/logo.png" alt="" width="130px" height="47.89px" align="left" />
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- hero start -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column width="53%" vertical-align="middle">
+          <mj-text mj-class="h1">
+           All day,<br>Every day
+          </mj-text>
+
+          <mj-text mj-class="subheading" padding-bottom="20px">
+            The RICOH IM xx10 Series
+          </mj-text>
+        </mj-column>
+        <mj-column width="47%" vertical-align="middle">
+          <mj-image fluid-on-mobile="true" padding="0" href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/phase_8_2026/2506001098-_-Calvados-MF1-eDM/images/Calvados-MF1-eDM-Header-Banner-Thumbnail-Image.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <!-- hero end -->
+
+      <!-- content start -->
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+
+        <mj-text>
+          Hi [name],
+        </mj-text>
+
+          <mj-text>
+          <strong>Invoices, delivery notes, work orders—documents keep organisations moving</strong>. When your team needs to print them to keep work flowing, they need reliability they can count on.
+          </mj-text>
+
+          <mj-text>
+          The <strong>RICOH IM xx10 Series</strong> is a new range of A3 black-and-white multifunction printers built for everyday performance.
+          </mj-text>
+
+          <mj-text>
+          Designed for busy environments, the range delivers dependable output, robust security, and energy-efficient operation, helping your print infrastructure keep pace.
+          </mj-text>
+
+          <mj-text>
+          With the RICOH IM xx10 Series, you can:
+          </mj-text>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-left="20px" padding-bottom="0" padding-top="0">
+        <mj-column>
+          <mj-table cellpadding="4px">
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;"><strong>Keep work moving</strong> with fast performance and consistent output</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;"><strong>Manage costs</strong> with energy-efficient operation and low power consumption</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;"><strong>Support sustainability goals</strong> with devices built using 50% recycled plastics</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;"><strong>Protect sensitive information</strong> with built-in safeguards and automatic updates</td>
+            </tr>
+            <tr>
+              <td style="line-height: 1;" width="20" height="20" valign="top"><img style="width: 20px; height: 20px;" width="20" height="20" src="https://ricoh-email.2xcode.dev/images/edm-hw/check-mark-button.png" alt="" /></td>
+              <td style="padding-left: 10px;"><strong>Expand capabilities</strong> with flexible finishing and seamless workflow integration</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="91%" background-color="#f3f3f3" padding="20px">
+          <mj-text align="center">
+            <strong>Dependable, secure, and built for long-term value, the RICOH IM xx10 Series keeps operations running smoothly.</strong>
+          </mj-text>
+          <mj-button href="https://www.ricoh.com/" width="300px">
+           Learn More
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text>
+            Contact us to learn more about how the RICOH IM xx10 series can support your team with reliable, high-quality printing—all day, every day.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0">
+        <mj-column>
+          <mj-text>
+            Best Regards, <br> [Ricoh Team Info]
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- divider -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer top -->
+
+      <mj-section background-color="#F3F3F3" padding="0">
+        <mj-column vertical-align="middle">
+          <mj-text mj-class="footer-top">
+            © 2026 Ricoh. All rights reserved.
+          </mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle">
+          <mj-image href="https://www.ricoh.com/" src="https://ricoh-email.2xcode.dev/images/logo.png" alt="" width="130px" height="47.89px" align="right" />
+        </mj-column>
+      </mj-section>
+
+      <!-- footer bottom -->
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text mj-class="footer-bottom" align="center">
+            <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"></span style="color: #333; text-decoration: underline;">Unsubscribe</span></a> &nbsp; <a href="https://www.ricoh.com/" style="color: #333; text-decoration: underline;"><span style="color: #333; text-decoration: underline;">Manage Preferences</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+  </mj-body>
+</mjml>
